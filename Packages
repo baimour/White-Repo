@@ -23,7 +23,7 @@ Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 476
 Depends: com.randy420.tools (>= 2.3), clang, curl, git, grep, perl, rsync, unzip, make, ldid, com.opa334.ccsupport, xar
 Conflicts: net.howett.theos
-Filename: ./debs/com.randy420.tai_5.2.2_iphoneos-arm.deb
+Filename: ./debs/tai_5.2.2.deb
 Size: 58992
 MD5sum: 64e13855fd254976d7569652cae02007
 SHA1: 0f6f23c7b2ed76a028fe1708f6c571b9a11f3d67
