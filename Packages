@@ -16,3 +16,28 @@ Author: John Coates
 Name: Flex 3 Beta
 Recommended: com.rpetrich.rocketbootstrap
 
+Package: com.randy420.tai
+Version: 5.2.2
+Architecture: iphoneos-arm
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 476
+Depends: com.randy420.tools (>= 2.3), clang, curl, git, grep, perl, rsync, unzip, make, ldid, com.opa334.ccsupport, xar
+Conflicts: net.howett.theos
+Filename: ./debs/com.randy420.tai_5.2.2_iphoneos-arm.deb
+Size: 58992
+MD5sum: 64e13855fd254976d7569652cae02007
+SHA1: 0f6f23c7b2ed76a028fe1708f6c571b9a11f3d67
+SHA256: 0154e9f752f91a10890f84e1c5938dcfe5ef8ac88a520e765a20c36b6ba485c9
+Section: System
+Homepage: https://theemeraldisle.family
+Description: 使用简单的终端命令从终端安装Theos(在设置里配置好并连接到WiFi)
+ - tai
+ 卸载THEOS
+ - tai -u
+ 重装THEOS
+ - tai -r
+Tag: role::hacker
+Author: Randy420 <randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/tai.html
+Name: Theos Auto Installer
+
