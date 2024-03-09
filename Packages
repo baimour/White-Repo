@@ -23,7 +23,7 @@ Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 476
 Depends: com.randy420.tools (>= 2.3), clang, curl, git, grep, perl, rsync, unzip, make, ldid, com.opa334.ccsupport, xar
 Conflicts: net.howett.theos
-Filename: ./debs/com.randy420.tai_5.2.2_iphoneos-arm.deb
+Filename: ./debs/tai_5.2.2.deb
 Size: 58992
 MD5sum: 64e13855fd254976d7569652cae02007
 SHA1: 0f6f23c7b2ed76a028fe1708f6c571b9a11f3d67
@@ -40,24 +40,4 @@ Tag: role::hacker
 Author: Randy420 <randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/tai.html
 Name: Theos Auto Installer
-
-Package: ru.rj.haptickeys
-Version: 4.4
-Architecture: iphoneos-arm
-Maintainer: ReJail <rejail@rejail.ru>
-Installed-Size: 362
-Depends: mobilesubstrate, preferenceloader, applist, ws.hbang.common, firmware (>= 10.0)
-Conflicts: com.cabralcole.haptickeyboard
-Filename: ./debs/ru.rj.haptickeys_4.4_iphoneos-arm.deb
-Size: 33400
-MD5sum: dd094d9f72d9ad8c0b7f1d4841323680
-SHA1: e684eaca14ea25a71e1776367f1f0616adac3ebb
-SHA256: e723cbd042c1236d3d5f92a37fcf6a73f8c39e92071fc5e8520b7057b5d4e904
-Section: Tweaks
-Description: 增加键盘和桌面图标触觉反馈
-Author: colecabral
-Depiction: https://rejail.ru/depiction.php?file=haptickeys
-Icon: file:///Library/PreferenceBundles/HKSettings.bundle/HK@2x.png
-Name: HapticKeys Rus
-Sileodepiction: https://rejail.ru/sileo/depiction.php?file=haptickeys
 
