@@ -10,8 +10,11 @@ Size: 14366570
 MD5sum: 3b44fdc353a475b7e6c420fc21119720
 SHA1: ae0cb00034f12ddc9fe51fe775a96012545f653e
 SHA256: 3ef84be9015c6caa834113bed6a1598dfe058e47a16c09aa314adce9aa275959
-Section: Tweaks
+Section: 插件
 Description: 开发您自己的补丁并在Flex社区Cloud上分享
+ - 添加汉化补丁
+ - 添加复制补丁
+ - 添加编辑补丁
 Author: John Coates
 Name: Flex 3 Beta
 Recommended: com.rpetrich.rocketbootstrap
@@ -28,13 +31,13 @@ Size: 58992
 MD5sum: 64e13855fd254976d7569652cae02007
 SHA1: 0f6f23c7b2ed76a028fe1708f6c571b9a11f3d67
 SHA256: 0154e9f752f91a10890f84e1c5938dcfe5ef8ac88a520e765a20c36b6ba485c9
-Section: System
+Section: 系统
 Homepage: https://theemeraldisle.family
 Description: 使用简单的终端命令从终端安装Theos(在设置里配置好并连接到WiFi)
  - tai
- 卸载THEOS
+ 卸载Theos
  - tai -u
- 重装THEOS
+ 重装Theos
  - tai -r
 Tag: role::hacker
 Author: Randy420 <randy.skinner@hotmail.com>
