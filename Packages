@@ -16,6 +16,162 @@ Author: John Coates
 Name: Flex 3 Beta
 Recommended: com.rpetrich.rocketbootstrap
 
+Package: com.apple.Preferences
+Version: 9.9.9
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Depends: firmware (>= 7.0), mobilesubstrate
+Filename: ./debs/屏蔽设置配件提醒_9.9.9.deb
+Size: 4252
+MD5sum: 6fe390432b61d5630a41479aa2bc608e
+SHA1: d5834db21921a2678d88e81afce8471bcca3a37a
+SHA256: cf75cdb0617739108bc92d30b07f86d405cbbd98a4955095764c68062ad08b5a
+Section: Tweaks
+Description: 屏蔽更换第三方电池和其他配件会有烦人不断弹窗提醒
+Author: White <1410970825@qq.com>
+Dev: 设置
+Name: ✦屏蔽设置重要提醒
+
+Package: com.eliofeghali.souvenir
+Version: 1.25
+Architecture: iphoneos-arm
+Maintainer: Elio Feghali
+Installed-Size: 688
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/souvenir_1.25.deb
+Size: 3688488
+MD5sum: 70b7565d4c24db11726ff01115602112
+SHA1: 284801264cb759bfc3a9da95d66b99937d0fca9c
+SHA256: d04f265e5f6a65dc5ff0b71e5d9ff3893246f0d8f03777c92f0c9ba301260faf
+Section: Tweaks
+Description: 锁屏界面自定义调整！
+Author: Elio Feghali
+Name: Souvenir
+
+Package: com.myxxdev.samjet
+Version: 1.020722
+Architecture: iphoneos-arm
+Maintainer: MYXXdev™
+Installed-Size: 376
+Pre-Depends: dpkg
+Depends: firmware (>=14.0), firmware (<=15.0), mobilesubstrate, plutil, ws.hbang.common
+Conflicts: com.pheux.fixrandomresprings
+Replaces: com.pheux.fixrandomresprings
+Filename: ./debs/samjet_1.020722.deb
+Size: 64464
+MD5sum: 53b6ca89e5bd9fe6a0655ffdd226af1c
+SHA1: 34b50d1dde4b64973275787d5c8b04cc099c16ed
+SHA256: 313c930758d688abe638fc66f688f54235c14bc7a8578d54a4442a1b1b94ad54
+Section: System
+Description: 更稳定的iOS 14越狱环境！
+ • Description:
+ 此插件将提高有问题的jetsam条目值（仅适用于 iOS 14）
+ -
+ 您的jetsam文件将以当前状态（无论是原版还是自行修改后的）进行备份，并在卸载SamJet®后恢复该版本。两个不同的备份存储在 /usr/sbin/MYXXdev/SamJet/Backups 和 /var/mobile/Media/MYXXdev/SamJet/Backups
+ -
+ 不要删除这些文件/文件夹！
+ -
+ 在使用此插件之前，您对SamJet®中以外的条目所做的任何修改都将保持不变
+ -
+ 对以下jetsam条目进行了修改：
+ -
+ • CommCenter
+ • CommCenterMobileHelper
+ • CommCenterRootHelper
+ • DragUI.druid
+ • NetworkProcess
+ • SpringBoard
+ • accountsd
+ • aggregated
+ • apsd
+ • assetsd
+ • bulletindistributord
+ • cfnetwork.AuthBrokerAgent
+ • cfnetwork.cfnetworkagent
+ • cloudd
+ • configd
+ • coreduetd
+ • dasd
+ • duetexpertd
+ • healthd
+ • locationd
+ • mDNSResponder.reloaded
+ • mlmodelingd
+ • nanoprefsyncd.2
+ • navd
+ • networkd
+ • nsurlsessiond
+ • routined
+ • searchd
+ • sharingd
+ • splashboard
+ • symptomsd
+ • symptomsd.helper
+ • wifid
+ • keyboard.service
+ • share.services
+ -
+ --------------------------------------
+ 感谢您使用SamJet®！
+ ♥ MYXXdev™
+ --------------------------------------
+ • 更新日志：
+ --------------------------------------
+ -
+ ~ v1.020722
+ -
+ 添加了额外的修改条目
+ -
+ 压缩图像以节省空间
+ -
+ 修正了Root检查
+ -
+ 更新描述以列出修改项目
+ -
+ 更新偏好设置
+ -
+ --------------------------------------
+ -
+ ~ v1.020422
+ -
+ 初始发布
+ -
+Author: MYXXdev™
+Name: SamJet® (for iOS 14)
+
+Package: com.nan.snap
+Version: 0.3.5
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: firmware (>= 10.3), sed, shell-cmds, diskdev-cmds | firmware-sbin
+Depends: com.nan.apfs-snapshot | snaputil | com.bingner.snappy
+Filename: ./debs/snap_0.3.5.deb
+Size: 3528
+MD5sum: de95d3fe06913f3648798ff9f1a758fc
+SHA1: a81ae96e6172a882827dbf3f709e8e9d2ae8e515
+SHA256: 01106f7a6ed428a072b7205ae09516cc53e09f873d220aad8016d4b50a99f51b
+Section: Terminal_Support
+Description: 更便捷的系统快照管理
+Author: zhaonan
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
+Name: snap
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.snap/js.json
+
+Package: com.pheux.fixrandomresprings
+Version: 1.2.1
+Architecture: iphoneos-arm
+Maintainer: Pheux
+Depends: com.bingner.plutil, firmware (>= 12.0)
+Filename: ./debs/fixrandomresprings_1.2.1.deb
+Size: 1280
+MD5sum: 9f90f4a00eabd38b1d70b822bcd0c76f
+SHA1: 0d20cf1dfdeb3654a0ecdf36bf673337cf660208
+SHA256: 5269647cd335193946a6407b8fd6944bf74ccf4cd7e80075885f8c37eba35335
+Section: Tools
+Description: 增加SpringBoard内存，以防止SpringBoard崩溃并停止随机注销重启。我找到了修复程序并告诉了最初编写此脚本的skitty。要恢复更改，只需卸载它即可
+Author: Pheux
+Name: Fix Random Resprings
+
 Package: com.randy420.tai
 Version: 5.2.2
 Architecture: iphoneos-arm
@@ -24,29 +180,47 @@ Installed-Size: 476
 Depends: com.randy420.tools (>= 2.3), clang, curl, git, grep, perl, rsync, unzip, make, ldid, com.opa334.ccsupport, xar
 Conflicts: net.howett.theos
 Filename: ./debs/tai_5.2.2.deb
-Size: 58992
-MD5sum: 64e13855fd254976d7569652cae02007
-SHA1: 0f6f23c7b2ed76a028fe1708f6c571b9a11f3d67
-SHA256: 0154e9f752f91a10890f84e1c5938dcfe5ef8ac88a520e765a20c36b6ba485c9
+Size: 58956
+MD5sum: d7ac8b5d416bf99c22fe302733423825
+SHA1: b80d5863d66d5eb4fdd851b04b37e9d6934f213f
+SHA256: 3955dccbb4489f5e567aa4db0cf2bc61701d86bac03042b2696beaf2b942e8f0
 Section: System
 Homepage: https://theemeraldisle.family
-Description: 使用简单的终端命令从终端安装Theos(在设置里配置好并连接到WiFi)
- - tai
- 卸载THEOS
- - tai -u
- 重装THEOS
+Description: 使用简单的命令从终端安装Theos(在设置里配置好并连接到WiFi)
+ - tai 卸载Theos
+ - tai -u 重装Theos
  - tai -r
 Tag: role::hacker
 Author: Randy420 <randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/tai.html
 Name: Theos Auto Installer
 
+Package: com.randy420.tools
+Version: 2.3.6
+Architecture: iphoneos-arm
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 2288
+Depends: ws.hbang.common
+Replaces: com.randy420.encrypt
+Filename: ./debs/tools_2.3.6.deb
+Size: 799596
+MD5sum: 0ec9778eb03498a02f2833c76aa26427
+SHA1: 2238c62e2362a84659852c9a51973e00dd04de32
+SHA256: acc8e472bbd120a4c5d364ff466b4d50f48857a27805988c0d3ff4d56c1cb61b
+Section: System
+Homepage: https://theemeraldisle.family
+Description: Theos自动安装程序
+Tag: role::hacker
+Author: Randy420 <randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/420Tools.html
+Name: 420 Tools
+
 Package: com.white.taobao
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
 Depends: mobilesubstrate
-Filename: ./debs/com.white.taobao_1.0_iphoneos-arm.deb
+Filename: ./debs/taobao_1.0.deb
 Size: 6024
 MD5sum: 29bd60c5dba9d968c858410a0b0b59e9
 SHA1: 4b6d381123ea9b4aa6d4b120f1a07acae26aedab
@@ -61,7 +235,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
 Depends: mobilesubstrate
-Filename: ./debs/com.white.unidream_1.0_iphoneos-arm.deb
+Filename: ./debs/unidream_1.0.deb
 Size: 5596
 MD5sum: 511d08b89e4d8f5ee8748a463d295d09
 SHA1: 17f84c200d4c66f93e09cbea61c1e03b695eba51
@@ -70,4 +244,35 @@ Section: Tweaks
 Description: 屏蔽越狱和关键词检查
 Author: White <1410970825@qq.com>
 Name: Uni Dream_v5.3.1屏蔽关键词检查
+
+Package: flexdecrypt
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: John Coates
+Depends: firmware (>=12.2) | org.swift.libswift (>=5.0), firmware (>= 9.0)
+Filename: ./debs/flexdecrypt_1.1.deb
+Size: 816420
+MD5sum: 2a1d30073b52bf5bfe976a430bcc41ef
+SHA1: 81d9dfc26050f0a4c737c49d98175b8de606359a
+SHA256: 6f753e48a43d40c540654b27a198794b0be4ca031ff3aa2ac40fb52238d1d3b5
+Section: Tools
+Description: 用于解密iOS应用和Mach-O二进制文件的工具
+Author: John Coates
+Name: flexdecrypt
+
+Package: netskao.dumpbinaryfiles
+Version: 1.1-8
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 268
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/dumpbinaryfiles_1.1-8.deb
+Size: 37792
+MD5sum: 93286f9a3aed753d6701b8527176da13
+SHA1: 3e320fec18b9d3416992abcfa2e9342cf1e466bd
+SHA256: 5e8168511b837c156d936f1d71169d8a64fe67ed45bef260c3c8dd33d2744ba7
+Section: Tweaks
+Description: 提供二进制文件动态解密列表，方便逆向工程应用
+Author: White <1410970825@qq.com>
+Name: DumpBinaryFiles
 
