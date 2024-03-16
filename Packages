@@ -41,3 +41,33 @@ Author: Randy420 <randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/tai.html
 Name: Theos Auto Installer
 
+Package: com.white.taobao
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.white.taobao_1.0_iphoneos-arm.deb
+Size: 6024
+MD5sum: 29bd60c5dba9d968c858410a0b0b59e9
+SHA1: 4b6d381123ea9b4aa6d4b120f1a07acae26aedab
+SHA256: 40ba8f017a803ed4e5269cde22dde3f48d6a7a83ac250af5b5fa61b492a06deb
+Section: Tweaks
+Description: 屏蔽淘宝越狱检查
+Author: White <1410970825@qq.com>
+Name: 淘宝_v10.32.20屏蔽越狱
+
+Package: com.white.unidream
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.white.unidream_1.0_iphoneos-arm.deb
+Size: 5596
+MD5sum: 511d08b89e4d8f5ee8748a463d295d09
+SHA1: 17f84c200d4c66f93e09cbea61c1e03b695eba51
+SHA256: e9487b739f1489ad2556aac39341ac1dd6a703d73a2cf076f0bd9d6de7cec01d
+Section: Tweaks
+Description: 屏蔽越狱和关键词检查
+Author: White <1410970825@qq.com>
+Name: Uni Dream_v5.3.1屏蔽关键词检查
+
