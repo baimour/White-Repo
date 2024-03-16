@@ -250,20 +250,38 @@ Author: Randy420 <randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/420Tools.html
 Name: 420 Tools
 
+Package: com.udevs.vpnindicator
+Version: 1.1.5
+Architecture: iphoneos-arm
+Maintainer: udevs
+Installed-Size: 356
+Depends: mobilesubstrate (>= 0.9.5000), com.creaturesurvive.libcscolorpicker
+Filename: ./debs/vpnindicator_1.1.5.deb
+Size: 63864
+MD5sum: 18d8cabe7c60433bb3f7915109cc9cb3
+SHA1: 6166f3b948393ad65531c4c9e120f21c14398707
+SHA256: e9cb9f2048adbfbccbf5a4371752d68e53c348e1d0225fcb1741f9ec85035e44
+Section: Tweaks
+Description: 连接VPN后更改状态栏中的WiFi图标颜色
+Author: udevs
+Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.vpnindicator
+Icon: https://turannul.github.io/home/resources/vpnindicator.png
+Name: VPNIndicator
+
 Package: com.white.taobao
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
 Depends: mobilesubstrate
 Filename: ./debs/taobao_1.0.deb
-Size: 6024
-MD5sum: 29bd60c5dba9d968c858410a0b0b59e9
-SHA1: 4b6d381123ea9b4aa6d4b120f1a07acae26aedab
-SHA256: 40ba8f017a803ed4e5269cde22dde3f48d6a7a83ac250af5b5fa61b492a06deb
+Size: 6032
+MD5sum: f2771c673d9e22e23283bcb908d866c6
+SHA1: 7cbafa1104b6f3cdc5c3635ab14061eb6bc0b678
+SHA256: 203fb2464b85e1b3361816fe8820fe6ccf2c466e3a21f78f2e8a09be7a211e9f
 Section: Tweaks
-Description: 屏蔽淘宝越狱检查
+Description: 屏蔽最新版淘宝越狱检查
 Author: White <1410970825@qq.com>
-Name: 淘宝_v10.32.20屏蔽越狱
+Name: 淘宝屏蔽越狱
 
 Package: com.white.unidream
 Version: 1.0
@@ -271,14 +289,14 @@ Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
 Depends: mobilesubstrate
 Filename: ./debs/unidream_1.0.deb
-Size: 5596
-MD5sum: 511d08b89e4d8f5ee8748a463d295d09
-SHA1: 17f84c200d4c66f93e09cbea61c1e03b695eba51
-SHA256: e9487b739f1489ad2556aac39341ac1dd6a703d73a2cf076f0bd9d6de7cec01d
+Size: 5608
+MD5sum: 605ab183ac1b0321291ab7b72be49116
+SHA1: 59266830f51a3bf2339dab2fe300fc9934c3bac3
+SHA256: f585757f3233c885cbd28d1cb20c9120d9b0a50c2be1c7aec107a8d8d9c06c3f
 Section: Tweaks
-Description: 屏蔽越狱和关键词检查
+Description: 屏蔽最新版越狱和关键词检查
 Author: White <1410970825@qq.com>
-Name: Uni Dream_v5.3.1屏蔽关键词检查
+Name: Uni Dream屏蔽关键词检查
 
 Package: flexdecrypt
 Version: 1.1
