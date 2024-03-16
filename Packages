@@ -32,6 +32,25 @@ Author: White <1410970825@qq.com>
 Dev: 设置
 Name: ✦屏蔽设置重要提醒
 
+Package: com.cokepokes.appstoreplusplus
+Version: 0.10.1-5
+Architecture: iphoneos-arm
+Maintainer: CokePokes
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: com.unlimapps.uaupdatetools
+Filename: ./debs/appstore++_0.10.1-5.deb
+Size: 3208664
+MD5sum: 2844db4f50727c7a98aa2a45466fe12a
+SHA1: 6a9aa9d3e2956dabcf35cde80a5daa48ee66baa2
+SHA256: 5cbb13083eb769328ef487b345340e330a241959a87c13ac6ec2a6b75a04d99b
+Section: Tweaks
+Priority: optional
+Description: 允许您在iOS 11-15上的AppStore中降级/升级应用程序
+Author: CokePokes
+Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
+Icon: https://cokepokes.github.io/depiction/appstoreplus/icon.png
+Name: AppStore++汉化版
+
 Package: com.eliofeghali.souvenir
 Version: 1.25
 Architecture: iphoneos-arm
@@ -47,6 +66,22 @@ Section: Tweaks
 Description: 锁屏界面自定义调整！
 Author: Elio Feghali
 Name: Souvenir
+
+Package: com.joshua.volumeflex
+Version: 0.0.4-2
+Architecture: iphoneos-arm
+Maintainer: Joshua Wheeler
+Installed-Size: 544
+Depends: mobilesubstrate (>= 0.9.5000), libflex
+Filename: ./debs/volumeflex_0.0.4-2.deb
+Size: 75340
+MD5sum: d3b7408b7a7233f5d2fe355bc53ee880
+SHA1: 0116a7d1fc629d9ca8c3af04167e105e3f5b2662
+SHA256: 1ad397146f10e3737a1cf3dccf1a079a5d5046a9d05de7c20cd97a3e688a378a
+Section: Tweaks
+Description: 世界不需要另一个FLEX工具，但手指粗的人需要。按音量加和音量减呼出工具栏
+Author: Joshua Wheeler
+Name: VolumeFLEX
 
 Package: com.myxxdev.samjet
 Version: 1.020722
@@ -275,4 +310,42 @@ Section: Tweaks
 Description: 提供二进制文件动态解密列表，方便逆向工程应用
 Author: White <1410970825@qq.com>
 Name: DumpBinaryFiles
+
+Package: ru.rj.haptickeys
+Version: 4.4
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 362
+Depends: mobilesubstrate, preferenceloader, applist, ws.hbang.common, firmware (>= 10.0)
+Conflicts: com.cabralcole.haptickeyboard
+Filename: ./debs/haptickeys_4.4.deb
+Size: 33664
+MD5sum: 27eb7e211ccc42c985e493b1f738bc87
+SHA1: 2a51a672b9e0f57bfbb3fdbd0f758e1ef057c380
+SHA256: 8f4616424b3176d9e0e3231dabadb711c2ece7ac83cdf9442b813f3505932549
+Section: Tweaks
+Description: 为键盘和桌面图标添加触觉反馈
+Author: colecabral
+Depiction: https://rejail.ru/depiction.php?file=haptickeys
+Icon: file:///Library/PreferenceBundles/HKSettings.bundle/HK@2x.png
+Name: HapticKeys Rus
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=haptickeys
+
+Package: xyz.cypwn.dleasy
+Version: 2.14.4k
+Architecture: iphoneos-arm
+Maintainer: CyPwn
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Filename: ./debs/dleasy_2.14.4k.deb
+Size: 5560796
+MD5sum: a87b6006b7d70f7f4c85e9357be5dcbc
+SHA1: 5ef6109cc2502b51bdf2f0c8a70e118724b65444
+SHA256: 50398331dcd718464e7ba80b5e23964abba15e22ccf27d85d9517260d39b6521
+Section: Tweaks
+Description: 下载社交应用的媒体图片和视频
+Author: AhmedBafkir
+Depiction: https://repo.cypwn.xyz/depiction/2054
+Icon: https://media.havoc.app/62040a16cc1cde4bfe9aba43
+Name: DLEasy
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2054
 
