@@ -83,6 +83,23 @@ Description: 世界不需要另一个FLEX工具，但手指粗的人需要。按
 Author: Joshua Wheeler
 Name: VolumeFLEX
 
+Package: com.julioverne.cracktool4
+Version: 4.0~beta10b
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
+Filename: ./debs/cracktool4_4.0~beta10b.deb
+Size: 1956788
+MD5sum: d55bf95a74a351c4be46b988c4980630
+SHA1: cfb13bd9c6bda4a7000a62507d30c112c170fd7b
+SHA256: dbc2104339759a59a4e5a05a8cd03aeb805f7263583519476636335c345df6de
+Section: Utilities
+Homepage: https://twitter.com/ijulioverne
+Description: 一键破解插件
+Author: julioverne
+Depiction: https://julio.hackyouriphone.org/description.html?id=com.julioverne.cracktool4
+Name: CrackTool4 (iOS 9 - 14)
+
 Package: com.myxxdev.samjet
 Version: 1.020722
 Architecture: iphoneos-arm
