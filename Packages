@@ -174,24 +174,6 @@ Description: 更稳定的iOS 14越狱环境！
 Author: MYXXdev™
 Name: SamJet® (for iOS 14)
 
-Package: com.nan.snap
-Version: 0.3.5
-Architecture: iphoneos-arm
-Maintainer: zhaonan
-Pre-Depends: firmware (>= 10.3), sed, shell-cmds, diskdev-cmds | firmware-sbin
-Depends: com.nan.apfs-snapshot | snaputil | com.bingner.snappy
-Filename: ./debs/snap_0.3.5.deb
-Size: 3528
-MD5sum: de95d3fe06913f3648798ff9f1a758fc
-SHA1: a81ae96e6172a882827dbf3f709e8e9d2ae8e515
-SHA256: 01106f7a6ed428a072b7205ae09516cc53e09f873d220aad8016d4b50a99f51b
-Section: Terminal_Support
-Description: 更便捷的系统快照管理
-Author: zhaonan
-Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
-Name: snap
-Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.snap/js.json
-
 Package: com.pheux.fixrandomresprings
 Version: 1.2.1
 Architecture: iphoneos-arm
@@ -328,6 +310,102 @@ Section: Tweaks
 Description: 提供二进制文件动态解密列表，方便逆向工程应用
 Author: White <1410970825@qq.com>
 Name: DumpBinaryFiles
+
+Package: netskao.pulloverpro
+Version: 2.1.4-1
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 1480
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
+Conflicts: com.c1d3r.pulloverpro
+Filename: ./debs/pulloverpro_2.1.4-1.deb
+Size: 338600
+MD5sum: b5e968c43f08048d64d1a25e05b785d5
+SHA1: bae0ec0d77eb0e758f1b8d4bc5397fa0749f14ca
+SHA256: a0b49db6e3acefa29e0c4aa2f14ae6d342dd75ccae5239bb94fed512e597ad91
+Section: Tweaks
+Description: 多任务处理的更好方式！修复支持iOS14-iOS15
+Author: c1d3r
+Name: PullOver Pro
+
+Package: netskao.qqpurification
+Version: 1.5-9
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 490
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/qqpurification_1.5-9.deb
+Size: 132104
+MD5sum: 2b495daed4674cd38b89ebbd35d3043e
+SHA1: ff6f558cb54919316e62880b4dbe0b7525c26960
+SHA256: 4ca25d539926123acb89e7142fcef818f5abe35627bf3c54e96aa8c5456f7773
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=qqpurificationDp
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.7.5及以上版本
+Tag: purpose::extension
+Author: Netskao <netskao@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=qqpurificationDp
+Dev: netskao
+Name: QQ净化
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: netskao.qqpurification
+Version: 1.9-9
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 568
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/qqpurification_1.9-9.deb
+Size: 163928
+MD5sum: 81effc1215dd5446530c5ac497dff4de
+SHA1: 12003208c13d0f4872dddafeabb4f549f7e00e95
+SHA256: 6f20fe5ca1496694912ab72479f610aa9e7ebe277814a94e13b4c732c227d4c3
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=qqpurificationDp
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.7.5及以上版本
+Tag: purpose::extension
+Author: Netskao <netskao@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=qqpurificationDp
+Dev: netskao
+Name: QQ净化
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: netskao.qqpurification
+Version: 2.2-5
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 1934
+Depends: mobilesubstrate, firmware (>= 12.2)
+Filename: ./debs/qqpurification_2.2-5.deb
+Size: 995304
+MD5sum: 08eccd2488e8fd8a982c8fa0ef1c1f18
+SHA1: e0689a47cf783963660fdd7aeca2c54a68fdcc85
+SHA256: b80722a67ceba93ffb4ecd852ea602cd784cfbc346040398d4fccd997fcdc62d
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=qqpurificationDp
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.9.0及以上版本
+Tag: purpose::extension
+Author: Netskao <netskao@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=qqpurificationDp
+Dev: netskao
+Name: QQ净化
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: netskao.qqpurification
+Version: 2.3-3
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 1900
+Depends: mobilesubstrate, firmware (>= 12.2)
+Filename: ./debs/qqpurification_2.3-3.deb
+Size: 1007252
+MD5sum: 143925b35302cad9e176f457961ae7df
+SHA1: b30744ab6d8887e22c89e6111adec7bb4fd0603f
+SHA256: 07fbe269c9b712e4ac9e4004eebca346a42828b49b40d2db2952e1b34eb1c22c
+Section: Netskao-Tweaks
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.9.0及以上版本
+Author: Netskao
+Name: QQ净化
 
 Package: ru.rj.haptickeys
 Version: 4.4
