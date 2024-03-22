@@ -70,19 +70,35 @@ Description: 锁屏界面自定义调整！
 Author: Elio Feghali
 Name: Souvenir
 
+Package: com.ipc.crackerxi
+Version: 1.1.16
+Architecture: iphoneos-arm
+Maintainer: c0pyn1nja
+Depends: firmware (>= 11.0)
+Filename: ./debs/crackerxi_1.1.16.deb
+Size: 6069716
+MD5sum: f94685dae62796375fb1ff04d2beadd9
+SHA1: 57726005392eac7263d20341f5bd017085263e9f
+SHA256: 6ae59a2054f411dc339f3a8d8449fafd9d1f1c7d6746eb96d0c5f1d18c06f4f1
+Section: Utilities
+Description: 解密iOS砸壳应用，不支持牛磺酸
+Icon: file:///Applications/crackerxi.app/AppIcon.png
+Name: CrackerXI+
+Website: https://ipastore.me
+
 Package: com.joshua.volumeflex
-Version: 0.0.4-2
+Version: 0.0.5-1
 Architecture: iphoneos-arm
 Maintainer: Joshua Wheeler
 Installed-Size: 544
 Depends: mobilesubstrate (>= 0.9.5000), libflex
-Filename: ./debs/volumeflex_0.0.4-2.deb
-Size: 75340
-MD5sum: d3b7408b7a7233f5d2fe355bc53ee880
-SHA1: 0116a7d1fc629d9ca8c3af04167e105e3f5b2662
-SHA256: 1ad397146f10e3737a1cf3dccf1a079a5d5046a9d05de7c20cd97a3e688a378a
+Filename: ./debs/volumeflex_0.0.5-1.deb
+Size: 78640
+MD5sum: 11e7ebdaeb036ae9379d462c970909dd
+SHA1: 099fd4bcaa0a5d2e05097f37f0bff67c380e78d6
+SHA256: 77d5e02b8c35b3e91509799de82b454abdc905703390123afba04d1bf73ae9c8
 Section: Tweaks
-Description: 世界不需要另一个FLEX工具，但手指粗的人需要。按音量加和音量减呼出工具栏
+Description: 世界不需要另一个FLEX工具，但手指粗的人需要
 Author: Joshua Wheeler
 Name: VolumeFLEX
 
@@ -387,6 +403,47 @@ Section: Utilities
 Description: 用于解密iOS应用和Mach-O二进制文件的工具
 Author: John Coates
 Name: flexdecrypt
+
+Package: libactivator
+Version: 1.9.13~rc6
+Architecture: iphoneos-arm
+Maintainer: Ryan Petrich <rpetrich+activator@gmail.com>
+Installed-Size: 5060
+Depends: mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2), com.a3tweaks.flipswitch (>= 1.0.16~rc3), com.rpetrich.rocketbootstrap (>= 1.0.9)
+Conflicts: com.booleanmagic.overboard (<= 1.1), com.ashman.lockinfo (<= 2.0.0-6), sbsettings (<= 3.0.6), com.fuyuchi.missionboardpro (<= 1.3), com.kindadev.nobetaalert, libhide (<< 2.4.1), com.fortysixandtwo.activ8rfix, net.tateu.actisearch, com.jakeashacks.activator, com.udevs.activatorhomebuttoncrashfix, eu.rio-doro.actithemefix
+Replaces: com.booleanmagic.overboard (<= 1.1), com.ashman.lockinfo (<= 2.0.0-6), com.fuyuchi.missionboardpro (<= 1.3), com.kindadev.nobetaalert, com.fortysixandtwo.activ8rfix, net.tateu.actisearch, com.jakeashacks.activator, com.udevs.activatorhomebuttoncrashfix, eu.rio-doro.actithemefix
+Filename: ./debs/libactivator_1.9.13~rc6.deb
+Size: 931692
+MD5sum: 8ee2d65ea43dfb4e01d30d98667b8f27
+SHA1: ff5370623d59278c3ef0de2f1c5a26abe607c198
+SHA256: 06adee2102213b76ac60a2fcdfdb971c725dc2b29a2c982be70c8c17ce2768a5
+Section: System
+Priority: optional
+Homepage: https://rpetri.ch/cydia/activator/beta/
+Description: iOS的整合手势、按钮和快捷方式管理
+Author: Ryan Petrich <rpetrich+activator@gmail.com>
+Depiction: https://rpetri.ch/cydia/activator/beta/
+Dev: rpetrich
+Icon: file:///Applications/Activator.app/Icon-Small-modern@2x.png
+Name: Activator
+Sponsor: thebigboss.org <http://thebigboss.org>
+依赖源：https: //rpetri.ch/cydia/
+
+Package: netskao.blblnoads
+Version: 1.1-2
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 328
+Depends: firmware (>= 11.0), mobilesubstrate
+Filename: ./debs/blblnoads_1.1-2.deb
+Size: 73208
+MD5sum: ab914f056400ae65df5248ab0ed3fe1c
+SHA1: 57ffb155c4b414ed5295eaf240b5a58c3a27729f
+SHA256: fd478f2d3eebcdc7c1881ea69671140b838cb6191c090d7439e9b20fb835b638
+Section: NoAds
+Description: 哔哩哔哩去除启动广告, 去除青少年提示, 去除AppStore评分提示, 去除底部动态\发布\会员购按钮, 去除瀑布流中插入广告, 去除视频详情页面推荐视频中的创作推广, 去除评论区顶部会员推广, 我的页面推广等, 仅支持7.48.0及以上版本
+Author: Netskao
+Name: 哔哩哔哩 NoAds
 
 Package: netskao.dumpbinaryfiles
 Version: 1.1-8
@@ -997,6 +1054,22 @@ Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-
 Author: Netskao
 Name: QQ净化
 
+Package: netskao.ysfnoads
+Version: 1.1-2
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 356
+Depends: firmware (>= 9.0), mobilesubstrate
+Filename: ./debs/ysfnoads_1.1.2.deb
+Size: 83696
+MD5sum: 1c9b3300e0cbc1d78075f31b3b3a8dfa
+SHA1: 636a0306657b4c07bbc5d537386a8cb26cbe65a0
+SHA256: b10d45614ac0df5d3bbc75725e881f06bda5e28386a598e8fa5005b6d6602f39
+Section: NoAds
+Description: 云闪付去除启动广告，去除首页信息流杂七杂八的版块，去除生活页爆品抢购，去除消息页优惠资讯，去除金融页面杂七杂八版块，去除我的页面合作共赢和精选服务和借款选项等
+Author: Netskao
+Name: 云闪付去广告
+
 Package: ru.rj.ftt
 Version: 1.1
 Architecture: iphoneos-arm
@@ -1055,4 +1128,22 @@ Depiction: https://repo.cypwn.xyz/depiction/2054
 Icon: https://media.havoc.app/62040a16cc1cde4bfe9aba43
 Name: DLEasy
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2054
+
+Package: xyz.cypwn.resentment
+Version: 1.0k
+Architecture: iphoneos-arm
+Maintainer: CyPwn
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, firmware (>= 14.0), firmware (<< 16.0)
+Filename: ./debs/resentment_1.0k.deb
+Size: 80820
+MD5sum: 8fd30e5b0cd3289dac7f2fe5ace700e5
+SHA1: fb3561f9f0fb9b05239ef3fbbbbf79cf340dbf70
+SHA256: a012d79e99fa6e4f5f71eb74aeb5d565d04d0ecafede7841a4bfb101e7271536
+Section: Tweaks
+Description: 将iOS 16的音乐播放器引入旧版iOS，CBZ破解
+Author: uz.ra
+Depiction: https://repo.cypwn.xyz/depiction/1944
+Icon: https://media.havoc.app/65b9c2a8d798b2b3c1908016
+Name: Resentment
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1944
 
