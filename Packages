@@ -343,6 +343,22 @@ Description: 支持7.3.0-8.1.0去启动广告及更新弹窗，屏蔽越狱
 Author: White <1410970825@qq.com>
 Name: 中国农业银行屏蔽越狱
 
+Package: com.white.bilianime
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 165
+Depends: mobilesubstrate
+Filename: ./debs/bilianime_1.0.deb
+Size: 4764
+MD5sum: ad36c20f0802383d9fbc5f17694aea89
+SHA1: 95db2b96ca03b3f18be26e603d1a2b11e5a11c00
+SHA256: 09b57f344b1db631f68b9f01196a7aab7c65cb0cdc16b0d744b055f4a4395688
+Section: NoAds
+Description: 基于7.65.0制作，去部分广告及屏蔽越狱
+Author: White <1410970825@qq.com>
+Name: 哔哩哔哩去广告
+
 Package: com.white.cloud189
 Version: 1.0
 Architecture: iphoneos-arm
