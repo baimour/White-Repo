@@ -327,19 +327,19 @@ Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.vpnindicat
 Icon: https://turannul.github.io/home/resources/vpnindicator.png
 Name: VPNIndicator
 
-Package: com.white.Bankabc
+Package: com.white.bankabc
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
 Installed-Size: 149
 Depends: mobilesubstrate
 Filename: ./debs/Bankabc_1.0.deb
-Size: 5000
-MD5sum: 6ecdb145021d6c3e20747f786738cc46
-SHA1: 873389db0bc53bd42ae07e8e26c25c6542e296e7
-SHA256: d1fd2ce1d52dd845826486fa3a211ff2272be4232cd1b472f1daf97f1f3ed6de
+Size: 5968
+MD5sum: f0a46e3e56ba2e46c55d5c1ef380021c
+SHA1: f280eb99e10e8e428e2b15ff11d46b504c0b77e4
+SHA256: e8b78cbc4808becc8c9cae007887f17a5b6cf77dce219395fec74c53d937158d
 Section: NoAds
-Description: 支持7.3.0，不支持最新版
+Description: 支持7.3.0-8.1.0去启动广告及更新弹窗，屏蔽越狱
 Author: White <1410970825@qq.com>
 Name: 中国农业银行屏蔽越狱
 
