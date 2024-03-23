@@ -26,33 +26,14 @@ Maintainer: White <1410970825@qq.com>
 Depends: firmware (>= 7.0), mobilesubstrate
 Filename: ./debs/屏蔽设置配件提醒_9.9.9.deb
 Size: 4252
-MD5sum: 6fe390432b61d5630a41479aa2bc608e
-SHA1: d5834db21921a2678d88e81afce8471bcca3a37a
-SHA256: cf75cdb0617739108bc92d30b07f86d405cbbd98a4955095764c68062ad08b5a
+MD5sum: 923df456b353ec93fed239f10fb25a28
+SHA1: 5aec97d870c2115526c5cae6d19081cd8e7c00f9
+SHA256: 534dcb91d713ac8504cf079d440935b6e428658d9d22025a2de036c08f813e27
 Section: Tweaks
 Description: 屏蔽更换第三方电池和其他配件会有烦人不断弹窗提醒
 Author: White <1410970825@qq.com>
-Dev: 设置
-Name: ✦屏蔽设置重要提醒
-
-Package: com.cokepokes.appstoreplusplus
-Version: 0.10.1-5
-Architecture: iphoneos-arm
-Maintainer: CokePokes
-Depends: firmware (>= 11.0), mobilesubstrate
-Conflicts: com.unlimapps.uaupdatetools
-Filename: ./debs/appstore++_0.10.1-5.deb
-Size: 3208664
-MD5sum: 2844db4f50727c7a98aa2a45466fe12a
-SHA1: 6a9aa9d3e2956dabcf35cde80a5daa48ee66baa2
-SHA256: 5cbb13083eb769328ef487b345340e330a241959a87c13ac6ec2a6b75a04d99b
-Section: Tweaks
-Priority: optional
-Description: 允许您在iOS 11-15上的AppStore中降级/升级应用程序
-Author: CokePokes
-Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
-Icon: https://cokepokes.github.io/depiction/appstoreplus/icon.png
-Name: AppStore++汉化版
+Dev: White
+Name: 屏蔽设置重要提醒
 
 Package: com.eliofeghali.souvenir
 Version: 1.25
@@ -70,54 +51,21 @@ Description: 锁屏界面自定义调整！
 Author: Elio Feghali
 Name: Souvenir
 
-Package: com.ipc.crackerxi
-Version: 1.1.16
-Architecture: iphoneos-arm
-Maintainer: c0pyn1nja
-Depends: firmware (>= 11.0)
-Filename: ./debs/crackerxi_1.1.16.deb
-Size: 6069716
-MD5sum: f94685dae62796375fb1ff04d2beadd9
-SHA1: 57726005392eac7263d20341f5bd017085263e9f
-SHA256: 6ae59a2054f411dc339f3a8d8449fafd9d1f1c7d6746eb96d0c5f1d18c06f4f1
-Section: Utilities
-Description: 解密iOS砸壳应用，不支持牛磺酸
-Icon: file:///Applications/crackerxi.app/AppIcon.png
-Name: CrackerXI+
-Website: https://ipastore.me
-
-Package: com.joshua.volumeflex
-Version: 0.0.5-1
-Architecture: iphoneos-arm
-Maintainer: Joshua Wheeler
-Installed-Size: 544
-Depends: mobilesubstrate (>= 0.9.5000), libflex
-Filename: ./debs/volumeflex_0.0.5-1.deb
-Size: 78640
-MD5sum: 11e7ebdaeb036ae9379d462c970909dd
-SHA1: 099fd4bcaa0a5d2e05097f37f0bff67c380e78d6
-SHA256: 77d5e02b8c35b3e91509799de82b454abdc905703390123afba04d1bf73ae9c8
-Section: Tweaks
-Description: 世界不需要另一个FLEX工具，但手指粗的人需要
-Author: Joshua Wheeler
-Name: VolumeFLEX
-
-Package: com.julioverne.cracktool4
-Version: 4.0~beta10b
+Package: com.hk.cydown.new
+Version: 7.1.2-1
 Architecture: iphoneos-arm
 Maintainer: Julio
-Depends: sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
-Filename: ./debs/cracktool4_4.0~beta10b.deb
-Size: 1956788
-MD5sum: d55bf95a74a351c4be46b988c4980630
-SHA1: cfb13bd9c6bda4a7000a62507d30c112c170fd7b
-SHA256: dbc2104339759a59a4e5a05a8cd03aeb805f7263583519476636335c345df6de
-Section: Utilities
-Homepage: https://twitter.com/ijulioverne
-Description: 一键破解插件
-Author: julioverne
-Depiction: https://julio.hackyouriphone.org/description.html?id=com.julioverne.cracktool4
-Name: CrackTool4 (iOS 9 - 14)
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
+Conflicts: com.julioverne.cydown, com.crack.cydown.cn, com.hk.cydown.all
+Filename: ./debs/cydown_7.1.2-1.deb
+Size: 2537808
+MD5sum: e4898a476910d871e2ed446c70252747
+SHA1: 3257e74e2932396a86983ca0acebeec24f24b2db
+SHA256: f278a1b71da5289290baab4bb82824368b2da4cddbb0ff15703502d98c96eaa9
+Section: 嗨-工具
+Description: CyDown [7.1.2汉化版]
+Author: julioverne <julioverne@me.com>
+Name: CyDown [7.1.2汉化版]
 
 Package: com.myxxdev.samjet
 Version: 1.020722
@@ -225,107 +173,25 @@ Description: 增加SpringBoard内存，以防止SpringBoard崩溃并停止随机
 Author: Pheux
 Name: Fix Random Resprings
 
-Package: com.randy420.tai
-Version: 5.2.2
+Package: com.white.appstoreplusplus
+Version: 0.10.1-5
 Architecture: iphoneos-arm
-Maintainer: Randy420 <randy.skinner@hotmail.com>
-Installed-Size: 476
-Depends: com.randy420.tools (>= 2.3), clang, curl, git, grep, perl, rsync, unzip, make, ldid, com.opa334.ccsupport, xar
-Conflicts: net.howett.theos
-Filename: ./debs/tai_5.2.2.deb
-Size: 58996
-MD5sum: 6974ca273916f8affc6b8a55783db96c
-SHA1: 2957abdc67322ab64dcee6630a715ff36cecf10c
-SHA256: 5cbe5a5d3d0e0fe44fc4d8620d4f35d470bf1cdf2f86670780abdf771bec1e86
-Section: System
-Homepage: https://theemeraldisle.family
-Description: 使用简单的命令从终端安装Theos(在设置里配置好并连接到WiFi)
- - tai -u 卸载Theos
- - tai -r 重装Theos
-Tag: role::hacker
-Author: Randy420 <randy.skinner@hotmail.com>
-Depiction: https://Randy-420.GitHub.io/depic/tai.html
-Name: Theos Auto Installer
-
-Package: com.randy420.taidependscoolstar
-Version: 0.4
-Architecture: iphoneos-arm
-Maintainer: Randy420 <randy.skinner@hotmail.com>
-Installed-Size: 0
-Depends: odcctools, lz4, swift, xz-utils, plutil | com.bingner.plutil
-Conflicts: com.randy420.taidependsother, org.theos.dependencies
-Replaces: com.randy420.taidependsother, org.theos.dependencies, theos-dependencies
-Filename: ./debs/taidependscoolstar_0.4.deb
-Size: 984
-MD5sum: e2b1a3c440347d102c38287db3c1dcd6
-SHA1: 94233e8b5fdac8cf1b4569a780b1e57fd8e0cf65
-SHA256: fd5ae908606d95250c36df0d94c962c177fe597c047b69e9ad029824ebc9021b
-Section: System
-Homepage: https://theemeraldisle.family
-Description: 使用酷星越狱工具的设备在安装Theos所需依赖
-Tag: role::hacker
-Author: Randy420 <randy.skinner@hotmail.com>
-Depiction: https://Randy-420.GitHub.io/depic/taidependscoolstar.html
-Name: Theos Auto Installer Dependencies for Procursus based jailbreaks
-
-Package: com.randy420.taidependscoolstar
-Version: 0.4
-Architecture: iphoneos-arm
-Maintainer: Randy420 <randy.skinner@hotmail.com>
-Installed-Size: 0
-Depends: odcctools, lz4, swift, xz-utils, plutil | com.bingner.plutil
-Conflicts: com.randy420.taidependsother, org.theos.dependencies
-Replaces: com.randy420.taidependsother, org.theos.dependencies, theos-dependencies
-Filename: ./debs/dependsCool.deb
-Size: 772
-MD5sum: ca332c4fba1d5580518452a9a8c4965f
-SHA1: c1f460e5402098ba8022f8eac06f96ac66d34167
-SHA256: 9e2ab585f0513edd20db4cbfbef2285743dab68c910d44450f74980013a36069
-Section: System
-Homepage: https://theemeraldisle.family
-Description: Dependencies for Procursus based jailbreaks (known as coolstar jailbreaks)
-Tag: role::hacker
-Author: Randy420 <randy.skinner@hotmail.com>
-Depiction: https://Randy-420.GitHub.io/depic/taidependscoolstar.html
-Name: Theos Auto Installer Dependencies for Procursus based jailbreaks
-
-Package: com.randy420.tools
-Version: 2.3.6
-Architecture: iphoneos-arm
-Maintainer: Randy420 <randy.skinner@hotmail.com>
-Installed-Size: 2288
-Depends: ws.hbang.common
-Replaces: com.randy420.encrypt
-Filename: ./debs/tools_2.3.6.deb
-Size: 799872
-MD5sum: 2486d6f6af6a158e21de4a7c6bd952d2
-SHA1: f83972ef5b9844269e12adcfe3d5a09fb49180eb
-SHA256: f92f20e8dcbe9a41a4f34f1a0196db63f8c28d3b158488e0e034f8fb481f0e15
-Section: System
-Homepage: https://theemeraldisle.family
-Description: Theos自动安装程序
-Tag: role::hacker
-Author: Randy420 <randy.skinner@hotmail.com>
-Depiction: https://Randy-420.GitHub.io/depic/420Tools.html
-Name: 420 Tools
-
-Package: com.udevs.vpnindicator
-Version: 1.1.5
-Architecture: iphoneos-arm
-Maintainer: udevs
-Installed-Size: 356
-Depends: mobilesubstrate (>= 0.9.5000), com.creaturesurvive.libcscolorpicker
-Filename: ./debs/vpnindicator_1.1.5.deb
-Size: 63864
-MD5sum: 18d8cabe7c60433bb3f7915109cc9cb3
-SHA1: 6166f3b948393ad65531c4c9e120f21c14398707
-SHA256: e9cb9f2048adbfbccbf5a4371752d68e53c348e1d0225fcb1741f9ec85035e44
+Maintainer: CokePokes
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: com.unlimapps.uaupdatetools
+Filename: ./debs/appstore++_0.10.1-5.deb
+Size: 3209136
+MD5sum: d62337a1def3ccc3ac819bb5a70b5335
+SHA1: e4bd441010e5811dde4bf45eda776c41f811a87d
+SHA256: 68d4c6f9a4f0b75ff66c20e6fadd2e7055828571b534e87fe5683bfff2253e3b
 Section: Tweaks
-Description: 连接VPN后更改状态栏中的WiFi图标颜色
-Author: udevs
-Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.vpnindicator
-Icon: https://turannul.github.io/home/resources/vpnindicator.png
-Name: VPNIndicator
+Priority: optional
+Description: 支持iOS 11-15在AppStore中降级/升级应用
+Author: CokePokes
+Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
+Dev: CokePokes
+Icon: https://cokepokes.github.io/depiction/appstoreplus/icon.png
+Name: AppStore++汉化版
 
 Package: com.white.bankabc
 Version: 1.0
@@ -375,6 +241,256 @@ Description: 支持9.1.1去启动广告及更新弹窗，屏蔽越狱
 Author: White <1410970825@qq.com>
 Name: 天翼云盘去启动广告
 
+Package: com.white.crackerxi
+Version: 1.1.16
+Architecture: iphoneos-arm
+Maintainer: c0pyn1nja
+Depends: firmware (>= 11.0)
+Filename: ./debs/crackerxi_1.1.16.deb
+Size: 6069188
+MD5sum: 7d486983ff048853d2c4d2c94a8c128d
+SHA1: 95fbe3c9267ae079ff427ec2958d48851a47e8f5
+SHA256: 2359373cb89cbc881c20922757c3a204e3f4ff14ee15a9190a57c712e12f0eff
+Section: Utilities
+Description: 解密iOS砸壳应用，不支持牛磺酸
+Icon: file:///Applications/crackerxi.app/AppIcon.png
+Name: CrackerXI+
+Website: https://ipastore.me
+
+Package: com.white.cracktool4
+Version: 4.0~beta10b
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
+Filename: ./debs/cracktool4_4.0~beta10b.deb
+Size: 1955964
+MD5sum: ecd6fe0a982f7edff8119f435960d5a2
+SHA1: 800b58ef3f73fe3c3c56c712b8a0b73651c33374
+SHA256: f618d117b5aea0dd55fe77b913168d34ac99fed63b880d1e3fe5d0b579d0780f
+Section: Utilities
+Homepage: https://twitter.com/ijulioverne
+Description: 一键破解插件，完善汉化
+Author: julioverne
+Depiction: https://julio.hackyouriphone.org/description.html?id=com.julioverne.cracktool4
+Name: CrackTool4 (iOS 9 - 14)
+
+Package: com.white.dleasy
+Version: 2.14.4k
+Architecture: iphoneos-arm
+Maintainer: CyPwn
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Filename: ./debs/dleasy_2.14.4k.deb
+Size: 5561644
+MD5sum: 078c852144b7a0fdf0bd6e676346cf6e
+SHA1: f53bdb971e2e4419d51877ddbd1dd6388085fff3
+SHA256: 4169fcdfd30c01a18471d78e933c30b7142fdfda2ee1df309e127864432a9bf0
+Section: Tweaks
+Description: 下载社交应用的媒体图片和视频
+Author: AhmedBafkir
+Depiction: https://repo.cypwn.xyz/depiction/2054
+Icon: https://media.havoc.app/62040a16cc1cde4bfe9aba43
+Name: DLEasy
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2054
+
+Package: com.white.dumpdecrypter
+Version: 1.3-7
+Architecture: iphoneos-arm
+Maintainer: Netskao <bigboss@thebigboss.org>
+Installed-Size: 2428
+Depends: firmware (>= 11.0), mobilesubstrate
+Filename: ./debs/dumpdecrypter_1.3-7.deb
+Size: 529140
+MD5sum: c42c5db235352fc293ca34bfc12bf25d
+SHA1: 4ea4b867afe7eb3a4ee9a3273a38109cde0651dd
+SHA256: d152b6f0c8b10ff1d6479f687084696fa498cfe4726f655cf6b0e5ca087cfe05
+Section: Utilities
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dumpdecrypterDp
+Description: DumpDecrypter是基于dumpdecrypted的修改封装，使用方式：打开桌面的DumpDecrypter应用程序选择需要解密的应用，解密的IPA会保存至：/var/mobile/Documents/DumpDecrypter
+ 选择应用后会自动杀掉应用进程重新打开，解密前加载所有Frameworks，解密前停止所有非解密线程，解密完成后自动恢复等(解密后的IPA如果要直接安装，建议重新签名，无论使用的签名证书是否有效，否则某些环境会出现闪退等问题)
+Tag: purpose::extension
+Author: Netskao <1410970825@qq.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dumpdecrypterDp
+Dev: netskao
+Name: DumpDecrypter
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.white.ftt
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 484
+Depends: mobilesubstrate, com.white.tools (>=2.2)
+Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
+Filename: ./debs/ftt_1.1.deb
+Size: 82440
+MD5sum: f0ec2bfadad07b54323218aab9b11c1d
+SHA1: e50125d0d18ba1406c055eaf52c73efdac5b2f3e
+SHA256: 363310cae0ab255e405b435a876c5da11d5a1a5063298f710b668bf7478b1319
+Section: System
+Homepage: https://theemeraldisle.family
+Description: 原作者iPadkid358制作 - 然后由randy420更新。使用简单的终端命令将Flex 3补丁转换为Theos项目
+  
+ - 使用'ftt -?'查看选项完整列表
+Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/ftt.html
+Name: Flex To Theos
+
+Package: com.white.fuckpay
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 小果子
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/fuckpay_0.0.1.deb
+Size: 3188
+MD5sum: 24805f74e617631ae5c6b4cdd65df6c9
+SHA1: f2d17b8fd878d585d9f4d2f6fd274fcab46a7938
+SHA256: a2848839e989731076b5b5608b99a97bc0958808652ec7e55f8917ca8d40bdaa
+Section: Tweaks
+Description: 本地内购插件，仅支持本地验证的应用内购，请不要尝试内购热门软件，支持免越狱注入，如果支持内购，点击购买后取消即为内购成功
+Author: 小果子
+Name: FuckPay
+
+Package: com.white.haptickeys
+Version: 4.4
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 362
+Depends: mobilesubstrate, preferenceloader, applist, ws.hbang.common, firmware (>= 10.0)
+Conflicts: com.cabralcole.haptickeyboard
+Filename: ./debs/haptickeys_4.4.deb
+Size: 33664
+MD5sum: 0b6ff8977991183a82ab4f73bf40e3b5
+SHA1: a1e43c11bf91721184eedd7c43600ebfd5ded63c
+SHA256: fa364819ea9d21ead7a206ce5df78d40e20d19db066c979451317b5284194c4a
+Section: Tweaks
+Description: 添加键盘和桌面图标的触觉反馈
+Author: colecabral
+Depiction: https://rejail.ru/depiction.php?file=haptickeys
+Icon: file:///Library/PreferenceBundles/HKSettings.bundle/HK@2x.png
+Name: HapticKeys Rus
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=haptickeys
+
+Package: com.white.iridium
+Version: 1.2.15
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 15312
+Depends: firmware (>= 13.5)
+Filename: ./debs/iridium_1.2.15.deb
+Size: 5425860
+MD5sum: 0dc77a1f5342ea8a27360fd42803d68e
+SHA1: 3f523676aa9981126012203d8af43b238907d7cf
+SHA256: 6b0147ea3d378725b837ef3fb1e48644dc3017901a88b7411c2fd4bbb4f56e54
+Section: Utilities
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iridiumDp
+Description: 一个可完美解密小组件的砸壳解密工具，汉化by：威锋@Alicys
+Tag: purpose::uikit
+Author: White <1410970825@qq.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iridiumDp
+Dev: lakraream
+Name: 全权限砸壳工具汉化版
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.white.leap
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: 小果子
+Installed-Size: 720
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/leapcrack_0.0.1.deb
+Size: 289468
+MD5sum: 972bba61ecb54b0afbec9ed079e0eef1
+SHA1: fdf1990fb3e052f0d879f6641c5cbcf1c70a8802
+SHA256: b08f181d6344eeb621a0c5a3ebbb0e71e614dbb979fbb4e3010890ce536e9115
+Section: Tweaks
+Description: Lightricks软件包括Photoleap, Videoleap, Beatleap, Lightleap, 艺章(Artleap), Motionleap及Facetune Video, Facetune破解，解锁会员订阅
+Author: 小果子
+Name: Lightricks-leap通用破解
+
+Package: com.white.resentment
+Version: 1.0k
+Architecture: iphoneos-arm
+Maintainer: CyPwn
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, firmware (>= 14.0), firmware (<< 16.0)
+Filename: ./debs/resentment_1.0k.deb
+Size: 80600
+MD5sum: f7ce375307058d2277f42dcf4dac6458
+SHA1: bb7db962a1f6559996ecae5886ad5e83a82e6c75
+SHA256: 7368fca7cf7c2c0a8ef65bedf1cdcd94367e450ee2d9bc53639254c4d9787d5f
+Section: Tweaks
+Description: 将iOS 16的音乐播放器引入旧版iOS，CBZ破解
+Author: uz.ra
+Depiction: https://repo.cypwn.xyz/depiction/1944
+Icon: https://media.havoc.app/65b9c2a8d798b2b3c1908016
+Name: Resentment
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1944
+
+Package: com.white.tai
+Version: 5.2.2
+Architecture: iphoneos-arm
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 476
+Depends: com.white.tools (>= 2.3), clang, curl, git, grep, perl, rsync, unzip, make, ldid, com.opa334.ccsupport, xar
+Conflicts: net.howett.theos
+Filename: ./debs/tai_5.2.2.deb
+Size: 58972
+MD5sum: d208ab9cfd6a1b61261592e1d9792165
+SHA1: 2f49eb61088380aab931d82a1f248496f7067f11
+SHA256: 500d23f7393ee40d0d3600d820f19408bc589f639caf2401d8ce37e748fae46a
+Section: System
+Homepage: https://theemeraldisle.family
+Description: 使用简单的命令从终端安装Theos(在设置里配置好并连接到WiFi)
+ - tai -u 卸载Theos
+ - tai -r 重装Theos
+Tag: role::hacker
+Author: Randy420 <randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/tai.html
+Name: Theos Auto Installer
+
+Package: com.white.taidependscoolstar
+Version: 0.4
+Architecture: iphoneos-arm
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 0
+Depends: odcctools, lz4, swift, xz-utils, plutil | com.bingner.plutil
+Conflicts: com.randy420.taidependsother, org.theos.dependencies
+Replaces: com.randy420.taidependsother, org.theos.dependencies, theos-dependencies
+Filename: ./debs/taidependscoolstar_0.4.deb
+Size: 992
+MD5sum: 6facccec0c633e94abf5f02439e1a061
+SHA1: 23f6aebca5ba0afe521ff835902d4ccc72344a8a
+SHA256: e36caba7c000bdffc888e4e5263e937d393cdbbdeee2717c7730b307a5240552
+Section: System
+Homepage: https://theemeraldisle.family
+Description: 使用酷星越狱工具的设备在安装Theos所需依赖
+Tag: role::hacker
+Author: Randy420 <randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/taidependscoolstar.html
+Name: Theos Auto Installer Dependencies for Procursus based jailbreaks
+
+Package: com.white.taidependscoolstar
+Version: 0.4
+Architecture: iphoneos-arm
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 0
+Depends: odcctools, lz4, swift, xz-utils, plutil | com.bingner.plutil
+Conflicts: com.randy420.taidependsother, org.theos.dependencies
+Replaces: com.randy420.taidependsother, org.theos.dependencies, theos-dependencies
+Filename: ./debs/dependsCool.deb
+Size: 952
+MD5sum: d8c4181e4b9d179d6cfd379f4e108aa4
+SHA1: 2a89b5510b2072d5740a982db5a78f266b0c3332
+SHA256: d5e1268593b127ff3dabf6b500ad54af4513f2b6e2f1ff616074f1b850f46c93
+Section: System
+Homepage: https://theemeraldisle.family
+Description: Dependencies for Procursus based jailbreaks (known as coolstar jailbreaks)
+Tag: role::hacker
+Author: Randy420 <randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/taidependscoolstar.html
+Name: Theos Auto Installer Dependencies for Procursus based jailbreaks
+
 Package: com.white.taobao
 Version: 1.0
 Architecture: iphoneos-arm
@@ -390,6 +506,26 @@ Description: 屏蔽最新版淘宝越狱检查
 Author: White <1410970825@qq.com>
 Name: 淘宝屏蔽越狱
 
+Package: com.white.tools
+Version: 2.3.6
+Architecture: iphoneos-arm
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 2288
+Depends: ws.hbang.common
+Replaces: com.randy420.encrypt
+Filename: ./debs/tools_2.3.6.deb
+Size: 799852
+MD5sum: a608955d5917e4b871b9e7fda095e18e
+SHA1: 1c92c90c89ea46d2625a721344cfe3e4c682c217
+SHA256: 4afbd6e7606a903e05bca323cdcec729a7bb73b00ec24c74fddda7dd79129d54
+Section: System
+Homepage: https://theemeraldisle.family
+Description: Theos自动安装程序
+Tag: role::hacker
+Author: Randy420 <randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/420Tools.html
+Name: 420 Tools
+
 Package: com.white.unidream
 Version: 1.0
 Architecture: iphoneos-arm
@@ -404,6 +540,40 @@ Section: NoAds
 Description: 屏蔽最新版越狱和关键词检查
 Author: White <1410970825@qq.com>
 Name: Uni Dream屏蔽关键词检查
+
+Package: com.white.volumeflex
+Version: 0.0.5-1
+Architecture: iphoneos-arm
+Maintainer: Joshua Wheeler
+Installed-Size: 544
+Depends: mobilesubstrate (>= 0.9.5000), libflex
+Filename: ./debs/volumeflex_0.0.5-1.deb
+Size: 78668
+MD5sum: 10f7a5b8306606fd2c7c6a780927856a
+SHA1: 4dc1f7a46a50889340f22093b45035921865c91e
+SHA256: 189a0f80ad74fa99d2488abcd9a618c7795b1f745d92182d00146c73a84803d4
+Section: Tweaks
+Description: 世界不需要另一个FLEX工具，但手指粗的人需要
+Author: Joshua Wheeler
+Name: VolumeFLEX
+
+Package: com.white.vpnindicator
+Version: 1.1.5
+Architecture: iphoneos-arm
+Maintainer: udevs
+Installed-Size: 356
+Depends: mobilesubstrate (>= 0.9.5000), com.creaturesurvive.libcscolorpicker
+Filename: ./debs/vpnindicator_1.1.5.deb
+Size: 63872
+MD5sum: eb324054a8dbdfe254a62a083ef36cb8
+SHA1: 44558fceb8089bdfb3ab619669b495d9d4a49126
+SHA256: 8f16265eec9132dffdc306f9b13fbad80ea1558ddae13fbce526ed43b308db6d
+Section: Tweaks
+Description: 连接VPN后更改状态栏中的WiFi图标颜色
+Author: udevs
+Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.vpnindicator
+Icon: https://turannul.github.io/home/resources/vpnindicator.png
+Name: VPNIndicator
 
 Package: flexdecrypt
 Version: 1.1
@@ -1086,80 +1256,58 @@ Description: 云闪付去除启动广告，去除首页信息流杂七杂八的�
 Author: Netskao
 Name: 云闪付去广告
 
-Package: ru.rj.ftt
-Version: 1.1
-Architecture: iphoneos-arm
-Maintainer: Randy420 <randy.skinner@hotmail.com>
-Installed-Size: 484
-Depends: mobilesubstrate, com.randy420.tools (>=2.2)
-Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
-Filename: ./debs/ftt_1.1.deb
-Size: 82344
-MD5sum: 47174aca88107fa63bb3e5524ba57317
-SHA1: a728eb2da3f44610a5d57a368b9739f75a1200eb
-SHA256: 6fa90c7e67e7feb1b0d6cdc4b9244af32ef73a413cd0dad34125af87eb88e738
-Section: System
-Homepage: https://theemeraldisle.family
-Description: 原作者iPadkid358制作 - 然后由randy420更新。使用简单的终端命令将Flex 3补丁转换为Theos项目
-  
- - 使用'ftt -?'查看选项完整列表
-Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
-Depiction: https://Randy-420.GitHub.io/depic/ftt.html
-Name: Flex To Theos
-
-Package: ru.rj.haptickeys
-Version: 4.4
+Package: ru.rejail.betterccxi
+Version: 1.6.0
 Architecture: iphoneos-arm
 Maintainer: ReJail <rejail@rejail.ru>
-Installed-Size: 362
-Depends: mobilesubstrate, preferenceloader, applist, ws.hbang.common, firmware (>= 10.0)
-Conflicts: com.cabralcole.haptickeyboard
-Filename: ./debs/haptickeys_4.4.deb
-Size: 33664
-MD5sum: 27eb7e211ccc42c985e493b1f738bc87
-SHA1: 2a51a672b9e0f57bfbb3fdbd0f758e1ef057c380
-SHA256: 8f4616424b3176d9e0e3231dabadb711c2ece7ac83cdf9442b813f3505932549
+Installed-Size: 770
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader
+Filename: ./debs/ru.rejail.betterccxi_1.6.0.deb
+Size: 67656
+MD5sum: add6ba8b6e16375d762251d1d21f0265
+SHA1: 028a6270ac3234cf2ad6d690c12af622a8470706
+SHA256: 80afc3c2043968848dace893feb4fd1307d27910a4aca96852eb705607ba0d93
 Section: Tweaks
-Description: 为键盘和桌面图标添加触觉反馈
-Author: colecabral
-Depiction: https://rejail.ru/depiction.php?file=haptickeys
-Icon: file:///Library/PreferenceBundles/HKSettings.bundle/HK@2x.png
-Name: HapticKeys Rus
-Sileodepiction: https://rejail.ru/sileo/depiction.php?file=haptickeys
+Description: 修改控制中心模块
+Author: ATWiiks
+Depiction: https://rejail.ru/depiction.php?file=betterccxi
+Name: BetterCCXI Rus
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=betterccxi
 
-Package: xyz.cypwn.dleasy
-Version: 2.14.4k
+Package: ru.rejail.filza
+Version: 4.0.1-4
 Architecture: iphoneos-arm
-Maintainer: CyPwn
-Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
-Filename: ./debs/dleasy_2.14.4k.deb
-Size: 5560796
-MD5sum: a87b6006b7d70f7f4c85e9357be5dcbc
-SHA1: 5ef6109cc2502b51bdf2f0c8a70e118724b65444
-SHA256: 50398331dcd718464e7ba80b5e23964abba15e22ccf27d85d9517260d39b6521
-Section: Tweaks
-Description: 下载社交应用的媒体图片和视频
-Author: AhmedBafkir
-Depiction: https://repo.cypwn.xyz/depiction/2054
-Icon: https://media.havoc.app/62040a16cc1cde4bfe9aba43
-Name: DLEasy
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2054
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 19388
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Filename: ./debs/ru.rejail.filza_4.0.1-4_iphoneos-arm.deb
+Size: 6998020
+MD5sum: 657c80e604ad5e541d3de11d06550be4
+SHA1: de74eb7f7beaeeb9b21e45c0d5f679ecc3a0cdb3
+SHA256: 7dd1aeabf09437494d92a3d4ebc00a2ca76a04734e12beb3e5e4f77438ce03df
+Section: Utilities
+Description: 强大的iOS文件管理器
+Author: TIGI Software
+Depiction: https://rejail.ru/depiction.php?file=filza
+Name: Filza File Manager
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=filza
 
-Package: xyz.cypwn.resentment
-Version: 1.0k
+Package: ru.rejail.grupi
+Version: 2.1
 Architecture: iphoneos-arm
-Maintainer: CyPwn
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common, firmware (>= 14.0), firmware (<< 16.0)
-Filename: ./debs/resentment_1.0k.deb
-Size: 80820
-MD5sum: 8fd30e5b0cd3289dac7f2fe5ace700e5
-SHA1: fb3561f9f0fb9b05239ef3fbbbbf79cf340dbf70
-SHA256: a012d79e99fa6e4f5f71eb74aeb5d565d04d0ecafede7841a4bfb101e7271536
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 531
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 11.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
+Filename: ./debs/ru.rejail.grupi_2.1.deb
+Size: 142328
+MD5sum: 489e649e98d2adb72297cb422be3f053
+SHA1: 21bcbe06aeb150b6eb521d0f13a473bbd497b2a2
+SHA256: 0fb75551952659c8b2832efeb945c262a04b861dcc47e9abc7fbc31421760bf7
 Section: Tweaks
-Description: 将iOS 16的音乐播放器引入旧版iOS，CBZ破解
-Author: uz.ra
-Depiction: https://repo.cypwn.xyz/depiction/1944
-Icon: https://media.havoc.app/65b9c2a8d798b2b3c1908016
-Name: Resentment
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1944
+Description: 通知聚合
+Author: Soongyu Kwon & Timeloop
+Depiction: https://rejail.ru/depiction.php?file=grupi
+Name: Grupi Rus
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=grupi
 
