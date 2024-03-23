@@ -51,22 +51,6 @@ Description: 锁屏界面自定义调整！
 Author: Elio Feghali
 Name: Souvenir
 
-Package: com.hk.cydown.new
-Version: 7.1.2-1
-Architecture: iphoneos-arm
-Maintainer: Julio
-Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
-Conflicts: com.julioverne.cydown, com.crack.cydown.cn, com.hk.cydown.all
-Filename: ./debs/cydown_7.1.2-1.deb
-Size: 2537808
-MD5sum: e4898a476910d871e2ed446c70252747
-SHA1: 3257e74e2932396a86983ca0acebeec24f24b2db
-SHA256: f278a1b71da5289290baab4bb82824368b2da4cddbb0ff15703502d98c96eaa9
-Section: 嗨-工具
-Description: CyDown [7.1.2汉化版]
-Author: julioverne <julioverne@me.com>
-Name: CyDown [7.1.2汉化版]
-
 Package: com.myxxdev.samjet
 Version: 1.020722
 Architecture: iphoneos-arm
@@ -274,6 +258,22 @@ Author: julioverne
 Depiction: https://julio.hackyouriphone.org/description.html?id=com.julioverne.cracktool4
 Name: CrackTool4 (iOS 9 - 14)
 
+Package: com.white.cydown
+Version: 7.1.2-1
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
+Conflicts: com.julioverne.cydown, com.crack.cydown.cn, com.hk.cydown.all
+Filename: ./debs/cydown_7.1.2-1.deb
+Size: 2538888
+MD5sum: 804569b55b55fe8928bb00c7261bad1d
+SHA1: 29502c6d045256d0b5639a8060486f7c0e5f9aba
+SHA256: a3a008d0360af64d26fbcf17028c957c69f55b3da0375eace1e7c4393b31356d
+Section: Utilities
+Description: CyDown 7.1.2汉化版
+Author: julioverne <julioverne@me.com>
+Name: CyDown [7.1.2汉化版]
+
 Package: com.white.dleasy
 Version: 2.14.4k
 Architecture: iphoneos-arm
@@ -378,14 +378,15 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 15312
 Depends: firmware (>= 13.5)
 Filename: ./debs/iridium_1.2.15.deb
-Size: 5425860
-MD5sum: 0dc77a1f5342ea8a27360fd42803d68e
-SHA1: 3f523676aa9981126012203d8af43b238907d7cf
-SHA256: 6b0147ea3d378725b837ef3fb1e48644dc3017901a88b7411c2fd4bbb4f56e54
+Size: 5427352
+MD5sum: 14a3a0b30386998ef6b82cffd58ce73e
+SHA1: b3c9edfbc083f8c20fd81568e1476ad0adf9b337
+SHA256: 2f1aa75e9679f77c23e4ec438e2f68108539b27ab829adffb2f92ef1594dcd3f
 Section: Utilities
 Priority: optional
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iridiumDp
-Description: 一个可完美解密小组件的砸壳解密工具，汉化by：威锋@Alicys
+Description: 一个可完美解密小组件的砸壳解密工具
+ 汉化by：威锋@Alicys，最佳使用系统：iOS13.5-14.3
 Tag: purpose::uikit
 Author: White <1410970825@qq.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iridiumDp
