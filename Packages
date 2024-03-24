@@ -378,20 +378,20 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 15312
 Depends: firmware (>= 13.5)
 Filename: ./debs/iridium_1.2.15.deb
-Size: 5427352
-MD5sum: 14a3a0b30386998ef6b82cffd58ce73e
-SHA1: b3c9edfbc083f8c20fd81568e1476ad0adf9b337
-SHA256: 2f1aa75e9679f77c23e4ec438e2f68108539b27ab829adffb2f92ef1594dcd3f
+Size: 5426440
+MD5sum: 46f71653725b296612931ba6c2168be3
+SHA1: 14489ba2dfadd5aa72b7af3e38984817f6d918ad
+SHA256: 905b83ab58550c28d99b8005614a9fd0f168e7087ee6088a4ffe0e4d96ae5dbb
 Section: Utilities
 Priority: optional
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iridiumDp
-Description: 一个可完美解密小组件的砸壳解密工具
- 汉化by：威锋@Alicys，最佳使用系统：iOS13.5-14.3
+Description: 全权限砸壳工具，支持解密小组件
+ 汉化：威锋@Alicys，最佳兼容系统：iOS13.5-14.3
 Tag: purpose::uikit
 Author: White <1410970825@qq.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iridiumDp
 Dev: lakraream
-Name: 全权限砸壳工具汉化版
+Name: iridium汉化版
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.white.leap
