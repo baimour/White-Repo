@@ -647,10 +647,10 @@ Maintainer: iOS Creatix, Rafferty W
 Depends: firmware (>= 11.0),mobilesubstrate
 Conflicts: com.raff.sugarcane, com.ioscreatix.sugarcane, com.hk.sugarcane13, com.crak.sugarcane13
 Filename: ./debs/com.white.sugarcane_1.0.2-1_iphoneos-arm.deb
-Size: 28140
-MD5sum: 9d362f9163e713bc6746ea9fd6563631
-SHA1: e80e456e23d07dafedd43abd9d8ab13f6df50214
-SHA256: f656bef56d016dc93feb5e2ab5241e1a6accc416b238614e087e34ee2c6b0823
+Size: 28154
+MD5sum: 28f4f44cc80a8ba21883d29ff5ea2b45
+SHA1: fbd1500d10cbf65f477b5295e6ff901b16580a58
+SHA256: 67f98025236f2350a6b6fbeb620998250b5e5f2babd65888f66ca398e02d16fc
 Section: Tweaks
 Description: 添加控制中心音量/亮度滑块、侧边音量框滑块百分比，Sky丶Pain编译版本，添加百分比字体大小等设置，支持iOS11-14
 Author: iOS Creatix, Rafferty W
