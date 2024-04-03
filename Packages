@@ -641,6 +641,22 @@ Depiction: https://repo.cypwn.xyz/depiction/1623
 Name: CCModules
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1623
 
+Package: com.white.sugarcane
+Version: 1.0.2-1
+Architecture: iphoneos-arm
+Maintainer: iOS Creatix, Rafferty W
+Depends: firmware (>= 11.0),mobilesubstrate
+Conflicts: com.raff.sugarcane, com.ioscreatix.sugarcane, com.hk.sugarcane13, com.crak.sugarcane13
+Filename: ./debs/com.white.sugarcane_1.0.2-1_iphoneos-arm.deb
+Size: 28140
+MD5sum: 9d362f9163e713bc6746ea9fd6563631
+SHA1: e80e456e23d07dafedd43abd9d8ab13f6df50214
+SHA256: f656bef56d016dc93feb5e2ab5241e1a6accc416b238614e087e34ee2c6b0823
+Section: Tweaks
+Description: 添加控制中心音量/亮度滑块、侧边音量框滑块百分比，Sky丶Pain编译版本，添加百分比字体大小等设置，支持iOS11-14
+Author: iOS Creatix, Rafferty W
+Name: SugarCane
+
 Package: com.white.tai
 Version: 5.2.2
 Architecture: iphoneos-arm
@@ -805,6 +821,52 @@ Description: 去除启动广告｜屏蔽越狱检测｜免会员使用部分会�
 Author: Huayuarc
 Name: 网易云音乐 NoAds
 Sponsor: Huayuarc
+
+Package: cydia
+Version: 1.1.36
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 6472
+Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=5.0)
+Depends: cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.19.1), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Provides: bigbossbetarepo, cydia-sources
+Filename: ./debs/cydia_1.1.36_iphoneos-arm.deb
+Size: 1353812
+MD5sum: 1dd9e76e9d8a291c794ea22e7015a41a
+SHA1: 4041c04eff333ad2e1bd826ee3bb3095c5139726
+SHA256: 7b05334d429c109906abf53aca1d9606f414efea318b4959d7cd47b47ab594cd
+Section: Packaging
+Priority: required
+Description: graphical iPhone front-end for APT
+Tag: purpose::uikit, cydia::essential, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
+Name: Cydia Installer
+
+Package: cydia-lproj
+Version: 1.1.32~b1
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 712
+Depends: cydia
+Conflicts: org.thebigboss.russiancydia
+Replaces: cydia, org.thebigboss.russiancydia
+Provides: org.thebigboss.russiancydia
+Filename: ./debs/cydia-lproj_1.1.32~b1_iphoneos-arm.deb
+Size: 71410
+MD5sum: 593005fbabc94e1f4dad11a7108c9672
+SHA1: a48326eaee843960332e13dfc84736d8775c4c0f
+SHA256: 495e22e7ef4a9c86310efe847534d9c5d6ae6af9763c322995d83cb85377f6fa
+Section: Packaging
+Priority: required
+Description: Cydia商店语言和翻译
+Tag: purpose::uikit, cydia::essential, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia-lproj/
+Name: Cydia Translations
 
 Package: flexdecrypt
 Version: 1.1
@@ -1486,6 +1548,23 @@ Section: NoAds
 Description: 云闪付去除启动广告，去除首页信息流杂七杂八的版块，去除生活页爆品抢购，去除消息页优惠资讯，去除金融页面杂七杂八版块，去除我的页面合作共赢和精选服务和借款选项等
 Author: Netskao
 Name: 云闪付去广告
+
+Package: org.thebigboss.repo.icons
+Version: 1.0
+Architecture: all
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 48
+Replaces: cydia, bigboss
+Filename: ./debs/org.thebigboss.repo.icons_1.0_all.deb
+Size: 11382
+MD5sum: 424b3010d4531dd922df9fce94818114
+SHA1: ae2009350600eb772ba5d685502520aedc2d631c
+SHA256: 55024cc743b056f185c8da1b846c6cccee5d2a16d6bdaac3f67e30e20f954065
+Section: Repositories
+Priority: optional
+Multi-Arch: foreign
+Description: BigBoss源本地缓存插件图标
+Name: BigBoss Icon Set
 
 Package: ru.rejail.betterccxi
 Version: 1.6.0
