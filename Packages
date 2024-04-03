@@ -337,13 +337,13 @@ Architecture: iphoneos-arm
 Maintainer: Julio
 Depends: sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
 Filename: ./debs/cracktool4_4.0~beta10b.deb
-Size: 1955964
-MD5sum: ecd6fe0a982f7edff8119f435960d5a2
-SHA1: 800b58ef3f73fe3c3c56c712b8a0b73651c33374
-SHA256: f618d117b5aea0dd55fe77b913168d34ac99fed63b880d1e3fe5d0b579d0780f
+Size: 2162928
+MD5sum: 2882dd860294934ca6aff7b25793e05b
+SHA1: dc6d7a87678ed34632679eb7851482a971dd0e54
+SHA256: e77e32c7e157f56563263fb1a3f92eb4f6d2c7ad894903e0225bc07e506f0253
 Section: Utilities
 Homepage: https://twitter.com/ijulioverne
-Description: 一键破解插件，完善汉化
+Description: 一键破解插件工具，完善汉化，添加额外补丁
 Author: julioverne
 Depiction: https://julio.hackyouriphone.org/description.html?id=com.julioverne.cracktool4
 Name: CrackTool4 (iOS 9 - 14)
