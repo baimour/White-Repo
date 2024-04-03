@@ -811,23 +811,6 @@ Architecture: iphoneos-arm
 Maintainer: Huayuarc
 Installed-Size: 152
 Depends: mobilesubstrate
-Filename: ./debs/com.huayuarc.wyyllnoads_0.0.1_iphoneos-arm.deb
-Size: 5330
-MD5sum: 2a31baf9f2fb852ea90eec0f9c10b8fc
-SHA1: fd9fa42caf618a5d18dade6f2845d0becf02a8da
-SHA256: 72d2321253827f1b329ce9c8fa15771a462f56e39629b7ac1cd8f8c71487c36b
-Section: Tweaks
-Description: 去除启动广告｜屏蔽越狱检测｜免会员使用部分会员功能｜开启空间音频
-Author: Huayuarc
-Name: 网易云音乐 NoAds
-Sponsor: Huayuarc
-
-Package: com.white.wyyllnoads
-Version: 0.0.1
-Architecture: iphoneos-arm
-Maintainer: Huayuarc
-Installed-Size: 152
-Depends: mobilesubstrate
 Filename: ./debs/com.white.wyyllnoads_0.0.1_iphoneos-arm.deb
 Size: 5330
 MD5sum: effa2b79790a42394cb53bbc48434059
