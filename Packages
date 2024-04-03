@@ -611,11 +611,11 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 162
 Depends: mobilesubstrate, com.opa334.ccsupport, firmware(>= 11.0)
 Filename: ./debs/com.white.respringmodule_1.1.3_iphoneos-arm.deb
-Size: 29114
-MD5sum: 68c6fd512027ff30bc791adb3ab60ccc
-SHA1: 92974174f76836a5f37c05c65b042ec4f9ebd69b
-SHA256: 9eb768e11dabeea74efae29b2f3825b3daff9c40642bed76d456fcfd30bebc82
-Section: System
+Size: 29104
+MD5sum: b740a309a88815105aa9e4e591e000ee
+SHA1: 7391073f09cf491ac0ef01aac37fd73a15d56b59
+SHA256: 0c512e91fbc7354059e1a62ef6d7af5e151c99e29e9909de7397ce2548b7b9c1
+Section: Tweaks
 Description: 控制中心添加注销模块
 Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13
 A12: 1
@@ -623,7 +623,6 @@ Author: White <1410970825@qq.com>
 Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 Icon2: 12.png
 Name: 控制中心注销模块
-Sponsor: Tweaks
 
 Package: com.white.safeccmodules
 Version: 1.5-2
