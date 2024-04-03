@@ -225,6 +225,27 @@ Description: 支持9.1.1去启动广告及更新弹窗，屏蔽越狱
 Author: White <1410970825@qq.com>
 Name: 天翼云盘去启动广告
 
+Package: com.white.colorbadges
+Version: 1.5.0
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 537
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5.000), preferenceloader
+Conflicts: org.thebigboss.colorbadges
+Replaces: org.thebigboss.colorbadges
+Filename: ./debs/com.white.colorbadges_1.5.0_iphoneos-arm.deb
+Size: 64054
+MD5sum: 7556c8836c87bdcdeec1270238749fd1
+SHA1: ab731d24d31bcc502e552d11b493b51085a3563a
+SHA256: 8ca4db1ed9e2d1afb16de186eedee34c5e499c3a3343731b536264196b281f40
+Section: Tweaks
+Description: 多彩角标，更改通知角标颜色
+Author: David Goldman <help@golddavid.com>
+Depiction: https://rejail.ru/depiction.php?file=colorbadges
+Icon: file:///Library/PreferenceBundles/cbprefs.bundle/CBCydiaIcon.png
+Name: ColorBadges
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=colorbadges
+
 Package: com.white.control-center.ccmono
 Version: 1.0.2
 Architecture: iphoneos-arm
@@ -381,6 +402,24 @@ Author: NeinZedd9
 Depiction: https://kingpuffdaddi.github.io/depictions/?p=com.neinzedd9.fakecallhistory
 Name: Fake Call History
 
+Package: com.white.fiona
+Version: 1.0.5
+Architecture: iphoneos-arm
+Maintainer: CyPwn
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, firmware(>= 14.0), com.mrgcgamer.libgcuniversal
+Filename: ./debs/com.white.fiona_1.0.5_iphoneos-arm.deb
+Size: 128068
+MD5sum: 45ee4072670a894694e60ec1bffb5510
+SHA1: d24f86c64b529e76f31ed681c4fccfe5c0ea7449
+SHA256: da63aa4e3cdefd4d02736561a7f58f3fa58c1e479717053ea5fe21ceb56e3441
+Section: Tweaks
+Description: 浮动下方标签栏
+Author: yan
+Depiction: https://repo.cypwn.xyz/depiction/2145
+Icon: https://media.havoc.app/65e987f4df1ff02035bcd6b1
+Name: Fiona
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2145
+
 Package: com.white.ftt
 Version: 1.1
 Architecture: iphoneos-arm
@@ -529,6 +568,23 @@ Tag: purpose::extension
 Author: White <1410970825@qq.com>
 Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 Name: 控制中心重启模块
+
+Package: com.white.replaced
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Little 34306
+Installed-Size: 152
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/com.white.replaced_1.0_iphoneos-arm.deb
+Size: 3200
+MD5sum: a3749b3d2684bcdcb7bdf78f45546b6e
+SHA1: 363f3f8ec86d387fbf279153bdd9004d33beef8b
+SHA256: ec918190463ab3f939a4883f0a530f12ac22664ab2842bb35096a383245a1a76
+Section: Tweaks
+Description: 删除关于本机内｜未知部件｜或｜部件和服务历史记录｜替换组件｜如电池｜相机｜显示通知
+Author: 34306
+Name: Replaced
+Sponsor: Little 34306
 
 Package: com.white.resentment
 Version: 1.0k
