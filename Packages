@@ -822,6 +822,23 @@ Author: Huayuarc
 Name: 网易云音乐 NoAds
 Sponsor: Huayuarc
 
+Package: com.white.wyyllnoads
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Huayuarc
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: ./debs/com.white.wyyllnoads_0.0.1_iphoneos-arm.deb
+Size: 5330
+MD5sum: effa2b79790a42394cb53bbc48434059
+SHA1: fc410ef164a014087599f7b895dc737cc81b3b80
+SHA256: 73fa2aaa17a73cded23a4c7e71e55bb0f5be2a05377efac1e4b42e289f5ee7a1
+Section: NoAds
+Description: 去除启动广告｜屏蔽越狱检测｜免会员使用部分会员功能｜开启空间音频
+Author: Huayuarc
+Name: 网易云音乐 NoAds
+Sponsor: Huayuarc
+
 Package: cydia
 Version: 1.1.36
 Architecture: iphoneos-arm
@@ -856,11 +873,11 @@ Conflicts: org.thebigboss.russiancydia
 Replaces: cydia, org.thebigboss.russiancydia
 Provides: org.thebigboss.russiancydia
 Filename: ./debs/cydia-lproj_1.1.32~b1_iphoneos-arm.deb
-Size: 71410
-MD5sum: 593005fbabc94e1f4dad11a7108c9672
-SHA1: a48326eaee843960332e13dfc84736d8775c4c0f
-SHA256: 495e22e7ef4a9c86310efe847534d9c5d6ae6af9763c322995d83cb85377f6fa
-Section: Packaging
+Size: 71408
+MD5sum: 68f2270c51164e799c7258c224177002
+SHA1: 206616f42e50349bce31d9ad8c66c1af2160dace
+SHA256: f4e1125a190a0487d2a59606507b15437af87a236f09b55c65800b5200cfac2e
+Section: System
 Priority: required
 Description: Cydia商店语言和翻译
 Tag: purpose::uikit, cydia::essential, role::enduser
@@ -1556,11 +1573,11 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 48
 Replaces: cydia, bigboss
 Filename: ./debs/org.thebigboss.repo.icons_1.0_all.deb
-Size: 11382
-MD5sum: 424b3010d4531dd922df9fce94818114
-SHA1: ae2009350600eb772ba5d685502520aedc2d631c
-SHA256: 55024cc743b056f185c8da1b846c6cccee5d2a16d6bdaac3f67e30e20f954065
-Section: Repositories
+Size: 11380
+MD5sum: 930b06885689af10cd05c234c9762b91
+SHA1: 30075d2835588a6171036019ae16cafd686b159a
+SHA256: f94dbbb8437c6cf82f242268b3ce243928b4095e6ee42ad7a7039a8abfc08ecd
+Section: System
 Priority: optional
 Multi-Arch: foreign
 Description: BigBoss源本地缓存插件图标
@@ -1627,11 +1644,11 @@ Architecture: iphoneos-arm
 Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 92
 Filename: ./debs/shc_4.0.3_iphoneos-arm.deb
-Size: 17766
-MD5sum: e28310494930043698b0d91da65656c2
-SHA1: 7441da8e8a1e76c05db207ed11a02e3d24af1841
-SHA256: f2463e12e67b07e36be72ecd21def29e6cb888c625ed4a99254724e0549ab2ff
-Section: Tools
+Size: 17770
+MD5sum: 765164399502d20b8acbbea9d12cc3b1
+SHA1: 152f066c58687e9b1e2b50602de5e045f2053926
+SHA256: e80e9058c1272576777f5d4df2f3341ece30bdb92800fbfbe19984a2a13a10fe
+Section: System
 Priority: optional
 Description: shell脚本编译器
  shc是一个通用的 shell 脚本编译器
