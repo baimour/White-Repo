@@ -225,6 +225,22 @@ Description: 支持9.1.1去启动广告及更新弹窗，屏蔽越狱
 Author: White <1410970825@qq.com>
 Name: 天翼云盘去启动广告
 
+Package: com.white.control-center.ccmono
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: KingPuffdaddi
+Installed-Size: 188
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/com.white.control-center.ccmono_1.0.2_iphoneos-arm.deb
+Size: 23788
+MD5sum: f7a760933652c83c2bb60f13b00e1cc6
+SHA1: 9d270eb61e3b55f39481e73c20529ed92325edce
+SHA256: 8b6a848b7240312f4269a245a266e67df6e35b984705adaecc7d057f2f0a5ef7
+Section: Tweaks
+Description: 启用/禁用"单声道音频"控制中心模块
+Author: KingPuffdaddi
+Name: 控制中心单声道模块
+
 Package: com.white.crackerxi
 Version: 1.1.16
 Architecture: iphoneos-arm
@@ -274,6 +290,22 @@ Description: CyDown 7.1.2汉化版
 Author: julioverne <julioverne@me.com>
 Name: CyDown [7.1.2汉化版]
 
+Package: com.white.czyyxfc
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Huayuarc
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.huayuarc.czyyxfc_1.0_iphoneos-arm.deb
+Size: 818226
+MD5sum: 3a0f36c2a9105b03f302f7742856f8cf
+SHA1: 0c0cb2e6207a3c70dbb82e6a853f59ee4fe37ec8
+SHA256: ed9d11f37637c220d279d5f1f2e3b34dccd6a4b7367130a33fa38ec9c080b228
+Section: Tweaks
+Description: 用于使用到期｜重制到初始状态｜可白嫖无限使用
+Author: Huayuarc
+Name: 重置应用状态
+Sponsor: Huayuarc
+
 Package: com.white.dleasy
 Version: 2.14.4k
 Architecture: iphoneos-arm
@@ -313,6 +345,41 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dumpdecryp
 Dev: netskao
 Name: DumpDecrypter
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.white.facetunevip
+Version: 3.0
+Architecture: iphoneos-arm
+Maintainer: CyPwn
+Depends: mobilesubstrate
+Filename: ./debs/com.white.facetunevip_3.0_iphoneos-arm.deb
+Size: 51090
+MD5sum: ab9a98368813b44449ee1534bf525977
+SHA1: 86bb41c502d156d9e6cc54baeac76f9ebd8dffc5
+SHA256: 15da08c03dbccdae6abf4567b21f4d7b0fd26eafc147b7d220d7cf1a8f452bb6
+Section: Tweaks
+Description: VIP/Pro lifetime subscription
+Author: iOSCodeVN
+Depiction: https://repo.cypwn.xyz/depiction/2276
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/facetune.png
+Name: Facetune2 VIP
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2276
+
+Package: com.white.fakecallhistory
+Version: 1.0.4.2
+Architecture: iphoneos-arm
+Maintainer: KingPuffdaddi
+Installed-Size: 356
+Depends: mobilesubstrate, ws.hbang.common, preferenceloader
+Filename: ./debs/com.white.fakecallhistory_1.0.4.2_iphoneos-arm.deb
+Size: 16138
+MD5sum: 63a3543cbfc89cdd7be735ca3193ff3e
+SHA1: 044cf4f3ebc8e7130a4f2cf3c35e86529a7fa72b
+SHA256: be02e4cec66044c7828b5bb8b6cb3dba2a8e650fe1b38d7c44192e2ded5fe1f4
+Section: Tweaks
+Description: 将虚拟电话添加到您的通话记录
+Author: NeinZedd9
+Depiction: https://kingpuffdaddi.github.io/depictions/?p=com.neinzedd9.fakecallhistory
+Name: Fake Call History
 
 Package: com.white.ftt
 Version: 1.1
@@ -394,6 +461,41 @@ Dev: lakraream
 Name: iridium汉化版
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.white.kayoko
+Version: 2.0.3.1
+Architecture: iphoneos-arm
+Maintainer: 妖刀
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: dev.traurige.kayoko, codes.aurora.kayoko, com.skypain.kayoko, com.hk.kayoko.cn.rl, com.hk.kayoko.cn, com.daodao.kayoko, com.daodao.82.kayoko, com.hk.traurige.kayoko, com.hk.kayoko, xyz.cypwn.kayoko, zp.codes.aurora.kayoko
+Filename: ./debs/com.white.kayoko_2.0.3.1_iphoneos-arm.deb
+Size: 89612
+MD5sum: d174e6b73284de15c537dc8b66e5f6bb
+SHA1: fe46511081d63197830b6e9971322a73400dc9e6
+SHA256: cf708556c42da5d13105c36ec81b0fa45b206a1b731fd442a8abe1dd9e0664e6
+Section: Tweaks
+Description: 剪切板插件，直接替代听写键。基于原作者重构的2.0源码制作，和之前1.x版稍微有点小变化，只是微改(完善中文翻译，调低了剪切板高度，iOS15替换了"听写键/地球"图标，收藏的心图标换成星图标，优化多语言的支持)，基本保持了原滋原味。v2.0.3+的版本，不兼容之前的v2.0.2及以下版本的剪切板数据，请清空历史和收藏再使用v2.0.3+
+Author: Alexandra Aurora Göttlicher
+Name: Kayoko
+
+Package: com.white.kbpro
+Version: 2.1.1
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 980
+Depends: dev.theos.orion14, firmware (>= 14.0), com.ginsu.libgscommon, ws.hbang.alderis (>= 1.1), preferenceloader
+Filename: ./debs/com.white.kbpro_2.1.1_iphoneos-arm.deb
+Size: 120804
+MD5sum: 7e2b2da6990c7634a95699934e7c4a24
+SHA1: 5ec3a150f63ca6a134e11b671496debdc2fb1e5d
+SHA256: 3b8925b80caef50fc7a748b526bb8325a2832a86a90037ebf602dd846f7d76fb
+Section: Tweaks
+Description: 在键盘下方添加选择、复制和粘贴的快捷键
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depictions/index.html?packageId=com.ginsu.kbpro
+Icon: https://ginsu.dev/repo/api/packageinfo/com.ginsu.kbpro/icon.png
+Name: KBPro
+Sileodepiction: https://ginsu.dev/repo/depictions/native/com.ginsu.kbpro.json
+
 Package: com.white.leap
 Version: 0.0.1
 Architecture: iphoneos-arm
@@ -409,6 +511,24 @@ Section: Tweaks
 Description: Lightricks软件包括Photoleap, Videoleap, Beatleap, Lightleap, 艺章(Artleap), Motionleap及Facetune Video, Facetune破解，解锁会员订阅
 Author: 小果子
 Name: Lightricks-leap通用破解
+
+Package: com.white.rebootmodule
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 159
+Depends: mobilesubstrate, com.opa334.ccsupport, firmware(>= 11.0)
+Filename: ./debs/com.white.rebootmodule_1.1.0_iphoneos-arm.deb
+Size: 19070
+MD5sum: 33ca151e7888edc590cdb416d3b8f0db
+SHA1: 92afa4d8b46478cc7b05ed2bcebf52a8139fa901
+SHA256: 94f137f4d8facb7a43b0e2e8508a79386101cef9e1e95e3425323384ef7467d5
+Section: Tweaks
+Description: 一个控制中心模块，轻松重新启动您的设备！
+Tag: purpose::extension
+Author: White <1410970825@qq.com>
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Name: 控制中心重启模块
 
 Package: com.white.resentment
 Version: 1.0k
@@ -427,6 +547,43 @@ Depiction: https://repo.cypwn.xyz/depiction/1944
 Icon: https://media.havoc.app/65b9c2a8d798b2b3c1908016
 Name: Resentment
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1944
+
+Package: com.white.respringmodule
+Version: 1.1.3
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 162
+Depends: mobilesubstrate, com.opa334.ccsupport, firmware(>= 11.0)
+Filename: ./debs/com.white.respringmodule_1.1.3_iphoneos-arm.deb
+Size: 29112
+MD5sum: 39bd4cf105914b0cd6e0349ebf854489
+SHA1: 0dc7dc25565fde8dd65647543115f7c238026b1c
+SHA256: 5f6a7a66c22f3b0fd4e40812caff18fcaccc3e212fe53fa93549755af0ff40b3
+Section: 系统
+Description: 控制中心添加注销模块
+Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13
+A12: 1
+Author: White <1410970825@qq.com>
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Icon2: 12.png
+Name: 控制中心注销模块
+Sponsor: Tweaks
+
+Package: com.white.safeccmodules
+Version: 1.5-2
+Architecture: iphoneos-arm
+Maintainer: CyPwn
+Filename: ./debs/com.white.safeccmodules_1.5-2_iphoneos-arm.deb
+Size: 1166774
+MD5sum: 53c683c1bf427d2b33241efa53288bf4
+SHA1: 5f6a5e7a07986cca76f649749f92fcf14d62a7db
+SHA256: b98e946afda8227bc69af43cfb1b2d87a43d1f703a8871f83cdabce77d2146e5
+Section: Tweaks
+Description: 适用于iOS 11-15的一些控制中心模块
+Author: jailbreak365
+Depiction: https://repo.cypwn.xyz/depiction/1623
+Name: CCModules
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1623
 
 Package: com.white.tai
 Version: 5.2.2
@@ -575,6 +732,23 @@ Author: udevs
 Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.vpnindicator
 Icon: https://turannul.github.io/home/resources/vpnindicator.png
 Name: VPNIndicator
+
+Package: com.white.wyyllnoads
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Huayuarc
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: ./debs/com.huayuarc.wyyllnoads_0.0.1_iphoneos-arm.deb
+Size: 5330
+MD5sum: 2a31baf9f2fb852ea90eec0f9c10b8fc
+SHA1: fd9fa42caf618a5d18dade6f2845d0becf02a8da
+SHA256: 72d2321253827f1b329ce9c8fa15771a462f56e39629b7ac1cd8f8c71487c36b
+Section: Tweaks
+Description: 去除启动广告｜屏蔽越狱检测｜免会员使用部分会员功能｜开启空间音频
+Author: Huayuarc
+Name: 网易云音乐 NoAds
+Sponsor: Huayuarc
 
 Package: flexdecrypt
 Version: 1.1
@@ -1311,4 +1485,24 @@ Author: Soongyu Kwon & Timeloop
 Depiction: https://rejail.ru/depiction.php?file=grupi
 Name: Grupi Rus
 Sileodepiction: https://rejail.ru/sileo/depiction.php?file=grupi
+
+Package: shc
+Version: 4.0.3
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 92
+Filename: ./debs/shc_4.0.3_iphoneos-arm.deb
+Size: 17766
+MD5sum: e28310494930043698b0d91da65656c2
+SHA1: 7441da8e8a1e76c05db207ed11a02e3d24af1841
+SHA256: f2463e12e67b07e36be72ecd21def29e6cb888c625ed4a99254724e0549ab2ff
+Section: Tools
+Priority: optional
+Description: shell脚本编译器
+ shc是一个通用的 shell 脚本编译器
+ 它需要一个在命令行上指定的脚本并生成C语言源码，然后编译并链接生成的源代码以生成剥离的二进制文件
+ .
+ 编译后的二进制文件仍将依赖于 shell 代码第一行中的shell，因此shc不会创建完全独立的二进制文件
+ .
+ shc它不像cc这样的编译器，它是对shell脚本进行编码和加密，并生成具有附加过期功能的C源码。然后，它使用系统编译器编译一个剥离的二进制文件，其行为与原始脚本完全相同。执行时，编译后的二进制文件将使用shell 的 -c 选项解密并执行代码
 
