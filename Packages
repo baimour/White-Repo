@@ -157,6 +157,25 @@ Description: 增加SpringBoard内存，以防止SpringBoard崩溃并停止随机
 Author: Pheux
 Name: Fix Random Resprings
 
+Package: com.white.aismithpremium
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: CyPwn
+Installed-Size: 280
+Depends: mobilesubstrate
+Filename: ./debs/com.white.aismithpremium_1.0.0_iphoneos-arm.deb
+Size: 19826
+MD5sum: ff0d99ab5c8b6d954e4dc15e042a1501
+SHA1: e7ce4d3ff7f6d79520d66c2ab7f40979a35538b6
+SHA256: 3418d493edee1f266cfbe7cde6a285d3d1736449549fbb00256fc0de88419f76
+Section: Tweaks
+Description: 激活年度会员权限
+Author: Ravand <Ravand0010@gmail.com>
+Depiction: https://repo.cypwn.xyz/depiction/1352
+Icon: https://i.postimg.cc/W3xbgsP2/1503-A9-A3-713-B-4232-A556-C1-E034-D18067.png
+Name: AI Smith Premium
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1352
+
 Package: com.white.allowkeyboard
 Version: 1.6
 Architecture: iphoneos-arm
@@ -207,6 +226,25 @@ Section: NoAds
 Description: 支持7.3.0-8.1.0去启动/首页广告及更新弹窗
 Author: White <1410970825@qq.com>
 Name: 中国农业银行屏蔽越狱
+
+Package: com.white.bigsurcenter
+Version: 1.4.4k
+Architecture: iphoneos-arm
+Maintainer: CyPwn
+Installed-Size: 1820
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, ws.hbang.common (>= 1.17), ws.hbang.alderis (>= 1.2)
+Filename: ./debs/com.white.bigsurcenter_1.4.4k_iphoneos-arm.deb
+Size: 776468
+MD5sum: eca9e56e9bb9042ddbd2f38b3164f736
+SHA1: 4cc40816e663723f503a75287e365e388c0b6840
+SHA256: 739c83db3a1af3f88fe264a1fcdbdafed9b20a3812bbfcd31df8c58311d7fbbc
+Section: Tweaks
+Description: BigSurCenter受MacOS Big Sur控制中心启发的新型轻量且优雅的控制中心取代了默认的iOS控制中心
+Author: nicho1asdev
+Depiction: https://repo.cypwn.xyz/depiction/1946
+Icon: https://media.havoc.app/62a780880e4e7bb50110e25b
+Name: BigSurCenter
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1946
 
 Package: com.white.bilianime
 Version: 1.0
@@ -309,6 +347,25 @@ Description: 一键破解插件，完善汉化
 Author: julioverne
 Depiction: https://julio.hackyouriphone.org/description.html?id=com.julioverne.cracktool4
 Name: CrackTool4 (iOS 9 - 14)
+
+Package: com.white.customizebw
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: MainRepo
+Installed-Size: 588
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), ws.hbang.common (>= 1.15.1), ws.hbang.alderis (>= 1.1.1)
+Filename: ./debs/com.white.customizebw_1.0.0_iphoneos-arm.deb
+Size: 97570
+MD5sum: 2b32a2cc0fc88aeeaf9e6de6fb4b8e11
+SHA1: 0d923aad207f3b0ea1907373273de8f2f6d93ae7
+SHA256: fbc90a59a71d3c559111ad6bab020fe8b5f30e8e10ee048963522405ccfde282
+Section: Tweaks
+Description: 定制您的设备！
+Author: Miguelaka95 <miguelaka95@gmail.com>
+Depiction: https://mrepo.org/depiction/4903
+Icon: https://img.chariz.cloud/icon/customizebw/icon@3x.png
+Name: CustomizeBW
+Sileodepiction: https://mrepo.org/sileo/4903
 
 Package: com.white.cydown
 Version: 7.1.2-1
@@ -703,6 +760,22 @@ Depiction: https://repo.cypwn.xyz/depiction/1623
 Name: CCModules
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1623
 
+Package: com.white.sbypass
+Version: 2.0.1
+Architecture: iphoneos-arm
+Maintainer: CyPwn
+Depends: applist, com.rpetrich.rocketbootstrap, com.spark.libsparkapplist
+Filename: ./debs/com.white.sbypass_2.0.1_iphoneos-arm.deb
+Size: 1998628
+MD5sum: d036e3643ba4c509ed1a54f77af5d742
+SHA1: 3cd450945bf940ec309f3c6d7eee055ff6c582c3
+SHA256: b0c1de633f50c110a728c122a122a7aabff8d3556aae6f4792a94faeced17783
+Section: Tweaks
+Description: 绕过大多数应用程序的越狱检测
+Author: Said Mohd
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/sbypass.png
+Name: S-Bypass (iOS 10 - 14)
+
 Package: com.white.sugarcane
 Version: 1.0.2-1
 Architecture: iphoneos-arm
@@ -1061,6 +1134,23 @@ Section: System
 Description: 提供二进制文件动态解密列表，方便逆向工程应用
 Author: White <1410970825@qq.com>
 Name: DumpBinaryFiles
+
+Package: netskao.fakemodel
+Version: 1.2-1
+Architecture: iphoneos-arm
+Maintainer: Nets
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
+Filename: ./debs/fakemodel_1.2-1.deb
+Size: 185600
+MD5sum: a8ce35576370a16ba55ac17355d35281
+SHA1: 2b3b890a4d9542ba4ae43a14cc92725a1c2d20ca
+SHA256: 96dcfdbf9d5d194b7cd7327776c886426a7496ce9af013d74be4a5c8c3aec83d
+Section: Tweaks
+Description: 修改为虚假设备型号欺骗应用程序
+Author: Netskao
+Depiction: https://repo.cypwn.xyz/depiction/1774
+Name: FakeModel
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1774
 
 Package: netskao.pulloverpro
 Version: 2.1.4-1
