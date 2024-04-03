@@ -181,15 +181,15 @@ Package: com.white.bankabc
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
-Installed-Size: 149
+Installed-Size: 165
 Depends: mobilesubstrate
-Filename: ./debs/Bankabc_1.0.deb
-Size: 5968
-MD5sum: f0a46e3e56ba2e46c55d5c1ef380021c
-SHA1: f280eb99e10e8e428e2b15ff11d46b504c0b77e4
-SHA256: e8b78cbc4808becc8c9cae007887f17a5b6cf77dce219395fec74c53d937158d
+Filename: ./debs/com.white.bankabc_1.0_iphoneos-arm.deb
+Size: 7546
+MD5sum: 776c80df96b0d855d6de680821f843fa
+SHA1: 51f07acfcfe433518695a36ae32688f3bc4160f3
+SHA256: 0c9fd3bdada3afed78e5e2760f99324ee39d377ba046fde305bb706c526e89ed
 Section: NoAds
-Description: 支持7.3.0-8.1.0去启动广告及更新弹窗，屏蔽越狱
+Description: 支持7.3.0-8.1.0去启动/首页广告及更新弹窗
 Author: White <1410970825@qq.com>
 Name: 中国农业银行屏蔽越狱
 
