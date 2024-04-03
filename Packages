@@ -321,13 +321,13 @@ Architecture: iphoneos-arm
 Maintainer: c0pyn1nja
 Depends: firmware (>= 11.0)
 Filename: ./debs/crackerxi_1.1.16.deb
-Size: 6069188
-MD5sum: 7d486983ff048853d2c4d2c94a8c128d
-SHA1: 95fbe3c9267ae079ff427ec2958d48851a47e8f5
-SHA256: 2359373cb89cbc881c20922757c3a204e3f4ff14ee15a9190a57c712e12f0eff
+Size: 7028126
+MD5sum: 2ee45616e3b941a059d8dc09c4ea9970
+SHA1: 9b2e960dbdf692b1d4c7dea9ef369ba6103fb4ff
+SHA256: 1b1478b26f595ece458752287fae62c09f5f7f9867a1050b24165af5c92010e7
 Section: Utilities
 Description: 解密iOS砸壳应用，不支持牛磺酸
-Icon: file:///Applications/crackerxi.app/AppIcon.png
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/crackerxi.png
 Name: CrackerXI+
 Website: https://ipastore.me
 
