@@ -611,11 +611,11 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 162
 Depends: mobilesubstrate, com.opa334.ccsupport, firmware(>= 11.0)
 Filename: ./debs/com.white.respringmodule_1.1.3_iphoneos-arm.deb
-Size: 29112
-MD5sum: 39bd4cf105914b0cd6e0349ebf854489
-SHA1: 0dc7dc25565fde8dd65647543115f7c238026b1c
-SHA256: 5f6a7a66c22f3b0fd4e40812caff18fcaccc3e212fe53fa93549755af0ff40b3
-Section: 系统
+Size: 29114
+MD5sum: 68c6fd512027ff30bc791adb3ab60ccc
+SHA1: 92974174f76836a5f37c05c65b042ec4f9ebd69b
+SHA256: 9eb768e11dabeea74efae29b2f3825b3daff9c40642bed76d456fcfd30bebc82
+Section: System
 Description: 控制中心添加注销模块
 Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13
 A12: 1
