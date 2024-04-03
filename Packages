@@ -157,6 +157,21 @@ Description: 增加SpringBoard内存，以防止SpringBoard崩溃并停止随机
 Author: Pheux
 Name: Fix Random Resprings
 
+Package: com.white.allowkeyboard
+Version: 1.6
+Architecture: iphoneos-arm
+Maintainer: iBreak <ibreak2019@qq.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.white.allowkeyboard_1.6_iphoneos-arm.deb
+Size: 6192
+MD5sum: a722a57440f24f0da2b74c09eaea1c45
+SHA1: 8d95f1ee259dededbc3d7628983fe8e5639dcbcd
+SHA256: 2987307669c71b85a8c913949e3c99fc634a39d229ab50362efe71eb03c38088
+Section: Tweaks
+Description: 允许第三方键盘获取优先级权限，密码可使用第三方输入法
+Author: iBreak <ibreak2019@qq.com>
+Name: Allow KeyBoard
+
 Package: com.white.appstoreplusplus
 Version: 0.10.1-5
 Architecture: iphoneos-arm
@@ -457,6 +472,24 @@ Description: 本地内购插件，仅支持本地验证的应用内购，请不�
 Author: 小果子
 Name: FuckPay
 
+Package: com.white.genieaichatbot
+Version: 6.1.0
+Architecture: iphoneos-arm
+Maintainer: CyPwn
+Depends: mobilesubstrate
+Filename: ./debs/com.white.genieaichatbot_6.1.0_iphoneos-arm.deb
+Size: 11682
+MD5sum: 0a8e1b8678ee3007d112656d4dd37a9c
+SHA1: 3a75b9d115a6ec1821a67233098e55be36b21c85
+SHA256: 679489ad85e78f58af4c849465757f5e292f76a29b4a522bed3b80afd6ae3faf
+Section: NoAds
+Description: Genie解锁专业功能 - AI聊天机器人和键盘
+Author: CyPwn
+Depiction: https://repo.cypwn.xyz/depiction/1897
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/genieaichatbot.png
+Name: Genie AI Chatbot Pro
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1897
+
 Package: com.white.haptickeys
 Version: 4.4
 Architecture: iphoneos-arm
@@ -550,6 +583,36 @@ Section: Tweaks
 Description: Lightricks软件包括Photoleap, Videoleap, Beatleap, Lightleap, 艺章(Artleap), Motionleap及Facetune Video, Facetune破解，解锁会员订阅
 Author: 小果子
 Name: Lightricks-leap通用破解
+
+Package: com.white.networkexalt
+Version: 1.2.1
+Architecture: iphoneos-arm
+Maintainer: iBreak <ibreak2019@qq.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.white.networkexalt_1.2.1_iphoneos-arm.deb
+Size: 6814
+MD5sum: 4e5a493870e1fdd82394f00d3489deec
+SHA1: 695927387017400dd73f1d9088abb10baa7208b5
+SHA256: 5804cb9e6ff1214ec923502c973d5b93d17d7ef1a07a9baca6d1aecf3397e35c
+Section: Tweaks
+Description: 启动无线/蜂窝网络框架优化来提升响应速度
+Author: iBreak <ibreak2019@qq.com>
+Name: Network Exalt
+
+Package: com.white.noquickbar
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: iBreak <ibreak2019@qq.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.white.noquickbar_1.0_iphoneos-arm.deb
+Size: 4822
+MD5sum: d3adfffb546d8ced1a77ebde1f669cc1
+SHA1: 475af70184ab191ffe8fd37fc4d07651a37d95e8
+SHA256: 20dcfc76a4c761ee9aff5603f761666937c0dedb2eb79b2671f4b8ba183444a1
+Section: Tweaks
+Description: 去除状态栏左上角App快捷返回
+Author: iBreak <ibreak2019@qq.com>
+Name: No Quick Bar
 
 Package: com.white.rebootmodule
 Version: 1.1.0
@@ -735,6 +798,21 @@ Description: 屏蔽最新版淘宝越狱检查
 Author: White <1410970825@qq.com>
 Name: 淘宝屏蔽越狱
 
+Package: com.white.thunderhelper
+Version: 1.5.1
+Architecture: iphoneos-arm
+Maintainer: iBreak <ibreak2019@qq.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.white.thunderhelper_1.5.1_iphoneos-arm.deb
+Size: 165114
+MD5sum: 035fb751b722d43f1275a4ee7643e827
+SHA1: cea2080807ae533e051e5cf976fcf3cd3eeba373
+SHA256: 092ab576de33e21f1eb7dde73c27496547b64cf3bd7f661ec3904bc09de94f6c
+Section: NoAds
+Description: 迅雷助手 - 完美支持5.20 ~ 5.32
+Author: iBreak <ibreak2019@qq.com>
+Name: Thunder Helper
+
 Package: com.white.tools
 Version: 2.3.6
 Architecture: iphoneos-arm
@@ -770,6 +848,21 @@ Description: 屏蔽最新版越狱和关键词检查
 Author: White <1410970825@qq.com>
 Name: Uni Dream屏蔽关键词检查
 
+Package: com.white.videohelper
+Version: 3.0
+Architecture: iphoneos-arm
+Maintainer: iBreak <ibreak2019@qq.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.white.videohelper_3.0_iphoneos-arm.deb
+Size: 135272
+MD5sum: 0f957922ca700e9619e9900d0654eb44
+SHA1: 41c06a7584b6718297f2d809ce95611758d87e55
+SHA256: d6d07227dfa9897a6bccffd6091d53efcd83f0a21a35dbc805f2a0adb102c763
+Section: Tweaks
+Description: 视频免广告多功能助手
+Author: iBreak <ibreak2019@qq.com>
+Name: Video Helper
+
 Package: com.white.volumeflex
 Version: 0.0.5-1
 Architecture: iphoneos-arm
@@ -803,6 +896,36 @@ Author: udevs
 Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.vpnindicator
 Icon: https://turannul.github.io/home/resources/vpnindicator.png
 Name: VPNIndicator
+
+Package: com.white.wallpaperbox
+Version: 1.3.1
+Architecture: iphoneos-arm
+Maintainer: iBreak <ibreak2019@qq.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.white.wallpaperbox_1.3.1_iphoneos-arm.deb
+Size: 126444
+MD5sum: 9bbfe31ca85f220073327fafefce097b
+SHA1: 46b89858fd46ac97149bb8b0b386f5078e4d019d
+SHA256: 10e794b14906d30901d618cfd48b5e9e44dbb24a15d227cfec4230975f95e740
+Section: Tweaks
+Description: 还原iOS壁纸的原色彩以及优化
+Author: iBreak <ibreak2019@qq.com>
+Name: Wallpaper Box
+
+Package: com.white.wechathelper
+Version: 3.1.2
+Architecture: iphoneos-arm
+Maintainer: iBreak <ibreak2019@qq.com>
+Depends: mobilesubstrate,preferenceloader
+Filename: ./debs/com.white.wechathelper_3.1.2_iphoneos-arm.deb
+Size: 196272
+MD5sum: 05b57d1ae8d3ceb40f244eef4d7871cd
+SHA1: fb401a5fc161bfa7e1621a4ce1de7ac75ebd1691
+SHA256: f0dd8a839c0754f28432ed7efa855fc5beddc131ba4943acc2879449cda86962
+Section: NoAds
+Description: 微信多功能定义助手
+Author: iBreak <ibreak2019@qq.com>
+Name: WeChat Helper
 
 Package: com.white.wyyllnoads
 Version: 0.0.1
