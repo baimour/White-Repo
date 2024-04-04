@@ -211,6 +211,26 @@ Dev: CokePokes
 Icon: https://cokepokes.github.io/depiction/appstoreplus/icon.png
 Name: AppStore++汉化版
 
+Package: com.white.atria
+Version: 1.4.1
+Architecture: iphoneos-arm
+Maintainer: ren7995 <lau7995ren@gmail.com>
+Installed-Size: 877
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
+Conflicts: com.irepo.boxy4, me.kritanta.homepluspro
+Filename: ./debs/com.white.atria_1.4.1_iphoneos-arm.deb
+Size: 259636
+MD5sum: cc6f1366740c9525b31381f5ce6c0378
+SHA1: 66593c7eddbd338389bfc3f9a606e5d7604214d6
+SHA256: e2d43d6013db31affd155b2b2661669dec6f7f598b8be537bfca98c10bd5e6c9
+Section: Tweaks
+Description: 适用于iOS 13-16的自定义桌面布局
+Tag: compatible_min::ios13.0
+Author: ren7995 <lau7995ren@gmail.com>
+Depiction: https://chariz.com/get/atria
+Icon: https://img.chariz.cloud/icon/atria/icon@3x.png
+Name: Atria
+
 Package: com.white.bankabc
 Version: 1.0
 Architecture: iphoneos-arm
@@ -420,24 +440,23 @@ Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2054
 Package: com.white.dumpdecrypter
 Version: 1.3-7
 Architecture: iphoneos-arm
-Maintainer: Netskao <bigboss@thebigboss.org>
+Maintainer: Netskao
 Installed-Size: 2428
 Depends: firmware (>= 11.0), mobilesubstrate
-Filename: ./debs/dumpdecrypter_1.3-7.deb
-Size: 529140
-MD5sum: c42c5db235352fc293ca34bfc12bf25d
-SHA1: 4ea4b867afe7eb3a4ee9a3273a38109cde0651dd
-SHA256: d152b6f0c8b10ff1d6479f687084696fa498cfe4726f655cf6b0e5ca087cfe05
+Filename: ./debs/com.white.dumpdecrypter_1.3-7_iphoneos-arm.deb
+Size: 592854
+MD5sum: c29f7207ba193a7f5112ea65badf77b4
+SHA1: 515a59a45bea31a4737185981adaa857a291b25d
+SHA256: 9d96009cf119777f09c7aa192c3fa281e17299825847a5c59d4007ff35576549
 Section: Utilities
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dumpdecrypterDp
-Description: DumpDecrypter是基于dumpdecrypted的修改封装，使用方式：打开桌面的DumpDecrypter应用程序选择需要解密的应用，解密的IPA会保存至：/var/mobile/Documents/DumpDecrypter
+Description: DumpDecrypter是基于dumpdecrypted的修改封装
+ 使用方式：打开桌面的DumpDecrypter应用程序选择需要解密的应用，解密的IPA会保存至：/var/mobile/Documents/DumpDecrypter
  选择应用后会自动杀掉应用进程重新打开，解密前加载所有Frameworks，解密前停止所有非解密线程，解密完成后自动恢复等(解密后的IPA如果要直接安装，建议重新签名，无论使用的签名证书是否有效，否则某些环境会出现闪退等问题)
-Tag: purpose::extension
-Author: Netskao <1410970825@qq.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dumpdecrypterDp
-Dev: netskao
+Author: Netskao
+Icon: file:///Applications/Cydia.app/Sections/Utilities.png
+Icon2: 5.png
 Name: DumpDecrypter
-Sponsor: thebigboss.org <http://thebigboss.org>
+Sponsor: Netskao
 
 Package: com.white.facetunevip
 Version: 3.0
@@ -671,6 +690,26 @@ Description: 去除状态栏左上角App快捷返回
 Author: iBreak <ibreak2019@qq.com>
 Name: No Quick Bar
 
+Package: com.white.onesettings
+Version: 2.0.4
+Architecture: iphoneos-arm
+Maintainer: MainRepo
+Installed-Size: 1104
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
+Conflicts: com.shepgoba.settingswidgets, com.creaturecoding.shuffle
+Filename: ./debs/com.white.onesettings_2.0.4_iphoneos-arm.deb
+Size: 265332
+MD5sum: cb04f580b323a9c0bfcf5bc8b04c4048
+SHA1: 827c7197fc8fd1c04af1bd37bdcbafb7eb6e67f5
+SHA256: e7b466e59c00f482f0b21ad5fa51f4ff12e3983f072191e839a6e61d22a4e9bc
+Section: Tweaks
+Description: 系统设置的美化增强插件
+Author: Nightwind
+Depiction: https://mrepo.org/depiction/5576
+Icon: https://img.chariz.cloud/icon/onesettings/icon@3x.png
+Name: OneSettings
+Sileodepiction: https://mrepo.org/sileo/5576
+
 Package: com.white.rebootmodule
 Version: 1.1.0
 Architecture: iphoneos-arm
@@ -861,13 +900,13 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
 Depends: mobilesubstrate
-Filename: ./debs/taobao_1.0.deb
-Size: 6028
-MD5sum: 187ab8a6e6dd247b3528bab23c173332
-SHA1: fc2ff52ad2c3d6a94ed504835e98b984c1fa0ae0
-SHA256: 97e1cfe550d0f10e0159edb81e25cd5a717e7c3da150c0a1eaa052bd7b6c0060
+Filename: ./debs/com.white.taobao_1.0_iphoneos-arm.deb
+Size: 7190
+MD5sum: 0c7b2881fa7881f0f8ed665d5c461530
+SHA1: a0fcd09043fac16f42bb260189cba5136c0d7e5c
+SHA256: 0e141b24e0ac7ac194c0266fe0672d03ede37c4be2a0da7ebe936aa16a905bbc
 Section: NoAds
-Description: 屏蔽最新版淘宝越狱检查
+Description: 屏蔽淘宝部分越狱检查
 Author: White <1410970825@qq.com>
 Name: 淘宝屏蔽越狱
 
@@ -1041,6 +1080,30 @@ Depiction: http://cydia.saurik.com/info/cydia/
 Icon: file:///Applications/Cydia.app/Icon-60.png
 Name: Cydia Installer
 
+Package: cydia
+Version: 1.1.36-3
+Architecture: iphoneos-arm
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 6496
+Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=12.0)
+Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz-utils, zstd
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Provides: bigbossbetarepo, cydia-sources, cydia-lproj
+Filename: ./debs/cydia_1.1.36-3_iphoneos-arm.deb
+Size: 1282542
+MD5sum: 7fe45f0aefcacfcae3f9e273ce1bf599
+SHA1: 809845f193170670590eb8c55aeab49c5dd504e6
+SHA256: 0b35970a9df4a2f28e6b308bf9670011444c8cc4cf0734b92972cae522bb3a82
+Section: Tweaks
+Priority: important
+Description: 此版本为Chimera、Taurine越狱专用
+Tag: purpose::uikit, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Icon: file:///Applications/Cydia.app/Icon-60.png
+Name: Cydia Installer
+Sponsor: Procursus Team <support@procurs.us>
+
 Package: cydia-lproj
 Version: 1.1.32~b1
 Architecture: iphoneos-arm
@@ -1103,6 +1166,39 @@ Name: Activator
 Sponsor: thebigboss.org <http://thebigboss.org>
 依赖源：https: //rpetri.ch/cydia/
 
+Package: netskao.3dnetworkfixer
+Version: 1.1-8
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 448
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/netskao.3dnetworkfixer_1.1-8_iphoneos-arm.deb
+Size: 82488
+MD5sum: 496f916f9b070cfadba410c39ebad3f5
+SHA1: 189f2314a8b6b59f0147451439692d5bef5a6e91
+SHA256: 74e6d8f7411fc69b6b79ae44fd1e4e57a0e3cf8cdae0865390a966107a7be2b5
+Section: Tweaks
+Description: 3D桌面菜单，快速修复应用程序联网权限，支持iOS13-iOS15
+Author: Netskao
+Name: 3DNetworkFixer
+
+Package: netskao.appsmanagercrack
+Version: 1.1-2
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 136
+Depends: mobilesubstrate, com.tigisoftware.appdatamanager
+Filename: ./debs/netskao.appsmanagercrack_1.1-2_iphoneos-arm.deb
+Size: 7524
+MD5sum: b300f13ad557ee5778f1c510dda23af1
+SHA1: 7f57c1be673aa45768afff346a5a4e73ad36e492
+SHA256: c6babe1642c03f025975bef1d2690e399e962de954d7276c1e443983d470fd1a
+Section: Tweaks
+Homepage: https://tigisoftware.com/cydia/
+Description: AppsManager解锁全部功能，主程序请在官方源安装
+Author: Netskao
+Name: AppsManager Crack
+
 Package: netskao.blblnoads
 Version: 1.1-2
 Architecture: iphoneos-arm
@@ -1118,6 +1214,70 @@ Section: NoAds
 Description: 哔哩哔哩去除启动广告, 去除青少年提示, 去除AppStore评分提示, 去除底部动态\发布\会员购按钮, 去除瀑布流中插入广告, 去除视频详情页面推荐视频中的创作推广, 去除评论区顶部会员推广, 我的页面推广等, 仅支持7.48.0及以上版本
 Author: Netskao
 Name: 哔哩哔哩 NoAds
+
+Package: netskao.ccpower
+Version: 1.9-3
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 2700
+Depends: firmware (>= 11.0), mobilesubstrate, com.opa334.ccsupport (>= 1.3)
+Filename: ./debs/netskao.ccpower_1.9-3_iphoneos-arm.deb
+Size: 1055480
+MD5sum: dd17eb6f0df4b34ea7691797a74e106f
+SHA1: 8b038e16ff803d3d8c559992a6cbba0b9bac1a2c
+SHA256: 71e23d6b06238fa0af798449a08266cf509ad9032b5f0e23a337e2e1198b63a6
+Section: Tweaks
+Description: 控制中心快速启动工具，支持iOS11-iOS15
+Author: Netskao
+Name: CCPower
+
+Package: netskao.ccswitchdata
+Version: 1.1-3
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 116
+Depends: firmware (>= 12.0), mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/netskao.ccswitchdata_1.1-3_iphoneos-arm.deb
+Size: 22412
+MD5sum: 41ae4ac7a825838ad7c554f7ef097bb9
+SHA1: c3d16adb429332673e90ed3247f97a5e266d14b1
+SHA256: 1f280416ed67caa0c06157ae73be207a55ef16759c3040c842c3bd0d4569cc14
+Section: Tweaks
+Description: 双SIM卡用户，可以通过控制中心快捷切换所选择的蜂窝网络
+Author: Netskao
+Name: CCSwitchData
+
+Package: netskao.disablepastetips
+Version: 1.1-5
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 168
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./debs/netskao.disablepastetips_1.1-5_iphoneos-arm.deb
+Size: 3092
+MD5sum: f957063c1a518403645c61b670dd6014
+SHA1: 8857a3e443f5039c7d1266ecb26889f3a528e342
+SHA256: a41c5a3f55158e2a45a587cbc7a0890c9f89502f4b04fc3494ba3515b2343be7
+Section: Tweaks
+Description: 禁用粘贴提示，支持iOS14-iOS15
+Author: Netskao
+Name: DisablePasteTips
+
+Package: netskao.disableshuttersound
+Version: 1.1-2
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 10.0)
+Filename: ./debs/netskao.disableshuttersound_1.1-2_iphoneos-arm.deb
+Size: 3696
+MD5sum: 618af63c1552040b746325f42a3e9b3e
+SHA1: 3e9e191f0a3d327fdc4d4310355e24932b8689e9
+SHA256: f7c191d8f34be479a7cf7a78334c37351f381ba6165c3f8556993b8c732ff190
+Section: Tweaks
+Description: 禁用拍照快门声
+Author: Netskao
+Name: DisableShutterSound
 
 Package: netskao.dumpbinaryfiles
 Version: 1.1-8
@@ -1151,6 +1311,59 @@ Author: Netskao
 Depiction: https://repo.cypwn.xyz/depiction/1774
 Name: FakeModel
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1774
+
+Package: netskao.filzacrack
+Version: 1.1-8
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 136
+Depends: mobilesubstrate, com.tigisoftware.filza64bit
+Filename: ./debs/netskao.filzacrack_1.1-8_iphoneos-arm.deb
+Size: 7574
+MD5sum: e8d740dd16e36e1534c915b2933e30e9
+SHA1: 706ecf811c6efaae03a4c61fe59ff28ad5a62ad6
+SHA256: ac5a1ae297d59b017bdd5ff10be7ce019e2edf5c67035c1b3d4e9141a299f15d
+Section: Tweaks
+Homepage: https://tigisoftware.com/cydia/
+Description: Filza解锁全部功能，主程序请在官方源安装
+Author: Netskao
+Name: Filza Crack
+
+Package: netskao.lookinloader
+Version: 1.1-3
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 1436
+Depends: firmware (>= 13.0), mobilesubstrate
+Conflicts: netskao.3dlookinloader
+Filename: ./debs/netskao.lookinloader_1.1-3_iphoneos-arm.deb
+Size: 318624
+MD5sum: 642ea14b9bab9041bcc3f975a05e8b92
+SHA1: b22dc24e59af0f674a2cda90d340e3e9e8dd177a
+SHA256: feca13c10bf09f907f4732a23c1b03568cc958887b8b69db90226107300b7e60
+Section: Tweaks
+Description: LookinServer 动态加载工具，通过桌面长按图标调出菜单
+Author: Netskao
+Name: LookinLoader
+
+Package: netskao.mterminal
+Version: 1.4-3
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 312
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware (>= 10.0), coreutils, com.linusyang.localeutf8 | gettext-localizations, system-cmds, bash | zsh
+Conflicts: com.officialscheduler.mterminal
+Filename: ./debs/netskao.mterminal_1.4-3_iphoneos-arm.deb
+Size: 94004
+MD5sum: a8e7c6cc2389721b6b633fa439399ed4
+SHA1: c7292944a38030ca7d814729af12e61e26c7e71b
+SHA256: ca7d780741703dd3bfd09491b6c9cda0e80ce29683b45a016c28266ceed7b31e
+Section: Tweaks
+Homepage: https://bitbucket.org/lordscotland/mterminal
+Description: 移动终端支持全屏
+Author: lordscotland
+Name: MTerminal
 
 Package: netskao.pulloverpro
 Version: 2.1.4-1
@@ -1744,6 +1957,23 @@ Section: NoAds
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.9.0及以上版本
 Author: Netskao
 Name: QQ净化
+
+Package: netskao.smallbanners
+Version: 1.2-5
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 560
+Depends: mobilesubstrate, firmware (>= 13.0)
+Conflicts: it.dreamcode.picobanners2, netskao.picobanners2
+Filename: ./debs/netskao.smallbanners_1.2-5_iphoneos-arm.deb
+Size: 124890
+MD5sum: bb2e358daf70ff5009c1671f0e39558c
+SHA1: ca5a4b5b878c6b5ae7152355a2a4aae1081c31fd
+SHA256: c5183e8a0c9d712ba4d79175398ea77962d666838ae28d688ca77edba5fb41e2
+Section: Tweaks
+Description: 小通知横幅，支持iOS13-15
+Author: Netskao
+Name: SmallBanners
 
 Package: netskao.ysfnoads
 Version: 1.1-2
