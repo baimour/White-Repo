@@ -1,24 +1,3 @@
-Package: Flex3beta
-Version: 1:3~Beta98
-Architecture: iphoneos-arm
-Maintainer: John Coates
-Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmware (>= 9.0)
-Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
-Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
-Filename: ./debs/Flex3beta_1_3~Beta98.deb
-Size: 9924784
-MD5sum: b7195fcde56658442dc1d6496b585804
-SHA1: 29b5122b841964f29bd490ff19a190ea33827d52
-SHA256: 457aa6bf4e67147b7df0d4d627ea52a0a8a12b10d54aa077077d523b58a1ae6b
-Section: Utilities
-Description: 开发您自己的补丁并在Flex社区Cloud上分享
- • 添加汉化补丁
- • 添加编辑补丁
- • 添加复制补丁
-Author: John Coates
-Name: Flex 3 Beta
-Recommended: com.rpetrich.rocketbootstrap
-
 Package: com.apple.Preferences
 Version: 9.9.9
 Architecture: iphoneos-arm
@@ -35,6 +14,22 @@ Author: White <1410970825@qq.com>
 Dev: White
 Name: 屏蔽设置重要提醒
 
+Package: com.crazymind90.itheosmakertweak
+Version: 1.5
+Architecture: iphoneos-arm
+Maintainer: @CrazyMind90
+Filename: ./debs/com.crazymind90.itheosmakertweak_1.5_iphoneos-arm.deb
+Size: 1238870
+MD5sum: 3064b7dd6edc2219b8b8c094e2d21b4b
+SHA1: 1424887f60a89fec3b1c2d3857f246ccd04b704c
+SHA256: afb42234ebd4990b7062777943e47b21836c4db9a8a806f72c65a5ec28ed82ac
+Section: Utilities
+Priority: optional
+Description: 创建和管理Theos项目的应用程序
+Author: @CrazyMind90
+Icon: file:///Applications/iTheosMaker.app/AppIcon60x60@3x.png
+Name: iTheosMaker
+
 Package: com.eliofeghali.souvenir
 Version: 1.25
 Architecture: iphoneos-arm
@@ -50,6 +45,73 @@ Section: Tweaks
 Description: 锁屏界面自定义调整！
 Author: Elio Feghali
 Name: Souvenir
+
+Package: com.huayuarc.qjkqdbyx
+Version: 0.0.1.1+debug
+Architecture: iphoneos-arm
+Maintainer: Huayuarc
+Installed-Size: 284
+Depends: mobilesubstrate
+Filename: ./debs/com.huayuarc.qjkqdbyx_0.0.1.1+debug_iphoneos-arm.deb
+Size: 5564
+MD5sum: d357e1b1f3f4152602501339d286dba0
+SHA1: c7b6cb0c93ebe343c855b686b29f487f4e84b9c0
+SHA256: 2f08963cff33846d17703d3d243fb04332c9584dcb109922a999173da54a9c02
+Section: Tweaks
+Description: 全局开启杜比音效，杜比音效和普通音效的区别在于杜比音效加强了立体声效果和低音效果。能够使播放的音频声音更具立体环绕感，给人一种身临其境的感觉
+Author: Huayuarc
+Name: 全局开启杜比音效
+Sponsor: Huayuarc
+
+Package: com.ikilledappl3.theostips
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: iKilledAppl3 <ipodnewbee234@icloud.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.ikilledappl3.theostips_1.0-1_iphoneos-arm.deb
+Size: 5781686
+MD5sum: 975b36c85d81ae3ce2aa5856cea3f76d
+SHA1: 3de77ce8082660ce7f4cb6c35e6d310a1a4dd86b
+SHA256: 41a5f5dfc6babed7dd360a70c7aef7b557bd651f010f9d5fdcda667425f76240
+Section: Utilities
+Description: 了解如何轻松创建插件！
+Author: iKilledAppl3 <ipodnewbee234@icloud.com>
+Icon: file:///Applications/TheosTips.app/AppIcon60x60@2x.png
+Name: TheosTips
+Website: http://ikilledappl3.com
+
+Package: com.level3tjg.researchspoof
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: level3tjg
+Installed-Size: 152
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/com.level3tjg.researchspoof_1.0_iphoneos-arm.deb
+Size: 3280
+MD5sum: 2995c72f0e5514637d817b983f5cf30d
+SHA1: 6c3058501bab1624619c202745ff66a04f03a26e
+SHA256: a8ee3f213c2cb060162d90ecd8eacf70b933d72a9665c2754f662d2947bcfc01
+Section: Tweaks
+Description: 让您的设备看起来像安全研究设备
+Author: level3tjg
+Depiction: https://level3tjg.me/repo/depictions/?p=com.level3tjg.researchspoof
+Name: ResearchSpoof
+
+Package: com.mtac.ampere
+Version: 1.4
+Architecture: iphoneos-arm
+Maintainer: MTAC
+Installed-Size: 604
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
+Filename: ./debs/com.mtac.ampere_1.4_iphoneos-arm.deb
+Size: 111064
+MD5sum: f36fe5541f307340ffb384849c23e87c
+SHA1: 7f3d2015bf92e72208a011fd6955c40974a04ec9
+SHA256: 4b0a8d5974bb4a87a35ac42ec3ab8207a9f35d5a9b9b0feb597c923c481081ed
+Section: Tweaks
+Description: iOS 16风格电池样式
+Author: MTAC
+Name: Ampere
 
 Package: com.myxxdev.samjet
 Version: 1.020722
@@ -142,6 +204,23 @@ Description: 更稳定的iOS 14越狱环境！
 Author: MYXXdev™
 Name: SamJet® (for iOS 14)
 
+Package: com.netskao.pulloverpro
+Version: 2.1.5-3
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 2440
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.c1d3r.pulloverpro
+Filename: ./debs/com.netskao.pulloverpro_2.1.5-3_iphoneos-arm64.deb
+Size: 708676
+MD5sum: 0d5bb99533a16ce1cc1b91d7b2f3a98c
+SHA1: d1846d6e2679c22053143f90df32b078e3af7730
+SHA256: 7b84f96476ff1692fad995a3422b7fafe59c16a58b88cb22e40bae2a20658060
+Section: Tweaks
+Description: 更好的多任务分屏！修复对iOS15+的支持
+Author: c1d3r
+Name: PullOver Pro
+
 Package: com.pheux.fixrandomresprings
 Version: 1.2.1
 Architecture: iphoneos-arm
@@ -157,13 +236,70 @@ Description: 增加SpringBoard内存，以防止SpringBoard崩溃并停止随机
 Author: Pheux
 Name: Fix Random Resprings
 
+Package: com.pixelomer.tweakreviews-db
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: pixelomer <contact@pixelomer.com>
+Installed-Size: 656
+Depends: mobilesubstrate, firmware (>=9.0)
+Conflicts: com.samgisaninja.tweakcompatible-zebra, bz.jed.tweakcompatible
+Filename: ./debs/com.pixelomer.tweakreviews-db_1.2_iphoneos-arm.deb
+Size: 168146
+MD5sum: 02aab4ff8a01096e21fcb59f818cdee1
+SHA1: 9efd513da4b28c359eba9f2a88fba80fca672e71
+SHA256: 6015f1d6c7512e92180291457324c74b9fabe94a6086c451e93bda97636db18b
+Section: Tweaks
+Description: 调整评论变得容易，使用TweakReviewsDB轻松阅读和创建有关您插件的评论。可与Sileo、Zebra和Cydia配合使用
+Tag: compatible_min::ios9.0
+Author: pixelomer <contact@pixelomer.com>
+Depiction: https://chariz.com/get/tweakreviewsdb
+Icon: https://img.chariz.cloud/icon/tweakreviewsdb/icon@3x.png
+Name: TweakReviewsDB
+
+Package: com.white.Flex3beta
+Version: 1:3~Beta98
+Architecture: iphoneos-arm
+Maintainer: John Coates
+Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmware (>= 9.0)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Filename: ./debs/Flex3beta_1.3~Beta98_iphoneos-arm.deb
+Size: 10740460
+MD5sum: 9c518a885ce75ee4c8e8be1ac8a7a670
+SHA1: 9fe6ff75732385bf70daf4ee067af5478dd725b8
+SHA256: 14443361b7878425a622a936b81a21b88d92005e820c67f8457c4d55f5892d39
+Section: Tools
+Description: 开发您自己的补丁并在Flex社区Cloud上分享，增加额外汉化、编辑、复制补丁
+Author: John Coates
+Icon: file:///Applications/Flex.app/AppIconBeta60x60@3x.png
+Name: Flex 3 Beta
+Recommended: com.rpetrich.rocketbootstrap
+
+Package: com.white.Flex3beta
+Version: 3~Beta50
+Architecture: iphoneos-arm
+Maintainer: John Coates
+Depends: mobilesubstrate, firmware (>= 9.0), com.rpetrich.rocketbootstrap
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
+Filename: ./debs/Flex3beta_3~Beta50_iphoneos-arm.deb
+Size: 16772350
+MD5sum: 08025b157787c66a73b578957749a401
+SHA1: e51bffd6f301d8e14bfabf3288b0084ce4a3411a
+SHA256: 35c29f58889a2811ea711fd7315a1e54182d923ac4c32efc9f6c72be44f4955f
+Section: Tools
+Description: 听说Flex 3 Beta50有神秘加成，所以上架一个老版本，增加额外汉化、编辑、复制补丁
+Author: John Coates
+Icon: file:///Applications/Flex.app/AppIconBeta60x60@3x.png
+Name: Flex 3 Beta50
+
 Package: com.white.aismithpremium
 Version: 1.0.0
 Architecture: iphoneos-arm
 Maintainer: CyPwn
 Installed-Size: 280
 Depends: mobilesubstrate
-Filename: ./debs/com.white.aismithpremium_1.0.0_iphoneos-arm.deb
+Filename: ./debs/aismithpremium_1.0.0_iphoneos-arm.deb
 Size: 19826
 MD5sum: ff0d99ab5c8b6d954e4dc15e042a1501
 SHA1: e7ce4d3ff7f6d79520d66c2ab7f40979a35538b6
@@ -181,7 +317,7 @@ Version: 1.6
 Architecture: iphoneos-arm
 Maintainer: iBreak <ibreak2019@qq.com>
 Depends: mobilesubstrate
-Filename: ./debs/com.white.allowkeyboard_1.6_iphoneos-arm.deb
+Filename: ./debs/allowkeyboard_1.6_iphoneos-arm.deb
 Size: 6192
 MD5sum: a722a57440f24f0da2b74c09eaea1c45
 SHA1: 8d95f1ee259dededbc3d7628983fe8e5639dcbcd
@@ -218,7 +354,7 @@ Maintainer: ren7995 <lau7995ren@gmail.com>
 Installed-Size: 877
 Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
 Conflicts: com.irepo.boxy4, me.kritanta.homepluspro
-Filename: ./debs/com.white.atria_1.4.1_iphoneos-arm.deb
+Filename: ./debs/atria_1.4.1_iphoneos-arm.deb
 Size: 259636
 MD5sum: cc6f1366740c9525b31381f5ce6c0378
 SHA1: 66593c7eddbd338389bfc3f9a606e5d7604214d6
@@ -237,7 +373,7 @@ Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
 Installed-Size: 165
 Depends: mobilesubstrate
-Filename: ./debs/com.white.bankabc_1.0_iphoneos-arm.deb
+Filename: ./debs/bankabc_1.0_iphoneos-arm.deb
 Size: 7546
 MD5sum: 776c80df96b0d855d6de680821f843fa
 SHA1: 51f07acfcfe433518695a36ae32688f3bc4160f3
@@ -253,7 +389,7 @@ Architecture: iphoneos-arm
 Maintainer: CyPwn
 Installed-Size: 1820
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, ws.hbang.common (>= 1.17), ws.hbang.alderis (>= 1.2)
-Filename: ./debs/com.white.bigsurcenter_1.4.4k_iphoneos-arm.deb
+Filename: ./debs/bigsurcenter_1.4.4k_iphoneos-arm.deb
 Size: 776468
 MD5sum: eca9e56e9bb9042ddbd2f38b3164f736
 SHA1: 4cc40816e663723f503a75287e365e388c0b6840
@@ -266,37 +402,53 @@ Icon: https://media.havoc.app/62a780880e4e7bb50110e25b
 Name: BigSurCenter
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1946
 
-Package: com.white.bilianime
+Package: com.white.bilibili
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
-Installed-Size: 165
+Installed-Size: 88
 Depends: mobilesubstrate
-Filename: ./debs/bilianime_1.0.deb
-Size: 4764
-MD5sum: ad36c20f0802383d9fbc5f17694aea89
-SHA1: 95db2b96ca03b3f18be26e603d1a2b11e5a11c00
-SHA256: 09b57f344b1db631f68b9f01196a7aab7c65cb0cdc16b0d744b055f4a4395688
+Filename: ./debs/bilibili_1.0_iphoneos-arm.deb
+Size: 8470
+MD5sum: 6137bcbebfc1646f2962586fd518ec96
+SHA1: 67663d073f92469c92a6d15d8efcf927ab66e009
+SHA256: e9d80246ea3cbd011980ac33dbc6e744165b1d36c4ed9a714198480d9ad83f7a
 Section: NoAds
-Description: 基于7.65.0制作，去部分广告及屏蔽越狱
+Description: 基于7.51.0制作，其他版本自测。去除部分广告，解锁大会员画质、可缓存普通视频会员画质、解锁免会员电视剧下载权限。屏蔽越狱检测
 Author: White <1410970825@qq.com>
-Name: 哔哩哔哩去广告
+Name: 哔哩哔哩大会员画质
 
 Package: com.white.cloud189
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
-Installed-Size: 149
+Installed-Size: 72
 Depends: mobilesubstrate
-Filename: ./debs/cloud189_1.0.deb
-Size: 4080
-MD5sum: 7b06e0ee97a14cd4d133f2832f609f3e
-SHA1: a20b18285e18c5c3e7aac0cbccab7c721d55e3b5
-SHA256: 583bc40d9322ad69b1e1d379cfd78ade254cb501c743ad596c2cffdff6576ff5
+Filename: ./debs/cloud189_1.0_iphoneos-arm.deb
+Size: 3716
+MD5sum: 5ec21a02b94e858648a1c2ee15e8d040
+SHA1: cb7979ba243000bddec12d245abb4fba9260ba6b
+SHA256: 6761503477e5ca0d40563ec72372611a8dc57340910ddf17f578b745fb7cddcf
 Section: NoAds
-Description: 支持9.1.1去启动广告及更新弹窗，屏蔽越狱
+Description: 基于9.1.1制作，去除启动更新弹窗，屏蔽越狱检查
 Author: White <1410970825@qq.com>
 Name: 天翼云盘去启动广告
+
+Package: com.white.cloudmusic
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 165
+Depends: mobilesubstrate
+Filename: ./debs/cloudmusic_1.0_iphoneos-arm.deb
+Size: 5510
+MD5sum: 280d37df0491d22afcf088a31e636db0
+SHA1: e19fba9eeb0c3a1086f35ed1945cd47db46f24f8
+SHA256: 1f71e569e2a83d0f36eca2e2b48802788456ed85d9a0e560a67e8f61c3dc2b79
+Section: NoAds
+Description: 基于9.0.25制作，去启动/首页广告+屏蔽越狱
+Author: White <1410970825@qq.com>
+Name: 网易云音乐屏蔽越狱
 
 Package: com.white.colorbadges
 Version: 1.5.0
@@ -306,7 +458,7 @@ Installed-Size: 537
 Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5.000), preferenceloader
 Conflicts: org.thebigboss.colorbadges
 Replaces: org.thebigboss.colorbadges
-Filename: ./debs/com.white.colorbadges_1.5.0_iphoneos-arm.deb
+Filename: ./debs/colorbadges_1.5.0_iphoneos-arm.deb
 Size: 64054
 MD5sum: 7556c8836c87bdcdeec1270238749fd1
 SHA1: ab731d24d31bcc502e552d11b493b51085a3563a
@@ -325,7 +477,7 @@ Architecture: iphoneos-arm
 Maintainer: KingPuffdaddi
 Installed-Size: 188
 Depends: mobilesubstrate, com.opa334.ccsupport
-Filename: ./debs/com.white.control-center.ccmono_1.0.2_iphoneos-arm.deb
+Filename: ./debs/control-center.ccmono_1.0.2_iphoneos-arm.deb
 Size: 23788
 MD5sum: f7a760933652c83c2bb60f13b00e1cc6
 SHA1: 9d270eb61e3b55f39481e73c20529ed92325edce
@@ -374,7 +526,7 @@ Architecture: iphoneos-arm
 Maintainer: MainRepo
 Installed-Size: 588
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), ws.hbang.common (>= 1.15.1), ws.hbang.alderis (>= 1.1.1)
-Filename: ./debs/com.white.customizebw_1.0.0_iphoneos-arm.deb
+Filename: ./debs/customizebw_1.0.0_iphoneos-arm.deb
 Size: 97570
 MD5sum: 2b32a2cc0fc88aeeaf9e6de6fb4b8e11
 SHA1: 0d923aad207f3b0ea1907373273de8f2f6d93ae7
@@ -443,18 +595,17 @@ Architecture: iphoneos-arm
 Maintainer: Netskao
 Installed-Size: 2428
 Depends: firmware (>= 11.0), mobilesubstrate
-Filename: ./debs/com.white.dumpdecrypter_1.3-7_iphoneos-arm.deb
-Size: 592854
-MD5sum: c29f7207ba193a7f5112ea65badf77b4
-SHA1: 515a59a45bea31a4737185981adaa857a291b25d
-SHA256: 9d96009cf119777f09c7aa192c3fa281e17299825847a5c59d4007ff35576549
+Filename: ./debs/dumpdecrypter_1.3-7_iphoneos-arm.deb
+Size: 592864
+MD5sum: 2dff107a09aaac064a28f89833a9044a
+SHA1: 6b9b997352e45f8167495e1d46c05ca105ab6ded
+SHA256: 2926d35fbf77b82bd27925f90b12fc8817ccc732a6dc9e7518ea057186e6ebf1
 Section: Utilities
 Description: DumpDecrypter是基于dumpdecrypted的修改封装
  使用方式：打开桌面的DumpDecrypter应用程序选择需要解密的应用，解密的IPA会保存至：/var/mobile/Documents/DumpDecrypter
  选择应用后会自动杀掉应用进程重新打开，解密前加载所有Frameworks，解密前停止所有非解密线程，解密完成后自动恢复等(解密后的IPA如果要直接安装，建议重新签名，无论使用的签名证书是否有效，否则某些环境会出现闪退等问题)
 Author: Netskao
-Icon: file:///Applications/Cydia.app/Sections/Utilities.png
-Icon2: 5.png
+Icon: file:///Applications/DumpDecrypter.app/AppIcon60x60@3x.png
 Name: DumpDecrypter
 Sponsor: Netskao
 
@@ -463,7 +614,7 @@ Version: 3.0
 Architecture: iphoneos-arm
 Maintainer: CyPwn
 Depends: mobilesubstrate
-Filename: ./debs/com.white.facetunevip_3.0_iphoneos-arm.deb
+Filename: ./debs/facetunevip_3.0_iphoneos-arm.deb
 Size: 51090
 MD5sum: ab9a98368813b44449ee1534bf525977
 SHA1: 86bb41c502d156d9e6cc54baeac76f9ebd8dffc5
@@ -482,7 +633,7 @@ Architecture: iphoneos-arm
 Maintainer: KingPuffdaddi
 Installed-Size: 356
 Depends: mobilesubstrate, ws.hbang.common, preferenceloader
-Filename: ./debs/com.white.fakecallhistory_1.0.4.2_iphoneos-arm.deb
+Filename: ./debs/fakecallhistory_1.0.4.2_iphoneos-arm.deb
 Size: 16138
 MD5sum: 63a3543cbfc89cdd7be735ca3193ff3e
 SHA1: 044cf4f3ebc8e7130a4f2cf3c35e86529a7fa72b
@@ -498,7 +649,7 @@ Version: 1.0.5
 Architecture: iphoneos-arm
 Maintainer: CyPwn
 Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, firmware(>= 14.0), com.mrgcgamer.libgcuniversal
-Filename: ./debs/com.white.fiona_1.0.5_iphoneos-arm.deb
+Filename: ./debs/fiona_1.0.5_iphoneos-arm.deb
 Size: 128068
 MD5sum: 45ee4072670a894694e60ec1bffb5510
 SHA1: d24f86c64b529e76f31ed681c4fccfe5c0ea7449
@@ -553,7 +704,7 @@ Version: 6.1.0
 Architecture: iphoneos-arm
 Maintainer: CyPwn
 Depends: mobilesubstrate
-Filename: ./debs/com.white.genieaichatbot_6.1.0_iphoneos-arm.deb
+Filename: ./debs/genieaichatbot_6.1.0_iphoneos-arm.deb
 Size: 11682
 MD5sum: 0a8e1b8678ee3007d112656d4dd37a9c
 SHA1: 3a75b9d115a6ec1821a67233098e55be36b21c85
@@ -615,7 +766,7 @@ Architecture: iphoneos-arm
 Maintainer: 妖刀
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
 Conflicts: dev.traurige.kayoko, codes.aurora.kayoko, com.skypain.kayoko, com.hk.kayoko.cn.rl, com.hk.kayoko.cn, com.daodao.kayoko, com.daodao.82.kayoko, com.hk.traurige.kayoko, com.hk.kayoko, xyz.cypwn.kayoko, zp.codes.aurora.kayoko
-Filename: ./debs/com.white.kayoko_2.0.3.1_iphoneos-arm.deb
+Filename: ./debs/kayoko_2.0.3.1_iphoneos-arm.deb
 Size: 89612
 MD5sum: d174e6b73284de15c537dc8b66e5f6bb
 SHA1: fe46511081d63197830b6e9971322a73400dc9e6
@@ -631,7 +782,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 980
 Depends: dev.theos.orion14, firmware (>= 14.0), com.ginsu.libgscommon, ws.hbang.alderis (>= 1.1), preferenceloader
-Filename: ./debs/com.white.kbpro_2.1.1_iphoneos-arm.deb
+Filename: ./debs/kbpro_2.1.1_iphoneos-arm.deb
 Size: 120804
 MD5sum: 7e2b2da6990c7634a95699934e7c4a24
 SHA1: 5ec3a150f63ca6a134e11b671496debdc2fb1e5d
@@ -665,7 +816,7 @@ Version: 1.2.1
 Architecture: iphoneos-arm
 Maintainer: iBreak <ibreak2019@qq.com>
 Depends: mobilesubstrate
-Filename: ./debs/com.white.networkexalt_1.2.1_iphoneos-arm.deb
+Filename: ./debs/networkexalt_1.2.1_iphoneos-arm.deb
 Size: 6814
 MD5sum: 4e5a493870e1fdd82394f00d3489deec
 SHA1: 695927387017400dd73f1d9088abb10baa7208b5
@@ -675,12 +826,33 @@ Description: 启动无线/蜂窝网络框架优化来提升响应速度
 Author: iBreak <ibreak2019@qq.com>
 Name: Network Exalt
 
+Package: com.white.nonceset143
+Version: 0.0.5
+Architecture: iphoneos-arm
+Maintainer: ichitaso
+Installed-Size: 924
+Depends: firmware (>= 12.0)
+Filename: ./debs/nonceset143_0.0.5_iphoneos-arm.deb
+Size: 128634
+MD5sum: da827adb2fe9c7e75dfdbcb63872e28a
+SHA1: eea4d79cb8ca0c53afc11b5b155177f8ac5d3cad
+SHA256: dc226b34ad19df91891f918673143e105dae3b0fb320868503cae4416bd9e175
+Section: Utilities
+Homepage: https://ichitaso.com/
+Description: 设置G值并获取ApNonce的工具
+Tag: purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14
+Author: ichitaso
+Depiction: https://cydia.ichitaso.com/depiction/nonseset143.html
+Dev: ichitaso
+Icon: file:///Applications/NonceSet143.app/AppIcon60x60@3x.png
+Name: NonceSet143
+
 Package: com.white.noquickbar
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: iBreak <ibreak2019@qq.com>
 Depends: mobilesubstrate
-Filename: ./debs/com.white.noquickbar_1.0_iphoneos-arm.deb
+Filename: ./debs/noquickbar_1.0_iphoneos-arm.deb
 Size: 4822
 MD5sum: d3adfffb546d8ced1a77ebde1f669cc1
 SHA1: 475af70184ab191ffe8fd37fc4d07651a37d95e8
@@ -690,20 +862,53 @@ Description: 去除状态栏左上角App快捷返回
 Author: iBreak <ibreak2019@qq.com>
 Name: No Quick Bar
 
+Package: com.white.notitapdelay
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: iCraze
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/notitapdelay_1.2_iphoneos-arm.deb
+Size: 4050
+MD5sum: 4e1b1145820985ab9ac1aa1aebbac34c
+SHA1: 4953e286d7c93629c628a345eef69854dc89562a
+SHA256: 249626f5c74d59179eb6b5ccac10d5a5c07be981154d7cc6719d9815623388f6
+Section: Tweaks
+Description: 在通知横幅出现的前0.5秒内禁止点击通知横幅，避免意外点击
+Author: iCraze
+Name: NotiTapDelay
+
+Package: com.white.notrackpaddelay
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Frozen Penguin
+Installed-Size: 197
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/notrackpaddelay_1.1_iphoneos-arm.deb
+Size: 3132
+MD5sum: 6076eb285e3c8c89d77a21ff1b87aa4f
+SHA1: db7a148ee4b7d5f603a97c955b54235fc55fbf87
+SHA256: 65678dd415030170ed78fa0211b42cf5a7c99067f496f2dcba0e3a29a4686937
+Section: Tweaks
+Description: 去除键盘延迟，安装即生效。如果没有延迟则不需要安装
+Tag: purpose::extension, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
+Author: Frozen Penguin
+Name: NoTrackpadDelay
+
 Package: com.white.onesettings
 Version: 2.0.4
 Architecture: iphoneos-arm
-Maintainer: MainRepo
+Maintainer: Nightwind
 Installed-Size: 1104
 Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
 Conflicts: com.shepgoba.settingswidgets, com.creaturecoding.shuffle
-Filename: ./debs/com.white.onesettings_2.0.4_iphoneos-arm.deb
-Size: 265332
-MD5sum: cb04f580b323a9c0bfcf5bc8b04c4048
-SHA1: 827c7197fc8fd1c04af1bd37bdcbafb7eb6e67f5
-SHA256: e7b466e59c00f482f0b21ad5fa51f4ff12e3983f072191e839a6e61d22a4e9bc
+Filename: ./debs/onesettings_2.0.4_iphoneos-arm.deb
+Size: 263950
+MD5sum: c4857818336ce12c2301e4bb6b464955
+SHA1: a578714c21193fa37edf412e6b4af7966567ed92
+SHA256: 6fa6bdd9bcacd6d212985e8f22cbab434ea004ff34bf14924c574caa42f0a8fb
 Section: Tweaks
-Description: 系统设置的美化增强插件
+Description: 系统设置美化增强
 Author: Nightwind
 Depiction: https://mrepo.org/depiction/5576
 Icon: https://img.chariz.cloud/icon/onesettings/icon@3x.png
@@ -716,7 +921,7 @@ Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
 Installed-Size: 159
 Depends: mobilesubstrate, com.opa334.ccsupport, firmware(>= 11.0)
-Filename: ./debs/com.white.rebootmodule_1.1.0_iphoneos-arm.deb
+Filename: ./debs/rebootmodule_1.1.0_iphoneos-arm.deb
 Size: 19070
 MD5sum: 33ca151e7888edc590cdb416d3b8f0db
 SHA1: 92afa4d8b46478cc7b05ed2bcebf52a8139fa901
@@ -734,7 +939,7 @@ Architecture: iphoneos-arm
 Maintainer: Little 34306
 Installed-Size: 152
 Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: ./debs/com.white.replaced_1.0_iphoneos-arm.deb
+Filename: ./debs/replaced_1.0_iphoneos-arm.deb
 Size: 3200
 MD5sum: a3749b3d2684bcdcb7bdf78f45546b6e
 SHA1: 363f3f8ec86d387fbf279153bdd9004d33beef8b
@@ -769,7 +974,7 @@ Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
 Installed-Size: 162
 Depends: mobilesubstrate, com.opa334.ccsupport, firmware(>= 11.0)
-Filename: ./debs/com.white.respringmodule_1.1.3_iphoneos-arm.deb
+Filename: ./debs/respringmodule_1.1.3_iphoneos-arm.deb
 Size: 29104
 MD5sum: b740a309a88815105aa9e4e591e000ee
 SHA1: 7391073f09cf491ac0ef01aac37fd73a15d56b59
@@ -787,7 +992,7 @@ Package: com.white.safeccmodules
 Version: 1.5-2
 Architecture: iphoneos-arm
 Maintainer: CyPwn
-Filename: ./debs/com.white.safeccmodules_1.5-2_iphoneos-arm.deb
+Filename: ./debs/safeccmodules_1.5-2_iphoneos-arm.deb
 Size: 1166774
 MD5sum: 53c683c1bf427d2b33241efa53288bf4
 SHA1: 5f6a5e7a07986cca76f649749f92fcf14d62a7db
@@ -799,12 +1004,50 @@ Depiction: https://repo.cypwn.xyz/depiction/1623
 Name: CCModules
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1623
 
+Package: com.white.satella
+Version: 1.8.1
+Architecture: iphoneos-arm64
+Maintainer: Lilliana
+Installed-Size: 488
+Depends: mobilesubstrate, firmware (>= 12.2), preferenceloader, com.opa334.altlist
+Filename: ./debs/satella_1.8.1_iphoneos-arm64.deb
+Size: 107574
+MD5sum: 475b3d49bb65b8aa3e5a63400ed5a039
+SHA1: d99ffc1a18a9ae25bc6345a2529558a352000077
+SHA256: bd91b65169df01427c731a22fd9a640cee4a1150e322227d58f7d834420b7020
+Section: Tweaks
+Description: 现代应用内购破解
+Author: Lilliana
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/Satella.json&name=Satella&dev=Lilliana
+Icon: https://paisseon.github.io/icons/Satella.png
+Name: Satella
+Sileodepiction: https://paisseon.github.io/depictions/Satella.json
+
+Package: com.white.satella
+Version: 1.8.1
+Architecture: iphoneos-arm
+Maintainer: Lilliana
+Installed-Size: 524
+Depends: mobilesubstrate, firmware (>= 12.2), preferenceloader, com.opa334.altlist
+Filename: ./debs/satella_1.8.1_iphoneos-arm.deb
+Size: 109764
+MD5sum: 0e1eaaa9286b9abf3886b0c448a3f1fb
+SHA1: 0ff32e7c3686d92b126ace5f83a49086a8711003
+SHA256: 3131f2684dfaec19066fd5c58d1a7fbdaecbb6170449a3f23e8aef5ec3da80cf
+Section: Tweaks
+Description: 现代应用内购破解
+Author: Lilliana
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/Satella.json&name=Satella&dev=Lilliana
+Icon: https://paisseon.github.io/icons/Satella.png
+Name: Satella
+Sileodepiction: https://paisseon.github.io/depictions/Satella.json
+
 Package: com.white.sbypass
 Version: 2.0.1
 Architecture: iphoneos-arm
 Maintainer: CyPwn
 Depends: applist, com.rpetrich.rocketbootstrap, com.spark.libsparkapplist
-Filename: ./debs/com.white.sbypass_2.0.1_iphoneos-arm.deb
+Filename: ./debs/sbypass_2.0.1_iphoneos-arm.deb
 Size: 1998628
 MD5sum: d036e3643ba4c509ed1a54f77af5d742
 SHA1: 3cd450945bf940ec309f3c6d7eee055ff6c582c3
@@ -815,13 +1058,47 @@ Author: Said Mohd
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/sbypass.png
 Name: S-Bypass (iOS 10 - 14)
 
+Package: com.white.semirestore11
+Version: 1.1.2-1
+Architecture: iphoneos-arm
+Maintainer: Pwn20wnd
+Depends: coreutils-bin, uikittools, firmware (>= 11.3)
+Conflicts: org.coolstar.semirestore11-lite
+Replaces: org.coolstar.semirestore11-lite
+Filename: ./debs/semirestore11_1.1.2-1_iphoneos-arm.deb
+Size: 116786
+MD5sum: 876ab2d13283756f159017f1f106e2c8
+SHA1: ddcf7c3be60a54e734872be27605a366f1492523
+SHA256: b20b50661df6bac9e8706fe43fad9bd53342ec7c63ed76cd6c4a4b54a1b3d398
+Section: System
+Description: 越狱平刷工具，关闭开关为不清除设备数据，只清越狱环境、插件等。支持iOS11.3-14.X系统
+Author: Pwn20wnd
+Icon: file:///Applications/Rollectra.app/AppIcon60x60@3x.png
+Name: SemiRestore11
+
+Package: com.white.successionrestore
+Version: 1.4.16~b4
+Architecture: iphoneos-arm
+Maintainer: Samg_is_a_Ninja
+Depends: firmware-sbin, rsync
+Filename: ./debs/successionrestore_1.4.16~b4_iphoneos-arm.deb
+Size: 1047802
+MD5sum: 71efe5433b805302d61262ef64ffce54
+SHA1: 10a6e1351b1a3be77787c038ced64df47fae138e
+SHA256: e9305f3963e77ba805625b3b027a3019cc5a8f7a38db9790c802e98d104657e4
+Section: System
+Description: 使用官方固件平刷系统，操作需谨慎！建议先备份重要资料，具体使用方法可以在威锋查看
+Author: Samg_is_a_Ninja
+Icon: file:///Applications/SuccessionRestore.app/AppIcon60x60@3x.png
+Name: Succession
+
 Package: com.white.sugarcane
 Version: 1.0.2-1
 Architecture: iphoneos-arm
 Maintainer: iOS Creatix, Rafferty W
 Depends: firmware (>= 11.0),mobilesubstrate
 Conflicts: com.raff.sugarcane, com.ioscreatix.sugarcane, com.hk.sugarcane13, com.crak.sugarcane13
-Filename: ./debs/com.white.sugarcane_1.0.2-1_iphoneos-arm.deb
+Filename: ./debs/sugarcane_1.0.2-1_iphoneos-arm.deb
 Size: 28154
 MD5sum: 28f4f44cc80a8ba21883d29ff5ea2b45
 SHA1: fbd1500d10cbf65f477b5295e6ff901b16580a58
@@ -895,18 +1172,19 @@ Author: Randy420 <randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/taidependscoolstar.html
 Name: Theos Auto Installer Dependencies for Procursus based jailbreaks
 
-Package: com.white.taobao
+Package: com.white.taobaobypass
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
+Installed-Size: 670
 Depends: mobilesubstrate
-Filename: ./debs/com.white.taobao_1.0_iphoneos-arm.deb
-Size: 7190
-MD5sum: 0c7b2881fa7881f0f8ed665d5c461530
-SHA1: a0fcd09043fac16f42bb260189cba5136c0d7e5c
-SHA256: 0e141b24e0ac7ac194c0266fe0672d03ede37c4be2a0da7ebe936aa16a905bbc
+Filename: ./debs/taobaobypass_1.0_iphoneos-arm.deb
+Size: 6856
+MD5sum: 01c1378857223792e905442ac1293ab2
+SHA1: de172f07c42ccf996888bd2f7f7c9a1d16b8273d
+SHA256: 02ef52515e092db260717f3b0637034eac2224369b09092585cb981a61a39612
 Section: NoAds
-Description: 屏蔽淘宝部分越狱检查
+Description: 基于10.32.20制作支持最新版10.35.0，屏蔽部分越狱检查
 Author: White <1410970825@qq.com>
 Name: 淘宝屏蔽越狱
 
@@ -915,7 +1193,7 @@ Version: 1.5.1
 Architecture: iphoneos-arm
 Maintainer: iBreak <ibreak2019@qq.com>
 Depends: mobilesubstrate
-Filename: ./debs/com.white.thunderhelper_1.5.1_iphoneos-arm.deb
+Filename: ./debs/thunderhelper_1.5.1_iphoneos-arm.deb
 Size: 165114
 MD5sum: 035fb751b722d43f1275a4ee7643e827
 SHA1: cea2080807ae533e051e5cf976fcf3cd3eeba373
@@ -945,6 +1223,24 @@ Author: Randy420 <randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/420Tools.html
 Name: 420 Tools
 
+Package: com.white.tsssaver
+Version: 2.0.5-1
+Architecture: iphoneos-arm
+Maintainer: 1Conan <tweaks@1conan.com>
+Installed-Size: 232
+Depends: dimentio (>=99) | com.0x7ff.dimentio (>=2.0.0)
+Conflicts: co.dynastic.TSSsaver
+Filename: ./debs/tsssaver_2.0.5-1_iphoneos-arm.deb
+Size: 56516
+MD5sum: ce2c482e4a4a09dd2e13f7b25e290161
+SHA1: 8a77b97ff70205107fed3a92e5d764ef143741f0
+SHA256: 73b55c11f405aa37b6679833b74e31591bd5681e17c080d582a97b22b0514a84
+Section: Utilities
+Description: 可保存开放验证的SHSH2 Blob应用程序
+Author: 1Conan <tweaks@1conan.com>
+Icon: file:///Applications/TSSSaver.app/Icon-60.png
+Name: TSS Saver
+
 Package: com.white.unidream
 Version: 1.0
 Architecture: iphoneos-arm
@@ -965,7 +1261,7 @@ Version: 3.0
 Architecture: iphoneos-arm
 Maintainer: iBreak <ibreak2019@qq.com>
 Depends: mobilesubstrate
-Filename: ./debs/com.white.videohelper_3.0_iphoneos-arm.deb
+Filename: ./debs/videohelper_3.0_iphoneos-arm.deb
 Size: 135272
 MD5sum: 0f957922ca700e9619e9900d0654eb44
 SHA1: 41c06a7584b6718297f2d809ce95611758d87e55
@@ -1014,7 +1310,7 @@ Version: 1.3.1
 Architecture: iphoneos-arm
 Maintainer: iBreak <ibreak2019@qq.com>
 Depends: mobilesubstrate
-Filename: ./debs/com.white.wallpaperbox_1.3.1_iphoneos-arm.deb
+Filename: ./debs/wallpaperbox_1.3.1_iphoneos-arm.deb
 Size: 126444
 MD5sum: 9bbfe31ca85f220073327fafefce097b
 SHA1: 46b89858fd46ac97149bb8b0b386f5078e4d019d
@@ -1029,7 +1325,7 @@ Version: 3.1.2
 Architecture: iphoneos-arm
 Maintainer: iBreak <ibreak2019@qq.com>
 Depends: mobilesubstrate,preferenceloader
-Filename: ./debs/com.white.wechathelper_3.1.2_iphoneos-arm.deb
+Filename: ./debs/wechathelper_3.1.2_iphoneos-arm.deb
 Size: 196272
 MD5sum: 05b57d1ae8d3ceb40f244eef4d7871cd
 SHA1: fb401a5fc161bfa7e1621a4ce1de7ac75ebd1691
@@ -1045,7 +1341,7 @@ Architecture: iphoneos-arm
 Maintainer: Huayuarc
 Installed-Size: 152
 Depends: mobilesubstrate
-Filename: ./debs/com.white.wyyllnoads_0.0.1_iphoneos-arm.deb
+Filename: ./debs/wyyllnoads_0.0.1_iphoneos-arm.deb
 Size: 5330
 MD5sum: effa2b79790a42394cb53bbc48434059
 SHA1: fc410ef164a014087599f7b895dc737cc81b3b80
@@ -1140,6 +1436,23 @@ Section: Utilities
 Description: 用于解密iOS应用和Mach-O二进制文件的工具
 Author: John Coates
 Name: flexdecrypt
+
+Package: jp.akusio.milkyway4
+Version: 0.1.1
+Architecture: iphoneos-arm64
+Maintainer: @akusio_RR
+Installed-Size: 3464
+Depends: mobilesubstrate, com.opa334.altlist, preferenceloader
+Filename: ./debs/jp.akusio.milkyway4_0.1.1_iphoneos-arm64.deb
+Size: 1299844
+MD5sum: e57c1e2c77dbe190642603b9e009eaee
+SHA1: 4053dbeac3a77e826e5ce3d1d0e3e5af4b77efd2
+SHA256: 0801b1650226e3b7bda492bcd80bcc050e3a8f2c1bf208797cbb68592529d80b
+Section: Tweaks
+Description: iOS15无根的多任务分屏
+Author: @akusio_RR
+Depiction: https://akusio.github.io/descriptions/milkyway4/index.html
+Name: MilkyWay4-rootless
 
 Package: libactivator
 Version: 1.9.13~rc6
@@ -1525,23 +1838,6 @@ Homepage: https://bitbucket.org/lordscotland/mterminal
 Description: 移动终端支持全屏
 Author: lordscotland
 Name: MTerminal
-
-Package: netskao.pulloverpro
-Version: 2.1.4-1
-Architecture: iphoneos-arm
-Maintainer: Nets
-Installed-Size: 1480
-Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
-Conflicts: com.c1d3r.pulloverpro
-Filename: ./debs/pulloverpro_2.1.4-1.deb
-Size: 338600
-MD5sum: b5e968c43f08048d64d1a25e05b785d5
-SHA1: bae0ec0d77eb0e758f1b8d4bc5397fa0749f14ca
-SHA256: a0b49db6e3acefa29e0c4aa2f14ae6d342dd75ccae5239bb94fed512e597ad91
-Section: Tweaks
-Description: 多任务处理的更好方式！修复支持iOS14-iOS15
-Author: c1d3r
-Name: PullOver Pro
 
 Package: netskao.qqpurification
 Version: 1.1-2
@@ -2234,6 +2530,40 @@ Description: 长按桌面AppStore图标快捷切换登录账户
 Author: Netskao
 Name: StoreSwitchAccounts-Rootless
 
+Package: netskao.wyyyynoads
+Version: 1.2-5
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 2116
+Depends: firmware (>= 11.0), mobilesubstrate
+Filename: ./debs/netskao.wyyyynoads_1.2-5_iphoneos-arm.deb
+Size: 467930
+MD5sum: ecf33bd1ff59738d24703b9955363709
+SHA1: 7f444741a4b076f99608451083757a5724f988f1
+SHA256: 520b42030068ec4eecd6e42ed3811211a739672157abef9b3b0b10157383d451
+Section: Tweaks
+Description: 网易云音乐去除启动广告，去除评论区相关信息和广告，去除首页顶部横幅中插入的广告，去除搜索页面顶部广告，去除播放页面顶部右上角在唱，去除左侧设置无关紧要选项，绕过越狱检测可收藏可评论，解除非中国地区播放限制，增加使用原始分享按钮保存任意视频到相册，增加缓存歌曲导出，下载或本地页面，歌曲操作面板导出，支持自动解密ncm格式
+Author: Netskao
+Name: 网易云音乐 NoAds
+Sponsor: Nets
+
+Package: netskao.wyyyynoads
+Version: 1.2-6
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 2116
+Depends: firmware (>= 11.0), mobilesubstrate
+Filename: ./debs/netskao.wyyyynoads_1.2-6_iphoneos-arm.deb
+Size: 476566
+MD5sum: c94dd76c091433a2bd2aeefe588c3ae3
+SHA1: 0e90a24ec4ffeb7f7cb8eddfff6f921fef61932a
+SHA256: f21b417232350c74a54470f886b05c859f63f82abd15daf13fd6131a822dfe52
+Section: Tweaks
+Description: 网易云音乐去除启动广告，去除评论区相关信息和广告，去除首页顶部横幅中插入的广告，去除搜索页面顶部广告，去除播放页面顶部右上角在唱，去除左侧设置无关紧要选项，绕过越狱检测可收藏可评论，解除非中国地区播放限制，增加使用原始分享按钮保存任意视频到相册，增加缓存歌曲导出，下载或本地页面，歌曲操作面板导出，支持自动解密ncm格式
+Author: Netskao
+Name: 网易云音乐 NoAds
+Sponsor: Nets
+
 Package: netskao.ysfnoads
 Version: 1.1-2
 Architecture: iphoneos-arm
@@ -2581,4 +2911,42 @@ Description: shell脚本编译器
  编译后的二进制文件仍将依赖于 shell 代码第一行中的shell，因此shc不会创建完全独立的二进制文件
  .
  shc它不像cc这样的编译器，它是对shell脚本进行编码和加密，并生成具有附加过期功能的C源码。然后，它使用系统编译器编译一个剥离的二进制文件，其行为与原始脚本完全相同。执行时，编译后的二进制文件将使用shell 的 -c 选项解密并执行代码
+
+Package: xyz.cypwn.satella
+Version: 1.9.0
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Installed-Size: 456
+Depends: firmware (>= 13.0), preferenceloader, com.opa334.altlist
+Filename: ./debs/xyz.cypwn.satella_1.9.0_iphoneos-arm64.deb
+Size: 77044
+MD5sum: d63d63d325d8bcf8b861a32a9d824eaf
+SHA1: 97ed4222a76cafd332aa44e5a20caad866cc0b9c
+SHA256: 0100ff1e670affc6352a0957b905845b8d8b46dad508201b7013cbb6b9ebf8e1
+Section: Tweaks
+Description: 应用内购神器改版
+Author: Paisseon
+Depiction: https://repo.cypwn.xyz/depiction/1570
+Icon: https://paisseon.github.io/icons/Satella.png
+Name: Satella
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1570
+
+Package: xyz.cypwn.satella
+Version: 1.9.0
+Architecture: iphoneos-arm
+Maintainer: CyPwn
+Installed-Size: 456
+Depends: firmware (>= 13.0), preferenceloader, com.opa334.altlist
+Filename: ./debs/xyz.cypwn.satella_1.9.0_iphoneos-arm.deb
+Size: 77032
+MD5sum: 25a9219a711329a5f1e55df011595855
+SHA1: 8b52a805c14005338bac19358baf273fc300abd8
+SHA256: c68c1cf67c5d669ef933d37be9e48445f64318159c8ad076904adb29ca9d355d
+Section: Tweaks
+Description: 应用内购破解改版
+Author: Paisseon
+Depiction: https://repo.cypwn.xyz/depiction/1569
+Icon: https://paisseon.github.io/icons/Satella.png
+Name: Satella
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1569
 
