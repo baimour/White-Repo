@@ -264,11 +264,11 @@ Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmwa
 Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
 Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
 Filename: ./debs/Flex3beta_1.3~Beta98_iphoneos-arm.deb
-Size: 10740460
-MD5sum: 9c518a885ce75ee4c8e8be1ac8a7a670
-SHA1: 9fe6ff75732385bf70daf4ee067af5478dd725b8
-SHA256: 14443361b7878425a622a936b81a21b88d92005e820c67f8457c4d55f5892d39
-Section: Tools
+Size: 10740628
+MD5sum: f6e0b850e7f07bc6d721ec44f227959f
+SHA1: 353931ec298ed76e2b32ddfebdc7dd817dc09e80
+SHA256: 1d4292321cc49f9ca5e941d8606d2fbc34245a764f1c183e8e0e17910aca7d47
+Section: Utilities
 Description: 开发您自己的补丁并在Flex社区Cloud上分享，增加额外汉化、编辑、复制补丁
 Author: John Coates
 Icon: file:///Applications/Flex.app/AppIconBeta60x60@3x.png
@@ -283,11 +283,11 @@ Depends: mobilesubstrate, firmware (>= 9.0), com.rpetrich.rocketbootstrap
 Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
 Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
 Filename: ./debs/Flex3beta_3~Beta50_iphoneos-arm.deb
-Size: 16772350
-MD5sum: 08025b157787c66a73b578957749a401
-SHA1: e51bffd6f301d8e14bfabf3288b0084ce4a3411a
-SHA256: 35c29f58889a2811ea711fd7315a1e54182d923ac4c32efc9f6c72be44f4955f
-Section: Tools
+Size: 16772348
+MD5sum: 1f506a22d3fed9d99381dd091e3573cc
+SHA1: 10dacfeb813ac8b89ca593841d6a3f6de7141bb7
+SHA256: 2305bca76797d7da01c0bec671e81a1704df45243078c8295a26398230029b8f
+Section: Utilities
 Description: 听说Flex 3 Beta50有神秘加成，所以上架一个老版本，增加额外汉化、编辑、复制补丁
 Author: John Coates
 Icon: file:///Applications/Flex.app/AppIconBeta60x60@3x.png
