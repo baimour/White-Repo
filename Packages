@@ -299,7 +299,7 @@ Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
 Installed-Size: 440
 Depends: mobilesubstrate, com.spark.libsparkapplist, preferenceloader
-Filename: ./debs/com.white.adspeed_1.1.1_iphoneos-arm.deb
+Filename: ./debs/adspeed_1.1.1_iphoneos-arm.deb
 Size: 74496
 MD5sum: f0f3942f2a9b7ce8005aefd90f1d4e46
 SHA1: a9e02eb6a0eeae0810585fe0f7fe7e086516d30c
@@ -362,6 +362,27 @@ Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
 Dev: CokePokes
 Icon: https://cokepokes.github.io/depiction/appstoreplus/icon.png
 Name: AppStore++汉化版
+
+Package: com.white.aptfix
+Version: 0.0.6-4+debug
+Architecture: iphoneos-arm
+Maintainer: Randy420
+Installed-Size: 220
+Depends: mobilesubstrate, com.white.tools (>=2.2)
+Replaces: com.randy420.fixcydia
+Filename: ./debs/aptfix_0.0.6-4+debug.deb
+Size: 12732
+MD5sum: d5223591e758f8104eaffbae8bba75d6
+SHA1: 07c6c022aa65d7c1744e07b385c0c28c473d9e5b
+SHA256: 909a697e2288f2fc0e4540f0de1520a9a17f7ade39a8407e4120bc61fc07c3b2
+Section: System
+Description: 有时，你的越狱商店会弹出类似 "DPKG Locked"或 "apt locked"的错误，这些错误实际上不是由Cydia或其他越狱商店引起的，而是由这些子进程 (apt、dpkg、cydo等) 引起的
+  
+ 只需一个简单的终端命令就能清除这些错误
+ 在终端中运行'aptFix'或者在系统设置里的工具包设置里的按钮！
+Author: Randy420
+Depiction: https://Randy-420.GitHub.io/depic/aptFix.html
+Name: aptFix
 
 Package: com.white.atria
 Version: 1.4.1
@@ -682,19 +703,19 @@ Package: com.white.ftt
 Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: Randy420 <randy.skinner@hotmail.com>
-Installed-Size: 484
+Installed-Size: 412
 Depends: mobilesubstrate, com.white.tools (>=2.2)
 Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
 Filename: ./debs/ftt_1.1.deb
-Size: 82440
-MD5sum: f0ec2bfadad07b54323218aab9b11c1d
-SHA1: e50125d0d18ba1406c055eaf52c73efdac5b2f3e
-SHA256: 363310cae0ab255e405b435a876c5da11d5a1a5063298f710b668bf7478b1319
+Size: 74692
+MD5sum: cea76d98910aed06d3ba03c478672d83
+SHA1: cb08a7f2c0d0240d1b86374472906a44cf98c5a5
+SHA256: 4636f2800a48a9fb11f5deb3dc4cebfd1101b587ae149126230e93040e9ded49
 Section: System
 Homepage: https://theemeraldisle.family
-Description: 原作者iPadkid358制作 - 然后由randy420更新。使用简单的终端命令将Flex 3补丁转换为Theos项目
+Description: 最初由iPadkid358制作，后由randy420更新。使用简单的终端命令将Flex 3补丁转为Theos项目
   
- - 使用'ftt -?'查看选项完整列表
+ - 使用 'ftt -?' 可查看完整的选项列表
 Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/ftt.html
 Name: Flex To Theos
@@ -781,7 +802,7 @@ Version: 0.1-3
 Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/com.white.jumpadvideo_0.1-3_iphoneos-arm.deb
+Filename: ./debs/jumpadvideo_0.1-3_iphoneos-arm.deb
 Size: 32682
 MD5sum: efaed8e895e383a1bfd6e14636150310
 SHA1: 203b8473adaadd5b2809c42e9b94a3e11cac8cdf
@@ -1143,22 +1164,21 @@ Author: iOS Creatix, Rafferty W
 Name: SugarCane
 
 Package: com.white.tai
-Version: 5.2.2
+Version: 5.2.2-8+debug
 Architecture: iphoneos-arm
 Maintainer: Randy420 <randy.skinner@hotmail.com>
-Installed-Size: 476
-Depends: com.white.tools (>= 2.3), clang, curl, git, grep, perl, rsync, unzip, make, ldid, com.opa334.ccsupport, xar
+Installed-Size: 404
+Depends: com.white.tools (>= 2.2), clang, curl, git, grep, perl, rsync, unzip, make, ldid, com.opa334.ccsupport, xar
 Conflicts: net.howett.theos
-Filename: ./debs/tai_5.2.2.deb
-Size: 58972
-MD5sum: d208ab9cfd6a1b61261592e1d9792165
-SHA1: 2f49eb61088380aab931d82a1f248496f7067f11
-SHA256: 500d23f7393ee40d0d3600d820f19408bc589f639caf2401d8ce37e748fae46a
+Filename: ./debs/tai_5.2.2-8+debug.deb
+Size: 56198
+MD5sum: 8156da5d6845173bfb5ded68f514f9ce
+SHA1: b23cae49ee751ec7f2a9d30857f89a95ece994fe
+SHA256: 0b9bec79cfdfe442dcbc68a90cdb9111ddf33d3d0249524099a9f02151419484
 Section: System
 Homepage: https://theemeraldisle.family
-Description: 使用简单的命令从终端安装Theos(在设置里配置好并连接到WiFi)
- - tai -u 卸载Theos
- - tai -r 重装Theos
+Description: 使用简单的命令从终端安装Theos (在设置中配置好并连接到WiFi和VPN)
+ - tai 安装Theos，tai -u 卸载Theos，tai -r 重装Theos，tai -v 更新Theos
 Tag: role::hacker
 Author: Randy420 <randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/tai.html
@@ -1240,20 +1260,20 @@ Name: Thunder Helper
 Package: com.white.tools
 Version: 2.3.6
 Architecture: iphoneos-arm
-Maintainer: Randy420 <randy.skinner@hotmail.com>
-Installed-Size: 2288
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 1944
 Depends: ws.hbang.common
 Replaces: com.randy420.encrypt
-Filename: ./debs/tools_2.3.6.deb
-Size: 799852
-MD5sum: a608955d5917e4b871b9e7fda095e18e
-SHA1: 1c92c90c89ea46d2625a721344cfe3e4c682c217
-SHA256: 4afbd6e7606a903e05bca323cdcec729a7bb73b00ec24c74fddda7dd79129d54
+Filename: ./debs/420tools_2.3.6.deb
+Size: 776946
+MD5sum: 8f8d043f46deb070aa732cf7e8b764bb
+SHA1: ec7b3ddf3648e419984d3b645b32e1eb182c0bda
+SHA256: 512acca50a46a9f50fa8f0aa05e9196e62cf89734817ffdd212847d4d996de17
 Section: System
 Homepage: https://theemeraldisle.family
-Description: Theos自动安装程序
+Description: Theos自动安装工具包，在原版基础上精简选项
 Tag: role::hacker
-Author: Randy420 <randy.skinner@hotmail.com>
+Author: White <1410970825@qq.com>
 Depiction: https://Randy-420.GitHub.io/depic/420Tools.html
 Name: 420 Tools
 
