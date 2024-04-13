@@ -455,6 +455,22 @@ Description: 基于7.51.0制作，其他版本自测。去除部分广告，解�
 Author: White <1410970825@qq.com>
 Name: 哔哩哔哩大会员画质
 
+Package: com.white.bilibili
+Version: 1.0-3
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: ./debs/bilibili_1.0-3_iphoneos-arm.deb
+Size: 8214
+MD5sum: ea034496b8012f752a884db11eacf547
+SHA1: 2530da1f5088450287ec83fee7589b552255c7b9
+SHA256: 16efabafcb4276ce27694acd00179db46b94226e9af9bbe3f9b535571dbe0ceb
+Section: NoAds
+Description: 基于7.51.0制作，其他版本自测。去除部分广告，解锁大会员画质、可缓存部分视频会员画质。屏蔽越狱检测
+Author: White <1410970825@qq.com>
+Name: 哔哩哔哩大会员画质
+
 Package: com.white.cloud189
 Version: 1.0
 Architecture: iphoneos-arm
@@ -707,10 +723,10 @@ Installed-Size: 412
 Depends: mobilesubstrate, com.white.tools (>=2.2)
 Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
 Filename: ./debs/ftt_1.1.deb
-Size: 74692
-MD5sum: cea76d98910aed06d3ba03c478672d83
-SHA1: cb08a7f2c0d0240d1b86374472906a44cf98c5a5
-SHA256: 4636f2800a48a9fb11f5deb3dc4cebfd1101b587ae149126230e93040e9ded49
+Size: 72554
+MD5sum: 2492eab67b55f17bd0f3bf690760a9cf
+SHA1: 701cd033d14a1a6066a80134e13d0789feb6c0a7
+SHA256: 0eb12ab53c8e2c0f2e7ed8a97be323e1a189e1dd3dec4f1287fcb25eb02bd6b5
 Section: System
 Homepage: https://theemeraldisle.family
 Description: 最初由iPadkid358制作，后由randy420更新。使用简单的终端命令将Flex 3补丁转为Theos项目
@@ -865,6 +881,26 @@ Section: Tweaks
 Description: Lightricks软件包括Photoleap, Videoleap, Beatleap, Lightleap, 艺章(Artleap), Motionleap及Facetune Video, Facetune破解，解锁会员订阅
 Author: 小果子
 Name: Lightricks-leap通用破解
+
+Package: com.white.milkyway3
+Version: 0.2.15
+Architecture: iphoneos-arm
+Maintainer: White
+Depends: mobilesubstrate, applist, preferenceloader
+Conflicts: xyz.cypwn.milkyway2ios14
+Replaces: xyz.cypwn.milkyway2ios14
+Filename: ./debs/milkyway3_0.2.15_iphoneos-arm.deb
+Size: 62376
+MD5sum: 9b03f0777601dfc4fc67fdc6d16d5f94
+SHA1: 2c3ece94d229267b423ab9fc79985069a7049972
+SHA256: 9eee7e5f69b81b8bfe9ead1bd31c88a781270047f715f31a34e34e32d6f59361
+Section: Tweaks
+Description: iOS14多任务分屏
+Author: akusio
+Depiction: https://repo.cypwn.xyz/depiction/924
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/milkyway3.png
+Name: MilkyWay3
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/924
 
 Package: com.white.networkexalt
 Version: 1.2.1
@@ -1171,14 +1207,14 @@ Installed-Size: 404
 Depends: com.white.tools (>= 2.2), clang, curl, git, grep, perl, rsync, unzip, make, ldid, com.opa334.ccsupport, xar
 Conflicts: net.howett.theos
 Filename: ./debs/tai_5.2.2-8+debug.deb
-Size: 56198
-MD5sum: 8156da5d6845173bfb5ded68f514f9ce
-SHA1: b23cae49ee751ec7f2a9d30857f89a95ece994fe
-SHA256: 0b9bec79cfdfe442dcbc68a90cdb9111ddf33d3d0249524099a9f02151419484
+Size: 55562
+MD5sum: 22349836fd74df3f041667f164a07847
+SHA1: 9445e692ad612d1773386ebe378db9e77f4c7535
+SHA256: 812bad8008c7a26b91544999217123f9ac7c6d01ed81ff4cc6a2b855fdf81c96
 Section: System
 Homepage: https://theemeraldisle.family
 Description: 使用简单的命令从终端安装Theos (在设置中配置好并连接到WiFi和VPN)
- - tai 安装Theos，tai -u 卸载Theos，tai -r 重装Theos，tai -v 更新Theos
+ - tai 安装Theos丨tai -u 卸载Theos丨tai -r 重装Theos丨tai -v 更新Theos
 Tag: role::hacker
 Author: Randy420 <randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/tai.html
@@ -1265,13 +1301,13 @@ Installed-Size: 1944
 Depends: ws.hbang.common
 Replaces: com.randy420.encrypt
 Filename: ./debs/420tools_2.3.6.deb
-Size: 776946
-MD5sum: 8f8d043f46deb070aa732cf7e8b764bb
-SHA1: ec7b3ddf3648e419984d3b645b32e1eb182c0bda
-SHA256: 512acca50a46a9f50fa8f0aa05e9196e62cf89734817ffdd212847d4d996de17
+Size: 773770
+MD5sum: 922a270a4de102010065ad93bdf42e23
+SHA1: f063ab86d6e6054090c8b5ce1745b2b14037ddd6
+SHA256: b62e3b430322e961498fe0e6ab31a1d164c2d51630eec2165d23d123cab395f6
 Section: System
 Homepage: https://theemeraldisle.family
-Description: Theos自动安装工具包，在原版基础上精简选项
+Description: 自动安装Theos工具，在原版基础上精简选项
 Tag: role::hacker
 Author: White <1410970825@qq.com>
 Depiction: https://Randy-420.GitHub.io/depic/420Tools.html
