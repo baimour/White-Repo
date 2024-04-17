@@ -456,34 +456,17 @@ Name: BigSurCenter
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1946
 
 Package: com.white.bilibili
-Version: 1.0
+Version: 1.0-4
 Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
-Installed-Size: 88
 Depends: mobilesubstrate
-Filename: ./debs/bilibili_1.0_iphoneos-arm.deb
-Size: 8470
-MD5sum: 6137bcbebfc1646f2962586fd518ec96
-SHA1: 67663d073f92469c92a6d15d8efcf927ab66e009
-SHA256: e9d80246ea3cbd011980ac33dbc6e744165b1d36c4ed9a714198480d9ad83f7a
+Filename: ./debs/bilibili_1.0-4_iphoneos-arm.deb
+Size: 8948
+MD5sum: 45f30361a2a3b37573267cd0f5b92cfd
+SHA1: 7d3e536af34130c63a92254f1aeef2633d5d341c
+SHA256: 0113128d6ff4e18863e3dda0c4edb385539d60f2735d19570362b81c798e31fb
 Section: NoAds
-Description: 基于7.51.0制作，其他版本自测。去除部分广告，解锁大会员画质、可缓存普通视频会员画质、解锁免会员电视剧下载权限。屏蔽越狱检测
-Author: White <1410970825@qq.com>
-Name: 哔哩哔哩大会员画质
-
-Package: com.white.bilibili
-Version: 1.0-3
-Architecture: iphoneos-arm
-Maintainer: White <1410970825@qq.com>
-Installed-Size: 88
-Depends: mobilesubstrate
-Filename: ./debs/bilibili_1.0-3_iphoneos-arm.deb
-Size: 8214
-MD5sum: ea034496b8012f752a884db11eacf547
-SHA1: 2530da1f5088450287ec83fee7589b552255c7b9
-SHA256: 16efabafcb4276ce27694acd00179db46b94226e9af9bbe3f9b535571dbe0ceb
-Section: NoAds
-Description: 基于7.51.0制作，其他版本自测。去除部分广告，解锁大会员画质、可缓存部分视频会员画质。屏蔽越狱检测
+Description: 基于7.65.0制作，其他版本自测 •	去除部分广告 •	屏蔽越狱检测 •	解锁大会员画质(基于试用修改) •	可缓存HDR杜比视界 •	免会员电视剧解锁缓存
 Author: White <1410970825@qq.com>
 Name: 哔哩哔哩大会员画质
 
@@ -801,12 +784,12 @@ Maintainer: Netskao
 Installed-Size: 2428
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: ./debs/dumpdecrypter_1.3-7_iphoneos-arm.deb
-Size: 592884
-MD5sum: d8cd00057aeab1d4e07472c7b7a8d081
-SHA1: 1ce0c4f14e3c549fff907b4b06c334ec22ac59af
-SHA256: ce06a4ff35e0ae76b3a27f03971a3da13e3ac85b37121f8502ca74a76a0af2e7
+Size: 592886
+MD5sum: a451faa010c0b9e0a65bd3ff04695d27
+SHA1: dee81c969bb2ebdf7122f9bdc6cf04e3caa646aa
+SHA256: 4782de9fce08200001188c90248b50fe524421f4f3552659857c23a63c105b84
 Section: Utilities
-Description: DumpDecrypter是基于dumpdecrypted的修改封装，使用方式：打开桌面的DumpDecrypter应用程序选择需要解密的应用，解密的IPA会保存至：/var/mobile/Documents/DumpDecrypter丨选择应用后会自动杀掉应用进程重新打开，解密前加载所有Frameworks，解密前停止所有非解密线程，解密完成后自动恢复等(解密后的IPA如果要直接安装，建议重新签名，无论使用的签名证书是否有效，否则某些环境会出现闪退等问题)
+Description: 基于dumpdecrypted的修改封装版 •	使用方式：打开桌面的DumpDecrypter应用程序选择需要解密的应用 •	解密的IPA会保存至：/var/mobile/Documents/DumpDecrypter •	选择应用后会自动杀掉应用进程重新打开，解密前加载所有Frameworks •	解密前停止所有非解密线程，解密完成后自动恢复等 •	解密后的IPA如果要直接安装，建议重新签名，无论使用的签名证书是否有效，否则某些环境会出现闪退等问题
 Author: Netskao
 Icon: file:///Applications/DumpDecrypter.app/AppIcon60x60@3x.png
 Name: DumpDecrypter
