@@ -256,6 +256,22 @@ Depiction: https://chariz.com/get/tweakreviewsdb
 Icon: https://img.chariz.cloud/icon/tweakreviewsdb/icon@3x.png
 Name: TweakReviewsDB
 
+Package: com.white.12306
+Version: 1.0-2
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: ./debs/12306_1.0-2_iphoneos-arm.deb
+Size: 3300
+MD5sum: 7ae59a223aa2ca81f3821e91bde73ed6
+SHA1: cb6e38d05aeec202f0f60aa7dff381936c631b9c
+SHA256: 1149349462018a915fe85366544c612ea7f9e6f41c96f58347314a635395b31d
+Section: NoAds
+Description: 基于5.8.0制作，去除启动广告及首页顶部横幅，屏蔽部分越狱
+Author: White <1410970825@qq.com>
+Name: 铁路12306屏蔽越狱
+
 Package: com.white.Flex3beta
 Version: 1:3~Beta98
 Architecture: iphoneos-arm
@@ -471,6 +487,23 @@ Description: 基于7.51.0制作，其他版本自测。去除部分广告，解�
 Author: White <1410970825@qq.com>
 Name: 哔哩哔哩大会员画质
 
+Package: com.white.celldia
+Version: 0.0~beta5
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: mobilesubstrate
+Filename: ./debs/celldia_0.0~beta5_iphoneos-arm.deb
+Size: 15742
+MD5sum: e9935cb6feea2fefc497caf267a81efe
+SHA1: 7f6c50dd03dfe66f1ad17fb6ef70110d3d00c75a
+SHA256: f23c46326403dd2cc1e69706ff661a3e2b62197985c6f50dd02ea131519a7dba
+Section: Tweaks
+Homepage: https://twitter.com/ijulioverne
+Description: Cydia插件界面美化
+Author: julioverne
+Depiction: https://julioverne.github.io/description.html?id=com.julioverne.celldia
+Name: CellDia
+
 Package: com.white.cloud189
 Version: 1.0
 Architecture: iphoneos-arm
@@ -540,6 +573,23 @@ Description: 启用/禁用"单声道音频"控制中心模块
 Author: KingPuffdaddi
 Name: 控制中心单声道模块
 
+Package: com.white.cr4shed
+Version: 4.3.0
+Architecture: iphoneos-arm
+Maintainer: Muirey03
+Installed-Size: 1384
+Depends: mobilesubstrate, com.white.libmryipc, cy+cpu.arm64 | cy+cpu.arm64e, firmware (>= 9.0), ws.hbang.common (>= 1.11)
+Filename: ./debs/cr4shed_4.3.0_iphoneos-arm.deb
+Size: 169080
+MD5sum: ae2ec7d91c40a8353ea747f50f92858d
+SHA1: 078795b86c4e66119a6c07e7e10974d55f3c3351
+SHA256: f58a119abe0770b9425335140339dd2de8da9e5713d580fe7b2c8173e4d3b10d
+Section: Utilities
+Description: 崩溃日志查看工具 •	可帮助开发人员识别和修复用户报告给他们的崩溃 •	它会生成崩溃日志，/var/tmp/crash_logs •	其中包括崩溃的进程，崩溃的原因 •	导致崩溃的dylib以及崩溃发生时的整个调用堆栈等信息 •	如果有人向您报告崩溃并且您无法解决问题纯粹来自崩溃日志 •	那么这非常有用 (对于确定开发中崩溃的原因也非常有用) •	此报告应该是您确定崩溃发生原因所需的一切 •	这是为了与CrashReporter一起工作，而不是替换它 •	它提供了CrashReporter无法提供的信息 •	通常只需要确定崩溃的原因 •	但CrashReporter对于非NSExceptions引起的崩溃仍然有用
+Author: Muirey03
+Icon: file:///Applications/Cr4shed.app/AppIcon60x60@3x.png
+Name: Cr4shed
+
 Package: com.white.crackerxi
 Version: 1.1.16
 Architecture: iphoneos-arm
@@ -573,6 +623,30 @@ Author: julioverne
 Depiction: https://julio.hackyouriphone.org/description.html?id=com.julioverne.cracktool4
 Name: CrackTool4 (iOS 9 - 14)
 
+Package: com.white.crash-reporter
+Version: 1.17.2
+Architecture: iphoneos-arm
+Maintainer: Revulate <revulate1@gmail.com>
+Depends: firmware (>=11.0), coreutils, dpkg, grep, com.white.libcrashreport (>= 1.1.1), com.white.libpackageinfo (>= 1.1.1), com.white.techsupport (>= 1.5.0), mobilesubstrate, preferenceloader
+Conflicts: crash-reporter
+Replaces: crash-reporter
+Provides: crash-reporter
+Filename: ./debs/crash-reporter_1.17.2_iphoneos-arm.deb
+Size: 251350
+MD5sum: 21f66c416b8eb35924a2ee553d20a35c
+SHA1: 547e9236afda963883c2b44411cefd9af06bd0d3
+SHA256: 275545f8136f4c45166e231d50c4b725b533cdf07394ca48813195647f1adf43
+Section: Utilities
+Homepage: https://revulate.dev
+Description: 用于查看崩溃的详细信息、可确定所述崩溃的可能原因
+Author: Revulate <revulate1@gmail.com>
+Depiction: https://revulate.dev/depiction/web/com.spark.crash-reporter.html
+Icon: https://revulate.dev/assets/com.spark.crash-reporter/icon.png
+Icon2: file:///Applications/CrashReporter.app/Icon-60@3x.png
+Moderndepiction: https://revulate.dev/depiction/native/com.spark.crash-reporter.json
+Name: CrashReporter
+Sileodepiction: https://revulate.dev/depiction/native/com.spark.crash-reporter.json
+
 Package: com.white.customizebw
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -591,6 +665,84 @@ Depiction: https://mrepo.org/depiction/4903
 Icon: https://img.chariz.cloud/icon/customizebw/icon@3x.png
 Name: CustomizeBW
 Sileodepiction: https://mrepo.org/sileo/4903
+
+Package: com.white.cydiadarkmode
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/cydiadarkmode_1.0.0_iphoneos-arm.deb
+Size: 41972
+MD5sum: c02e954f698ca61121cf0657eebc1848
+SHA1: c099c88f8d1704c87d416765774266acb93934e7
+SHA256: b7793e2b25d245692e9aa962f1caffe6320f5ef790acf1c2ca16a08a698f2916
+Section: Tweaks
+Priority: optional
+Description: 让Cydia跟随系统自动切换浅色/深色模式，14.5.1牛磺酸测试无效
+Author: MacOS
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Name: Cydia Dark Mode
+Sponsor: White <1410970825@qq.com>
+
+Package: com.white.cydiaplus
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: t0mi <fritsch.weiding@yahoo.de>
+Depends: mobilesubstrate
+Filename: ./debs/cydiaplus_1.2_iphoneos-arm.deb
+Size: 56302
+MD5sum: 3a7e77ce4f7a003a669d594d5df73cfc
+SHA1: 82b10d6e481cbcf873691245199e96893f593b99
+SHA256: f83e18e29818d5eeb31b032335f58f26bf1290bb1e0fef6996327556fd1f45d8
+Section: Tweaks
+Description: 加速Cydia刷新源，无设置
+Author: t0mi <fritsch.weiding@yahoo.de>
+Name: Cydia Plus
+
+Package: com.white.cydiapulldown
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: t0mi <fritsch.weiding@yahoo.de>
+Depends: mobilesubstrate
+Filename: ./debs/cydiapulldown_1.1_iphoneos-arm.deb
+Size: 6584
+MD5sum: 0e8ced4a99d32a44e34e7095600e5baa
+SHA1: 1dd654f9bb83392a806b039e7ea09ac0de7329a5
+SHA256: fbce14c023bb577edf66e9db4d1723aa8802225063766db0c2c99284f62a6246
+Section: Tweaks
+Description: Cydia软件源列表添加下拉刷新功能
+Author: t0mi <fritsch.weiding@yahoo.de>
+Name: CydiaPullDown
+
+Package: com.white.cydiaquick
+Version: 2.2.0
+Architecture: iphoneos-arm
+Maintainer: iBreak <ibreak2019@qq.com>
+Depends: mobilesubstrate
+Filename: ./debs/cydiaquick_2.2.0_iphoneos-arm.deb
+Size: 68690
+MD5sum: 1702ab0ca244d768313d697c1b31bb2e
+SHA1: f5ad401349e7b3b46722a2a367bc80cdffce0d59
+SHA256: 452559fb7b099886c9701ecc6fe90f2d2e4ec8e14a22ce5019f11f521c2df0ab
+Section: Tweaks
+Description: Cydia加速启动载入与加载响应等
+Author: iBreak <ibreak2019@qq.com>
+Name: Cydia Quick
+
+Package: com.white.cydiazq
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Depends: mobilesubstrate
+Filename: ./debs/cydiazq_1.0.0_iphoneos-arm.deb
+Size: 7072
+MD5sum: 67c93a970e34ffc5b36a34a57bf0c289
+SHA1: 9658a7a63a60f9e9b7fe12164206ab6bd0fb897e
+SHA256: 5fdb6aeab78c1673f3ddbd8f785e1c5f6485db20715619d73fce8a8adfc6a3d7
+Section: Tweaks
+Description: Cydia增强，去除黄色错误，去除非法源提示
+Author: White <1410970825@qq.com>
+Name: Cydia增强
 
 Package: com.white.cydown
 Version: 7.1.2-1
@@ -649,14 +801,12 @@ Maintainer: Netskao
 Installed-Size: 2428
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: ./debs/dumpdecrypter_1.3-7_iphoneos-arm.deb
-Size: 592864
-MD5sum: 2dff107a09aaac064a28f89833a9044a
-SHA1: 6b9b997352e45f8167495e1d46c05ca105ab6ded
-SHA256: 2926d35fbf77b82bd27925f90b12fc8817ccc732a6dc9e7518ea057186e6ebf1
+Size: 592884
+MD5sum: d8cd00057aeab1d4e07472c7b7a8d081
+SHA1: 1ce0c4f14e3c549fff907b4b06c334ec22ac59af
+SHA256: ce06a4ff35e0ae76b3a27f03971a3da13e3ac85b37121f8502ca74a76a0af2e7
 Section: Utilities
-Description: DumpDecrypter是基于dumpdecrypted的修改封装
- 使用方式：打开桌面的DumpDecrypter应用程序选择需要解密的应用，解密的IPA会保存至：/var/mobile/Documents/DumpDecrypter
- 选择应用后会自动杀掉应用进程重新打开，解密前加载所有Frameworks，解密前停止所有非解密线程，解密完成后自动恢复等(解密后的IPA如果要直接安装，建议重新签名，无论使用的签名证书是否有效，否则某些环境会出现闪退等问题)
+Description: DumpDecrypter是基于dumpdecrypted的修改封装，使用方式：打开桌面的DumpDecrypter应用程序选择需要解密的应用，解密的IPA会保存至：/var/mobile/Documents/DumpDecrypter丨选择应用后会自动杀掉应用进程重新打开，解密前加载所有Frameworks，解密前停止所有非解密线程，解密完成后自动恢复等(解密后的IPA如果要直接安装，建议重新签名，无论使用的签名证书是否有效，否则某些环境会出现闪退等问题)
 Author: Netskao
 Icon: file:///Applications/DumpDecrypter.app/AppIcon60x60@3x.png
 Name: DumpDecrypter
@@ -770,6 +920,22 @@ Icon: https://repo.cypwn.xyz/assets/repo/Featured/genieaichatbot.png
 Name: Genie AI Chatbot Pro
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1897
 
+Package: com.white.gtgj
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: ./debs/gtgj_1.0-1_iphoneos-arm.deb
+Size: 7006
+MD5sum: cf8c6b050a98cdc94c4fadd20fc3e158
+SHA1: 01b57847976ce80d7b4afed5dc276578b544cc1e
+SHA256: 1f22a8441e1884024abbd53bce1647c7e2de8a6539d8b4112e6d4ee065fc3646
+Section: NoAds
+Description: 基于8.65.0制作，去启动广告精简我的界面。屏蔽越狱检查
+Author: White <1410970825@qq.com>
+Name: 高铁管家屏蔽越狱
+
 Package: com.white.haptickeys
 Version: 4.4
 Architecture: iphoneos-arm
@@ -881,6 +1047,92 @@ Section: Tweaks
 Description: Lightricks软件包括Photoleap, Videoleap, Beatleap, Lightleap, 艺章(Artleap), Motionleap及Facetune Video, Facetune破解，解锁会员订阅
 Author: 小果子
 Name: Lightricks-leap通用破解
+
+Package: com.white.libcrashreport
+Version: 1.1.2
+Architecture: iphoneos-arm
+Maintainer: Revulate <revulate1@gmail.com>
+Depends: firmware (>=11.0), firmware (>=11.0), com.white.libsymbolicate, com.white.libpackageinfo
+Conflicts: jp.ashikase.libcrashreport, cokepokes.jp.ashikase.libcrashreport
+Replaces: jp.ashikase.libcrashreport, cokepokes.jp.ashikase.libcrashreport
+Provides: jp.ashikase.libcrashreport, cokepokes.jp.ashikase.libcrashreport
+Filename: ./debs/libcrashreport_1.1.2.deb
+Size: 23916
+MD5sum: eb15b72be8cd9898f592e94b341bdc3f
+SHA1: 54a9a1fb4d8dd3cff5c94b29e5b2ebe62135babd
+SHA256: cee4cdaec4c0c70f0cc31236e6c2794fa334e97b281a54ba6d9b9c546c493aae
+Section: 依赖
+Homepage: https://revulate.dev
+Description: 用于解析和Symbolicate崩溃报告的依赖库
+Author: Revulate <revulate1@gmail.com>
+Depiction: https://revulate.dev/depiction/web/com.spark.libcrashreport.html
+Icon: https://revulate.dev/assets/com.spark.libcrashreport/icon.png
+Moderndepiction: https://revulate.dev/depiction/native/com.spark.libcrashreport.json
+Name: libcrashreport (SparkDev)
+Sileodepiction: https://revulate.dev/depiction/native/com.spark.libcrashreport.json
+
+Package: com.white.libmryipc
+Version: 2.0.1
+Architecture: iphoneos-arm
+Maintainer: Muirey03 <tommy.muir@btinternet.com>
+Installed-Size: 464
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
+Conflicts: ws.hbang.stopcrashingpls (=1.0)
+Filename: ./debs/libmryipc_2.0.1.deb
+Size: 31176
+MD5sum: 0d0155f5f99a11ad6b9ab1c1ea6fe021
+SHA1: 7adc18a8caeeb5ea548f717236efd57eefe5c113
+SHA256: f8222e6f96278f8d4a15320a1661428fcca6a6a46e98c90559370f024fcba68e
+Section: 依赖
+Description: 易于使用且无需RocketBootstrap的iOS IPC依赖库
+Author: Muirey03 <tommy.muir@btinternet.com>
+Name: libMRYIPC
+
+Package: com.white.libpackageinfo
+Version: 1.1.4
+Architecture: iphoneos-arm
+Maintainer: Revulate <revulate1@gmail.com>
+Depends: firmware (>=11.0), firmware (>=11.0)
+Conflicts: jp.ashikase.libpackageinfo, cokepokes.jp.ashikase.libpackageinfo
+Replaces: jp.ashikase.libpackageinfo, cokepokes.jp.ashikase.libpackageinfo
+Provides: jp.ashikase.libpackageinfo, cokepokes.jp.ashikase.libpackageinfo
+Filename: ./debs/libpackageinfo_1.1.4.deb
+Size: 56816
+MD5sum: 4864de4460c9c62e3ecd3b6b7998d01e
+SHA1: e59e9c759e3f761eee3c811f06a44ccc7f085ce5
+SHA256: 0648284e8cb31960b8edff9ea61c8b8f965fdb2143e9b3f462623caeaeaa426d
+Section: 依赖
+Homepage: https://revulate.dev
+Description: 用于检查包信息的依赖库
+Author: Revulate <revulate1@gmail.com>
+Depiction: https://revulate.dev/depiction/web/com.spark.libpackageinfo.html
+Icon: https://revulate.dev/assets/com.spark.libpackageinfo/icon.png
+Moderndepiction: https://revulate.dev/depiction/native/com.spark.libpackageinfo.json
+Name: libpackageinfo (SparkDev)
+Sileodepiction: https://revulate.dev/depiction/native/com.spark.libpackageinfo.json
+
+Package: com.white.libsymbolicate
+Version: 1.9.2
+Architecture: iphoneos-arm
+Maintainer: Revulate <revulate1@gmail.com>
+Depends: firmware (>=11.0), firmware (>=11.0)
+Conflicts: jp.ashikase.libsymbolicate, cokepokes.jp.ashikase.libsymbolicate
+Replaces: jp.ashikase.libsymbolicate, cokepokes.jp.ashikase.libsymbolicate
+Provides: jp.ashikase.libsymbolicate, cokepokes.jp.ashikase.libsymbolicate
+Filename: ./debs/libsymbolicate_1.9.2.deb
+Size: 20058
+MD5sum: aced5482c3a60ab5438868c6432bb42a
+SHA1: 60191ab9f722f480dd88f0eeb97feacbc5c15fac
+SHA256: 96c5ad9a0aa2f952d9fdc3f0b60297e23b774528662d92013d5acb1165fc1b16
+Section: 依赖
+Homepage: https://revulate.dev
+Description: Symbolicate内存地址依赖库
+Author: Revulate <revulate1@gmail.com>
+Depiction: https://revulate.dev/depiction/web/com.spark.libsymbolicate.html
+Icon: https://revulate.dev/assets/com.spark.libsymbolicate/icon.png
+Moderndepiction: https://revulate.dev/depiction/native/com.spark.libsymbolicate.json
+Name: libsymbolicate (SparkDev)
+Sileodepiction: https://revulate.dev/depiction/native/com.spark.libsymbolicate.json
 
 Package: com.white.milkyway3
 Version: 0.2.15
@@ -1199,6 +1451,25 @@ Description: 添加控制中心音量/亮度滑块、侧边音量框滑块百分
 Author: iOS Creatix, Rafferty W
 Name: SugarCane
 
+Package: com.white.swipeformore
+Version: 1.1.10
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 128
+Depends: firmware (>= 8.0), mobilesubstrate, preferenceloader
+Filename: ./debs/swipeformore_1.1.10_iphoneos-arm.deb
+Size: 26644
+MD5sum: 54dc114ba91d614b705375b70754cdb6
+SHA1: 5851e82f4c10bcb079bcb3078dd03d55804b518b
+SHA256: 1041a89bfb14764b9baa5fb47cd0e0292821f94ffc80e586a0e082dcc6e24f6e
+Section: Tweaks
+Description: 插件列表可滑动安装/卸载/重装插件，去除跳转页面等功能
+Tag: purpose::extension, role::enduser, compatible::ios8, compatible::ios9
+Author: PoomSmart <poomst@hotmail.com>
+Icon: file:///Applications/Cydia.app/Sections/System.png
+Name: Cydia智能滑动增强
+Sponsor: White <1410970825@qq.com>
+
 Package: com.white.tai
 Version: 5.2.2-8+debug
 Architecture: iphoneos-arm
@@ -1262,21 +1533,44 @@ Author: Randy420 <randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/taidependscoolstar.html
 Name: Theos Auto Installer Dependencies for Procursus based jailbreaks
 
-Package: com.white.taobaobypass
-Version: 1.0
+Package: com.white.taobao
+Version: 1.0-1
 Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
-Installed-Size: 670
+Installed-Size: 72
 Depends: mobilesubstrate
-Filename: ./debs/taobaobypass_1.0_iphoneos-arm.deb
-Size: 6856
-MD5sum: 01c1378857223792e905442ac1293ab2
-SHA1: de172f07c42ccf996888bd2f7f7c9a1d16b8273d
-SHA256: 02ef52515e092db260717f3b0637034eac2224369b09092585cb981a61a39612
+Filename: ./debs/taobao_1.0-1_iphoneos-arm.deb
+Size: 6074
+MD5sum: 3d509d4638c77a88fec34e5d36dfb770
+SHA1: 4bced8d90ded021959a8ffbfcebf19d8c6b83566
+SHA256: e15caf6f0f2cdae58b51d41d41cd94e145cd5e813484d917528f0444bf9ca156
 Section: NoAds
-Description: 基于10.32.20制作支持最新版10.35.0，屏蔽部分越狱检查
+Description: 基于10.32.20制作，屏蔽部分越狱
 Author: White <1410970825@qq.com>
 Name: 淘宝屏蔽越狱
+
+Package: com.white.techsupport
+Version: 1.6.1
+Architecture: iphoneos-arm
+Maintainer: Lance Fetters (ashikase) <support@ashikase.com>
+Installed-Size: 344
+Pre-Depends: firmware (>=3.0)
+Depends: com.white.libpackageinfo
+Conflicts: jp.ashikase.techsupport
+Replaces: jp.ashikase.techsupport
+Provides: jp.ashikase.techsupport
+Filename: ./debs/techsupport_1.6.1.deb
+Size: 38602
+MD5sum: ccd5d385af487494c1d133ebe99f1eda
+SHA1: cf46daefcc55a6c0b33e682977da105778bc29da
+SHA256: 5c55024b0774a5af1f3c9f787f6053824f13196c9f01ad010acec67d807c5178
+Section: 依赖
+Homepage: http://github.com/ashikase/TechSupport
+Description: 协助向开发者提供反馈的框架依赖库
+Author: Lance Fetters (ashikase) <support@ashikase.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=techsupportData
+Name: TechSupport Framework (SparkDev)
+Sponsor: Lance Fetters (ashikase) <support@ashikase.com>
 
 Package: com.white.thunderhelper
 Version: 1.5.1
@@ -1442,54 +1736,6 @@ Author: Huayuarc
 Name: 网易云音乐 NoAds
 Sponsor: Huayuarc
 
-Package: cydia
-Version: 1.1.36
-Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 6472
-Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=5.0)
-Depends: cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.19.1), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz
-Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
-Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
-Provides: bigbossbetarepo, cydia-sources
-Filename: ./debs/cydia_1.1.36_iphoneos-arm.deb
-Size: 1353812
-MD5sum: 1dd9e76e9d8a291c794ea22e7015a41a
-SHA1: 4041c04eff333ad2e1bd826ee3bb3095c5139726
-SHA256: 7b05334d429c109906abf53aca1d9606f414efea318b4959d7cd47b47ab594cd
-Section: Packaging
-Priority: required
-Description: graphical iPhone front-end for APT
-Tag: purpose::uikit, cydia::essential, role::enduser
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: http://cydia.saurik.com/info/cydia/
-Icon: file:///Applications/Cydia.app/Icon-60.png
-Name: Cydia Installer
-
-Package: cydia
-Version: 1.1.36-3
-Architecture: iphoneos-arm
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 6496
-Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=12.0)
-Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz-utils, zstd
-Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
-Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
-Provides: bigbossbetarepo, cydia-sources, cydia-lproj
-Filename: ./debs/cydia_1.1.36-3_iphoneos-arm.deb
-Size: 1282542
-MD5sum: 7fe45f0aefcacfcae3f9e273ce1bf599
-SHA1: 809845f193170670590eb8c55aeab49c5dd504e6
-SHA256: 0b35970a9df4a2f28e6b308bf9670011444c8cc4cf0734b92972cae522bb3a82
-Section: Tweaks
-Priority: important
-Description: 此版本为Chimera、Taurine越狱专用
-Tag: purpose::uikit, role::enduser
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Icon: file:///Applications/Cydia.app/Icon-60.png
-Name: Cydia Installer
-Sponsor: Procursus Team <support@procurs.us>
-
 Package: cydia-lproj
 Version: 1.1.32~b1
 Architecture: iphoneos-arm
@@ -1511,6 +1757,30 @@ Tag: purpose::uikit, cydia::essential, role::enduser
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/cydia-lproj/
 Name: Cydia Translations
+
+Package: cydia.installer
+Version: 1.1.36-3
+Architecture: iphoneos-arm
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 6496
+Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=12.0)
+Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz-utils, zstd
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Provides: bigbossbetarepo, cydia-sources, cydia-lproj
+Filename: ./debs/cydia.installer_1.1.36-3_iphoneos-arm.deb
+Size: 1408974
+MD5sum: 8c8c184e7d05f6aeb4b5d553a4a53b89
+SHA1: ae182fe603b2487c9c77ff33f8ce14ade6588998
+SHA256: a7efc934b58eab6f89776838e03d56831054d9810f9347bc13f34cb8f04d77a4
+Section: Tweaks
+Priority: important
+Description: 此版本为酷星越狱工具专用，整合一些增强插件
+Tag: purpose::uikit, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Icon: file:///Applications/Cydia.app/Icon-60.png
+Name: Cydia Installer
+Sponsor: Procursus Team <support@procurs.us>
 
 Package: flexdecrypt
 Version: 1.1
