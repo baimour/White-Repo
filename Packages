@@ -256,6 +256,38 @@ Depiction: https://chariz.com/get/tweakreviewsdb
 Icon: https://img.chariz.cloud/icon/tweakreviewsdb/icon@3x.png
 Name: TweakReviewsDB
 
+Package: com.spark.libsparkapplist
+Version: 1.0.10
+Architecture: iphoneos-arm
+Maintainer: Spark
+Installed-Size: 404
+Filename: ./debs/com.spark.libsparkapplist_1.0.10_iphoneos-arm.deb
+Size: 30880
+MD5sum: 5a65600a5667df9470b07a23a74d4a16
+SHA1: 1b2662f115972cfe2579aa525634e1715a4e20a5
+SHA256: be73d4b2ae536f337389b551b2d5766c442c6afbfb1b2204f1b75b4fb9f38b38
+Section: 依赖
+Description: AppList依赖的替代版
+Tag: role::developer
+Author: Spark
+Name: libSparkAppList
+
+Package: com.spark.libsparkcolourpicker
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Spark
+Installed-Size: 424
+Filename: ./debs/libsparkcolourpicker_1.0.2_iphoneos-arm.deb
+Size: 81492
+MD5sum: c9cb3a65e032ec248e9d6c05e8244594
+SHA1: 7089192bdc4d75a190a539a433f229eda010bcf4
+SHA256: 95e0f07c37796d236aa73ce7a0f4a1029537072e954243c9e60bb9e32d1059ac
+Section: 依赖
+Description: 颜色选择器依赖库，作者：SparkDev
+Tag: role::developer
+Author: Spark
+Name: libsparkcolourpicker
+
 Package: com.white.12306
 Version: 1.0-2
 Architecture: iphoneos-arm
@@ -308,6 +340,40 @@ Description: 听说Flex 3 Beta50有神秘加成，所以上架一个老版本，
 Author: John Coates
 Icon: file:///Applications/Flex.app/AppIconBeta60x60@3x.png
 Name: Flex 3 Beta50
+
+Package: com.white.MBEdark
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: JaBi扎比
+Filename: ./debs/MBEdark_1.0_iphoneos-arm.deb
+Size: 281550
+MD5sum: 8ca8d8921d30968ef5cf0c9cfba5f1e0
+SHA1: 6a2dbaa4b5a2a7df21ec04856fedc8a2301a56ed
+SHA256: 8b08eca242c1813db48e8c6936ff95fb6924b0e0212c5cbae337e67799296c7f
+Section: Themes
+Description: MBE JaBi（深色版）
+Author: JaBi扎比
+Depiction: https://jabizb.com/repo/web/mbejabidark
+Icon: https://jabizb.com/repo/web/mbejabidark.png
+Name: MBE Jabi键盘主题（深色版）
+Sponsor: JaBi扎比
+
+Package: com.white.MBElight
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: JaBi扎比
+Filename: ./debs/MBElight_1.0_iphoneos-arm.deb
+Size: 319296
+MD5sum: f347c9693bdadd99dd7ccd6b3e4bee24
+SHA1: b25a05f90ca12aab2b97ae6bbc581ce0f55ae1e6
+SHA256: c972c549a354c8f352251523f1f7763718049ba35eeaded74317b5513f5f117f
+Section: Themes
+Description: MBE JaBi（浅色版）
+Author: JaBi扎比
+Depiction: https://jabizb.com/repo/web/mbejabi
+Icon: https://jabizb.com/repo/web/mbejabi.png
+Name: MBE Jabi键盘主题（浅色版）
+Sponsor: JaBi扎比
 
 Package: com.white.adspeed
 Version: 1.1.1
@@ -465,6 +531,22 @@ Size: 8948
 MD5sum: 45f30361a2a3b37573267cd0f5b92cfd
 SHA1: 7d3e536af34130c63a92254f1aeef2633d5d341c
 SHA256: 0113128d6ff4e18863e3dda0c4edb385539d60f2735d19570362b81c798e31fb
+Section: NoAds
+Description: 基于7.65.0制作，其他版本自测 •	去除部分广告 •	屏蔽越狱检测 •	解锁大会员画质(基于试用修改) •	可缓存HDR杜比视界 •	免会员电视剧解锁缓存
+Author: White <1410970825@qq.com>
+Name: 哔哩哔哩大会员画质
+
+Package: com.white.bilibili
+Version: 1.0-5
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: ./debs/bilibili_1.0-5_iphoneos-arm.deb
+Size: 8998
+MD5sum: 0f4cd425a34e66712df356c58ff7c926
+SHA1: 2a1fa52d868974fd3768a005a3cf5dedfb192cd2
+SHA256: 6918726be02dc6a82f86470f6946cac528b6d91351f83479d113e448c9334f5a
 Section: NoAds
 Description: 基于7.65.0制作，其他版本自测 •	去除部分广告 •	屏蔽越狱检测 •	解锁大会员画质(基于试用修改) •	可缓存HDR杜比视界 •	免会员电视剧解锁缓存
 Author: White <1410970825@qq.com>
@@ -848,6 +930,100 @@ Icon: https://media.havoc.app/65e987f4df1ff02035bcd6b1
 Name: Fiona
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2145
 
+Package: com.white.flexall
+Version: 0.0.1-24
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 296
+Depends: mobilesubstrate, libflex
+Filename: ./debs/FLEXall_0.0.1-24_iphoneos-arm.deb
+Size: 25940
+MD5sum: 6067bafbc7a6d3f10d4fb7bca65cff4e
+SHA1: 2220f625f2106c0881863944a0904f185dbc5386
+SHA256: 0a67c63ad7b833590d1089c591bd7ba73713cc02425899bf70e8d9ad37ca83cf
+Section: Tweaks
+Description: 动态调试App工具 •	状态栏调用FLEX (Flipboard) •	APP中三指长按点击屏幕呼出 •	SpringBoard在状态栏左上角长按
+Author: DGh0st
+Name: FLEXall
+Sponsor: White <1410970825@qq.com>
+
+Package: com.white.flexer
+Version: 0.9
+Architecture: iphoneos-arm
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 3096
+Pre-Depends: firmware (>= 8.0), mobilesubstrate | com.ex.libsubstitute
+Filename: ./debs/FLEXer_0.9_iphoneos-arm.deb
+Size: 659020
+MD5sum: 33020e6bd111c7e757b4efca19b1a550
+SHA1: 6483bd0e2b0acbd67c6f813ef85c2b0fc9b7629b
+SHA256: a57bf8350b1f09c0281257f36bd4a45e6a092ab6a385cb926b2837ad31339962
+Section: Tweaks
+Priority: optional
+Homepage: https://creaturecoding.com/
+Description: 动态调试App工具 •	状态栏调用FLEX(Flipboard) •	APP中四指点击屏幕呼出 •	SpringBoard在状态栏左上角长按
+Tag: purpose::extension, compatible_min::iosiOS8
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=flexer
+Name: FLEXer
+Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=flexer
+
+Package: com.white.flexible
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: White
+Installed-Size: 4860
+Depends: mobilesubstrate, firmware (>= 7.0), com.opa334.ccsupport
+Filename: ./debs/FLEXible_1.0-1_iphoneos-arm.deb
+Size: 735972
+MD5sum: 38ea242436692209615cc91104c09974
+SHA1: 64748e655829d42ed4af8ca0c413ba926c25c281
+SHA256: 47695e694430c91c38de9427fe857b20d60bf564fd33f2651ddeae4f87a81936
+Section: Tweaks
+Description: 动态调试App工具 •	控制中心增加快捷模块
+Tag: purpose::extension, compatible::ios11, compatible::ios12
+Author: bandarhelal
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Name: FLEXible
+Sponsor: White
+
+Package: com.white.flexing
+Version: 1.3.1
+Architecture: iphoneos-arm
+Maintainer: Tanner Bennett <thepantsthief@me.com>
+Installed-Size: 288
+Pre-Depends: firmware (>= 8.0)
+Depends: libflex
+Conflicts: com.dgh0st.flexall, gg.gh0stbyte.flexivator, com.shmoopillic.flexible, applebetas.ios.tweak.devtools.flexgesture, com.creaturecoding.flexer, com.lacertosusrepo.flex4me, me.nepeta.flexxx, com.ipadkid.flexit, com.qiop1379.flexbar, com.leftyfl1p.reflex
+Filename: ./debs/FLEXing_1.3.1_iphoneos-arm.deb
+Size: 18208
+MD5sum: df635cd7e567f486e933a91ad7486cfd
+SHA1: ec148eeeda145fb356930bb245a33a3b900f1b8f
+SHA256: 551941709b8a710c794c9228de64e7115b62b7a1d99e5f772606184f1b58da77
+Section: Tweaks
+Description: 动态调试App工具 •	状态栏调用FLEX(Flipboard) •	长按状态栏左上角呼出工具栏
+Author: Tanner Bennett <thepantsthief@me.com>
+Depiction: https://nscake.github.io/package.html?package=com.pantsthief.flexing
+Name: FLEXing
+Sileodepiction: https://nscake.github.io/depictions/com.pantsthief.flexing.sileo.json
+
+Package: com.white.flextool
+Version: 0.0.1-3
+Architecture: iphoneos-arm
+Maintainer: Paul Bancarel
+Installed-Size: 4796
+Depends: firmware (>= 8.0), mobilesubstrate, preferenceloader, applist
+Filename: ./debs/FLEXTool_0.0.1-3_iphoneos-arm.deb
+Size: 678476
+MD5sum: 2c6123bd1a9089458be02395b0f34a5d
+SHA1: 5498948494ba3cbe65cfaf084f464732d3a0edb0
+SHA256: dfe15a9b3fb940d9ffd4ca470b8c13b7755b202894c0dbff522eacc936b8eb2f
+Section: Tweaks
+Description: 动态调试App工具
+Author: Paul Bancarel
+Name: FlexTool
+Sponsor: White <1410970825@qq.com>
+
 Package: com.white.ftt
 Version: 1.1
 Architecture: iphoneos-arm
@@ -939,6 +1115,21 @@ Icon: file:///Library/PreferenceBundles/HKSettings.bundle/HK@2x.png
 Name: HapticKeys Rus
 Sileodepiction: https://rejail.ru/sileo/depiction.php?file=haptickeys
 
+Package: com.white.iparanger
+Version: 1.9
+Architecture: iphoneos-arm
+Maintainer: 0xkuj <0xkujz@gmail.com>
+Depends: gawk, unzip, com.bingner.plutil
+Filename: ./debs/iparanger_1.9_iphoneos-arm.deb
+Size: 1135144
+MD5sum: 918e7b436e8501562934ae4a3d59ca44
+SHA1: 8b7af3b53e0aaa5769a02f395d879e4deb8a2edc
+SHA256: 2d9d0d951c5685af9cc839ceca03445bcf49c155a2670e78adbd5ae3c50873f7
+Section: Addons
+Description: 使用您的Apple ID帐户从App Store下载任何IPA！当前适用于越狱设备，将来可能会支持非越狱设备
+Author: 0xkuj <0xkujz@gmail.com>
+Name: IPA Ranger
+
 Package: com.white.iridium
 Version: 1.2.15
 Architecture: iphoneos-arm
@@ -1014,6 +1205,76 @@ Depiction: https://ginsu.dev/repo/depictions/index.html?packageId=com.ginsu.kbpr
 Icon: https://ginsu.dev/repo/api/packageinfo/com.ginsu.kbpro/icon.png
 Name: KBPro
 Sileodepiction: https://ginsu.dev/repo/depictions/native/com.ginsu.kbpro.json
+
+Package: com.white.laetus
+Version: 3.4.0
+Architecture: iphoneos-arm
+Maintainer: Spark
+Installed-Size: 1804
+Depends: mobilesubstrate, preferenceloader, com.spark.libsparkcolourpicker (>= 1.0.1)
+Filename: ./debs/laetus_3.4.0_iphoneos-arm.deb
+Size: 1527548
+MD5sum: f36c102f2886df80da38bae460d5f54c
+SHA1: 97ae645d23ab1efcbed486b0686a2ccfcd94974f
+SHA256: ef056404095bbabd8e6fa21586352bc5f5e09d3d7542f83ecfdffbda75ba0994
+Section: Tweaks
+Description: 自定义键盘/主题，内置扎比键盘主题
+Author: Spark
+Name: Laetus
+
+Package: com.white.laetus-keyboard-pack
+Version: 1.7.1
+Architecture: iphoneos-arm
+Maintainer: Devy_Design
+Depends: mobilesubstrate
+Filename: ./debs/laetus-keyboard-pack_1.7.1_iphoneos-arm.deb
+Size: 37923042
+MD5sum: 21b976737a7e4dce8a738d6e5e42cba7
+SHA1: a6f90ea757b76e69ad58a06d371b6f78ac2f2d31
+SHA256: 745353351359f943b2d86a5b5dd2c69c92a6a8d657830dc8b3137164df7d88b5
+Section: Themes
+Description: 轻巧、时尚、精美的键盘主题
+Author: Devy_Design
+Depiction: https://repo.cypwn.xyz/depiction/150
+Icon: https://twickd.com/images/854f99475ca39085db903c6d35e44ad7.jpeg
+Name: Laetus Keyboard Pack
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/150
+
+Package: com.white.laetus-keyboard-pack-2
+Version: 1.1.5
+Architecture: iphoneos-arm
+Maintainer: Devy_Design
+Depends: mobilesubstrate
+Filename: ./debs/laetus-keyboard-pack-2_1.1.5_iphoneos-arm.deb
+Size: 19226096
+MD5sum: 07c5efaf50f02091df24e0b4ac5cad79
+SHA1: 37550efd50ab927dca0904d0458355d1ed5883eb
+SHA256: 53eee3e6e782615594aba67c3b888ea0216b8e44fe4e89aaae7444fa9f0c457d
+Section: Themes
+Description: 轻巧、时尚、精美的键盘主题
+Author: Devy_Design
+Depiction: https://repo.cypwn.xyz/depiction/148
+Icon: https://twickd.com/images/ff255f00b7a196c01aa574cd8b736b53.jpeg
+Name: Laetus Keyboard Pack 2
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/148
+
+Package: com.white.laetus-keyboard-pack-3
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Devy_Design
+Depends: mobilesubstrate
+Filename: ./debs/laetus-keyboard-pack-3_1.0.2_iphoneos-arm.deb
+Size: 16029500
+MD5sum: 5dfeb5c6f4aecc69d5e75800cefcb3da
+SHA1: 53cc51e8052de025b77dd788662ed6d938c21eed
+SHA256: 076ed8df3025eb23c44575e3092afa66728494c9b29741c1a172f72b18a4f6a6
+Section: Themes
+Description: 轻巧、时尚、精美的键盘主题
+Author: Devy_Design
+Depiction: https://repo.cypwn.xyz/depiction/149
+Icon: https://twickd.com/images/f4f479d1facd349e31ab8a6b362c775d391abf2d.jpeg
+Name: Laetus Keyboard Pack 3
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/149
 
 Package: com.white.leap
 Version: 0.0.1
@@ -1152,6 +1413,22 @@ Description: 启动无线/蜂窝网络框架优化来提升响应速度
 Author: iBreak <ibreak2019@qq.com>
 Name: Network Exalt
 
+Package: com.white.nomoresmallapps
+Version: 2.0.1
+Architecture: iphoneos-arm
+Maintainer: Spark
+Installed-Size: 484
+Depends: mobilesubstrate, com.spark.libsparkapplist
+Filename: ./debs/nomoresmallapps_2.0.1_iphoneos-arm.deb
+Size: 125376
+MD5sum: 16abf8599813f07396167a76aa59a669
+SHA1: 398511ff81e5c6b7448c6dc16533b41461ff7fe4
+SHA256: 7cc7728e5e9a6dcd1afdf6010ebad666a808919635d7ed29b87b93510620d92f
+Section: Tweaks
+Description: 让全面屏设备中的所有应用都能全屏显示
+Author: Spark
+Name: NoMoreSmallApps
+
 Package: com.white.nonceset143
 Version: 0.0.5
 Architecture: iphoneos-arm
@@ -1187,6 +1464,22 @@ Section: Tweaks
 Description: 去除状态栏左上角App快捷返回
 Author: iBreak <ibreak2019@qq.com>
 Name: No Quick Bar
+
+Package: com.white.nosimalert
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Spark
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: ./debs/nosimalert_1.0.0_iphoneos-arm.deb
+Size: 2046
+MD5sum: 2252e181d03c9e2adf57be1f48537f1d
+SHA1: 95a4a93c1beb908217a7543c535284f3acb5846e
+SHA256: 7910086cdc0a08e37bba630562f5ce468662f7ee9e0101ee48ec5f1ba8104314
+Section: Tweaks
+Description: 删除无SIM卡弹窗
+Author: Spark
+Name: NoSimAlert
 
 Package: com.white.notitapdelay
 Version: 1.2
@@ -1313,6 +1606,24 @@ Author: White <1410970825@qq.com>
 Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 Icon2: 12.png
 Name: 控制中心注销模块
+
+Package: com.white.retrokeys-keyboard-pack
+Version: 1.9
+Architecture: iphoneos-arm
+Maintainer: psprrom
+Depends: mobilesubstrate
+Filename: ./debs/retrokeys-keyboard-pack_1.9_iphoneos-arm.deb
+Size: 56439176
+MD5sum: eea411d1900c8348eef94bca18741b0a
+SHA1: 6ef481a3550b45edb43c341b1b65d468667aac5a
+SHA256: e44f4e2aec6d3112fc990aa4c8859dcf40b008a8e69ddc7fc02e05ee39ae441e
+Section: Themes
+Description: iOS复古键盘主题
+Author: @psprrom<rromero-mosso@hotmail.com>
+Depiction: https://repo.cypwn.xyz/depiction/329
+Icon: https://twickd.com/images/f0f40317369878782d0acff4e022713f4d778ebd.jpeg?size=medium
+Name: RETROKeys Keyboard Pack
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/329
 
 Package: com.white.safeccmodules
 Version: 1.5-2
@@ -1638,6 +1949,24 @@ Description: 视频免广告多功能助手
 Author: iBreak <ibreak2019@qq.com>
 Name: Video Helper
 
+Package: com.white.vintage-keyboard-pack
+Version: 1.7
+Architecture: iphoneos-arm
+Maintainer: psprrom
+Depends: mobilesubstrate
+Filename: ./debs/vintage-keyboard-pack_1.7_iphoneos-arm.deb
+Size: 52041192
+MD5sum: d14ec2224dbe8b9961317b3508f16305
+SHA1: 1a0b520dd6141940009d66fae111f9a727e954f9
+SHA256: a3aa8fddfd5893ed871c17ed041a9b81600f5b1edff3b18d0f92d4a55b0e5526
+Section: Themes
+Description: iOS6经典键盘主题
+Author: @psprrom<rromero-mosso@hotmail.com>
+Depiction: https://repo.cypwn.xyz/depiction/528
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/vintage-keyboard.png
+Name: Vintage Keyboard Pack
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/528
+
 Package: com.white.volumeflex
 Version: 0.0.5-1
 Architecture: iphoneos-arm
@@ -1649,6 +1978,22 @@ Size: 78668
 MD5sum: 10f7a5b8306606fd2c7c6a780927856a
 SHA1: 4dc1f7a46a50889340f22093b45035921865c91e
 SHA256: 189a0f80ad74fa99d2488abcd9a618c7795b1f745d92182d00146c73a84803d4
+Section: Tweaks
+Description: 世界不需要另一个FLEX工具，但手指粗的人需要
+Author: Joshua Wheeler
+Name: VolumeFLEX
+
+Package: com.white.volumeflex
+Version: 0.0.5-2
+Architecture: iphoneos-arm
+Maintainer: Joshua Wheeler
+Installed-Size: 448
+Depends: mobilesubstrate (>= 0.9.5000), libflex
+Filename: ./debs/volumeflex_0.0.5-2_iphoneos-arm.deb
+Size: 70560
+MD5sum: b6da64fe5e6f3f79ed6f492aea2c990c
+SHA1: 48f1ac90d6173de6f9ce409ea7b6ecca8d2aec04
+SHA256: 2ff8a4bd9aa5cf18ba2770fb2b1f43634197bbfa4e19afc3c2375a3d50892329
 Section: Tweaks
 Description: 世界不需要另一个FLEX工具，但手指粗的人需要
 Author: Joshua Wheeler
@@ -1718,6 +2063,26 @@ Description: 去除启动广告｜屏蔽越狱检测｜免会员使用部分会�
 Author: Huayuarc
 Name: 网易云音乐 NoAds
 Sponsor: Huayuarc
+
+Package: com.white.zebra
+Version: 1.1.36
+Architecture: iphoneos-arm
+Maintainer: Zebra Team <team@getzbra.com>
+Installed-Size: 15032
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: ./debs/zebra_1.1.36_iphoneos-arm.deb
+Size: 8299700
+MD5sum: 11177b5280bab296615231577d385e20
+SHA1: 383b31e0a37d6c6311e421bb28cba48fc96870ca
+SHA256: d88de19b05f56d7a8ef6d98ee3e7604c62fe58e8aee17227a7c7698e0b9bd8b9
+Section: Utilities
+Description: 斑马越狱商店
+Tag: compatible::9.0-16.6
+Author: Zebra Team <team@getzbra.com>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+Icon: file:///Applications/Zebra.app/AppIcon60x60@3x.png
+Name: Zebra
+Support: https://getzbra.com/repo/depictions/xyz.willy.Zebra/bug_report.html
 
 Package: cydia-lproj
 Version: 1.1.32~b1
@@ -1821,6 +2186,24 @@ Icon: file:///Applications/Activator.app/Icon-Small-modern@2x.png
 Name: Activator
 Sponsor: thebigboss.org <http://thebigboss.org>
 依赖源：https: //rpetri.ch/cydia/
+
+Package: libflex
+Version: 5.22.10
+Architecture: iphoneos-arm
+Maintainer: Tanner Bennett <thepantsthief@me.com>
+Installed-Size: 11420
+Pre-Depends: firmware (>= 9.0)
+Filename: ./debs/libflex_5.22.10_iphoneos-arm.deb
+Size: 1712216
+MD5sum: db27ff45cc57d8a8ae3f464e8fe91d14
+SHA1: 4256d50371a9901f92f8954090760c74cc9c3641
+SHA256: 96c952fda75100f0bb54f526fba9c87a3260fca089a9d5e659bbefbad1bc0e64
+Section: 依赖
+Description: Flipboard依赖库
+Author: Tanner Bennett <thepantsthief@me.com>
+Depiction: https://nscake.github.io/package.html?package=libflex
+Name: libFLEX
+Sileodepiction: https://nscake.github.io/depictions/libflex.sileo.json
 
 Package: netskao.3dnetworkfixer
 Version: 1.1-8
