@@ -542,7 +542,7 @@ Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
 Installed-Size: 88
 Depends: mobilesubstrate
-Filename: ./debs/bilibili_1.0-5_iphoneos-arm.deb
+Filename: ./debs/bilibili_1.0-5_iphoneos-arm.deb.deb
 Size: 8998
 MD5sum: 0f4cd425a34e66712df356c58ff7c926
 SHA1: 2a1fa52d868974fd3768a005a3cf5dedfb192cd2
@@ -1137,21 +1137,40 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 15312
 Depends: firmware (>= 13.5)
 Filename: ./debs/iridium_1.2.15.deb
-Size: 5426440
-MD5sum: 46f71653725b296612931ba6c2168be3
-SHA1: 14489ba2dfadd5aa72b7af3e38984817f6d918ad
-SHA256: 905b83ab58550c28d99b8005614a9fd0f168e7087ee6088a4ffe0e4d96ae5dbb
+Size: 5425404
+MD5sum: 405a7f138edf63cd550dad047bdeef4e
+SHA1: e28c0dee97702489589cf7d2d90751567c143f7e
+SHA256: 0607127d4a17b9cc7fc7c5fae005cb7dd09e7cb5a9c4a3ada2beb88ed23d2d94
 Section: Utilities
 Priority: optional
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iridiumDp
-Description: 全权限砸壳工具，支持解密小组件
- 汉化：威锋@Alicys，最佳兼容系统：iOS13.5-14.3
+Description: iOS全权限砸壳工具 •	支持解密小组件 •	修复压缩IPA大小问题 •	中文汉化：威锋@Alicys •	最佳兼容系统：iOS13.5-14.3
 Tag: purpose::uikit
 Author: White <1410970825@qq.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iridiumDp
 Dev: lakraream
+Icon: file:///Applications/iridium.app/AppIcon60x60@2x.png
 Name: iridium汉化版
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.white.iridium
+Version: 1.2.16-REL-1713540542
+Architecture: iphoneos-arm
+Maintainer: Lakr Aream <launchctl@outlook.com>
+Pre-Depends: firmware (>= 13.5)
+Filename: ./debs/iridium_1.2.16.deb
+Size: 5602404
+MD5sum: 243258bd565e75e5e5aaaf4d6cce1d47
+SHA1: 003cf8124e68332baa07266d540d64e25eba7c0c
+SHA256: 56279aa9dffa81868362e13b6284eb99a3cbd9bb3494c199fd544a26fd735caf
+Section: Utilities
+Description: iOS全权限砸壳工具 •	支持解密小组件 •	修复压缩IPA大小问题 •	中文汉化：威锋@Alicys •	最佳兼容系统：iOS13.5-14.3
+Tag: purpose::uikit
+Author: Lakr Aream <launchctl@outlook.com>
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iridiumDp
+Dev: lakraream
+Icon: file:///Applications/iridium.app/AppIcon60x60@2x.png
+Name: iridium汉化版
 
 Package: com.white.jumpadvideo
 Version: 0.1-3
