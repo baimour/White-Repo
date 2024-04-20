@@ -1121,13 +1121,14 @@ Architecture: iphoneos-arm
 Maintainer: 0xkuj <0xkujz@gmail.com>
 Depends: gawk, unzip, com.bingner.plutil
 Filename: ./debs/iparanger_1.9_iphoneos-arm.deb
-Size: 1135144
-MD5sum: 918e7b436e8501562934ae4a3d59ca44
-SHA1: 8b7af3b53e0aaa5769a02f395d879e4deb8a2edc
-SHA256: 2d9d0d951c5685af9cc839ceca03445bcf49c155a2670e78adbd5ae3c50873f7
+Size: 1135224
+MD5sum: 6dbf1c05518e0048a2a6bf435bfff60c
+SHA1: e90e42e3ac470a881d4c530dc8748ad85943af5c
+SHA256: 86f38490a538057afa0260fb2222c7101c15f134052cf6316c6590ee0114b2c0
 Section: Addons
 Description: 使用您的Apple ID帐户从App Store下载任何IPA！当前适用于越狱设备，将来可能会支持非越狱设备
 Author: 0xkuj <0xkujz@gmail.com>
+Icon: file:///Applications/IPARanger.app/AppIcon60x60.png
 Name: IPA Ranger
 
 Package: com.white.iridium
