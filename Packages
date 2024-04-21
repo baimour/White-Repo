@@ -373,7 +373,7 @@ Version: 1.0.10
 Architecture: iphoneos-arm
 Maintainer: Spark
 Installed-Size: 404
-Filename: ./debs/com.spark.libsparkapplist_1.0.10_iphoneos-arm.deb
+Filename: ./debs/com.spark.libsparkapplist_1.0.10.deb
 Size: 30880
 MD5sum: 5a65600a5667df9470b07a23a74d4a16
 SHA1: 1b2662f115972cfe2579aa525634e1715a4e20a5
@@ -389,7 +389,7 @@ Version: 1.0.2
 Architecture: iphoneos-arm
 Maintainer: Spark
 Installed-Size: 424
-Filename: ./debs/libsparkcolourpicker_1.0.2_iphoneos-arm.deb
+Filename: ./debs/libsparkcolourpicker_1.0.2.deb
 Size: 81492
 MD5sum: c9cb3a65e032ec248e9d6c05e8244594
 SHA1: 7089192bdc4d75a190a539a433f229eda010bcf4
@@ -406,7 +406,7 @@ Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
 Installed-Size: 72
 Depends: mobilesubstrate
-Filename: ./debs/12306_1.0-2_iphoneos-arm.deb
+Filename: ./debs/12306_1.0-2.deb
 Size: 3300
 MD5sum: 7ae59a223aa2ca81f3821e91bde73ed6
 SHA1: cb6e38d05aeec202f0f60aa7dff381936c631b9c
@@ -518,7 +518,7 @@ Maintainer: John Coates
 Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmware (>= 9.0)
 Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
 Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
-Filename: ./debs/Flex3beta_1.3~Beta98_iphoneos-arm.deb
+Filename: ./debs/Flex3beta_1.3~Beta98.deb
 Size: 10740628
 MD5sum: f6e0b850e7f07bc6d721ec44f227959f
 SHA1: 353931ec298ed76e2b32ddfebdc7dd817dc09e80
@@ -537,7 +537,7 @@ Maintainer: John Coates
 Depends: mobilesubstrate, firmware (>= 9.0), com.rpetrich.rocketbootstrap
 Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
 Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
-Filename: ./debs/Flex3beta_3~Beta50_iphoneos-arm.deb
+Filename: ./debs/Flex3beta_3~Beta50.deb
 Size: 16772348
 MD5sum: 1f506a22d3fed9d99381dd091e3573cc
 SHA1: 10dacfeb813ac8b89ca593841d6a3f6de7141bb7
@@ -569,7 +569,7 @@ Package: com.white.MBEdark
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: JaBi扎比
-Filename: ./debs/MBEdark_1.0_iphoneos-arm.deb
+Filename: ./debs/MBEdark_1.0.deb
 Size: 281550
 MD5sum: 8ca8d8921d30968ef5cf0c9cfba5f1e0
 SHA1: 6a2dbaa4b5a2a7df21ec04856fedc8a2301a56ed
@@ -586,7 +586,7 @@ Package: com.white.MBElight
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: JaBi扎比
-Filename: ./debs/MBElight_1.0_iphoneos-arm.deb
+Filename: ./debs/MBElight_1.0.deb
 Size: 319296
 MD5sum: f347c9693bdadd99dd7ccd6b3e4bee24
 SHA1: b25a05f90ca12aab2b97ae6bbc581ce0f55ae1e6
@@ -637,7 +637,7 @@ Architecture: iphoneos-arm
 Maintainer: CyPwn
 Installed-Size: 280
 Depends: mobilesubstrate
-Filename: ./debs/aismithpremium_1.0.0_iphoneos-arm.deb
+Filename: ./debs/aismithpremium_1.0.0.deb
 Size: 19826
 MD5sum: ff0d99ab5c8b6d954e4dc15e042a1501
 SHA1: e7ce4d3ff7f6d79520d66c2ab7f40979a35538b6
@@ -655,7 +655,7 @@ Version: 1.6
 Architecture: iphoneos-arm
 Maintainer: iBreak <ibreak2019@qq.com>
 Depends: mobilesubstrate
-Filename: ./debs/allowkeyboard_1.6_iphoneos-arm.deb
+Filename: ./debs/AllowKeyboard_1.6.deb
 Size: 6192
 MD5sum: a722a57440f24f0da2b74c09eaea1c45
 SHA1: 8d95f1ee259dededbc3d7628983fe8e5639dcbcd
@@ -713,7 +713,7 @@ Maintainer: ren7995 <lau7995ren@gmail.com>
 Installed-Size: 877
 Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
 Conflicts: com.irepo.boxy4, me.kritanta.homepluspro
-Filename: ./debs/atria_1.4.1_iphoneos-arm.deb
+Filename: ./debs/Atria_1.4.1.deb
 Size: 259636
 MD5sum: cc6f1366740c9525b31381f5ce6c0378
 SHA1: 66593c7eddbd338389bfc3f9a606e5d7604214d6
@@ -732,7 +732,7 @@ Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
 Installed-Size: 165
 Depends: mobilesubstrate
-Filename: ./debs/bankabc_1.0_iphoneos-arm.deb
+Filename: ./debs/bankabc_1.0.deb
 Size: 7546
 MD5sum: 776c80df96b0d855d6de680821f843fa
 SHA1: 51f07acfcfe433518695a36ae32688f3bc4160f3
@@ -748,7 +748,7 @@ Architecture: iphoneos-arm
 Maintainer: CyPwn
 Installed-Size: 1820
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, ws.hbang.common (>= 1.17), ws.hbang.alderis (>= 1.2)
-Filename: ./debs/bigsurcenter_1.4.4k_iphoneos-arm.deb
+Filename: ./debs/bigsurcenter_1.4.4k.deb
 Size: 776468
 MD5sum: eca9e56e9bb9042ddbd2f38b3164f736
 SHA1: 4cc40816e663723f503a75287e365e388c0b6840
@@ -766,7 +766,7 @@ Version: 1.0-4
 Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
 Depends: mobilesubstrate
-Filename: ./debs/bilibili_1.0-4_iphoneos-arm.deb
+Filename: ./debs/bilibili_1.0-4.deb
 Size: 8948
 MD5sum: 45f30361a2a3b37573267cd0f5b92cfd
 SHA1: 7d3e536af34130c63a92254f1aeef2633d5d341c
@@ -782,7 +782,7 @@ Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
 Installed-Size: 88
 Depends: mobilesubstrate
-Filename: ./debs/bilibili_1.0-5_iphoneos-arm.deb.deb
+Filename: ./debs/bilibili_1.0-5.deb
 Size: 8998
 MD5sum: 0f4cd425a34e66712df356c58ff7c926
 SHA1: 2a1fa52d868974fd3768a005a3cf5dedfb192cd2
@@ -832,7 +832,7 @@ Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
 Installed-Size: 72
 Depends: mobilesubstrate
-Filename: ./debs/cloud189_1.0_iphoneos-arm.deb
+Filename: ./debs/cloud189_1.0.deb
 Size: 3716
 MD5sum: 5ec21a02b94e858648a1c2ee15e8d040
 SHA1: cb7979ba243000bddec12d245abb4fba9260ba6b
@@ -848,7 +848,7 @@ Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
 Installed-Size: 165
 Depends: mobilesubstrate
-Filename: ./debs/cloudmusic_1.0_iphoneos-arm.deb
+Filename: ./debs/cloudmusic_1.0.deb
 Size: 5510
 MD5sum: 280d37df0491d22afcf088a31e636db0
 SHA1: e19fba9eeb0c3a1086f35ed1945cd47db46f24f8
@@ -931,7 +931,7 @@ Installed-Size: 537
 Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5.000), preferenceloader
 Conflicts: org.thebigboss.colorbadges
 Replaces: org.thebigboss.colorbadges
-Filename: ./debs/colorbadges_1.5.0_iphoneos-arm.deb
+Filename: ./debs/colorbadges_1.5.0.deb
 Size: 64054
 MD5sum: 7556c8836c87bdcdeec1270238749fd1
 SHA1: ab731d24d31bcc502e552d11b493b51085a3563a
@@ -950,7 +950,7 @@ Architecture: iphoneos-arm
 Maintainer: KingPuffdaddi
 Installed-Size: 188
 Depends: mobilesubstrate, com.opa334.ccsupport
-Filename: ./debs/control-center.ccmono_1.0.2_iphoneos-arm.deb
+Filename: ./debs/control-center.ccmono_1.0.2.deb
 Size: 23788
 MD5sum: f7a760933652c83c2bb60f13b00e1cc6
 SHA1: 9d270eb61e3b55f39481e73c20529ed92325edce
@@ -966,7 +966,7 @@ Architecture: iphoneos-arm
 Maintainer: Muirey03
 Installed-Size: 1384
 Depends: mobilesubstrate, com.white.libmryipc, cy+cpu.arm64 | cy+cpu.arm64e, firmware (>= 9.0), ws.hbang.common (>= 1.11)
-Filename: ./debs/cr4shed_4.3.0_iphoneos-arm.deb
+Filename: ./debs/cr4shed_4.3.0.deb
 Size: 169080
 MD5sum: ae2ec7d91c40a8353ea747f50f92858d
 SHA1: 078795b86c4e66119a6c07e7e10974d55f3c3351
@@ -1018,7 +1018,7 @@ Depends: firmware (>=11.0), coreutils, dpkg, grep, com.white.libcrashreport (>= 
 Conflicts: crash-reporter
 Replaces: crash-reporter
 Provides: crash-reporter
-Filename: ./debs/crash-reporter_1.17.2_iphoneos-arm.deb
+Filename: ./debs/crash-reporter_1.17.2.deb
 Size: 251350
 MD5sum: 21f66c416b8eb35924a2ee553d20a35c
 SHA1: 547e9236afda963883c2b44411cefd9af06bd0d3
@@ -1040,7 +1040,7 @@ Architecture: iphoneos-arm
 Maintainer: MainRepo
 Installed-Size: 588
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), ws.hbang.common (>= 1.15.1), ws.hbang.alderis (>= 1.1.1)
-Filename: ./debs/customizebw_1.0.0_iphoneos-arm.deb
+Filename: ./debs/customizebw_1.0.0.deb
 Size: 97570
 MD5sum: 2b32a2cc0fc88aeeaf9e6de6fb4b8e11
 SHA1: 0d923aad207f3b0ea1907373273de8f2f6d93ae7
@@ -1052,24 +1052,6 @@ Depiction: https://mrepo.org/depiction/4903
 Icon: https://img.chariz.cloud/icon/customizebw/icon@3x.png
 Name: CustomizeBW
 Sileodepiction: https://mrepo.org/sileo/4903
-
-Package: com.white.cydiadarkmode
-Version: 1.0.0
-Architecture: iphoneos-arm
-Maintainer: White <1410970825@qq.com>
-Depends: firmware (>= 13.0), mobilesubstrate
-Filename: ./debs/cydiadarkmode_1.0.0_iphoneos-arm.deb
-Size: 41972
-MD5sum: c02e954f698ca61121cf0657eebc1848
-SHA1: c099c88f8d1704c87d416765774266acb93934e7
-SHA256: b7793e2b25d245692e9aa962f1caffe6320f5ef790acf1c2ca16a08a698f2916
-Section: Tweaks
-Priority: optional
-Description: 让Cydia跟随系统自动切换浅色/深色模式，14.5.1牛磺酸测试无效
-Author: MacOS
-Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
-Name: Cydia Dark Mode
-Sponsor: White <1410970825@qq.com>
 
 Package: com.white.cydiaplus
 Version: 1.2
@@ -1152,7 +1134,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Huayuarc
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.huayuarc.czyyxfc_1.0_iphoneos-arm.deb
+Filename: ./debs/com.huayuarc.czyyxfc_1.0.deb
 Size: 818226
 MD5sum: 3a0f36c2a9105b03f302f7742856f8cf
 SHA1: 0c0cb2e6207a3c70dbb82e6a853f59ee4fe37ec8
@@ -1218,7 +1200,7 @@ Architecture: iphoneos-arm
 Maintainer: Netskao
 Installed-Size: 2428
 Depends: firmware (>= 11.0), mobilesubstrate
-Filename: ./debs/dumpdecrypter_1.3-7_iphoneos-arm.deb
+Filename: ./debs/dumpdecrypter_1.3-7.deb
 Size: 592886
 MD5sum: a451faa010c0b9e0a65bd3ff04695d27
 SHA1: dee81c969bb2ebdf7122f9bdc6cf04e3caa646aa
@@ -1340,7 +1322,7 @@ Version: 3.0
 Architecture: iphoneos-arm
 Maintainer: CyPwn
 Depends: mobilesubstrate
-Filename: ./debs/facetunevip_3.0_iphoneos-arm.deb
+Filename: ./debs/facetunevip_3.0.deb
 Size: 51090
 MD5sum: ab9a98368813b44449ee1534bf525977
 SHA1: 86bb41c502d156d9e6cc54baeac76f9ebd8dffc5
@@ -1359,7 +1341,7 @@ Architecture: iphoneos-arm
 Maintainer: KingPuffdaddi
 Installed-Size: 356
 Depends: mobilesubstrate, ws.hbang.common, preferenceloader
-Filename: ./debs/fakecallhistory_1.0.4.2_iphoneos-arm.deb
+Filename: ./debs/fakecallhistory_1.0.4.2.deb
 Size: 16138
 MD5sum: 63a3543cbfc89cdd7be735ca3193ff3e
 SHA1: 044cf4f3ebc8e7130a4f2cf3c35e86529a7fa72b
@@ -1375,7 +1357,7 @@ Version: 1.0.5
 Architecture: iphoneos-arm
 Maintainer: CyPwn
 Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, firmware(>= 14.0), com.mrgcgamer.libgcuniversal
-Filename: ./debs/fiona_1.0.5_iphoneos-arm.deb
+Filename: ./debs/fiona_1.0.5.deb
 Size: 128068
 MD5sum: 45ee4072670a894694e60ec1bffb5510
 SHA1: d24f86c64b529e76f31ed681c4fccfe5c0ea7449
@@ -1465,7 +1447,7 @@ Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
 Installed-Size: 296
 Depends: mobilesubstrate, libflex
-Filename: ./debs/FLEXall_0.0.1-24_iphoneos-arm.deb
+Filename: ./debs/FLEXall_0.0.1-24.deb
 Size: 25940
 MD5sum: 6067bafbc7a6d3f10d4fb7bca65cff4e
 SHA1: 2220f625f2106c0881863944a0904f185dbc5386
@@ -1482,7 +1464,7 @@ Architecture: iphoneos-arm
 Maintainer: CreatureSurvive <support@creaturecoding.com>
 Installed-Size: 3096
 Pre-Depends: firmware (>= 8.0), mobilesubstrate | com.ex.libsubstitute
-Filename: ./debs/FLEXer_0.9_iphoneos-arm.deb
+Filename: ./debs/FLEXer_0.9.deb
 Size: 659020
 MD5sum: 33020e6bd111c7e757b4efca19b1a550
 SHA1: 6483bd0e2b0acbd67c6f813ef85c2b0fc9b7629b
@@ -1503,7 +1485,7 @@ Architecture: iphoneos-arm
 Maintainer: White
 Installed-Size: 4860
 Depends: mobilesubstrate, firmware (>= 7.0), com.opa334.ccsupport
-Filename: ./debs/FLEXible_1.0-1_iphoneos-arm.deb
+Filename: ./debs/FLEXible_1.0-1.deb
 Size: 735972
 MD5sum: 38ea242436692209615cc91104c09974
 SHA1: 64748e655829d42ed4af8ca0c413ba926c25c281
@@ -1524,7 +1506,7 @@ Installed-Size: 288
 Pre-Depends: firmware (>= 8.0)
 Depends: libflex
 Conflicts: com.dgh0st.flexall, gg.gh0stbyte.flexivator, com.shmoopillic.flexible, applebetas.ios.tweak.devtools.flexgesture, com.creaturecoding.flexer, com.lacertosusrepo.flex4me, me.nepeta.flexxx, com.ipadkid.flexit, com.qiop1379.flexbar, com.leftyfl1p.reflex
-Filename: ./debs/FLEXing_1.3.1_iphoneos-arm.deb
+Filename: ./debs/FLEXing_1.3.1.deb
 Size: 18208
 MD5sum: df635cd7e567f486e933a91ad7486cfd
 SHA1: ec148eeeda145fb356930bb245a33a3b900f1b8f
@@ -1542,7 +1524,7 @@ Architecture: iphoneos-arm
 Maintainer: Paul Bancarel
 Installed-Size: 4796
 Depends: firmware (>= 8.0), mobilesubstrate, preferenceloader, applist
-Filename: ./debs/FLEXTool_0.0.1-3_iphoneos-arm.deb
+Filename: ./debs/FLEXTool_0.0.1-3.deb
 Size: 678476
 MD5sum: 2c6123bd1a9089458be02395b0f34a5d
 SHA1: 5498948494ba3cbe65cfaf084f464732d3a0edb0
@@ -1595,7 +1577,7 @@ Version: 6.1.0
 Architecture: iphoneos-arm
 Maintainer: CyPwn
 Depends: mobilesubstrate
-Filename: ./debs/genieaichatbot_6.1.0_iphoneos-arm.deb
+Filename: ./debs/genieaichatbot_6.1.0.deb
 Size: 11682
 MD5sum: 0a8e1b8678ee3007d112656d4dd37a9c
 SHA1: 3a75b9d115a6ec1821a67233098e55be36b21c85
@@ -1614,7 +1596,7 @@ Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
 Installed-Size: 72
 Depends: mobilesubstrate
-Filename: ./debs/gtgj_1.0-1_iphoneos-arm.deb
+Filename: ./debs/gtgj_1.0-1.deb
 Size: 7006
 MD5sum: cf8c6b050a98cdc94c4fadd20fc3e158
 SHA1: 01b57847976ce80d7b4afed5dc276578b544cc1e
@@ -1679,22 +1661,6 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
 Dev: carsten
 Icon: file:///Applications/iFile.app/AppIcon60x60@3x.png
 Name: iFile
-
-Package: com.white.iparanger
-Version: 1.9
-Architecture: iphoneos-arm
-Maintainer: 0xkuj <0xkujz@gmail.com>
-Depends: gawk, unzip, com.bingner.plutil
-Filename: ./debs/iparanger_1.9_iphoneos-arm.deb
-Size: 1135224
-MD5sum: 6dbf1c05518e0048a2a6bf435bfff60c
-SHA1: e90e42e3ac470a881d4c530dc8748ad85943af5c
-SHA256: 86f38490a538057afa0260fb2222c7101c15f134052cf6316c6590ee0114b2c0
-Section: Addons
-Description: 使用您的Apple ID帐户从App Store下载任何IPA！当前适用于越狱设备，将来可能会支持非越狱设备
-Author: 0xkuj <0xkujz@gmail.com>
-Icon: file:///Applications/IPARanger.app/AppIcon60x60.png
-Name: IPA Ranger
 
 Package: com.white.iridium
 Version: 1.2.15
@@ -1777,7 +1743,7 @@ Architecture: iphoneos-arm
 Maintainer: 妖刀
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
 Conflicts: dev.traurige.kayoko, codes.aurora.kayoko, com.skypain.kayoko, com.hk.kayoko.cn.rl, com.hk.kayoko.cn, com.daodao.kayoko, com.daodao.82.kayoko, com.hk.traurige.kayoko, com.hk.kayoko, xyz.cypwn.kayoko, zp.codes.aurora.kayoko
-Filename: ./debs/kayoko_2.0.3.1_iphoneos-arm.deb
+Filename: ./debs/kayoko_2.0.3.1.deb
 Size: 89612
 MD5sum: d174e6b73284de15c537dc8b66e5f6bb
 SHA1: fe46511081d63197830b6e9971322a73400dc9e6
@@ -1793,7 +1759,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 980
 Depends: dev.theos.orion14, firmware (>= 14.0), com.ginsu.libgscommon, ws.hbang.alderis (>= 1.1), preferenceloader
-Filename: ./debs/kbpro_2.1.1_iphoneos-arm.deb
+Filename: ./debs/kbpro_2.1.1.deb
 Size: 120804
 MD5sum: 7e2b2da6990c7634a95699934e7c4a24
 SHA1: 5ec3a150f63ca6a134e11b671496debdc2fb1e5d
@@ -1812,7 +1778,7 @@ Architecture: iphoneos-arm
 Maintainer: Spark
 Installed-Size: 1804
 Depends: mobilesubstrate, preferenceloader, com.spark.libsparkcolourpicker (>= 1.0.1)
-Filename: ./debs/laetus_3.4.0_iphoneos-arm.deb
+Filename: ./debs/laetus_3.4.0.deb
 Size: 1527548
 MD5sum: f36c102f2886df80da38bae460d5f54c
 SHA1: 97ae645d23ab1efcbed486b0686a2ccfcd94974f
@@ -1827,7 +1793,7 @@ Version: 1.7.1
 Architecture: iphoneos-arm
 Maintainer: Devy_Design
 Depends: mobilesubstrate
-Filename: ./debs/laetus-keyboard-pack_1.7.1_iphoneos-arm.deb
+Filename: ./debs/laetus-keyboard-pack_1.7.1.deb
 Size: 37923042
 MD5sum: 21b976737a7e4dce8a738d6e5e42cba7
 SHA1: a6f90ea757b76e69ad58a06d371b6f78ac2f2d31
@@ -1845,7 +1811,7 @@ Version: 1.1.5
 Architecture: iphoneos-arm
 Maintainer: Devy_Design
 Depends: mobilesubstrate
-Filename: ./debs/laetus-keyboard-pack-2_1.1.5_iphoneos-arm.deb
+Filename: ./debs/laetus-keyboard-pack-2_1.1.5.deb
 Size: 19226096
 MD5sum: 07c5efaf50f02091df24e0b4ac5cad79
 SHA1: 37550efd50ab927dca0904d0458355d1ed5883eb
@@ -1863,7 +1829,7 @@ Version: 1.0.2
 Architecture: iphoneos-arm
 Maintainer: Devy_Design
 Depends: mobilesubstrate
-Filename: ./debs/laetus-keyboard-pack-3_1.0.2_iphoneos-arm.deb
+Filename: ./debs/laetus-keyboard-pack-3_1.0.2.deb
 Size: 16029500
 MD5sum: 5dfeb5c6f4aecc69d5e75800cefcb3da
 SHA1: 53cc51e8052de025b77dd788662ed6d938c21eed
@@ -2003,7 +1969,7 @@ Version: 1.2.1
 Architecture: iphoneos-arm
 Maintainer: iBreak <ibreak2019@qq.com>
 Depends: mobilesubstrate
-Filename: ./debs/networkexalt_1.2.1_iphoneos-arm.deb
+Filename: ./debs/networkexalt_1.2.1.deb
 Size: 6814
 MD5sum: 4e5a493870e1fdd82394f00d3489deec
 SHA1: 695927387017400dd73f1d9088abb10baa7208b5
@@ -2019,7 +1985,7 @@ Architecture: iphoneos-arm
 Maintainer: Spark
 Installed-Size: 484
 Depends: mobilesubstrate, com.spark.libsparkapplist
-Filename: ./debs/nomoresmallapps_2.0.1_iphoneos-arm.deb
+Filename: ./debs/nomoresmallapps_2.0.1.deb
 Size: 125376
 MD5sum: 16abf8599813f07396167a76aa59a669
 SHA1: 398511ff81e5c6b7448c6dc16533b41461ff7fe4
@@ -2035,7 +2001,7 @@ Architecture: iphoneos-arm
 Maintainer: ichitaso
 Installed-Size: 924
 Depends: firmware (>= 12.0)
-Filename: ./debs/nonceset143_0.0.5_iphoneos-arm.deb
+Filename: ./debs/nonceset143_0.0.5.deb
 Size: 128634
 MD5sum: da827adb2fe9c7e75dfdbcb63872e28a
 SHA1: eea4d79cb8ca0c53afc11b5b155177f8ac5d3cad
@@ -2055,7 +2021,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: iBreak <ibreak2019@qq.com>
 Depends: mobilesubstrate
-Filename: ./debs/noquickbar_1.0_iphoneos-arm.deb
+Filename: ./debs/noquickbar_1.0.deb
 Size: 4822
 MD5sum: d3adfffb546d8ced1a77ebde1f669cc1
 SHA1: 475af70184ab191ffe8fd37fc4d07651a37d95e8
@@ -2071,7 +2037,7 @@ Architecture: iphoneos-arm
 Maintainer: Spark
 Installed-Size: 72
 Depends: mobilesubstrate
-Filename: ./debs/nosimalert_1.0.0_iphoneos-arm.deb
+Filename: ./debs/nosimalert_1.0.0.deb
 Size: 2046
 MD5sum: 2252e181d03c9e2adf57be1f48537f1d
 SHA1: 95a4a93c1beb908217a7543c535284f3acb5846e
@@ -2087,7 +2053,7 @@ Architecture: iphoneos-arm
 Maintainer: iCraze
 Installed-Size: 136
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/notitapdelay_1.2_iphoneos-arm.deb
+Filename: ./debs/notitapdelay_1.2.deb
 Size: 4050
 MD5sum: 4e1b1145820985ab9ac1aa1aebbac34c
 SHA1: 4953e286d7c93629c628a345eef69854dc89562a
@@ -2103,7 +2069,7 @@ Architecture: iphoneos-arm
 Maintainer: Frozen Penguin
 Installed-Size: 197
 Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/notrackpaddelay_1.1_iphoneos-arm.deb
+Filename: ./debs/notrackpaddelay_1.1.deb
 Size: 3132
 MD5sum: 6076eb285e3c8c89d77a21ff1b87aa4f
 SHA1: db7a148ee4b7d5f603a97c955b54235fc55fbf87
@@ -2121,7 +2087,7 @@ Maintainer: Nightwind
 Installed-Size: 1104
 Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
 Conflicts: com.shepgoba.settingswidgets, com.creaturecoding.shuffle
-Filename: ./debs/onesettings_2.0.4_iphoneos-arm.deb
+Filename: ./debs/onesettings_2.0.4.deb
 Size: 263950
 MD5sum: c4857818336ce12c2301e4bb6b464955
 SHA1: a578714c21193fa37edf412e6b4af7966567ed92
@@ -2158,7 +2124,7 @@ Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
 Installed-Size: 159
 Depends: mobilesubstrate, com.opa334.ccsupport, firmware(>= 11.0)
-Filename: ./debs/rebootmodule_1.1.0_iphoneos-arm.deb
+Filename: ./debs/rebootmodule_1.1.0.deb
 Size: 19070
 MD5sum: 33ca151e7888edc590cdb416d3b8f0db
 SHA1: 92afa4d8b46478cc7b05ed2bcebf52a8139fa901
@@ -2211,7 +2177,7 @@ Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
 Installed-Size: 162
 Depends: mobilesubstrate, com.opa334.ccsupport, firmware(>= 11.0)
-Filename: ./debs/respringmodule_1.1.3_iphoneos-arm.deb
+Filename: ./debs/respringmodule_1.1.3.deb
 Size: 29104
 MD5sum: b740a309a88815105aa9e4e591e000ee
 SHA1: 7391073f09cf491ac0ef01aac37fd73a15d56b59
@@ -2230,7 +2196,7 @@ Version: 1.9
 Architecture: iphoneos-arm
 Maintainer: psprrom
 Depends: mobilesubstrate
-Filename: ./debs/retrokeys-keyboard-pack_1.9_iphoneos-arm.deb
+Filename: ./debs/retrokeys-keyboard-pack_1.9.deb
 Size: 56439176
 MD5sum: eea411d1900c8348eef94bca18741b0a
 SHA1: 6ef481a3550b45edb43c341b1b65d468667aac5a
@@ -2247,7 +2213,7 @@ Package: com.white.safeccmodules
 Version: 1.5-2
 Architecture: iphoneos-arm
 Maintainer: CyPwn
-Filename: ./debs/safeccmodules_1.5-2_iphoneos-arm.deb
+Filename: ./debs/safeccmodules_1.5-2.deb
 Size: 1166774
 MD5sum: 53c683c1bf427d2b33241efa53288bf4
 SHA1: 5f6a5e7a07986cca76f649749f92fcf14d62a7db
@@ -2302,7 +2268,7 @@ Version: 2.0.1
 Architecture: iphoneos-arm
 Maintainer: CyPwn
 Depends: applist, com.rpetrich.rocketbootstrap, com.spark.libsparkapplist
-Filename: ./debs/sbypass_2.0.1_iphoneos-arm.deb
+Filename: ./debs/sbypass_2.0.1.deb
 Size: 1998628
 MD5sum: d036e3643ba4c509ed1a54f77af5d742
 SHA1: 3cd450945bf940ec309f3c6d7eee055ff6c582c3
@@ -2320,7 +2286,7 @@ Maintainer: Pwn20wnd
 Depends: coreutils-bin, uikittools, firmware (>= 11.3)
 Conflicts: org.coolstar.semirestore11-lite
 Replaces: org.coolstar.semirestore11-lite
-Filename: ./debs/semirestore11_1.1.2-1_iphoneos-arm.deb
+Filename: ./debs/semirestore11_1.1.2-1.deb
 Size: 116786
 MD5sum: 876ab2d13283756f159017f1f106e2c8
 SHA1: ddcf7c3be60a54e734872be27605a366f1492523
@@ -2354,7 +2320,7 @@ Version: 1.4.16~b4
 Architecture: iphoneos-arm
 Maintainer: Samg_is_a_Ninja
 Depends: firmware-sbin, rsync
-Filename: ./debs/successionrestore_1.4.16~b4_iphoneos-arm.deb
+Filename: ./debs/successionrestore_1.4.16~b4.deb
 Size: 1047802
 MD5sum: 71efe5433b805302d61262ef64ffce54
 SHA1: 10a6e1351b1a3be77787c038ced64df47fae138e
@@ -2371,7 +2337,7 @@ Architecture: iphoneos-arm
 Maintainer: iOS Creatix, Rafferty W
 Depends: firmware (>= 11.0),mobilesubstrate
 Conflicts: com.raff.sugarcane, com.ioscreatix.sugarcane, com.hk.sugarcane13, com.crak.sugarcane13
-Filename: ./debs/sugarcane_1.0.2-1_iphoneos-arm.deb
+Filename: ./debs/sugarcane_1.0.2-1.deb
 Size: 28154
 MD5sum: 28f4f44cc80a8ba21883d29ff5ea2b45
 SHA1: fbd1500d10cbf65f477b5295e6ff901b16580a58
@@ -2387,7 +2353,7 @@ Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
 Installed-Size: 128
 Depends: firmware (>= 8.0), mobilesubstrate, preferenceloader
-Filename: ./debs/swipeformore_1.1.10_iphoneos-arm.deb
+Filename: ./debs/swipeformore_1.1.10.deb
 Size: 26644
 MD5sum: 54dc114ba91d614b705375b70754cdb6
 SHA1: 5851e82f4c10bcb079bcb3078dd03d55804b518b
@@ -2469,7 +2435,7 @@ Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
 Installed-Size: 72
 Depends: mobilesubstrate
-Filename: ./debs/taobao_1.0-1_iphoneos-arm.deb
+Filename: ./debs/taobao_1.0-1.deb
 Size: 6074
 MD5sum: 3d509d4638c77a88fec34e5d36dfb770
 SHA1: 4bced8d90ded021959a8ffbfcebf19d8c6b83566
@@ -2594,7 +2560,7 @@ Version: 1.5.1
 Architecture: iphoneos-arm
 Maintainer: iBreak <ibreak2019@qq.com>
 Depends: mobilesubstrate
-Filename: ./debs/thunderhelper_1.5.1_iphoneos-arm.deb
+Filename: ./debs/thunderhelper_1.5.1.deb
 Size: 165114
 MD5sum: 035fb751b722d43f1275a4ee7643e827
 SHA1: cea2080807ae533e051e5cf976fcf3cd3eeba373
@@ -2631,7 +2597,7 @@ Maintainer: 1Conan <tweaks@1conan.com>
 Installed-Size: 232
 Depends: dimentio (>=99) | com.0x7ff.dimentio (>=2.0.0)
 Conflicts: co.dynastic.TSSsaver
-Filename: ./debs/tsssaver_2.0.5-1_iphoneos-arm.deb
+Filename: ./debs/TssSaver_2.0.5-1.deb
 Size: 56516
 MD5sum: ce2c482e4a4a09dd2e13f7b25e290161
 SHA1: 8a77b97ff70205107fed3a92e5d764ef143741f0
@@ -2726,7 +2692,7 @@ Version: 3.0
 Architecture: iphoneos-arm
 Maintainer: iBreak <ibreak2019@qq.com>
 Depends: mobilesubstrate
-Filename: ./debs/videohelper_3.0_iphoneos-arm.deb
+Filename: ./debs/videohelper_3.0.deb
 Size: 135272
 MD5sum: 0f957922ca700e9619e9900d0654eb44
 SHA1: 41c06a7584b6718297f2d809ce95611758d87e55
@@ -2741,7 +2707,7 @@ Version: 1.7
 Architecture: iphoneos-arm
 Maintainer: psprrom
 Depends: mobilesubstrate
-Filename: ./debs/vintage-keyboard-pack_1.7_iphoneos-arm.deb
+Filename: ./debs/vintage-keyboard-pack_1.7.deb
 Size: 52041192
 MD5sum: d14ec2224dbe8b9961317b3508f16305
 SHA1: 1a0b520dd6141940009d66fae111f9a727e954f9
@@ -2776,7 +2742,7 @@ Architecture: iphoneos-arm
 Maintainer: Joshua Wheeler
 Installed-Size: 448
 Depends: mobilesubstrate (>= 0.9.5000), libflex
-Filename: ./debs/volumeflex_0.0.5-2_iphoneos-arm.deb
+Filename: ./debs/volumeflex_0.0.5-2.deb
 Size: 70560
 MD5sum: b6da64fe5e6f3f79ed6f492aea2c990c
 SHA1: 48f1ac90d6173de6f9ce409ea7b6ecca8d2aec04
@@ -2809,7 +2775,7 @@ Version: 1.3.1
 Architecture: iphoneos-arm
 Maintainer: iBreak <ibreak2019@qq.com>
 Depends: mobilesubstrate
-Filename: ./debs/wallpaperbox_1.3.1_iphoneos-arm.deb
+Filename: ./debs/wallpaperbox_1.3.1.deb
 Size: 126444
 MD5sum: 9bbfe31ca85f220073327fafefce097b
 SHA1: 46b89858fd46ac97149bb8b0b386f5078e4d019d
@@ -2824,7 +2790,7 @@ Version: 3.1.2
 Architecture: iphoneos-arm
 Maintainer: iBreak <ibreak2019@qq.com>
 Depends: mobilesubstrate,preferenceloader
-Filename: ./debs/wechathelper_3.1.2_iphoneos-arm.deb
+Filename: ./debs/wechathelper_3.1.2.deb
 Size: 196272
 MD5sum: 05b57d1ae8d3ceb40f244eef4d7871cd
 SHA1: fb401a5fc161bfa7e1621a4ce1de7ac75ebd1691
@@ -2840,7 +2806,7 @@ Architecture: iphoneos-arm
 Maintainer: Huayuarc
 Installed-Size: 152
 Depends: mobilesubstrate
-Filename: ./debs/wyyllnoads_0.0.1_iphoneos-arm.deb
+Filename: ./debs/wyyllnoads_0.0.1.deb
 Size: 5330
 MD5sum: effa2b79790a42394cb53bbc48434059
 SHA1: fc410ef164a014087599f7b895dc737cc81b3b80
@@ -2857,7 +2823,7 @@ Architecture: iphoneos-arm
 Maintainer: Zebra Team <team@getzbra.com>
 Installed-Size: 15032
 Depends: dpkg, uikittools, firmware (>= 9.0)
-Filename: ./debs/zebra_1.1.36_iphoneos-arm.deb
+Filename: ./debs/Zebra_1.1.36.deb
 Size: 8299700
 MD5sum: 11177b5280bab296615231577d385e20
 SHA1: 383b31e0a37d6c6311e421bb28cba48fc96870ca
@@ -2880,7 +2846,7 @@ Depends: cydia
 Conflicts: org.thebigboss.russiancydia
 Replaces: cydia, org.thebigboss.russiancydia
 Provides: org.thebigboss.russiancydia
-Filename: ./debs/cydia-lproj_1.1.32~b1_iphoneos-arm.deb
+Filename: ./debs/cydia-lproj_1.1.32~b1.deb
 Size: 71408
 MD5sum: 68f2270c51164e799c7258c224177002
 SHA1: 206616f42e50349bce31d9ad8c66c1af2160dace
@@ -3048,7 +3014,7 @@ Architecture: iphoneos-arm
 Maintainer: Tanner Bennett <thepantsthief@me.com>
 Installed-Size: 11420
 Pre-Depends: firmware (>= 9.0)
-Filename: ./debs/libflex_5.22.10_iphoneos-arm.deb
+Filename: ./debs/libflex_5.22.10.deb
 Size: 1712216
 MD5sum: db27ff45cc57d8a8ae3f464e8fe91d14
 SHA1: 4256d50371a9901f92f8954090760c74cc9c3641
@@ -4547,7 +4513,7 @@ Architecture: iphoneos-arm
 Maintainer: ReJail <rejail@rejail.ru>
 Installed-Size: 19388
 Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
-Filename: ./debs/ru.rejail.filza_4.0.1-4_iphoneos-arm.deb
+Filename: ./debs/ru.rejail.filza_4.0.1-4.deb
 Size: 6998020
 MD5sum: 657c80e604ad5e541d3de11d06550be4
 SHA1: de74eb7f7beaeeb9b21e45c0d5f679ecc3a0cdb3
@@ -4583,7 +4549,7 @@ Version: 4.0.3
 Architecture: iphoneos-arm
 Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 92
-Filename: ./debs/shc_4.0.3_iphoneos-arm.deb
+Filename: ./debs/shc_4.0.3.deb
 Size: 17770
 MD5sum: 765164399502d20b8acbbea9d12cc3b1
 SHA1: 152f066c58687e9b1e2b50602de5e045f2053926
