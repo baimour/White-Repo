@@ -80,6 +80,86 @@ Icon: file:///Applications/TheosTips.app/AppIcon60x60@2x.png
 Name: TheosTips
 Website: http://ikilledappl3.com
 
+Package: com.ios.wechat
+Version: 1.0.6
+Architecture: iphoneos-arm
+Maintainer: Jan<237523005@qq.com>
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/wechat_1.0.6.deb
+Size: 2970484
+MD5sum: 4e7501ac8f62e45c60d1076b9ec9cbef
+SHA1: a5aad1cc44c5200d5c7b1b7b98138e4671a28262
+SHA256: 6b8c8520564ac5a1792ded8865c170cd4ab944e76ce5f930af1ab3337c5872e9
+Section: NoAds
+Priority: optional
+Description: 微信插件
+Author: Jan
+Name: WeChat Jan
+
+Package: com.ios.wechat
+Version: 1.0.6-2
+Architecture: iphoneos-arm
+Maintainer: Jan<237523005@qq.com>
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/wechat_1.0.6-2.deb
+Size: 3051698
+MD5sum: 2d21491c8da39ff4727bebc01bcee1d3
+SHA1: 1eb9fa4b25050f15fd39ea8b0283b0da9c4cd647
+SHA256: afd5e7c33e08990800e8368a345cb6cfbd56d3d522bdad729ccab2cc1aa3af02
+Section: NoAds
+Priority: optional
+Description: 微信插件
+Author: Jan
+Name: WeChat Jan
+
+Package: com.ios.wechat
+Version: 1.0.7
+Architecture: iphoneos-arm
+Maintainer: Jan<237523005@qq.com>
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/wechat_1.0.7.deb
+Size: 3109926
+MD5sum: 54f484f8b067e5b7b71f5a64595037e1
+SHA1: adf2327b664fb1670040b210549424ab94cb32c2
+SHA256: 91efc4c0dabfae6b59e5f6eacc1ecda7c152665627545d19fd1c6df4453680df
+Section: NoAds
+Priority: optional
+Description: 微信插件
+Author: Jan
+Name: WeChat Jan
+
+Package: com.ios.wechat
+Version: 1.0.8
+Architecture: iphoneos-arm
+Maintainer: Jan<237523005@qq.com>
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/wechat_1.0.8.deb
+Size: 3615756
+MD5sum: 9ffaa9fa977c660a725f97fc7fe3c512
+SHA1: efae1abab74324d963b92fef230a5e3c31690bef
+SHA256: 24696dc67a272e90f6eefc1c1df257b07c4e4e6b2ce005f16111475e4ad53dc6
+Section: NoAds
+Priority: optional
+Description: 微信插件
+Author: Jan
+Name: WeChat Jan
+
+Package: com.ios.wechat
+Version: 1.5.9-6
+Architecture: iphoneos-arm
+Maintainer: Jan
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/wechat_1.5.9-6.deb
+Size: 1628258
+MD5sum: 6ca8310a47e28cdf164ce31fd9d6aba4
+SHA1: c23f2eeb080803afbbbac45e99fffbacfb323a51
+SHA256: 34a802f351f62b3dfa8a4c0a6a5352d204a6ab04cf41dc77c631da80fb6152b9
+Section: NoAds
+Priority: optional
+Description: 微信插件
+Author: Jan
+Name: WeChat Jan
+
 Package: com.level3tjg.researchspoof
 Version: 1.0
 Architecture: iphoneos-arm
@@ -221,6 +301,38 @@ Description: 更好的多任务分屏！修复对iOS15+的支持
 Author: c1d3r
 Name: PullOver Pro
 
+Package: com.parrotgeek.ifilefix
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: parrotgeek1 <parrotgeek1@gmail.com>
+Pre-Depends: grep, sed
+Depends: eu.heinelt.ifile
+Filename: ./debs/iFileFix_1.0.deb
+Size: 904
+MD5sum: 188ee5b11392cc255bd8c0296c292e00
+SHA1: 4a71e22138701efce52a071938a302e70ef10c2b
+SHA256: f1fa76e0926fd266427b388ec48f075f2ce042159f0dfc77ba968c759665368c
+Section: Tweaks
+Description: 修复iFile启动时崩溃的问题
+Author: parrotgeek1 <parrotgeek1@gmail.com>
+Name: iFile崩溃修复
+
+Package: com.parrotgeek.nobetaalert
+Version: 1.4.3
+Architecture: iphoneos-arm
+Maintainer: Ethan Nelson-Moore
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 9)
+Filename: ./debs/nobetaalert_1.4.3.deb
+Size: 3168
+MD5sum: c05e3501d5a4853edff56b2576360e52
+SHA1: b7324309c6be22d7a6ce02189dc3113eb9966ad6
+SHA256: 299961bee066388917d759579b87e1d43639332fe25eefdf7c42b8ae720de171
+Section: Tweaks
+Description: 隐藏iOS测试版更新弹窗 (iOS 9-13.x)
+Author: Ethan Nelson-Moore
+Name: NoBetaAlert
+
 Package: com.pheux.fixrandomresprings
 Version: 1.2.1
 Architecture: iphoneos-arm
@@ -304,6 +416,101 @@ Description: 基于5.8.0制作，去除启动广告及首页顶部横幅，屏�
 Author: White <1410970825@qq.com>
 Name: 铁路12306屏蔽越狱
 
+Package: com.white.14294gios9
+Version: 3.0.1
+Architecture: iphoneos-arm
+Maintainer: WZteam <admin@abcydia.com>
+Pre-Depends: firmware (>= 9.0), firmware (<= 10.3.4)
+Depends: com.white.ccpatch
+Filename: ./debs/14294gios9_3.0.1.deb
+Size: 10824
+MD5sum: 0a84756305e9ecd68046450a1f41b123
+SHA1: 85a31b22205d207289e3118ce71262a1f8140c6e
+SHA256: 278eab2f74160b53fa98c134ef5b8b6ac89beb57f4d1cf8fab38cdd5826fe87c
+Section: Networking
+Description: 同时激活A1429的移动2G/联通4G/电信4G
+Author: ABCydia <admin@abcydia.com>
+Name: Active 1429 4G iOS9/10
+
+Package: com.white.1429tios9
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: WZteam <admin@abcydia.com>
+Pre-Depends: firmware (>= 9.0), firmware (<= 10.3.3)
+Filename: ./debs/1429tios9_1.0.1.deb
+Size: 9824
+MD5sum: 7f80feb99ae1380c07a78c433d861fbf
+SHA1: ea5a121d1a79424c96337e30dce8e47ff171661e
+SHA256: 60a75886806990c2836cc6e988b877314eb6e2567b33413456b347211c3b9377
+Section: Carrier_Bundles
+Description: 激活有锁iPhone5稳定电信3G，工具 •	支持Softbank、AU-KDDI、Sprint •	两网设备要用auto3G卡住CDMA基带
+Author: ABCydia <admin@abcydia.com>
+Name: FixTele 5 3G iOS9/10
+
+Package: com.white.1453tios9
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: WZteam <admin@abcydia.com>
+Pre-Depends: firmware (>= 9.0), firmware (<= 9.3.5)
+Depends: com.white.ccpatch
+Filename: ./debs/1453tios9_1.0.2.deb
+Size: 12320
+MD5sum: 3c6d9a90e3feeb6ead80c3b1b3d9c0c8
+SHA1: bd7dfa26553b4ae4dd9476d68700697e76220e16
+SHA256: 161fc84b2f1cb5a99d9eff345dc035b37d816d2de8bef9f4702829f2249c2802
+Section: Networking
+Description: 激活A1453/1456有锁电信4G •	安装后使用TMSI获取4G信号 •	关于本机中号码显示未知就连WiFi开关iMessage和FaceTime再破解4G
+Author: haoerloveyou <haoerloveyou@gmail.com>
+Name: Active1453_1456 电信4G iOS9
+
+Package: com.white.1528ios9
+Version: 2.9.2
+Architecture: iphoneos-arm
+Maintainer: WZteam <admin@abcydia.com>
+Pre-Depends: firmware (>= 9.0), firmware (<= 10.3.3)
+Depends: com.white.ccpatch
+Filename: ./debs/1528ios9_2.9.2.deb
+Size: 7828
+MD5sum: 0f4ef0d685bd97e585149bdedfddfc39
+SHA1: 3e6a35166e14c74ea7111e1930ab7d2f1edbd9cd
+SHA256: 1407e6011aeebdb2f8e0a983cb5a638c68696122eebbec447be038c6ee917795
+Section: Networking
+Description: 激活A1526/1528的4G网络
+Name: Active 1526/28 4G iOS9/10
+
+Package: com.white.1533ios9
+Version: 2.7.5
+Architecture: iphoneos-arm
+Maintainer: WZteam <admin@abcydia.com>
+Pre-Depends: firmware (>= 9.0), firmware (<= 10.3.3)
+Depends: com.white.ccpatch
+Replaces: com.abcydia.1533i266
+Filename: ./debs/1533ios9_2.7.5.deb
+Size: 22184
+MD5sum: 05ea9d85fdfec35bab7267fe690d8368
+SHA1: 2840c15c93bc2e76fafbb3f7646d661d20d75052
+SHA256: 00c554f418b771e2a5c23bf31e9b22084d5eae80a5f8587afbe5673eac3ab325
+Section: Networking
+Description: 激活A1532/1533的移动2G和联通/电信4G •	禁用语音信箱，增强稳定性 •	支持有锁AU/无锁A1453/1456 •	不支持国行A1533
+Name: Active 1532/33 4G iOS9/10
+
+Package: com.white.5s234
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: CC <haoerloveyou@gmail.com>
+Pre-Depends: firmware (>= 7.0), firmware (<= 8.4.1)
+Depends: com.white.ccpatch
+Filename: ./debs/5s234_1.1.deb
+Size: 18412
+MD5sum: 752a7cb18afede6166443a211dd8e52f
+SHA1: 243747fe97778085ac013d72d073cb6fe08fc30b
+SHA256: dec341d625b48b5d2aefc2dbcc4414f5a6f34617ae6c5f14d2bd1c5e36ba85db
+Section: Networking
+Description: 激活5C/5S硬件所支持的运营商2/3/4G •	支持A1528移动2G-4G丨联通2-4G •	支持A1533移动2G丨联通2-4G丨电信3-4G •	A1533电信安装后选择custom NAI即可完美电信3G •	国行A1533备份了激活文件可以实现电信4G •	支持同时期无锁5C •	不支持有锁设备
+Author: haoerloveyou <haoerloveyou@gmail.com>
+Name: Active5S_234G 1528 1533 iOS8
+Sponsor: haoerloveyou <haoerloveyou@gmail.com>
+
 Package: com.white.Flex3beta
 Version: 1:3~Beta98
 Architecture: iphoneos-arm
@@ -341,6 +548,23 @@ Author: John Coates
 Icon: file:///Applications/Flex.app/AppIconBeta60x60@3x.png
 Name: Flex 3 Beta50
 
+Package: com.white.LiNUZE.nightly
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: rA9stuff
+Depends: firmware (>= 12.0), firmware (<< 16.0), libusbmuxd6, libusb-1.0-0, libirecovery3, libplist3, libimobiledevice6, usbmuxd, ldid
+Filename: ./debs/LiNUZE.nightly_1.0.deb
+Size: 2232320
+MD5sum: fa471914f130958fd61226474d879880
+SHA1: 65c2a8db04bf53806560c6a89f00195b3b818481
+SHA256: 87d1169464be97d8c9bd2e7487f8e6dd8754b8edce09df62526e5b3fa3fbd710
+Section: Utilities
+Description: 使用已越狱iOS设备管理其他iOS设备
+Author: rA9stuff
+Icon: https://raw.githubusercontent.com/ra9labs/repo/main/Icons/LiNUZE_icon_120.png
+Name: LiNUZE Nightly
+Sileodepiction: https://raw.githubusercontent.com/ra9labs/repo/main/sileo_depiction
+
 Package: com.white.MBEdark
 Version: 1.0
 Architecture: iphoneos-arm
@@ -374,6 +598,22 @@ Depiction: https://jabizb.com/repo/web/mbejabi
 Icon: https://jabizb.com/repo/web/mbejabi.png
 Name: MBE Jabi键盘主题（浅色版）
 Sponsor: JaBi扎比
+
+Package: com.white.accessoryalertblocker
+Version: 0.0.1-2
+Architecture: iphoneos-arm
+Maintainer: rA9stuff
+Installed-Size: 216
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/AccessoryAlertBlocker_0.0.1-2.deb
+Size: 4844
+MD5sum: f9dec425cc9d398bc1c6a1835867335c
+SHA1: 947e824494ded91fd880b6e8794920d3a57355e7
+SHA256: 4eccd5672a905b0e8e33197f8ac35d021fd1281b788180fcda8901b133c66632
+Section: Tweaks
+Description: 阻止OTG连接后下载配件固件的弹窗
+Author: rA9stuff
+Name: AccessoryAlertBlocker
 
 Package: com.white.adspeed
 Version: 1.1.1
@@ -552,6 +792,23 @@ Description: 基于7.65.0制作，其他版本自测 •	去除部分广告 
 Author: White <1410970825@qq.com>
 Name: 哔哩哔哩大会员画质
 
+Package: com.white.ccpatch
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: WZteam <admin@abcydia.com>
+Pre-Depends: firmware (>= 7.0), firmware (<= 10.3.4)
+Depends: mobilesubstrate
+Conflicts: com.gpp.ipcarrier, com.gpp.ipcarrieri6cntl
+Filename: ./debs/ccpatch_1.2.deb
+Size: 6624
+MD5sum: 7866fab59db88e539625a9842a340545
+SHA1: 1a2b029ecb3188b65801207c86a6b4225fb4be2b
+SHA256: a2a6cddb74040aa51e450bed069997f85306f39a928c297944521a0a8d94a0b6
+Section: Networking
+Description: 移除运营商签名保护，对gpp排异
+Author: HuWenDong <admin@abcydia.com>
+Name: CommCenter Patch for iOS 7-10
+
 Package: com.white.celldia
 Version: 0.0~beta5
 Architecture: iphoneos-arm
@@ -600,6 +857,71 @@ Section: NoAds
 Description: 基于9.0.25制作，去启动/首页广告+屏蔽越狱
 Author: White <1410970825@qq.com>
 Name: 网易云音乐屏蔽越狱
+
+Package: com.white.cmcc234g
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: WZteam <abcydia.com@gmail.com>
+Installed-Size: 132
+Pre-Depends: firmware (>= 8.0), firmware (<= 8.4.1)
+Depends: com.white.ccpatch
+Filename: ./debs/cmcc234g_1.1.deb
+Size: 7444
+MD5sum: 96c08ab8ebcd237bf45adeb94ce86011
+SHA1: 48abd603059a888400a27d084f39f43cebdc3960
+SHA256: 667188ac5c95533662b902f307eb87429dc36264cdf558b90e2e0035f13ae5c7
+Section: Networking
+Description: 激活移动2-4G原生开关 •	支持5C-5S的A1526/1528/1530 •	支持6-6P所有型号(有锁仅支持TMSI模式)
+Author: haoerloveyou <haoerloveyou@gmail.com>
+Name: CMCC234G iOS8
+
+Package: com.white.cmcc5siOS9
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: CC <haoerloveyou@gmail.com>
+Pre-Depends: firmware (>= 9.0), firmware (<= 9.3.5)
+Filename: ./debs/cmcc5siOS9_1.0.0.deb
+Size: 5788
+MD5sum: 0d9c23b3f8708f851d897fccdbfbcf03
+SHA1: 2eee54468124bf2b9e330ebcd3dce3d2933c3208
+SHA256: 0d3f8e04f6aee88d78de70f5356611be750859faacbfe0b9662e5585fc92964a
+Section: Carrier_Bundles
+Description: 修复有锁5C/5S使用移动遇到的问题，支持Softbank、AU、DO、Sprint
+Author: haoerloveyou <haoerloveyou@gmail.com>
+Name: FIXCmcc 5C 5S iOS9
+Sponsor: haoerloveyou <haoerloveyou@gmail.com>
+
+Package: com.white.cmcc6iOS9
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: CC <haoerloveyou@gmail.com>
+Pre-Depends: firmware (>= 9.0), firmware (<= 9.3.5)
+Filename: ./debs/cmcc6iOS9_1.0.0.deb
+Size: 6360
+MD5sum: e8937a25275f314529933aa00e0ac2c3
+SHA1: 45361867ffb45e2297a1e952832cae98d78151bc
+SHA256: d5a7731fa54e0403214138d463df2360096adb288d51f6e922b486342d6a5012
+Section: Carrier_Bundles
+Description: 修复有锁6/6P使用移动遇到的问题
+Author: haoerloveyou <haoerloveyou@gmail.com>
+Name: FixCMCC 6 6P iOS9
+Sponsor: haoerloveyou <haoerloveyou@gmail.com>
+
+Package: com.white.cmcc6siOS9
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: CC <haoerloveyou@gmail.com>
+Pre-Depends: firmware (>= 9.0), firmware (<= 9.3.5)
+Filename: ./debs/cmcc6siOS9_1.0.0.deb
+Size: 9092
+MD5sum: abbdb4433a3766715f2934e7d28ec4b7
+SHA1: cb6c543f41a778f09949beebad0f06b7b5b8ab89
+SHA256: f7c46069212e842f534cd0b22991e94ecac342e01ee25a048fefa20a1f195f9f
+Section: Carrier_Bundles
+Description: 修复有锁6s/6sp使用移动出现的问题，支持Softbank、AU-KDDI、Docomo、Sprint
+Author: haoerloveyou <haoerloveyou@gmail.com>
+Name: FixCmcc 6S 6SP iOS9
+Sponsor: haoerloveyou <haoerloveyou@gmail.com>
 
 Package: com.white.colorbadges
 Version: 1.5.0
@@ -841,6 +1163,22 @@ Author: Huayuarc
 Name: 重置应用状态
 Sponsor: Huayuarc
 
+Package: com.white.daibutsumigrator
+Version: 2.0.3
+Architecture: iphoneos-arm
+Maintainer: LukeZGD
+Depends: firmware (>= 8.0), firmware (<= 8.4.1), uikittools (>= 1.1.10)
+Conflicts: cy+cpu.arm64, io.pangu.xuanyuansword8, taiguntether83x, net.tihmstar.daemonloader
+Filename: ./debs/daibutsumigrator_2.0.3.deb
+Size: 50596
+MD5sum: 1b4a80b904bcb4494c11127178189fe4
+SHA1: 4c9490679bd544d2c99c30b4570610cf3f642fc8
+SHA256: 3f20f851065c552f4eb846c929b9c998df6a3807172e8a52707aa638b472f204
+Section: System
+Description: 从EtasonJB/HomeDepot/openpwnage迁移到daibutsu untether，迁移完成后卸载。警告：有引导循环风险，请在安装前备份数据
+Author: LukeZGD
+Name: daibutsu migrator
+
 Package: com.white.dleasy
 Version: 2.14.4k
 Architecture: iphoneos-arm
@@ -859,6 +1197,21 @@ Icon: https://media.havoc.app/62040a16cc1cde4bfe9aba43
 Name: DLEasy
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2054
 
+Package: com.white.dropbear
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: LukeZGD
+Depends: openssh
+Replaces: com.lcampbell0x.dropbear
+Filename: ./debs/dropbear_1.0.1.deb
+Size: 408756
+MD5sum: eb2015f604d14a7c4be87555ffc6521b
+SHA1: 118eeec7f011e5ae13ffcc4061892dc3dee66eda
+SHA256: af24f7bc8f9f5a56e85efe0a5d38aa123946958f7493faf07469ffe63edc0442
+Section: System
+Description: 适用于32/64位设备的Dropbear SSH，使用SSH隧道通过USB连接进行SSH (默认情况下不启用Wi-Fi SSH)
+Name: Dropbear
+
 Package: com.white.dumpdecrypter
 Version: 1.3-7
 Architecture: iphoneos-arm
@@ -876,6 +1229,111 @@ Author: Netskao
 Icon: file:///Applications/DumpDecrypter.app/AppIcon60x60@3x.png
 Name: DumpDecrypter
 Sponsor: Netskao
+
+Package: com.white.enableTele
+Version: 2.4
+Architecture: iphoneos-arm
+Maintainer: CC <haoerloveyou@gmail.com>
+Installed-Size: 219
+Pre-Depends: firmware (>= 8.0), firmware (<= 8.4.1)
+Depends: com.white.ccpatch
+Filename: ./debs/enableTele_2.4.deb
+Size: 10196
+MD5sum: 92359d9ce99cbf2fe590d2e33e0d87da
+SHA1: 8c09514b385e0ea205bb104b5139596112163ef8
+SHA256: 7a7a66b02455cc2a4ccd4220bc760383b44758c4ba6e76a55d523fdc9e975a94
+Section: Carrier_Bundles
+Description: 激活6-6P中国电信通话及网络，支持Softbank、AU、Sprint。修复卡贴引起的一些问题
+Author: haoerloveyou <haoerloveyou@gmail.com>
+Name: EnableTele 6 6P iOS8
+Sponsor: haoerloveyou <haoerloveyou@gmail.com>
+
+Package: com.white.enableTele53G
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: CC <haoerloveyou@gmail.com>
+Installed-Size: 219
+Pre-Depends: firmware (>= 8.0), firmware (<= 8.4)
+Depends: com.white.ccpatch
+Filename: ./debs/enableTele53G_1.0.deb
+Size: 9484
+MD5sum: b6ec85feedb0fb58214501e898b08008
+SHA1: 19b7a16de07dd778812f6fe47b6a1b799ae04a76
+SHA256: 51c2b4ad9f134e94ea8b9457cff90241d04734df604f167dc9fd6135cee12cb4
+Section: Carrier_Bundles
+Description: 激活有锁iPhone5中国电信网络，修复卡贴/五码造成的各种问题。支持Softbank、AU、Sprint有锁机
+Author: haoerloveyou <haoerloveyou@gmail.com>
+Name: EnableTele 5 3G iOS8
+Sponsor: haoerloveyou <haoerloveyou@gmail.com>
+
+Package: com.white.enableTele5s
+Version: 2.3
+Architecture: iphoneos-arm
+Maintainer: WZteam <haoerloveyou@gmail.com>
+Installed-Size: 219
+Pre-Depends: firmware (>= 8.1), firmware (<= 8.4.1)
+Depends: com.white.ccpatch
+Filename: ./debs/enableTele5s_2.3.deb
+Size: 10016
+MD5sum: 71a97d0c82ed7db422a27881c9119b83
+SHA1: 42b9db595a0f5a06e53cb3b0c05dce7ad4f6e2bf
+SHA256: cdd6e1b5e30f7ddd35cd07afea07ab4ea83fa72a046a8f091877937e8ead9081
+Section: Carrier_Bundles
+Description: 激活有锁5C-5S中国电信通话及网络，工具 •	支持Softbank、AU、Sprint •	想稳定使用电信3G网络的 •	仅支持原生3G以稳定为主，用于破解4G前激活iMessage和FaceTime
+Author: haoerloveyou <haoerloveyou@gmail.com>
+Name: EnableTele 5C 5S iOS8
+
+Package: com.white.enableTele5s4G
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: WZteam <haoerloveyou@gmail.com>
+Pre-Depends: firmware (>= 8.0), firmware (<= 8.4.1)
+Depends: com.white.ccpatch
+Replaces: com.white.enableTele5s
+Filename: ./debs/enableTele5s4G_1.2.deb
+Size: 11452
+MD5sum: 09c94a210beef83f280ed9d4888be20f
+SHA1: 714804e98272e0affcdb8a86db60820fe4f239b0
+SHA256: 03663b0b0daf9cd9f5a28bdafdc31d2a3a9e4b9178528feef86ac7b415683b42
+Section: Networking
+Description: 激活5C-5S电信4G网络 •	支持有锁Softbank、AU、Sprint •	支持除国行外所有无锁A1533 •	无法激活iMessage和FaceTime先安装源内Enabletele 5C 5S激活iM和FT后再安装此包 •	3G无法联网请在运营商选择NAI1即可
+Author: haoerloveyou <haoerloveyou@gmail.com>
+Name: EnableTele 5C 5S 4G iOS8
+
+Package: com.white.enableUnicom5s4G
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: CC <haoerloveyou@gmail.com>
+Installed-Size: 219
+Pre-Depends: firmware (>= 8.0), firmware (<= 8.4.1)
+Depends: com.white.ccpatch
+Filename: ./debs/enableUnicom5s4G_1.0.deb
+Size: 5988
+MD5sum: 06ffd13126e0c794a3e623d9f675de0c
+SHA1: 1a6c390c7e3ffca5a539703d416473b03c5beb73
+SHA256: cce7dc42d5ca43dd84f751303b325bcfc96edfc3bdad7c6f3b131a377760f83f
+Section: Networking
+Description: 激活5C-5S联通4G网络 •	支持A1526-1528且支持有锁全系列 •	有锁设备安装后需要用TMSI获取4G信号
+Author: haoerloveyou <haoerloveyou@gmail.com>
+Name: EnableUnicom 5C 5S 4G
+Sponsor: haoerloveyou <haoerloveyou@gmail.com>
+
+Package: com.white.enableactivation4g
+Version: 1.0.5
+Architecture: iphoneos-arm
+Maintainer: WZteam <admin@abcydia.com>
+Installed-Size: 219
+Pre-Depends: firmware (>= 8.0), firmware (<= 8.4.1)
+Depends: com.white.ccpatch
+Filename: ./debs/enableactivation4g_1.0.5.deb
+Size: 13068
+MD5sum: 9cd81039dbb27e1a71535a5c09f3abb3
+SHA1: 1a776570762b8c451ff310b798e008eee6677daf
+SHA256: afc1cfdd1b26edba32762be7f8008c46f7456fb6866e7d6c9794708ff7970988
+Section: Networking
+Description: 激活iPhone5的A1429联通电信4G •	兼容A1442破解电信4G •	两网需要先破解电信 •	电信需要在运营商勾选
+Author: ABCydia <admin@abcydia.com>
+Name: Active 1429 4G iOS8
 
 Package: com.white.facetunevip
 Version: 3.0
@@ -929,6 +1387,77 @@ Depiction: https://repo.cypwn.xyz/depiction/2145
 Icon: https://media.havoc.app/65e987f4df1ff02035bcd6b1
 Name: Fiona
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2145
+
+Package: com.white.fixcmcc
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: WZteam <abcydia.com@gmail.com>
+Installed-Size: 219
+Pre-Depends: firmware (>= 8.0), firmware (<= 8.4.1)
+Depends: com.white.ccpatch
+Filename: ./debs/fixcmcc_1.0.deb
+Size: 6364
+MD5sum: bbda21ab67c486347f268182ca32716f
+SHA1: feeed35a8acc4d9c8e8039f8892f312b1ed98409
+SHA256: e697fdd78383428306bce1b58e0d3744200cc4e0a8b70ccdcafd4a3905047014
+Section: Carrier_Bundles
+Description: 修复有锁6/6P使用中国移动遇到的问题 •	激活双模解锁逻辑 •	激活中国移动3G •	修复通讯录/短信格式错误 •	修复不能上网问题
+Author: haoerloveyou <haoerloveyou@gmail.com>
+Name: FixCmcc 6 6P iOS8
+
+Package: com.white.fixmyncmcc
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: CC <haoerloveyou@gmail.com>
+Pre-Depends: firmware (>= 8.0), firmware (<= 8.4.1)
+Depends: com.white.ccpatch
+Replaces: com.white.fixcmcc
+Filename: ./debs/fixmyncmcc_1.0.deb
+Size: 8744
+MD5sum: 1bd4db3f62d08d3729026998706445f4
+SHA1: 236f84de6bb88b4887754b65547e65bd56b94a32
+SHA256: af12b1509f1808ac75d073388d53ff38310073aed2cbbaef92255694d9c03451
+Section: Carrier_Bundles
+Description: 修正移动双模本机号码错误，工具 •	支持Softbank、AU、Docomo •	本机号码未知不是错误(连WiFi开关FaceTime) •	AU版本支持看人品 •	支持5C-6P设备
+Author: haoerloveyou <haoerloveyou@gmail.com>
+Name: 移动双模本机号码修正
+Sponsor: haoerloveyou <haoerloveyou@gmail.com>
+
+Package: com.white.fixmynunicom
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: CC <haoerloveyou@gmail.com>
+Pre-Depends: firmware (>= 8.0), firmware (<= 8.4.1)
+Depends: com.white.ccpatch
+Replaces: com.white.fixunicom
+Filename: ./debs/fixmynunicom_1.0.deb
+Size: 8412
+MD5sum: 4c2125dc5537930ec93f27192520afab
+SHA1: 36710a22b8b9dad0d05f1e62c02bf56aa1ccc7a1
+SHA256: 4509c3fe92d3325f5774dbaa18294f104a522b28a6a3db860257547269506bd9
+Section: Carrier_Bundles
+Description: 修正联通双模本机号码错误，工具 •	支持Softbank、AU、Docomo •	本机号码未知不是错误(连WiFi开关FaceTime) •	AU版本支持看人品 •	支持5C-6P设备
+Author: haoerloveyou <haoerloveyou@gmail.com>
+Name: 联通双模本机号码修正
+Sponsor: haoerloveyou <haoerloveyou@gmail.com>
+
+Package: com.white.fixunicom
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: CC <haoerloveyou@gmail.com>
+Installed-Size: 219
+Pre-Depends: firmware (>= 8.1), firmware (<= 8.4.1)
+Depends: com.white.ccpatch
+Filename: ./debs/fixunicom_1.0.deb
+Size: 6132
+MD5sum: 8b8a9dd535471aaff6e5506904155dbf
+SHA1: 770cf5674f8472ac9f6c6eafd1d13ad0f1eb31d9
+SHA256: a82c882409aa20d3c0ddaca1434a53fea11b1170f8ea608f47a722c2ea23914a
+Section: Carrier_Bundles
+Description: 修复有锁6/6P使用联通遇到的问题 •	4G卡在8.3以前需配合联通助手锁网2G即可正常使用 •	OTA卡则不受限制
+Author: haoerloveyou <haoerloveyou@gmail.com>
+Name: FixUnicom 6 6P iOS8
+Sponsor: haoerloveyou <haoerloveyou@gmail.com>
 
 Package: com.white.flexall
 Version: 0.0.1-24
@@ -1115,6 +1644,42 @@ Icon: file:///Library/PreferenceBundles/HKSettings.bundle/HK@2x.png
 Name: HapticKeys Rus
 Sileodepiction: https://rejail.ru/sileo/depiction.php?file=haptickeys
 
+Package: com.white.iconsfix
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: LukeZGD
+Depends: com.ericasadun.utilities
+Filename: ./debs/iconsfix_1.0.0.deb
+Size: 928
+MD5sum: 3022dd0c2dce400e703c3ee3a45d3479
+SHA1: 980713a8d6d46a111fee12b583017ff92277b995
+SHA256: c4da3bd02d64bd91328018657f96a82a0a193e7d9dd2592cfe00f7abd1283a2c
+Section: System
+Description: 修复越狱应用图标缺失，安装后重启设备使其生效，然后就可以卸载了
+Author: LukeZGD
+Name: Jailbreak App Icons Fix
+
+Package: com.white.ifile
+Version: 2.2.0-1
+Architecture: iphoneos-arm
+Maintainer: Carsten Heinelt <ifile@iphone.heinelt.eu>
+Installed-Size: 20224
+Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
+Filename: ./debs/iFile_2.2.0-1.deb
+Size: 7467664
+MD5sum: c44e24526031a210be7fb00fa0260432
+SHA1: 20b1eceb2edc6cc76b21fb692f66641a614910b6
+SHA256: 1e6031702364c5361c511dcd58ac77cb23c011daa172c555a28b2bf028dca373
+Section: Utilities
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
+Description: iFile是一款在用户root下运行的文件管理器。它允许快速浏览iPhone文件系统。它允许直接查看各种类型的文件，如电影、声音、文本、HTML、Microsoft 类型、PDF、ZIP。对于PDF文件，可以直接跳转到页面。还支持ZIP打包和解包。文件可以作为电子邮件附件发送。可编辑文本文件和属性列表。可为文件夹和文件添加书签。此外，还可从iFile内置的网络服务器上传和下载文件
+Tag: purpose::uikit, cydia::commercial
+Author: Carsten Heinelt <ifile@iphone.heinelt.eu>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
+Dev: carsten
+Icon: file:///Applications/iFile.app/AppIcon60x60@3x.png
+Name: iFile
+
 Package: com.white.iparanger
 Version: 1.9
 Architecture: iphoneos-arm
@@ -1190,6 +1755,21 @@ Author: 土拨鼠
 Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 Name: 激励视频跳过助手
 Sponsor: White <1410970825@qq.com>
+
+Package: com.white.kDFUBundles
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: LukeZGD
+Depends: org.tihmstar.kDFUApp
+Filename: ./debs/kDFUBundles_1.0.1.deb
+Size: 9156
+MD5sum: 2e480eb58d899655d5c97a3d674831fa
+SHA1: 280982c7ad7576c9f6608fb5fff4db818a0487ec
+SHA256: 4772631463f9fe7c41b8a81f0798bb1c829ac68f6f3b7149f5bbe3fb229891e4
+Section: System
+Description: 让kDFUApp支持更多设备
+Author: LukeZGD
+Name: kDFUApp Bundles
 
 Package: com.white.kayoko
 Version: 2.0.3.1
@@ -1554,6 +2134,24 @@ Icon: https://img.chariz.cloud/icon/onesettings/icon@3x.png
 Name: OneSettings
 Sileodepiction: https://mrepo.org/sileo/5576
 
+Package: com.white.pppoe
+Version: 1.5.4
+Architecture: iphoneos-arm
+Maintainer: haoerloveyou <haoerloveyou@gmail.com>
+Installed-Size: 2112
+Depends: firmware (>= 4.0)
+Filename: ./debs/pppoe_1.5.4.deb
+Size: 991044
+MD5sum: 7a1c38f0491f87a5fa65a06d172de946
+SHA1: 398178da269e52ca7b8ff91a1b5c7746da23e89f
+SHA256: 1ae8487354e959fb307e8619c95d375758982e76e574fe55d8d3dc32c3bab988
+Section: Networking
+Description: 通过WiFi接口实现PPPOE拨号上网 •	软件有广告 •	未适配4/4.7/5.5寸屏
+Tag: purpose::uikit, role::enduser
+Author: lvcoffee <admin@lvcoffee.info>
+Icon: file:///Applications/PPPOE.app/icon.png
+Name: PPPOE 无线拨号
+
 Package: com.white.rebootmodule
 Version: 1.1.0
 Architecture: iphoneos-arm
@@ -1733,6 +2331,24 @@ Author: Pwn20wnd
 Icon: file:///Applications/Rollectra.app/AppIcon60x60@3x.png
 Name: SemiRestore11
 
+Package: com.white.shadowsocks
+Version: 0.3.2-3
+Architecture: iphoneos-arm
+Maintainer: WZteam <admin@abcydia.com>
+Installed-Size: 4441
+Depends: firmware (>= 3.0)
+Filename: ./debs/shadowsocks_0.3.2-3.deb
+Size: 1222268
+MD5sum: 9620e688d28bb0f16f16af4637a6a2b7
+SHA1: acdb58dffa795f15ba6deb2c867cb745e8c53fe8
+SHA256: 93071943a2543c40bf2d794cd1c8b04d1cd2aa108bc668fe8188416381f502b2
+Section: Networking
+Description: 影梭科学上网
+Tag: purpose::uikit
+Author: Linus Yang <laokongzi@gmail.com>
+Icon: file:///Applications/MobileShadowSocks.app/Icon.png
+Name: ShadowSocks 影梭
+
 Package: com.white.successionrestore
 Version: 1.4.16~b4
 Architecture: iphoneos-arm
@@ -1886,6 +2502,93 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=techsuppor
 Name: TechSupport Framework (SparkDev)
 Sponsor: Lance Fetters (ashikase) <support@ashikase.com>
 
+Package: com.white.tele63g
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: CC <haoerloveyou@gmail.com>
+Installed-Size: 132
+Pre-Depends: firmware (>= 8.0), firmware (<= 8.4.1)
+Depends: com.white.ccpatch
+Filename: ./debs/tele63g_1.0.deb
+Size: 11448
+MD5sum: bca9806e37c96d7da169f45aea7b0138
+SHA1: 72f6af10f89b3a8a39e8377f2f59aa95e269a72c
+SHA256: 04dec3c8d8b3128e2a6675352219eaa14227459a520894df95923f23413c9c68
+Section: Carrier_Bundles
+Description: 强制加载电信3G配置文件，工具 •	解决有锁6/6p电信3G第一次鉴权通不过出现的脱网现象 •	3G极致稳定，仅支持6/6P
+Author: haoerloveyou <haoerloveyou@gmail.com>
+Name: LockTele_3G iOS8
+Sponsor: haoerloveyou <haoerloveyou@gmail.com>
+
+Package: com.white.tele6iOS9
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: WZteam <admin@abcydia.com>
+Pre-Depends: firmware (>= 9.0), firmware (<= 10.3.3)
+Filename: ./debs/tele6iOS9_1.1.0.deb
+Size: 10348
+MD5sum: 8e42c40c46254ab42f0b30eb72635490
+SHA1: e66cc02aeb0543ffcdbd739fcc1ccb25d6471767
+SHA256: 8de413496a75da9d5dd03d42cb6e0832bc2a441f92c8211632f94e21eb625798
+Section: Carrier_Bundles
+Description: 修复有锁6/6P使用电信卡遇到的问题，修复运营商显示问题
+Author: ABCydia <admin@abcydia.com>
+Name: FixTele 6 6P iOS9/10
+
+Package: com.white.tele6siOS9
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: WZteam <admin@abcydia.com>
+Pre-Depends: firmware (>= 9.0), firmware (<= 10.3.3)
+Filename: ./debs/tele6siOS9_1.0.0.deb
+Size: 15236
+MD5sum: 03271b8fbf82051e87ce649675d9694a
+SHA1: 1426b9da32003ed7d464f3d7783639d12d88a10e
+SHA256: a6b04acf074b0c3631829ed801989e9af0789bb18bc3134b6315f153c58ca56f
+Section: Carrier_Bundles
+Description: 修复有锁6s/6sp使用电信遇到的问题，支持Softbank、AU-KDDI、Sprint
+Name: FixTele 6S 6SP iOS9/10
+
+Package: com.white.teleiOS9
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: WZteam <admin@abcydia.com>
+Pre-Depends: firmware (>= 9.0), firmware (<= 10.3.3)
+Filename: ./debs/teleiOS9_1.0.0.deb
+Size: 9952
+MD5sum: ebdf31735db6282da09322a9bb76e6c8
+SHA1: 180ce53291c9e57ab9c5cffd9b8026adf3a218b1
+SHA256: bc80281c976087842b4151fdcdc60c917bbc4599e1cad99e134ee12f6a9fb458
+Section: Carrier_Bundles
+Description: 修复有锁5C/5S使用电信遇到的问题，支持Softbank、AU、DO、Sprint
+Author: ABCydia <admin@abcydia.com>
+Name: FixTele 5C 5S iOS9/10
+
+Package: com.white.tetherme8
+Version: 2.1.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 24313
+Pre-Depends: mobilesubstrate (>=0.9.5101)
+Depends: firmware (>= 8.0), preferenceloader (>= 2.2.4), firmware (>= 11.0) | network-cmds, mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.4), mobilesubstrate (<<99.0) | com.ex.libsubstitute (>= 0.1.1)
+Conflicts: net.tetherme.tetherme
+Replaces: net.tetherme.tetherme
+Filename: ./debs/Tetherme8_2.1.1.deb
+Size: 7608712
+MD5sum: 1605d8c9a41fafffe567c6c95c370029
+SHA1: a1bcb654f0d339ada61970bbea5878e371cf7d1e
+SHA256: cf1de77b22d58ef343f04ff04ca7503129dab37325a0bdf3f64d484ccd7bb918
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=tetherme8Dp
+Description: 为iOS8+设备动态启用本机网络连接，这应适用于任何运营商，无需自定义bundles或偏好设置
+Tag: purpose::extension
+Author: Sam Bingner <support@tetherme.net>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=tetherme8Dp
+Dev: tetherme
+Icon: file:///Library/PreferenceBundles/TetherMe.bundle/TetherMe@2x.png
+Name: TetherMe for iOS 8+
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.white.thunderhelper
 Version: 1.5.1
 Architecture: iphoneos-arm
@@ -1908,11 +2611,11 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 1944
 Depends: ws.hbang.common
 Replaces: com.randy420.encrypt
-Filename: ./debs/420tools_2.3.6.deb
-Size: 773770
-MD5sum: 922a270a4de102010065ad93bdf42e23
-SHA1: f063ab86d6e6054090c8b5ce1745b2b14037ddd6
-SHA256: b62e3b430322e961498fe0e6ab31a1d164c2d51630eec2165d23d123cab395f6
+Filename: ./debs/420Tools_2.3.6.deb
+Size: 762920
+MD5sum: 88751c6ddd3c0ff047f7c57b93d51872
+SHA1: e97de003e802dfaf10d5ac7b7c1804221bba6cb9
+SHA256: 334be5ad94f90a415290321dce8422cb4e6aac39fc099a5cf32b34a74eec98c8
 Section: System
 Homepage: https://theemeraldisle.family
 Description: 自动安装Theos工具，在原版基础上精简选项
@@ -1939,6 +2642,54 @@ Author: 1Conan <tweaks@1conan.com>
 Icon: file:///Applications/TSSSaver.app/Icon-60.png
 Name: TSS Saver
 
+Package: com.white.unicom5siOS9
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: CC <haoerloveyou@gmail.com>
+Pre-Depends: firmware (>= 9.0), firmware (<= 9.3.5)
+Filename: ./debs/unicom5siOS9_1.0.0.deb
+Size: 4612
+MD5sum: 7c5fc9829f095434040b6a27cb237c64
+SHA1: 85887f7fccacaa6949317da4959db9ba4e6df943
+SHA256: 5dc45c6a973d3cbf3b50ec364ca604cc3e8fe8fdb1f74726dcbcc589330f627a
+Section: Carrier_Bundles
+Description: 修复有锁5C/5S使用联通遇到的问题，支持Softbank、AU、DO、Sprint
+Author: haoerloveyou <haoerloveyou@gmail.com>
+Name: FixUnicom 5C 5S iOS9
+Sponsor: haoerloveyou <haoerloveyou@gmail.com>
+
+Package: com.white.unicom6iOS9
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: CC <haoerloveyou@gmail.com>
+Pre-Depends: firmware (>= 9.0), firmware (<= 9.3.5)
+Filename: ./debs/unicom6iOS9_1.1.0.deb
+Size: 6084
+MD5sum: 00fc31dff3e41d27a7806d599f61cefc
+SHA1: d4ed5633930966c9e147d1523f4334dee7b5ea59
+SHA256: a3fd39afac8d8ca7110c3a6b54ab0b64e51e2718c7b8dc2530df841afeade9f2
+Section: Carrier_Bundles
+Description: 修复有锁6/6P使用联通遇到的问题，修复运营商显示问题。支持Softbank、AU-KDDI、DO、Sprint
+Author: haoerloveyou <haoerloveyou@gmail.com>
+Name: FixUnicom 6 6P iOS9
+Sponsor: haoerloveyou <haoerloveyou@gmail.com>
+
+Package: com.white.unicom6siOS9
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: CC <haoerloveyou@gmail.com>
+Pre-Depends: firmware (>= 9.0), firmware (<= 9.3.5)
+Filename: ./debs/unicom6siOS9_1.0.0.deb
+Size: 8588
+MD5sum: 8cd724f95112685c7ef2607c11efb027
+SHA1: bd7b55475b244439cd1b5c42852e05ad6146afd2
+SHA256: d7e78d6282fe527113d33e606bfd8ad8ebc54ce9e03cda697f0484b6026b3c66
+Section: Carrier_Bundles
+Description: 修复有锁6s/6sp使用联通遇到的问题，支持Softbank、AU-KDDI、Docomo、Sprint
+Author: haoerloveyou <haoerloveyou@gmail.com>
+Name: FixUnicom 6S 6SP iOS9
+Sponsor: haoerloveyou <haoerloveyou@gmail.com>
+
 Package: com.white.unidream
 Version: 1.0
 Architecture: iphoneos-arm
@@ -1953,6 +2704,22 @@ Section: NoAds
 Description: 屏蔽最新版越狱和关键词检查
 Author: White <1410970825@qq.com>
 Name: Uni Dream屏蔽关键词检查
+
+Package: com.white.unthredeh4il
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: LukeZGD
+Pre-Depends: cy+model.iphone (= 2.1) | cy+model.iphone (= 3.1) | cy+model.iphone (= 3.3) | cy+model.ipod (= 3.1) | cy+model.ipod (= 4.1) | cy+model.ipad (= 1.1), firmware (>= 4.2.6), firmware (<= 5.1.1)
+Replaces: com.unthreadedjb.unthredera1n
+Filename: ./debs/unthredeh4il_1.0.0.deb
+Size: 10616
+MD5sum: b3e8f495d9d0e790d4d07585dac0f59a
+SHA1: a847d4e5f6e4969be75e6fbf125d987408fb7e17
+SHA256: 468ab4379720bfaa120c70fdff59428af66d4fe902d7af69db5a7cc15b580117
+Section: System
+Description: unthredera1n untether的改进版本
+Author: UnthreadedJB
+Name: unthredeh4il
 
 Package: com.white.videohelper
 Version: 3.0
@@ -2150,6 +2917,23 @@ Icon: file:///Applications/Cydia.app/Icon-60.png
 Name: Cydia Installer
 Sponsor: Procursus Team <support@procurs.us>
 
+Package: dev.ayden.ios.tweak.lib.libdundas
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: Ayden Panhuyzen
+Installed-Size: 332
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/libdundas_1.0.3.deb
+Size: 37836
+MD5sum: f1ffd579bc33c865764d3c7b82ec2647
+SHA1: 6dd7b8464f9e5542812569cc30db714af0e1124d
+SHA256: d15d1ce6b0c183f2262c9df0be5148eaf6c2542e26e307ed3d2b592f00174f2e
+Section: 依赖
+Description: Utilities for my tweaks
+Tag: role::developer
+Author: Ayden Panhuyzen
+Name: libdundas
+
 Package: flexdecrypt
 Version: 1.1
 Architecture: iphoneos-arm
@@ -2164,6 +2948,22 @@ Section: Utilities
 Description: 用于解密iOS应用和Mach-O二进制文件的工具
 Author: John Coates
 Name: flexdecrypt
+
+Package: ipwnderlite
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: sakuRdev/dora2ios
+Depends: firmware (>= 9.0), curl
+Filename: ./debs/iPwnderLite_1.0.deb
+Size: 19148
+MD5sum: 6bd68d39338a560c33645b2501921a0f
+SHA1: 7b13db63c0fbbda75069908f4150dffeaf77b55b
+SHA256: b2c06e9ff3fb1fa2f5f6d5c5961f1524e54700e4f7d4daa0c678d8c3d44d34ad
+Section: System
+Description: 适用于iPhoneOS的iPwnder Lite，如果是iOS 14，二进制文件必须放在/usr/local/bin
+Author: sakuRdev/dora2ios
+Depiction: https://dora2ios.github.io/info/ipwnderlite/
+Name: iPwnder Lite
 
 Package: jp.akusio.milkyway4
 Version: 0.1.1
@@ -2181,6 +2981,24 @@ Description: iOS15无根的多任务分屏
 Author: @akusio_RR
 Depiction: https://akusio.github.io/descriptions/milkyway4/index.html
 Name: MilkyWay4-rootless
+
+Package: kloader
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: tihmstar
+Depends: firmware (>= 6.0)
+Conflicts: cy+cpu.arm64
+Filename: ./debs/kloader_1.0.deb
+Size: 7120
+MD5sum: 3ac8a103fb29c1b1bab2aa2ee36264ff
+SHA1: acaa9e222e3dcf03fe46eef00ae66d7c23d0e57c
+SHA256: c0a47c616ccc4759a268e52c22cb3cbc5eb578699e478a9bcfe941c7b1d5af6c
+Section: System
+Priority: optional
+Homepage: https://github.com/xerub/ios-kexec-utils/blob/master/kloader.c
+Description: 如果您不知道这是什么，请不要安装！不建议在生产设备上安装它
+Author: winocm, xerub
+Name: kloader
 
 Package: libactivator
 Version: 1.9.13~rc6
@@ -2207,6 +3025,23 @@ Name: Activator
 Sponsor: thebigboss.org <http://thebigboss.org>
 依赖源：https: //rpetri.ch/cydia/
 
+Package: libcrippy-1.0.0
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: tihmstar
+Depends: firmware (>= 6.0)
+Filename: ./debs/libcrippy-1.0.0_1.0.deb
+Size: 6948
+MD5sum: 2d809bd3a65d1e675932b4daf3b97dc0
+SHA1: c5b850ecc5e755f205ef59b128abd2b272770852
+SHA256: 14a991328cb78fd529c8a24d5a5f75a6c694b3cb07baf9571b10d309cbcf8b69
+Section: 依赖
+Priority: optional
+Homepage: https://www.openjailbreak.org/projects/libcrippy-1-0
+Description: none
+Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
+Name: libcrippy
+
 Package: libflex
 Version: 5.22.10
 Architecture: iphoneos-arm
@@ -2224,6 +3059,78 @@ Author: Tanner Bennett <thepantsthief@me.com>
 Depiction: https://nscake.github.io/package.html?package=libflex
 Name: libFLEX
 Sileodepiction: https://nscake.github.io/depictions/libflex.sileo.json
+
+Package: libpartialzip-1.0.0
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: tihmstar
+Depends: firmware (>= 6.0), libcrippy-1.0.0
+Filename: ./debs/libpartialzip-1.0.0_1.0.deb
+Size: 6216
+MD5sum: 6dda41cf38bc32a76a0bdab53bdb2b69
+SHA1: 13a71103899116ba11bf98b00781783312c9a875
+SHA256: c66b88f5808e983bf861186623050af8644db57e5114dc44e885cc60d4bc4c5e
+Section: 依赖
+Priority: optional
+Homepage: https://www.openjailbreak.org/projects/libcrippy-1-0
+Description: none
+Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
+Name: libpartialzip
+
+Package: me.jjolano.alertdismiss
+Version: 1.0.4
+Architecture: iphoneos-arm
+Maintainer: jjolano <jjolano@me.com>
+Depends: firmware (>=8.0), mobilesubstrate, preferenceloader, firmware (>= 8.0)
+Filename: ./debs/alertdismiss_1.0.4.deb
+Size: 12404
+MD5sum: 081e045dcff9c624f08472c05aa46bfa
+SHA1: 8fa0e930344b42b67188dd2f2ea72fc8478012eb
+SHA256: c255a53c1b8ba00ca8a8382d9feab064b52a01e891aebc92d38bd0da8f89d1e6
+Section: Tweaks
+Homepage: https://shuga.co/
+Description: 将强制关闭按钮添加到任何UIAlertController函数中
+Author: jjolano <jjolano@me.com>
+Depiction: https://ios.jjolano.me/depiction/web/me.jjolano.alertdismiss.html
+Icon: https://ios.jjolano.me/assets/me.jjolano.alertdismiss/icon.png
+Moderndepiction: https://ios.jjolano.me/depiction/native/me.jjolano.alertdismiss.json
+Name: AlertDismiss
+Sileodepiction: https://ios.jjolano.me/depiction/native/me.jjolano.alertdismiss.json
+
+Package: net.tihmstar.daemonloader
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: tihmstar
+Conflicts: cy+cpu.arm64
+Filename: ./debs/Daemonloader_1.0.0.deb
+Size: 47864
+MD5sum: 4906ae31f1985380fa2061471a0a6917
+SHA1: 79ff0325b7c95adeae398cc09931fde26086c793
+SHA256: bbc5a3e347f12d770be19fc9b9e416bc250f4567acf4fed838158e0c3ccdd35b
+Section: System
+Description: 实际上在jsc/rtbuddyd untethers上加载launchdaemons，使用它让openssh加载etasonuntether或untetherhomedepot，使用untether生成的orphan_commander (libtakeover)等待syslogd启动，然后注入到它并运行"lanchctl load /Library/LaunchDaemons"
+Author: tihmstar
+Dev: tihmstar
+Name: Daemonloader
+
+Package: net.tihmstar.untetherhomedepot
+Version: 1.5.2
+Architecture: iphoneos-arm
+Maintainer: LukeZGD
+Depends: net.tihmstar.daemonloader, firmware (>= 9.1), firmware (<= 9.3.4)
+Conflicts: cy+cpu.arm64, net.tihmstar.untetherhomedepotoffsets, io.pangu.fuxiqin9
+Replaces: net.tihmstar.betterhomedepot
+Filename: ./debs/untetherhomedepot_1.5.2.deb
+Size: 18696
+MD5sum: 72641bca498b3bde2f5ae4ca09f4f213
+SHA1: 6e459148baa688e5d85bcaa9e1870b25f6bef2f0
+SHA256: ffb271eb8092e40f9f25adc32bc1f55bf078c50c81db66b474a91225ec5ca363
+Section: System
+Priority: optional
+Description: Untether适用于iOS 9.1-9.3.4 32位设备
+Author: tihmstar
+Dev: tihmstar
+Name: UntetherHomeDepot
 
 Package: netskao.3dnetworkfixer
 Version: 1.1-8
@@ -3566,6 +4473,22 @@ Icon: https://repo.theodyssey.dev/depictions/icons/libhooker.png
 Name: libhooker
 Sileodepiction: https://repo.theodyssey.dev/depictions/json/libhooker.json
 
+Package: org.coolstar.stash933
+Version: 1.5.0
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 9.2), firmware (<= 10.2), org.coolstar.cctools
+Conflicts: com.tigisoftware.filza (<= 3.1.0-16)
+Filename: ./debs/stash933_1.5.0.deb
+Size: 21896
+MD5sum: bad59089f83e5c165696b376e5557a58
+SHA1: b888a61cad7f6dbc3bc62b3dd3f2a98e33efdac6
+SHA256: c6ab3314abc5cc8d35a0c751e824def246e371e8152ab87b7fdf781411a5ac61
+Section: System
+Description: 隐藏第三方组件，为它们腾出更多空间！
+Author: CoolStar <coolstarorganization@gmail.com>
+Name: Stashing for iOS 9.2 - 10.2
+
 Package: org.thebigboss.repo.icons
 Version: 1.0
 Architecture: all
@@ -3582,6 +4505,23 @@ Priority: optional
 Multi-Arch: foreign
 Description: BigBoss源本地缓存插件图标
 Name: BigBoss Icon Set
+
+Package: org.tihmstar.kDFUApp
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: tihmstar
+Depends: openssl, libcrippy-1.0.0, libpartialzip-1.0.0, curl, kloader, com.white.kDFUBundles, firmware (>= 6.0), firmware (<= 9.3.6)
+Filename: ./debs/kDFUApp_1.0.3.deb
+Size: 63744
+MD5sum: 2af62455cfab8ba3f02fe41d3ff2409a
+SHA1: 196945c9e0e320fe861c0ec54337b95b1c25a17e
+SHA256: c1294aada66e49ef45e866251684b85e50ffb03df4b88ec08855aa2eeb269b15
+Section: System
+Priority: optional
+Description: 进入kDFU模式更简单的方法
+Author: tihmstar
+Dev: tihmstar
+Name: kDFUApp
 
 Package: ru.rejail.betterccxi
 Version: 1.6.0
