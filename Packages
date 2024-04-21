@@ -792,6 +792,22 @@ Description: 基于7.65.0制作，其他版本自测 •	去除部分广告 
 Author: White <1410970825@qq.com>
 Name: 哔哩哔哩大会员画质
 
+Package: com.white.bilibili
+Version: 1.0-6-1
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 184
+Depends: mobilesubstrate
+Filename: ./debs/bilibili_1.0-6-1.deb
+Size: 15110
+MD5sum: ff88239f00e715ac25a0060a2acd9b2a
+SHA1: a1e07d376fa6595baf790557d994b3722951363c
+SHA256: c2d2f20c222011486d88d68f58485dfe31488843f56b96d2b12a5a2bde97eee5
+Section: NoAds
+Description: 基于7.65.0制作，其他版本自测 •	去除部分广告 •	屏蔽越狱检测 •	解锁大会员画质(基于试用修改) •	可缓存HDR杜比视界 •	免会员电视剧解锁缓存
+Author: White <1410970825@qq.com>
+Name: 哔哩哔哩大会员画质
+
 Package: com.white.ccpatch
 Version: 1.2
 Architecture: iphoneos-arm
