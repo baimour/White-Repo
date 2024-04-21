@@ -1662,6 +1662,22 @@ Dev: carsten
 Icon: file:///Applications/iFile.app/AppIcon60x60@3x.png
 Name: iFile
 
+Package: com.white.iparanger
+Version: 1.9
+Architecture: iphoneos-arm
+Maintainer: 0xkuj <0xkujz@gmail.com>
+Depends: gawk, unzip, com.bingner.plutil
+Filename: ./debs/IPARanger_1.9.deb
+Size: 1135464
+MD5sum: 0d77883a43c41a4bd94c8c49ada8f024
+SHA1: 871ba127c3709dbfd167fe4b02666d2c6f8367ef
+SHA256: 259a92faf4f9e9c7146b2fc5f6fe605c7b6896c57737e2b309704d0585e8c40b
+Section: Utilities
+Description: 使用您的Apple ID帐户从App Store下载任何IPA！当前适用于越狱设备，将来可能会支持非越狱设备
+Author: 0xkuj <0xkujz@gmail.com>
+Icon: file:///Applications/IPARanger.app/AppIcon60x60.png
+Name: IPA Ranger
+
 Package: com.white.iridium
 Version: 1.2.15
 Architecture: iphoneos-arm
