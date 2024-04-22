@@ -762,37 +762,6 @@ Name: BigSurCenter
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1946
 
 Package: com.white.bilibili
-Version: 1.0-4
-Architecture: iphoneos-arm
-Maintainer: White <1410970825@qq.com>
-Depends: mobilesubstrate
-Filename: ./debs/bilibili_1.0-4.deb
-Size: 8948
-MD5sum: 45f30361a2a3b37573267cd0f5b92cfd
-SHA1: 7d3e536af34130c63a92254f1aeef2633d5d341c
-SHA256: 0113128d6ff4e18863e3dda0c4edb385539d60f2735d19570362b81c798e31fb
-Section: NoAds
-Description: 基于7.65.0制作，其他版本自测 •	去除部分广告 •	屏蔽越狱检测 •	解锁大会员画质(基于试用修改) •	可缓存HDR杜比视界 •	免会员电视剧解锁缓存
-Author: White <1410970825@qq.com>
-Name: 哔哩哔哩大会员画质
-
-Package: com.white.bilibili
-Version: 1.0-5
-Architecture: iphoneos-arm
-Maintainer: White <1410970825@qq.com>
-Installed-Size: 88
-Depends: mobilesubstrate
-Filename: ./debs/bilibili_1.0-5.deb
-Size: 8998
-MD5sum: 0f4cd425a34e66712df356c58ff7c926
-SHA1: 2a1fa52d868974fd3768a005a3cf5dedfb192cd2
-SHA256: 6918726be02dc6a82f86470f6946cac528b6d91351f83479d113e448c9334f5a
-Section: NoAds
-Description: 基于7.65.0制作，其他版本自测 •	去除部分广告 •	屏蔽越狱检测 •	解锁大会员画质(基于试用修改) •	可缓存HDR杜比视界 •	免会员电视剧解锁缓存
-Author: White <1410970825@qq.com>
-Name: 哔哩哔哩大会员画质
-
-Package: com.white.bilibili
 Version: 1.0-6-1-1
 Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
