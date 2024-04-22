@@ -775,9 +775,9 @@ SHA256: 04aa4fcaa0e55dd169ecf5381621cd0215d7aaae70dbfe4327eb3d2c63497be3
 Section: NoAds
 Description: 基于7.65.0制作，其他版本自测 •	去除部分广告 •	屏蔽越狱检测 •	解锁大会员画质(基于试用修改) •	可缓存HDR杜比视界 •	免会员电视剧解锁缓存
 Author: White <1410970825@qq.com>
-Icon: https://baimour.github.io/repo/SileoDepiction/BilibiliUnlock/icon.png
+Icon: https://gitee.com/baimour/sileo-depiction/raw/master/SileoDepiction/BilibiliUnlock/icon.png
 Name: 哔哩哔哩大会员画质
-Sileodepiction: https://baimour.github.io/repo/SileoDepiction/BilibiliUnlock/js.json
+Sileodepiction: https://gitee.com/baimour/sileo-depiction/raw/master/SileoDepiction/BilibiliUnlock/js.json
 
 Package: com.white.bilibili
 Version: 1.0-6-1
@@ -793,9 +793,9 @@ SHA256: b1cb9180336eb25a0a20678f34cb7533c406105ca1c2948dbccf7ae83154404f
 Section: NoAds
 Description: 基于7.65.0制作，其他版本自测 •	去除部分广告 •	屏蔽越狱检测 •	解锁大会员画质(基于试用修改) •	可缓存HDR杜比视界 •	免会员电视剧解锁缓存
 Author: White <1410970825@qq.com>
-Icon: https://baimour.github.io/repo/SileoDepiction/BilibiliUnlock/icon.png
+Icon: https://gitee.com/baimour/sileo-depiction/raw/master/SileoDepiction/BilibiliUnlock/icon.png
 Name: 哔哩哔哩大会员画质
-Sileodepiction: https://baimour.github.io/repo/SileoDepiction/BilibiliUnlock/js.json
+Sileodepiction: https://gitee.com/baimour/sileo-depiction/raw/master/SileoDepiction/BilibiliUnlock/js.json
 
 Package: com.white.ccpatch
 Version: 1.2
@@ -1548,14 +1548,15 @@ Installed-Size: 396
 Depends: mobilesubstrate, com.white.tools (>=2.2)
 Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
 Filename: ./debs/ftt_1.1.deb
-Size: 65188
-MD5sum: 948d7e7f621977df0ac135c69ed7843e
-SHA1: fcba2c08d0af36d665895e61b959823461cb93ba
-SHA256: cc6c8fefecfe431e085b432b5dea8f746218fc7689a6b9f649c79e8d820a9331
-Section: Test
+Size: 65200
+MD5sum: 90d3b175cbdb5cb845370ef6bef8d081
+SHA1: a51e35898ec0d866445172fe0c61144516a94356
+SHA256: 792afc61101d068ce78cbea7d5687c0640b323f7fcdc8729998fcdf8d0a55c6c
+Section: System
 Homepage: https://theemeraldisle.family
-Description: 最初由iPadkid358制作，后由randy420更新。使用简单的终端命令将Flex 3补丁转为Theos项目
+Description: 最初由iPadkid358制作，后由randy420更新
   
+ - 使用简单的终端命令将Flex 3补丁转为Theos项目
  - 使用 'ftt -?' 可查看完整的选项列表
 Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/ftt.html
@@ -2595,15 +2596,15 @@ Package: com.white.tools
 Version: 2.3.6
 Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
-Installed-Size: 1944
+Installed-Size: 1824
 Depends: ws.hbang.common
 Replaces: com.randy420.encrypt
 Filename: ./debs/420Tools_2.3.6.deb
-Size: 765882
-MD5sum: a653bc9716937cd70754264d1befd9c7
-SHA1: 1ce7dc20d1049eb03ae53f7c4c0dc155516f9442
-SHA256: 75792478a3ffe068ca2b23cd8c1a87a8a81cee3dfeb5332f34c7cbd115b4b3cb
-Section: Test
+Size: 729010
+MD5sum: 4744b11e8650f3bfa9088c3db8cc805e
+SHA1: 2b4e1aeb6612dc1d65aaa620c4f0dbad2974ab99
+SHA256: 854bc48f22bdb0795cd73481434e53ca18a9dd6cbd36283f1f589ecdd2c14a9a
+Section: System
 Homepage: https://theemeraldisle.family
 Description: Theos自动安装工具，在原版基础上精简选项
 Tag: role::hacker
