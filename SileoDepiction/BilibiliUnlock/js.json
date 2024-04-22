@@ -6,11 +6,11 @@
     "tabs": [
         {
             "class": "DepictionStackView",
-            "tabname": "描述",
+            "tabname": "插件描述",
             "views": [
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "哔哩哔哩解锁大会员画质",
+                    "title": "哔哩哔哩解锁大会员画质\n解锁HDR/杜比视界视频下载\n解锁免会员电视剧下载\n屏蔽越狱检测",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
@@ -58,7 +58,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "12.0 - 16.X",
+                    "text": "14.0 - 16.X",
                     "title": "支持系统"
                 },
                 {

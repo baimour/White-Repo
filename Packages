@@ -762,16 +762,16 @@ Name: BigSurCenter
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1946
 
 Package: com.white.bilibili
-Version: 1.0-6-1-4
-Architecture: iphoneos-arm64
+Version: 1.0-6-1-1
+Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
-Installed-Size: 200
+Installed-Size: 88
 Depends: mobilesubstrate
-Filename: ./debs/bilibili_1.0-6-1_iphoneos-arm64.deb
-Size: 15196
-MD5sum: 8839f7097eafbd72f22b546054573be5
-SHA1: cc5044af19f8fa63ab4e00efb3e234e6fd815d67
-SHA256: 1796d0c0ce512277edf8b0169ea57b84099d69dbfaf963a05801a930b6fef351
+Filename: ./debs/bilibili_1.0-6-1_iphoneos-arm.deb
+Size: 9998
+MD5sum: 5415ba76b9bc2757e2478c98bf1f969d
+SHA1: 86b0bc81e34196b8ad7896a35193033ebdcb8c72
+SHA256: e2b16fc9a61a104d4b0951725ae3148f115ed4d46dc48930558fdfaaaed07737
 Section: NoAds
 Description: 基于7.65.0制作，其他版本自测 •	去除部分广告 •	屏蔽越狱检测 •	解锁大会员画质(基于试用修改) •	可缓存HDR杜比视界 •	免会员电视剧解锁缓存
 Author: White <1410970825@qq.com>
@@ -780,16 +780,16 @@ Name: 哔哩哔哩大会员画质
 Sileodepiction: https://baimour.github.io/repo/SileoDepiction/BilibiliUnlock/js.json
 
 Package: com.white.bilibili
-Version: 1.0-6-1-7
-Architecture: iphoneos-arm
+Version: 1.0-6-1-1
+Architecture: iphoneos-arm64
 Maintainer: White <1410970825@qq.com>
-Installed-Size: 168
+Installed-Size: 104
 Depends: mobilesubstrate
-Filename: ./debs/bilibili_1.0-6-1_iphoneos-arm.deb
-Size: 14830
-MD5sum: f8e3eb2afe2f4daaa8806c3568926f87
-SHA1: 2b93d8dd617b8e4691e165f5dc7e1f657670ef86
-SHA256: 5cbdb3f59922ca1c6d0df3114f0b7ae23bdfce8d3671293f1dc9672d4362a23e
+Filename: ./debs/bilibili_1.0-6-1_iphoneos-arm64.deb
+Size: 10252
+MD5sum: 724e08fbd79247cc16701f7132ac8936
+SHA1: b438884d2bff21e1a6f251a5d20645a5fec38702
+SHA256: dfb9c21d4a406d47e170598eb04cccfa3a10ccdfa7ed9b667b10620fa7c123ec
 Section: NoAds
 Description: 基于7.65.0制作，其他版本自测 •	去除部分广告 •	屏蔽越狱检测 •	解锁大会员画质(基于试用修改) •	可缓存HDR杜比视界 •	免会员电视剧解锁缓存
 Author: White <1410970825@qq.com>
