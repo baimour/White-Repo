@@ -775,9 +775,9 @@ SHA256: 04aa4fcaa0e55dd169ecf5381621cd0215d7aaae70dbfe4327eb3d2c63497be3
 Section: NoAds
 Description: 基于7.65.0制作，其他版本自测 •	去除部分广告 •	屏蔽越狱检测 •	解锁大会员画质(基于试用修改) •	可缓存HDR杜比视界 •	免会员电视剧解锁缓存
 Author: White <1410970825@qq.com>
-Icon: https://gitee.com/baimour/sileo-depiction/raw/master/SileoDepiction/BilibiliUnlock/icon.png
+Icon: https://baimour.github.io/repo/SileoDepiction/BilibiliUnlock/icon.png
 Name: 哔哩哔哩大会员画质
-Sileodepiction: https://gitee.com/baimour/sileo-depiction/raw/master/SileoDepiction/BilibiliUnlock/js.json
+Sileodepiction: https://baimour.github.io/repo/SileoDepiction/BilibiliUnlock/js.json
 
 Package: com.white.bilibili
 Version: 1.0-6-1
@@ -793,9 +793,9 @@ SHA256: b1cb9180336eb25a0a20678f34cb7533c406105ca1c2948dbccf7ae83154404f
 Section: NoAds
 Description: 基于7.65.0制作，其他版本自测 •	去除部分广告 •	屏蔽越狱检测 •	解锁大会员画质(基于试用修改) •	可缓存HDR杜比视界 •	免会员电视剧解锁缓存
 Author: White <1410970825@qq.com>
-Icon: https://gitee.com/baimour/sileo-depiction/raw/master/SileoDepiction/BilibiliUnlock/icon.png
+Icon: https://baimour.github.io/repo/SileoDepiction/BilibiliUnlock/icon.png
 Name: 哔哩哔哩大会员画质
-Sileodepiction: https://gitee.com/baimour/sileo-depiction/raw/master/SileoDepiction/BilibiliUnlock/js.json
+Sileodepiction: https://baimour.github.io/repo/SileoDepiction/BilibiliUnlock/js.json
 
 Package: com.white.ccpatch
 Version: 1.2
