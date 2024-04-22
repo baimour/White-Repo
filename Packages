@@ -1544,15 +1544,15 @@ Package: com.white.ftt
 Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: Randy420 <randy.skinner@hotmail.com>
-Installed-Size: 412
+Installed-Size: 396
 Depends: mobilesubstrate, com.white.tools (>=2.2)
 Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
 Filename: ./debs/ftt_1.1.deb
-Size: 72554
-MD5sum: 2492eab67b55f17bd0f3bf690760a9cf
-SHA1: 701cd033d14a1a6066a80134e13d0789feb6c0a7
-SHA256: 0eb12ab53c8e2c0f2e7ed8a97be323e1a189e1dd3dec4f1287fcb25eb02bd6b5
-Section: System
+Size: 65188
+MD5sum: 948d7e7f621977df0ac135c69ed7843e
+SHA1: fcba2c08d0af36d665895e61b959823461cb93ba
+SHA256: cc6c8fefecfe431e085b432b5dea8f746218fc7689a6b9f649c79e8d820a9331
+Section: Test
 Homepage: https://theemeraldisle.family
 Description: 最初由iPadkid358制作，后由randy420更新。使用简单的终端命令将Flex 3补丁转为Theos项目
   
@@ -2599,13 +2599,13 @@ Installed-Size: 1944
 Depends: ws.hbang.common
 Replaces: com.randy420.encrypt
 Filename: ./debs/420Tools_2.3.6.deb
-Size: 762920
-MD5sum: 88751c6ddd3c0ff047f7c57b93d51872
-SHA1: e97de003e802dfaf10d5ac7b7c1804221bba6cb9
-SHA256: 334be5ad94f90a415290321dce8422cb4e6aac39fc099a5cf32b34a74eec98c8
-Section: System
+Size: 765882
+MD5sum: a653bc9716937cd70754264d1befd9c7
+SHA1: 1ce7dc20d1049eb03ae53f7c4c0dc155516f9442
+SHA256: 75792478a3ffe068ca2b23cd8c1a87a8a81cee3dfeb5332f34c7cbd115b4b3cb
+Section: Test
 Homepage: https://theemeraldisle.family
-Description: 自动安装Theos工具，在原版基础上精简选项
+Description: Theos自动安装工具，在原版基础上精简选项
 Tag: role::hacker
 Author: White <1410970825@qq.com>
 Depiction: https://Randy-420.GitHub.io/depic/420Tools.html
