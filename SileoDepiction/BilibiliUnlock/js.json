@@ -1,6 +1,6 @@
 {
     "class": "DepictionTabView",
-    "headerImage": "https://gitee.com/baimour/sileo-depiction/SileoDepiction/Default/top.png",
+    "headerImage": "https://gitee.com/baimour/sileo-depiction/raw/master/SileoDepiction/Default/top.png",
     "tintColor": "#69A3F9",
     "minVersion": "0.3",
     "tabs": [
@@ -21,7 +21,7 @@
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://gitee.com/baimour/sileo-depiction/SileoDepiction/BilibiliUnlock/Screenshot.png"
+                            "url": "https://gitee.com/baimour/sileo-depiction/raw/master/SileoDepiction/BilibiliUnlock/Screenshot.png"
                         }
                     ]
                 },

@@ -768,16 +768,16 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 88
 Depends: mobilesubstrate
 Filename: ./debs/bilibili_1.0-6-1_iphoneos-arm.deb
-Size: 9576
-MD5sum: f91aa1a5850d3a9e18c2a9356b5d3642
-SHA1: 51dbb6731c6127746dd7684b9b1b7a2075ddfdeb
-SHA256: b2af0bc7cb487f14df7cec5612d628a2107b00375c1d4fc96573f30bae94cbb5
+Size: 9588
+MD5sum: 4f1e5692e2ea10d4dab1b7cc2f7343c4
+SHA1: 336a0b4046af43c12906d4a6b60e658c3393ab04
+SHA256: 04aa4fcaa0e55dd169ecf5381621cd0215d7aaae70dbfe4327eb3d2c63497be3
 Section: NoAds
 Description: 基于7.65.0制作，其他版本自测 •	去除部分广告 •	屏蔽越狱检测 •	解锁大会员画质(基于试用修改) •	可缓存HDR杜比视界 •	免会员电视剧解锁缓存
 Author: White <1410970825@qq.com>
-Icon: https://gitte.com/sileo-depiction/BilibiliUnlock/icon.png
+Icon: https://gitee.com/baimour/sileo-depiction/raw/master/SileoDepiction/BilibiliUnlock/icon.png
 Name: 哔哩哔哩大会员画质
-Sileodepiction: https://gitte.com/sileo-depiction/SileoDepiction/BilibiliUnlock/js.json
+Sileodepiction: https://gitee.com/baimour/sileo-depiction/raw/master/SileoDepiction/BilibiliUnlock/js.json
 
 Package: com.white.bilibili
 Version: 1.0-6-1
@@ -786,16 +786,16 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 104
 Depends: mobilesubstrate
 Filename: ./debs/bilibili_1.0-6-1_iphoneos-arm64.deb
-Size: 9924
-MD5sum: b0d8f41fece12bdbb9bb49d0a1eb36d7
-SHA1: 7b0331837a037983bc4686219fdbcd59904a10d7
-SHA256: d03dad199522d9dd4affe0313116206622c3c1230135fcf3c90199f1c5347073
+Size: 9936
+MD5sum: a58b035dc91668b8a88f6addcc3e925f
+SHA1: bbf3ea715804698aebf7218e3ad973f525abf395
+SHA256: b1cb9180336eb25a0a20678f34cb7533c406105ca1c2948dbccf7ae83154404f
 Section: NoAds
 Description: 基于7.65.0制作，其他版本自测 •	去除部分广告 •	屏蔽越狱检测 •	解锁大会员画质(基于试用修改) •	可缓存HDR杜比视界 •	免会员电视剧解锁缓存
 Author: White <1410970825@qq.com>
-Icon: https://gitte.com/sileo-depiction/BilibiliUnlock/icon.png
+Icon: https://gitee.com/baimour/sileo-depiction/raw/master/SileoDepiction/BilibiliUnlock/icon.png
 Name: 哔哩哔哩大会员画质
-Sileodepiction: https://gitte.com/sileo-depiction/SileoDepiction/BilibiliUnlock/js.json
+Sileodepiction: https://gitee.com/baimour/sileo-depiction/raw/master/SileoDepiction/BilibiliUnlock/js.json
 
 Package: com.white.ccpatch
 Version: 1.2
