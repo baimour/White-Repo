@@ -438,12 +438,12 @@ Architecture: iphoneos-arm
 Maintainer: WZteam <admin@abcydia.com>
 Pre-Depends: firmware (>= 9.0), firmware (<= 10.3.3)
 Filename: ./debs/1429tios9_1.0.1.deb
-Size: 9824
-MD5sum: 7f80feb99ae1380c07a78c433d861fbf
-SHA1: ea5a121d1a79424c96337e30dce8e47ff171661e
-SHA256: 60a75886806990c2836cc6e988b877314eb6e2567b33413456b347211c3b9377
+Size: 9820
+MD5sum: e2566c08c711b75d3739dde5d8c94062
+SHA1: e14f0fa4935ae5addf0765a6b5c619a99ce934f3
+SHA256: 0fb5b27074d737f774f66e1626786ea66009afa42b785fba7ec22827050ed1d8
 Section: Carrier_Bundles
-Description: 激活有锁iPhone5稳定电信3G，工具 •	支持Softbank、AU-KDDI、Sprint •	两网设备要用auto3G卡住CDMA基带
+Description: 激活有锁iPhone5稳定电信3G •	支持Softbank、AU-KDDI、Sprint •	两网设备要用auto3G卡住CDMA基带
 Author: ABCydia <admin@abcydia.com>
 Name: FixTele 5 3G iOS9/10
 
@@ -1261,12 +1261,12 @@ Installed-Size: 219
 Pre-Depends: firmware (>= 8.1), firmware (<= 8.4.1)
 Depends: com.white.ccpatch
 Filename: ./debs/enableTele5s_2.3.deb
-Size: 10016
-MD5sum: 71a97d0c82ed7db422a27881c9119b83
-SHA1: 42b9db595a0f5a06e53cb3b0c05dce7ad4f6e2bf
-SHA256: cdd6e1b5e30f7ddd35cd07afea07ab4ea83fa72a046a8f091877937e8ead9081
+Size: 10024
+MD5sum: 70870c5caffe81dece13591610874603
+SHA1: b539399d4ca89925374cac158d7efe5b2d84f984
+SHA256: 25a4605e8ad60027e7d4fd3f986fdaddf36f2dec77e5ee9d4dff8bb7beb41554
 Section: Carrier_Bundles
-Description: 激活有锁5C-5S中国电信通话及网络，工具 •	支持Softbank、AU、Sprint •	想稳定使用电信3G网络的 •	仅支持原生3G以稳定为主，用于破解4G前激活iMessage和FaceTime
+Description: 激活有锁5C-5S中国电信通话及网络 •	支持Softbank、AU、Sprint •	想稳定使用电信3G网络的 •	仅支持原生3G以稳定为主，用于破解4G前激活iMessage和FaceTime
 Author: haoerloveyou <haoerloveyou@gmail.com>
 Name: EnableTele 5C 5S iOS8
 
@@ -1400,12 +1400,12 @@ Pre-Depends: firmware (>= 8.0), firmware (<= 8.4.1)
 Depends: com.white.ccpatch
 Replaces: com.white.fixcmcc
 Filename: ./debs/fixmyncmcc_1.0.deb
-Size: 8744
-MD5sum: 1bd4db3f62d08d3729026998706445f4
-SHA1: 236f84de6bb88b4887754b65547e65bd56b94a32
-SHA256: af12b1509f1808ac75d073388d53ff38310073aed2cbbaef92255694d9c03451
+Size: 8736
+MD5sum: d5f9204c0e34c7e0b423fe4d95ddc6b4
+SHA1: 472e1b5935be678982ae37193fb09fe680bb9fc6
+SHA256: 88820b2fba48d9d78d5c583653b13e3ecc9cb6a531d1ebc42d6c720faf2e0803
 Section: Carrier_Bundles
-Description: 修正移动双模本机号码错误，工具 •	支持Softbank、AU、Docomo •	本机号码未知不是错误(连WiFi开关FaceTime) •	AU版本支持看人品 •	支持5C-6P设备
+Description: 修正移动双模本机号码错误 •	支持Softbank、AU、Docomo •	本机号码未知不是错误(连WiFi开关FaceTime) •	AU版本支持看人品 •	支持5C-6P设备
 Author: haoerloveyou <haoerloveyou@gmail.com>
 Name: 移动双模本机号码修正
 Sponsor: haoerloveyou <haoerloveyou@gmail.com>
@@ -1419,11 +1419,11 @@ Depends: com.white.ccpatch
 Replaces: com.white.fixunicom
 Filename: ./debs/fixmynunicom_1.0.deb
 Size: 8412
-MD5sum: 4c2125dc5537930ec93f27192520afab
-SHA1: 36710a22b8b9dad0d05f1e62c02bf56aa1ccc7a1
-SHA256: 4509c3fe92d3325f5774dbaa18294f104a522b28a6a3db860257547269506bd9
+MD5sum: 49b67f51c6219319ee84888ab77f6bba
+SHA1: 4ecf3eec00ee16db101392f1f6537a6c41d075e3
+SHA256: 0d41043df1da375a08dcbb276f3ec1edb1aaac18bf597f625b0f5d83a22a4037
 Section: Carrier_Bundles
-Description: 修正联通双模本机号码错误，工具 •	支持Softbank、AU、Docomo •	本机号码未知不是错误(连WiFi开关FaceTime) •	AU版本支持看人品 •	支持5C-6P设备
+Description: 修正联通双模本机号码错误 •	支持Softbank、AU、Docomo •	本机号码未知不是错误(连WiFi开关FaceTime) •	AU版本支持看人品 •	支持5C-6P设备
 Author: haoerloveyou <haoerloveyou@gmail.com>
 Name: 联通双模本机号码修正
 Sponsor: haoerloveyou <haoerloveyou@gmail.com>
@@ -2497,12 +2497,12 @@ Installed-Size: 132
 Pre-Depends: firmware (>= 8.0), firmware (<= 8.4.1)
 Depends: com.white.ccpatch
 Filename: ./debs/tele63g_1.0.deb
-Size: 11448
-MD5sum: bca9806e37c96d7da169f45aea7b0138
-SHA1: 72f6af10f89b3a8a39e8377f2f59aa95e269a72c
-SHA256: 04dec3c8d8b3128e2a6675352219eaa14227459a520894df95923f23413c9c68
+Size: 11428
+MD5sum: 8971776ac7c31b19eabeda9b9b91b235
+SHA1: e57aaab7c4158534e61b441d452ff4913a9b93f4
+SHA256: eea4115d8789774a162fc2c4fc52b374655235cb79feca241533d2c701d4258f
 Section: Carrier_Bundles
-Description: 强制加载电信3G配置文件，工具 •	解决有锁6/6p电信3G第一次鉴权通不过出现的脱网现象 •	3G极致稳定，仅支持6/6P
+Description: 强制加载电信3G配置文件 •	解决有锁6/6p电信3G第一次鉴权通不过出现的脱网现象 •	3G极致稳定，仅支持6/6P
 Author: haoerloveyou <haoerloveyou@gmail.com>
 Name: LockTele_3G iOS8
 Sponsor: haoerloveyou <haoerloveyou@gmail.com>
