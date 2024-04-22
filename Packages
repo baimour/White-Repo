@@ -762,36 +762,40 @@ Name: BigSurCenter
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1946
 
 Package: com.white.bilibili
-Version: 1.0-6-1-1
-Architecture: iphoneos-arm
-Maintainer: White <1410970825@qq.com>
-Installed-Size: 168
-Depends: mobilesubstrate
-Filename: ./debs/bilibili_1.0-6-1_iphoneos-arm.deb
-Size: 14758
-MD5sum: 3db01ecef6c5240e81c832a1928a3352
-SHA1: 0e902d59ab7effc9a679e2e5abc26bde08e6f089
-SHA256: 8b127ce285fd15b832f46cc1fc92835ed5b025e864143b2dce002bde54fecc55
-Section: NoAds
-Description: 基于7.65.0制作，其他版本自测 •	去除部分广告 •	屏蔽越狱检测 •	解锁大会员画质(基于试用修改) •	可缓存HDR杜比视界 •	免会员电视剧解锁缓存
-Author: White <1410970825@qq.com>
-Name: 哔哩哔哩大会员画质
-
-Package: com.white.bilibili
-Version: 1.0-6-1-5
+Version: 1.0-6-1-4
 Architecture: iphoneos-arm64
 Maintainer: White <1410970825@qq.com>
 Installed-Size: 200
 Depends: mobilesubstrate
 Filename: ./debs/bilibili_1.0-6-1_iphoneos-arm64.deb
-Size: 15128
-MD5sum: e3b3ed6dbaadf8bc4c6de1724529e949
-SHA1: 5ffdf61e89b2826dc04d63f31b103f557907eccd
-SHA256: 163bf56ce8f3a8162f5620789b94f042ad34648cbc6b7c77266f988f3c7ead17
+Size: 15196
+MD5sum: 8839f7097eafbd72f22b546054573be5
+SHA1: cc5044af19f8fa63ab4e00efb3e234e6fd815d67
+SHA256: 1796d0c0ce512277edf8b0169ea57b84099d69dbfaf963a05801a930b6fef351
 Section: NoAds
 Description: 基于7.65.0制作，其他版本自测 •	去除部分广告 •	屏蔽越狱检测 •	解锁大会员画质(基于试用修改) •	可缓存HDR杜比视界 •	免会员电视剧解锁缓存
 Author: White <1410970825@qq.com>
+Icon: https://baimour.github.io/repo/SileoDepiction/BilibiliUnlock/icon.png
 Name: 哔哩哔哩大会员画质
+Sileodepiction: https://baimour.github.io/repo/SileoDepiction/BilibiliUnlock/js.json
+
+Package: com.white.bilibili
+Version: 1.0-6-1-7
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/bilibili_1.0-6-1_iphoneos-arm.deb
+Size: 14830
+MD5sum: f8e3eb2afe2f4daaa8806c3568926f87
+SHA1: 2b93d8dd617b8e4691e165f5dc7e1f657670ef86
+SHA256: 5cbdb3f59922ca1c6d0df3114f0b7ae23bdfce8d3671293f1dc9672d4362a23e
+Section: NoAds
+Description: 基于7.65.0制作，其他版本自测 •	去除部分广告 •	屏蔽越狱检测 •	解锁大会员画质(基于试用修改) •	可缓存HDR杜比视界 •	免会员电视剧解锁缓存
+Author: White <1410970825@qq.com>
+Icon: https://baimour.github.io/repo/SileoDepiction/BilibiliUnlock/icon.png
+Name: 哔哩哔哩大会员画质
+Sileodepiction: https://baimour.github.io/repo/SileoDepiction/BilibiliUnlock/js.json
 
 Package: com.white.ccpatch
 Version: 1.2
