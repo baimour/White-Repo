@@ -797,6 +797,42 @@ Icon: https://gitee.com/baimour/sileo-depiction/raw/master/SileoDepiction/Bilibi
 Name: 哔哩哔哩大会员画质
 Sileodepiction: https://gitee.com/baimour/sileo-depiction/raw/master/SileoDepiction/BilibiliUnlock/js.json
 
+Package: com.white.bilibili
+Version: 1.0-7
+Architecture: iphoneos-arm64
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 200
+Depends: firmware (>= 13.0), firmware (<= 16.6.1), mobilesubstrate
+Filename: ./debs/bilibili_1.0-7_iphoneos-arm64.deb
+Size: 14480
+MD5sum: fcd98088ca1305dd9d16c0a0c62ba61a
+SHA1: cd0c933f786e3d14757355edb31f648cdb3d906d
+SHA256: 83ab5ee7557f6bca9faecad97b4267ac6d8470cd65c95a1dc17f4b1d37cdc3f6
+Section: NoAds
+Description: 基于7.65.0制作，其他版本自测
+Author: White <1410970825@qq.com>
+Icon: https://baimour.github.io/repo/SileoDepiction/BilibiliUnlock/icon.png
+Name: 哔哩哔哩大会员画质
+Sileodepiction: https://baimour.github.io/repo/SileoDepiction/BilibiliUnlock/Depiction
+
+Package: com.white.bilibili
+Version: 1.0-7
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 168
+Depends: firmware (>= 13.0), firmware (<= 16.6.1), mobilesubstrate
+Filename: ./debs/bilibili_1.0-7_iphoneos-arm.deb
+Size: 14112
+MD5sum: c9f64af1f024b9d5835dd6c3002b5bea
+SHA1: a3858d5ffcebef2d3d0679db112b5deda05acf36
+SHA256: 2be90c5047112e367fe1f20a6d650997a03578f16b838f25752830af8cd84af8
+Section: NoAds
+Description: 基于7.65.0制作，其他版本自测
+Author: White <1410970825@qq.com>
+Icon: https://baimour.github.io/repo/SileoDepiction/BilibiliUnlock/icon.png
+Name: 哔哩哔哩大会员画质
+Sileodepiction: https://baimour.github.io/repo/SileoDepiction/BilibiliUnlock/Depiction
+
 Package: com.white.ccpatch
 Version: 1.2
 Architecture: iphoneos-arm
@@ -1165,6 +1201,25 @@ Section: System
 Description: 从EtasonJB/HomeDepot/openpwnage迁移到daibutsu untether，迁移完成后卸载。警告：有引导循环风险，请在安装前备份数据
 Author: LukeZGD
 Name: daibutsu migrator
+
+Package: com.white.designer
+Version: 1.4.3
+Architecture: iphoneos-arm
+Maintainer: JunesiPhone
+Installed-Size: 17340
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/Designer_1.4.3.deb
+Size: 6294020
+MD5sum: 44dc9af4fe2f2c404408fbd2b903af32
+SHA1: e40a5d0c5556266a2d23d394f34586fcc8d8eda7
+SHA256: 0fca994d9a6308a8b4c9022c3d7629523e9afce71bec3165efe797ba06b3203b
+Section: Tweaks
+Description: 自定义锁屏和桌面布局
+Author: JunesiPhone
+Depiction: https://repo.cypwn.xyz/depiction/1980
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/designer.png
+Name: Designer
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1980
 
 Package: com.white.dleasy
 Version: 2.14.4k
@@ -1548,10 +1603,10 @@ Installed-Size: 396
 Depends: mobilesubstrate, com.white.tools (>=2.2)
 Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
 Filename: ./debs/ftt_1.1.deb
-Size: 65200
-MD5sum: 90d3b175cbdb5cb845370ef6bef8d081
-SHA1: a51e35898ec0d866445172fe0c61144516a94356
-SHA256: 792afc61101d068ce78cbea7d5687c0640b323f7fcdc8729998fcdf8d0a55c6c
+Size: 63448
+MD5sum: 78e4871808b5c77d1bef9eb5bfed7dc3
+SHA1: 10d4d46bd439f63a2e957fc89603a49cef1b03ef
+SHA256: 35a14d86f5d5ba1f0d51904cd2babdb87bac71e7fa523ca9c0c23bab9964fbb5
 Section: System
 Homepage: https://theemeraldisle.family
 Description: 最初由iPadkid358制作，后由randy420更新
@@ -1965,6 +2020,22 @@ Icon: https://revulate.dev/assets/com.spark.libsymbolicate/icon.png
 Moderndepiction: https://revulate.dev/depiction/native/com.spark.libsymbolicate.json
 Name: libsymbolicate (SparkDev)
 Sileodepiction: https://revulate.dev/depiction/native/com.spark.libsymbolicate.json
+
+Package: com.white.lowernotifs
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: 0xkuj
+Installed-Size: 388
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/LowerNotifs_1.0.1.deb
+Size: 33564
+MD5sum: 6aaa6b86841c24062d9320bd3ea8bb91
+SHA1: 1dd4e91991b1ef6cfc6f91a87e59ab09fab720b5
+SHA256: 96675bfa1dfb7b0f60eb724c1bc1a63f8334c98b698de532106ab9c95c15315e
+Section: Tweaks
+Description: 将通知限制降低到您希望在锁屏中显示的任何位置，这将影响可以看到通知的最大点。支持iOS 14，未在较低版本上测试，开源项目：https://github.com/0xkuj/LowerNotifs
+Author: 0xkuj
+Name: LowerNotifs
 
 Package: com.white.milkyway3
 Version: 0.2.15
@@ -2600,14 +2671,12 @@ Installed-Size: 1824
 Depends: ws.hbang.common
 Replaces: com.randy420.encrypt
 Filename: ./debs/420Tools_2.3.6.deb
-Size: 729010
-MD5sum: 4744b11e8650f3bfa9088c3db8cc805e
-SHA1: 2b4e1aeb6612dc1d65aaa620c4f0dbad2974ab99
-SHA256: 854bc48f22bdb0795cd73481434e53ca18a9dd6cbd36283f1f589ecdd2c14a9a
+Size: 723592
+MD5sum: 65963caa7f3deb449388de1ade34bcb2
+SHA1: da064d42814bde2b68f9195029c1e5426241a2b2
+SHA256: 047ae8f3f315bbc4554276032b62063d4e26a963aff090caef9e75bf407bafa6
 Section: System
-Homepage: https://theemeraldisle.family
 Description: Theos自动安装工具，在原版基础上精简选项
-Tag: role::hacker
 Author: White <1410970825@qq.com>
 Depiction: https://Randy-420.GitHub.io/depic/420Tools.html
 Name: 420 Tools
