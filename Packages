@@ -762,36 +762,36 @@ Name: BigSurCenter
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1946
 
 Package: com.white.bilibili
-Version: 1.0-6-1
+Version: 1.0-6
 Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
 Installed-Size: 88
-Depends: mobilesubstrate
-Filename: ./debs/bilibili_1.0-6-1_iphoneos-arm.deb
-Size: 9588
-MD5sum: 4f1e5692e2ea10d4dab1b7cc2f7343c4
-SHA1: 336a0b4046af43c12906d4a6b60e658c3393ab04
-SHA256: 04aa4fcaa0e55dd169ecf5381621cd0215d7aaae70dbfe4327eb3d2c63497be3
+Depends: firmware (>= 13.0), firmware (<= 16.6.1), mobilesubstrate
+Filename: ./debs/bilibili_1.0-6_iphoneos-arm.deb
+Size: 9524
+MD5sum: 13b42cd6b4fb6d036408b221671c78c6
+SHA1: 27b6102e0e9b42a8d99a104ddf7b50904977a1fd
+SHA256: 2f5d7b021f1ceacee21889c2f1c5e446a69898baab57c6aa086090b01ffc2346
 Section: NoAds
-Description: 基于7.65.0制作，其他版本自测 •	去除部分广告 •	屏蔽越狱检测 •	解锁大会员画质(基于试用修改) •	可缓存HDR杜比视界 •	免会员电视剧解锁缓存
+Description: 基于7.65.0制作，其他版本自测
 Author: White <1410970825@qq.com>
 Icon: https://gitee.com/baimour/sileo-depiction/raw/master/SileoDepiction/BilibiliUnlock/icon.png
 Name: 哔哩哔哩大会员画质
 Sileodepiction: https://gitee.com/baimour/sileo-depiction/raw/master/SileoDepiction/BilibiliUnlock/js.json
 
 Package: com.white.bilibili
-Version: 1.0-6-1
+Version: 1.0-6
 Architecture: iphoneos-arm64
 Maintainer: White <1410970825@qq.com>
 Installed-Size: 104
-Depends: mobilesubstrate
-Filename: ./debs/bilibili_1.0-6-1_iphoneos-arm64.deb
-Size: 9936
-MD5sum: a58b035dc91668b8a88f6addcc3e925f
-SHA1: bbf3ea715804698aebf7218e3ad973f525abf395
-SHA256: b1cb9180336eb25a0a20678f34cb7533c406105ca1c2948dbccf7ae83154404f
+Depends: firmware (>= 15.0), firmware (<= 16.6.1), mobilesubstrate
+Filename: ./debs/bilibili_1.0-6_iphoneos-arm64.deb
+Size: 9840
+MD5sum: 1f79749a5414408582d66e2121ac4ae2
+SHA1: 08bf30cd4185d94f424ea62b2fdc9e28b766a8d8
+SHA256: 71d0403fccc4a88a571c58fee84c6d95214b80868cd0b4200a554aac1d060a2b
 Section: NoAds
-Description: 基于7.65.0制作，其他版本自测 •	去除部分广告 •	屏蔽越狱检测 •	解锁大会员画质(基于试用修改) •	可缓存HDR杜比视界 •	免会员电视剧解锁缓存
+Description: 基于7.65.0制作，其他版本自测
 Author: White <1410970825@qq.com>
 Icon: https://gitee.com/baimour/sileo-depiction/raw/master/SileoDepiction/BilibiliUnlock/icon.png
 Name: 哔哩哔哩大会员画质
@@ -802,12 +802,12 @@ Version: 1.0-7
 Architecture: iphoneos-arm64
 Maintainer: White <1410970825@qq.com>
 Installed-Size: 200
-Depends: firmware (>= 13.0), firmware (<= 16.6.1), mobilesubstrate
+Depends: firmware (>= 15.0), firmware (<= 16.6.1), mobilesubstrate
 Filename: ./debs/bilibili_1.0-7_iphoneos-arm64.deb
-Size: 14480
-MD5sum: fcd98088ca1305dd9d16c0a0c62ba61a
-SHA1: cd0c933f786e3d14757355edb31f648cdb3d906d
-SHA256: 83ab5ee7557f6bca9faecad97b4267ac6d8470cd65c95a1dc17f4b1d37cdc3f6
+Size: 14472
+MD5sum: 159a72f7e4aba6c3bf91c49f3dc30eee
+SHA1: 5fb832fd5cdcf962c9bb607d5121897ef25e641c
+SHA256: 6d50271bf41e29a867d12bbe1bd22ea19d7dc67c5b8e7f954ed990af3678650e
 Section: NoAds
 Description: 基于7.65.0制作，其他版本自测
 Author: White <1410970825@qq.com>
@@ -2663,14 +2663,14 @@ Package: com.white.tools
 Version: 2.3.6
 Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
-Installed-Size: 1828
+Installed-Size: 1804
 Depends: ws.hbang.common
 Replaces: com.randy420.encrypt
 Filename: ./debs/420Tools_2.3.6.deb
-Size: 729508
-MD5sum: f91142e4c1f7c1044ac300ec1b9aa7b3
-SHA1: 70b06a247a5d7b52f2fc74e2f23bb60799faf4e6
-SHA256: 4b68882fed4b417dd97462b0ffc822d299b9a895db04e3f65744e24421bd9811
+Size: 723838
+MD5sum: 6134f924535608937aaeedf68548b75a
+SHA1: 96d0c4d88a3caf9f758110f43e33310b889947c2
+SHA256: e57648c8735eb64963db86914b8ae8c15bca2bb7c4b2099a79709cb7fc5dd747
 Section: System
 Homepage: https://theemeraldisle.family
 Description: Theos自动安装工具，在原版基础上精简选项

@@ -69,12 +69,12 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2.3.7",
+                    "text": "2.3.6",
                     "title": "最新版本"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "13.0 - 15.8.2",
+                    "text": "6.1.4 - 15.8.2",
                     "title": "支持系统"
                 },
                 {
@@ -94,7 +94,7 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "2.3.7",
+                    "title": "2.3.6",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
