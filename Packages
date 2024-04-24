@@ -1650,19 +1650,37 @@ Name: Genie AI Chatbot Pro
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1897
 
 Package: com.white.gtgj
-Version: 1.0-1
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 168
+Depends: firmware (>= 15.0), firmware (<= 16.6.1), mobilesubstrate
+Filename: ./debs/gtgj_1.0_iphoneos-arm64.deb
+Size: 4054
+MD5sum: ff20cdc4e69eda020ed55e710ce6e327
+SHA1: 76f603a73e5dbfd80c912b772c08de79a7bf83ad
+SHA256: c1ced833c189f7edbc60bc296e1105c104249320d0ad39e58c40fa1f9cb45b5f
+Section: NoAds
+Description: 基于8.65.0制作，去广告精简我的界面。屏蔽部分越狱检查
+Author: White <1410970825@qq.com>
+Icon: https://baimour.github.io/repo/SileoDepiction/gtgj/icon.png
+Name: 高铁管家屏蔽越狱
+
+Package: com.white.gtgj
+Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
-Installed-Size: 72
-Depends: mobilesubstrate
-Filename: ./debs/gtgj_1.0-1.deb
-Size: 7006
-MD5sum: cf8c6b050a98cdc94c4fadd20fc3e158
-SHA1: 01b57847976ce80d7b4afed5dc276578b544cc1e
-SHA256: 1f22a8441e1884024abbd53bce1647c7e2de8a6539d8b4112e6d4ee065fc3646
+Installed-Size: 136
+Depends: firmware (>= 13.0), firmware (<= 15.8.2), mobilesubstrate
+Filename: ./debs/gtgj_1.0_iphoneos-arm.deb
+Size: 3988
+MD5sum: 4ea6c690562f7f0e47be262a3d555fe4
+SHA1: 499a7b81825251ce2e5c52b2989e6d0433eee9e7
+SHA256: ce8563652681f4f44428f10f0bf92b7d813ae517ade1d133c27960822e8d75d8
 Section: NoAds
-Description: 基于8.65.0制作，去启动广告精简我的界面。屏蔽越狱检查
+Description: 基于8.65.0制作，去广告精简我的界面。屏蔽部分越狱检查
 Author: White <1410970825@qq.com>
+Icon: https://baimour.github.io/repo/SileoDepiction/gtgj/icon.png
 Name: 高铁管家屏蔽越狱
 
 Package: com.white.haptickeys
