@@ -766,18 +766,18 @@ Version: 1.0-6
 Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
 Installed-Size: 88
-Depends: firmware (>= 13.0), firmware (<= 16.6.1), mobilesubstrate
+Depends: firmware (>= 13.0), firmware (<= 15.8.2), mobilesubstrate
 Filename: ./debs/bilibili_1.0-6_iphoneos-arm.deb
 Size: 9524
-MD5sum: 13b42cd6b4fb6d036408b221671c78c6
-SHA1: 27b6102e0e9b42a8d99a104ddf7b50904977a1fd
-SHA256: 2f5d7b021f1ceacee21889c2f1c5e446a69898baab57c6aa086090b01ffc2346
+MD5sum: 42b4524b9e76b7577e982d42d2945dca
+SHA1: 9e84cd0c0b78f9fdc57900898668fa0baaf13362
+SHA256: 99cf184bd4073de8f59ce634c97a4afd69e785dba5f5a33cd3d59b0ab8f26ec7
 Section: NoAds
 Description: 基于7.65.0制作，其他版本自测
 Author: White <1410970825@qq.com>
 Icon: https://gitee.com/baimour/sileo-depiction/raw/master/SileoDepiction/BilibiliUnlock/icon.png
 Name: 哔哩哔哩大会员画质
-Sileodepiction: https://gitee.com/baimour/sileo-depiction/raw/master/SileoDepiction/BilibiliUnlock/js.json
+Sileodepiction: https://gitee.com/baimour/sileo-depiction/raw/master/SileoDepiction/BilibiliUnlock/Depiction
 
 Package: com.white.bilibili
 Version: 1.0-6
@@ -786,16 +786,16 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 104
 Depends: firmware (>= 15.0), firmware (<= 16.6.1), mobilesubstrate
 Filename: ./debs/bilibili_1.0-6_iphoneos-arm64.deb
-Size: 9840
-MD5sum: 1f79749a5414408582d66e2121ac4ae2
-SHA1: 08bf30cd4185d94f424ea62b2fdc9e28b766a8d8
-SHA256: 71d0403fccc4a88a571c58fee84c6d95214b80868cd0b4200a554aac1d060a2b
+Size: 9864
+MD5sum: 90408ca576bfa8366f5772b708fecaab
+SHA1: 49fb96eac060386f71dd97ffab01382d4ccc1c9d
+SHA256: 20239dccab2e99dba400c18d0015e1dd7de237f3b7ce590aeb4c4e0cae7f9c0f
 Section: NoAds
 Description: 基于7.65.0制作，其他版本自测
 Author: White <1410970825@qq.com>
 Icon: https://gitee.com/baimour/sileo-depiction/raw/master/SileoDepiction/BilibiliUnlock/icon.png
 Name: 哔哩哔哩大会员画质
-Sileodepiction: https://gitee.com/baimour/sileo-depiction/raw/master/SileoDepiction/BilibiliUnlock/js.json
+Sileodepiction: https://gitee.com/baimour/sileo-depiction/raw/master/SileoDepiction/BilibiliUnlock/Depiction
 
 Package: com.white.bilibili
 Version: 1.0-7
@@ -820,12 +820,12 @@ Version: 1.0-7
 Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
 Installed-Size: 168
-Depends: firmware (>= 13.0), firmware (<= 16.6.1), mobilesubstrate
+Depends: firmware (>= 13.0), firmware (<= 15.8.2), mobilesubstrate
 Filename: ./debs/bilibili_1.0-7_iphoneos-arm.deb
-Size: 14112
-MD5sum: c9f64af1f024b9d5835dd6c3002b5bea
-SHA1: a3858d5ffcebef2d3d0679db112b5deda05acf36
-SHA256: 2be90c5047112e367fe1f20a6d650997a03578f16b838f25752830af8cd84af8
+Size: 14252
+MD5sum: 305995420fd15b8c472055322e83ed4e
+SHA1: 9f9a76c6b34e7474ec1dd4c6af0e1cb999774642
+SHA256: 7c7cb5cfa1584d23bfce086259152086c321568e7e69ab117fc8bca4daa4639c
 Section: NoAds
 Description: 基于7.65.0制作，其他版本自测
 Author: White <1410970825@qq.com>
