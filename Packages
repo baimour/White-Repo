@@ -1599,23 +1599,21 @@ Package: com.white.ftt
 Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: Randy420 <randy.skinner@hotmail.com>
-Installed-Size: 396
-Depends: mobilesubstrate, com.white.tools (>=2.2)
+Installed-Size: 408
+Depends: mobilesubstrate, com.white.tools (>=2.3.6)
 Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
 Filename: ./debs/ftt_1.1.deb
-Size: 63448
-MD5sum: 78e4871808b5c77d1bef9eb5bfed7dc3
-SHA1: 10d4d46bd439f63a2e957fc89603a49cef1b03ef
-SHA256: 35a14d86f5d5ba1f0d51904cd2babdb87bac71e7fa523ca9c0c23bab9964fbb5
+Size: 63690
+MD5sum: 7f126491994e7c4c14e711299d6c1e11
+SHA1: 037ff58d4339be8ae52c8430c1b5d5c9d0bcd9a4
+SHA256: 11cddd93267810a1819e111d784ae06d5afbfc357007996ae4faabb84dfe8a0c
 Section: System
 Homepage: https://theemeraldisle.family
 Description: 最初由iPadkid358制作，后由randy420更新
-  
- - 使用简单的终端命令将Flex 3补丁转为Theos项目
- - 使用 'ftt -?' 可查看完整的选项列表
 Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/ftt.html
 Name: Flex To Theos
+Sileodepiction: https://baimour.github.io/repo/SileoDepiction/ftt/Depiction
 
 Package: com.white.fuckpay
 Version: 0.0.1
@@ -2460,25 +2458,23 @@ Name: Cydia智能滑动增强
 Sponsor: White <1410970825@qq.com>
 
 Package: com.white.tai
-Version: 5.2.2-8+debug
+Version: 5.2.2
 Architecture: iphoneos-arm
 Maintainer: Randy420 <randy.skinner@hotmail.com>
-Installed-Size: 404
-Depends: com.white.tools (>= 2.2), clang, curl, git, grep, perl, rsync, unzip, make, ldid, com.opa334.ccsupport, xar
+Installed-Size: 296
+Depends: com.white.tools (>= 2.3.6), clang, curl, git, grep, perl, rsync, unzip, make, ldid, com.opa334.ccsupport, xar
 Conflicts: net.howett.theos
-Filename: ./debs/tai_5.2.2-8+debug.deb
-Size: 55562
-MD5sum: 22349836fd74df3f041667f164a07847
-SHA1: 9445e692ad612d1773386ebe378db9e77f4c7535
-SHA256: 812bad8008c7a26b91544999217123f9ac7c6d01ed81ff4cc6a2b855fdf81c96
+Filename: ./debs/tai_5.2.2.deb
+Size: 37180
+MD5sum: 6e70560ecf45d68c04165172b4aa447a
+SHA1: f28faed304e6697daf14a91c2c3d97740b8f276a
+SHA256: b06ce8d27d58ae630df931415d3b81420f7c67eda0aac9e230ac0437ff2d29f9
 Section: System
-Homepage: https://theemeraldisle.family
-Description: 使用简单的命令从终端安装Theos (在设置中配置好并连接到WiFi和VPN)
- - tai 安装Theos丨tai -u 卸载Theos丨tai -r 重装Theos丨tai -v 更新Theos
-Tag: role::hacker
+Description: 使用简单的命令安装Theos
 Author: Randy420 <randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/tai.html
 Name: Theos Auto Installer
+Sileodepiction: https://baimour.github.io/repo/SileoDepiction/tai/Depiction
 
 Package: com.white.taidependscoolstar
 Version: 0.4
@@ -2667,19 +2663,21 @@ Package: com.white.tools
 Version: 2.3.6
 Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
-Installed-Size: 1824
+Installed-Size: 1828
 Depends: ws.hbang.common
 Replaces: com.randy420.encrypt
 Filename: ./debs/420Tools_2.3.6.deb
-Size: 723592
-MD5sum: 65963caa7f3deb449388de1ade34bcb2
-SHA1: da064d42814bde2b68f9195029c1e5426241a2b2
-SHA256: 047ae8f3f315bbc4554276032b62063d4e26a963aff090caef9e75bf407bafa6
+Size: 729508
+MD5sum: f91142e4c1f7c1044ac300ec1b9aa7b3
+SHA1: 70b06a247a5d7b52f2fc74e2f23bb60799faf4e6
+SHA256: 4b68882fed4b417dd97462b0ffc822d299b9a895db04e3f65744e24421bd9811
 Section: System
+Homepage: https://theemeraldisle.family
 Description: Theos自动安装工具，在原版基础上精简选项
 Author: White <1410970825@qq.com>
 Depiction: https://Randy-420.GitHub.io/depic/420Tools.html
 Name: 420 Tools
+Sileodepiction: https://baimour.github.io/repo/SileoDepiction/420Tool/Depiction
 
 Package: com.white.tsssaver
 Version: 2.0.5-1
