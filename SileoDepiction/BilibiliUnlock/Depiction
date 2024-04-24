@@ -11,7 +11,7 @@
                 {
                     "class": "DepictionButtonView",
                     "text": "关注威峰作者",
-                    "action": "https:\/\/www.feng.com\/user\/19341139",
+                    "action": "feng:\/\/feng.com\/user\/19341139",
                     "openExternal": true,
                     "tintColor": "#7289da"
                 },
@@ -102,7 +102,7 @@
                     "class": "DepictionMarkdownView",
                     "markdown": "解锁下载大会员画质(最高4K的视频看人品)",
                     "useRawFormat": true
-                }
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "1.0-6",

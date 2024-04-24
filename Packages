@@ -2667,15 +2667,13 @@ Installed-Size: 1804
 Depends: ws.hbang.common
 Replaces: com.randy420.encrypt
 Filename: ./debs/420Tools_2.3.6.deb
-Size: 723838
-MD5sum: 6134f924535608937aaeedf68548b75a
-SHA1: 96d0c4d88a3caf9f758110f43e33310b889947c2
-SHA256: e57648c8735eb64963db86914b8ae8c15bca2bb7c4b2099a79709cb7fc5dd747
+Size: 723700
+MD5sum: 17ddd329aff1d9c2c1d565480ea931cb
+SHA1: a425386e70c370091c41f07b16bdcd9dca8f203e
+SHA256: 8be122d1608cd69048107ed16d9c79863f029b9ee445a363061ba7935ad06fb2
 Section: System
-Homepage: https://theemeraldisle.family
 Description: Theos自动安装工具，在原版基础上精简选项
 Author: White <1410970825@qq.com>
-Depiction: https://Randy-420.GitHub.io/depic/420Tools.html
 Name: 420 Tools
 Sileodepiction: https://baimour.github.io/repo/SileoDepiction/420Tool/Depiction
 
