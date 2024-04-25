@@ -1222,6 +1222,44 @@ Icon: https://repo.cypwn.xyz/assets/repo/Featured/designer.png
 Name: Designer
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1980
 
+Package: com.white.diary
+Version: 1.2.1
+Architecture: iphoneos-arm
+Maintainer: Litten
+Installed-Size: 5800
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0), com.mrgcgamer.libgcuniversal, com.peterdev.libpddokdo, com.white.libkitten
+Conflicts: hi.my.name.is.ubik.kalm, com.peterdev.grupi, se.nosskirneh.properlockgestures
+Filename: ./debs/Diary_1.2.1.deb
+Size: 2654380
+MD5sum: d24812f90649cd345bf57240a9adba12
+SHA1: 1cdd6e9a9cfac3e72fdb95cbb3e17b1fe8af2046
+SHA256: 7c8637e6ca5597dc52b5bc699c755bc99a1a3f32e708ad8f52d29a9a5b15661f
+Section: Litten-Archive
+Description: Win10锁屏风格美化
+Author: Litten
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Diary/icon.png
+Name: Diary 📖
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Diary/Depiction
+
+Package: com.white.diary
+Version: 1.2.2
+Architecture: iphoneos-arm
+Maintainer: Litten
+Installed-Size: 5800
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0), com.mrgcgamer.libgcuniversal, com.peterdev.libpddokdo, com.white.libkitten
+Conflicts: hi.my.name.is.ubik.kalm, com.peterdev.grupi, se.nosskirneh.properlockgestures
+Filename: ./debs/Diary_1.2.2.deb
+Size: 2654124
+MD5sum: 371609d1a2486985325ab6cfe28c129d
+SHA1: e63d1d7d371cd47ff7ef6153de44bbd0e4ab5450
+SHA256: 42a62f727611dfe080776ab4205f13e549b426b67cafe0bba8778d1d9fea4abe
+Section: Tweaks
+Description: Win10锁屏风格美化
+Author: Litten
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Diary/icon.png
+Name: Diary 📖
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Diary/Depiction
+
 Package: com.white.dleasy
 Version: 2.14.4k
 Architecture: iphoneos-arm
@@ -1976,6 +2014,42 @@ Icon: https://revulate.dev/assets/com.spark.libcrashreport/icon.png
 Moderndepiction: https://revulate.dev/depiction/native/com.spark.libcrashreport.json
 Name: libcrashreport (SparkDev)
 Sileodepiction: https://revulate.dev/depiction/native/com.spark.libcrashreport.json
+
+Package: com.white.libkitten
+Version: 1.3.2
+Architecture: iphoneos-arm
+Maintainer: Litten
+Installed-Size: 172
+Depends: firmware (>= 12.0)
+Filename: ./debs/libkitten_1.3.2.deb
+Size: 9140
+MD5sum: 5bc83d80ac3b0300e2654c6ca6bf3110
+SHA1: 07a2f58cef884130c01dcd9641a2a86396ccb500
+SHA256: be1de4a2dc6ef9ec26f4022589d45cb3d0e43fda5f3936f3a441fa7a17ec12d1
+Section: Litten-Archive
+Description: Diary插件所需依赖，从图像中获取三种不同颜色并检测其中一种是浅色还是深色的依赖库
+Author: Litten
+Depiction: N/A
+Name: libKitten 🐱
+Sileodepiction: N/A
+
+Package: com.white.libkitten
+Version: 1.4.1
+Architecture: iphoneos-arm
+Maintainer: Traurige <hello@traurige.dev>
+Installed-Size: 216
+Depends: firmware (>= 12.0)
+Conflicts: love.litten.libkitten
+Provides: love.litten.libkitten (=1.3.3)
+Filename: ./debs/libkitten_1.4.1.deb
+Size: 9376
+MD5sum: db1837d1328d168a3b25e9713282aae3
+SHA1: 250ea48313710144f70b6d88681a5ee8b9a960fd
+SHA256: e24475e67231f8234003288bbfe0aecff41df9645790c187fcc9e6a8576b69cd
+Section: 依赖
+Description: 图像和色彩计算依赖
+Author: Traurige <hello@traurige.dev>
+Name: libKitten 🐱
 
 Package: com.white.libmryipc
 Version: 2.0.1
