@@ -1281,6 +1281,22 @@ Icon: https://media.havoc.app/62040a16cc1cde4bfe9aba43
 Name: DLEasy
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2054
 
+Package: com.white.downloadbar13
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: shepgoba
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/downloadbar13_1.0.2.deb
+Size: 5940
+MD5sum: afe68bf26508deab7bad0ad198406a1a
+SHA1: 3c9c5ed66fcce0ce3faf867d8e627ee57b2d27fd
+SHA256: b31094eff474e7814667a308c99ff1776284da7f6c466154415fe39ad5b29c28
+Section: Tweaks
+Description: 下载应用程序时显示进度条
+Author: shepgoba
+Name: DownloadBar13
+
 Package: com.white.dropbear
 Version: 1.0.1
 Architecture: iphoneos-arm
@@ -2323,6 +2339,22 @@ Icon: https://img.chariz.cloud/icon/onesettings/icon@3x.png
 Name: OneSettings
 Sileodepiction: https://mrepo.org/sileo/5576
 
+Package: com.white.photoinfo
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: shepgoba
+Installed-Size: 104
+Depends: mobilesubstrate
+Filename: ./debs/photoinfo_1.0.deb
+Size: 3960
+MD5sum: 0467e8657a5fb89a9a922468be5da22e
+SHA1: 52ccb4eea93d6d43c33cc54d3d17418a95c339d3
+SHA256: bfa532ec93b0a5683ed935ab992c789f0f55a721156938dec5d4385d13390ecb
+Section: Tweaks
+Description: 在相册照片顶部显示当前照片的分辨率和大小
+Author: shepgoba
+Name: PhotoInfo
+
 Package: com.white.pppoe
 Version: 1.5.4
 Architecture: iphoneos-arm
@@ -2537,6 +2569,22 @@ Tag: purpose::uikit
 Author: Linus Yang <laokongzi@gmail.com>
 Icon: file:///Applications/MobileShadowSocks.app/Icon.png
 Name: ShadowSocks 影梭
+
+Package: com.white.storeswitcher2
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: subdiox
+Installed-Size: 276
+Depends: firmware (>= 11), mobilesubstrate
+Filename: ./debs/storeswitcher2_1.0.3.deb
+Size: 21116
+MD5sum: a044f2f6c61f9a1301464b4f835a8723
+SHA1: c7c11f32792b42f04fefba978d0cd589b21fea93
+SHA256: 092fe9ec4561acad333738c3f30be2c296cab1f479fbba5f98867c93529a49c0
+Section: Tweaks
+Description: 在App Store帐户页面添加切换帐户按钮
+Author: subdiox
+Name: StoreSwitcher 2
 
 Package: com.white.successionrestore
 Version: 1.4.16~b4
