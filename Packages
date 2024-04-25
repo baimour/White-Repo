@@ -3451,6 +3451,42 @@ Description: AppStore++简体中文汉化，修改版本ID降级查询页面为�
 Author: Netskao
 Name: AppStore++ zh_CN
 
+Package: netskao.awemepurification
+Version: 2.9-6
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 2432
+Depends: mobilesubstrate, firmware (>= 11.0)
+Filename: ./debs/netskao.awemepurification_2.9-6_iphoneos-arm.deb
+Size: 1175396
+MD5sum: db2ae9954215e2957b42881d4d066844
+SHA1: d35471ee6d2cbaf4d89d3dfdc870166ac994809f
+SHA256: 75b059de8c33507c3115fee88b368a39beabb2ade554724744d8ada30b0db840
+Section: Netskao-NoAds
+Description: 抖音净化！设置位于抖音-设置，仅支持25.8.0及以上版本
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Aweme/icon.png
+Name: 抖音净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Aweme/Depiction
+
+Package: netskao.awemepurification
+Version: 2.9-6-1
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 2432
+Depends: mobilesubstrate, firmware (>= 11.0)
+Filename: ./debs/netskao.awemepurification_2.9-6-1_iphoneos-arm.deb
+Size: 1175652
+MD5sum: 5456cb25eda27cc5d13a6950d59381f8
+SHA1: 1be2e5f95a1975a130e5b0f54120c85a1aab6953
+SHA256: 3f3d5a3e34729ba49c35a185d62e24291d25b16d437b57130c321e58198e31ec
+Section: Netskao-NoAds
+Description: 抖音净化！设置位于抖音-设置，仅支持22.5.0及以上版本
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Aweme/icon.png
+Name: 抖音净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Aweme/Depiction
+
 Package: netskao.barbatteryinfo
 Version: 1.2-3
 Architecture: iphoneos-arm
@@ -4423,6 +4459,47 @@ Section: Tweaks
 Description: 长按桌面AppStore图标快捷切换登录账户
 Author: Netskao
 Name: StoreSwitchAccounts-Rootless
+
+Package: netskao.wcpureextension
+Version: 2.2-3
+Architecture: iphoneos-arm
+Maintainer: Nets
+Depends: mobilesubstrate, firmware (>= 12.0)
+Conflicts: netskao.wechatpurification
+Replaces: netskao.wechatpurification
+Provides: netskao.wechatpurification
+Filename: ./debs/netskao.wcpureextension_2.2-3_iphoneos-arm.deb
+Size: 559864
+MD5sum: 1ba1a969c96d05edff0ea848b5064a1d
+SHA1: 57e9367bd1ace62ae6bbd2e71b702a253d806ef7
+SHA256: f3742c47a38675d8abb6c73b99f2131ea8aae2cafd5c8c28a1dd52235ce2e561
+Section: Netskao-NoAds
+Description: 微信净化，还原聊天本质，干净的微信给你，仅支持8.0.18及以上版本，插件设置位于微信-设置。若不能关注防丢公众号导致无法使用，请安装"Misaka、PKC"插件或者其它强制关注公众号插件
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/icon.png
+Name: 微信净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/Depiction
+
+Package: netskao.wcpureextension
+Version: 4.2-6-1
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 19660
+Depends: mobilesubstrate, firmware (>= 12.0)
+Conflicts: netskao.wechatpurification
+Replaces: netskao.wechatpurification
+Provides: netskao.wechatpurification
+Filename: ./debs/netskao.wcpureextension_4.2-6-1_iphoneos-arm.deb
+Size: 7085096
+MD5sum: 4493cefff2e2383a6e5e42451ca05222
+SHA1: 6347b6c196e53257fe5095024f2be6c68ec7e806
+SHA256: 6f98f9b2b9d1fd9a56ef1e7530acb772af4e7e734e653d16f23da9c63ec9a77f
+Section: Netskao-NoAds
+Description: 微信净化，还原聊天本质，干净的微信给你，仅支持8.0.29及以上版本，设置位于微信-设置。完美支持8.0.29以上8.0.46以下
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/icon.png
+Name: 微信净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/Depiction
 
 Package: netskao.wyyyynoads
 Version: 1.2-5
