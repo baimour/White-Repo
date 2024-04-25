@@ -3426,15 +3426,16 @@ Maintainer: Nets
 Installed-Size: 328
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: ./debs/blblnoads_1.1-2.deb
-Size: 83794
-MD5sum: 097475a0f93b278dae939a650994d0de
-SHA1: 2c7679db09649a7c4807f2c499bc3cb22834ebbc
-SHA256: 1ab6f1677d6829591802be39705fd963bdd391864333d95670b9572c44f42e48
+Size: 73268
+MD5sum: 0aa63c63b981ed1d0a341193d6100bef
+SHA1: 9b786006943f2827275eda2ac3ff68b3ebe596af
+SHA256: e7dfa36c1d2ba9572d13756e31f0403af2bb28dc2cb91fed61500c968bb18903
 Section: NoAds
 Description: 哔哩哔哩去除启动广告, 去除青少年提示, 去除AppStore评分提示, 去除底部动态\发布\会员购按钮, 去除瀑布流中插入广告, 去除视频详情页面推荐视频中的创作推广, 去除评论区顶部会员推广, 我的页面推广等, 仅支持7.48.0及以上版本
 Author: Netskao
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/icon.png
 Name: 哔哩哔哩 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/nDepiction
 
 Package: netskao.ccpower
 Version: 1.9-3
