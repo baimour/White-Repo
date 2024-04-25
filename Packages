@@ -694,15 +694,15 @@ Installed-Size: 200
 Depends: mobilesubstrate, com.white.tools (>=2.3.6)
 Replaces: com.randy420.fixcydia
 Filename: ./debs/aptfix_0.0.6.deb
-Size: 9928
-MD5sum: 382c17bef4a88ee34ef59f41b5e6abae
-SHA1: a2444397cd706d91a758c1b8b928debf5871cac1
-SHA256: 407b1dfff67859841c88a61f845b7f923f36fa9ce155332ac77c31c918f09cfa
+Size: 9956
+MD5sum: 717f1154e1a15ff331fcd7e5e05849f3
+SHA1: 447c050900be165b6c8a7d4117a6a2059efc955b
+SHA256: 0abe067dd890fb7cacd1dd2e218e6806e55a8612c249c9613fdac6866e7aaa58
 Section: System
 Description: 有时，你的越狱商店会弹出类似 "DPKG Locked"或 "apt locked"的错误，这些错误实际上不是由Cydia或其他越狱商店引起的，而是由这些子进程 (apt、dpkg、cydo等) 引起的
   
- 只需一个简单的终端命令就能清除这些错误
- 在终端中运行'aptFix'或者在系统设置里的工具包设置里的按钮！
+ 。只需一个简单的终端命令就能清除这些错误
+ ，在终端中运行'aptFix'或者在系统设置的Theos Installer设置里点击按钮！
 Author: Randy420
 Depiction: https://Randy-420.GitHub.io/depic/aptFix.html
 Name: aptFix
