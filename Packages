@@ -407,13 +407,14 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 72
 Depends: mobilesubstrate
 Filename: ./debs/12306_1.0-2.deb
-Size: 3300
-MD5sum: 7ae59a223aa2ca81f3821e91bde73ed6
-SHA1: cb6e38d05aeec202f0f60aa7dff381936c631b9c
-SHA256: 1149349462018a915fe85366544c612ea7f9e6f41c96f58347314a635395b31d
+Size: 3318
+MD5sum: dc5c554b33911b6252d751cfe9bc2ad3
+SHA1: 35bd339ff63741e809816d43d62154fb35a4dad2
+SHA256: a5bfb4e46ad871ec687fa3e0dd9e3e4ea134199edba26931789720b0203bc251
 Section: NoAds
 Description: 基于5.8.0制作，去除启动广告及首页顶部横幅，屏蔽部分越狱
 Author: White <1410970825@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/12306/icon.png
 Name: 铁路12306屏蔽越狱
 
 Package: com.white.14294gios9
@@ -733,13 +734,14 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 165
 Depends: mobilesubstrate
 Filename: ./debs/bankabc_1.0.deb
-Size: 7546
-MD5sum: 776c80df96b0d855d6de680821f843fa
-SHA1: 51f07acfcfe433518695a36ae32688f3bc4160f3
-SHA256: 0c9fd3bdada3afed78e5e2760f99324ee39d377ba046fde305bb706c526e89ed
+Size: 7610
+MD5sum: da567a8b980271c2301b7c40503ef2cd
+SHA1: f99c54196701fd2e95a0e42ae93137c75eec05b7
+SHA256: 298c4c19862971b21131daaa5f77202686823a670e768986d157d97d6568f799
 Section: NoAds
 Description: 支持7.3.0-8.1.0去启动/首页广告及更新弹窗
 Author: White <1410970825@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/bankabc/icon.png
 Name: 中国农业银行屏蔽越狱
 
 Package: com.white.bigsurcenter
@@ -2620,13 +2622,14 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 72
 Depends: mobilesubstrate
 Filename: ./debs/taobao_1.0-1.deb
-Size: 6074
-MD5sum: 3d509d4638c77a88fec34e5d36dfb770
-SHA1: 4bced8d90ded021959a8ffbfcebf19d8c6b83566
-SHA256: e15caf6f0f2cdae58b51d41d41cd94e145cd5e813484d917528f0444bf9ca156
+Size: 6170
+MD5sum: 3c5f78bdf78bb824de00aad5dc4aa786
+SHA1: 5f6fa6c9a4b418922e8e816d53f5b385122675ef
+SHA256: 28a9c1cb7313bb5c3805798784e731a0a8d6643ff88031bfed4a13c544754764
 Section: NoAds
 Description: 基于10.32.20制作，屏蔽部分越狱
 Author: White <1410970825@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/taobao/icon.png
 Name: 淘宝屏蔽越狱
 
 Package: com.white.techsupport
@@ -2745,13 +2748,14 @@ Architecture: iphoneos-arm
 Maintainer: iBreak <ibreak2019@qq.com>
 Depends: mobilesubstrate
 Filename: ./debs/thunderhelper_1.5.1.deb
-Size: 165114
-MD5sum: 035fb751b722d43f1275a4ee7643e827
-SHA1: cea2080807ae533e051e5cf976fcf3cd3eeba373
-SHA256: 092ab576de33e21f1eb7dde73c27496547b64cf3bd7f661ec3904bc09de94f6c
+Size: 165262
+MD5sum: c7dbee6d420458ca29271348b95356b1
+SHA1: e65060effb337d8a4e54c68e8bb0dfa44344010e
+SHA256: c52edb025551521cd23d4a4318ba9a5bf6b8bd7dad587b53f804c187a6e90ebd
 Section: NoAds
 Description: 迅雷助手 - 完美支持5.20 ~ 5.32
 Author: iBreak <ibreak2019@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ertbbfghfgh/icon.png
 Name: Thunder Helper
 
 Package: com.white.tools
@@ -2974,13 +2978,14 @@ Architecture: iphoneos-arm
 Maintainer: iBreak <ibreak2019@qq.com>
 Depends: mobilesubstrate,preferenceloader
 Filename: ./debs/wechathelper_3.1.2.deb
-Size: 196272
-MD5sum: 05b57d1ae8d3ceb40f244eef4d7871cd
-SHA1: fb401a5fc161bfa7e1621a4ce1de7ac75ebd1691
-SHA256: f0dd8a839c0754f28432ed7efa855fc5beddc131ba4943acc2879449cda86962
+Size: 196408
+MD5sum: 76d78d30e62375b891212b957ebb7c14
+SHA1: a08e65f7b01eb82c24a93dd2466f83f86d53f775
+SHA256: 0465405ab7b771fda0af7540f79d40f2bdef67df9577bece6c8a25c921965b39
 Section: NoAds
 Description: 微信多功能定义助手
 Author: iBreak <ibreak2019@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/icon.png
 Name: WeChat Helper
 
 Package: com.white.wyyllnoads
@@ -2990,13 +2995,14 @@ Maintainer: Huayuarc
 Installed-Size: 152
 Depends: mobilesubstrate
 Filename: ./debs/wyyllnoads_0.0.1.deb
-Size: 5330
-MD5sum: effa2b79790a42394cb53bbc48434059
-SHA1: fc410ef164a014087599f7b895dc737cc81b3b80
-SHA256: 73fa2aaa17a73cded23a4c7e71e55bb0f5be2a05377efac1e4b42e289f5ee7a1
+Size: 5408
+MD5sum: 38b281a4d97f8f8da16c98d9a1df040f
+SHA1: a17c291867f78caf9e6ab42895cc73fb88a14492
+SHA256: 829dd566c05709b875764dddb4066dbe37f407cf54e46ca183d606383205346d
 Section: NoAds
 Description: 去除启动广告｜屏蔽越狱检测｜免会员使用部分会员功能｜开启空间音频
 Author: Huayuarc
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cloudmusic/icon.png
 Name: 网易云音乐 NoAds
 Sponsor: Huayuarc
 
@@ -3385,13 +3391,14 @@ Maintainer: Nets
 Installed-Size: 328
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: ./debs/blblnoads_1.1-2.deb
-Size: 73208
-MD5sum: ab914f056400ae65df5248ab0ed3fe1c
-SHA1: 57ffb155c4b414ed5295eaf240b5a58c3a27729f
-SHA256: fd478f2d3eebcdc7c1881ea69671140b838cb6191c090d7439e9b20fb835b638
+Size: 83794
+MD5sum: 097475a0f93b278dae939a650994d0de
+SHA1: 2c7679db09649a7c4807f2c499bc3cb22834ebbc
+SHA256: 1ab6f1677d6829591802be39705fd963bdd391864333d95670b9572c44f42e48
 Section: NoAds
 Description: 哔哩哔哩去除启动广告, 去除青少年提示, 去除AppStore评分提示, 去除底部动态\发布\会员购按钮, 去除瀑布流中插入广告, 去除视频详情页面推荐视频中的创作推广, 去除评论区顶部会员推广, 我的页面推广等, 仅支持7.48.0及以上版本
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/icon.png
 Name: 哔哩哔哩 NoAds
 
 Package: netskao.ccpower
@@ -4208,13 +4215,14 @@ Maintainer: Nets
 Installed-Size: 1900
 Depends: mobilesubstrate, firmware (>= 12.2)
 Filename: ./debs/qqpurification_2.3-3.deb
-Size: 1007048
-MD5sum: 7111cfd73ed7946cfbce8468c27deb22
-SHA1: db16c299bc524ce5b65f08746cf217aac3e4aef4
-SHA256: b7c2c757a881b33eb2262a832f30a462753316ba32e6954b554c4a0aa9c4a404
+Size: 1051570
+MD5sum: 12289deae15d72f12680452547be963b
+SHA1: 9ef398c0b362b9878e7f08114ac71deccb02ca18
+SHA256: 7804bcfca8effa060a9d48cb985c37ee95909968651c62fd266fd8b274f4dae2
 Section: NoAds
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.9.0及以上版本
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ净化
 
 Package: netskao.showtouch
@@ -4372,14 +4380,15 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 356
 Depends: firmware (>= 9.0), mobilesubstrate
-Filename: ./debs/ysfnoads_1.1.2.deb
-Size: 83696
-MD5sum: 1c9b3300e0cbc1d78075f31b3b3a8dfa
-SHA1: 636a0306657b4c07bbc5d537386a8cb26cbe65a0
-SHA256: b10d45614ac0df5d3bbc75725e881f06bda5e28386a598e8fa5005b6d6602f39
+Filename: ./debs/ysfnoads_1.1-2.deb
+Size: 96090
+MD5sum: 591fb7c7d54cc15058b7a76431080ccb
+SHA1: 0d23ddf00a87b37db031ce5d74d9da23f371b1fa
+SHA256: f503846220bd6d88d4f44c8ee2385fa7998b9bb20f3a42452ffc4a331faf6080
 Section: NoAds
 Description: 云闪付去除启动广告，去除首页信息流杂七杂八的版块，去除生活页爆品抢购，去除消息页优惠资讯，去除金融页面杂七杂八版块，去除我的页面合作共赢和精选服务和借款选项等
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/unionpay/icon.png
 Name: 云闪付去广告
 
 Package: org.coolstar.libhooker
