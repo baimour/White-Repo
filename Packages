@@ -768,16 +768,16 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 88
 Depends: firmware (>= 13.0), firmware (<= 15.8.2), mobilesubstrate
 Filename: ./debs/bilibili_1.0-6_iphoneos-arm.deb
-Size: 9524
-MD5sum: 42b4524b9e76b7577e982d42d2945dca
-SHA1: 9e84cd0c0b78f9fdc57900898668fa0baaf13362
-SHA256: 99cf184bd4073de8f59ce634c97a4afd69e785dba5f5a33cd3d59b0ab8f26ec7
+Size: 9528
+MD5sum: d17322d3a6be0ada5f17043ad259ef62
+SHA1: f0f2bdc653c2b3921f630972d5500e3341fe55a0
+SHA256: cc42551135e2d81a488a986b8701f06d1ad81ddeff9f2951a426b179c928a022
 Section: NoAds
 Description: 基于7.65.0制作，其他版本自测
 Author: White <1410970825@qq.com>
-Icon: https://gitee.com/baimour/sileo-depiction/raw/master/SileoDepiction/BilibiliUnlock/icon.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/icon.png
 Name: 哔哩哔哩大会员画质
-Sileodepiction: https://gitee.com/baimour/sileo-depiction/raw/master/SileoDepiction/BilibiliUnlock/Depiction
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/Depiction
 
 Package: com.white.bilibili
 Version: 1.0-6
@@ -786,16 +786,16 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 104
 Depends: firmware (>= 15.0), firmware (<= 16.6.1), mobilesubstrate
 Filename: ./debs/bilibili_1.0-6_iphoneos-arm64.deb
-Size: 9864
-MD5sum: 90408ca576bfa8366f5772b708fecaab
-SHA1: 49fb96eac060386f71dd97ffab01382d4ccc1c9d
-SHA256: 20239dccab2e99dba400c18d0015e1dd7de237f3b7ce590aeb4c4e0cae7f9c0f
+Size: 9852
+MD5sum: b834ffbf070316c93249d1d3590efcb7
+SHA1: ef47fb4ebb42e4bc96b1d900d6bdfcc62c6225a5
+SHA256: 490ddf972748f2293bbbf740debaf768d24fdeab5443f41995cf0dc10bbbfab9
 Section: NoAds
 Description: 基于7.65.0制作，其他版本自测
 Author: White <1410970825@qq.com>
-Icon: https://gitee.com/baimour/sileo-depiction/raw/master/SileoDepiction/BilibiliUnlock/icon.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/icon.png
 Name: 哔哩哔哩大会员画质
-Sileodepiction: https://gitee.com/baimour/sileo-depiction/raw/master/SileoDepiction/BilibiliUnlock/Depiction
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/Depiction
 
 Package: com.white.bilibili
 Version: 1.0-7
@@ -804,16 +804,16 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 200
 Depends: firmware (>= 15.0), firmware (<= 16.6.1), mobilesubstrate
 Filename: ./debs/bilibili_1.0-7_iphoneos-arm64.deb
-Size: 14472
-MD5sum: 159a72f7e4aba6c3bf91c49f3dc30eee
-SHA1: 5fb832fd5cdcf962c9bb607d5121897ef25e641c
-SHA256: 6d50271bf41e29a867d12bbe1bd22ea19d7dc67c5b8e7f954ed990af3678650e
+Size: 14568
+MD5sum: 08bdb1adc67dc2bdaaf4f0ab07eaa245
+SHA1: 5d4e64ed6128705bafb31acaf9118d7ccf4ff926
+SHA256: aa517f9acdedf9fa5fe2bab39dc24d1f6febab86515fdadc1f7b96664fba94f1
 Section: NoAds
 Description: 基于7.65.0制作，其他版本自测
 Author: White <1410970825@qq.com>
-Icon: https://baimour.github.io/repo/SileoDepiction/BilibiliUnlock/icon.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/icon.png
 Name: 哔哩哔哩大会员画质
-Sileodepiction: https://baimour.github.io/repo/SileoDepiction/BilibiliUnlock/Depiction
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/Depiction
 
 Package: com.white.bilibili
 Version: 1.0-7
@@ -822,16 +822,16 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 168
 Depends: firmware (>= 13.0), firmware (<= 15.8.2), mobilesubstrate
 Filename: ./debs/bilibili_1.0-7_iphoneos-arm.deb
-Size: 14252
-MD5sum: 305995420fd15b8c472055322e83ed4e
-SHA1: 9f9a76c6b34e7474ec1dd4c6af0e1cb999774642
-SHA256: 7c7cb5cfa1584d23bfce086259152086c321568e7e69ab117fc8bca4daa4639c
+Size: 14180
+MD5sum: 3bdd3308a9a59f56894f92066ce96dae
+SHA1: f9fadc6b0c28f1134595d9d9ac225c21c25c5a46
+SHA256: aa5c416022526bfae9e15600194ec176e300eacecb3c309543ab8e28e9ee9381
 Section: NoAds
 Description: 基于7.65.0制作，其他版本自测
 Author: White <1410970825@qq.com>
-Icon: https://baimour.github.io/repo/SileoDepiction/BilibiliUnlock/icon.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/icon.png
 Name: 哔哩哔哩大会员画质
-Sileodepiction: https://baimour.github.io/repo/SileoDepiction/BilibiliUnlock/Depiction
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/Depiction
 
 Package: com.white.ccpatch
 Version: 1.2
@@ -890,13 +890,14 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 165
 Depends: mobilesubstrate
 Filename: ./debs/cloudmusic_1.0.deb
-Size: 5510
-MD5sum: 280d37df0491d22afcf088a31e636db0
-SHA1: e19fba9eeb0c3a1086f35ed1945cd47db46f24f8
-SHA256: 1f71e569e2a83d0f36eca2e2b48802788456ed85d9a0e560a67e8f61c3dc2b79
+Size: 5464
+MD5sum: 8f5036a3bbf338c51f4b7295aa20702e
+SHA1: c2016d30cd0bc15531e4510b6f8375399a52728c
+SHA256: ec219e21a62834e32822a8167dd95bf067448dfcf28dd85240a44d6818fd1da4
 Section: NoAds
 Description: 基于9.0.25制作，去启动/首页广告+屏蔽越狱
 Author: White <1410970825@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cloudmusic/icon.png
 Name: 网易云音乐屏蔽越狱
 
 Package: com.white.cmcc234g
@@ -1603,17 +1604,17 @@ Installed-Size: 408
 Depends: mobilesubstrate, com.white.tools (>=2.3.6)
 Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
 Filename: ./debs/ftt_1.1.deb
-Size: 63690
-MD5sum: 7f126491994e7c4c14e711299d6c1e11
-SHA1: 037ff58d4339be8ae52c8430c1b5d5c9d0bcd9a4
-SHA256: 11cddd93267810a1819e111d784ae06d5afbfc357007996ae4faabb84dfe8a0c
+Size: 63688
+MD5sum: 69f083a3a385b10e60206d48c032a2e0
+SHA1: 87e40536365bb66224a89cf40e0ae0784077e9e4
+SHA256: d6e058aa4c527a65a7111424b638a83f409624195409c4d06371698eacf72a6c
 Section: System
 Homepage: https://theemeraldisle.family
 Description: 最初由iPadkid358制作，后由randy420更新
 Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/ftt.html
 Name: Flex To Theos
-Sileodepiction: https://baimour.github.io/repo/SileoDepiction/ftt/Depiction
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ftt/Depiction
 
 Package: com.white.fuckpay
 Version: 0.0.1
@@ -1656,15 +1657,16 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 168
 Depends: firmware (>= 15.0), firmware (<= 16.6.1), mobilesubstrate
 Filename: ./debs/gtgj_1.0_iphoneos-arm64.deb
-Size: 4054
-MD5sum: ff20cdc4e69eda020ed55e710ce6e327
-SHA1: 76f603a73e5dbfd80c912b772c08de79a7bf83ad
-SHA256: c1ced833c189f7edbc60bc296e1105c104249320d0ad39e58c40fa1f9cb45b5f
+Size: 4132
+MD5sum: 3478534f84800dba57fc682e97fd8f56
+SHA1: 1e83c04ab80f95459657224df7b974c80cbb2c98
+SHA256: 7132c356538afff89e22bd7750e54173b9632c6abf6c1b0ccd723dd9fb82153a
 Section: NoAds
 Description: 基于8.65.0制作，去广告精简我的界面。屏蔽部分越狱检查
 Author: White <1410970825@qq.com>
-Icon: https://baimour.github.io/repo/SileoDepiction/gtgj/icon.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/gtgj/icon.png
 Name: 高铁管家屏蔽越狱
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/gtgj/Depiction
 
 Package: com.white.gtgj
 Version: 1.0
@@ -1673,15 +1675,16 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 136
 Depends: firmware (>= 13.0), firmware (<= 15.8.2), mobilesubstrate
 Filename: ./debs/gtgj_1.0_iphoneos-arm.deb
-Size: 3988
-MD5sum: 4ea6c690562f7f0e47be262a3d555fe4
-SHA1: 499a7b81825251ce2e5c52b2989e6d0433eee9e7
-SHA256: ce8563652681f4f44428f10f0bf92b7d813ae517ade1d133c27960822e8d75d8
+Size: 4076
+MD5sum: d54b849a7473f2962254f5d975a44e5b
+SHA1: 072e53f8f9e5c9ae3fe95dd4aa804187e2436d9c
+SHA256: 5d4effb03345775a098c7e779edb00a124d110b650e4f82c783852f861ff913f
 Section: NoAds
 Description: 基于8.65.0制作，去广告精简我的界面。屏蔽部分越狱检查
 Author: White <1410970825@qq.com>
-Icon: https://baimour.github.io/repo/SileoDepiction/gtgj/icon.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/gtgj/icon.png
 Name: 高铁管家屏蔽越狱
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/gtgj/Depiction
 
 Package: com.white.haptickeys
 Version: 4.4
@@ -2483,16 +2486,16 @@ Installed-Size: 296
 Depends: com.white.tools (>= 2.3.6), clang, curl, git, grep, perl, rsync, unzip, make, ldid, com.opa334.ccsupport, xar
 Conflicts: net.howett.theos
 Filename: ./debs/tai_5.2.2.deb
-Size: 37180
-MD5sum: 6e70560ecf45d68c04165172b4aa447a
-SHA1: f28faed304e6697daf14a91c2c3d97740b8f276a
-SHA256: b06ce8d27d58ae630df931415d3b81420f7c67eda0aac9e230ac0437ff2d29f9
+Size: 37316
+MD5sum: 1dacf850ce1b4d2c5a2be6e7c5dbdc2e
+SHA1: e330a45fe70a0c09a34ff6290453c9e16d52f0a1
+SHA256: c916ea5993eb72d13121ec7b3d375ba0fe6f49c35978fc689b3007fd2bc54a05
 Section: System
 Description: 使用简单的命令安装Theos
 Author: Randy420 <randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/tai.html
 Name: Theos Auto Installer
-Sileodepiction: https://baimour.github.io/repo/SileoDepiction/tai/Depiction
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/tai/Depiction
 
 Package: com.white.taidependscoolstar
 Version: 0.4
@@ -2684,16 +2687,16 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 1804
 Depends: ws.hbang.common
 Replaces: com.randy420.encrypt
-Filename: ./debs/420Tools_2.3.6.deb
-Size: 723700
-MD5sum: 17ddd329aff1d9c2c1d565480ea931cb
-SHA1: a425386e70c370091c41f07b16bdcd9dca8f203e
-SHA256: 8be122d1608cd69048107ed16d9c79863f029b9ee445a363061ba7935ad06fb2
+Filename: ./debs/RandyTools_2.3.6.deb
+Size: 723744
+MD5sum: df8ce6d5752341fe5ee9457e16bed006
+SHA1: c4f0a44ff42960069c64d07ea0db0c0bd6275c04
+SHA256: 79a408be456864e2e60530e420074db57c6003983f6198e4ef8b11b5d0a3e470
 Section: System
 Description: Theos自动安装工具，在原版基础上精简选项
 Author: White <1410970825@qq.com>
 Name: 420 Tools
-Sileodepiction: https://baimour.github.io/repo/SileoDepiction/420Tool/Depiction
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/RandyTool/Depiction
 
 Package: com.white.tsssaver
 Version: 2.0.5-1
@@ -2767,13 +2770,14 @@ Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
 Depends: mobilesubstrate
 Filename: ./debs/unidream_1.0.deb
-Size: 5608
-MD5sum: dcdd441bf25755c87869a271bf4dd813
-SHA1: 26a981a4981bf54ea282ed91117af1180f0d22c4
-SHA256: d72ea5513594e39dfc0659053a149c36c2b391f248f19f6bd78959a498ac41a5
+Size: 5684
+MD5sum: 835ef2678f33a19208fb73e517b7b004
+SHA1: 437933c4b5653e03863e815f89fb3c4af3e0c58e
+SHA256: d48814c672b7800c4408068ea776ad004bdd8ac4785066beb897d9606ee1e4cb
 Section: NoAds
 Description: 屏蔽最新版越狱和关键词检查
 Author: White <1410970825@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/UniDream/icon.png
 Name: Uni Dream屏蔽关键词检查
 
 Package: com.white.unthredeh4il
