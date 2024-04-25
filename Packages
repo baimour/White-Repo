@@ -876,13 +876,14 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 72
 Depends: mobilesubstrate
 Filename: ./debs/cloud189_1.0.deb
-Size: 3716
-MD5sum: 5ec21a02b94e858648a1c2ee15e8d040
-SHA1: cb7979ba243000bddec12d245abb4fba9260ba6b
-SHA256: 6761503477e5ca0d40563ec72372611a8dc57340910ddf17f578b745fb7cddcf
+Size: 3864
+MD5sum: efd57b572aa7910bbe8434f29e25f0d1
+SHA1: fc5b73ab35d2fc2392e01fbbcd388deb4a7f65a6
+SHA256: 9dc1bf40f28faa22a45991a32111e44df6270e86e3b683c9df35168bbca76b1f
 Section: NoAds
 Description: 基于9.1.1制作，去除启动更新弹窗，屏蔽越狱检查
 Author: White <1410970825@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/189cloud/icon.png
 Name: 天翼云盘去启动广告
 
 Package: com.white.cloudmusic
@@ -4347,15 +4348,16 @@ Maintainer: Nets
 Installed-Size: 2116
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: ./debs/netskao.wyyyynoads_1.2-5_iphoneos-arm.deb
-Size: 408228
-MD5sum: f74a3dc143d3b36742aaecc11d451663
-SHA1: b34c133e5e1922f547386890f76671f3348f943b
-SHA256: 196b2d25ca320a6fdba2c8c39fef562237bb023a061f7a0cc30321c12814dac0
+Size: 408300
+MD5sum: 0652dd0b49292abdf328fab4aa06150c
+SHA1: 6f3d20bb00b4baa676ee9b0291608975bf39de98
+SHA256: c3702e1a5024cbf83b44680f879e9d34241939207d479c96ce28869bf40ee3f3
 Section: NoAds
 Description: 网易云音乐去除启动广告，去除评论区相关信息和广告，去除首页顶部横幅中插入的广告，去除搜索页面顶部广告，去除播放页面顶部右上角在唱，去除左侧设置无关紧要选项，绕过越狱检测可收藏可评论，解除非中国地区播放限制，增加使用原始分享按钮保存任意视频到相册，增加缓存歌曲导出，下载或本地页面，歌曲操作面板导出，支持自动解密ncm格式
 Author: Netskao
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cloudmusic/icon.png
 Name: 网易云音乐 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cloudmusic/Depiction
 Sponsor: Nets
 
 Package: netskao.wyyyynoads
@@ -4365,15 +4367,16 @@ Maintainer: Nets
 Installed-Size: 2116
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: ./debs/netskao.wyyyynoads_1.2-6_iphoneos-arm.deb
-Size: 417416
-MD5sum: b5f16223fca3868191977d12840df4f1
-SHA1: b09faed6a966701454b62b568bd6659ec0512fd3
-SHA256: 77ae69638e77383ff0d4f4618ba52d40d4e785042821eb43020387c51b23fe23
+Size: 417172
+MD5sum: e6abe2447419dd876c50e3aef0f8f321
+SHA1: 7ece9847a1113c2458aae3b87f217f757c6116d3
+SHA256: e5784d9e79c7e2b25850580d336ec7b6fa3b109e51e368ec9204f979896d511c
 Section: NoAds
 Description: 网易云音乐去除启动广告，去除评论区相关信息和广告，去除首页顶部横幅中插入的广告，去除搜索页面顶部广告，去除播放页面顶部右上角在唱，去除左侧设置无关紧要选项，绕过越狱检测可收藏可评论，解除非中国地区播放限制，增加使用原始分享按钮保存任意视频到相册，增加缓存歌曲导出，下载或本地页面，歌曲操作面板导出，支持自动解密ncm格式
 Author: Netskao
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cloudmusic/icon.png
 Name: 网易云音乐 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cloudmusic/Depiction
 Sponsor: Nets
 
 Package: netskao.ysfnoads
