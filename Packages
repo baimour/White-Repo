@@ -4347,13 +4347,14 @@ Maintainer: Nets
 Installed-Size: 2116
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: ./debs/netskao.wyyyynoads_1.2-5_iphoneos-arm.deb
-Size: 467930
-MD5sum: ecf33bd1ff59738d24703b9955363709
-SHA1: 7f444741a4b076f99608451083757a5724f988f1
-SHA256: 520b42030068ec4eecd6e42ed3811211a739672157abef9b3b0b10157383d451
-Section: Tweaks
+Size: 408228
+MD5sum: f74a3dc143d3b36742aaecc11d451663
+SHA1: b34c133e5e1922f547386890f76671f3348f943b
+SHA256: 196b2d25ca320a6fdba2c8c39fef562237bb023a061f7a0cc30321c12814dac0
+Section: NoAds
 Description: 网易云音乐去除启动广告，去除评论区相关信息和广告，去除首页顶部横幅中插入的广告，去除搜索页面顶部广告，去除播放页面顶部右上角在唱，去除左侧设置无关紧要选项，绕过越狱检测可收藏可评论，解除非中国地区播放限制，增加使用原始分享按钮保存任意视频到相册，增加缓存歌曲导出，下载或本地页面，歌曲操作面板导出，支持自动解密ncm格式
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cloudmusic/icon.png
 Name: 网易云音乐 NoAds
 Sponsor: Nets
 
@@ -4364,13 +4365,14 @@ Maintainer: Nets
 Installed-Size: 2116
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: ./debs/netskao.wyyyynoads_1.2-6_iphoneos-arm.deb
-Size: 476566
-MD5sum: c94dd76c091433a2bd2aeefe588c3ae3
-SHA1: 0e90a24ec4ffeb7f7cb8eddfff6f921fef61932a
-SHA256: f21b417232350c74a54470f886b05c859f63f82abd15daf13fd6131a822dfe52
-Section: Tweaks
+Size: 417416
+MD5sum: b5f16223fca3868191977d12840df4f1
+SHA1: b09faed6a966701454b62b568bd6659ec0512fd3
+SHA256: 77ae69638e77383ff0d4f4618ba52d40d4e785042821eb43020387c51b23fe23
+Section: NoAds
 Description: 网易云音乐去除启动广告，去除评论区相关信息和广告，去除首页顶部横幅中插入的广告，去除搜索页面顶部广告，去除播放页面顶部右上角在唱，去除左侧设置无关紧要选项，绕过越狱检测可收藏可评论，解除非中国地区播放限制，增加使用原始分享按钮保存任意视频到相册，增加缓存歌曲导出，下载或本地页面，歌曲操作面板导出，支持自动解密ncm格式
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cloudmusic/icon.png
 Name: 网易云音乐 NoAds
 Sponsor: Nets
 
