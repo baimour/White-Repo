@@ -687,17 +687,17 @@ Icon: https://cokepokes.github.io/depiction/appstoreplus/icon.png
 Name: AppStore++汉化版
 
 Package: com.white.aptfix
-Version: 0.0.6-4+debug
+Version: 0.0.6
 Architecture: iphoneos-arm
 Maintainer: Randy420
-Installed-Size: 220
-Depends: mobilesubstrate, com.white.tools (>=2.2)
+Installed-Size: 200
+Depends: mobilesubstrate, com.white.tools (>=2.3.6)
 Replaces: com.randy420.fixcydia
-Filename: ./debs/aptfix_0.0.6-4+debug.deb
-Size: 12732
-MD5sum: d5223591e758f8104eaffbae8bba75d6
-SHA1: 07c6c022aa65d7c1744e07b385c0c28c473d9e5b
-SHA256: 909a697e2288f2fc0e4540f0de1520a9a17f7ade39a8407e4120bc61fc07c3b2
+Filename: ./debs/aptfix_0.0.6.deb
+Size: 9928
+MD5sum: 382c17bef4a88ee34ef59f41b5e6abae
+SHA1: a2444397cd706d91a758c1b8b928debf5871cac1
+SHA256: 407b1dfff67859841c88a61f845b7f923f36fa9ce155332ac77c31c918f09cfa
 Section: System
 Description: 有时，你的越狱商店会弹出类似 "DPKG Locked"或 "apt locked"的错误，这些错误实际上不是由Cydia或其他越狱商店引起的，而是由这些子进程 (apt、dpkg、cydo等) 引起的
   
@@ -2018,16 +2018,16 @@ Architecture: iphoneos-arm
 Maintainer: Devy_Design
 Depends: mobilesubstrate
 Filename: ./debs/liaca-dark_4.7.deb
-Size: 11036032
-MD5sum: 3874dcd27a991d5e3ca562671459a482
-SHA1: 4e1017a630021d7dfe2a81f12a9e2cbbfe404d2f
-SHA256: eeaadc5db8e52655edafed5e321cbfef44be8ac0b8e39ff4dcb8ebaca9dbbb7a
+Size: 11036548
+MD5sum: 69fac2f34981a7007bff4c4fde23f1aa
+SHA1: 3230ea19c98b222f392c6a62790bc1333e474ece
+SHA256: bce87fe24d1c77841e25eca7de55cc78b1a44f80de6e2486b35aad2be7f3ac3a
 Section: Themes
 Description: Liaca深色版，现代、多彩、精心设计主题
 Author: Devy_Design <idrainmax@gmail.com>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/LiacaTheme/dark.png
 Name: Liaca Dark
-Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/LiacaTheme/DarkDepiction
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/LiacaTheme/darkDepiction
 
 Package: com.white.libcrashreport
 Version: 1.1.2
