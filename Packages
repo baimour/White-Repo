@@ -802,12 +802,12 @@ Version: 1.0-7
 Architecture: iphoneos-arm64
 Maintainer: White <1410970825@qq.com>
 Installed-Size: 200
-Depends: firmware (>= 15.0), firmware (<= 16.6.1), mobilesubstrate
+Depends: firmware (>= 13.0), firmware (<= 16.6.1), mobilesubstrate
 Filename: ./debs/bilibili_1.0-7_iphoneos-arm64.deb
-Size: 14568
-MD5sum: 08bdb1adc67dc2bdaaf4f0ab07eaa245
-SHA1: 5d4e64ed6128705bafb31acaf9118d7ccf4ff926
-SHA256: aa517f9acdedf9fa5fe2bab39dc24d1f6febab86515fdadc1f7b96664fba94f1
+Size: 14552
+MD5sum: 982865b850070b9b18a21b1129a64257
+SHA1: 253005df6b6910ad412e59f11249d2f6118f56c3
+SHA256: 4628d3e6ccfe3c9b28d6db830231944e0be29192515950ab61e8200a661082d0
 Section: NoAds
 Description: 基于7.65.0制作，其他版本自测
 Author: White <1410970825@qq.com>
@@ -820,12 +820,12 @@ Version: 1.0-7
 Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
 Installed-Size: 168
-Depends: firmware (>= 13.0), firmware (<= 15.8.2), mobilesubstrate
+Depends: firmware (>= 13.0), firmware (<= 16.6.1), mobilesubstrate
 Filename: ./debs/bilibili_1.0-7_iphoneos-arm.deb
-Size: 14180
-MD5sum: 3bdd3308a9a59f56894f92066ce96dae
-SHA1: f9fadc6b0c28f1134595d9d9ac225c21c25c5a46
-SHA256: aa5c416022526bfae9e15600194ec176e300eacecb3c309543ab8e28e9ee9381
+Size: 14216
+MD5sum: 5cecd6cef85e2e937820013fe5055076
+SHA1: d7f474eddefe253eb6ecc83775ec215e5269b19a
+SHA256: a14f05c09d5d1aa205e60d759ffced0c02e67c9cd22b3cc098a72f567893e653
 Section: NoAds
 Description: 基于7.65.0制作，其他版本自测
 Author: White <1410970825@qq.com>
