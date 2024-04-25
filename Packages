@@ -1995,6 +1995,40 @@ Description: Lightricks软件包括Photoleap, Videoleap, Beatleap, Lightleap, �
 Author: 小果子
 Name: Lightricks-leap通用破解
 
+Package: com.white.liaca
+Version: 4.3
+Architecture: iphoneos-arm
+Maintainer: Devy_Design
+Depends: mobilesubstrate
+Filename: ./debs/liaca-light_4.3.deb
+Size: 8867404
+MD5sum: be570dc70e65b89e3643ae250e98b9ae
+SHA1: bd3c63b3a59c979970ab96b87c42ae1958bf2057
+SHA256: 8b642d834ffc813caed07950012e4bde3c6ea0e0cf370b73e452523df29a37ae
+Section: Themes
+Description: 现代、多彩、精心设计主题
+Author: Devy_Design <idrainmax@gmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/LiacaTheme/light.png
+Name: Liaca
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/LiacaTheme/lightDepiction
+
+Package: com.white.liaca-dark
+Version: 4.7
+Architecture: iphoneos-arm
+Maintainer: Devy_Design
+Depends: mobilesubstrate
+Filename: ./debs/liaca-dark_4.7.deb
+Size: 11036032
+MD5sum: 3874dcd27a991d5e3ca562671459a482
+SHA1: 4e1017a630021d7dfe2a81f12a9e2cbbfe404d2f
+SHA256: eeaadc5db8e52655edafed5e321cbfef44be8ac0b8e39ff4dcb8ebaca9dbbb7a
+Section: Themes
+Description: Liaca深色版，现代、多彩、精心设计主题
+Author: Devy_Design <idrainmax@gmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/LiacaTheme/dark.png
+Name: Liaca Dark
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/LiacaTheme/DarkDepiction
+
 Package: com.white.libcrashreport
 Version: 1.1.2
 Architecture: iphoneos-arm
