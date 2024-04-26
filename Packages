@@ -1820,12 +1820,12 @@ Version: 1.2.15
 Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
 Installed-Size: 15312
-Depends: firmware (>= 13.5)
+Depends: firmware (>= 13.5), firmware (<= 14.8.1)
 Filename: ./debs/iridium_1.2.15.deb
-Size: 5425404
-MD5sum: 405a7f138edf63cd550dad047bdeef4e
-SHA1: e28c0dee97702489589cf7d2d90751567c143f7e
-SHA256: 0607127d4a17b9cc7fc7c5fae005cb7dd09e7cb5a9c4a3ada2beb88ed23d2d94
+Size: 5425444
+MD5sum: 7af0d7c48502b2bb1c98f015bcb373c9
+SHA1: 2ef1dc3caeff54c1e331800b9cbd14d1d7980a96
+SHA256: 5caf70de6bcc6acaef90d971f8a5e9b1f237f080c1294a86dcfb62d939a65d01
 Section: Utilities
 Priority: optional
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iridiumDp
@@ -1834,28 +1834,30 @@ Tag: purpose::uikit
 Author: White <1410970825@qq.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iridiumDp
 Dev: lakraream
-Icon: file:///Applications/iridium.app/AppIcon60x60@2x.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Iridium/icon.png
 Name: iridium汉化版
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Iridium/Depiction
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.white.iridium
-Version: 1.2.16-REL-1713540542
+Version: 1.2.16
 Architecture: iphoneos-arm
 Maintainer: Lakr Aream <launchctl@outlook.com>
-Pre-Depends: firmware (>= 13.5)
+Pre-Depends: firmware (>= 13.5), firmware (<= 14.8.1)
 Filename: ./debs/iridium_1.2.16.deb
-Size: 5602404
-MD5sum: 243258bd565e75e5e5aaaf4d6cce1d47
-SHA1: 003cf8124e68332baa07266d540d64e25eba7c0c
-SHA256: 56279aa9dffa81868362e13b6284eb99a3cbd9bb3494c199fd544a26fd735caf
+Size: 5604960
+MD5sum: 1c8388da257e3afbe99d9d7305c1f25d
+SHA1: 13a3e7a9664152a99b22b4b55bb53c0b15fc08cd
+SHA256: 37977ad49cb8627ab74c88fbae3e6e8c1b62bfe7ab26a9c420dfcf67b157ed92
 Section: Utilities
 Description: iOS全权限砸壳工具 •	支持解密小组件 •	修复压缩IPA大小问题 •	中文汉化：威锋@Alicys •	最佳兼容系统：iOS13.5-14.3
 Tag: purpose::uikit
 Author: Lakr Aream <launchctl@outlook.com>
 Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iridiumDp
 Dev: lakraream
-Icon: file:///Applications/iridium.app/AppIcon60x60@2x.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Iridium/icon.png
 Name: iridium汉化版
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Iridium/Depiction
 
 Package: com.white.jumpadvideo
 Version: 0.1-3
