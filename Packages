@@ -2394,6 +2394,23 @@ Author: White <1410970825@qq.com>
 Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 Name: 控制中心重启模块
 
+Package: com.white.reo
+Version: 2.6.0
+Architecture: iphoneos-arm
+Maintainer: Mystery
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.17.0), firmware (>= 14.0)
+Filename: ./debs/Reo_2.6.0.deb
+Size: 764284
+MD5sum: 94c54c4e86a3325d22c7f632fd087edf
+SHA1: cc020bdc04b0c8ca2738cfd1935c6e4ba563818e
+SHA256: 498894db99f264b28d2b7a835143e31b354f935b6a1fed15e0ac90841ed09d3e
+Section: Tweaks
+Description: 锁屏经典音乐播放器
+Author: Mystery
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/reo/icon.png
+Name: Reo 锁屏播放器
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/reo/Depiction
+
 Package: com.white.replaced
 Version: 1.0
 Architecture: iphoneos-arm
