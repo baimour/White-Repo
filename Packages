@@ -1319,15 +1319,16 @@ Maintainer: Netskao
 Installed-Size: 2428
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: ./debs/dumpdecrypter_1.3-7.deb
-Size: 592886
-MD5sum: a451faa010c0b9e0a65bd3ff04695d27
-SHA1: dee81c969bb2ebdf7122f9bdc6cf04e3caa646aa
-SHA256: 4782de9fce08200001188c90248b50fe524421f4f3552659857c23a63c105b84
+Size: 529568
+MD5sum: f51dbc9608ec9fd6b7f47081fb6d8387
+SHA1: af5d1dff3a822dce6e5c4e8da6806723ad919141
+SHA256: 4e83d061f77da875b3585e1ef85740fd1dcea76a9cea49455fb4f8f87f588630
 Section: Utilities
 Description: 基于dumpdecrypted的修改封装版 •	使用方式：打开桌面的DumpDecrypter应用程序选择需要解密的应用 •	解密的IPA会保存至：/var/mobile/Documents/DumpDecrypter •	选择应用后会自动杀掉应用进程重新打开，解密前加载所有Frameworks •	解密前停止所有非解密线程，解密完成后自动恢复等 •	解密后的IPA如果要直接安装，建议重新签名，无论使用的签名证书是否有效，否则某些环境会出现闪退等问题
 Author: Netskao
-Icon: file:///Applications/DumpDecrypter.app/AppIcon60x60@3x.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/DumpDecrypter/icon.png
 Name: DumpDecrypter
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/DumpDecrypter/Depiction
 Sponsor: Netskao
 
 Package: com.white.enableTele
