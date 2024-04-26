@@ -2399,14 +2399,31 @@ Version: 2.6.0
 Architecture: iphoneos-arm
 Maintainer: Mystery
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.17.0), firmware (>= 14.0)
-Filename: ./debs/Reo_2.6.0.deb
-Size: 764284
-MD5sum: 94c54c4e86a3325d22c7f632fd087edf
-SHA1: cc020bdc04b0c8ca2738cfd1935c6e4ba563818e
-SHA256: 498894db99f264b28d2b7a835143e31b354f935b6a1fed15e0ac90841ed09d3e
+Filename: ./debs/Reo_2.6.0_iphoneos-arm.deb
+Size: 764268
+MD5sum: 53a0348c07337e9a9b0ac01146227505
+SHA1: 48b63b3d5b4c8eca29112aa2011588652924955a
+SHA256: 62fa8ae4473ced120c3f84cc414150a6814524792eedad5dc4d512983ec538be
 Section: Tweaks
 Description: 锁屏经典音乐播放器
 Author: Mystery
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/reo/icon.png
+Name: Reo 锁屏播放器
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/reo/Depiction
+
+Package: com.white.reo
+Version: 2.6.0
+Architecture: iphoneos-arm64
+Maintainer: Mystery
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.17.0), firmware (>= 14.0)
+Filename: ./debs/Reo_2.6.0_iphoneos-arm64.deb
+Size: 764464
+MD5sum: dad6c2be4ef91f22bbd98871daefc94d
+SHA1: e39259c0dc63350dcde6193e9c9d36355f5d71a3
+SHA256: fb0c721877767d6b6129cf1ccc142c2687d9a08370a032575d011aa8b96872a9
+Section: Tweaks
+Description: Mystery
+Author: 锁屏经典音乐播放器
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/reo/icon.png
 Name: Reo 锁屏播放器
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/reo/Depiction
