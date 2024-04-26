@@ -3458,11 +3458,11 @@ Maintainer: Nets
 Installed-Size: 2432
 Depends: mobilesubstrate, firmware (>= 11.0)
 Filename: ./debs/netskao.awemepurification_2.9-6_iphoneos-arm.deb
-Size: 1175396
-MD5sum: db2ae9954215e2957b42881d4d066844
-SHA1: d35471ee6d2cbaf4d89d3dfdc870166ac994809f
-SHA256: 75b059de8c33507c3115fee88b368a39beabb2ade554724744d8ada30b0db840
-Section: Netskao-NoAds
+Size: 1175316
+MD5sum: 1e799c148294d61eda7e745927cb0fa3
+SHA1: 0a0e6967b48106e5b52cc9a8200af89fe1f97354
+SHA256: e27a79b9823b06ba14d9be0655a2dd439caeb77333bf5a604701a570c9f6246e
+Section: NoAds
 Description: 抖音净化！设置位于抖音-设置，仅支持25.8.0及以上版本
 Author: Netskao
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Aweme/icon.png
@@ -3476,11 +3476,11 @@ Maintainer: Nets
 Installed-Size: 2432
 Depends: mobilesubstrate, firmware (>= 11.0)
 Filename: ./debs/netskao.awemepurification_2.9-6-1_iphoneos-arm.deb
-Size: 1175652
-MD5sum: 5456cb25eda27cc5d13a6950d59381f8
-SHA1: 1be2e5f95a1975a130e5b0f54120c85a1aab6953
-SHA256: 3f3d5a3e34729ba49c35a185d62e24291d25b16d437b57130c321e58198e31ec
-Section: Netskao-NoAds
+Size: 1175788
+MD5sum: a324d97a19df5c6c3e58c44f61c5529d
+SHA1: 3d65617ccdf5cfde91b1f3ee158b5fe14924d633
+SHA256: f40e8e6223cda301d6c6bfa313858058564ffda36e116157c599c11a923a3124
+Section: NoAds
 Description: 抖音净化！设置位于抖音-设置，仅支持22.5.0及以上版本
 Author: Netskao
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Aweme/icon.png
