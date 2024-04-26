@@ -495,6 +495,42 @@ Section: Networking
 Description: 激活A1532/1533的移动2G和联通/电信4G •	禁用语音信箱，增强稳定性 •	支持有锁AU/无锁A1453/1456 •	不支持国行A1533
 Name: Active 1532/33 4G iOS9/10
 
+Package: com.white.189cloud
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/189cloud_1.0_iphoneos-arm64.deb
+Size: 5430
+MD5sum: ddb22d12a28c3565ae0a63e16adf2469
+SHA1: f14053407868e8badb95e71e511a69032dd32d77
+SHA256: 2fb56741e1d9f7d0b8076110e78c6ab22305010ca8cd3aa07f0df358a40063ea
+Section: NoAds
+Description: 基于9.1.1版本制作，去除启动/优惠弹窗
+Author: White <1410970825@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/189cloud/icon.png
+Name: 天翼云盘去更新弹窗
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/189cloud/Depiction
+
+Package: com.white.189cloud
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/189cloud_1.0_iphoneos-arm.deb
+Size: 5346
+MD5sum: d3100978e7e3d106b95e390b766e2c7c
+SHA1: b9c9ae40e0a1c245ba35a1938e24fa29e0d92edf
+SHA256: 35b17a62bdf27b9c887d894fd93484b9b1ef45f1771ddd6b089add58aa30bc7f
+Section: NoAds
+Description: 基于9.1.1版本制作，去除启动/优惠弹窗
+Author: White <1410970825@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/189cloud/icon.png
+Name: 天翼云盘去更新弹窗
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/189cloud/Depiction
+
 Package: com.white.5s234
 Version: 1.1
 Architecture: iphoneos-arm
@@ -868,23 +904,6 @@ Description: Cydia插件界面美化
 Author: julioverne
 Depiction: https://julioverne.github.io/description.html?id=com.julioverne.celldia
 Name: CellDia
-
-Package: com.white.cloud189
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: White <1410970825@qq.com>
-Installed-Size: 72
-Depends: mobilesubstrate
-Filename: ./debs/cloud189_1.0.deb
-Size: 3864
-MD5sum: efd57b572aa7910bbe8434f29e25f0d1
-SHA1: fc5b73ab35d2fc2392e01fbbcd388deb4a7f65a6
-SHA256: 9dc1bf40f28faa22a45991a32111e44df6270e86e3b683c9df35168bbca76b1f
-Section: NoAds
-Description: 基于9.1.1制作，去除启动更新弹窗，屏蔽越狱检查
-Author: White <1410970825@qq.com>
-Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/189cloud/icon.png
-Name: 天翼云盘去启动广告
 
 Package: com.white.cloudmusic
 Version: 1.0
