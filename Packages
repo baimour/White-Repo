@@ -1261,6 +1261,30 @@ Description: 从EtasonJB/HomeDepot/openpwnage迁移到daibutsu untether，迁移
 Author: LukeZGD
 Name: daibutsu migrator
 
+Package: com.white.deleteforever
+Version: 0.0.1-57
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 682
+Depends: firmware (>= 7.0), firmware (<= 9.3.5), mobilesubstrate, preferenceloader
+Filename: ./debs/deleteforever_0.0.1-57.deb
+Size: 250884
+MD5sum: 1149ca393576584253345dbae776ec27
+SHA1: c2a8d4012f434df218f5521f8a795e2603c54bc4
+SHA256: a53ea682d7814eb6adce02ea11deceddea465e671bbd48c4edfaa6face5625f7
+Section: 老iOS专用
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=deleteforeverDp
+Description: 在删除照片时添加"永久删除"选项
+Tag: purpose::extension, compatible::ios8, compatible::ios9
+Author: Creatix <ioscreatix@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=deleteforeverDp
+Dev: creatix
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/DeleteForever/icon.png
+Name: DeleteForever
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/DeleteForever/Depiction
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.white.designer
 Version: 1.4.3
 Architecture: iphoneos-arm
@@ -1279,6 +1303,27 @@ Depiction: https://repo.cypwn.xyz/depiction/1980
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/designer.png
 Name: Designer
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1980
+
+Package: com.white.detailedpowerusage
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: TheComputerWhisperer <admin@abcydia.com>
+Installed-Size: 440
+Depends: firmware (>= 9.0), firmware (<= 10.3.3), mobilesubstrate
+Conflicts: org.thebigboss.detailedbatteryusage
+Filename: ./debs/detailedpowerusage_1.0.1.deb
+Size: 68456
+MD5sum: 0a92d00fb200228a98cdd74918bf32e8
+SHA1: cbcfe44b90b30c66301555b90a2bf370b4d0a514
+SHA256: aa97935ab1274c8150f33f5d87fa81676186450f31f6a77098d379931168ceff
+Section: 老iOS专用
+Description: 兼容9-10系统
+Tag: purpose::extension, compatible::ios9, compatible::ios10, compatible::ios11
+Author: TheComputerWhisperer <actualcomputerwhisperer@gmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/DetailPowerU/icon.png
+Name: DetailPowerU 电量详情
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/DetailPowerU/Depiction
+Sponsor: TheComputerWhisperer
 
 Package: com.white.diary
 Version: 1.2.1
@@ -1318,6 +1363,26 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Di
 Name: Diary 📖
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Diary/Depiction
 
+Package: com.white.disablelockcamera
+Version: 1.0-2
+Architecture: iphoneos-arm
+Maintainer: Skylerk99 <skylerk99@gmail.com>
+Installed-Size: 64
+Depends: firmware (>= 7.0), firmware (<= 9.3.5), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/disablelockcamera_1.0-2.deb
+Size: 2788
+MD5sum: 17da9370c8f2652fb25eda48340aa633
+SHA1: 3d0eca30408038370f63917d88ee18f24958c081
+SHA256: 8c13454b35fc4043a561d0374cf2d8ee4aa163847e8c67f7565d602fed9e1f54
+Section: 老iOS专用
+Priority: optional
+Description: 隐藏锁屏相机
+Tag: purpose::extension
+Author: Skylerk99 <skylerk99@gmail.com>
+Name: DisableLC 隐藏锁屏相机
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/DisableLC/Depiction
+Sponsor: Skylerk99 <skylerk99@gmail.com>
+
 Package: com.white.dleasy
 Version: 2.14.4k
 Architecture: iphoneos-arm
@@ -1335,6 +1400,52 @@ Depiction: https://repo.cypwn.xyz/depiction/2054
 Icon: https://media.havoc.app/62040a16cc1cde4bfe9aba43
 Name: DLEasy
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2054
+
+Package: com.white.dockxi
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 245
+Depends: mobilesubstrate, firmware (>= 8.0), firmware (<= 11.4.1), preferenceloader
+Filename: ./debs/dockxi_1.1.1.deb
+Size: 18128
+MD5sum: b4194158f0fc94d7bae0bcf5d75fc439
+SHA1: 095af4648b2365347ca520e7c6c3175f5a4d187d
+SHA256: 50e10f8e5145e8ff670d280cc845330061a7b06e6bdc70132e7ffc2eadfb2a02
+Section: 老iOS专用
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dockxiDp
+Description: 在老系统体验iOS 11圆角Dock风格
+Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
+Author: XCXiao <958169971@qq.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dockxiDp
+Dev: xcxiao
+Name: DockXI 圆角Dock风格
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/dockxi/Depiction
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.white.dockxiplus
+Version: 1.0.0-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 493
+Depends: mobilesubstrate, preferenceloader, firmware (>= 10.0), libactivator
+Filename: ./debs/dockxiplus_1.0.0-1.deb
+Size: 78376
+MD5sum: 6bfd7b3569b7a589406d28c1d73b945c
+SHA1: 938e01d7efa65baaad9c3f050881404bd695a3d6
+SHA256: 33829207fe31505690bfac322fb991cba9727918419b2db9cc9bc8b9154f56a5
+Section: 老iOS专用
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dockplusipadDp
+Description: Drag&drop / multi-tasking tweak for iPad
+Tag: purpose::extension, compatible::ios10
+Author: XCXiao <958169971@qq.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dockplusipadDp
+Dev: xcxiao
+Name: Dock+ For iPad
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/dockxiplus/Depiction
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.white.downloadbar13
 Version: 1.0.2
@@ -3387,14 +3498,15 @@ Maintainer: akusio <akusio-report@neko2.net>
 Installed-Size: 208
 Depends: mobilesubstrate, jp.akusio.backgrounderaction11 | jp.akusio.backgrounderaction12
 Filename: ./debs/akusio.milkyway_0.1.4beta.deb
-Size: 30544
-MD5sum: 175844058a41bfd94ead1155fdda0048
-SHA1: d093fdfdb1582e5e6326dc98b4b4b81fa33e1176
-SHA256: 98b82ad0e0740705910bd2b5fbcce1e5f63be9c7abad9c6e7e9fa8fadfc4ba6f
+Size: 30608
+MD5sum: 45d80c580556b30a2559168045ae0ff2
+SHA1: 0dc30b4fa190cbbc0267064dfa04ce8d2fcd2c92
+SHA256: e060b04005f1a610d101a28a64cac1ef510b88c5a4626ebdc006c46d7e03a623
 Section: Akusio
 Description: iOS11-12的多任务分屏
 Author: akusio <akusio-report@neko2.net>
 Depiction: http://akusio.github.io/descriptions/milkyway/index.html
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/milkyway/icon.png
 Name: MilkyWay
 
 Package: jp.akusio.milkyway2
@@ -3405,13 +3517,14 @@ Installed-Size: 376
 Depends: firmware (>= 13.0), mobilesubstrate, jp.akusio.backgrounderaction13, applist, preferenceloader
 Filename: ./debs/akusio.milkyway2_0.2.0-alpha.deb
 Size: 43276
-MD5sum: f861a555d8d50204f696d3ef534be1ef
-SHA1: 4d0cb030348d6fb013bb72a2d8697c77d9f30b5f
-SHA256: 581380811bd99f2af0f1ace3a7315c2bf3ff6d3db3a658f8d860b9b6e4f273ef
+MD5sum: f214573c0916694baa3d9266a84e0064
+SHA1: 9b8b92d1f0804658a07a91ecb6172b403bd72b7e
+SHA256: 871d16ba489cd0b20adadba06743866da44cea75d13bff18b81f646652c2fab3
 Section: Akusio
 Description: iOS13的多任务分屏
 Author: akusio <akusio-report@neko2.net>
 Depiction: http://akusio.github.io/descriptions/milkyway2/index.html
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/milkyway/icon.png
 Name: MilkyWay2
 
 Package: jp.akusio.milkyway4
