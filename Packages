@@ -871,6 +871,42 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Bi
 Name: 哔哩哔哩大会员画质
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/Depiction
 
+Package: com.white.bilibili
+Version: 1.0-8
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 168
+Depends: firmware (>= 11.0), firmware (<= 15.8.2), mobilesubstrate
+Filename: ./debs/bilibili_1.0-8_iphoneos-arm.deb
+Size: 14190
+MD5sum: 31ce5edaa9898060125fbd1475cb000f
+SHA1: c40e981e91100c6265e45fd6c6b76ea8467a32c1
+SHA256: 30b338617b0d20404915f822f8c49a124e253bb1418e4a1877c48e05004e877e
+Section: NoAds
+Description: 基于7.65.0制作，其他版本自测
+Author: White <1410970825@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/icon.png
+Name: 哔哩哔哩大会员画质
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/Depiction
+
+Package: com.white.bilibili
+Version: 1.0-8
+Architecture: iphoneos-arm64
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 200
+Depends: firmware (>= 15.0), firmware (<= 16.6.1), mobilesubstrate
+Filename: ./debs/bilibili_1.0-8_iphoneos-arm64.deb
+Size: 14606
+MD5sum: 7a6374900080d5bb81a652c73382f8db
+SHA1: e1f6cb1942cc3f05c33808ec1da31ce4ccf11714
+SHA256: 00ab7bc3ed7991053720f6d6eef2abee5a1e8a977f8c230147e60a5363a123e0
+Section: NoAds
+Description: 基于7.65.0制作，其他版本自测
+Author: White <1410970825@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/icon.png
+Name: 哔哩哔哩大会员画质
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/Depiction
+
 Package: com.white.ccpatch
 Version: 1.2
 Architecture: iphoneos-arm
@@ -2209,15 +2245,15 @@ Package: com.white.milkyway3
 Version: 0.2.15
 Architecture: iphoneos-arm
 Maintainer: White
-Depends: mobilesubstrate, applist, preferenceloader
+Depends: firmware (>= 14.0), mobilesubstrate, applist, preferenceloader
 Conflicts: xyz.cypwn.milkyway2ios14
 Replaces: xyz.cypwn.milkyway2ios14
 Filename: ./debs/milkyway3_0.2.15_iphoneos-arm.deb
-Size: 62376
-MD5sum: 9b03f0777601dfc4fc67fdc6d16d5f94
-SHA1: 2c3ece94d229267b423ab9fc79985069a7049972
-SHA256: 9eee7e5f69b81b8bfe9ead1bd31c88a781270047f715f31a34e34e32d6f59361
-Section: Tweaks
+Size: 55748
+MD5sum: 59404b0bc9a758db3ae17cea1191e993
+SHA1: 40ad69246f87fde664bbbe49bc87996d9a3c79de
+SHA256: cf9da8d0b65e37a6845778e16c5d802a16597f647eb83ae3d8d0f979dba7b63d
+Section: Akusio
 Description: iOS14多任务分屏
 Author: akusio
 Depiction: https://repo.cypwn.xyz/depiction/924
@@ -3259,22 +3295,174 @@ Author: sakuRdev/dora2ios
 Depiction: https://dora2ios.github.io/info/ipwnderlite/
 Name: iPwnder Lite
 
+Package: jp.akusio.backgrounderaction11
+Version: 0.0.8
+Architecture: iphoneos-arm
+Maintainer: akusio <akusio-report@neko2.net>
+Installed-Size: 72
+Depends: mobilesubstrate, libactivator (>=1.9.13~beta2), Firmware(>=11.0)
+Filename: ./debs/akusio.backgrounderaction11_0.0.8.deb
+Size: 9460
+MD5sum: a3f454f9d7a201080159b06a2e654d9f
+SHA1: e41ca8e4772a83f85b35707bd703cb677b9cf153
+SHA256: 2c40dd54dfc2940bd38b394586b0ee2c30858f86e85f30a4cb1629ea9f582562
+Section: Akusio
+Description: *目前处于测试阶段* 将"真后台模块"添加到Activator
+Author: akusio <akusio-report@neko2.net>
+Depiction: https://akusio.github.io/descriptions/backgrounderaction/index.html
+Name: Backgrounder Action
+
+Package: jp.akusio.backgrounderaction12
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: akusio <akusio-report@neko2.net>
+Installed-Size: 276
+Depends: firmware (>= 12.0), mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/akusio.backgrounderaction12_0.1.0.deb
+Size: 12684
+MD5sum: 5e29ee5d25427f26128b397918e6baf3
+SHA1: c571755f5d25792bb6fc825e8f09fa4fdc9cd826
+SHA256: 6ca29f3098a2f1dc9cc87a7001d16791cafa8e16add1555ab4a77182cd413b71
+Section: Akusio
+Description: 将"真后台模块"添加到控制中心
+Author: akusio <akusio-report@neko2.net>
+Depiction: https://akusio.github.io/descriptions/backgrounderaction12/index.html
+Name: BackgrounderAction for CCSupport
+
+Package: jp.akusio.backgrounderaction13
+Version: 0.1.4
+Architecture: iphoneos-arm
+Maintainer: akusio <akusio-report@neko2.net>
+Installed-Size: 244
+Depends: firmware (>= 13.0), mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/akusio.backgrounderaction13_0.1.4.deb
+Size: 12272
+MD5sum: 03a550687a8738f8d7cfebd6952e2286
+SHA1: 2e6ed28ce89cf2707ad08232a9871aaa517a1ecc
+SHA256: 2ebdfdb3f7e76f337b91fdd90de1b78ed68c9f6947feebb8ae7e307538e9225f
+Section: Akusio
+Description: 将"真后台模块"添加到控制中心
+Author: akusio <akusio-report@neko2.net>
+Depiction: https://akusio.github.io/descriptions/backgrounderaction13/index.html
+Name: BackgrounderAction2 for CCSupport
+
+Package: jp.akusio.debypass
+Version: 0.1.1
+Architecture: iphoneos-arm
+Maintainer: akusio
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: ./debs/akusio.debypass_0.1.1.deb
+Size: 3084
+MD5sum: fa04f4f0e8a2e89265e7701346b523b1
+SHA1: c1a76cbb2218d61cf41dc254ccf4ec89b66c057b
+SHA256: 31ee8d17a6f84698819cf960c502ebb687004fce9c7f6bca21f4619a51aabd32
+Section: Akusio
+Description: 绕过越狱检测
+Author: akusio
+Depiction: https://akusio.github.io/descriptions/debypass/index.html
+Name: De-Bypass
+
+Package: jp.akusio.kernbypass
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: akusio
+Installed-Size: 380
+Depends: mobilesubstrate, applist, preferenceloader, firmware(>=12.0)
+Filename: ./debs/akusio.kernbypass_0.0.2.deb
+Size: 12380
+MD5sum: 0e0ccff2a42fc6f353c132a220a4d716
+SHA1: 6f915993ef458f70c1ee5ef6bbb3ac112ab7e922
+SHA256: e297c5fb43d90974f342e5004d9ca6b58930b222fb7a43a522232478d88dfa79
+Section: Akusio
+Description: 内核级绕过越狱检测
+Author: akusio
+Depiction: http://akusio.github.io/descriptions/kernbypass/index.html
+Name: KernBypass
+
+Package: jp.akusio.milkyway
+Version: 0.1.4beta
+Architecture: iphoneos-arm
+Maintainer: akusio <akusio-report@neko2.net>
+Installed-Size: 208
+Depends: mobilesubstrate, jp.akusio.backgrounderaction11 | jp.akusio.backgrounderaction12
+Filename: ./debs/akusio.milkyway_0.1.4beta.deb
+Size: 30544
+MD5sum: 175844058a41bfd94ead1155fdda0048
+SHA1: d093fdfdb1582e5e6326dc98b4b4b81fa33e1176
+SHA256: 98b82ad0e0740705910bd2b5fbcce1e5f63be9c7abad9c6e7e9fa8fadfc4ba6f
+Section: Akusio
+Description: iOS11-12的多任务分屏
+Author: akusio <akusio-report@neko2.net>
+Depiction: http://akusio.github.io/descriptions/milkyway/index.html
+Name: MilkyWay
+
+Package: jp.akusio.milkyway2
+Version: 0.2.0-alpha
+Architecture: iphoneos-arm
+Maintainer: akusio <akusio-report@neko2.net>
+Installed-Size: 376
+Depends: firmware (>= 13.0), mobilesubstrate, jp.akusio.backgrounderaction13, applist, preferenceloader
+Filename: ./debs/akusio.milkyway2_0.2.0-alpha.deb
+Size: 43276
+MD5sum: f861a555d8d50204f696d3ef534be1ef
+SHA1: 4d0cb030348d6fb013bb72a2d8697c77d9f30b5f
+SHA256: 581380811bd99f2af0f1ace3a7315c2bf3ff6d3db3a658f8d860b9b6e4f273ef
+Section: Akusio
+Description: iOS13的多任务分屏
+Author: akusio <akusio-report@neko2.net>
+Depiction: http://akusio.github.io/descriptions/milkyway2/index.html
+Name: MilkyWay2
+
 Package: jp.akusio.milkyway4
 Version: 0.1.1
 Architecture: iphoneos-arm64
 Maintainer: @akusio_RR
 Installed-Size: 3464
 Depends: mobilesubstrate, com.opa334.altlist, preferenceloader
-Filename: ./debs/jp.akusio.milkyway4_0.1.1_iphoneos-arm64.deb
-Size: 1299844
-MD5sum: e57c1e2c77dbe190642603b9e009eaee
-SHA1: 4053dbeac3a77e826e5ce3d1d0e3e5af4b77efd2
-SHA256: 0801b1650226e3b7bda492bcd80bcc050e3a8f2c1bf208797cbb68592529d80b
+Filename: ./debs/akusio.milkyway4_0.1.1_iphoneos-arm64.deb
+Size: 1299672
+MD5sum: 1d4ec4931260a6cf99b6445f73e40ec9
+SHA1: 79076c8edb68176bf4fd1017b2405f5c201b8b3f
+SHA256: 10e62d4a079de8d04573822621706635523518da89fbe5bfc1c18470baea3b09
 Section: Tweaks
 Description: iOS15无根的多任务分屏
 Author: @akusio_RR
 Depiction: https://akusio.github.io/descriptions/milkyway4/index.html
 Name: MilkyWay4-rootless
+
+Package: jp.akusio.noentersafemode
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: akusio
+Installed-Size: 104
+Depends: mobilesubstrate
+Filename: ./debs/akusio.noentersafemode_0.0.1.deb
+Size: 2880
+MD5sum: 91af4f2cb727149e4de4d3452fdaf7c5
+SHA1: d1d8b64d8b406d6a8e241e4d9e319b8d66582801
+SHA256: 59f591c5b30de6c458bf1a3181bdd075313671313264a58ef764a05dcbe48bd7
+Section: Akusio
+Description: 不再进入安全模式
+Author: akusio
+Depiction: http://akusio.github.io/descriptions/noentersafemode/index.html
+Name: NoEnterSafeMode
+
+Package: jp.akusio.psappcompatibilitypatch
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: akusio
+Installed-Size: 104
+Depends: mobilesubstrate
+Filename: ./debs/akusio.psappcompatibilitypatch_0.0.1.deb
+Size: 2432
+MD5sum: 6de84533926b16a5b8dd3275b7900847
+SHA1: d257980584021045fbfb515ec407f94b73ae0d0a
+SHA256: 68ec87b162d274e1d39cdf88c43ffe407c240fa324251f3e9e3e887bc607345e
+Section: Akusio
+Description: Backgrounder Action 2和PSApp兼容性补丁
+Author: akusio
+Name: Backgrounder Action2 PSAppCompatibilityPatch
 
 Package: kloader
 Version: 1.0
