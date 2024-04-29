@@ -1096,6 +1096,24 @@ Description: 启用/禁用"单声道音频"控制中心模块
 Author: KingPuffdaddi
 Name: 控制中心单声道模块
 
+Package: com.white.coolcc
+Version: 1.4.0
+Architecture: iphoneos-arm
+Maintainer: 4nni3 <4nni3.14@gmail.com>
+Installed-Size: 328
+Depends: firmware (>= 13.0), mobilesubstrate,preferenceloader,com.creaturesurvive.libcscolorpicker
+Filename: ./debs/coolcc_1.4.0.deb
+Size: 40852
+MD5sum: 64f8b706d2b385f351b30d6428bc563e
+SHA1: 8356f08db1c34ef088242871c99b7368c5841ce7
+SHA256: 6f913929ba9682bf8423f4f28bf214f842e867a2f6cd37d40326d2187506efe3
+Section: Tweaks
+Description: 炫酷的控制中心风格
+Author: 4nni3 <4nni3.14@gmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/coolcc/icon.png
+Name: CoolCC
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/coolcc/Depiction
+
 Package: com.white.cr4shed
 Version: 4.3.0
 Architecture: iphoneos-arm
@@ -2970,10 +2988,10 @@ Maintainer: poetic_folly <poetic_folly@modmyi.com>
 Depends: mobilesubstrate, applist, firmware (>= 8.0), firmware (<= 9.3.5), preferenceloader
 Conflicts: com.joshdoctors.cclivebrightness, net.limneos.bioprotect, com.repo.xarold.com.bioprotect, com.a3tweaks.auxo3ios9, com.repo.xarold.com.auxo3ios9, org.thebigboss.lylac, com.repo.xarold.com.lylac, net.angelxwind.mikoto(<<2.9-beta-1), com.repo.xarold.com.mikoto(<<2.9-beta-1), org.thebigboss.switchertweakpro, com.repo.xarold.com.switchertweakpro
 Filename: ./debs/seng_1.2.0.deb
-Size: 356808
-MD5sum: 9665a446acaaeba96f21bca4d8c64b1c
-SHA1: 0c5c42468696b3c3b5d71ebb43e3986e0fab83d6
-SHA256: 512ecaa49f62c91f71c5e6b310bc30d19b3d0191bdbd9750c0bda0f87e1de32e
+Size: 356872
+MD5sum: 00819f3d965c0f3cd104f2ede9f9885c
+SHA1: f59a9925ed1d2ed7abe6a1f26c73fd49bb782b5a
+SHA256: dd3f356670c39f4ecaf08f15bed4dfe71b4418d91935d9fa43cd92630649b168
 Section: 老iOS专用
 Priority: extra
 Description: 细节比Auxo3更优秀的控制中心增强
@@ -2982,7 +3000,6 @@ Author: Charlie Hewitt
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/seng/icon.png
 Name: seng 控制中心增强
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/seng/Depiction
-Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
 
 Package: com.white.seng
 Version: 1.2.2-1
@@ -2991,10 +3008,10 @@ Maintainer: poetic_folly <poetic_folly@modmyi.com>
 Depends: mobilesubstrate, applist, firmware (>=8.0), firmware (<= 9.3.5), preferenceloader
 Conflicts: com.joshdoctors.cclivebrightness, com.a3tweaks.auxo3ios9, org.thebigboss.lylac, net.angelxwind.mikoto(<<2.9-beta-1), org.thebigboss.switchertweakpro
 Filename: ./debs/seng_1.2.2-1.deb
-Size: 359076
-MD5sum: 38c1a1063a1ef8472f6b6e38f25356a6
-SHA1: 45b97d6e63c43f3efe4cf3e018259e0ad29ad884
-SHA256: 38024d631ead8f706a446f9155d0643d525cd9907f874d1397d5fc93bd5817ee
+Size: 358804
+MD5sum: 371db23b6e40720378d9500390f8badf
+SHA1: ddc45c9974c1b2c283f842dfffa12941eb6f9358
+SHA256: e832650138068057278f01fbf7e534673e46ecf149167a7cd57eae068ca7ab58
 Section: 老iOS专用
 Priority: extra
 Description: 细节比Auxo3更优秀的控制中心增强
@@ -3004,7 +3021,6 @@ Depiction: http://modmyi.com/info/seng.d.php
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/seng/icon.png
 Name: seng 控制中心增强
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/seng/Depiction
-Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
 
 Package: com.white.shadowsocks
 Version: 0.3.2-3
@@ -3023,6 +3039,25 @@ Tag: purpose::uikit
 Author: Linus Yang <laokongzi@gmail.com>
 Icon: file:///Applications/MobileShadowSocks.app/Icon.png
 Name: ShadowSocks 影梭
+
+Package: com.white.sharecuts
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: daniel
+Installed-Size: 136
+Depends: firmware (>= 12.0), firmware (<= 15.8.2), mobilesubstrate
+Filename: ./debs/sharecuts_1.0.0.deb
+Size: 2992
+MD5sum: 37431723302e3b7b169a28d45fb25b87
+SHA1: 1da1e7e436031e8c4e54520ebc584f7a2e0de03d
+SHA256: a03f3c571192979707c7bce77e60e04860fb789d8df618097ef8498463e986e5
+Section: Tweaks
+Description: 捷径添加通过文件分享选项，而非上传iCloud分享
+Author: daniel
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sharecuts/icon.png
+Name: Sharecuts 捷径分享
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sharecuts/Depiction
+Sponsor: daniel
 
 Package: com.white.storeswitcher2
 Version: 1.0.3
