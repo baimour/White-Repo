@@ -1321,7 +1321,7 @@ Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 682
 Depends: firmware (>= 7.0), firmware (<= 9.3.5), mobilesubstrate, preferenceloader
-Filename: ./debs/deleteforever_0.0.1-57.deb
+Filename: ./debs/DeleteForever_0.0.1-57.deb
 Size: 250728
 MD5sum: 992d5b4eedb6289523631553a0611a79
 SHA1: fd9a5e357eaaee5bc8925ad0f00a5c32abec5ce1
