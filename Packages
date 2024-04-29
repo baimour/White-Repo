@@ -14,22 +14,6 @@ Author: White <1410970825@qq.com>
 Dev: White
 Name: 屏蔽设置重要提醒
 
-Package: com.crazymind90.itheosmakertweak
-Version: 1.5
-Architecture: iphoneos-arm
-Maintainer: @CrazyMind90
-Filename: ./debs/com.crazymind90.itheosmakertweak_1.5_iphoneos-arm.deb
-Size: 1238870
-MD5sum: 3064b7dd6edc2219b8b8c094e2d21b4b
-SHA1: 1424887f60a89fec3b1c2d3857f246ccd04b704c
-SHA256: afb42234ebd4990b7062777943e47b21836c4db9a8a806f72c65a5ec28ed82ac
-Section: Utilities
-Priority: optional
-Description: 创建和管理Theos项目的应用程序
-Author: @CrazyMind90
-Icon: file:///Applications/iTheosMaker.app/AppIcon60x60@3x.png
-Name: iTheosMaker
-
 Package: com.eliofeghali.souvenir
 Version: 1.25
 Architecture: iphoneos-arm
@@ -62,23 +46,6 @@ Description: 全局开启杜比音效，杜比音效和普通音效的区别在�
 Author: Huayuarc
 Name: 全局开启杜比音效
 Sponsor: Huayuarc
-
-Package: com.ikilledappl3.theostips
-Version: 1.0-1
-Architecture: iphoneos-arm
-Maintainer: iKilledAppl3 <ipodnewbee234@icloud.com>
-Depends: mobilesubstrate
-Filename: ./debs/com.ikilledappl3.theostips_1.0-1_iphoneos-arm.deb
-Size: 5781686
-MD5sum: 975b36c85d81ae3ce2aa5856cea3f76d
-SHA1: 3de77ce8082660ce7f4cb6c35e6d310a1a4dd86b
-SHA256: 41a5f5dfc6babed7dd360a70c7aef7b557bd651f010f9d5fdcda667425f76240
-Section: Utilities
-Description: 了解如何轻松创建插件！
-Author: iKilledAppl3 <ipodnewbee234@icloud.com>
-Icon: file:///Applications/TheosTips.app/AppIcon60x60@2x.png
-Name: TheosTips
-Website: http://ikilledappl3.com
 
 Package: com.ios.wechat
 Version: 1.0.6
@@ -1199,14 +1166,15 @@ Architecture: iphoneos-arm
 Maintainer: c0pyn1nja
 Depends: firmware (>= 11.0)
 Filename: ./debs/crackerxi_1.1.16.deb
-Size: 7028126
-MD5sum: 2ee45616e3b941a059d8dc09c4ea9970
-SHA1: 9b2e960dbdf692b1d4c7dea9ef369ba6103fb4ff
-SHA256: 1b1478b26f595ece458752287fae62c09f5f7f9867a1050b24165af5c92010e7
+Size: 6071568
+MD5sum: 634e490cf50d5e1915fece8628eb4ad6
+SHA1: d672588f5ef23be72f6d78b8efd55c37a1f14039
+SHA256: 8e8ed6729fff12a0cf7c6f365870e5742863f085c039cf1aa8237fb63ea19759
 Section: Utilities
-Description: 解密iOS砸壳应用，不支持牛磺酸
-Icon: https://repo.cypwn.xyz/assets/repo/Featured/crackerxi.png
+Description: 解密iOS砸壳工具，不支持酷星越狱环境
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/crackerxi/icon.png
 Name: CrackerXI+
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/crackerxi/Depiction
 Website: https://ipastore.me
 
 Package: com.white.cracktool4
@@ -1215,16 +1183,18 @@ Architecture: iphoneos-arm
 Maintainer: Julio
 Depends: sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
 Filename: ./debs/cracktool4_4.0~beta10b.deb
-Size: 2162928
-MD5sum: 2882dd860294934ca6aff7b25793e05b
-SHA1: dc6d7a87678ed34632679eb7851482a971dd0e54
-SHA256: e77e32c7e157f56563263fb1a3f92eb4f6d2c7ad894903e0225bc07e506f0253
+Size: 1967684
+MD5sum: 2460f60d7e652dd265ca62b33fbf0e6f
+SHA1: c170353f3cacf95964a05f9fa5114800e582a9b9
+SHA256: cf03b8629593a4dc264e6a0f41809fb02980d1564cf00562256d2f0c86cf778a
 Section: Utilities
 Homepage: https://twitter.com/ijulioverne
 Description: 一键破解插件工具，完善汉化，添加额外补丁
 Author: julioverne
 Depiction: https://julio.hackyouriphone.org/description.html?id=com.julioverne.cracktool4
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cracktool/icon.png
 Name: CrackTool4 (iOS 9 - 14)
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cracktool/Depiction
 
 Package: com.white.crash-reporter
 Version: 1.17.2
@@ -1235,20 +1205,19 @@ Conflicts: crash-reporter
 Replaces: crash-reporter
 Provides: crash-reporter
 Filename: ./debs/crash-reporter_1.17.2.deb
-Size: 251350
-MD5sum: 21f66c416b8eb35924a2ee553d20a35c
-SHA1: 547e9236afda963883c2b44411cefd9af06bd0d3
-SHA256: 275545f8136f4c45166e231d50c4b725b533cdf07394ca48813195647f1adf43
+Size: 236692
+MD5sum: 82f0a1baa95fe7e5cbd073aae90ba5c4
+SHA1: 2538d7cb6a74ea73e12aec558763055eb247721c
+SHA256: e879e7057edbff95d2390df24e708e6266defbe87805aee9b385270e95d84073
 Section: Utilities
 Homepage: https://revulate.dev
 Description: 用于查看崩溃的详细信息、可确定所述崩溃的可能原因
 Author: Revulate <revulate1@gmail.com>
 Depiction: https://revulate.dev/depiction/web/com.spark.crash-reporter.html
-Icon: https://revulate.dev/assets/com.spark.crash-reporter/icon.png
-Icon2: file:///Applications/CrashReporter.app/Icon-60@3x.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/crashrepprter/icon.png
 Moderndepiction: https://revulate.dev/depiction/native/com.spark.crash-reporter.json
 Name: CrashReporter
-Sileodepiction: https://revulate.dev/depiction/native/com.spark.crash-reporter.json
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/crashrepprter/Depiction
 
 Package: com.white.customizebw
 Version: 1.0.0
@@ -1945,6 +1914,25 @@ Author: NeinZedd9
 Depiction: https://kingpuffdaddi.github.io/depictions/?p=com.neinzedd9.fakecallhistory
 Name: Fake Call History
 
+Package: com.white.filza
+Version: 4.0.1-4
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 19388
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Filename: ./debs/filza_4.0.1-4.deb
+Size: 6997812
+MD5sum: 150aae2fc4d17ca4c6ef8a267ebec4c7
+SHA1: 14adc1ccb3fb10a127450eb870ea4942679c6792
+SHA256: 489b76a23976d8a192ccf35889c84c6d2fb4c5b846b98fcd0f0ee2c12dcb652c
+Section: Utilities
+Description: 强大的iOS文件管理器
+Author: TIGI Software
+Depiction: https://rejail.ru/depiction.php?file=filza
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/filza/icon.png
+Name: Filza File Manager
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/filza/Depiction
+
 Package: com.white.fiona
 Version: 1.0.5
 Architecture: iphoneos-arm
@@ -2385,6 +2373,23 @@ Dev: lakraream
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Iridium/icon.png
 Name: iridium汉化版
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Iridium/Depiction
+
+Package: com.white.itheosmakertweak
+Version: 1.5
+Architecture: iphoneos-arm
+Maintainer: @CrazyMind90
+Filename: ./debs/itheosmakertweak_1.5.deb
+Size: 1220076
+MD5sum: ffbe3af00fd03257225795e9e5480bdf
+SHA1: fb7e89555bf4c514de08fcb544e361dfae8e51c1
+SHA256: 1af8592787b0694fc22cf4faaaaa7001aa5e2860edb599c6afb2e3a47f9d7541
+Section: Utilities
+Priority: optional
+Description: 创建和管理Theos项目的应用程序
+Author: @CrazyMind90
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/iTheosmaker/icon.png
+Name: iTheosMaker
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/iTheosmaker/Depiction
 
 Package: com.white.jumpadvideo
 Version: 0.1-3
@@ -3522,6 +3527,24 @@ Dev: tetherme
 Icon: file:///Library/PreferenceBundles/TetherMe.bundle/TetherMe@2x.png
 Name: TetherMe for iOS 8+
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.white.theostips
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: iKilledAppl3 <ipodnewbee234@icloud.com>
+Depends: mobilesubstrate
+Filename: ./debs/theostips_1.0-1.deb
+Size: 5466412
+MD5sum: a13254dce826354613b9703fdb262b98
+SHA1: 1da84133b832f106c6614a961ca73a3a6f142813
+SHA256: 1961583615896a465e6ca6be6f158988a8c49c6c32bd4ff39cd6e2ef66214bac
+Section: Utilities
+Description: 了解如何轻松创建插件！
+Author: iKilledAppl3 <ipodnewbee234@icloud.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Theostips/icon.png
+Name: TheosTips
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Theostips/Depiction
+Website: http://ikilledappl3.com
 
 Package: com.white.thunderhelper
 Version: 1.5.1
@@ -5715,24 +5738,6 @@ Author: ATWiiks
 Depiction: https://rejail.ru/depiction.php?file=betterccxi
 Name: BetterCCXI Rus
 Sileodepiction: https://rejail.ru/sileo/depiction.php?file=betterccxi
-
-Package: ru.rejail.filza
-Version: 4.0.1-4
-Architecture: iphoneos-arm
-Maintainer: ReJail <rejail@rejail.ru>
-Installed-Size: 19388
-Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
-Filename: ./debs/ru.rejail.filza_4.0.1-4.deb
-Size: 6998020
-MD5sum: 657c80e604ad5e541d3de11d06550be4
-SHA1: de74eb7f7beaeeb9b21e45c0d5f679ecc3a0cdb3
-SHA256: 7dd1aeabf09437494d92a3d4ebc00a2ca76a04734e12beb3e5e4f77438ce03df
-Section: Utilities
-Description: 强大的iOS文件管理器
-Author: TIGI Software
-Depiction: https://rejail.ru/depiction.php?file=filza
-Name: Filza File Manager
-Sileodepiction: https://rejail.ru/sileo/depiction.php?file=filza
 
 Package: ru.rejail.grupi
 Version: 2.1
