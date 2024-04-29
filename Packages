@@ -177,6 +177,39 @@ Author: level3tjg
 Depiction: https://level3tjg.me/repo/depictions/?p=com.level3tjg.researchspoof
 Name: ResearchSpoof
 
+Package: com.michael.globalizefix
+Version: 0.4.0-1
+Architecture: iphoneos-arm
+Maintainer: Halo_Michael <yc992147156@me.com>
+Installed-Size: 136
+Depends: com.parrotgeek.globalize, com.michael.suer, mobilesubstrate
+Filename: ./debs/michael.globalizefix_0.4.0-1.deb
+Size: 3984
+MD5sum: 95be8581477f32ab34f6d88c3655951d
+SHA1: 33bb511d4957634eec0dc7c9c0e18f5a4da132b6
+SHA256: 793d9629e83645ca7b935613efacd6ad7e3cb522f3e22a83ec231c628241fc65
+Section: Tweaks
+Description: 修复重启设备后可能导致Globalize失效的问题
+Author: Halo_Michael <yc992147156@me.com>
+Name: GlobalizeFix
+
+Package: com.michael.suer
+Version: 0.6.5
+Architecture: iphoneos-arm
+Maintainer: halo_michael <yc992147156@me.com>
+Depends: firmware (>= 9.0)
+Filename: ./debs/michael.suer_0.6.5.deb
+Size: 8340
+MD5sum: cf53e0a593f89662d9bf9bc5ed7205de
+SHA1: e94f3f31d3af6d9b62cb73492fadf890e00f5864
+SHA256: 0cafecd5774453fcae55b56b97cfd442a589952ac1ff9f1f076d6dbfc8d5d175
+Section: 依赖
+Description: 临时拥有root权限，但无需密码
+Author: halo_michael <yc992147156@me.com>
+Depiction: https://halo-michael.github.io/repo/info/suer
+Name: suer
+Sponsor: halo_michael <yc992147156@me.com>
+
 Package: com.mtac.ampere
 Version: 1.4
 Architecture: iphoneos-arm
@@ -301,6 +334,23 @@ Description: 更好的多任务分屏！修复对iOS15+的支持
 Author: c1d3r
 Name: PullOver Pro
 
+Package: com.parrotgeek.globalize
+Version: 0.3.2
+Architecture: iphoneos-arm
+Maintainer: parrotgeek1
+Installed-Size: 536
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/parrotgeek.globalize_0.3.2.deb
+Size: 6980
+MD5sum: 80f749366c1e293ab1fdae70da37b067
+SHA1: 92453a6c350422b9bf81069a4e16555fde31e166
+SHA256: 2cca27b440961f00618f322014c1d6917a9ace5c63cb4aa9441e621580b27132
+Section: Tweaks
+Description: 禁用iOS设备上的几乎所有地区差异/限制，请在安装后软重启设备
+Author: parrotgeek1
+Name: Globalize
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/globalize/Depiction
+
 Package: com.parrotgeek.ifilefix
 Version: 1.0
 Architecture: iphoneos-arm
@@ -316,22 +366,6 @@ Section: Tweaks
 Description: 修复iFile启动时崩溃的问题
 Author: parrotgeek1 <parrotgeek1@gmail.com>
 Name: iFile崩溃修复
-
-Package: com.parrotgeek.nobetaalert
-Version: 1.4.3
-Architecture: iphoneos-arm
-Maintainer: Ethan Nelson-Moore
-Installed-Size: 200
-Depends: mobilesubstrate, firmware (>= 9)
-Filename: ./debs/nobetaalert_1.4.3.deb
-Size: 3168
-MD5sum: c05e3501d5a4853edff56b2576360e52
-SHA1: b7324309c6be22d7a6ce02189dc3113eb9966ad6
-SHA256: 299961bee066388917d759579b87e1d43639332fe25eefdf7c42b8ae720de171
-Section: Tweaks
-Description: 隐藏iOS测试版更新弹窗 (iOS 9-13.x)
-Author: Ethan Nelson-Moore
-Name: NoBetaAlert
 
 Package: com.pheux.fixrandomresprings
 Version: 1.2.1
@@ -1828,6 +1862,26 @@ Name: Remover 越狱环境清理
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/remover/Depiction
 Sponsor: pwn20wnd/coolstarorg
 
+Package: com.white.facetimeaudioenabler
+Version: 1.2.0
+Architecture: iphoneos-arm
+Maintainer: Song Chenwen
+Installed-Size: 64
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), firmware (<= 10.3.3)
+Filename: ./debs/facetimeaudioenabler_1.2.0.deb
+Size: 3040
+MD5sum: 4c6c701c6453d4ca6aa0d035612b514f
+SHA1: 1f9f136d38ea76523ad4e6e48a4b42473c959e0b
+SHA256: 953f2225272a587bde06e9dc85cd99e698b775bbc6de68f1ce9bc9109eb74c5e
+Section: 老iOS专用
+Description: 激活国行Face Time音频通话
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9
+Author: Song Chenwen <me@songchenwen.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/faceaudio/icon.png
+Name: FaceAudio 激活国行网络通话
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/faceaudio/Depiction
+Sponsor: Song Chenwen
+
 Package: com.white.facetunevip
 Version: 3.0
 Architecture: iphoneos-arm
@@ -2046,6 +2100,25 @@ Author: Paul Bancarel
 Name: FlexTool
 Sponsor: White <1410970825@qq.com>
 
+Package: com.white.flux
+Version: 0.9988
+Architecture: iphoneos-arm
+Maintainer: standard
+Depends: firmware (>= 5.0), firmware (<= 10.3.3), preferenceloader
+Filename: ./debs/flux_0.9988.deb
+Size: 77020
+MD5sum: 6d57a0ec589b8cfb84dc8b61f5d5ba46
+SHA1: b185cf3a265ae168f1a2038a5919efc46eb4dbae
+SHA256: 35538c2b225c1b7cd78a458c44cd54976490a8fb914f2eb320ab818e7b1b5521
+Section: 老iOS专用
+Priority: standard
+Description: 自定义屏幕液晶冷暖色温
+Author: F.lux Software LLC <support@justgetflux.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/flux/icon.png
+Name: f.lux 屏幕色温调节
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/flux/Depiction
+Sponsor: standard
+
 Package: com.white.ftt
 Version: 1.1
 Architecture: iphoneos-arm
@@ -2155,6 +2228,25 @@ Depiction: https://rejail.ru/depiction.php?file=haptickeys
 Icon: file:///Library/PreferenceBundles/HKSettings.bundle/HK@2x.png
 Name: HapticKeys Rus
 Sileodepiction: https://rejail.ru/sileo/depiction.php?file=haptickeys
+
+Package: com.white.hapticle
+Version: 0.2-1
+Architecture: iphoneos-arm
+Maintainer: magn2o
+Installed-Size: 520
+Depends: mobilesubstrate, firmware (>= 9.0), firmware (<= 9.3.5)
+Filename: ./debs/hapticle_0.2-1.deb
+Size: 23384
+MD5sum: f384ed1d87a2173a58d93e282d58ffef
+SHA1: c793f0a52f27941d317e9a2da75d13f6bea392f1
+SHA256: b9d004e1eba545948e34f9df5cb52823479a648f02b0640ba5d5b0b4d4388fad
+Section: 老iOS专用
+Description: 配合revealMenu(3D Touch)使用，与6s真机体验相差无异！
+Author: magn2o
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/hapticle/icon.png
+Name: Hapticle iOS9震动反馈
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/hapticle/Depiction
+Sponsor: magn2o
 
 Package: com.white.iconsfix
 Version: 1.0.0
@@ -2615,6 +2707,22 @@ Description: 启动无线/蜂窝网络框架优化来提升响应速度
 Author: iBreak <ibreak2019@qq.com>
 Name: Network Exalt
 
+Package: com.white.nobetaalert
+Version: 1.4.3
+Architecture: iphoneos-arm
+Maintainer: Ethan Nelson-Moore
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/nobetaalert_1.4.3.deb
+Size: 3168
+MD5sum: 6baf9d1d6d99a07a6f9a1dfb29bf7db8
+SHA1: 2f38bb9ab4eae4fd74808c203d2be64f12f688f6
+SHA256: a4962b55de4c53d4f537ef9ccfd54aa26e3e05a9dffaa1240c4c152e6230ab6b
+Section: Tweaks
+Description: 屏蔽iOS测试版更新弹窗 (iOS 9-13.x)
+Author: Ethan Nelson-Moore
+Name: NoBetaAlert
+
 Package: com.white.nomoresmallapps
 Version: 2.0.1
 Architecture: iphoneos-arm
@@ -2894,6 +3002,27 @@ Depiction: https://repo.cypwn.xyz/depiction/329
 Icon: https://twickd.com/images/f0f40317369878782d0acff4e022713f4d778ebd.jpeg?size=medium
 Name: RETROKeys Keyboard Pack
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/329
+
+Package: com.white.revealmenu
+Version: 2.2-121
+Architecture: iphoneos-arm
+Maintainer: iMokhles
+Installed-Size: 527
+Depends: mobilesubstrate, firmware (>= 9.0), firmware (<= 9.3.5), com.imokhles.imodevtools
+Filename: ./debs/revealmenu_2.2-121.deb
+Size: 128632
+MD5sum: 15bb5ae576ec85e59952946f5f6c79a6
+SHA1: 436e52674d113294c5fba2c1d95f2e0b4f0b0cf0
+SHA256: 10b753c074921d82d2f12dabc9e2cac5ec83b81403976b7c3244b60036b32ed6
+Section: 老iOS专用
+Priority: optional
+Description: 在老设备上体验3D Touch，长按触发
+Tag: purpose::extension, compatible::ios9
+Author: iMokhles <mokhleshussien@aol.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/revealmenu/icon.png
+Name: RevealMenu (3D Touch)
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/revealmenu/Depiction
+Sponsor: iMokhles
 
 Package: com.white.safeccmodules
 Version: 1.5-2
