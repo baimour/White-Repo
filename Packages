@@ -1485,10 +1485,10 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 493
 Depends: mobilesubstrate, preferenceloader, firmware (>= 10.0), libactivator
 Filename: ./debs/dockxiplus_1.0.0-1.deb
-Size: 78412
-MD5sum: 53c13464497f9ac9bedde6835eeb960b
-SHA1: 8b2f6f3cb876a87597d0efb3ababd2a43c53e1fd
-SHA256: 5cabc721602c7f89892ffe38a708ab80d69224ad9cdf597dd5f570d8f7741805
+Size: 78488
+MD5sum: 281d0bd0de42bb478586faa26fa1cd7f
+SHA1: 0175d0044e70d98b81cd01df16e6c1ded14d53b1
+SHA256: 00327ab9bdfbfe956ee9b06782c48c9b549822afbecb48277412911549c9d105
 Section: 老iOS专用
 Priority: optional
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dockplusipadDp
@@ -1508,20 +1508,20 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 1521
 Depends: mobilesubstrate, preferenceloader, firmware (>= 8.0), firmware (<= 10.3.3), libactivator, org.thebigboss.libcolorpicker
 Filename: ./debs/dockxiplusiphone_3.0.1-2.deb
-Size: 260860
-MD5sum: a37ab92e1739d537939453b5be2578b3
-SHA1: 49c3a85051098514003b25d0b0b75545d803e320
-SHA256: d99ae2dcb3f1d4784b7ad8f598f4c28b563421eb4d484f1629643ed89b9b39e9
+Size: 260728
+MD5sum: 55a2591233f93d84badf31110bb4b5bd
+SHA1: ad629f1cc0fae30a50a030e5c4ffa7ea1419291e
+SHA256: b5ce57d2d901e919926a07deefcede2ace8b6eae853de572ca3b02102479bc9f
 Section: 老iOS专用
 Priority: optional
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dockplusiphoneDp
-Description: Drag&drop / multi-tasking tweak for iPhone
+Description: 适用于iPhone的拖放/多任务插件
 Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10
 Author: XCXiao <958169971@qq.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dockplusiphoneDp
 Dev: xcxiao
 Name: Dock+ For iOS8/9/10
-Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Dockphone/Depiction
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/dockphone/Depiction
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.white.downloadbar13
@@ -2569,14 +2569,16 @@ Maintainer: 0xkuj
 Installed-Size: 388
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/LowerNotifs_1.0.1.deb
-Size: 33564
-MD5sum: 6aaa6b86841c24062d9320bd3ea8bb91
-SHA1: 1dd4e91991b1ef6cfc6f91a87e59ab09fab720b5
-SHA256: 96675bfa1dfb7b0f60eb724c1bc1a63f8334c98b698de532106ab9c95c15315e
+Size: 33608
+MD5sum: b5790eacbef7efa8711ffec9890db294
+SHA1: 5dd7a523854de7d6706199b9316e892ed63390fd
+SHA256: 6af168ffecb5079f93743a8987b6f90b57c9d626f5c2604c2f94266b8d560f11
 Section: Tweaks
 Description: 将通知限制降低到您希望在锁屏中显示的任何位置，这将影响可以看到通知的最大点。支持iOS 14，未在较低版本上测试，开源项目：https://github.com/0xkuj/LowerNotifs
 Author: 0xkuj
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/lowernotifs/icon.png
 Name: LowerNotifs
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/lowernotifs/Depiction
 
 Package: com.white.milkyway3
 Version: 0.2.15
@@ -2988,18 +2990,18 @@ Maintainer: poetic_folly <poetic_folly@modmyi.com>
 Depends: mobilesubstrate, applist, firmware (>= 8.0), firmware (<= 9.3.5), preferenceloader
 Conflicts: com.joshdoctors.cclivebrightness, net.limneos.bioprotect, com.repo.xarold.com.bioprotect, com.a3tweaks.auxo3ios9, com.repo.xarold.com.auxo3ios9, org.thebigboss.lylac, com.repo.xarold.com.lylac, net.angelxwind.mikoto(<<2.9-beta-1), com.repo.xarold.com.mikoto(<<2.9-beta-1), org.thebigboss.switchertweakpro, com.repo.xarold.com.switchertweakpro
 Filename: ./debs/seng_1.2.0.deb
-Size: 356872
-MD5sum: 00819f3d965c0f3cd104f2ede9f9885c
-SHA1: f59a9925ed1d2ed7abe6a1f26c73fd49bb782b5a
-SHA256: dd3f356670c39f4ecaf08f15bed4dfe71b4418d91935d9fa43cd92630649b168
+Size: 356764
+MD5sum: 5b44a2dbf57b9b6a59b3134bcbe91640
+SHA1: 06d68f16947445d28de44d38cfef35b715b458e8
+SHA256: 88c569ba43898c76e87c8a5f915adafdbfaa8608046ab1991d3ee264ae32651c
 Section: 老iOS专用
 Priority: extra
 Description: 细节比Auxo3更优秀的控制中心增强
-Tag: cydia::commercial
 Author: Charlie Hewitt
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/seng/icon.png
 Name: seng 控制中心增强
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/seng/Depiction
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
 
 Package: com.white.seng
 Version: 1.2.2-1
@@ -3008,19 +3010,19 @@ Maintainer: poetic_folly <poetic_folly@modmyi.com>
 Depends: mobilesubstrate, applist, firmware (>=8.0), firmware (<= 9.3.5), preferenceloader
 Conflicts: com.joshdoctors.cclivebrightness, com.a3tweaks.auxo3ios9, org.thebigboss.lylac, net.angelxwind.mikoto(<<2.9-beta-1), org.thebigboss.switchertweakpro
 Filename: ./debs/seng_1.2.2-1.deb
-Size: 358804
-MD5sum: 371db23b6e40720378d9500390f8badf
-SHA1: ddc45c9974c1b2c283f842dfffa12941eb6f9358
-SHA256: e832650138068057278f01fbf7e534673e46ecf149167a7cd57eae068ca7ab58
+Size: 358796
+MD5sum: f3418ade664a5636f24c8771b3e49771
+SHA1: 26d8f2abdae9eba1ac66e489b78fe8d90c1a3454
+SHA256: c874150fb3fb882f6e19336bc16f9ff2d9039dac5538de26e1d402afe99f3ecd
 Section: 老iOS专用
 Priority: extra
 Description: 细节比Auxo3更优秀的控制中心增强
-Tag: cydia::commercial
 Author: Charlie Hewitt <contact@chewitt.me>
 Depiction: http://modmyi.com/info/seng.d.php
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/seng/icon.png
 Name: seng 控制中心增强
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/seng/Depiction
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
 
 Package: com.white.shadowsocks
 Version: 0.3.2-3
