@@ -3141,6 +3141,22 @@ Name: RevealMenu (3D Touch)
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/revealmenu/Depiction
 Sponsor: iMokhles
 
+Package: com.white.runroot
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: udevs
+Installed-Size: 132
+Filename: ./debs/runroot_0.0.2.deb
+Size: 5908
+MD5sum: b0e9510751e2e43151fb8850f8794de6
+SHA1: 77b4af217acad42bb0366002645ba1f3c81b15bc
+SHA256: 07e131660f9805e2f0967251889c29a5f6df13f63da1b5a502f7a82c2841007d
+Section: System
+Description: 以root权限运行命令
+Tag: role::hacker
+Author: udevs
+Name: runroot
+
 Package: com.white.safeccmodules
 Version: 1.5-2
 Architecture: iphoneos-arm
@@ -4304,22 +4320,6 @@ Section: 依赖
 Priority: standard
 Description: OpenSSL v1.0版依赖库
 Name: OpenSSL 1.0 Libraries
-
-Package: libtapi
-Version: 10-1
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 16
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: libtapi10
-Filename: ./debs/libtapi_10-1.deb
-Size: 852
-MD5sum: 99393f12eccd4bf4fda7aefdfad4a1e7
-SHA1: c0137d23e0cae633c1df07bbdf58f356c628e3cf
-SHA256: 205adea03b6ad28fd555268879676627b7d90f342bdf5ac1aa7c0a27d16531f0
-Section: Development
-Priority: optional
-Description: 基于文本的应用程序编程接口 (依赖库)
 
 Package: libtapi10
 Version: 10.0.0~svn-20200108+247e5b37d63-2
