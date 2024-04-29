@@ -1304,10 +1304,10 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 682
 Depends: firmware (>= 7.0), firmware (<= 9.3.5), mobilesubstrate, preferenceloader
 Filename: ./debs/deleteforever_0.0.1-57.deb
-Size: 250884
-MD5sum: 1149ca393576584253345dbae776ec27
-SHA1: c2a8d4012f434df218f5521f8a795e2603c54bc4
-SHA256: a53ea682d7814eb6adce02ea11deceddea465e671bbd48c4edfaa6face5625f7
+Size: 250728
+MD5sum: 992d5b4eedb6289523631553a0611a79
+SHA1: fd9a5e357eaaee5bc8925ad0f00a5c32abec5ce1
+SHA256: a007b7d8cb5a62b525c7276a49040d16241366b495ef71539fc530283c02436b
 Section: 老iOS专用
 Priority: optional
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=deleteforeverDp
@@ -1316,9 +1316,9 @@ Tag: purpose::extension, compatible::ios8, compatible::ios9
 Author: Creatix <ioscreatix@gmail.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=deleteforeverDp
 Dev: creatix
-Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/DeleteForever/icon.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/deleteforever/icon.png
 Name: DeleteForever
-Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/DeleteForever/Depiction
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/deleteforever/Depiction
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.white.designer
@@ -1343,22 +1343,22 @@ Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1980
 Package: com.white.detailedpowerusage
 Version: 1.0.1
 Architecture: iphoneos-arm
-Maintainer: TheComputerWhisperer <admin@abcydia.com>
+Maintainer: TheComputerWhisperer
 Installed-Size: 440
 Depends: firmware (>= 9.0), firmware (<= 10.3.3), mobilesubstrate
 Conflicts: org.thebigboss.detailedbatteryusage
 Filename: ./debs/detailedpowerusage_1.0.1.deb
-Size: 68456
-MD5sum: 0a92d00fb200228a98cdd74918bf32e8
-SHA1: cbcfe44b90b30c66301555b90a2bf370b4d0a514
-SHA256: aa97935ab1274c8150f33f5d87fa81676186450f31f6a77098d379931168ceff
+Size: 68296
+MD5sum: fcfd33e9653d3f93eb57d8948ca41c43
+SHA1: 28ab847642b7d90f62b20f8990942e6f63934686
+SHA256: dce822d2952c68193c8b1f82e9712d4a0707e52e0ede0d4a87c55b1c75664859
 Section: 老iOS专用
-Description: 兼容9-10系统
+Description: 兼容iOS9-10系统
 Tag: purpose::extension, compatible::ios9, compatible::ios10, compatible::ios11
 Author: TheComputerWhisperer <actualcomputerwhisperer@gmail.com>
-Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/DetailPowerU/icon.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/detailpower/icon.png
 Name: DetailPowerU 电量详情
-Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/DetailPowerU/Depiction
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/detailpower/Depiction
 Sponsor: TheComputerWhisperer
 
 Package: com.white.diary
@@ -1467,20 +1467,20 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 493
 Depends: mobilesubstrate, preferenceloader, firmware (>= 10.0), libactivator
 Filename: ./debs/dockxiplus_1.0.0-1.deb
-Size: 78376
-MD5sum: 6bfd7b3569b7a589406d28c1d73b945c
-SHA1: 938e01d7efa65baaad9c3f050881404bd695a3d6
-SHA256: 33829207fe31505690bfac322fb991cba9727918419b2db9cc9bc8b9154f56a5
+Size: 78412
+MD5sum: 53c13464497f9ac9bedde6835eeb960b
+SHA1: 8b2f6f3cb876a87597d0efb3ababd2a43c53e1fd
+SHA256: 5cabc721602c7f89892ffe38a708ab80d69224ad9cdf597dd5f570d8f7741805
 Section: 老iOS专用
 Priority: optional
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dockplusipadDp
-Description: Drag&drop / multi-tasking tweak for iPad
+Description: 适用于iPad的拖放/多任务插件
 Tag: purpose::extension, compatible::ios10
 Author: XCXiao <958169971@qq.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dockplusipadDp
 Dev: xcxiao
 Name: Dock+ For iPad
-Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/dockxiplus/Depiction
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/dockpad/Depiction
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.white.dockxiplusiphone
@@ -1490,10 +1490,10 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 1521
 Depends: mobilesubstrate, preferenceloader, firmware (>= 8.0), firmware (<= 10.3.3), libactivator, org.thebigboss.libcolorpicker
 Filename: ./debs/dockxiplusiphone_3.0.1-2.deb
-Size: 260516
-MD5sum: b007d239d813abe3aebd0f39cbd6f769
-SHA1: 8c8e92242df43ac030674512899a051f95d89baa
-SHA256: f0d387b250bdee4562aa8518f6c8e697144d780e7e34ccddf44da96974c2b55e
+Size: 260860
+MD5sum: a37ab92e1739d537939453b5be2578b3
+SHA1: 49c3a85051098514003b25d0b0b75545d803e320
+SHA256: d99ae2dcb3f1d4784b7ad8f598f4c28b563421eb4d484f1629643ed89b9b39e9
 Section: 老iOS专用
 Priority: optional
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dockplusiphoneDp
@@ -1503,7 +1503,7 @@ Author: XCXiao <958169971@qq.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dockplusiphoneDp
 Dev: xcxiao
 Name: Dock+ For iOS8/9/10
-Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Dock+/Depiction
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Dockphone/Depiction
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.white.downloadbar13
