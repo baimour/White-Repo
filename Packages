@@ -590,16 +590,17 @@ Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmwa
 Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
 Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
 Filename: ./debs/Flex3beta_1.3~Beta98.deb
-Size: 10740628
-MD5sum: f6e0b850e7f07bc6d721ec44f227959f
-SHA1: 353931ec298ed76e2b32ddfebdc7dd817dc09e80
-SHA256: 1d4292321cc49f9ca5e941d8606d2fbc34245a764f1c183e8e0e17910aca7d47
+Size: 9927196
+MD5sum: fd30faf79cefd99ead85c3db758eb390
+SHA1: 22e3e92ded7211fd54b18cd88853ba38de9e8cee
+SHA256: f89dcd86e34291b3bd6b09628ba1500fea8d15d390d614c0d6006f4256f4848f
 Section: Utilities
-Description: 开发您自己的补丁并在Flex社区Cloud上分享，增加额外汉化、编辑、复制补丁
+Description: 开发您自己的补丁并在Flex社区Cloud上分享
 Author: John Coates
-Icon: file:///Applications/Flex.app/AppIconBeta60x60@3x.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Flex/icon.png
 Name: Flex 3 Beta
 Recommended: com.rpetrich.rocketbootstrap
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Flex/Depiction
 
 Package: com.white.Flex3beta
 Version: 3~Beta50
@@ -609,15 +610,42 @@ Depends: mobilesubstrate, firmware (>= 9.0), com.rpetrich.rocketbootstrap
 Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
 Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
 Filename: ./debs/Flex3beta_3~Beta50.deb
-Size: 16772348
-MD5sum: 1f506a22d3fed9d99381dd091e3573cc
-SHA1: 10dacfeb813ac8b89ca593841d6a3f6de7141bb7
-SHA256: 2305bca76797d7da01c0bec671e81a1704df45243078c8295a26398230029b8f
+Size: 15269064
+MD5sum: a0d2475fedfc135310266a1dd597043e
+SHA1: 732cab9c01ec2279356ee64229d4674ab55b37a1
+SHA256: 79e739505a554f45e6e3a8750d8f992ed86216ad502c87a0573f41904e9ac75a
 Section: Utilities
-Description: 听说Flex 3 Beta50有神秘加成，所以上架一个老版本，增加额外汉化、编辑、复制补丁
+Description: 开发您自己的补丁并在Flex社区Cloud上分享
 Author: John Coates
-Icon: file:///Applications/Flex.app/AppIconBeta60x60@3x.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Flex/icon.png
 Name: Flex 3 Beta50
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Flex/Depiction
+
+Package: com.white.Flex3beta
+Version: 3~EarlyAccess4
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 57210
+Depends: mobilesubstrate, firmware (>= 9.0), com.rpetrich.rocketbootstrap
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, Flex3, Flex3beta, flex3featurecatalog
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, Flex3, Flex3beta, flex3featurecatalog
+Filename: ./debs/Flex3beta_3~EarlyAccess4.deb
+Size: 15034656
+MD5sum: 1f877a38258c836f03e830f089ebdf32
+SHA1: 079816e2a916230e25c876172c9dbbee262738db
+SHA256: 55c954b77488719aeb2f7f70311b2d328b0a638dd51d606f3c9096f7383d62ad
+Section: Utilities
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=flex3Dp
+Description: 开发您自己的补丁并在Flex社区Cloud上分享
+Tag: purpose::extension, compatible::ios9, compatible::ios10
+Author: John Coates <john@johncoates.me>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=flex3Dp
+Dev: acapulco1988
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Flex/icon.png
+Name: Flex 3
+Recommended: com.modmyi.libswift4 (>= 4.0.3)
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Flex/Depiction
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.white.LiNUZE.nightly
 Version: 1.0
@@ -1355,11 +1383,11 @@ Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 682
 Depends: firmware (>= 7.0), firmware (<= 9.3.5), mobilesubstrate, preferenceloader
-Filename: ./debs/DeleteForever_0.0.1-57.deb
-Size: 250728
-MD5sum: 992d5b4eedb6289523631553a0611a79
-SHA1: fd9a5e357eaaee5bc8925ad0f00a5c32abec5ce1
-SHA256: a007b7d8cb5a62b525c7276a49040d16241366b495ef71539fc530283c02436b
+Filename: ./debs/deleteforever_0.0.1-57.deb
+Size: 250772
+MD5sum: 3fee39ef7ff31a1c94eeece01662c4e1
+SHA1: 5a2d0bf75530655743a44fb0bca11e9084632ee7
+SHA256: 2eb4be53874d640e6277fcf087cc66c48da390707ffc35e902518671b2b079a9
 Section: 老iOS专用
 Priority: optional
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=deleteforeverDp
@@ -1368,9 +1396,9 @@ Tag: purpose::extension, compatible::ios8, compatible::ios9
 Author: Creatix <ioscreatix@gmail.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=deleteforeverDp
 Dev: creatix
-Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/deleteforever/icon.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/deletephoto/icon.png
 Name: DeleteForever
-Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/deleteforever/Depiction
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/deletephoto/Depiction
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.white.designer
