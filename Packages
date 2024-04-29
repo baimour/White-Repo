@@ -1792,6 +1792,24 @@ Description: 激活iPhone5的A1429联通电信4G •	兼容A1442破解电信4G
 Author: ABCydia <admin@abcydia.com>
 Name: Active 1429 4G iOS8
 
+Package: com.white.eraser
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: pwn20wnd/coolstarorg
+Depends: firmware (>= 9.0), firmware (<= 10.3.3)
+Filename: ./debs/remover_1.0.3.deb
+Size: 154976
+MD5sum: c0fc704c4ac4f012cfd3964a728539cc
+SHA1: 3d73ae1f6dc8e39d7f78ac3cbce4a75eea546fbc
+SHA256: 532711237e33e78ec4acd795404cc5a6deacf780dcfaf5f2760f1fa13149ee32
+Section: 老iOS专用
+Description: 支持iOS9-10系统，越狱环境清理
+Author: pwn20wnd & coolstarorg
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/remover/icon.png
+Name: Remover 越狱环境清理
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/remover/Depiction
+Sponsor: pwn20wnd/coolstarorg
+
 Package: com.white.facetunevip
 Version: 3.0
 Architecture: iphoneos-arm
@@ -2944,6 +2962,49 @@ Description: 越狱平刷工具，关闭开关为不清除设备数据，只清�
 Author: Pwn20wnd
 Icon: file:///Applications/Rollectra.app/AppIcon60x60@3x.png
 Name: SemiRestore11
+
+Package: com.white.seng
+Version: 1.2.0
+Architecture: iphoneos-arm
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Depends: mobilesubstrate, applist, firmware (>= 8.0), firmware (<= 9.3.5), preferenceloader
+Conflicts: com.joshdoctors.cclivebrightness, net.limneos.bioprotect, com.repo.xarold.com.bioprotect, com.a3tweaks.auxo3ios9, com.repo.xarold.com.auxo3ios9, org.thebigboss.lylac, com.repo.xarold.com.lylac, net.angelxwind.mikoto(<<2.9-beta-1), com.repo.xarold.com.mikoto(<<2.9-beta-1), org.thebigboss.switchertweakpro, com.repo.xarold.com.switchertweakpro
+Filename: ./debs/seng_1.2.0.deb
+Size: 356808
+MD5sum: 9665a446acaaeba96f21bca4d8c64b1c
+SHA1: 0c5c42468696b3c3b5d71ebb43e3986e0fab83d6
+SHA256: 512ecaa49f62c91f71c5e6b310bc30d19b3d0191bdbd9750c0bda0f87e1de32e
+Section: 老iOS专用
+Priority: extra
+Description: 细节比Auxo3更优秀的控制中心增强
+Tag: cydia::commercial
+Author: Charlie Hewitt
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/seng/icon.png
+Name: seng 控制中心增强
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/seng/Depiction
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+
+Package: com.white.seng
+Version: 1.2.2-1
+Architecture: iphoneos-arm
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Depends: mobilesubstrate, applist, firmware (>=8.0), firmware (<= 9.3.5), preferenceloader
+Conflicts: com.joshdoctors.cclivebrightness, com.a3tweaks.auxo3ios9, org.thebigboss.lylac, net.angelxwind.mikoto(<<2.9-beta-1), org.thebigboss.switchertweakpro
+Filename: ./debs/seng_1.2.2-1.deb
+Size: 359076
+MD5sum: 38c1a1063a1ef8472f6b6e38f25356a6
+SHA1: 45b97d6e63c43f3efe4cf3e018259e0ad29ad884
+SHA256: 38024d631ead8f706a446f9155d0643d525cd9907f874d1397d5fc93bd5817ee
+Section: 老iOS专用
+Priority: extra
+Description: 细节比Auxo3更优秀的控制中心增强
+Tag: cydia::commercial
+Author: Charlie Hewitt <contact@chewitt.me>
+Depiction: http://modmyi.com/info/seng.d.php
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/seng/icon.png
+Name: seng 控制中心增强
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/seng/Depiction
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
 
 Package: com.white.shadowsocks
 Version: 0.3.2-3
