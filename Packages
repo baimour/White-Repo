@@ -1,3 +1,41 @@
+Package: berkeleydb
+Version: 6.2.32-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 5520
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./debs/berkeleydb_6.2.32-1.deb
+Size: 691108
+MD5sum: c522aebe191b4aac069de0db73d1e5a9
+SHA1: 8e846de5a74c39bfab04d403889e1817a3e2474f
+SHA256: 8f2a10ee23423285cc35cb81f534d57741afbbacfdbb740f59f26deab4226efb
+Section: 依赖
+Priority: standard
+Homepage: http://www.oracle.com/technology/products/berkeley-db/index.html
+Description: Oracle的嵌入式数据库引擎
+Name: Berkeley DB
+
+Package: clang-10
+Version: 10.0.0~svn-20200108+247e5b37d63-3
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 488
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses, python, xz, libllvm10, libclang-cpp10, ld64, libclang-common-10-dev
+Conflicts: org.coolstar.llvm-clang64, org.coolstar.llvm-clang
+Replaces: org.coolstar.llvm-clang64, org.coolstar.llvm-clang
+Provides: org.coolstar.llvm-clang64, org.coolstar.llvm-clang, cc, gcc
+Filename: ./debs/clang-10_10.0.0~svn-20200108.deb
+Size: 44028
+MD5sum: 178751655b3e30d99ca8327e08e17870
+SHA1: da2408273941807900b1233b00934f653ca481d9
+SHA256: 489302d04dcee4a0b065fd27adb4a735bf06a0dbb37005049c659a091080686b
+Section: Development
+Priority: optional
+Homepage: https://www.llvm.org/
+Description: C、C++ 和  Objective-C 编译器
+Name: LLVM Clang (clang-10)
+
 Package: com.apple.Preferences
 Version: 9.9.9
 Architecture: iphoneos-arm
@@ -771,6 +809,22 @@ Description: 有时，你的越狱商店会弹出类似 "DPKG Locked"或 "apt lo
 Author: Randy420
 Depiction: https://Randy-420.GitHub.io/depic/aptFix.html
 Name: aptFix
+
+Package: com.white.arm64e
+Version: 0.1
+Architecture: iphoneos-arm
+Maintainer: s1ris
+Depends: clang, clang-10, ld64, odcctools, libllvm10, liblto10, libtapi10, make
+Filename: ./debs/arm64e_tool_0.1.deb
+Size: 984
+MD5sum: 0927fe4d7d00552aff5fa1a646fd6d41
+SHA1: bea432055311fe67b895e204365d488aa6beee66
+SHA256: 365a8ad10bd1946114acaf1373641db9c82247e89e6540715a15bd7b992031a2
+Section: Development
+Description: 在设备上编译arm64e架构，此插件需要安装Sam的Bingners软件源中的必要工具依赖，完成后您就可以使用arm64e架构编译Theos项目。在越狱商店允许您安装此插件之前，您可能需要手动卸载旧的开发插件。安装完成后就可以卸载此插件了
+Author: s1ris
+Depiction: https://apt.s1ris.org/depictions/arm64e/index.html
+Name: arm64e Tools
 
 Package: com.white.atria
 Version: 1.4.1
@@ -2143,13 +2197,13 @@ Installed-Size: 408
 Depends: mobilesubstrate, com.white.tools (>=2.3.6)
 Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
 Filename: ./debs/ftt_1.1.deb
-Size: 63688
-MD5sum: 69f083a3a385b10e60206d48c032a2e0
-SHA1: 87e40536365bb66224a89cf40e0ae0784077e9e4
-SHA256: d6e058aa4c527a65a7111424b638a83f409624195409c4d06371698eacf72a6c
-Section: System
+Size: 63660
+MD5sum: fbcb8aeed0777598e7c63f7896aa69cd
+SHA1: d18d6a5348f5a928da6f7349c9624f961f9ffa8c
+SHA256: a626e219cb8387d1449d85a55a73978e1ac87a03594cf5856ed8db845a637dd7
+Section: Development
 Homepage: https://theemeraldisle.family
-Description: 最初由iPadkid358制作，后由randy420更新
+Description: 最初由iPadkid358制作，后由randy420更新。该版本为White改版
 Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/ftt.html
 Name: Flex To Theos
@@ -3348,11 +3402,11 @@ Installed-Size: 296
 Depends: com.white.tools (>= 2.3.6), clang, curl, git, grep, perl, rsync, unzip, make, ldid, com.opa334.ccsupport, xar
 Conflicts: net.howett.theos
 Filename: ./debs/tai_5.2.2.deb
-Size: 37316
-MD5sum: 1dacf850ce1b4d2c5a2be6e7c5dbdc2e
-SHA1: e330a45fe70a0c09a34ff6290453c9e16d52f0a1
-SHA256: c916ea5993eb72d13121ec7b3d375ba0fe6f49c35978fc689b3007fd2bc54a05
-Section: System
+Size: 37208
+MD5sum: 83e7d1bb0464f7426c54804011e84115
+SHA1: 9a19b7560113961adc074a46232cdc1f1dd6b563
+SHA256: e2a078164cd0fc65a2747a5a836e0a7f06d5e464372a303ffcbea47280d1892a
+Section: Development
 Description: 使用简单的命令安装Theos
 Author: Randy420 <randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/tai.html
@@ -3367,35 +3421,14 @@ Installed-Size: 0
 Depends: odcctools, lz4, swift, xz-utils, plutil | com.bingner.plutil
 Conflicts: com.randy420.taidependsother, org.theos.dependencies
 Replaces: com.randy420.taidependsother, org.theos.dependencies, theos-dependencies
-Filename: ./debs/taidependscoolstar_0.4.deb
-Size: 992
-MD5sum: 6facccec0c633e94abf5f02439e1a061
-SHA1: 23f6aebca5ba0afe521ff835902d4ccc72344a8a
-SHA256: e36caba7c000bdffc888e4e5263e937d393cdbbdeee2717c7730b307a5240552
-Section: System
-Homepage: https://theemeraldisle.family
-Description: 使用酷星越狱工具的设备在安装Theos所需依赖
-Tag: role::hacker
-Author: Randy420 <randy.skinner@hotmail.com>
-Depiction: https://Randy-420.GitHub.io/depic/taidependscoolstar.html
-Name: Theos Auto Installer Dependencies for Procursus based jailbreaks
-
-Package: com.white.taidependscoolstar
-Version: 0.4
-Architecture: iphoneos-arm
-Maintainer: Randy420 <randy.skinner@hotmail.com>
-Installed-Size: 0
-Depends: odcctools, lz4, swift, xz-utils, plutil | com.bingner.plutil
-Conflicts: com.randy420.taidependsother, org.theos.dependencies
-Replaces: com.randy420.taidependsother, org.theos.dependencies, theos-dependencies
 Filename: ./debs/dependsCool.deb
-Size: 952
-MD5sum: d8c4181e4b9d179d6cfd379f4e108aa4
-SHA1: 2a89b5510b2072d5740a982db5a78f266b0c3332
-SHA256: d5e1268593b127ff3dabf6b500ad54af4513f2b6e2f1ff616074f1b850f46c93
-Section: System
+Size: 968
+MD5sum: aecf1c068b7b401a3a5011c8cdd02f2e
+SHA1: b1dd3932f9475f2789cc11e267208fa7d3407c4b
+SHA256: 6cf2263e6586a5384bf25f4dca55bfd66da3c953487634b83ddfafd7d623c7e3
+Section: Development
 Homepage: https://theemeraldisle.family
-Description: Dependencies for Procursus based jailbreaks (known as coolstar jailbreaks)
+Description: Coolstar越狱环境所需依赖项
 Tag: role::hacker
 Author: Randy420 <randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/taidependscoolstar.html
@@ -3570,12 +3603,12 @@ Installed-Size: 1804
 Depends: ws.hbang.common
 Replaces: com.randy420.encrypt
 Filename: ./debs/RandyTools_2.3.6.deb
-Size: 723744
-MD5sum: df8ce6d5752341fe5ee9457e16bed006
-SHA1: c4f0a44ff42960069c64d07ea0db0c0bd6275c04
-SHA256: 79a408be456864e2e60530e420074db57c6003983f6198e4ef8b11b5d0a3e470
-Section: System
-Description: Theos自动安装工具，在原版基础上精简选项
+Size: 723936
+MD5sum: 399bf7b2c827e14eb09406f901ade1e5
+SHA1: 7b7e5c09ce3f9d4bf2e0be53b5cf371eb6026d47
+SHA256: a3298eeb38828f8d8813b81c65ca720520d0047578b588c821a9908cc99743e3
+Section: Development
+Description: Theos自动安装工具，在原版基础上精简优化选项
 Author: White <1410970825@qq.com>
 Name: 420 Tools
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/RandyTool/Depiction
@@ -4138,6 +4171,22 @@ Name: Activator
 Sponsor: thebigboss.org <http://thebigboss.org>
 依赖源：https: //rpetri.ch/cydia/
 
+Package: libclang-cpp10
+Version: 10.0.0~svn-20200108+247e5b37d63-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 81400
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libllvm10
+Filename: ./debs/libclang-cpp10_10.0.0~svn-20200108.deb
+Size: 8590972
+MD5sum: b54e7de3bad7fec00dd8ce68d38bdf9f
+SHA1: 84ae88dc8de228d81b8f741b9c3eba0d692b1298
+SHA256: 87ba4c96537428f2e354ab87a4fe1039f9f1343fcd8e1136ea28bdc8beaf57d1
+Section: Development
+Priority: optional
+Description: 模块化编译器和工具链技术、运行库
+
 Package: libcrippy-1.0.0
 Version: 1.0
 Architecture: iphoneos-arm
@@ -4173,6 +4222,38 @@ Depiction: https://nscake.github.io/package.html?package=libflex
 Name: libFLEX
 Sileodepiction: https://nscake.github.io/depictions/libflex.sileo.json
 
+Package: libllvm10
+Version: 10.0.0~svn-20200108+247e5b37d63-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 141136
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses (>= 6.0)
+Filename: ./debs/libllvm10_10.0.0~svn-20200108.deb
+Size: 14574260
+MD5sum: 73e2a0a166ac485664c18299a734b63e
+SHA1: ed6ce7c6a7f08475838d26fcde53ed1d9ede6e4f
+SHA256: 658be1b0e3a47fd23c6043682b74f99696c9d2deaa4e0a14e8aa2a18bd8d4b75
+Section: Development
+Priority: optional
+Description: 模块化编译器和工具链技术、运行库
+
+Package: liblto10
+Version: 10.0.0~svn-20200108+247e5b37d63-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 456
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libllvm10
+Filename: ./debs/liblto10_10.0.0~svn-20200108.deb
+Size: 37348
+MD5sum: c9bb008d7fbb39c8c95a5ed07d313c3f
+SHA1: 9adc1351f16450a364499cc81e0a1862836d8c1c
+SHA256: b0b4e2acffd8f42086798819f857310112aa62afeb0b3e235607f252c1c237da
+Section: Development
+Priority: optional
+Description: 模块化编译器和工具链技术、运行库
+
 Package: libpartialzip-1.0.0
 Version: 1.0
 Architecture: iphoneos-arm
@@ -4189,6 +4270,40 @@ Homepage: https://www.openjailbreak.org/projects/libcrippy-1-0
 Description: none
 Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
 Name: libpartialzip
+
+Package: libssl1.0
+Version: 1.0.2s-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 6440
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ca-certificates
+Conflicts: openssl (<<1.0.2q)
+Filename: ./debs/libssl1.0_1.0.2s-1.deb
+Size: 818608
+MD5sum: 7302fd3c7bae281644875f4e9d59631a
+SHA1: 43de6a39480fc2ef58df61f9644424f1b1eabc68
+SHA256: c7d9e65622bd683f635082418cfda18d4713e231cc3caf5f1742c6422a9674f3
+Section: 依赖
+Priority: standard
+Description: OpenSSL v1.0版依赖库
+Name: OpenSSL 1.0 Libraries
+
+Package: libtapi10
+Version: 10.0.0~svn-20200108+247e5b37d63-2
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 584
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libllvm10, libclang-cpp10
+Filename: ./debs/libtapi10_10.0.0~svn-20200108.deb
+Size: 71948
+MD5sum: e81a1c0af6fa4ebaa260e3dd2e9cdf58
+SHA1: 7b2cde99f38eec61c7ba79d0d65778d6632d6b51
+SHA256: dda1cbead42acf8c641f25f36d6476e95b05614e89e456c839201731a4f8df8b
+Section: Development
+Priority: optional
+Description: 基于文本的应用程序编程接口 (依赖库)
 
 Package: me.jjolano.alertdismiss
 Version: 1.0.4
@@ -4531,11 +4646,11 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 268
 Depends: firmware (>= 13.0), mobilesubstrate
 Filename: ./debs/dumpbinaryfiles_1.1-8.deb
-Size: 37784
-MD5sum: c38acef513c49ac92132314a9ff84522
-SHA1: f96e4db48094873dfff60fc0a10994d5861f36ee
-SHA256: 6705e6f9a03a3031a90e658622f7301d6196514bfcf045056800345205dc8a5c
-Section: System
+Size: 37740
+MD5sum: b7ac1cce027a1fc07ee7a54f1e7ec2d5
+SHA1: 82f5ad133a1ed91bd2852879642483be2fc9793a
+SHA256: 3ef7677fe2e3681e8475c639d9b1e048bc797355851705024966491c1919f6d0
+Section: Utilities
 Description: 提供二进制文件动态解密列表，方便逆向工程应用
 Author: White <1410970825@qq.com>
 Name: DumpBinaryFiles
@@ -5671,6 +5786,28 @@ Icon: https://repo.theodyssey.dev/depictions/icons/libhooker.png
 Name: libhooker
 Sileodepiction: https://repo.theodyssey.dev/depictions/json/libhooker.json
 
+Package: org.coolstar.llvm-clang
+Version: 3.7.1-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 521112
+Depends: firmware (>= 5.0), firmware(<< 9.0) | org.coolstar.llvm-clang64, firmware(>= 9.0) | org.coolstar.llvm-clang32, cy+cpu.arm64 | org.coolstar.llvm-clang32
+Filename: ./debs/org.coolstar.llvm-clang_3.7.1-1.deb
+Size: 960
+MD5sum: 643bf6bd5c3339925430470ee946b7b5
+SHA1: 44c498be6f38faa5d6152aa6156d8165ded94844
+SHA256: 53f374910c51d1e50d8da8618befe93213f484c1c338e338adcaa166b4d37d25
+Section: Development
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=llvm-clangDp
+Description: 适用于32/64位设备的LLVM、Clang和编译器
+Tag: purpose::console
+Author: CoolStar <coolstarorganization@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=llvm-clangDp
+Dev: coolstar
+Name: LLVM+Clang
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: org.coolstar.stash933
 Version: 1.5.0
 Architecture: iphoneos-arm
@@ -5721,6 +5858,24 @@ Author: tihmstar
 Dev: tihmstar
 Name: kDFUApp
 
+Package: python
+Version: 2.7.15-2
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 83888
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: berkeleydb, bzip2, expat, libffi, libssl1.0, libxml2, ncurses, readline, sqlite3
+Filename: ./debs/python_2.7.15-2.deb
+Size: 7718964
+MD5sum: 12b38beb8a13ad959ed71676249f2e5b
+SHA1: a06b29dc531a7d8e5d160ab4938926e39c452e14
+SHA256: 3167b5f7596c60e562e6b60057a54c75b3fc1c7cb6dbc69b8e228c58daf8eb4e
+Section: 依赖
+Priority: optional
+Homepage: http://www.python.org/
+Description: 架构编程语言依赖
+Name: Python
+
 Package: ru.rejail.betterccxi
 Version: 1.6.0
 Architecture: iphoneos-arm
@@ -5764,11 +5919,11 @@ Architecture: iphoneos-arm
 Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 92
 Filename: ./debs/shc_4.0.3.deb
-Size: 17770
-MD5sum: 765164399502d20b8acbbea9d12cc3b1
-SHA1: 152f066c58687e9b1e2b50602de5e045f2053926
-SHA256: e80e9058c1272576777f5d4df2f3341ece30bdb92800fbfbe19984a2a13a10fe
-Section: System
+Size: 17064
+MD5sum: e71d8189f7ea15aff69bb2e701d2d28d
+SHA1: 28a448138a56bfbc16c4f9da2aaf577782d02335
+SHA256: f9ab238d756e792d8a425158db8306ca98a972c3213e253c26c7ab63c0d479db
+Section: Development
 Priority: optional
 Description: shell脚本编译器
  shc是一个通用的 shell 脚本编译器
@@ -5777,6 +5932,7 @@ Description: shell脚本编译器
  编译后的二进制文件仍将依赖于 shell 代码第一行中的shell，因此shc不会创建完全独立的二进制文件
  .
  shc它不像cc这样的编译器，它是对shell脚本进行编码和加密，并生成具有附加过期功能的C源码。然后，它使用系统编译器编译一个剥离的二进制文件，其行为与原始脚本完全相同。执行时，编译后的二进制文件将使用shell 的 -c 选项解密并执行代码
+Name: shc (脚本编译器)
 
 Package: xyz.cypwn.satella
 Version: 1.9.0
