@@ -4171,6 +4171,22 @@ Name: Activator
 Sponsor: thebigboss.org <http://thebigboss.org>
 依赖源：https: //rpetri.ch/cydia/
 
+Package: libclang-common-10-dev
+Version: 10.0.0~svn-20200108+247e5b37d63-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 16864
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libllvm10
+Filename: ./debs/libclang-common-10-dev_10.0.0~svn-20200108.deb
+Size: 459188
+MD5sum: 03d6368efd7a156f16703bf7a1833927
+SHA1: f0e301be6b12968baf77372a79961befaeee4ae0
+SHA256: d4a48e88784ce0a6898ecfd6a3ed075bfee26851b2a5bb365d14a3baf5b0101a
+Section: Development
+Priority: optional
+Description: Clang依赖库 - 通用开发包
+
 Package: libclang-cpp10
 Version: 10.0.0~svn-20200108+247e5b37d63-1
 Architecture: iphoneos-arm
@@ -4288,6 +4304,22 @@ Section: 依赖
 Priority: standard
 Description: OpenSSL v1.0版依赖库
 Name: OpenSSL 1.0 Libraries
+
+Package: libtapi
+Version: 10-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 16
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libtapi10
+Filename: ./debs/libtapi_10-1.deb
+Size: 852
+MD5sum: 99393f12eccd4bf4fda7aefdfad4a1e7
+SHA1: c0137d23e0cae633c1df07bbdf58f356c628e3cf
+SHA256: 205adea03b6ad28fd555268879676627b7d90f342bdf5ac1aa7c0a27d16531f0
+Section: Development
+Priority: optional
+Description: 基于文本的应用程序编程接口 (依赖库)
 
 Package: libtapi10
 Version: 10.0.0~svn-20200108+247e5b37d63-2
@@ -5933,6 +5965,22 @@ Description: shell脚本编译器
  .
  shc它不像cc这样的编译器，它是对shell脚本进行编码和加密，并生成具有附加过期功能的C源码。然后，它使用系统编译器编译一个剥离的二进制文件，其行为与原始脚本完全相同。执行时，编译后的二进制文件将使用shell 的 -c 选项解密并执行代码
 Name: shc (脚本编译器)
+
+Package: tapi-10
+Version: 10.0.0~svn-20200108+247e5b37d63-2
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 80216
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libtapi10
+Filename: ./debs/tapi-10_10.0.0~svn-20200108.deb
+Size: 8884092
+MD5sum: f58a4d06e9064bae1425bdd6224a2e0c
+SHA1: 4491e5f94efc741f7c11452a00416057e7c5a090
+SHA256: 8bee8415cfab01cfb89820dd08a62cb81687ae41b836053b7fde74d0def37751
+Section: Development
+Priority: optional
+Description: 基于文本的应用程序编程接口
 
 Package: xyz.cypwn.satella
 Version: 1.9.0
