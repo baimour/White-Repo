@@ -2312,6 +2312,20 @@ Dev: carsten
 Icon: file:///Applications/iFile.app/AppIcon60x60@3x.png
 Name: iFile
 
+Package: com.white.ios9wallpaper
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Chikuma
+Filename: ./debs/ios9wallpaper_0.0.1.deb
+Size: 36846848
+MD5sum: faedbbca00b90092a29a4e4d9c8e1cf6
+SHA1: 6445613b41b31e547ff344431ca2c84240dee6d3
+SHA256: 36db6bbbc7d240c02d476a1b21e8ea08202435c20110cf4b2791753856ac29c6
+Section: Themes
+Description: 以KR-KP为特色的iOS9壁纸
+Author: Chikuwa
+Name: iOS9 WallPapers
+
 Package: com.white.iparanger
 Version: 1.9
 Architecture: iphoneos-arm
@@ -2751,6 +2765,22 @@ Description: 屏蔽iOS测试版更新弹窗 (iOS 9-13.x)
 Author: Ethan Nelson-Moore
 Name: NoBetaAlert
 
+Package: com.white.noforcedentry
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: Mario Cheung
+Depends: firmware (<= 14.8.1), mobilesubstrate
+Filename: ./debs/noforcedentry_0.0.2.deb
+Size: 3548
+MD5sum: 4629c3e909c727a9cf0f7a382564694a
+SHA1: 605b6047ba5a5abe5b0f136b23cabe32abfa196c
+SHA256: 8843e28fc60364aebf468baf4e31538e2f0f8afb41d9e7796ecdea3f10a5c398
+Section: Tweaks
+Description: 希望避免 Pegasus 间谍软件的zero-click iOS漏洞'强制进入'
+Author: Mario Cheung
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/forcedentry/icon.png
+Name: FORCEDEXIT
+
 Package: com.white.nomoresmallapps
 Version: 2.0.1
 Architecture: iphoneos-arm
@@ -3139,6 +3169,26 @@ Description: 越狱平刷工具，关闭开关为不清除设备数据，只清�
 Author: Pwn20wnd
 Icon: file:///Applications/Rollectra.app/AppIcon60x60@3x.png
 Name: SemiRestore11
+
+Package: com.white.seng
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Depends: mobilesubstrate, applist, firmware (>= 8.0), preferenceloader
+Conflicts: com.joshdoctors.cclivebrightness
+Filename: ./debs/seng_1.0.1.deb
+Size: 290528
+MD5sum: 521754438bda0ef5e93023abda8946b8
+SHA1: 9672451f271332bc4925b31251855e86ed4e04c9
+SHA256: 8d0f1f1d0a7369632995924db3f37f4eaf14612839543449ac14c137433ccb9e
+Section: 老iOS专用
+Homepage: http://modmyi.com/info/seng.php
+Description: 细节比Auxo3更优秀的控制中心增强
+Author: Charlie Hewitt <contact@chewitt.me>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/seng/icon.png
+Name: seng 控制中心增强
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/seng/Depiction
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
 
 Package: com.white.seng
 Version: 1.2.0
