@@ -1313,12 +1313,12 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Cunstuck
 Installed-Size: 504
-Depends: firmware (<= 9.0), firmware (<= 14.8.1), mobilesubstrate
+Depends: firmware (>= 9.0), firmware (<= 14.8.1), mobilesubstrate
 Filename: ./debs/cunstuck_1.0.deb
-Size: 198404
-MD5sum: 6471503f4fda1486c534436e712ca3b4
-SHA1: f4212eb6500b0f052eeaa84c7a602a0b68110410
-SHA256: 76743c2c7e74b34b626a36e7080eb793e9b766d54b9e47a7d7d9dd0c07712811
+Size: 198476
+MD5sum: b86673938bb5897aa3f955f59ca93e7d
+SHA1: 91ad44cf7cb9eeb32577c19f66fd5ad52fc23a18
+SHA256: 11c92afcbccebf16f229df9c750621bd227e20127478b32ba3c57188e8bdc8aa
 Section: Development
 Description: 启用插件许可证
 Author: Cunstuck
