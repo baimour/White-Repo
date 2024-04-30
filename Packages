@@ -769,6 +769,26 @@ Description: 允许第三方键盘获取优先级权限，密码可使用第三�
 Author: iBreak <ibreak2019@qq.com>
 Name: Allow KeyBoard
 
+Package: com.white.animationsbefastplus
+Version: 5.0
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 599
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, applist, firmware (<= 13.7), com.rpetrich.rocketbootstrap
+Conflicts: com.adamseiter.animationsbefast,com.pulandres.animationsbefastpluss, jp.novi.FakeClockUp, jp.novi.FakeClockUp2, com.zezblog.noslowanimationsar, com.marcosinghof.noslowanimations, com.pknauf.nsa, com.idevicehacked.nsa, com.adamseiter.animationsbefastplus
+Filename: ./debs/animationsbefastplus_5.0.deb
+Size: 87940
+MD5sum: 7d0d9eb71864e1bbfa0f966a02820dbf
+SHA1: 1835e1c8f5fb0587e3ced92af89983b5f6935c03
+SHA256: 8f3afa58567f2113955208112700ccadb3329bf06ce0a55b71b3c4f5fb7dd000
+Section: Tweaks
+Description: 加快系统UI动画速度
+Author: eXqusic
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/animationsbefastplus/icon.png
+Name: AnimationsBeFastPlus
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/animationsbefastplus/Depiction
+Sponsor: White <1410970825@qq.com>
+
 Package: com.white.appstoreplusplus
 Version: 0.10.1-5
 Architecture: iphoneos-arm
@@ -1043,6 +1063,21 @@ Description: 移除运营商签名保护，对gpp排异
 Author: HuWenDong <admin@abcydia.com>
 Name: CommCenter Patch for iOS 7-10
 
+Package: com.white.ccpatch10
+Version: 4.0.1
+Architecture: iphoneos-arm
+Maintainer: Pwn20wnd <itweakios@yahoo.com>
+Depends: mobilesubstrate, firmware (>=10.0), firmware (<= 14.8.1)
+Filename: ./debs/ccpatch10_4.0.1.deb
+Size: 31608
+MD5sum: c1245470c407f68d48481624f3735bce
+SHA1: b5afa19e8f8f0df5f0ffe074d1bb639fc287c9fd
+SHA256: 82f64879f1648881dfd0d87fcf903e701a7ba0bd1c3704717c51fbc7f0313bab
+Section: Tweaks
+Description: 废除运营商签名保护 (iOS10-14)
+Author: Pwn20wnd <itweakios@yahoo.com>
+Name: CommCenter Patch (10-14)
+
 Package: com.white.celldia
 Version: 0.0~beta5
 Architecture: iphoneos-arm
@@ -1291,6 +1326,25 @@ Depiction: https://mrepo.org/depiction/4903
 Icon: https://img.chariz.cloud/icon/customizebw/icon@3x.png
 Name: CustomizeBW
 Sileodepiction: https://mrepo.org/sileo/4903
+
+Package: com.white.customsw
+Version: 1.5.0
+Architecture: iphoneos-arm
+Maintainer: mostafa89
+Installed-Size: 704
+Depends: firmware (>= 11.0), firmware (<= 14.8.1), mobilesubstrate, preferenceloader, com.spark.libsparkcolourpicker
+Filename: ./debs/customsw_1.5.0.deb
+Size: 66424
+MD5sum: 5a9fa4b359ae87f69ac9fbfe8edc1a8c
+SHA1: 3f5bc40cb2f64a1998b07b654c9a7936c394d48a
+SHA256: d83023175e0360d99b198f18b9fa1432c9957fe83a368c902d8df72f9be964a3
+Section: Tweaks
+Description: 自定义后台切换器，更改卡的自定义大小，定制大小的网格切换器，在切换器中显示隐藏状态栏等等
+Author: mostafa89
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/customsw/icon.png
+Name: Custom SW
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/customsw/Depiction
+Sponsor: White
 
 Package: com.white.cydiaplus
 Version: 1.2
@@ -2170,6 +2224,26 @@ Author: Paul Bancarel
 Name: FlexTool
 Sponsor: White <1410970825@qq.com>
 
+Package: com.white.floatingdockplus13
+Version: 1.1.9
+Architecture: iphoneos-arm
+Maintainer: P2KDev
+Installed-Size: 648
+Depends: firmware (>= 13.0),firmware (<= 14.8.1),mobilesubstrate,preferenceloader,com.spark.libsparkapplist
+Conflicts: com.imkpatil.floatingdock, com.synnyg.floatydock, com.imkpatil.floatingdockplus
+Filename: ./debs/floatingdockplus13_1.1.9.deb
+Size: 86944
+MD5sum: 630901853b5e7296f55ab3ba8774f75a
+SHA1: b7ccc5130f050dba9d747bfb75dfcec1ad165f81
+SHA256: 9bec7703cbc12ee8f098286279b95787fecdb3fe93f400fb371e6faf8b985a9f
+Section: Tweaks
+Description: 仿iPad Dock
+Author: P2KDev <p2kdev@gmail.com>
+Depiction: https://repo.cypwn.xyz/depiction/311
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/floatingdockplus/icon.png
+Name: FloatingDockPlus 13/14
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/floatingdockplus/Depiction
+
 Package: com.white.flux
 Version: 0.9988
 Architecture: iphoneos-arm
@@ -2354,6 +2428,24 @@ Dev: carsten
 Icon: file:///Applications/iFile.app/AppIcon60x60@3x.png
 Name: iFile
 
+Package: com.white.igg
+Version: 0.4.3
+Architecture: iphoneos-arm
+Maintainer: iGameGod
+Installed-Size: 200952
+Depends: mobilesubstrate (>= 0.9.5000), ldid, odcctools
+Filename: ./debs/igg_0.4.3.deb
+Size: 51787396
+MD5sum: 6165e32c13aeba3bbe610da34f6f3719
+SHA1: 4c02a8445b744b823eaaa1b211543c96f807aa21
+SHA256: 9019ea413a168e9b2867194e0fca7dd702df93140be0be21768e4337174841c9
+Section: Utilities
+Description: 成为游戏之神
+Author: iGameGod
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/igg/icon.png
+Name: iGameGod
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/igg/Depiction
+
 Package: com.white.ios9wallpaper
 Version: 0.0.1
 Architecture: iphoneos-arm
@@ -2444,6 +2536,25 @@ Author: @CrazyMind90
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/iTheosmaker/icon.png
 Name: iTheosMaker
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/iTheosmaker/Depiction
+
+Package: com.white.jailbreakhistorytheme
+Version: 1.6
+Architecture: iphoneos-arm
+Maintainer: ceadd
+Depends: firmware (>=8.0), firmware (<<15.0)
+Filename: ./debs/jailbreakhistorytheme_1.6.deb
+Size: 2829656
+MD5sum: f0fffaf1d627f626f470dd31e6ca95b1
+SHA1: 97effae14f5818c1078235f3fed74089603b7415
+SHA256: f53858c99d464f61baf27c1d130f7b2b815e0e81ea73601caafb4283637ea3d4
+Section: Themes
+Homepage: https://cydia.ceadd.ca
+Description: 经典越狱APP图标
+Tag: compatible_min::ios8, compatible_max::ios15
+Author: ceadd
+Depiction: https://ceadd.ca/cydia/depictions/?p=com.ceadd.jailbreakhistorytheme
+Name: History of Jailbreaking
+Sileodepiction: https://ceadd.ca/cydia/depictions/com.ceadd.jailbreakhistorytheme/SileoDepiction.json
 
 Package: com.white.jumpadvideo
 Version: 0.1-3
@@ -2807,6 +2918,24 @@ Section: Tweaks
 Description: 启动无线/蜂窝网络框架优化来提升响应速度
 Author: iBreak <ibreak2019@qq.com>
 Name: Network Exalt
+
+Package: com.white.networkmanager
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: NoisyFlake
+Installed-Size: 336
+Depends: firmware (>= 11.0), firmware (<= 14.8.1), mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/networkmanager_1.0.2.deb
+Size: 27440
+MD5sum: 7d1373346f4f95c122f013d9bbca01ec
+SHA1: cb2895803be6fe0cdc34e1860a6dead7ce0cfb6b
+SHA256: 37c26d7a27890cb0ddde9bc0597780b7af218395ae331e2a9e23afc7545996f6
+Section: Tweaks
+Description: 控制中心添加强制切换2G/3G/LTE模块
+Author: NoisyFlake
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/networkmanager/icon.png
+Name: NetworkManager
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/networkmanager/Depiction
 
 Package: com.white.nobetaalert
 Version: 1.4.3
@@ -3878,6 +4007,25 @@ Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
 Icon: file:///Applications/Zebra.app/AppIcon60x60@3x.png
 Name: Zebra
 Support: https://getzbra.com/repo/depictions/xyz.willy.Zebra/bug_report.html
+
+Package: com.white.zetsu
+Version: 1.4.1
+Architecture: iphoneos-arm
+Maintainer: Dcsyhi
+Installed-Size: 2308
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, com.rpetrich.rocketbootstrap, firmware (>= 14.0), firmware (<= 14.8.1), com.lacertosusrepo.libdeusprefs (>= 1.0)
+Filename: ./debs/zetsu_1.4.1_iphoneos-arm.deb
+Size: 2146432
+MD5sum: 08f24bb07b13430282d67c41012bfbda
+SHA1: 539c2bfe75186fb4fffe4bcc0114546953d068f2
+SHA256: ef8adf913bab182ce8267203e21127db661bef5093358bcb468b181905987f0b
+Section: Tweaks
+Description: iOS14上的多任务应用分屏
+Author: Dcsyhi
+Depiction: https://dcsyhi1998.github.io/depiction/zetsu.html
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/zetsu/icon.png
+Name: Zetsu
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/zetsu/Depiction
 
 Package: cydia-lproj
 Version: 1.1.32~b1
