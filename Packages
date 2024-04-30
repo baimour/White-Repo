@@ -1017,10 +1017,10 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 168
 Depends: firmware (>= 11.0), firmware (<= 15.8.2), mobilesubstrate
 Filename: ./debs/bilibili_1.0-9_iphoneos-arm.deb
-Size: 14440
-MD5sum: bd0129ac945ea845f3d5d9aa46aa9080
-SHA1: 42e6be0bffcd3916c0bfeeddfe51a1549c908f22
-SHA256: a413e5abce9a86fb76bc31e0c80593615adcfddd11617a13d557e6002277d7b4
+Size: 14464
+MD5sum: 11aa4483c9c94ee68f712e0b073c9008
+SHA1: 0ddd6f058292b83c4061ce86224cdb3a344e78da
+SHA256: 033389d4b11727324c9ff555093744018ae912447806c30f80b1c572c6a2c2c5
 Section: NoAds
 Description: 基于7.65.0制作，其他版本自测
 Author: White <1410970825@qq.com>
@@ -1035,10 +1035,10 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 200
 Depends: firmware (>= 11.0), firmware (<= 15.8.2), mobilesubstrate
 Filename: ./debs/bilibili_1.0-9_iphoneos-arm64.deb
-Size: 14814
-MD5sum: 883753c41192fd798b78d83a3535ac2b
-SHA1: 9d9998cf01c338d7b441d800d11318cb2f6dd2b0
-SHA256: af592a26530901c3976891654173eb0d5335ac80954bbb477fe5b4ac21e28a07
+Size: 14742
+MD5sum: 3bb04c336f7c8e84381138b088789c1f
+SHA1: d30c5f4803e4a70da03123c32d3a6763c0091722
+SHA256: 94782aadbcf31e2d2703d31cad49e9adc0c1226ca3fac6b0017f4f7493884671
 Section: NoAds
 Description: 基于7.65.0制作，其他版本自测
 Author: White <1410970825@qq.com>
@@ -1307,6 +1307,23 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cr
 Moderndepiction: https://revulate.dev/depiction/native/com.spark.crash-reporter.json
 Name: CrashReporter
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/crashrepprter/Depiction
+
+Package: com.white.cunstuck
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Cunstuck
+Installed-Size: 504
+Depends: firmware (<= 9.0), firmware (<= 14.8.1), mobilesubstrate
+Filename: ./debs/cunstuck_1.0.deb
+Size: 198404
+MD5sum: 6471503f4fda1486c534436e712ca3b4
+SHA1: f4212eb6500b0f052eeaa84c7a602a0b68110410
+SHA256: 76743c2c7e74b34b626a36e7080eb793e9b766d54b9e47a7d7d9dd0c07712811
+Section: Development
+Description: 启用插件许可证
+Author: Cunstuck
+Name: CunsLic
+Sileodepiction: https://mrepo.org/sileo/4396
 
 Package: com.white.customizebw
 Version: 1.0.0
@@ -2866,6 +2883,42 @@ Moderndepiction: https://revulate.dev/depiction/native/com.spark.libsymbolicate.
 Name: libsymbolicate (SparkDev)
 Sileodepiction: https://revulate.dev/depiction/native/com.spark.libsymbolicate.json
 
+Package: com.white.limneosos
+Version: 2.0.2-1
+Architecture: iphoneos-arm
+Maintainer: Rejail
+Depends: firmware (>= 11.0), mobilesubstrate, com.white.limneosos
+Conflicts: github.io.gfp.limneosos, ru.rejail.limneosos, netskao.limneoscrack, com.cydiabc.limneoshelper
+Filename: ./debs/limneosos_2.0.2-1.deb
+Size: 24252
+MD5sum: dda254ca3be74ab0f041e93969292b20
+SHA1: ad7e983f186f4569c089a5b4c76cc8ec86637f46
+SHA256: 2a464703500d65ceb1c0da671715aa83205d69f2148c13af664484c1b390132e
+Section: Tweaks
+Priority: optional
+Description: 破解Limneos源插件，例如CallBarXS、Glow、AudioRecorderXS等。Limneos官方源：http://limneos.net/repo/
+Author: ReJail <rejail@rejail.ru>
+Name: Limneos Patch
+
+Package: com.white.locationfakerx
+Version: 2.9-1
+Architecture: iphoneos-arm
+Maintainer: Custuck
+Installed-Size: 2531
+Depends: firmware (>= 9.0), firmware (<= 14.8.1), mobilesubstrate (>= 0.9.5000), com.white.cunstuck
+Conflicts: org.thebigboss.locationchangerx, org.thebigboss.locationfaker8
+Filename: ./debs/locationfakerx_2.9-1.deb
+Size: 1421444
+MD5sum: d9841d953e54c6e0a9c74b8ae03e70a8
+SHA1: 557ff2cd13ecb9c2518ef73410b48a4da0a804ee
+SHA256: d6bec59c4ea9bbd2548ff5af45de783344090ff048315b3182d529da0bf3a775
+Section: Tweaks
+Description: 在任何应用中修改并伪装您的位置
+Author: Custuck <cunstuck@gmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/locationfakerx/icon.png
+Name: LocationFakerX
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/locationfakerx/Depiction
+
 Package: com.white.lowernotifs
 Version: 1.0.1
 Architecture: iphoneos-arm
@@ -3888,6 +3941,27 @@ Depiction: https://repo.cypwn.xyz/depiction/528
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/vintage-keyboard.png
 Name: Vintage Keyboard Pack
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/528
+
+Package: com.white.voicechangerx
+Version: 2.4-10
+Architecture: iphoneos-arm
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 1420
+Depends: mobilesubstrate, preferenceloader, com.white.limneosos
+Conflicts: com.hackyouriphone.limneosos, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Filename: ./debs/voicechangerx_2.4-10.deb
+Size: 233256
+MD5sum: 0d8b793dd293e4286bef69810ba54210
+SHA1: 2dbc3fa1e46408215cad735458f7205aff8f563c
+SHA256: b4fe49f8deaaacc52a502ea09e30414cba5f703e770c0a3a4fd84de96237b4aa
+Section: Tweaks
+Description: 在通话过程中改变你的声音
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: http://limneos.net/cydia/depiction.php?package=net.limneos.voicechangerx
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/voicechangerx/icon.png
+Mainlibmd5: 95b043ad4be47413b25c80f465cb2c32
+Name: VoiceChanger XS (iOS 11 to 16)
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/voicechangerx/Depiction
 
 Package: com.white.volumeflex
 Version: 0.0.5-1
