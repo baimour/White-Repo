@@ -3709,16 +3709,16 @@ Installed-Size: 3156
 Depends: firmware (>= 11.0), firmware (<< 14.0), mobilesubstrate, net.limneos.libbulletin, com.spark.libsparkcolourpicker, ws.hbang.common, com.spark.libsparkapplist, org.thebigboss.wifiutil
 Conflicts: xyz.cypwn.smartbattery, xyz.cypwn.smartnetwork, com.idevicelover.smartbattery, com.idevicelover.smartnetwork
 Filename: ./debs/smartbundle_2.2.deb
-Size: 871188
-MD5sum: 2329c32e8cb0ec23499504e22b3c55aa
-SHA1: 290b57a5a7a4b6f1d1fc989d4086cfc09227386a
-SHA256: b49818a1871bf8f2bf122ac7c364c3149a25b6aca6178de341a8b411f8737e8a
+Size: 870480
+MD5sum: db3d9cc364042ad143e8f767ad6199e1
+SHA1: b43e33863bd98b24e04126f282fbfa5aab484127
+SHA256: 7652d70e21648d34f0895614e547ffc7db36a787a2bc9b40322eda9a6080793d
 Section: Tweaks
 Description: 两款最智能的插件功能合二为一，智能电池和网络！
 Author: Elias
-Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/DetailPowerU/icon.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/smartbundle/icon.png
 Name: SmartBundle
-Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/DetailPowerU/Depiction
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/smartbundle/Depiction
 
 Package: com.white.smartbundle2
 Version: 2.3
@@ -3745,13 +3745,12 @@ Maintainer: zyb <yabeizhao@126.com>
 Installed-Size: 581
 Depends: mobilesubstrate, firmware (>= 8.0), firmware (<= 14.8.1), preferenceloader, applist, ws.hbang.common (>= 1.11)
 Filename: ./debs/smartvpn_1.3.0-19.deb
-Size: 27476
-MD5sum: 0ec513313623624ddc531c35779c6f92
-SHA1: 376e5d957810961058ab4e309a63f6d19f5aa377
-SHA256: d9c4d9e03a8344e55f6db359a5669cb287cb2d7fa4337bb3fa09c87cdf12db15
+Size: 27504
+MD5sum: 832a810e546121d4f9f2f158e17b47e2
+SHA1: adea1118f00fca328549cba037011cc645c0429c
+SHA256: c25fe7a2c2e8e31b0322092936db5c6058c349d39818a375ac6df41d48897a74
 Section: Tweaks
 Priority: optional
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=smartvpnDp
 Description: 自动启动/关闭特殊应用列表的VPN
 Tag: purpose::extension
 Author: zyb <yabeizhao@126.com>
@@ -3770,17 +3769,16 @@ Installed-Size: 2240
 Depends: mobilesubstrate, firmware(>= 12.0), firmware (<= 14.8.1)
 Conflicts: com.jontelang.snapper, com.jontelang.snapper2
 Filename: ./debs/snapper2_2.7.0.deb
-Size: 587512
-MD5sum: 96f0675d7a06a8c01674e9853e462a7f
-SHA1: 843255d810c486137053a73dddaf4ab23efc134a
-SHA256: 18d33e91b117fc96290b0cf70b7b50e872bd095fa80986e4fedbeabee653d767
+Size: 587120
+MD5sum: ed730289e878a1e2efcb8e4508671c56
+SHA1: 2e5e3f8dfee07b2ac3c6b60bb122d620c957faa9
+SHA256: 079169aee8de8c8ebb3a4a4a46ce48fb13c8c262578d14741e60ec562cb1fcbb
 Section: Tweaks
 Description: 屏幕截图增强，自定义截图区域
 Author: Jonathan Winger-lang
-Depiction: https://mrepo.org/depiction/5527
-Icon: https://media.havoc.app/620537d57c5e627af05611b6?w=1920&q=75
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/snapper2/icon.png
 Name: Snapper 2
-Sileodepiction: https://mrepo.org/sileo/5527
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/snapper2/Depiction
 
 Package: com.white.storeswitcher2
 Version: 1.0.3
