@@ -588,6 +588,25 @@ Name: Active5S_234G 1528 1533 iOS8
 Sponsor: haoerloveyou <haoerloveyou@gmail.com>
 
 Package: com.white.Flex3beta
+Version: 1:3~Beta90
+Architecture: iphoneos-arm64
+Maintainer: John Coates
+Depends: mobilesubstrate, firmware (>= 15.0) | org.swift.libswift (>=5.0)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package, com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package, com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Filename: ./debs/Flex3beta_1.3~Beta92_iphoneos-arm64.deb
+Size: 9640560
+MD5sum: cc95f4c41a6e15f4231ca8d6578158bd
+SHA1: 402808a38cc6198d362e81fa63093b0b3ecd2d17
+SHA256: 5a079f3d48ef30960ce2384da08f6614f4d6573078fabee4e71b618a0a1d6d1c
+Section: Utilities
+Description: 开发您自己的补丁并在Flex社区Cloud上分享
+Author: John Coates
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Flex/icon.png
+Name: Flex 3 Beta90
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Flex/Depiction
+
+Package: com.white.Flex3beta
 Version: 1:3~Beta98
 Architecture: iphoneos-arm
 Maintainer: John Coates
@@ -853,13 +872,33 @@ Maintainer: ren7995 <lau7995ren@gmail.com>
 Installed-Size: 877
 Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
 Conflicts: com.irepo.boxy4, me.kritanta.homepluspro
-Filename: ./debs/Atria_1.4.1.deb
+Filename: ./debs/Atria_1.4.1_iphoneos-arm.deb
 Size: 259636
 MD5sum: cc6f1366740c9525b31381f5ce6c0378
 SHA1: 66593c7eddbd338389bfc3f9a606e5d7604214d6
 SHA256: e2d43d6013db31affd155b2b2661669dec6f7f598b8be537bfca98c10bd5e6c9
 Section: Tweaks
 Description: 适用于iOS 13-16的自定义桌面布局
+Tag: compatible_min::ios13.0
+Author: ren7995 <lau7995ren@gmail.com>
+Depiction: https://chariz.com/get/atria
+Icon: https://img.chariz.cloud/icon/atria/icon@3x.png
+Name: Atria
+
+Package: com.white.atria
+Version: 1.4.1
+Architecture: iphoneos-arm64
+Maintainer: ren7995 <lau7995ren@gmail.com>
+Installed-Size: 886
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
+Conflicts: com.irepo.boxy4, me.kritanta.homepluspro
+Filename: ./debs/Atria_1.4.1_iphoneos-arm64.deb
+Size: 239868
+MD5sum: a981bf340be882dd3b425bddd1fb5bc3
+SHA1: f39be84c8c963eb1c815d82f961103a74ac818f8
+SHA256: 991186fc48e5c2242f70e7d064b2f89526d62c47dd0db292efb1f1c170f8815b
+Section: Tweaks
+Description: 适用于iOS 13-16的桌面布局
 Tag: compatible_min::ios13.0
 Author: ren7995 <lau7995ren@gmail.com>
 Depiction: https://chariz.com/get/atria
@@ -1313,17 +1352,16 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Cunstuck
 Installed-Size: 504
-Depends: firmware (>= 9.0), firmware (<= 14.8.1), mobilesubstrate
+Depends: mobilesubstrate
 Filename: ./debs/cunstuck_1.0.deb
-Size: 198476
-MD5sum: b86673938bb5897aa3f955f59ca93e7d
-SHA1: 91ad44cf7cb9eeb32577c19f66fd5ad52fc23a18
-SHA256: 11c92afcbccebf16f229df9c750621bd227e20127478b32ba3c57188e8bdc8aa
-Section: Development
-Description: 启用插件许可证
+Size: 198464
+MD5sum: 433c14864ea320cb93eb126ae9ac9c27
+SHA1: f62c203a65152284f6a1422fe9f0abcf0aaabf33
+SHA256: f4d73a33ac5b4205f043fbfedb1d04f8c4be8fb94b3877bd68e04fa8f26d8135
+Section: Tweaks
+Description: 启用LocationFakerX许可证
 Author: Cunstuck
 Name: CunsLic
-Sileodepiction: https://mrepo.org/sileo/4396
 
 Package: com.white.customizebw
 Version: 1.0.0
@@ -2224,6 +2262,38 @@ Depiction: https://nscake.github.io/package.html?package=com.pantsthief.flexing
 Name: FLEXing
 Sileodepiction: https://nscake.github.io/depictions/com.pantsthief.flexing.sileo.json
 
+Package: com.white.flexlist
+Version: 1.3-8
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 3764
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
+Filename: ./debs/flexlist_1.3-8_iphoneos-arm.deb
+Size: 843696
+MD5sum: 8a6a6c20c6fb2b49e7c90dea6e75a5da
+SHA1: 9de30bee361e0dcb501149d66550d17ca4736762
+SHA256: 922f9b0c97e63a0051298b8f7b1c5a1173cf22b2d71ce416486c9f954d99a9d0
+Section: Tweaks
+Description: 动态调试App工具
+Author: Netskao
+Name: FLEXList
+
+Package: com.white.flexlist
+Version: 1.4-2
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 5020
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/flexlist_1.4-2_iphoneos-arm64.deb
+Size: 1329384
+MD5sum: c9092e8f7734de29918949c787738fe6
+SHA1: b2d464f07950e3bcc7e60caa343c4105acc59944
+SHA256: d3140479cdc32494f841f53f72cf9933c8e065d20c65854159fc0149eab9dd4a
+Section: Tweaks
+Description: 动态调试App工具
+Author: Netskao
+Name: FLEXList
+
 Package: com.white.flextool
 Version: 0.0.1-3
 Architecture: iphoneos-arm
@@ -2408,6 +2478,43 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ha
 Name: Hapticle iOS9震动反馈
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/hapticle/Depiction
 Sponsor: magn2o
+
+Package: com.white.harpy
+Version: 2.0.1
+Architecture: iphoneos-arm
+Maintainer: MidnightChips
+Installed-Size: 12848
+Depends: network-cmds
+Filename: ./debs/harpy_2.0.1.deb
+Size: 4930272
+MD5sum: ad395997fb09e80c684c8d643568efc6
+SHA1: 7b0fe97343326a76907d71b6e2e1f9e060a3358b
+SHA256: da6a4e49744a80e7161b5da8d410417611a188648e0972e7219c35e505278cf2
+Section: Utilities
+Description: 管理本地网络的应用程序
+Author: MidnightChips <midnightchips@gmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/harpy/icon.png
+Name: Harpy
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/harpy/Depiction
+
+Package: com.white.harpyreloaded
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: MidnightChips
+Installed-Size: 11656
+Depends: firmware (>= 14.0)
+Filename: ./debs/harpyreloaded_1.0.1.deb
+Size: 3856740
+MD5sum: 797d8e4ce2c5a123f1482f6c9f1c3f60
+SHA1: 086d3fbb5e2bc5c0d666d36e88981cd30e942edd
+SHA256: 0389f121041e2a69b2392bfb091e28008278b29e5723cf796bce35de5b98a582
+Section: Utilities
+Description: 用于管理本地网络的应用程序
+Author: MidnightChips
+Depiction: https://repo.cypwn.xyz/depiction/1206
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/harpyreloaded/icon.png
+Name: Harpy Reloaded
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/harpyreloaded/Depiction
 
 Package: com.white.iconsfix
 Version: 1.0.0
@@ -2889,7 +2996,7 @@ Architecture: iphoneos-arm
 Maintainer: Rejail
 Depends: firmware (>= 11.0), mobilesubstrate, com.white.limneosos
 Conflicts: github.io.gfp.limneosos, ru.rejail.limneosos, netskao.limneoscrack, com.cydiabc.limneoshelper
-Filename: ./debs/limneosos_2.0.2-1.deb
+Filename: ./debs/limneosos_2.0.2-1_iphoneos-arm.deb
 Size: 24252
 MD5sum: dda254ca3be74ab0f041e93969292b20
 SHA1: ad7e983f186f4569c089a5b4c76cc8ec86637f46
@@ -2900,18 +3007,34 @@ Description: 破解Limneos源插件，例如CallBarXS、Glow、AudioRecorderXS�
 Author: ReJail <rejail@rejail.ru>
 Name: Limneos Patch
 
+Package: com.white.limneosos
+Version: 3.1
+Architecture: iphoneos-arm64
+Maintainer: CBZ
+Installed-Size: 168
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./debs/limneosos_3.1_iphoneos-arm64.deb
+Size: 4492
+MD5sum: 1c5058ba129a336212fa260d71d83e3c
+SHA1: 78521302cd7a39bf4cd60011c1f45ef2f96cd07d
+SHA256: 6319160820220c2b4e1efd9a1c255e479f2f21042f83c41afe357012620333bf
+Section: Tweaks
+Description: CBZ制作的Limneos源插件破解，使用了新的ABI编译。破解Limneos源插件，例如CallBarXS、Glow、AudioRecorderXS等。Limneos官方源：http://limneos.net/repo/
+Author: CBZ
+Name: Limneos Patch
+
 Package: com.white.locationfakerx
 Version: 2.9-1
 Architecture: iphoneos-arm
 Maintainer: Custuck
 Installed-Size: 2531
-Depends: firmware (>= 9.0), firmware (<= 14.8.1), mobilesubstrate (>= 0.9.5000), com.white.cunstuck
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), com.white.cunstuck
 Conflicts: org.thebigboss.locationchangerx, org.thebigboss.locationfaker8
 Filename: ./debs/locationfakerx_2.9-1.deb
-Size: 1421444
-MD5sum: d9841d953e54c6e0a9c74b8ae03e70a8
-SHA1: 557ff2cd13ecb9c2518ef73410b48a4da0a804ee
-SHA256: d6bec59c4ea9bbd2548ff5af45de783344090ff048315b3182d529da0bf3a775
+Size: 1422656
+MD5sum: 9baa259dfa0485f3e4e5c9c512f69715
+SHA1: 5317220dab856f23028a0e23c28fc05a80108f1c
+SHA256: 3eee9e7bb2ee05ce87864b2330eae485702c8653eabb0390dac9b0ec7cabe4f0
 Section: Tweaks
 Description: 在任何应用中修改并伪装您的位置
 Author: Custuck <cunstuck@gmail.com>
@@ -3525,6 +3648,140 @@ Name: Sharecuts 捷径分享
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sharecuts/Depiction
 Sponsor: daniel
 
+Package: com.white.smartbattery
+Version: 3.5
+Architecture: iphoneos-arm
+Maintainer: Elias
+Depends: firmware (>= 11.0), firmware (<< 14.0), mobilesubstrate, ws.hbang.common, net.limneos.libbulletin, com.spark.libsparkcolourpicker, com.opa334.ccsupport
+Filename: ./debs/smartbattery_3.5.deb
+Size: 603140
+MD5sum: f0e2d11889714454efd7b6c8dbd42273
+SHA1: 2c4ef2f626c59f78bcc9c7238edb3849dc3e0d14
+SHA256: 3876b2aa8240dd2fae6754ace703051cac41ea4ba6ded9debdf9bd73a989c912
+Section: Tweaks
+Description: 监控和节省电池的终极工具
+Author: Elias
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/smartbattery/icon.png
+Name: SmartBattery
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/smartbattery/Depiction
+
+Package: com.white.smartbattery2
+Version: 2.2
+Architecture: iphoneos-arm
+Maintainer: Elias
+Depends: firmware (>= 12.0), firmware (<= 14.8.1), mobilesubstrate, ws.hbang.common, net.limneos.libbulletin, com.spark.libsparkcolourpicker, com.opa334.ccsupport
+Conflicts: com.idevicelover.smartbattery, xyz.cypwn.smartbattery
+Filename: ./debs/smartbattery2_2.2.deb
+Size: 988420
+MD5sum: 32fb5800c6075391684195b6fc2f73ac
+SHA1: 59435cff6cea57c2bf709c0fc045e996ce91e6fb
+SHA256: 2bceed4dfa9623fb693fc9da0c58bba7da479966661f96eff44852b2ec0af9cd
+Section: Tweaks
+Description: 监控、保存和调整电池的终极工具
+Author: Elias
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/smartbattery2/icon.png
+Name: SmartBattery 2
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/smartbattery2/Depiction
+
+Package: com.white.smartbatteryios15
+Version: 1.6
+Architecture: iphoneos-arm64
+Maintainer: Elias
+Depends: ws.hbang.common
+Conflicts: com.idevicelover.smartbattery2, com.white.smartbattery2
+Filename: ./debs/smartbatteryios15_1.6_iphoneos-arm64.deb
+Size: 695976
+MD5sum: bde0ea160c99dee081411569bac1b25a
+SHA1: 7fee84edc730fddcc894a6d1d7037a6a3f633dd7
+SHA256: e852e1b5a5c2bb5b939d9028af8e7e1c3f02057380a2fb935c1a7ba9885316e6
+Section: Tweaks
+Description: 监控、保存和调整电池的终极工具
+Author: Elias
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/smartbatteryios15/icon.png
+Name: SmartBattery iOS 15 - 16
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/smartbatteryios15/Depiction
+
+Package: com.white.smartbundle
+Version: 2.2
+Architecture: iphoneos-arm
+Maintainer: Elias
+Installed-Size: 3156
+Depends: firmware (>= 11.0), firmware (<< 14.0), mobilesubstrate, net.limneos.libbulletin, com.spark.libsparkcolourpicker, ws.hbang.common, com.spark.libsparkapplist, org.thebigboss.wifiutil
+Conflicts: xyz.cypwn.smartbattery, xyz.cypwn.smartnetwork, com.idevicelover.smartbattery, com.idevicelover.smartnetwork
+Filename: ./debs/smartbundle_2.2.deb
+Size: 871188
+MD5sum: 2329c32e8cb0ec23499504e22b3c55aa
+SHA1: 290b57a5a7a4b6f1d1fc989d4086cfc09227386a
+SHA256: b49818a1871bf8f2bf122ac7c364c3149a25b6aca6178de341a8b411f8737e8a
+Section: Tweaks
+Description: 两款最智能的插件功能合二为一，智能电池和网络！
+Author: Elias
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/DetailPowerU/icon.png
+Name: SmartBundle
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/DetailPowerU/Depiction
+
+Package: com.white.smartbundle2
+Version: 2.3
+Architecture: iphoneos-arm
+Maintainer: Elias
+Depends: mobilesubstrate, ws.hbang.common, net.limneos.libbulletin, com.spark.libsparkcolourpicker, com.opa334.ccsupport, com.cokepokes.libnotifications, org.thebigboss.wifiutil, com.spark.libsparkapplist
+Conflicts: com.idevicelover.smartbundle, xyz.cypwn.smartbundle, com.idevicelover.smartbattery2, xyz.cypwn.smartbattery2, com.idevicelover.smartnetwork2, xyz.cypwn.smartnetwork2
+Filename: ./debs/smartbundle2_2.3.deb
+Size: 1255452
+MD5sum: 84195d9c47e34d5f6c969a9e80b9028e
+SHA1: a8a115631a36ca60742d29774a7ce0fded72cd33
+SHA256: 106d623c99802d755b2140964febaf866ecb6ecf2c78c8754e640ba34de90f57
+Section: Tweaks
+Description: 终极插件组合，可节省和调整电池，管理/自定义WiFi和移动数据行为
+Author: Elias
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/smartbundle2/icon.png
+Name: SmartBundle 2
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/smartbundle2/Depiction
+
+Package: com.white.smartvpn
+Version: 1.3.0-19
+Architecture: iphoneos-arm
+Maintainer: zyb <yabeizhao@126.com>
+Installed-Size: 581
+Depends: mobilesubstrate, firmware (>= 8.0), firmware (<= 14.8.1), preferenceloader, applist, ws.hbang.common (>= 1.11)
+Filename: ./debs/smartvpn_1.3.0-19.deb
+Size: 27476
+MD5sum: 0ec513313623624ddc531c35779c6f92
+SHA1: 376e5d957810961058ab4e309a63f6d19f5aa377
+SHA256: d9c4d9e03a8344e55f6db359a5669cb287cb2d7fa4337bb3fa09c87cdf12db15
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=smartvpnDp
+Description: 自动启动/关闭特殊应用列表的VPN
+Tag: purpose::extension
+Author: zyb <yabeizhao@126.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=smartvpnDp
+Dev: zyb
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/smartvpn/icon.png
+Name: SmartVPN
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/smartvpn/Depiction
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.white.snapper2
+Version: 2.7.0
+Architecture: iphoneos-arm
+Maintainer: Jonathan
+Installed-Size: 2240
+Depends: mobilesubstrate, firmware(>= 12.0), firmware (<= 14.8.1)
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2
+Filename: ./debs/snapper2_2.7.0.deb
+Size: 587512
+MD5sum: 96f0675d7a06a8c01674e9853e462a7f
+SHA1: 843255d810c486137053a73dddaf4ab23efc134a
+SHA256: 18d33e91b117fc96290b0cf70b7b50e872bd095fa80986e4fedbeabee653d767
+Section: Tweaks
+Description: 屏幕截图增强，自定义截图区域
+Author: Jonathan Winger-lang
+Depiction: https://mrepo.org/depiction/5527
+Icon: https://media.havoc.app/620537d57c5e627af05611b6?w=1920&q=75
+Name: Snapper 2
+Sileodepiction: https://mrepo.org/sileo/5527
+
 Package: com.white.storeswitcher2
 Version: 1.0.3
 Architecture: iphoneos-arm
@@ -4097,6 +4354,25 @@ Section: Tweaks
 Description: iOS14上的多任务应用分屏
 Author: Dcsyhi
 Depiction: https://dcsyhi1998.github.io/depiction/zetsu.html
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/zetsu/icon.png
+Name: Zetsu
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/zetsu/Depiction
+
+Package: com.white.zetsu
+Version: 1.5
+Architecture: iphoneos-arm64
+Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Installed-Size: 11004
+Depends: mobilesubstrate,firmware (>=15.0),preferenceloader,com.opa334.ccsupport
+Filename: ./debs/zetsu_1.5_iphoneos-arm64.deb
+Size: 9649300
+MD5sum: c7b479c01100666752d5bf0af0e49272
+SHA1: 3df33f997d2327096bbc2109c77c156297b847e1
+SHA256: 285f8696b4021e57a9559c7d9a48da1ec9ef06dc4ddd20695454d87c8abbca60
+Section: Tweaks
+Description: 支持iOS15-16.6.1的多任务应用分屏
+Tag: compatible_min::ios15.0
+Author: Dcsyhi <dcsyhi1998@gmail.com>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/zetsu/icon.png
 Name: Zetsu
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/zetsu/Depiction
