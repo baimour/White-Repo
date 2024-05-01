@@ -1539,18 +1539,35 @@ Architecture: iphoneos-arm
 Maintainer: JunesiPhone
 Installed-Size: 17340
 Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/Designer_1.4.3.deb
-Size: 6294020
-MD5sum: 44dc9af4fe2f2c404408fbd2b903af32
-SHA1: e40a5d0c5556266a2d23d394f34586fcc8d8eda7
-SHA256: 0fca994d9a6308a8b4c9022c3d7629523e9afce71bec3165efe797ba06b3203b
+Filename: ./debs/designer_1.4.3_iphoneos-arm.deb
+Size: 6293048
+MD5sum: 6caa19a3450617eba18f4b80e76bcac1
+SHA1: 9fffdd2e2ca65e13f5e587bbea4528fc9b4e930f
+SHA256: 05b6f99ccfb06b197b091f762cb750ad452d2f8fd5096e66923bcc5ce1e2bb7b
 Section: Tweaks
 Description: 自定义锁屏和桌面布局
 Author: JunesiPhone
-Depiction: https://repo.cypwn.xyz/depiction/1980
-Icon: https://repo.cypwn.xyz/assets/repo/Featured/designer.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/icon.png
 Name: Designer
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1980
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/Depiction
+
+Package: com.white.designer
+Version: 1.4.7
+Architecture: iphoneos-arm64
+Maintainer: JunesiPhone
+Installed-Size: 18316
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/designer_1.4.7_iphoneos-arm64.deb
+Size: 11758624
+MD5sum: 1c95d1de4234616292ad9cb73f6a77a8
+SHA1: 4c480a2a0a5db7e1c105124533e2619e65745f9d
+SHA256: 6aff3a32afb1382fbf0d357a62c4ac6768676c49eac2fcbd1cdb29eb8b8de276
+Section: Tweaks
+Description: 自定义锁屏和桌面布局
+Author: JunesiPhone <junesgraphics@gmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/icon.png
+Name: Designer
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/Depiction
 
 Package: com.white.detailedpowerusage
 Version: 1.0.1
@@ -2079,15 +2096,34 @@ Name: Fake Call History
 
 Package: com.white.filza
 Version: 4.0.1-4
+Architecture: iphoneos-arm64
+Maintainer: TIGI Software
+Installed-Size: 23200
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Filename: ./debs/filza_4.0.1-4_iphoneos-arm64.deb
+Size: 6996904
+MD5sum: 0743c053312b526451611e759adeb059
+SHA1: 4fcbf2b9e9e303597af72d0ede6900439edc3e75
+SHA256: 8728825e68c447bd4cc0fd5e336b8f075c780c655e4a6e950b62d1d560180c1a
+Section: Utilities
+Description: 适用于iPhone、iPad 和 iPod Touch的文件管理器。仅支持iOS 15+
+Author: TIGI Software
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/filza/icon.png
+Name: Filza File Manager
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/filza/Depiction
+
+Package: com.white.filza
+Version: 4.0.1-4
 Architecture: iphoneos-arm
 Maintainer: ReJail <rejail@rejail.ru>
 Installed-Size: 19388
 Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
-Filename: ./debs/filza_4.0.1-4.deb
-Size: 6997812
-MD5sum: 150aae2fc4d17ca4c6ef8a267ebec4c7
-SHA1: 14adc1ccb3fb10a127450eb870ea4942679c6792
-SHA256: 489b76a23976d8a192ccf35889c84c6d2fb4c5b846b98fcd0f0ee2c12dcb652c
+Filename: ./debs/filza_4.0.1-4_iphoneos-arm.deb
+Size: 6997388
+MD5sum: c6d1643292b6c3234f21e821c3c5af0a
+SHA1: 7d297d70eb6608c03e4ad57ab7bc3310e95b41ff
+SHA256: 63ea11cf6b5719c31be9f464dc14889ea0cf9a96ce043cf8a86355ad10c8328c
 Section: Utilities
 Description: 强大的iOS文件管理器
 Author: TIGI Software
@@ -2099,20 +2135,37 @@ Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDe
 Package: com.white.fiona
 Version: 1.0.5
 Architecture: iphoneos-arm
-Maintainer: CyPwn
+Maintainer: yan
 Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, firmware(>= 14.0), com.mrgcgamer.libgcuniversal
 Filename: ./debs/fiona_1.0.5.deb
-Size: 128068
-MD5sum: 45ee4072670a894694e60ec1bffb5510
-SHA1: d24f86c64b529e76f31ed681c4fccfe5c0ea7449
-SHA256: da63aa4e3cdefd4d02736561a7f58f3fa58c1e479717053ea5fe21ceb56e3441
+Size: 120584
+MD5sum: b3320efeeab5ffb4d6b1de0fad994abd
+SHA1: b64e59d4cf03e10b5ae44c7b0fe2e8421c7fee4f
+SHA256: d38f070ccf6efffe1dc67bb7a25012a97fc7c1de0b28fbbf5ebc1cf9a39dba8d
 Section: Tweaks
-Description: 浮动下方标签栏
+Description: iOS设备的浮动标签栏
 Author: yan
-Depiction: https://repo.cypwn.xyz/depiction/2145
-Icon: https://media.havoc.app/65e987f4df1ff02035bcd6b1
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/fiona/icon.png
 Name: Fiona
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2145
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/fiona/Depiction
+
+Package: com.white.fiona
+Version: 1.0.7
+Architecture: iphoneos-arm
+Maintainer: yan
+Installed-Size: 576
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, firmware(>= 14.0), com.mrgcgamer.libgcuniversal
+Filename: ./debs/fiona_1.0.7.deb
+Size: 122624
+MD5sum: 97698444d8103619d0a808c22f563cf8
+SHA1: 7ad25e362e5544f4534aeb6efd1cf8fe700fdcd2
+SHA256: 0d737815d5525261a43d2f514bc91498db8c0256e4e8a4c235e70af8c6f7ae0c
+Section: Tweaks
+Description: iOS设备的浮动标签栏
+Author: yan
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/fiona/icon.png
+Name: Fiona
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/fiona/Depiction
 
 Package: com.white.fixcmcc
 Version: 1.0
@@ -2538,19 +2591,19 @@ Maintainer: Carsten Heinelt <ifile@iphone.heinelt.eu>
 Installed-Size: 20224
 Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
 Filename: ./debs/iFile_2.2.0-1.deb
-Size: 7467664
-MD5sum: c44e24526031a210be7fb00fa0260432
-SHA1: 20b1eceb2edc6cc76b21fb692f66641a614910b6
-SHA256: 1e6031702364c5361c511dcd58ac77cb23c011daa172c555a28b2bf028dca373
+Size: 7468588
+MD5sum: 5adc315fa81402733b623b8d565b988e
+SHA1: d6b0eb7bd4000cdf7dbe475d3b8d4fd47a7348a2
+SHA256: 76df503cdc53d5d46f8703557855af6dc8266a2820cd5c9d2993dc4fcaa58745
 Section: Utilities
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
-Description: iFile是一款在用户root下运行的文件管理器。它允许快速浏览iPhone文件系统。它允许直接查看各种类型的文件，如电影、声音、文本、HTML、Microsoft 类型、PDF、ZIP。对于PDF文件，可以直接跳转到页面。还支持ZIP打包和解包。文件可以作为电子邮件附件发送。可编辑文本文件和属性列表。可为文件夹和文件添加书签。此外，还可从iFile内置的网络服务器上传和下载文件
-Tag: purpose::uikit, cydia::commercial
+Description: iFile是一款在用户root下运行的文件管理器，它允许快速浏览iPhone文件系统。它允许直接查看各种类型的文件，如电影、声音、文本、HTML、Microsoft 类型、PDF、ZIP。对于PDF文件，可以直接跳转到页面。还支持ZIP打包和解包。文件可以作为电子邮件附件发送。可编辑文本文件和属性列表。可为文件夹和文件添加书签。此外，还可从iFile内置的网络服务器上传和下载文件
 Author: Carsten Heinelt <ifile@iphone.heinelt.eu>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
 Dev: carsten
-Icon: file:///Applications/iFile.app/AppIcon60x60@3x.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ifile/icon.png
 Name: iFile
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ifile/Depiction
 
 Package: com.white.igg
 Version: 0.4.3
@@ -3485,17 +3538,16 @@ Maintainer: Lilliana
 Installed-Size: 488
 Depends: mobilesubstrate, firmware (>= 12.2), preferenceloader, com.opa334.altlist
 Filename: ./debs/satella_1.8.1_iphoneos-arm64.deb
-Size: 107574
-MD5sum: 475b3d49bb65b8aa3e5a63400ed5a039
-SHA1: d99ffc1a18a9ae25bc6345a2529558a352000077
-SHA256: bd91b65169df01427c731a22fd9a640cee4a1150e322227d58f7d834420b7020
+Size: 95964
+MD5sum: b840d8cfe3c8fd9b58fae9345a5e2eeb
+SHA1: ab2f44c7d852b5cbb82f53fc9361dae024dab0df
+SHA256: 8bcf09e019e47b27c1e6f7f6fa3210e2aab9b630bfd6c269fd4af89f285e47aa
 Section: Tweaks
 Description: 现代应用内购破解
 Author: Lilliana
-Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/Satella.json&name=Satella&dev=Lilliana
-Icon: https://paisseon.github.io/icons/Satella.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/satella/icon.png
 Name: Satella
-Sileodepiction: https://paisseon.github.io/depictions/Satella.json
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/satella/Depiction
 
 Package: com.white.satella
 Version: 1.8.1
@@ -3504,17 +3556,52 @@ Maintainer: Lilliana
 Installed-Size: 524
 Depends: mobilesubstrate, firmware (>= 12.2), preferenceloader, com.opa334.altlist
 Filename: ./debs/satella_1.8.1_iphoneos-arm.deb
-Size: 109764
-MD5sum: 0e1eaaa9286b9abf3886b0c448a3f1fb
-SHA1: 0ff32e7c3686d92b126ace5f83a49086a8711003
-SHA256: 3131f2684dfaec19066fd5c58d1a7fbdaecbb6170449a3f23e8aef5ec3da80cf
+Size: 98912
+MD5sum: 1660b639aa0dde3d57e747e9effdfeb6
+SHA1: e96fb7a78227e0bafb50eaef032c2b949bc34924
+SHA256: 4d6f6e596c3696bd271040b4d12e293e6de633bd6d48791eae31104f47ade44c
 Section: Tweaks
 Description: 现代应用内购破解
 Author: Lilliana
-Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/Satella.json&name=Satella&dev=Lilliana
-Icon: https://paisseon.github.io/icons/Satella.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/satella/icon.png
 Name: Satella
-Sileodepiction: https://paisseon.github.io/depictions/Satella.json
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/satella/Depiction
+
+Package: com.white.satella2
+Version: 1.9.0
+Architecture: iphoneos-arm64
+Maintainer: Paisseon
+Installed-Size: 456
+Depends: firmware (>= 13.0), preferenceloader, com.opa334.altlist
+Filename: ./debs/satella2_1.9.0_iphoneos-arm64.deb
+Size: 69672
+MD5sum: 9f32f43a88df55c8cf648cb728e737ae
+SHA1: e7635f9cb5dbf861a132d10dde30bcdb74a5670f
+SHA256: b6a0da5c92558d7174fb8b952527c98cc83f3d2a34bbc165673902565eacbc79
+Section: Tweaks
+Description: 现代应用内购破解
+Author: Paisseon
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/satella/icon.png
+Name: Satella
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/satella/Depiction190
+
+Package: com.white.satella2
+Version: 1.9.0
+Architecture: iphoneos-arm
+Maintainer: Paisseon
+Installed-Size: 456
+Depends: firmware (>= 13.0), preferenceloader, com.opa334.altlist
+Filename: ./debs/satella2_1.9.0_iphoneos-arm.deb
+Size: 69696
+MD5sum: 0e80e9a29e0bcb91258af54afd163bb5
+SHA1: 6a71da718bd765f4dcc701789d5fb7a17f705f84
+SHA256: b89335318cb559bf983cf9b33381e2a5e97df305d6c4424583d9726f367d81b2
+Section: Tweaks
+Description: 现代应用内购破解
+Author: Paisseon
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/satella/icon.png
+Name: Satella
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/satella/Depiction190
 
 Package: com.white.sbypass
 Version: 2.0.1
@@ -6477,42 +6564,4 @@ SHA256: 8bee8415cfab01cfb89820dd08a62cb81687ae41b836053b7fde74d0def37751
 Section: Development
 Priority: optional
 Description: 基于文本的应用程序编程接口
-
-Package: xyz.cypwn.satella
-Version: 1.9.0
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Installed-Size: 456
-Depends: firmware (>= 13.0), preferenceloader, com.opa334.altlist
-Filename: ./debs/xyz.cypwn.satella_1.9.0_iphoneos-arm64.deb
-Size: 77044
-MD5sum: d63d63d325d8bcf8b861a32a9d824eaf
-SHA1: 97ed4222a76cafd332aa44e5a20caad866cc0b9c
-SHA256: 0100ff1e670affc6352a0957b905845b8d8b46dad508201b7013cbb6b9ebf8e1
-Section: Tweaks
-Description: 应用内购神器改版
-Author: Paisseon
-Depiction: https://repo.cypwn.xyz/depiction/1570
-Icon: https://paisseon.github.io/icons/Satella.png
-Name: Satella
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1570
-
-Package: xyz.cypwn.satella
-Version: 1.9.0
-Architecture: iphoneos-arm
-Maintainer: CyPwn
-Installed-Size: 456
-Depends: firmware (>= 13.0), preferenceloader, com.opa334.altlist
-Filename: ./debs/xyz.cypwn.satella_1.9.0_iphoneos-arm.deb
-Size: 77032
-MD5sum: 25a9219a711329a5f1e55df011595855
-SHA1: 8b52a805c14005338bac19358baf273fc300abd8
-SHA256: c68c1cf67c5d669ef933d37be9e48445f64318159c8ad076904adb29ca9d355d
-Section: Tweaks
-Description: 应用内购破解改版
-Author: Paisseon
-Depiction: https://repo.cypwn.xyz/depiction/1569
-Icon: https://paisseon.github.io/icons/Satella.png
-Name: Satella
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1569
 
