@@ -1121,6 +1121,78 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Bi
 Name: 哔哩哔哩大会员画质
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/Depiction
 
+Package: com.white.bilibilipure
+Version: 1.2-3.1
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 19988
+Depends: firmware (>= 9.0), mobilesubstrate
+Filename: ./debs/bilibilipure_1.2-3.1.deb
+Size: 6713224
+MD5sum: a0f582d5c1dfe04d84bda02aac7a1b9d
+SHA1: 2d06c4bbf1a98b48f43906cfac8da9d7eb565db0
+SHA256: 96b5ec52225cfacf02d81f3d4a6a72877000de8b78815aeebcf091b4320cc3e2
+Section: NoAds
+Description: 哔哩哔哩净化，设置位于应用里的设置页面顶部(此插件暂不支持iPad)，支持导出缓存视频。仅支持7.3.0以上版本
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/icon.png
+Name: 哔哩哔哩净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/oDepiction
+
+Package: com.white.bilibilipure
+Version: 1.2-6
+Architecture: iphoneos-arm
+Maintainer: Netskao
+Installed-Size: 1468
+Depends: firmware (>= 9.0), mobilesubstrate
+Filename: ./debs/bilibilipure_1.2-6.deb
+Size: 903936
+MD5sum: f905630c4a43f65a41a61f7e5d4f7f53
+SHA1: 48a13a6190232ae945eb90b8437b895a2b84e503
+SHA256: 3db6af006f5946bcb30476191630ce7bac3e7f8cc6d4f0b1b14555f652fb2c64
+Section: NoAds
+Description: 哔哩哔哩净化，设置位于我的页面顶部，仅支持7.3.0及以上版本
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/icon.png
+Name: 哔哩哔哩净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/oDepiction
+Sponsor: Netskao
+
+Package: com.white.blblnoads
+Version: 1.1-2
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 328
+Depends: firmware (>= 11.0), mobilesubstrate
+Replaces: netskao.blblnoads, netskao.bilibilipure, com.white.bilibilipure, byg.iosios.net.bilibilipure
+Filename: ./debs/blblnoads_1.1-2.deb
+Size: 73412
+MD5sum: f3161bda9ddd8ffae7ba85bc6b8a6f15
+SHA1: 2181354e21491eef024559c0c4c9fb56cfdec371
+SHA256: f737dcd6be4259eaf5352ed409cdce2c8ed9c1b3b227e1d21fe6423434f3f034
+Section: NoAds
+Description: 哔哩哔哩去除启动广告，去除青少年提示，去除AppStore评分提示、去除底部动态\发布\会员购按钮、去除瀑布流中插入广告, 去除视频详情页面推荐视频中的创作推广, 去除评论区顶部会员推广, 我的页面推广等, 仅支持7.48.0及以上版本
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/icon.png
+Name: 哔哩哔哩 NoAds(重写版)
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/nDepiction
+
+Package: com.white.carriercrack-globalios14
+Version: 1.0.6
+Architecture: iphoneos-arm
+Maintainer: iTweakiOS
+Depends: com.white.ccpatch10 | com.yourepo.itweakios.ccpatch10
+Filename: ./debs/carriercrack-globalios14_1.0.6.deb
+Size: 6596248
+MD5sum: 7335ddef85042af6db0151c48448bf8c
+SHA1: 0dabc41ba46e228f66e15ca98a8bb209cf0e37be
+SHA256: 61d6456d030494b02d3874b5051ce3695450d59de4c0e2abec46015b2b0d668d
+Section: Tweaks
+Description: 启用隐藏功能、加入新功能、放大手机信号、提高蜂窝网络速度等！
+Author: iTweakiOS
+Name: CarrierCrack - Global (iOS 14)
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/globalios14/Depiction
+
 Package: com.white.ccpatch
 Version: 1.2
 Architecture: iphoneos-arm
@@ -1821,6 +1893,42 @@ Name: DumpDecrypter
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/DumpDecrypter/Depiction
 Sponsor: Netskao
 
+Package: com.white.dynawall
+Version: 3.1
+Architecture: iphoneos-arm
+Maintainer: The_Lucifer
+Installed-Size: 11524
+Depends: firmware (>= 13.0), firmware (<= 14.8.1)
+Filename: ./debs/dynawall_3.1.deb
+Size: 4773916
+MD5sum: 7e051d8398d3a2c6931e17ddcdc81783
+SHA1: 54b1fc2957b05a61cc4c36641ebb197ae1864a27
+SHA256: 66e6526d7c5acba3631c0cf4bc1e1d486166b7ab8e4298cf128c94eb305b67b2
+Section: Tweaks
+Description: 动态壁纸生成
+Tag: Cydia
+Author: The_Lucifer <mmshivesh@gmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/dynawall/icon.png
+Name: DynaWall
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/dynawall/Depiction
+
+Package: com.white.dynawall-lite
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: The_Lucifer <mmshivesh@gmail.com>
+Depends: wallpaperloader, firmware (>=13.0)
+Filename: ./debs/dynawall-lite_1.0.deb
+Size: 980176
+MD5sum: df3af04cf215c922dcf220d17d299452
+SHA1: 935865d94c21fef242985c4f99cf259270f36dd8
+SHA256: 81280513e2c86be496f13164dfaee978a0da2ffa3a868326bbdfd8f4ea6dff54
+Section: Tweaks
+Description: 动态壁纸生成的精简版
+Author: The_Lucifer <mmshivesh@gmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/dynawalllite/icon.png
+Name: DynaWall Lite
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/dynawalllite/Depiction
+
 Package: com.white.easyrecord
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -2192,10 +2300,10 @@ Maintainer: yan
 Installed-Size: 576
 Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, firmware(>= 14.0), com.mrgcgamer.libgcuniversal
 Filename: ./debs/fiona_1.0.7.deb
-Size: 122624
-MD5sum: 97698444d8103619d0a808c22f563cf8
-SHA1: 7ad25e362e5544f4534aeb6efd1cf8fe700fdcd2
-SHA256: 0d737815d5525261a43d2f514bc91498db8c0256e4e8a4c235e70af8c6f7ae0c
+Size: 122832
+MD5sum: ee052af818a10ebd898950c05a7fe51f
+SHA1: cd7377a0f38253b4cd7d20537908b998ef99210f
+SHA256: eb4e80967d71647d4520b609f331ec3f82d4e822183461594a25bb2c95309a51
 Section: Tweaks
 Description: iOS设备的浮动标签栏
 Author: yan
@@ -2438,6 +2546,24 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/fl
 Name: f.lux 屏幕色温调节
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/flux/Depiction
 Sponsor: standard
+
+Package: com.white.flyjbx
+Version: 1.2.5
+Architecture: iphoneos-arm
+Maintainer: XsF1re
+Depends: mobilesubstrate
+Conflicts: kr.xsf1re.flyjbx
+Filename: ./debs/flyjbx_1.2.5.deb
+Size: 650212
+MD5sum: f55f06436029587c1a277b0d3f7982e1
+SHA1: 89d258604d36ad3ac12a324762b1065445eb202a
+SHA256: c3c92b4530ce5e65a6655edef4bc0727cbf702816be3dc17e0e8c479524de75c
+Section: Tweaks
+Description: 韩国佬写的屏蔽越狱检测、禁止注入、禁用基板插件
+Author: XsF1re
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/flyjbx/icon.png
+Name: FlyJB X
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/flyjbx/Depiction
 
 Package: com.white.ftt
 Version: 1.1
@@ -3355,6 +3481,23 @@ Icon: https://img.chariz.cloud/icon/onesettings/icon@3x.png
 Name: OneSettings
 Sileodepiction: https://mrepo.org/sileo/5576
 
+Package: com.white.pagebar
+Version: 0.0.1-alpha
+Architecture: iphoneos-arm
+Maintainer: White
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/pagebar_0.0.1-alpha.deb
+Size: 13644
+MD5sum: e5b458897435e62c753e8f0817953a42
+SHA1: 8427a238e70f38ca63a6d1248d7c53c93c3539e6
+SHA256: ca5abac441f415bf745e2d4421eabb1d30de58c83d2a71c2f1f3ab8b65fbe5db
+Section: Tweaks
+Description: 横条翻页点，没有设置选项。如果偏离中心，请使用Atria进行调整
+Author: kritanta
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/pagebar/icon.png
+Name: Pagebar
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/pagebar/Depiction
+
 Package: com.white.photoinfo
 Version: 1.0
 Architecture: iphoneos-arm
@@ -4206,6 +4349,29 @@ Description: 可保存开放验证的SHSH2 Blob应用程序
 Author: 1Conan <tweaks@1conan.com>
 Icon: file:///Applications/TSSSaver.app/Icon-60.png
 Name: TSS Saver
+
+Package: com.white.tweaksettings
+Version: 1.0.8
+Architecture: iphoneos-arm
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 1112
+Depends: firmware (>= 10.0), preferenceloader | com.creaturecoding.preferred
+Filename: ./debs/tweaksettings_1.0.8.deb
+Size: 389372
+MD5sum: dd419c458eb8d2e8b1bc25cae06fffaf
+SHA1: e2e6c73fd47809c3bff9e6f5a7243b9f125088be
+SHA256: 9898e7b0d8b1926fe7d434eb6c3b290c035343dbcf18b2f07603c5f4f0029cb3
+Section: Applications
+Priority: optional
+Homepage: https://creaturecoding.com/
+Description: 用于插件的专用设置应用程序
+Tag: purpose::application, compatible_min::ios10
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=tweaksettings
+Dev: CreatureSurvive
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/tweaksettings/icon.png
+Name: TweakSettings
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/tweaksettings/Depiction
 
 Package: com.white.unicom5siOS9
 Version: 1.0.0
@@ -5143,24 +5309,6 @@ Section: Tweaks
 Description: 通过单击状态栏电池图标快捷展示显示电池常用信息参数，点击参数窗口即可刷新参数，长按参数窗口即可复制参数(此插件没有什么准与不准，所有数据均获取于设备底层参数)
 Author: Netskao
 Name: BarBatteryInfo
-
-Package: netskao.blblnoads
-Version: 1.1-2
-Architecture: iphoneos-arm
-Maintainer: Nets
-Installed-Size: 328
-Depends: firmware (>= 11.0), mobilesubstrate
-Filename: ./debs/blblnoads_1.1-2.deb
-Size: 73268
-MD5sum: 0aa63c63b981ed1d0a341193d6100bef
-SHA1: 9b786006943f2827275eda2ac3ff68b3ebe596af
-SHA256: e7dfa36c1d2ba9572d13756e31f0403af2bb28dc2cb91fed61500c968bb18903
-Section: NoAds
-Description: 哔哩哔哩去除启动广告, 去除青少年提示, 去除AppStore评分提示, 去除底部动态\发布\会员购按钮, 去除瀑布流中插入广告, 去除视频详情页面推荐视频中的创作推广, 去除评论区顶部会员推广, 我的页面推广等, 仅支持7.48.0及以上版本
-Author: Netskao
-Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/icon.png
-Name: 哔哩哔哩 NoAds
-Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/nDepiction
 
 Package: netskao.ccpower
 Version: 1.9-3
@@ -6474,23 +6622,6 @@ Section: System
 Description: 隐藏第三方组件，为它们腾出更多空间！
 Author: CoolStar <coolstarorganization@gmail.com>
 Name: Stashing for iOS 9.2 - 10.2
-
-Package: org.thebigboss.repo.icons
-Version: 1.0
-Architecture: all
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 48
-Replaces: cydia, bigboss
-Filename: ./debs/org.thebigboss.repo.icons_1.0_all.deb
-Size: 11380
-MD5sum: 930b06885689af10cd05c234c9762b91
-SHA1: 30075d2835588a6171036019ae16cafd686b159a
-SHA256: f94dbbb8437c6cf82f242268b3ce243928b4095e6ee42ad7a7039a8abfc08ecd
-Section: System
-Priority: optional
-Multi-Arch: foreign
-Description: BigBoss源本地缓存插件图标
-Name: BigBoss Icon Set
 
 Package: org.tihmstar.kDFUApp
 Version: 1.0.3
