@@ -1183,15 +1183,15 @@ Architecture: iphoneos-arm
 Maintainer: iTweakiOS
 Depends: com.white.ccpatch10 | com.yourepo.itweakios.ccpatch10
 Filename: ./debs/carriercrack-globalios14_1.0.6.deb
-Size: 6596248
-MD5sum: 7335ddef85042af6db0151c48448bf8c
-SHA1: 0dabc41ba46e228f66e15ca98a8bb209cf0e37be
-SHA256: 61d6456d030494b02d3874b5051ce3695450d59de4c0e2abec46015b2b0d668d
+Size: 6601840
+MD5sum: ae60843f43e2bcccb68b995bece8ddda
+SHA1: e18b04dc3cd3187071ca0561b930248c00fd8a89
+SHA256: 3df25a01524bb88e450629c483a7bd35fcdd02a64a01384739336b9c62c8fc76
 Section: Tweaks
 Description: 启用隐藏功能、加入新功能、放大手机信号、提高蜂窝网络速度等！
 Author: iTweakiOS
 Name: CarrierCrack - Global (iOS 14)
-Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/globalios14/Depiction
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/globalios/Depiction
 
 Package: com.white.ccpatch
 Version: 1.2
@@ -4085,10 +4085,10 @@ Maintainer: iOS Creatix, Rafferty W
 Depends: firmware (>= 11.0),mobilesubstrate
 Conflicts: com.raff.sugarcane, com.ioscreatix.sugarcane, com.hk.sugarcane13, com.crak.sugarcane13
 Filename: ./debs/sugarcane_1.0.2-1.deb
-Size: 28154
-MD5sum: 28f4f44cc80a8ba21883d29ff5ea2b45
-SHA1: fbd1500d10cbf65f477b5295e6ff901b16580a58
-SHA256: 67f98025236f2350a6b6fbeb620998250b5e5f2babd65888f66ca398e02d16fc
+Size: 27520
+MD5sum: 30dff680f43e55dd059ae723ac33cdde
+SHA1: c298d79f3af18b24101f90aba880ba5773eb88e2
+SHA256: 528674ccb419c1a20d8441e5c68ee4dc5573fa3baaf27ce752fbe7a4b0865126
 Section: Tweaks
 Description: 添加控制中心音量/亮度滑块、侧边音量框滑块百分比，Sky丶Pain编译版本，添加百分比字体大小等设置，支持iOS11-14
 Author: iOS Creatix, Rafferty W
