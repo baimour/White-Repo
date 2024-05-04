@@ -165,6 +165,27 @@ Description: 微信插件
 Author: Jan
 Name: WeChat Jan
 
+Package: com.kingpuffdaddi.control-center.ccvpn
+Version: 1.0.6
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 154
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.opa334.ccsupport
+Filename: ./debs/control-center.ccvpn_1.0.6.deb
+Size: 15060
+MD5sum: 5643c78de01d8a213d435502d8bec8db
+SHA1: 0692a09cf933f380e208f2c6251cfcd128b45497
+SHA256: 3f2a0ff8e70e1f033b7b3f202ffe0b6caa94579b5489c0451ece25e8f33d4047
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccvpnDp
+Description: 用于连接/断开VPN的控制中心模块
+Tag: purpose::extension
+Author: KingPuffdaddi <kingpuffdaddi@icloud.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccvpnDp
+Dev: kingpuffdaddi
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Smartvpn/icon2.png
+Name: CCVPN
+
 Package: com.level3tjg.researchspoof
 Version: 1.0
 Architecture: iphoneos-arm
@@ -1177,6 +1198,23 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Bi
 Name: 哔哩哔哩 NoAds(重写版)
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/nDepiction
 
+Package: com.white.carriercrack-global
+Version: 3.1.19
+Architecture: iphoneos-arm
+Maintainer: iTweakiOS <itweakios@yahoo.com.com>
+Depends: com.yourepo.itweakios.ccpatch10 | com.white.ccpatch10
+Filename: ./debs/carriercrack-global_3.1.19.deb
+Size: 4009044
+MD5sum: 411bd683a443612226c6fb10b2b4af12
+SHA1: e32352ff0a708137bf8b855d13df4a013d21bd1f
+SHA256: 2026df150d3a52127221a43c184c36abc1cfc8aacecb1e162a80868ca2000b73
+Section: Tweaks
+Description: 启用隐藏功能、引入新功能、放大蜂窝信号、提高数据速度等等！
+Author: iTweakiOS <itweakios@yahoo.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/carriercrack/icon.png
+Name: CarrierCrack - Global
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/carriercrack/Depiction
+
 Package: com.white.carriercrack-globalios14
 Version: 1.0.6
 Architecture: iphoneos-arm
@@ -1576,14 +1614,33 @@ Maintainer: Julio
 Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
 Conflicts: com.julioverne.cydown, com.crack.cydown.cn, com.hk.cydown.all
 Filename: ./debs/cydown_7.1.2-1.deb
-Size: 2538888
-MD5sum: 804569b55b55fe8928bb00c7261bad1d
-SHA1: 29502c6d045256d0b5639a8060486f7c0e5f9aba
-SHA256: a3a008d0360af64d26fbcf17028c957c69f55b3da0375eace1e7c4393b31356d
-Section: Utilities
-Description: CyDown 7.1.2汉化版
+Size: 2537424
+MD5sum: f96c01c7c8af8d02c41dd4db9b17a3e5
+SHA1: e54e630a76b6f782fe53a5c6570f812e27994271
+SHA256: b330a97dc45bdf00d7651932aec81fd899327ed82763737087146986bf9657cc
+Section: Tweaks
+Description: CyDown汉化增强版
 Author: julioverne <julioverne@me.com>
-Name: CyDown [7.1.2汉化版]
+Name: CyDown [汉化版]
+
+Package: com.white.cydown
+Version: 7.1.6
+Architecture: iphoneos-arm
+Maintainer: Julioverne & CyPwn
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
+Conflicts: com.julioverne.cydown
+Filename: ./debs/cydown_7.1.6.deb
+Size: 2730824
+MD5sum: 8ed26392cdf2b8b573514c5d03cf6869
+SHA1: 2f31f211b32f48de5d705d35bd4b935eac22efde
+SHA256: 5d632ceb9a54e522a9a5b817a5e0c98370646b276ad82162f46d58fa67233a7b
+Section: Tweaks
+Description: Cydown汉化增强版
+Author: Julioverne & CyPwn
+Depiction: https://repo.cypwn.xyz/depiction/742
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Cydown/icon.png
+Name: CyDown++
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Cydown/Depiction
 
 Package: com.white.czyyxfc
 Version: 1.0
@@ -1881,12 +1938,12 @@ Maintainer: Netskao
 Installed-Size: 2428
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: ./debs/dumpdecrypter_1.3-7.deb
-Size: 529568
-MD5sum: f51dbc9608ec9fd6b7f47081fb6d8387
-SHA1: af5d1dff3a822dce6e5c4e8da6806723ad919141
-SHA256: 4e83d061f77da875b3585e1ef85740fd1dcea76a9cea49455fb4f8f87f588630
+Size: 529236
+MD5sum: 9d560f92c20d44396ee7071e10faf40a
+SHA1: d75fdc4e77e17bf54273f4fe883bbd6958ad5755
+SHA256: 4ad48b4016837f15ec929f875b2521505a6a88845e6793241f053a7f553c52c2
 Section: Utilities
-Description: 基于dumpdecrypted的修改封装版 •	使用方式：打开桌面的DumpDecrypter应用程序选择需要解密的应用 •	解密的IPA会保存至：/var/mobile/Documents/DumpDecrypter •	选择应用后会自动杀掉应用进程重新打开，解密前加载所有Frameworks •	解密前停止所有非解密线程，解密完成后自动恢复等 •	解密后的IPA如果要直接安装，建议重新签名，无论使用的签名证书是否有效，否则某些环境会出现闪退等问题
+Description: 基于dumpdecrypted的修改封装版
 Author: Netskao
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/DumpDecrypter/icon.png
 Name: DumpDecrypter
@@ -2731,6 +2788,22 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ha
 Name: Harpy Reloaded
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/harpyreloaded/Depiction
 
+Package: com.white.hidedark
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: iBreak <ibreak2019@qq.com>
+Depends: mobilesubstrate
+Filename: ./debs/hidedark_1.1.deb
+Size: 5420
+MD5sum: d2551571a6e7e3849ab10d811c4ef184
+SHA1: d336272038eca41c60c1f2a08a67d97693be4fed
+SHA256: d5c206696df7df6f719635b6e7657c008aa133f89fde5b06dbd9265368df322d
+Section: Tweaks
+Description: 隐藏锁屏/桌面壁纸以及字体阴影效果
+Author: iBreak <ibreak2019@qq.com>
+Name: Hide Dark
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/hidedark/Depiction
+
 Package: com.white.iconsfix
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -3295,6 +3368,22 @@ Icon: https://repo.cypwn.xyz/assets/repo/Featured/milkyway3.png
 Name: MilkyWay3
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/924
 
+Package: com.white.morelinesnotifications
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: CydiaGeek <lucaluca86@aol.com>
+Depends: mobilesubstrate
+Filename: ./debs/morelinesnotifications_1.1.deb
+Size: 2760
+MD5sum: 42a23b71c23ad166b2e354add194d6a4
+SHA1: 2ab61ccd9ccc396bd858760178b70e8846c87c56
+SHA256: b10d50671284d35f3e27d0c58ed62f037ff9d3983186de016799c12da00afd9e
+Section: Tweaks
+Description: 增加通知的行数！已在iOS10-12上测试
+Author: CydiaGeek <lucaluca86@aol.com>
+Name: MoreLinesNotifications
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/morelinesnotifications/Depiction
+
 Package: com.white.networkexalt
 Version: 1.2.1
 Architecture: iphoneos-arm
@@ -3396,6 +3485,22 @@ Depiction: https://cydia.ichitaso.com/depiction/nonseset143.html
 Dev: ichitaso
 Icon: file:///Applications/NonceSet143.app/AppIcon60x60@3x.png
 Name: NonceSet143
+
+Package: com.white.noparallax
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: iBreak <ibreak2019@qq.com>
+Depends: mobilesubstrate
+Filename: ./debs/noparallax_1.2.deb
+Size: 6856
+MD5sum: b1d69b3482599adcd46d633794792951
+SHA1: 9f91fd28488d17e067ac93271b2e177a7936f7a8
+SHA256: e36d8087be1d2838fe8037edb1b366962ab2b2efe940de6add0efb4e00bd6aab
+Section: Tweaks
+Description: 关闭桌面视差效果
+Author: iBreak <ibreak2019@qq.com>
+Name: No Parallax
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/noparallax/Depiction
 
 Package: com.white.noquickbar
 Version: 1.0
@@ -3531,6 +3636,23 @@ Tag: purpose::uikit, role::enduser
 Author: lvcoffee <admin@lvcoffee.info>
 Icon: file:///Applications/PPPOE.app/icon.png
 Name: PPPOE 无线拨号
+
+Package: com.white.procam7.app
+Version: 12.2.1
+Architecture: iphoneos-arm
+Maintainer: White
+Depends: firmware (>= 9.0)
+Filename: ./debs/procam7.app_12.2.1.deb
+Size: 11287596
+MD5sum: 5a7f3b4367ddf1ef37f2cbc78439a3e8
+SHA1: d8fc07b51e7b38cf5d46b8c4be2bbe3e477b77b6
+SHA256: 91345425ff114831fbeeb261aa4aa79e9e468b5a95b25e5a927128e7c30954db
+Section: Utilities
+Description: 由香港朋友花钱购买，非常专业的单反式拍摄
+Author: White
+Icon: file:///Applications/Cydia.app/Sections/Utilities.png
+Name: ProCam 7 专业级单反相机
+Sponsor: White
 
 Package: com.white.rebootmodule
 Version: 1.1.0
@@ -4027,6 +4149,24 @@ Name: SmartVPN
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/smartvpn/Depiction
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.white.smartvpn
+Version: 2.1
+Architecture: iphoneos-arm
+Maintainer: b4db1r3
+Installed-Size: 424
+Depends: mobilesubstrate (>= 0.9.5000), com.kingpuffdaddi.control-center.ccvpn, com.opa334.altlist
+Filename: ./debs/smartvpn_2.1.deb
+Size: 45484
+MD5sum: 095ae8a5eaa845378871f4d8bece37aa
+SHA1: 18d48c01e9eac8bac8e6528c19d3212c7df2af06
+SHA256: abaaafa3e27fb38d9f56c9209c28d4df24e22dcc52d295b0912e884a06ac4e50
+Section: Tweaks
+Description: 为特定应用自动开启关闭VPN
+Author: b4db1r3
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Smartvpn/icon.png
+Name: SmartVPN
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Smartvpn/Depiction
+
 Package: com.white.snapper2
 Version: 2.7.0
 Architecture: iphoneos-arm
@@ -4357,11 +4497,11 @@ Maintainer: CreatureSurvive <support@creaturecoding.com>
 Installed-Size: 1112
 Depends: firmware (>= 10.0), preferenceloader | com.creaturecoding.preferred
 Filename: ./debs/tweaksettings_1.0.8.deb
-Size: 389372
-MD5sum: dd419c458eb8d2e8b1bc25cae06fffaf
-SHA1: e2e6c73fd47809c3bff9e6f5a7243b9f125088be
-SHA256: 9898e7b0d8b1926fe7d434eb6c3b290c035343dbcf18b2f07603c5f4f0029cb3
-Section: Applications
+Size: 389380
+MD5sum: f8021857012def2219ef7d76f433e1f2
+SHA1: 7e935e034feabaf4095cdb03aee8a9b1e819fa19
+SHA256: 40d3b57757e4e2ce137e6673d03625274abf6bbe70bb5e9b5db2a4a639d21255
+Section: Utilities
 Priority: optional
 Homepage: https://creaturecoding.com/
 Description: 用于插件的专用设置应用程序
@@ -4664,28 +4804,6 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ze
 Name: Zetsu
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/zetsu/Depiction
 
-Package: cydia-lproj
-Version: 1.1.32~b1
-Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 712
-Depends: cydia
-Conflicts: org.thebigboss.russiancydia
-Replaces: cydia, org.thebigboss.russiancydia
-Provides: org.thebigboss.russiancydia
-Filename: ./debs/cydia-lproj_1.1.32~b1.deb
-Size: 71408
-MD5sum: 68f2270c51164e799c7258c224177002
-SHA1: 206616f42e50349bce31d9ad8c66c1af2160dace
-SHA256: f4e1125a190a0487d2a59606507b15437af87a236f09b55c65800b5200cfac2e
-Section: System
-Priority: required
-Description: Cydia商店语言和翻译
-Tag: purpose::uikit, cydia::essential, role::enduser
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: http://cydia.saurik.com/info/cydia-lproj/
-Name: Cydia Translations
-
 Package: cydia.installer
 Version: 1.1.36-3
 Architecture: iphoneos-arm
@@ -4696,12 +4814,12 @@ Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmd
 Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
 Provides: bigbossbetarepo, cydia-sources, cydia-lproj
-Filename: ./debs/cydia.installer_1.1.36-3_iphoneos-arm.deb
-Size: 1408974
-MD5sum: 8c8c184e7d05f6aeb4b5d553a4a53b89
-SHA1: ae182fe603b2487c9c77ff33f8ce14ade6588998
-SHA256: a7efc934b58eab6f89776838e03d56831054d9810f9347bc13f34cb8f04d77a4
-Section: Tweaks
+Filename: ./debs/cydia.installer_1.1.36-3.deb
+Size: 1315888
+MD5sum: 089dbfe00448381a727ee6d4894aec90
+SHA1: e1c3d72cac2b0b4227f41a1cb20464f7c318d72f
+SHA256: d3a4eb05619c6decf4d66fad77a443a209d6c76a7effcf41a8a0ba11af1bcbef
+Section: Utilities
 Priority: important
 Description: 此版本为酷星越狱工具专用，整合一些增强插件
 Tag: purpose::uikit, role::enduser
@@ -4972,6 +5090,38 @@ Name: Activator
 Sponsor: thebigboss.org <http://thebigboss.org>
 依赖源：https: //rpetri.ch/cydia/
 
+Package: libc++-10-dev
+Version: 10.0.0~svn-20200108+247e5b37d63-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 9848
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libllvm10
+Filename: ./debs/libc++-10-dev_10.0.0~svn-20200108+247e5b37d63-1.deb
+Size: 408024
+MD5sum: e14065fad102300549734499437f1c85
+SHA1: 790aee9bc0604b40a5d3678a1b6c98482fd719ce
+SHA256: 1eb58d4ad1e6e2ba935771b3e73d9da9807f0c3c7f5d26b3a14e0635f606230c
+Section: Development
+Priority: optional
+Description: LLVM C++ 标准库 (开发依赖)
+
+Package: libc++-dev
+Version: 10.0.0~svn-20200108+247e5b37d63-3
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 16
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libc++-10-dev
+Filename: ./debs/libc++-dev_10.0.0~svn-20200108+247e5b37d63-3.deb
+Size: 872
+MD5sum: eddf794fe46131f4b7f62e000986fb85
+SHA1: ca483e68ee650ed5fae8b3eb04b0b89271aab13c
+SHA256: 87eb0da4307c7250ddc97f801a27fd693838d331141223ebde836643923d3a0a
+Section: Development
+Priority: optional
+Description: LLVM C++ 标准库(开发依赖)
+
 Package: libclang-common-10-dev
 Version: 10.0.0~svn-20200108+247e5b37d63-1
 Architecture: iphoneos-arm
@@ -5121,6 +5271,23 @@ SHA256: dda1cbead42acf8c641f25f36d6476e95b05614e89e456c839201731a4f8df8b
 Section: Development
 Priority: optional
 Description: 基于文本的应用程序编程接口 (依赖库)
+
+Package: llvm-10
+Version: 10.0.0~svn-20200108+5c253cd01-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 28960
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libllvm10
+Filename: ./debs/llvm-10_10.0.0~svn-20200108+5c253cd01-1.deb
+Size: 2782224
+MD5sum: 589fa6263ccb58ffd3e68e7cce7c4a0e
+SHA1: 3b756300dbd5abbce01d6fe9f58205f2748a12b5
+SHA256: 5866225b3348f2127511b6ce1109d5a8a489f39b718cde3ba98c430bbdce2d2d
+Section: Development
+Priority: optional
+Homepage: https://www.llvm.org/
+Description: 模块化编译器和工具链技术
 
 Package: me.jjolano.alertdismiss
 Version: 1.0.4
@@ -6584,28 +6751,6 @@ Author: CoolStar <coolstarorganization@gmail.com>
 Icon: https://repo.theodyssey.dev/depictions/icons/libhooker.png
 Name: libhooker
 Sileodepiction: https://repo.theodyssey.dev/depictions/json/libhooker.json
-
-Package: org.coolstar.llvm-clang
-Version: 3.7.1-1
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 521112
-Depends: firmware (>= 5.0), firmware(<< 9.0) | org.coolstar.llvm-clang64, firmware(>= 9.0) | org.coolstar.llvm-clang32, cy+cpu.arm64 | org.coolstar.llvm-clang32
-Filename: ./debs/org.coolstar.llvm-clang_3.7.1-1.deb
-Size: 960
-MD5sum: 643bf6bd5c3339925430470ee946b7b5
-SHA1: 44c498be6f38faa5d6152aa6156d8165ded94844
-SHA256: 53f374910c51d1e50d8da8618befe93213f484c1c338e338adcaa166b4d37d25
-Section: Development
-Priority: optional
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=llvm-clangDp
-Description: 适用于32/64位设备的LLVM、Clang和编译器
-Tag: purpose::console
-Author: CoolStar <coolstarorganization@gmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=llvm-clangDp
-Dev: coolstar
-Name: LLVM+Clang
-Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: org.coolstar.stash933
 Version: 1.5.0
