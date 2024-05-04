@@ -1202,12 +1202,12 @@ Package: com.white.carriercrack-global
 Version: 3.1.19
 Architecture: iphoneos-arm
 Maintainer: iTweakiOS <itweakios@yahoo.com.com>
-Depends: com.yourepo.itweakios.ccpatch10 | com.white.ccpatch10
+Depends: com.yourepo.itweakios.ccpatch10|com.white.ccpatch10
 Filename: ./debs/carriercrack-global_3.1.19.deb
-Size: 4009044
-MD5sum: 411bd683a443612226c6fb10b2b4af12
-SHA1: e32352ff0a708137bf8b855d13df4a013d21bd1f
-SHA256: 2026df150d3a52127221a43c184c36abc1cfc8aacecb1e162a80868ca2000b73
+Size: 4004040
+MD5sum: e429b5076f9963099ee1dbb5e7cf74d5
+SHA1: a1c6ae118beab3df84065b98bc3dc0d881e11baf
+SHA256: a71d4459071256272d4ad2d9efa96c6f18b1decd5106c17ce519ddbef05954e7
 Section: Tweaks
 Description: 启用隐藏功能、引入新功能、放大蜂窝信号、提高数据速度等等！
 Author: iTweakiOS <itweakios@yahoo.com>
@@ -1219,12 +1219,12 @@ Package: com.white.carriercrack-globalios14
 Version: 1.0.6
 Architecture: iphoneos-arm
 Maintainer: iTweakiOS
-Depends: com.white.ccpatch10 | com.yourepo.itweakios.ccpatch10
+Depends: com.yourepo.itweakios.ccpatch10|com.white.ccpatch10
 Filename: ./debs/carriercrack-globalios14_1.0.6.deb
-Size: 6601840
-MD5sum: ae60843f43e2bcccb68b995bece8ddda
-SHA1: e18b04dc3cd3187071ca0561b930248c00fd8a89
-SHA256: 3df25a01524bb88e450629c483a7bd35fcdd02a64a01384739336b9c62c8fc76
+Size: 6605016
+MD5sum: 8d45de0d818838c7860c791355ef3825
+SHA1: c6489d39f5c6f07d232822789eafdf673c61dfe1
+SHA256: 34558dab98d0730dfe470c469b64632bae2d65caee506d018a010760dd33fd48
 Section: Tweaks
 Description: 启用隐藏功能、加入新功能、放大手机信号、提高蜂窝网络速度等！
 Author: iTweakiOS
@@ -3313,17 +3313,17 @@ Author: CBZ
 Name: Limneos Patch
 
 Package: com.white.locationfakerx
-Version: 2.9-1k
+Version: 2.9-1
 Architecture: iphoneos-arm
 Maintainer: Custuck
 Installed-Size: 2531
-Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), org.mr.cunstuck | com.white.cunstuck
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), org.mr.cunstuck|com.white.cunstuck
 Conflicts: org.thebigboss.locationchangerx, org.thebigboss.locationfaker8
-Filename: ./debs/locationfakerx_2.9-1k.deb
-Size: 1421404
-MD5sum: 5c05227ddf36ad9b6ca68df0d309d97b
-SHA1: 2e9025723707de435b3f54f768bfa11c8b718ce7
-SHA256: 00f7f2f48381c1aa404a8641f4b8582b3797cd0bad81ce37c9679cf9961b4c95
+Filename: ./debs/locationfakerx_2.9-1.deb
+Size: 1421420
+MD5sum: 0be6947cb830b88516153d838d1d05af
+SHA1: 8e8c9e99bbb8aa3e75a53a766e2655cf167c84eb
+SHA256: 31e904ad4f1494ba71a6b5cedd98b9549871f0e85841597f772e16efb42dbf5d
 Section: Tweaks
 Description: 在任何应用中修改并伪装您的位置
 Author: Custuck <cunstuck@gmail.com>
