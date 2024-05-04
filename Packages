@@ -4849,16 +4849,17 @@ Package: flexdecrypt
 Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: John Coates
-Depends: firmware (>=12.2) | org.swift.libswift (>=5.0), firmware (>= 9.0)
+Depends: firmware (>= 11.0) | org.swift.libswift (>=5.0)
 Filename: ./debs/flexdecrypt_1.1.deb
-Size: 517688
-MD5sum: 258532aafbcda0425bd21b40da87b069
-SHA1: 1366cd160c1afaaca1662c149f54b3d373808e0e
-SHA256: b739c6aaa67aceca6c6015bac19bcd8db7dc2cc30680eb8e6199a43f8b9e237c
-Section: Utilities
+Size: 518652
+MD5sum: 90e45e936b442a681c0ec8c74b1832f3
+SHA1: e13a141c5440e9c944cb5aef0a87c1e8c0c05a38
+SHA256: 734530033c9ff2a5e6b6e829686d190446bb8a49d7ec68394f9351363f2be401
+Section: Tweaks
 Description: 用于解密iOS应用和Mach-O二进制文件的工具
 Author: John Coates
 Name: flexdecrypt
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/flexdecrypt/Depiction
 
 Package: ipwnderlite
 Version: 1.0
