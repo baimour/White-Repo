@@ -1496,17 +1496,18 @@ Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDe
 Package: com.white.cunstuck
 Version: 1.0
 Architecture: iphoneos-arm
-Maintainer: Cunstuck
+Maintainer: Custuck
 Installed-Size: 504
 Depends: mobilesubstrate
 Filename: ./debs/cunstuck_1.0.deb
-Size: 198464
-MD5sum: 433c14864ea320cb93eb126ae9ac9c27
-SHA1: f62c203a65152284f6a1422fe9f0abcf0aaabf33
-SHA256: f4d73a33ac5b4205f043fbfedb1d04f8c4be8fb94b3877bd68e04fa8f26d8135
+Size: 199084
+MD5sum: 8de2e5432465b6744d8f4325f61b3156
+SHA1: 5ea83d7489477a105f3e1d93964935e385f16fb7
+SHA256: 2b3ba15196cf8c778c9e1c03ad4b440a1e869a63a660887e817779fd586dcbab
 Section: Tweaks
-Description: 启用LocationFakerX许可证
-Author: Cunstuck
+Description: License to enable tweaks
+Author: Custuck
+Depiction: https://mrepo.org/depiction/4396
 Name: CunsLic
 
 Package: com.white.customizebw
@@ -3312,17 +3313,17 @@ Author: CBZ
 Name: Limneos Patch
 
 Package: com.white.locationfakerx
-Version: 2.9-1
+Version: 2.9-1k
 Architecture: iphoneos-arm
 Maintainer: Custuck
 Installed-Size: 2531
-Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), com.white.cunstuck
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), org.mr.cunstuck | com.white.cunstuck
 Conflicts: org.thebigboss.locationchangerx, org.thebigboss.locationfaker8
-Filename: ./debs/locationfakerx_2.9-1.deb
-Size: 1422656
-MD5sum: 9baa259dfa0485f3e4e5c9c512f69715
-SHA1: 5317220dab856f23028a0e23c28fc05a80108f1c
-SHA256: 3eee9e7bb2ee05ce87864b2330eae485702c8653eabb0390dac9b0ec7cabe4f0
+Filename: ./debs/locationfakerx_2.9-1k.deb
+Size: 1421404
+MD5sum: 5c05227ddf36ad9b6ca68df0d309d97b
+SHA1: 2e9025723707de435b3f54f768bfa11c8b718ce7
+SHA256: 00f7f2f48381c1aa404a8641f4b8582b3797cd0bad81ce37c9679cf9961b4c95
 Section: Tweaks
 Description: 在任何应用中修改并伪装您的位置
 Author: Custuck <cunstuck@gmail.com>
