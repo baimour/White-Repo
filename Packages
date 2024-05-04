@@ -857,18 +857,16 @@ Installed-Size: 200
 Depends: mobilesubstrate, com.white.tools (>=2.3.6)
 Replaces: com.randy420.fixcydia
 Filename: ./debs/aptfix_0.0.6.deb
-Size: 9956
-MD5sum: 717f1154e1a15ff331fcd7e5e05849f3
-SHA1: 447c050900be165b6c8a7d4117a6a2059efc955b
-SHA256: 0abe067dd890fb7cacd1dd2e218e6806e55a8612c249c9613fdac6866e7aaa58
+Size: 11148
+MD5sum: 571077d86d09ba3900a17989a43f246d
+SHA1: 9c9bd12b4c351cf1afd91ceb9216891cfa36e494
+SHA256: 24cf47324f6d291f4da7a269f2de5a67ac75841b713651ceb5d51e0da18e06fc
 Section: System
-Description: 有时，你的越狱商店会弹出类似 "DPKG Locked"或 "apt locked"的错误，这些错误实际上不是由Cydia或其他越狱商店引起的，而是由这些子进程 (apt、dpkg、cydo等) 引起的
-  
- 。只需一个简单的终端命令就能清除这些错误
- ，在终端中运行'aptFix'或者在系统设置的Theos Installer设置里点击按钮！
+Description: 修复DPKG Locked或apt locked错误
 Author: Randy420
 Depiction: https://Randy-420.GitHub.io/depic/aptFix.html
 Name: aptFix
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/aptfix/Depiction
 
 Package: com.white.arm64e
 Version: 0.1
@@ -1631,10 +1629,10 @@ Maintainer: Julioverne & CyPwn
 Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
 Conflicts: com.julioverne.cydown
 Filename: ./debs/cydown_7.1.6.deb
-Size: 2730824
-MD5sum: 8ed26392cdf2b8b573514c5d03cf6869
-SHA1: 2f31f211b32f48de5d705d35bd4b935eac22efde
-SHA256: 5d632ceb9a54e522a9a5b817a5e0c98370646b276ad82162f46d58fa67233a7b
+Size: 2730572
+MD5sum: 159bee53060a7632c1b01d1d21e95966
+SHA1: 64da04bb0fd5dfdd63098a14b27dbe7eb58a9776
+SHA256: a6c80d9680b6246efaa4478f0b083c30f64b6db9055097c04e16a44673185fcb
 Section: Tweaks
 Description: Cydown汉化增强版
 Author: Julioverne & CyPwn
@@ -2631,10 +2629,10 @@ Installed-Size: 408
 Depends: mobilesubstrate, com.white.tools (>=2.3.6)
 Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
 Filename: ./debs/ftt_1.1.deb
-Size: 63660
-MD5sum: fbcb8aeed0777598e7c63f7896aa69cd
-SHA1: d18d6a5348f5a928da6f7349c9624f961f9ffa8c
-SHA256: a626e219cb8387d1449d85a55a73978e1ac87a03594cf5856ed8db845a637dd7
+Size: 63640
+MD5sum: 1bbba6556a63c981e0fac3f46084e4f3
+SHA1: e7d1a67f4ef2b90447756132967fe9ae8e3df3c4
+SHA256: aef9e8c0f59e91993b1cfcc26c3985ab472aba60e40e32ab49225971f76d090c
 Section: Development
 Homepage: https://theemeraldisle.family
 Description: 最初由iPadkid358制作，后由randy420更新。该版本为White改版
@@ -2676,6 +2674,24 @@ Depiction: https://repo.cypwn.xyz/depiction/1897
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/genieaichatbot.png
 Name: Genie AI Chatbot Pro
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1897
+
+Package: com.white.genieaichatbot
+Version: 6.2.0
+Architecture: iphoneos-arm
+Maintainer: Blatant
+Depends: mobilesubstrate
+Filename: ./debs/genieaichatbot_6.2.0.deb
+Size: 6620
+MD5sum: 149ace35f6a36de5f2683d66b7f5e2e0
+SHA1: 469807be560351ceebebc9bab4f062226fc1486c
+SHA256: 57c8f41a1c8f39f8c1099c68ecfabe16d0ecc9155ea5cab56af3930a3f542299
+Section: Tweaks
+Description: 作者：Blatant，解锁Genie AI Chat Pro功能
+Author: Blatant
+Depiction: https://repo.cypwn.xyz/depiction/2410
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/genieaichatbot.png
+Name: Genie AI Chatbot Pro
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2410
 
 Package: com.white.gtgj
 Version: 1.0
@@ -2896,14 +2912,14 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 15312
 Depends: firmware (>= 13.5), firmware (<= 14.8.1)
 Filename: ./debs/iridium_1.2.15.deb
-Size: 5425444
-MD5sum: 7af0d7c48502b2bb1c98f015bcb373c9
-SHA1: 2ef1dc3caeff54c1e331800b9cbd14d1d7980a96
-SHA256: 5caf70de6bcc6acaef90d971f8a5e9b1f237f080c1294a86dcfb62d939a65d01
+Size: 5427004
+MD5sum: 79d74e0cf2ffcf69c6dbef3cc9e1512b
+SHA1: 603258fa3e07b80824185aa8f99fcedb90a2455c
+SHA256: 0ffe0b3497ca406d3ccbf47f669a28858232bfe10886cf813a446bb04b9befca
 Section: Utilities
 Priority: optional
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iridiumDp
-Description: iOS全权限砸壳工具 •	支持解密小组件 •	修复压缩IPA大小问题 •	中文汉化：威锋@Alicys •	最佳兼容系统：iOS13.5-14.3
+Description: iOS全权限砸壳工具
 Tag: purpose::uikit
 Author: White <1410970825@qq.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iridiumDp
@@ -2919,12 +2935,12 @@ Architecture: iphoneos-arm
 Maintainer: Lakr Aream <launchctl@outlook.com>
 Pre-Depends: firmware (>= 13.5), firmware (<= 14.8.1)
 Filename: ./debs/iridium_1.2.16.deb
-Size: 5604960
-MD5sum: 1c8388da257e3afbe99d9d7305c1f25d
-SHA1: 13a3e7a9664152a99b22b4b55bb53c0b15fc08cd
-SHA256: 37977ad49cb8627ab74c88fbae3e6e8c1b62bfe7ab26a9c420dfcf67b157ed92
+Size: 5605368
+MD5sum: cbb6e5ea6430893853818044cd74c5b0
+SHA1: bc9022ba7b6a12a72b71f90aec5b89eeda99008a
+SHA256: e93ff46c02af117a44ceaa5d2c4fbab44fb655f25bd0a08e88124020c1dd138a
 Section: Utilities
-Description: iOS全权限砸壳工具 •	支持解密小组件 •	修复压缩IPA大小问题 •	中文汉化：威锋@Alicys •	最佳兼容系统：iOS13.5-14.3
+Description: iOS全权限砸壳工具
 Tag: purpose::uikit
 Author: Lakr Aream <launchctl@outlook.com>
 Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iridiumDp
@@ -4259,13 +4275,13 @@ Version: 5.2.2
 Architecture: iphoneos-arm
 Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 296
-Depends: com.white.tools (>= 2.3.6), clang, curl, git, grep, perl, rsync, unzip, make, ldid, com.opa334.ccsupport, xar
+Depends: clang, curl, git, grep, perl, rsync, unzip, make, ldid, com.opa334.ccsupport, xar
 Conflicts: net.howett.theos
 Filename: ./debs/tai_5.2.2.deb
-Size: 37208
-MD5sum: 83e7d1bb0464f7426c54804011e84115
-SHA1: 9a19b7560113961adc074a46232cdc1f1dd6b563
-SHA256: e2a078164cd0fc65a2747a5a836e0a7f06d5e464372a303ffcbea47280d1892a
+Size: 42528
+MD5sum: aeb2723e66e7e9a4585cf90ed18c7938
+SHA1: e8617fe235611c41bca75dc8e3a3c5302610ef00
+SHA256: 8a41d0f1ee8dbb2f1b1df5dfedb9664c846e6cd3770e5eb058a70e7f8f9cbe97
 Section: Development
 Description: 使用简单的命令安装Theos
 Author: Randy420 <randy.skinner@hotmail.com>
@@ -4460,17 +4476,17 @@ Version: 2.3.6
 Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
 Installed-Size: 1804
-Depends: ws.hbang.common
+Depends: com.white.ftt, com.white.tai, ws.hbang.common
 Replaces: com.randy420.encrypt
 Filename: ./debs/RandyTools_2.3.6.deb
-Size: 723936
-MD5sum: 399bf7b2c827e14eb09406f901ade1e5
-SHA1: 7b7e5c09ce3f9d4bf2e0be53b5cf371eb6026d47
-SHA256: a3298eeb38828f8d8813b81c65ca720520d0047578b588c821a9908cc99743e3
+Size: 723920
+MD5sum: 0d8660e0c393d2a1ac63d1e22f4bbac4
+SHA1: 25a840706d6e82144df9108cbffdcddef0681937
+SHA256: cfd6f29555eb9361a5506aa290e482c79e23b8c44f3b42f2cc85a0b6fd0b1611
 Section: Development
-Description: Theos自动安装工具，在原版基础上精简优化选项
+Description: Theos自动配置工具，在原版基础上精简优化选项
 Author: White <1410970825@qq.com>
-Name: 420 Tools
+Name: 420 Tools (Theos Installer)
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/RandyTool/Depiction
 
 Package: com.white.tsssaver
