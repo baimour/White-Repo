@@ -1437,21 +1437,22 @@ Name: CoolCC
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/coolcc/Depiction
 
 Package: com.white.cr4shed
-Version: 4.3.0
+Version: 4.3.1
 Architecture: iphoneos-arm
 Maintainer: Muirey03
-Installed-Size: 1384
-Depends: mobilesubstrate, com.white.libmryipc, cy+cpu.arm64 | cy+cpu.arm64e, firmware (>= 9.0), ws.hbang.common (>= 1.11)
-Filename: ./debs/cr4shed_4.3.0.deb
-Size: 169080
-MD5sum: ae2ec7d91c40a8353ea747f50f92858d
-SHA1: 078795b86c4e66119a6c07e7e10974d55f3c3351
-SHA256: f58a119abe0770b9425335140339dd2de8da9e5713d580fe7b2c8173e4d3b10d
+Installed-Size: 1432
+Depends: mobilesubstrate, com.muirey03.libmryipc|com.white.libmryipc, firmware (>= 9.0), ws.hbang.common (>= 1.11)
+Filename: ./debs/cr4shed_4.3.1.deb
+Size: 149912
+MD5sum: 09171772a08f9f31af1acbd45056cec5
+SHA1: 6c3262fae8fb358d3149e4594d31bb2d08b136af
+SHA256: 24d592efd89aebce0d94a4b22c1e1972f0ae935cd5a0589c01ba8271696fbbd9
 Section: Utilities
-Description: 崩溃日志查看工具 •	可帮助开发人员识别和修复用户报告给他们的崩溃 •	它会生成崩溃日志，/var/tmp/crash_logs •	其中包括崩溃的进程，崩溃的原因 •	导致崩溃的dylib以及崩溃发生时的整个调用堆栈等信息 •	如果有人向您报告崩溃并且您无法解决问题纯粹来自崩溃日志 •	那么这非常有用 (对于确定开发中崩溃的原因也非常有用) •	此报告应该是您确定崩溃发生原因所需的一切 •	这是为了与CrashReporter一起工作，而不是替换它 •	它提供了CrashReporter无法提供的信息 •	通常只需要确定崩溃的原因 •	但CrashReporter对于非NSExceptions引起的崩溃仍然有用
+Description: 崩溃日志查看工具
 Author: Muirey03
-Icon: file:///Applications/Cr4shed.app/AppIcon60x60@3x.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cr4shed/icon.png
 Name: Cr4shed
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cr4shed/Depiction
 
 Package: com.white.crackerxi
 Version: 1.1.16
