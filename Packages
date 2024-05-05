@@ -4189,6 +4189,24 @@ Name: Sharecuts 捷径分享
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sharecuts/Depiction
 Sponsor: daniel
 
+Package: com.white.sileo-zh
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: White
+Depends: mobilesubstrate
+Filename: ./debs/sileo-zh_1.0.deb
+Size: 7688
+MD5sum: c7f620c2260f352dc5e71de5e2415fcf
+SHA1: 85b224c9a654c3fa49fed313593bb15cfa6cb34c
+SHA256: 503b7a0306ccb6907a8f9cf384f9a459f4afb8b6720ca1d2c7802022449ab62b
+Section: Tweaks
+Description: 为Sileo完善部分汉化
+Author: White
+Depiction: N/A
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sileo-zh/icon.png
+Name: zh-Hans For Sileo
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sileo-zh/Depiction
+
 Package: com.white.smartbattery
 Version: 3.5
 Architecture: iphoneos-arm
@@ -4972,17 +4990,18 @@ Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydi
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
 Provides: bigbossbetarepo, cydia-sources, cydia-lproj
 Filename: ./debs/cydia.installer_1.1.36-3.deb
-Size: 1315888
-MD5sum: 089dbfe00448381a727ee6d4894aec90
-SHA1: e1c3d72cac2b0b4227f41a1cb20464f7c318d72f
-SHA256: d3a4eb05619c6decf4d66fad77a443a209d6c76a7effcf41a8a0ba11af1bcbef
+Size: 1316084
+MD5sum: d0d736f017bdc4e2736fde322018f2f9
+SHA1: 399f3b9240600540a7978063d1b5b48795cd7f2b
+SHA256: db13d97adca297a0bf2a62cdb4f70324bd56f14aa4729ba16d69cfe79cd21274
 Section: Utilities
 Priority: important
 Description: 此版本为酷星越狱工具专用，整合一些增强插件
 Tag: purpose::uikit, role::enduser
 Author: Jay Freeman (saurik) <saurik@saurik.com>
-Icon: file:///Applications/Cydia.app/Icon-60.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Cydia/icon.png
 Name: Cydia Installer
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Cydia/Depiction
 Sponsor: Procursus Team <support@procurs.us>
 
 Package: dev.ayden.ios.tweak.lib.libdundas
