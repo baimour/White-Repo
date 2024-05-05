@@ -2941,13 +2941,13 @@ Maintainer: dora2ios <dora.ios.dev@gmail.com>
 Installed-Size: 1664
 Depends: firmware(>= 9.0), mobilesubstrate
 Filename: ./debs/ios-9-14-system-unlocker_1.0.3.deb
-Size: 171568
-MD5sum: 89a41901ceba38362ff7b79dbeb97c49
-SHA1: aedb0f8c61edcd9b10755bbe683ca29401382634
-SHA256: 4b656150a099f2e3fd13396b86e51bf74907550361fc8269a1f6ded4966494c6
+Size: 171548
+MD5sum: 13995743946af5955fe009cf59030447
+SHA1: bc9a8f263cfc83ffc0ac7f4001a88882128b8725
+SHA256: 95863c8707f99442e3e66cc424670627b53366395b4aaee3037d83c9e664d6d7
 Section: Tweaks
-Description: 启用某些系统功能
-Tag: purpose::extension, cydia::commercial, compatible_min::ios9.0, compatible_max::ios14.8.1
+Description: 启用某些系统禁用的功能
+Tag: purpose::extension, compatible_min::ios9.0, compatible_max::ios14.8.1
 Author: dora2ios <dora.ios.dev@gmail.com>
 Depiction: https://repo.twickd.com/package/com.twickd.dora2ios.ios-9-14-system-unlocker
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/systemunlocker/icon.png
@@ -3972,17 +3972,17 @@ Architecture: iphoneos-arm
 Maintainer: Sugiuta
 Depends: firmware (>= 13.0), firmware (<= 14.8.1), mobilesubstrate, preferenceloader, ws.hbang.common, ws.hbang.alderis, com.opa334.altlist
 Filename: ./debs/sakura_1.0.7.deb
-Size: 598520
-MD5sum: fb5a27f19589bd429ae14e6536cb1f90
-SHA1: 3f84bfa026ea12f1b73a5946b4b6fdba69b556bd
-SHA256: 3344c20b759724f07c9a5d2ad7b5352d4ce5d99a0c8e64b6989cbe4a0482260a
+Size: 598304
+MD5sum: cfd3b03b8fcaee848263df086ed441ad
+SHA1: 3393f5979b3ceeb6d1d3bf37e39049ca4d717ae1
+SHA256: 0b523b225695b64d2d042dd21e88593bd1148959afb09137736e33e12d37d0c4
 Section: Tweaks
 Description: iOS13-14的多任务分屏
 Author: Sugiuta
 Depiction: https://repo.cypwn.xyz/depiction/435
-Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/filzacodingpro/icon.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sakura/icon.png
 Name: Sakura
-Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/filzacodingpro/Depiction
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sakura/Depiction
 
 Package: com.white.satella
 Version: 1.8.1
