@@ -750,14 +750,15 @@ Maintainer: rA9stuff
 Installed-Size: 216
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/AccessoryAlertBlocker_0.0.1-2.deb
-Size: 4844
-MD5sum: f9dec425cc9d398bc1c6a1835867335c
-SHA1: 947e824494ded91fd880b6e8794920d3a57355e7
-SHA256: 4eccd5672a905b0e8e33197f8ac35d021fd1281b788180fcda8901b133c66632
+Size: 4912
+MD5sum: 34822cdce10ae2e629d5c1af83b794e8
+SHA1: ff5477bf5841d6357437e22aff85a31e3ab64dec
+SHA256: 43a7dd2189cf73ee5ba9880d3c0f4d792dfd6e7e2f395f3a681cee54d81b1d51
 Section: Tweaks
-Description: 阻止OTG连接后下载配件固件的弹窗
+Description: 阻止OTG连接后出现下载配件固件的弹窗
 Author: rA9stuff
 Name: AccessoryAlertBlocker
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/accessoryalertblocker/Depiction
 
 Package: com.white.adspeed
 Version: 1.1.1
