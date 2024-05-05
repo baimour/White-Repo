@@ -775,6 +775,26 @@ Description: 快速跳过视频广告，奖励可正常领取
 Author: White <1410970825@qq.com>
 Name: VideoAdsSpeed【快速跳过广告】
 
+Package: com.white.afakerx
+Version: 2.3-7
+Architecture: iphoneos-arm
+Maintainer: CUNSTUCK
+Installed-Size: 820
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.rpetrich.rocketbootstrap, org.mr.cunstuck|com.white.cunstuck
+Filename: ./debs/afakerx_2.3-7.deb
+Size: 88392
+MD5sum: b4f0dec8121c691c12c9a17a570e73ce
+SHA1: 341078be5cecc8409fcea5a5313fb1420d5326f7
+SHA256: 27840d45e952d905855d4fb3e815e5599f685c7bf516ed1a1c50d29eb8a56c8a
+Section: Tweaks
+Description: 隐藏/加密应用程序
+Tag: purpose::extension, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Author: CUNSTUCK <cunstuck@gmail.com>
+Depiction: https://mrepo.org/depiction/4987
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/afakerx/icon.png
+Name: AFakerX
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/afakerx/Depiction
+
 Package: com.white.aismithpremium
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -1949,6 +1969,25 @@ Name: DumpDecrypter
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/DumpDecrypter/Depiction
 Sponsor: Netskao
 
+Package: com.white.dynamicpeninsula
+Version: 0.6-80
+Architecture: iphoneos-arm
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 1668
+Depends: firmware(>=12.0), mobilesubstrate, preferenceloader, xyz.cypwn.limneos|com.white.limneos
+Filename: ./debs/dynamicpeninsula_0.6-80.deb
+Size: 328256
+MD5sum: 3acbc10fddc3c2a5001f9846a1bad151
+SHA1: 7ea6917e4635e628d3410ebccb439c4bf7d2cba8
+SHA256: e6cfac97da93264715f6c962bfc8f8a9fdb744155c2a632340d7e4fffb557bd3
+Section: Tweaks
+Description: 支持iOS12-14的灵动半岛，支持大部分灵动岛效果
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: http://www.limneos.net/cydia/depiction.php?package=net.limneos.dynamicpeninsula
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/dynamicpeninsula/icon.png
+Name: DynamicPeninsula
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/dynamicpeninsula/Depiction
+
 Package: com.white.dynawall
 Version: 3.1
 Architecture: iphoneos-arm
@@ -2331,6 +2370,25 @@ Depiction: https://rejail.ru/depiction.php?file=filza
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/filza/icon.png
 Name: Filza File Manager
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/filza/Depiction
+
+Package: com.white.filzacodingpro
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: SsS136
+Installed-Size: 759
+Depends: firmware (>= 7.0), firmware (<= 14.8.1), mobilesubstrate, preferenceloader
+Filename: ./debs/filzacodingpro_0.0.1-1.deb
+Size: 88904
+MD5sum: 4a993bfa5427d32c7567e83ea947a37b
+SHA1: 329b7e02240f76604a73f403f782aba163a6a0c7
+SHA256: 15c65c4d89cde87d716a44ae14abde03c5b59c91bb62514e92246d84091e5c47
+Section: Tweaks
+Description: 在Filza中轻松编码的功能
+Author: SsS136
+Depiction: https://repo.cypwn.xyz/depiction/102
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/filzacodingpro/icon.png
+Name: Filza Coding Pro
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/filzacodingpro/Depiction
 
 Package: com.white.fiona
 Version: 1.0.5
@@ -2875,6 +2933,26 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ig
 Name: iGameGod
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/igg/Depiction
 
+Package: com.white.ios-9-14-system-unlocker
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: dora2ios <dora.ios.dev@gmail.com>
+Installed-Size: 1664
+Depends: firmware(>= 9.0), mobilesubstrate
+Filename: ./debs/ios-9-14-system-unlocker_1.0.3.deb
+Size: 171568
+MD5sum: 89a41901ceba38362ff7b79dbeb97c49
+SHA1: aedb0f8c61edcd9b10755bbe683ca29401382634
+SHA256: 4b656150a099f2e3fd13396b86e51bf74907550361fc8269a1f6ded4966494c6
+Section: Tweaks
+Description: 启用某些系统功能
+Tag: purpose::extension, cydia::commercial, compatible_min::ios9.0, compatible_max::ios14.8.1
+Author: dora2ios <dora.ios.dev@gmail.com>
+Depiction: https://repo.twickd.com/package/com.twickd.dora2ios.ios-9-14-system-unlocker
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/systemunlocker/icon.png
+Name: iOS 9 - 14 System Unlocker
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/systemunlocker/Depiction
+
 Package: com.white.ios9wallpaper
 Version: 0.0.1
 Architecture: iphoneos-arm
@@ -3327,6 +3405,24 @@ Section: Tweaks
 Description: CBZ制作的Limneos源插件破解，使用了新的ABI编译。破解Limneos源插件，例如CallBarXS、Glow、AudioRecorderXS等。Limneos官方源：http://limneos.net/repo/
 Author: CBZ
 Name: Limneos Patch
+
+Package: com.white.liveactivities
+Version: 1.0.5
+Architecture: iphoneos-arm
+Maintainer: 0xkuj
+Installed-Size: 1144
+Depends: firmware (>= 14)
+Filename: ./debs/liveactivities_1.0.5.deb
+Size: 258800
+MD5sum: a3dc09f828079c34d0d4623147c50278
+SHA1: a9c02e95f50f4e1dea479eff6f4e6ba37d020bcd
+SHA256: c1331c8dae144b175a1d41c2dcbda8c15417f3bec8e4763995598bc481656044
+Section: Tweaks
+Description: 受iOS 16启发制作的插件，在锁屏上设置实时活动计时器
+Author: 0xkuj
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/liveactivities/icon.png
+Name: Live Activities
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/liveactivities/Depiction
 
 Package: com.white.locationfakerx
 Version: 2.9-1
@@ -3833,6 +3929,26 @@ Tag: role::hacker
 Author: udevs
 Name: runroot
 
+Package: com.white.safari-electro-2
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Minazuki <minazukidev@gmail.com>
+Installed-Size: 592
+Depends: firmware (>= 13.0), firmware (<= 13.7), mobilesubstrate, ws.hbang.common, org.thebigboss.libcolorpicker
+Filename: ./debs/safari-electro-2_1.1.deb
+Size: 163176
+MD5sum: 18a75022505c98717a06da5e89923e56
+SHA1: d3d02c0b0cf32f2bd700dce74be0bda6978b3e0f
+SHA256: acbdbf2e8fd29be317013b394a4e6728193c9df35e92bfca85e78b1b12ef7e3e
+Section: Tweaks
+Description: 为Safari添加增强功能，多样式风格
+Tag: compatible_min::ios13.0, compatible_max::ios13.7
+Author: Minazuki <minazukidev@gmail.com>
+Depiction: https://repo.twickd.com/package/com.twickd.minazuki.safari-electro-2
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/safarielectro/icon.png
+Name: Safari Electro 2
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/safarielectro/Depiction
+
 Package: com.white.safeccmodules
 Version: 1.5-2
 Architecture: iphoneos-arm
@@ -3848,6 +3964,24 @@ Author: jailbreak365
 Depiction: https://repo.cypwn.xyz/depiction/1623
 Name: CCModules
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1623
+
+Package: com.white.sakura
+Version: 1.0.7
+Architecture: iphoneos-arm
+Maintainer: Sugiuta
+Depends: firmware (>= 13.0), firmware (<= 14.8.1), mobilesubstrate, preferenceloader, ws.hbang.common, ws.hbang.alderis, com.opa334.altlist
+Filename: ./debs/sakura_1.0.7.deb
+Size: 598520
+MD5sum: fb5a27f19589bd429ae14e6536cb1f90
+SHA1: 3f84bfa026ea12f1b73a5946b4b6fdba69b556bd
+SHA256: 3344c20b759724f07c9a5d2ad7b5352d4ce5d99a0c8e64b6989cbe4a0482260a
+Section: Tweaks
+Description: iOS13-14的多任务分屏
+Author: Sugiuta
+Depiction: https://repo.cypwn.xyz/depiction/435
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/filzacodingpro/icon.png
+Name: Sakura
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/filzacodingpro/Depiction
 
 Package: com.white.satella
 Version: 1.8.1
@@ -4239,17 +4373,19 @@ Package: com.white.sugarcane
 Version: 1.0.2-1
 Architecture: iphoneos-arm
 Maintainer: iOS Creatix, Rafferty W
-Depends: firmware (>= 11.0),mobilesubstrate
+Depends: firmware (>= 11.0), firmware (<= 14.8.1), mobilesubstrate
 Conflicts: com.raff.sugarcane, com.ioscreatix.sugarcane, com.hk.sugarcane13, com.crak.sugarcane13
 Filename: ./debs/sugarcane_1.0.2-1.deb
-Size: 27520
-MD5sum: 30dff680f43e55dd059ae723ac33cdde
-SHA1: c298d79f3af18b24101f90aba880ba5773eb88e2
-SHA256: 528674ccb419c1a20d8441e5c68ee4dc5573fa3baaf27ce752fbe7a4b0865126
+Size: 27500
+MD5sum: 40959610d0a62f83d4e516eddb1d0019
+SHA1: ada4491088eccdb9ac90b848d32886a9b44e9ede
+SHA256: b559d6d10ba41dfc34c479b4898ae7b4ee02664f7afcecc8c3e334390b4c7e57
 Section: Tweaks
-Description: 添加控制中心音量/亮度滑块、侧边音量框滑块百分比，Sky丶Pain编译版本，添加百分比字体大小等设置，支持iOS11-14
+Description: 添加音量/亮度、侧边音量框百分比
 Author: iOS Creatix, Rafferty W
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sugarcane/icon.png
 Name: SugarCane
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sugarcane/Depiction
 
 Package: com.white.swipeformore
 Version: 1.1.10
@@ -4720,14 +4856,16 @@ Architecture: iphoneos-arm
 Maintainer: iBreak <ibreak2019@qq.com>
 Depends: mobilesubstrate
 Filename: ./debs/wallpaperbox_1.3.1.deb
-Size: 126444
-MD5sum: 9bbfe31ca85f220073327fafefce097b
-SHA1: 46b89858fd46ac97149bb8b0b386f5078e4d019d
-SHA256: 10e794b14906d30901d618cfd48b5e9e44dbb24a15d227cfec4230975f95e740
+Size: 124332
+MD5sum: 4967c36b2c27ca7ec245e635f91622c3
+SHA1: 4fa83b07c7506ad4aa658a459f610d14d9d4ee09
+SHA256: 99f66962200ea181391c560d2220108ca1354484a2ae832bab22782e77b2b710
 Section: Tweaks
-Description: 还原iOS壁纸的原色彩以及优化
+Description: 还原iOS壁纸原色彩以及优化
 Author: iBreak <ibreak2019@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/wallpaperbox/icon.png
 Name: Wallpaper Box
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/wallpaperbox/Depiction
 
 Package: com.white.wechathelper
 Version: 3.1.2
