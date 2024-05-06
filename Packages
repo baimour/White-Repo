@@ -2341,15 +2341,16 @@ Architecture: iphoneos-arm64
 Maintainer: TIGI Software
 Installed-Size: 23200
 Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
-Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Conflicts: ru.rejail.filza, com.tigisoftware.filza, com.tigisoftware.filza39, netskao.filzacrack
 Filename: ./debs/filza_4.0.1-4_iphoneos-arm64.deb
-Size: 6996904
-MD5sum: 0743c053312b526451611e759adeb059
-SHA1: 4fcbf2b9e9e303597af72d0ede6900439edc3e75
-SHA256: 8728825e68c447bd4cc0fd5e336b8f075c780c655e4a6e950b62d1d560180c1a
+Size: 6996004
+MD5sum: 7728feb07ecc3aa6e6750b4525a8fb0d
+SHA1: 609d2afe6a392b6834eb7fccc67c5f18631d989f
+SHA256: b3b346cde37924117548c14df698c64dc5875ab77d63b9e7d1a09e916c203b45
 Section: Utilities
 Description: 适用于iPhone、iPad 和 iPod Touch的文件管理器。仅支持iOS 15+
 Author: TIGI Software
+Depiction: https://rejail.ru/depiction.php?file=filza
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/filza/icon.png
 Name: Filza File Manager
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/filza/Depiction
@@ -2357,14 +2358,15 @@ Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDe
 Package: com.white.filza
 Version: 4.0.1-4
 Architecture: iphoneos-arm
-Maintainer: ReJail <rejail@rejail.ru>
+Maintainer: TIGI Software
 Installed-Size: 19388
-Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Conflicts: ru.rejail.filza, com.tigisoftware.filza, com.tigisoftware.filza39, netskao.filzacrack
 Filename: ./debs/filza_4.0.1-4_iphoneos-arm.deb
-Size: 6997388
-MD5sum: c6d1643292b6c3234f21e821c3c5af0a
-SHA1: 7d297d70eb6608c03e4ad57ab7bc3310e95b41ff
-SHA256: 63ea11cf6b5719c31be9f464dc14889ea0cf9a96ce043cf8a86355ad10c8328c
+Size: 6996904
+MD5sum: 255021aec89c3b639d7dc8458b7d7826
+SHA1: 207483409a343af52693bc072bd82eb9963734b9
+SHA256: 7f4afb9dd436a6e235b97f178e198cb96fdf1d5a4bab544dc7d1ea814cb18b21
 Section: Utilities
 Description: 强大的iOS文件管理器
 Author: TIGI Software
@@ -2391,6 +2393,23 @@ Depiction: https://repo.cypwn.xyz/depiction/102
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/filzacodingpro/icon.png
 Name: Filza Coding Pro
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/filzacodingpro/Depiction
+
+Package: com.white.filzacompiler
+Version: 0.1-beta
+Architecture: iphoneos-arm
+Maintainer: SsS136
+Installed-Size: 332
+Depends: mobilesubstrate
+Filename: ./debs/filzacompiler_0.1-beta.deb
+Size: 41280
+MD5sum: 1886c879ee0519f2281a4a9cb7be3573
+SHA1: 9d484ff14f625b39bb16c8ca6f844cd9193d35cc
+SHA256: 07295974e38056faa466129507287e8c16649a727546119f6566bc3b2b959a3c
+Section: Tweaks
+Description: 这是可以用Filza编译插件包的插件，专为在手机上编写代码的人设计
+Author: SsS136
+Name: Filza Compiler
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/filzacompiler/Depiction
 
 Package: com.white.fiona
 Version: 1.0.5
