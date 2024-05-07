@@ -1939,6 +1939,24 @@ Name: DisableLC 隐藏锁屏相机
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/DisableLC/Depiction
 Sponsor: Skylerk99 <skylerk99@gmail.com>
 
+Package: com.white.disabletestflightblock
+Version: 1.1-4
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 104
+Depends: firmware (>= 13.0), mobilesubstrate
+Conflicts: netskao.disabletestflightblock
+Replaces: netskao.disabletestflightblock
+Filename: ./debs/disabletestflightblock_1.1-4.deb
+Size: 12908
+MD5sum: 7d6f7879f695c95db38c91d5c8ca9524
+SHA1: f9bfab9763a581d60eaba73c4ff357ac6f531a3f
+SHA256: 012b9d6e50756368db801166f296ffc8bedb1d9979f8de474c06d66958b005f0
+Section: Tweaks
+Description: 解除国区账号无法下载国区AppSrore内已下架或者未上架国区的对应TestFlight应用
+Author: Netskao
+Name: DisableTestFlightBlock
+
 Package: com.white.dleasy
 Version: 2.14.4k
 Architecture: iphoneos-arm
