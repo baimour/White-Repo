@@ -846,6 +846,43 @@ Author: rA9stuff
 Name: AccessoryAlertBlocker
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/accessoryalertblocker/Depiction
 
+Package: com.white.adaptive
+Version: 1.3
+Architecture: iphoneos-arm
+Maintainer: psprrom
+Depends: com.spark.laetus|com.white.laetus
+Filename: ./debs/adaptive_1.3.deb
+Size: 94430040
+MD5sum: e74856140373130dd4924e6f64e826c5
+SHA1: 840085b3b8e9df4a824e539bf9661c197cda8b82
+SHA256: c01da0ba0b601a46190b004084ead6d0c3e5352d768eee78bce7946a3bdf78e6
+Section: Themes
+Description: Laetus自适应键盘主题
+Author: psprrom <rromero-mosso@hotmail.com>
+Depiction: https://mrepo.org/depiction/4281
+Name: Adaptive
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/adaptive/Depiction
+
+Package: com.white.adjacentperiod
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Mikeneko <neko@therapist.net>
+Installed-Size: 136
+Depends: firmware (>= 10.0), mobilesubstrate
+Filename: ./debs/adjacentperiod_1.1.deb
+Size: 3880
+MD5sum: b8db7c4c5816ec40c1424c2e41947192
+SHA1: 1d6b847d5055e2b14a78f78d6377afdbe76d744b
+SHA256: 3165521333561b2aaf54794caeecb8ae6c28c9e67ad3c9113329e3e0a3de493f
+Section: Tweaks
+Description: 始终在空格键旁边显示句号键，就像在浏览器中一样
+Tag: purpose::extension, compatible_min::ios10.0, compatible_max::ios13.7
+Author: Mikeneko <neko@therapist.net>
+Depiction: https://repo.twickd.com/package/com.twickd.mikeneko.adjacentperiod
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/adjacentperiod/icon.png
+Name: AdjacentPeriod
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/adjacentperiod/Depiction
+
 Package: com.white.adspeed
 Version: 1.1.1
 Architecture: iphoneos-arm
@@ -974,6 +1011,23 @@ Author: Randy420
 Depiction: https://Randy-420.GitHub.io/depic/aptFix.html
 Name: aptFix
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/aptfix/Depiction
+
+Package: com.white.arete-theme
+Version: 2.1
+Architecture: iphoneos-arm
+Maintainer: ThemesOnFire <icondablabs@gmail.com>
+Filename: ./debs/arete-theme_2.1.deb
+Size: 13589496
+MD5sum: efe5f70cf9d589da02d9312b6156c50a
+SHA1: 8ccf34b8585998b5666caba1d150b37de184e02d
+SHA256: c3a1b8f30096bcd86f37a2c70c165db1663ed201a21a68fa9dc7909ecf3c09be
+Section: Themes
+Description: 包含2000+图标的精美主题
+Tag: purpose::extension, compatible_min::ios7.0, compatible_max::ios13.7
+Author: ThemesOnFire <icondablabs@gmail.com>
+Depiction: https://repo.twickd.com/package/com.twickd.themesonfire.arete-theme
+Name: Arete
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/arete/Depiction
 
 Package: com.white.arm64e
 Version: 0.1
@@ -4102,6 +4156,27 @@ Description: 删除关于本机内｜未知部件｜或｜部件和服务历史�
 Author: 34306
 Name: Replaced
 Sponsor: Little 34306
+
+Package: com.white.reprovision.cn
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: Ball
+Installed-Size: 184
+Depends: mobilesubstrate
+Conflicts: com.hk.reprovision.cn, com.cydiabc.reprovisionzh, com.hk.reprovisionzh
+Replaces: com.hk.reprovision.cn
+Filename: ./debs/reprovision.cn_1.2.deb
+Size: 17860
+MD5sum: 8164c947933c6c2a3698bd5b23e2ccd7
+SHA1: bc4b9627c1fe7bbdc6fc7522b4f8b28d973b5e3e
+SHA256: 6f894b5517ebe86e624237e34967b69c710fd17663af745f0734c7e37624b167
+Section: Tweaks
+Description: 兼容旧版和重写版，登录界面和其他一些地方未生效
+Author: Ball
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/reprovision/icon.png
+Name: ReProvision Reborn 汉化包
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/reprovision/Depiction
+Sponsor: Ball
 
 Package: com.white.resentment
 Version: 1.0k
