@@ -1031,6 +1031,25 @@ Depiction: https://chariz.com/get/atria
 Icon: https://img.chariz.cloud/icon/atria/icon@3x.png
 Name: Atria
 
+Package: com.white.backgrounderaction13
+Version: 0.1.4
+Architecture: iphoneos-arm
+Maintainer: akusio
+Installed-Size: 244
+Depends: firmware (>= 13.0), mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/akusio.backgrounderaction13_0.1.4.deb
+Size: 10096
+MD5sum: ca4cd64baf99c9ccd473bd2097986515
+SHA1: b6947302c888723541831fba0a2222ffedc2c943
+SHA256: a6f36fab5df23d3adbb9dae2b1cf3d23a9aa1d3cc865774a91ce424923b8e88c
+Section: Akusio
+Description: [iOS13]控制中心真后台模块
+Author: akusio <akusio-report@neko2.net>
+Depiction: https://mrepo.org/depiction/1415
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/milkyway/icon2.png
+Name: BackgrounderAction2 for CCSupport
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/milkyway/Depiction
+
 Package: com.white.bankabc
 Version: 1.0
 Architecture: iphoneos-arm
@@ -2858,6 +2877,25 @@ Icon: https://repo.cypwn.xyz/assets/repo/Featured/genieaichatbot.png
 Name: Genie AI Chatbot Pro
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2410
 
+Package: com.white.grupi
+Version: 2.1
+Architecture: iphoneos-arm
+Maintainer: Soongyu Kwon
+Installed-Size: 564
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 11.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
+Filename: ./debs/grupi_2.1.deb
+Size: 142140
+MD5sum: c6ebf243c760e7f9760093bbc541039e
+SHA1: 5635ff3aa12be5edf252e0d0f70613bf2b7af10f
+SHA256: 93a5abab3d73cb746d7c153b57559c55e8cfbed6d7cff42db17a9cd1126c7524
+Section: Tweaks
+Description: iOS 11-iOS14聚合通知
+Author: Soongyu Kwon & Timeloop
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/grupi/icon.png
+Name: Grupi
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/grupi/Depiction
+
 Package: com.white.gtgj
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -3568,23 +3606,43 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/lo
 Name: LowerNotifs
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/lowernotifs/Depiction
 
+Package: com.white.milkyway2
+Version: 0.2.0-alpha
+Architecture: iphoneos-arm
+Maintainer: akusio <akusio-report@neko2.net>
+Installed-Size: 376
+Depends: firmware (>= 13.0), mobilesubstrate, com.white.backgrounderaction13, applist, preferenceloader
+Conflicts: org.mr.milkyway2, com.hk.milkyway2, com.lenglengyu.milkyway2, com.sutuplus.backgrounderaction13, com.cydiabc.backgrounderaction13, com.hk.backgrounderaction13, com.white.backgrounderaction13
+Replaces: org.mr.milkyway2, com.hk.milkyway2, com.lenglengyu.milkyway2, com.sutuplus.backgrounderaction13, com.cydiabc.backgrounderaction13, com.hk.backgrounderaction13, com.white.backgrounderaction13
+Filename: ./debs/akusio.milkyway2_0.2.0-alpha.deb
+Size: 50648
+MD5sum: dc106ec10d19869af1284535b5ffc584
+SHA1: 433e618c1d82269a08b1cfdf990efd1a4ebb894e
+SHA256: 919693548a5f198892f8a78a7888be827d759dee9f3cb262933c4ccd716d217b
+Section: Akusio
+Description: iOS13的多任务分屏
+Author: akusio <akusio-report@neko2.net>
+Depiction: http://akusio.github.io/descriptions/milkyway2/index.html
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/milkyway/icon.png
+Name: MilkyWay2
+
 Package: com.white.milkyway3
 Version: 0.2.15
 Architecture: iphoneos-arm
-Maintainer: White
+Maintainer: akusio
 Depends: firmware (>= 14.0), mobilesubstrate, applist, preferenceloader
 Conflicts: xyz.cypwn.milkyway2ios14
 Replaces: xyz.cypwn.milkyway2ios14
 Filename: ./debs/milkyway3_0.2.15_iphoneos-arm.deb
-Size: 55748
-MD5sum: 59404b0bc9a758db3ae17cea1191e993
-SHA1: 40ad69246f87fde664bbbe49bc87996d9a3c79de
-SHA256: cf9da8d0b65e37a6845778e16c5d802a16597f647eb83ae3d8d0f979dba7b63d
+Size: 55832
+MD5sum: b2322f3da6dab566d2bb5c3b9e8651ec
+SHA1: aeb4215f645e02bf758c0b2ec69663de5617be6a
+SHA256: 4f36879c525230617174125422386d8d0ac42fe871fea48c6d41d0e1cf83f207
 Section: Akusio
-Description: iOS14多任务分屏
+Description: iOS14+多任务分屏
 Author: akusio
 Depiction: https://repo.cypwn.xyz/depiction/924
-Icon: https://repo.cypwn.xyz/assets/repo/Featured/milkyway3.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/milkyway/icon.png
 Name: MilkyWay3
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/924
 
@@ -4186,15 +4244,16 @@ Depends: coreutils-bin, uikittools, firmware (>= 11.3)
 Conflicts: org.coolstar.semirestore11-lite
 Replaces: org.coolstar.semirestore11-lite
 Filename: ./debs/semirestore11_1.1.2-1.deb
-Size: 116786
-MD5sum: 876ab2d13283756f159017f1f106e2c8
-SHA1: ddcf7c3be60a54e734872be27605a366f1492523
-SHA256: b20b50661df6bac9e8706fe43fad9bd53342ec7c63ed76cd6c4a4b54a1b3d398
+Size: 115604
+MD5sum: a27710fad2e7ed6a7a2f326209d943f0
+SHA1: 0b3c19f9918c74fdab39c7b87b18a0d9bc8db23b
+SHA256: 58c16a98c83b2d16b1ab70c726893cb3d5b1a71385a2ae297f7fa8517fcaa541
 Section: System
-Description: 越狱平刷工具，关闭开关为不清除设备数据，只清越狱环境、插件等。支持iOS11.3-14.X系统
+Description: 越狱平刷工具，关闭开关为不清除设备数据，只清越狱环境、插件等。支持iOS11.3-14.8.1
 Author: Pwn20wnd
-Icon: file:///Applications/Rollectra.app/AppIcon60x60@3x.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/semirestore11/icon.png
 Name: SemiRestore11
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/semirestore11/Depiction
 
 Package: com.white.seng
 Version: 1.0.1
@@ -5295,25 +5354,6 @@ Depiction: https://akusio.github.io/descriptions/backgrounderaction12/index.html
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/milkyway/icon2.png
 Name: BackgrounderAction for CCSupport
 
-Package: jp.akusio.backgrounderaction13
-Version: 0.1.4
-Architecture: iphoneos-arm
-Maintainer: akusio <akusio-report@neko2.net>
-Installed-Size: 244
-Depends: firmware (>= 13.0), mobilesubstrate, com.opa334.ccsupport
-Replaces: com.sutuplus.backgrounderaction13, org.mr.backgrounderaction13, com.cydiabc.backgrounderaction13, com.hk.backgrounderaction13, jp.akusio.backgrounderaction13
-Filename: ./debs/akusio.backgrounderaction13_0.1.4.deb
-Size: 12384
-MD5sum: e9af4b98e09304c71b5013b362290922
-SHA1: e37d9b461a42351d7d5cda27b9167ac047596d78
-SHA256: 1e06d52f8b15f7ac55d270b1353110c0855314b7a0c01d6deda7880fe243a149
-Section: Akusio
-Description: 将真后台模块添加到控制中心
-Author: akusio <akusio-report@neko2.net>
-Depiction: https://akusio.github.io/descriptions/backgrounderaction13/index.html
-Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/milkyway/icon2.png
-Name: BackgrounderAction2 for CCSupport
-
 Package: jp.akusio.debypass
 Version: 0.1.1
 Architecture: iphoneos-arm
@@ -5365,25 +5405,6 @@ Author: akusio <akusio-report@neko2.net>
 Depiction: http://akusio.github.io/descriptions/milkyway/index.html
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/milkyway/icon.png
 Name: MilkyWay
-
-Package: jp.akusio.milkyway2
-Version: 0.2.0-alpha
-Architecture: iphoneos-arm
-Maintainer: akusio <akusio-report@neko2.net>
-Installed-Size: 376
-Depends: firmware (>= 13.0), mobilesubstrate, jp.akusio.backgrounderaction13, applist, preferenceloader
-Replaces: org.mr.milkyway2, com.hk.milkyway2, com.lenglengyu.milkyway2
-Filename: ./debs/akusio.milkyway2_0.2.0-alpha.deb
-Size: 43336
-MD5sum: f7ed83d6c6fc6a51fdcc7195c936b9a7
-SHA1: fea144121d2ff8a8acf471df66e401ad15365ced
-SHA256: 16401aee1dd78d6e70755f2e566ab5360e152c47111a80168033121a67725c52
-Section: Akusio
-Description: iOS13的多任务分屏
-Author: akusio <akusio-report@neko2.net>
-Depiction: http://akusio.github.io/descriptions/milkyway2/index.html
-Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/milkyway/icon.png
-Name: MilkyWay2
 
 Package: jp.akusio.milkyway4
 Version: 0.1.1
