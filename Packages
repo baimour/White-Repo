@@ -3911,6 +3911,29 @@ Icon: file:///Applications/Cydia.app/Sections/Toys.png
 Name: 拟态简黑主题
 Sponsor: White <1410970825@qq.com>
 
+Package: com.white.modernstylesettings
+Version: 1.1-2
+Architecture: iphoneos-arm
+Maintainer: Netskao <admin@initnil.com>
+Installed-Size: 134
+Depends: firmware (>= 11.0), mobilesubstrate, firmware (<< 15.0)
+Conflicts: netskao.modernstylesettings
+Replaces: netskao.modernstylesettings
+Filename: ./debs/modernstylesettings_1.1-2.deb
+Size: 6744
+MD5sum: 5881bad6897cdae8bc4ea76b75a504d8
+SHA1: c29f62227e96dc6e57ca6b17892326458e64da38
+SHA256: 8067b524f89d75985fa7c106a1f77470e02fc7fad70369858dd261c959c92f16
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=modernstylesettingsDp
+Description: 现代样式设置界面(iOS15样式边框圆角设置界面，包括WiFi界面)
+Tag: purpose::extension
+Author: Netskao <admin@initnil.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=modernstylesettingsDp
+Name: ModernStyleSettings
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ModernStyleSettings/Depiction
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.white.morelinesnotifications
 Version: 1.1
 Architecture: iphoneos-arm
@@ -4662,6 +4685,30 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sh
 Name: Sharecuts 捷径分享
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sharecuts/Depiction
 Sponsor: daniel
+
+Package: com.white.shuffle
+Version: 1.6.2
+Architecture: iphoneos-arm
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 2416
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | org.coolstar.libhooker | mobilesubstrate
+Depends: com.creaturecoding.libcspreferences
+Conflicts: com.creaturecoding.shuffle, com.cpdigitaldarkroom.placeholder
+Replaces: com.creaturecoding.shuffle, com.cpdigitaldarkroom.placeholder
+Filename: ./debs/shuffle_1.6.2.deb
+Size: 358772
+MD5sum: 76ecaa5af93445ac22c361f5cb7308de
+SHA1: 2f1bc6af9f8a54dcdee5212bd2eca5d9bcc98891
+SHA256: 1bd3ef1ed778463e8add0eb4806ae1cd09404e1002cdae4df0f951bb254ca6f6
+Section: Tweaks
+Homepage: https://creaturecoding.com/
+Description: 设置收纳整合
+Tag: purpose::extension, compatible_min::ios10
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=shuffle
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/shuffle/icon.png
+Name: Shuffle
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/shuffle/Depiction
 
 Package: com.white.sileo-zh
 Version: 1.0
