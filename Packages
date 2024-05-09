@@ -446,6 +446,62 @@ Description: 更好的多任务分屏！修复对iOS15+的支持
 Author: c1d3r
 Name: PullOver Pro
 
+Package: com.opa334.altlist
+Version: 1.0.10
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 388
+Depends: firmware (>=7.0)
+Filename: ./debs/opa334.altlist_1.0.10_iphoneos-arm.deb
+Size: 46912
+MD5sum: 5ea201a3f9ffec1b04c631a5af80e87b
+SHA1: 6f3f7044c8ccfbc3c9d97ea402602cf7235e3da8
+SHA256: dbfa76bc7c1e0926d5ca3b0e29fba9859932d46cfa471662a967d7bff3d5eb59
+Section: 依赖
+Description: 现代AppList替代方案
+Tag: role::developer
+Author: opa334
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
+Name: AltList
+
+Package: com.opa334.ccsupport
+Version: 1.3.10-2
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 460
+Depends: mobilesubstrate, firmware (>= 11.0)
+Conflicts: com.ioscreatix.silo
+Replaces: com.ioscreatix.silo
+Provides: com.ioscreatix.silo
+Filename: ./debs/opa334.ccsupport_1.3.10-2_iphoneos-arm.deb
+Size: 59672
+MD5sum: 06b2ddc6b39219d7d85772d179b32bc6
+SHA1: 8db32e92e4e1065f9fd015b1c0a556b06a473e16
+SHA256: 03cac2872079846493033d7c51121b546f97d222d829bec181d13cd674b539f2
+Section: Tweaks
+Description: 控制中心模块依赖
+Author: opa334
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+Name: CCSupport
+
+Package: com.opa334.libsandy
+Version: 1.1.3
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 436
+Conflicts: ws.hbang.stopcrashingpls (<= 1.0.2)
+Filename: ./debs/opa334.libsandy_1.1.3_iphoneos-arm.deb
+Size: 24440
+MD5sum: 851327125ab4f5995800b2d1e8d4e0f4
+SHA1: e424560a4ebac47fc91a20012d0cd814d63e4c61
+SHA256: c5cf063369563682cabced8c052c2cbfdec4b281264b9695fef5a99bdd66b97a
+Section: 依赖
+Description: 安全扩展系统进程和用户应用的沙盒
+Tag: role::developer
+Author: opa334
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Name: libSandy
+
 Package: com.parrotgeek.globalize
 Version: 0.3.2
 Architecture: iphoneos-arm
@@ -1458,6 +1514,42 @@ Author: julioverne
 Depiction: https://julioverne.github.io/description.html?id=com.julioverne.celldia
 Name: CellDia
 
+Package: com.white.classicfolders3
+Version: 3.0.1
+Architecture: iphoneos-arm64
+Maintainer: CoolStar
+Depends: mobilesubstrate
+Filename: ./debs/classicfolders3_3.0.1_iphoneos-arm64.deb
+Size: 1660408
+MD5sum: 6e1ff43c0059c55e0dee11b56a1ec4e0
+SHA1: d96197ebe02d39a7bce641c5010c91507bd212f2
+SHA256: d034b6933ff461200ea8754d7ede75b763ee0f59e77959577bb4b6195c63bfdd
+Section: Tweaks
+Description: 具有现代风格的iOS 6文件夹
+Author: CoolStar
+Depiction: https://repo.cypwn.xyz/depiction/2455
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/classicfolders3/icon.png
+Name: ClassicFolders 3
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/classicfolders3/Depiction
+
+Package: com.white.classicfolders3
+Version: 3.0.1
+Architecture: iphoneos-arm
+Maintainer: CoolStar
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/classicfolders3_3.0.1_iphoneos-arm.deb
+Size: 1660344
+MD5sum: 4734c607664fc09be2bd244dd1912e39
+SHA1: 201fc8f0f2b694199976369d400379aa8cb8558c
+SHA256: 292af317a4ae3287072518b6ac0948143d68df28d161c2715349ec9cc34f7e57
+Section: Tweaks
+Description: 具有现代风格的iOS 6文件夹
+Author: CoolStar
+Depiction: https://repo.cypwn.xyz/depiction/2456
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/classicfolders3/icon.png
+Name: ClassicFolders 3
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/classicfolders3/Depiction
+
 Package: com.white.cloudmusic
 Version: 1.0
 Architecture: iphoneos-arm
@@ -1539,6 +1631,26 @@ Description: 修复有锁6s/6sp使用移动出现的问题，支持Softbank、AU
 Author: haoerloveyou <haoerloveyou@gmail.com>
 Name: FixCmcc 6S 6SP iOS9
 Sponsor: haoerloveyou <haoerloveyou@gmail.com>
+
+Package: com.white.cocoatop64
+Version: 2.2.3
+Architecture: iphoneos-arm
+Maintainer: SXX, Domo
+Installed-Size: 1116
+Depends: firmware (>= 7.0)
+Conflicts: ru.domo.cocoatop64, ru.domo.cocoatop
+Replaces: ru.domo.cocoatop64
+Filename: ./debs/cocoatop64_2.2.3.deb
+Size: 254404
+MD5sum: 0deb2ed494224c3d654a2dd0ffed1e53
+SHA1: ed3df8152264ad245232f53bf04ced4253d730d3
+SHA256: dd4582a4735ced4fbbf51519511ab8bd977e75f18e926cc3532290497fa04435
+Section: Utilities
+Description: iOS图形界面的进程查看器，由SXX为iOS 13更新
+Author: Domo, SXX
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cocoatop/icon.png
+Name: CocoaTop
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cocoatop/Depiction
 
 Package: com.white.colorbadges
 Version: 1.5.0
@@ -1960,14 +2072,14 @@ Architecture: iphoneos-arm
 Maintainer: Litten
 Installed-Size: 5800
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0), com.mrgcgamer.libgcuniversal, com.peterdev.libpddokdo, com.white.libkitten
-Conflicts: hi.my.name.is.ubik.kalm, com.peterdev.grupi, se.nosskirneh.properlockgestures
+Conflicts: hi.my.name.is.ubik.kalm, se.nosskirneh.properlockgestures
 Filename: ./debs/Diary_1.2.2.deb
-Size: 2656236
-MD5sum: a4460bb14bfa3c90a5371b0ca2301d3b
-SHA1: feb3ad954f24f3a6e701ecc5180962d6fd7bb426
-SHA256: 8ff3ee2f0f977287866a05f9e200cad07b02c58ce5b08c88d7305944ea9d657e
+Size: 2656224
+MD5sum: 0aa894a1a777251ff1541a7a022b839e
+SHA1: accd2eea8ea12928fadd235899a73ba585627836
+SHA256: e72c0b133099036c6293d641bac11d2243dc19d43fa9999be3d93d876999f3c4
 Section: Tweaks
-Description: Win10锁屏风格美化
+Description: Win10锁屏风格美化，与Grupi一起使用可能会冲突
 Author: Litten
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Diary/icon.png
 Name: Diary 📖
@@ -2511,6 +2623,27 @@ Description: 将虚拟电话添加到您的通话记录
 Author: NeinZedd9
 Depiction: https://kingpuffdaddi.github.io/depictions/?p=com.neinzedd9.fakecallhistory
 Name: Fake Call History
+
+Package: com.white.fgotw60fps
+Version: 0.1.4~b1
+Architecture: iphoneos-arm
+Maintainer: Brend0n <brendonjkding@126.com>
+Installed-Size: 432
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.brend0n.fgotw60fps
+Replaces: com.brend0n.fgotw60fps
+Filename: ./debs/fgotw60fps_0.1.4~b1.deb
+Size: 95420
+MD5sum: e2aa78116915a53f31341e7fe6c8c9e3
+SHA1: 1c4c2fbb63ff4800566a3201a8eea5a9facf992c
+SHA256: 3e28659a68fe630cb423413ccd1ad40de03685355361792b44e52674c216e8c8
+Section: Tweaks
+Description: 强制Unity游戏/应用以自定义(30/60)帧率渲染
+Author: Brend0n <brendonjkding@126.com>
+Depiction: http://brendonjkding.github.io/depictions/web/?p=com.brend0n.fgotw60fps
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/fgotw60fps/icon.png
+Name: Unity60FPS
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/fgotw60fps/Depiction
 
 Package: com.white.filza
 Version: 4.0.1-4
@@ -5150,6 +5283,26 @@ Description: 屏蔽最新版越狱和关键词检查
 Author: White <1410970825@qq.com>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/UniDream/icon.png
 Name: Uni Dream屏蔽关键词检查
+
+Package: com.white.unityfpsindicator
+Version: 0.0.4.1
+Architecture: iphoneos-arm
+Maintainer: Brend0n <brendonjkding@126.com>
+Installed-Size: 504
+Depends: mobilesubstrate, com.opa334.altlist, org.thebigboss.libcolorpicker
+Conflicts: com.brend0n.unityfpsindicator
+Replaces: com.brend0n.unityfpsindicator
+Filename: ./debs/unityfpsindicator_0.0.4.1.deb
+Size: 81628
+MD5sum: 22fad3d569bc7161c6f071923626b404
+SHA1: 430f73807a256efdc8c841455fe17693cdf2a994
+SHA256: 3cf48e6a6e722fecbae56fe71407013658d101420ce43b8a8c705ed8e62b234c
+Section: Tweaks
+Description: 游戏实时FPS指示器
+Author: Brend0n <brendonjkding@126.com>
+Depiction: http://brendonjkding.github.io/depictions/web/?p=com.brend0n.unityfpsindicator
+Name: FPSIndicator
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/unityfpsindicator/Depiction
 
 Package: com.white.unthredeh4il
 Version: 1.0.0
