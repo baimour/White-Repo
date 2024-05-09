@@ -4688,6 +4688,30 @@ Sponsor: daniel
 
 Package: com.white.shuffle
 Version: 1.6.2
+Architecture: iphoneos-arm64
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 1484
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | org.coolstar.libhooker | mobilesubstrate
+Depends: com.creaturecoding.libcspreferences
+Conflicts: com.creaturecoding.shuffle, com.cpdigitaldarkroom.placeholder
+Replaces: com.creaturecoding.shuffle, com.cpdigitaldarkroom.placeholder
+Filename: ./debs/shuffle_1.6.2_iphoneos-arm64.deb
+Size: 255500
+MD5sum: 1e5484079bd26a6aa1c37286c31d913e
+SHA1: 107e18d8c76fad4a9e1866ce8bc58a2532ef92c2
+SHA256: 5b8d16335a000f6f5bdef26850ab9ce2bdc7b4beb3726f17d94e43955f7ebfef
+Section: Tweaks
+Homepage: https://creaturecoding.com/
+Description: 设置收纳整合
+Tag: purpose::extension, compatible_min::ios10
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=shuffle
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/shuffle/icon.png
+Name: Shuffle
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/shuffle/Depiction
+
+Package: com.white.shuffle
+Version: 1.6.2
 Architecture: iphoneos-arm
 Maintainer: CreatureSurvive <support@creaturecoding.com>
 Installed-Size: 2416
@@ -4695,11 +4719,11 @@ Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | org.coolstar.libhooker | 
 Depends: com.creaturecoding.libcspreferences
 Conflicts: com.creaturecoding.shuffle, com.cpdigitaldarkroom.placeholder
 Replaces: com.creaturecoding.shuffle, com.cpdigitaldarkroom.placeholder
-Filename: ./debs/shuffle_1.6.2.deb
-Size: 358772
-MD5sum: 76ecaa5af93445ac22c361f5cb7308de
-SHA1: 2f1bc6af9f8a54dcdee5212bd2eca5d9bcc98891
-SHA256: 1bd3ef1ed778463e8add0eb4806ae1cd09404e1002cdae4df0f951bb254ca6f6
+Filename: ./debs/shuffle_1.6.2_iphoneos-arm.deb
+Size: 359384
+MD5sum: bdfc7f639298b85090fa2ce1e22fe526
+SHA1: a241141a87deec2d9a19351622e89c7c86bd50b2
+SHA256: ef8539ef5a5d427697fa9e22f675164ac1a05bef72b04e53954dc425119049a7
 Section: Tweaks
 Homepage: https://creaturecoding.com/
 Description: 设置收纳整合
