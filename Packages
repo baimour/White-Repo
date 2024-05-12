@@ -602,6 +602,23 @@ Tag: role::developer
 Author: Spark
 Name: libsparkcolourpicker
 
+Package: com.sunshinesong.split-view-pro-helper
+Version: 999.1
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Installed-Size: 13792
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Filename: ./debs/split-view-pro-helper_999.1_iphoneos-arm64.deb
+Size: 1372
+MD5sum: 09b0b51fca2b599f10681892c172d6a3
+SHA1: c3df244ce0817d58c6e70b2b1fbc328af4d26141
+SHA256: 027f12e71867f3ad347dcfc56850b396740b8e706a142461f93046051c602cf0
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可
+Author: sunshinesong
+Name: split-view-pro helper
+Ts: sp-sss
+
 Package: com.white.12306
 Version: 1.0-2
 Architecture: iphoneos-arm
@@ -993,6 +1010,24 @@ Depiction: https://repo.cypwn.xyz/depiction/1352
 Icon: https://i.postimg.cc/W3xbgsP2/1503-A9-A3-713-B-4232-A556-C1-E034-D18067.png
 Name: AI Smith Premium
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1352
+
+Package: com.white.alipaystep.rootless
+Version: 0.1-1
+Architecture: iphoneos-arm64
+Maintainer: iOSign
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: iosign.alipaystep.rootless
+Replaces: iosign.alipaystep.rootless
+Filename: ./debs/alipaystep.rootless_0.1-1.deb
+Size: 3116
+MD5sum: 241d37b282b550b02da431eb6a56e20c
+SHA1: 02b730da6b31ae630744b14bdf6aaa48daf48a39
+SHA256: 6b3f1df18b0713c401a182b931dd7d0fa0f08990dd619504e6430e852507b77d
+Section: NoAds
+Description: 每天十万步，屏蔽更新检测，精简首页内容
+Author: iOSign
+Name: 支付宝十万步
 
 Package: com.white.allowkeyboard
 Version: 1.6
@@ -1570,6 +1605,78 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cl
 Name: ClassicFolders 3
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/classicfolders3/Depiction
 
+Package: com.white.classicfolders3
+Version: 3.0.2
+Architecture: iphoneos-arm64
+Maintainer: CoolStar
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/classicfolders3_3.0.2_iphoneos-arm64.deb
+Size: 3296108
+MD5sum: dfa3c5707ca438111ddc0dea586bddd9
+SHA1: bec8277ced366d7ff6d6a8a2b7d8ecbca3421d7b
+SHA256: aa32426b37b698358c45a36398b0547df5d120c520a68238f6814cf9417cab00
+Section: Tweaks
+Description: 具有现代风格的iOS 6文件夹
+Author: CoolStar
+Depiction: https://repo.cypwn.xyz/depiction/2456
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/classicfolders3/icon.png
+Name: ClassicFolders 3
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/classicfolders3/Depiction
+
+Package: com.white.classicfolders3
+Version: 3.0.2
+Architecture: iphoneos-arm
+Maintainer: CoolStar
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/classicfolders3_3.0.2_iphoneos-arm.deb
+Size: 3295836
+MD5sum: 5bff0b8cd587d0282c3e1b1b0acbfca0
+SHA1: 94984292ec42c38d3cadc5b4d9d6dc7c71a84dc5
+SHA256: 275aaebe5ac54b9d6f4608afc67ee7c635991e20b231d2398be2fa404a63e3ff
+Section: Tweaks
+Description: 具有现代风格的iOS 6文件夹
+Author: CoolStar
+Depiction: https://repo.cypwn.xyz/depiction/2456
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/classicfolders3/icon.png
+Name: ClassicFolders 3
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/classicfolders3/Depiction
+
+Package: com.white.classicfolders3
+Version: 3.0.2.6
+Architecture: iphoneos-arm
+Maintainer: CoolStar
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/classicfolders3_3.0.2.6_iphoneos-arm.deb
+Size: 3278840
+MD5sum: e2032d953854a409488485d9f9611e4b
+SHA1: 415ce292bf01d692910bb5d9aba6ed44f2f9432c
+SHA256: f8bcebd29b64dcb39f4e88cc61cdaf8252ca7ddd36bf2991819c9ebeca6494c0
+Section: Tweaks
+Description: 具有现代风格的iOS 6文件夹
+Author: CoolStar
+Depiction: https://repo.cypwn.xyz/depiction/2456
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/classicfolders3/icon.png
+Name: ClassicFolders 3
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/classicfolders3/Depiction
+
+Package: com.white.classicfolders3
+Version: 3.0.2.6
+Architecture: iphoneos-arm64
+Maintainer: CoolStar
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/classicfolders3_3.0.2.6_iphoneos-arm64.deb
+Size: 3280220
+MD5sum: cbb418a0bf190464b8738a574a0beedd
+SHA1: c070abed61652dfe3ecf53f4010dd637b656b574
+SHA256: d41d9016f6c996af325b730ab0d534a8270c78e49295f299baf17aa752d169d1
+Section: Tweaks
+Description: 具有现代风格的iOS 6文件夹
+Author: CoolStar
+Depiction: https://repo.cypwn.xyz/depiction/2456
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/classicfolders3/icon.png
+Name: ClassicFolders 3
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/classicfolders3/Depiction
+
 Package: com.white.cloudmusic
 Version: 1.0
 Architecture: iphoneos-arm
@@ -1985,6 +2092,31 @@ Section: System
 Description: 从EtasonJB/HomeDepot/openpwnage迁移到daibutsu untether，迁移完成后卸载。警告：有引导循环风险，请在安装前备份数据
 Author: LukeZGD
 Name: daibutsu migrator
+
+Package: com.white.datameter
+Version: 1.4-3
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 1212
+Depends: firmware (>= 7.0), firmware (<= 12.5.7), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
+Conflicts: org.thebigboss.datameter
+Replaces: org.thebigboss.datameter
+Filename: ./debs/datameter_1.4-3.deb
+Size: 243768
+MD5sum: 7a1fff69118d9b0e7649e5cabc7a3e95
+SHA1: 69eecfb5ffff9af03d6fddc715f103d4eaa61de6
+SHA256: a47448c1dbf27dc98a4fedd873ac96bf8ff56cc347b8885f12bee5724c488164
+Section: 老iOS专用
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=datameterDp
+Description: iOS 7-12通知中心及悬浮网速
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
+Author: Minuit <minuits@163.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=datameterDp
+Dev: minuit
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/datameter/icon.png
+Name: DataMeter 悬浮网速
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/datameter/Depiction
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.white.deleteforever
 Version: 0.0.1-57
@@ -2651,14 +2783,14 @@ Maintainer: xia0
 Installed-Size: 2540
 Depends: mobilesubstrate
 Filename: ./debs/fakelocationx_6.4-1.deb
-Size: 971780
-MD5sum: 200c94fc52d4e0506f8a22a75052f7ea
-SHA1: a77c8e067f657f24c3f13ecf9432da7b4945badf
-SHA256: d3986debfd0f24e8f624aced76fde75c8e818cf8b7fdb0afb60215a6ce085bec
+Size: 971772
+MD5sum: d69ab61566c1f7d6a3a69db411803a15
+SHA1: 0667d552c99151307e309741597d61319d88948b
+SHA256: 9b3fcde905b23beff16a01982d054280d89a69732a158ea580da4eecf6017653
 Section: Utilities
 Description: 模拟WiFi定位最佳虚拟定位xia0Dev版
 Author: xia0 & Lakr
-Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/fakelocationx/Depiction
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/fakelocationx/icon.png
 Name: FakeLocationX
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/fakelocationx/Depiction
 Sponsor: xia0 & Lakr
@@ -3140,6 +3272,26 @@ Depiction: https://repo.cypwn.xyz/depiction/2410
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/genieaichatbot.png
 Name: Genie AI Chatbot Pro
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2410
+
+Package: com.white.gpsmaster
+Version: 1.8.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000), applist (>= 1.5.14), com.rpetrich.rocketbootstrap (>= 1.0.2)
+Conflicts: app.weiphone.tinyapps.location360pro, cn.tinyapps.XGPSLite, topme.ios.FakeGps, app.weiphone.cn.tinyapps.pogo, net.85819.ios.otrlocation, jb.acc.GpsManager, com.abcydia.otrlocation, cn.tinyapps.XGPS, cn.tinyapps.location360, me.liuming.locationhelper, me.liuming.locationexpert, apt.tinyapps.XGPSPro, apt.tinyapps.location360pro
+Filename: ./debs/gpsmaster_1.8.1.deb
+Size: 3552912
+MD5sum: b45bc056f057ddf1a385e86b650d3b7e
+SHA1: 20c95553d128a07ecd01dacbc2ea02af6cddc361
+SHA256: 6c081efe591ec5189490914749fcef602254d99b2fa52e2e982eb3e06483a104
+Section: Utilities
+Description: GPS定位大师，通过修改苹果手机的GPS定位，实现虚拟定位和模拟驾驶功能
+Tag: purpose::extension, compatible::ios11, compatible::ios12
+Author: Joe Bruce <joebruce1122@hotmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/gpsmaster/icon.png
+Name: GPS Master GPS定位大师
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/gpsmaster/Depiction
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.white.grupi
 Version: 2.1
@@ -4343,6 +4495,43 @@ Icon: file:///Applications/Cydia.app/Sections/Utilities.png
 Name: ProCam 7 专业级单反相机
 Sponsor: White
 
+Package: com.white.qq.rootless
+Version: 0.1-1
+Architecture: iphoneos-arm64
+Maintainer: iOSign
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: iosign.qq.rootless
+Replaces: iosign.qq.rootless
+Filename: ./debs/qq.rootless_0.1-1.deb
+Size: 6044
+MD5sum: 4515b4e308069feffa3e0b114ea8b897
+SHA1: 5dc1483ae7734e915ff078917c74369882b2b303
+SHA256: 4174a8fba7287b2a50ff8c75619bed65b61b370b9e38095697aed5d153116ad3
+Section: NoAds
+Description: 优化精简去除一些杂七杂八、花里胡哨的东西，修改运动步数，默认开启Callkit，语音自动转文字
+Author: iOSign
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
+Name: QQ
+
+Package: com.white.qqmusic.rootless
+Version: 0.1-1
+Architecture: iphoneos-arm64
+Maintainer: iOSign
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: iosign.qqmusic.rootless
+Replaces: iosign.qqmusic.rootless
+Filename: ./debs/qqmusic.rootless_0.1-1.deb
+Size: 3620
+MD5sum: c775c6ca6024afbfa3f4c414f0c46bd6
+SHA1: 4198e45be4a7db78fa11f7e0f1499bae728370a8
+SHA256: e2790d90593ad0936ec0e777231184cfea83ff744879ae5c6689884c796e290b
+Section: NoAds
+Description: 去除启动广告，去除搜索横幅广告，去除首页、播放页面广告，屏蔽音乐宠物、Music Zone入口，精简个人页面，解锁臻品音质2.0
+Author: iOSign
+Name: QQ音乐
+
 Package: com.white.rebootmodule
 Version: 1.1.0
 Architecture: iphoneos-arm
@@ -5059,6 +5248,22 @@ Description: 滑雪板桌面程序汉化版
 Author: Spark
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/snowboard/icon.png
 Name: SnowBoard
+
+Package: com.white.splitviewpro
+Version: 1.1.4
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Depends: mobilesubstrate, preferenceloader, com.sunshinesong.split-view-pro-helper (>= 999.1)
+Filename: ./debs/splitviewpro_1.1.4_iphoneos-arm64.deb
+Size: 3527636
+MD5sum: 45d0cb4ffa97647a01235ab4c0949d62
+SHA1: 07442ab9099dd80445db5f44d97a9c6cbbde0b70
+SHA256: 379a5dbfb060d9c1cc0f13aabfea6b37e54ee1d799e7cb4cc357cb6929c6d4a6
+Section: Tweaks
+Description: 由Sunshine Song开发的免费多任务分屏
+Author: sunshinesong
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/splitviewpro/icon.png
+Name: Split View Pro
 
 Package: com.white.storeswitcher2
 Version: 1.0.3
