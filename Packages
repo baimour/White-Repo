@@ -52,6 +52,26 @@ Author: White <1410970825@qq.com>
 Dev: White
 Name: 屏蔽设置重要提醒
 
+Package: com.creaturesurvive.libcscolorpicker
+Version: 1.0.6
+Architecture: iphoneos-arm
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 960
+Pre-Depends: firmware (>= 7.0)
+Filename: ./debs/creaturesurvive.libcscolorpicker_1.0.6.deb
+Size: 151324
+MD5sum: 576e8672e11b2686553db13ded1e2301
+SHA1: d4fcb887e0411c96dbf1779f01b6ac2bd85a50e9
+SHA256: 4f59475627cee1c3b4db98ea1e70e80f63498be067f7b9d2e2f8e56b3dc4fe2d
+Section: 依赖
+Homepage: https://creaturecoding.com/
+Description: 为开发人员提供的最小颜色选择库
+Tag: purpose::extension, compatible_min::iosiOS7
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=libcscolorpicker
+Name: libCSColorPicker
+Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcscolorpicker
+
 Package: com.eliofeghali.souvenir
 Version: 1.25
 Architecture: iphoneos-arm
@@ -1034,11 +1054,13 @@ Version: 1.6
 Architecture: iphoneos-arm
 Maintainer: iBreak <ibreak2019@qq.com>
 Depends: mobilesubstrate
+Conflicts: com.yourepo.ibreak.allowkeyboard
+Replaces: com.yourepo.ibreak.allowkeyboard
 Filename: ./debs/allowkeyboard_1.6.deb
-Size: 6036
-MD5sum: c0a264d3c291ed2df8285d1af50b1bd9
-SHA1: 5725086b21c2f55630885a76e12e5d9eb81431bc
-SHA256: 7601dbe78870b244e97a6bcf6b0e0b52a3c31eacea60eb9d6a9094e24849022b
+Size: 6064
+MD5sum: c4ca1cc668dfe9566ca3c07512e50036
+SHA1: fba2a575b7bb10f1d51fa1f3189eb3538605cb04
+SHA256: a33f00171ae2373b6dce7b222a90781fdc2921d5643c1706b372fb5afda66bc3
 Section: Tweaks
 Description: 允许第三方键盘获取优先级权限，密码可使用第三方输入法
 Author: iBreak <ibreak2019@qq.com>
@@ -1669,6 +1691,60 @@ Size: 3280220
 MD5sum: cbb418a0bf190464b8738a574a0beedd
 SHA1: c070abed61652dfe3ecf53f4010dd637b656b574
 SHA256: d41d9016f6c996af325b730ab0d534a8270c78e49295f299baf17aa752d169d1
+Section: Tweaks
+Description: 具有现代风格的iOS 6文件夹
+Author: CoolStar
+Depiction: https://repo.cypwn.xyz/depiction/2456
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/classicfolders3/icon.png
+Name: ClassicFolders 3
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/classicfolders3/Depiction
+
+Package: com.white.classicfolders3
+Version: 3.0.3-1
+Architecture: iphoneos-arm64
+Maintainer: CoolStar
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/classicfolders3_3.0.3-1_iphoneos-arm64.deb
+Size: 3280752
+MD5sum: 2a41282b0e0b2acfe7d54b40d26dd7db
+SHA1: 1222d4f90685478e61c52d8a0b92cbe8fedd9bb9
+SHA256: 2bd84d9b51c3b3335f94f842d8b6893d683739dd95ffef953ff292314bdd397a
+Section: Tweaks
+Description: 具有现代风格的iOS 6文件夹
+Author: CoolStar
+Depiction: https://repo.cypwn.xyz/depiction/2456
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/classicfolders3/icon.png
+Name: ClassicFolders 3
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/classicfolders3/Depiction
+
+Package: com.white.classicfolders3
+Version: 3.0.3-1
+Architecture: iphoneos-arm
+Maintainer: CoolStar
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/classicfolders3_3.0.3-1_iphoneos-arm.deb
+Size: 3279320
+MD5sum: 1974b2e8d140e0aed4417e2427f1d01b
+SHA1: f10f8288e1bc83626fa7c2c035aa52b6b35896bd
+SHA256: 217069a110f300580356765dc13e4334a4e68786745c8180b59bbc9c0b41b4f5
+Section: Tweaks
+Description: 具有现代风格的iOS 6文件夹
+Author: CoolStar
+Depiction: https://repo.cypwn.xyz/depiction/2456
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/classicfolders3/icon.png
+Name: ClassicFolders 3
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/classicfolders3/Depiction
+
+Package: com.white.classicfolders3
+Version: 3.0.3.6
+Architecture: iphoneos-arm64
+Maintainer: CoolStar
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/classicfolders3_3.0.3.6_iphoneos-arm64.deb
+Size: 3280048
+MD5sum: c65bf4ce41433dc2460a8a9a38e94d81
+SHA1: 16dcab668d2e12b00a052de3f8d80a596febed8d
+SHA256: 7904812f32e9424285ae6937e5a98470abea24528ec8ce35ff70a91bbe7d8b6f
 Section: Tweaks
 Description: 具有现代风格的iOS 6文件夹
 Author: CoolStar
@@ -2821,16 +2897,16 @@ Version: 4.0.1-4
 Architecture: iphoneos-arm64
 Maintainer: TIGI Software
 Installed-Size: 23200
-Depends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Depends: firmware (>= 15.0), zip, unzip, gzip, p7zip, rar, unrar
 Conflicts: ru.rejail.filza, com.tigisoftware.filza, com.tigisoftware.filza39, netskao.filzacrack
 Replaces: ru.rejail.filza, com.tigisoftware.filza, com.tigisoftware.filza39, netskao.filzacrack
 Filename: ./debs/filza_4.0.1-4_iphoneos-arm64.deb
-Size: 6996236
-MD5sum: ad0cf5b9799fc96ce10b24ccaf2d389c
-SHA1: fff6305c7b934161dfa498f772b540fee9d2ca86
-SHA256: ce618925ff1e9ce13d348b0f0f224a9f46fd4e64d54f853ac3ca74d822cf1729
+Size: 1340
+MD5sum: 4426973cbb07cab514d39d6c995b0c05
+SHA1: cc45c881970c05c917a764aebb280e0fcd3fca9f
+SHA256: b2c8f37150e007c80020e6770318a4c5d98e99efdde37eb2cfbd8a990262d699
 Section: Utilities
-Description: 适用于iPhone、iPad 和 iPod Touch的文件管理器。仅支持iOS 15+
+Description: 强大的iOS文件管理器
 Author: TIGI Software
 Depiction: https://rejail.ru/depiction.php?file=filza
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/filza/icon.png
@@ -2842,14 +2918,14 @@ Version: 4.0.1-4
 Architecture: iphoneos-arm
 Maintainer: TIGI Software
 Installed-Size: 19388
-Depends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Depends: firmware (>= 7.0), zip, unzip, gzip, p7zip, rar, unrar
 Conflicts: ru.rejail.filza, com.tigisoftware.filza, com.tigisoftware.filza39, netskao.filzacrack
 Replaces: ru.rejail.filza, com.tigisoftware.filza, com.tigisoftware.filza39, netskao.filzacrack
 Filename: ./debs/filza_4.0.1-4_iphoneos-arm.deb
-Size: 6997904
-MD5sum: ccaa0df6aa86b0e17b6eee5855f318c7
-SHA1: 349a775f9a4ef51f3f874fc902624ce96580f3d2
-SHA256: 5cbf0f6f981d418b0d5f66142d4e31ab852711ba33ab5e3a483722304371e860
+Size: 6998036
+MD5sum: 6928d4319e96e2db97765271caa60d9b
+SHA1: 408b94c79ec7c12ade5073cbad86e44db4284ff1
+SHA256: f77df5c372800b7750de1f19013d1a19a5b7a90d184c5a1bbee9e8c17a0ab3e6
 Section: Utilities
 Description: 强大的iOS文件管理器
 Author: TIGI Software
@@ -3293,6 +3369,26 @@ Name: GPS Master GPS定位大师
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/gpsmaster/Depiction
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.white.gpsmaster
+Version: 1.9.6
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000), applist (>= 1.5.14), com.rpetrich.rocketbootstrap (>= 1.0.2)
+Conflicts: app.weiphone.tinyapps.location360pro, cn.tinyapps.XGPSLite, topme.ios.FakeGps, app.weiphone.cn.tinyapps.pogo, net.85819.ios.otrlocation, jb.acc.GpsManager, com.abcydia.otrlocation, cn.tinyapps.XGPS, cn.tinyapps.location360, me.liuming.locationhelper, me.liuming.locationexpert, apt.tinyapps.XGPSPro, apt.tinyapps.location360pro
+Filename: ./debs/gpsmaster_1.9.6.deb
+Size: 3557028
+MD5sum: 57b750e651e88d6d4237ac887daa8e9a
+SHA1: b726ab794c755724bf2f91faf7ffbfcbde72fbc5
+SHA256: dbfda8bc3bffaab1bea0151120b8f40d7fb4ef06857883cadb1e627101b831e8
+Section: Utilities
+Description: GPS定位大师，通过修改苹果手机的GPS定位，实现虚拟定位和模拟驾驶功能
+Tag: purpose::extension, compatible::ios11, compatible::ios12
+Author: Joe Bruce <joebruce1122@hotmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/gpsmaster/icon.png
+Name: GPS Master GPS定位大师
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/gpsmaster/Depiction
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.white.grupi
 Version: 2.1
 Architecture: iphoneos-arm
@@ -3712,6 +3808,25 @@ Depiction: https://ginsu.dev/repo/depictions/index.html?packageId=com.ginsu.kbpr
 Icon: https://ginsu.dev/repo/api/packageinfo/com.ginsu.kbpro/icon.png
 Name: KBPro
 Sileodepiction: https://ginsu.dev/repo/depictions/native/com.ginsu.kbpro.json
+
+Package: com.white.kernbypass
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: akusio
+Installed-Size: 380
+Depends: mobilesubstrate, applist, preferenceloader, firmware(>=12.0)
+Conflicts: jp.akusio.kernbypass
+Replaces: jp.akusio.kernbypass
+Filename: ./debs/kernbypass_0.0.2.deb
+Size: 12408
+MD5sum: dff63de82f068dd87b340be3267f9b0b
+SHA1: 718dae7afc27bc99b396bccee2882d2c6815040e
+SHA256: 950e8534a082819bd0f9246f1a2b0afad00191b8b2a7a74386c34590ecafc57a
+Section: Akusio
+Description: 内核级绕过越狱检测
+Author: akusio
+Depiction: http://akusio.github.io/descriptions/kernbypass/index.html
+Name: KernBypass
 
 Package: com.white.laetus
 Version: 3.4.0
@@ -5805,11 +5920,33 @@ Architecture: iphoneos-arm
 Maintainer: udevs
 Installed-Size: 356
 Depends: mobilesubstrate (>= 0.9.5000), com.creaturesurvive.libcscolorpicker
-Filename: ./debs/vpnindicator_1.1.5.deb
-Size: 63872
-MD5sum: eb324054a8dbdfe254a62a083ef36cb8
-SHA1: 44558fceb8089bdfb3ab619669b495d9d4a49126
-SHA256: 8f16265eec9132dffdc306f9b13fbad80ea1558ddae13fbce526ed43b308db6d
+Conflicts: com.udevs.vpnindicator
+Replaces: com.udevs.vpnindicator
+Filename: ./debs/vpnindicator_1.1.5_iphoneos-arm.deb
+Size: 63880
+MD5sum: fe3e45379c6eff239dc7a6b3c0633bcc
+SHA1: 9b6f13f8a6911c9cb16c6e329cf437524bf4f812
+SHA256: 8ede0c722eee8841e03243cefd392fc9131bfb6ab606e76ebebb3347343dd123
+Section: Tweaks
+Description: 连接VPN后更改状态栏中的WiFi图标颜色
+Author: udevs
+Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.vpnindicator
+Icon: https://turannul.github.io/home/resources/vpnindicator.png
+Name: VPNIndicator
+
+Package: com.white.vpnindicator
+Version: 1.1.7-1
+Architecture: iphoneos-arm
+Maintainer: udevs
+Installed-Size: 420
+Depends: mobilesubstrate (>= 0.9.5000), com.creaturesurvive.libcscolorpicker
+Conflicts: com.udevs.vpnindicator
+Replaces: com.udevs.vpnindicator
+Filename: ./debs/vpnindicator_1.1.7-1_iphoneos-arm.deb
+Size: 63388
+MD5sum: e22877701cf6100c6f7a3d1f2327a313
+SHA1: df24e1cc9f2633b1dd261bc7b32da9c04b745dd3
+SHA256: 998baa0c533af488783310908b4d56ee2185a1d9e9fcf1029152798457b3e69d
 Section: Tweaks
 Description: 连接VPN后更改状态栏中的WiFi图标颜色
 Author: udevs
@@ -6136,23 +6273,6 @@ Description: 绕过越狱检测
 Author: akusio
 Depiction: https://akusio.github.io/descriptions/debypass/index.html
 Name: De-Bypass
-
-Package: jp.akusio.kernbypass
-Version: 0.0.2
-Architecture: iphoneos-arm
-Maintainer: akusio
-Installed-Size: 380
-Depends: mobilesubstrate, applist, preferenceloader, firmware(>=12.0)
-Filename: ./debs/akusio.kernbypass_0.0.2.deb
-Size: 12380
-MD5sum: 0e0ccff2a42fc6f353c132a220a4d716
-SHA1: 6f915993ef458f70c1ee5ef6bbb3ac112ab7e922
-SHA256: e297c5fb43d90974f342e5004d9ca6b58930b222fb7a43a522232478d88dfa79
-Section: Akusio
-Description: 内核级绕过越狱检测
-Author: akusio
-Depiction: http://akusio.github.io/descriptions/kernbypass/index.html
-Name: KernBypass
 
 Package: jp.akusio.milkyway
 Version: 0.1.4beta
@@ -7996,25 +8116,6 @@ Depiction: https://rejail.ru/depiction.php?file=betterccxi
 Name: BetterCCXI Rus
 Sileodepiction: https://rejail.ru/sileo/depiction.php?file=betterccxi
 
-Package: ru.rejail.grupi
-Version: 2.1
-Architecture: iphoneos-arm
-Maintainer: ReJail <rejail@rejail.ru>
-Installed-Size: 531
-Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 11.0)
-Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
-Filename: ./debs/ru.rejail.grupi_2.1.deb
-Size: 142328
-MD5sum: 489e649e98d2adb72297cb422be3f053
-SHA1: 21bcbe06aeb150b6eb521d0f13a473bbd497b2a2
-SHA256: 0fb75551952659c8b2832efeb945c262a04b861dcc47e9abc7fbc31421760bf7
-Section: Tweaks
-Description: 通知聚合
-Author: Soongyu Kwon & Timeloop
-Depiction: https://rejail.ru/depiction.php?file=grupi
-Name: Grupi Rus
-Sileodepiction: https://rejail.ru/sileo/depiction.php?file=grupi
-
 Package: shc
 Version: 4.0.3
 Architecture: iphoneos-arm
@@ -8051,4 +8152,22 @@ SHA256: 8bee8415cfab01cfb89820dd08a62cb81687ae41b836053b7fde74d0def37751
 Section: Development
 Priority: optional
 Description: 基于文本的应用程序编程接口
+
+Package: xyz.cypwn.classicfolders3
+Version: 3.0.3.6
+Architecture: iphoneos-arm
+Maintainer: CyPwn
+Depends: mobilesubstrate
+Filename: ./debs/classicfolders3_3.0.3.6_iphoneos-arm.deb
+Size: 3279020
+MD5sum: 5f11d9dd154401c0464136fd2e15a00b
+SHA1: 8459161e7420df77340ed2ea785d9cce467021cf
+SHA256: d3470077b1311369612316c00bb6bb9c3e2bade9c79d203fcee0053886a74fc1
+Section: Tweaks
+Description: iOS 6 folders with a modern twist
+Author: CoolStar
+Depiction: https://repo.cypwn.xyz/depiction/2471
+Icon: https://repo.cypwn.xyz/packages/ClassicFolders3/icon.png
+Name: ClassicFolders 3
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2471
 
