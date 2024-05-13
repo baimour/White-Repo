@@ -1753,6 +1753,24 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cl
 Name: ClassicFolders 3
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/classicfolders3/Depiction
 
+Package: com.white.classicfolders3
+Version: 3.0.3.6
+Architecture: iphoneos-arm
+Maintainer: CoolStar
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/classicfolders3_3.0.3.6_iphoneos-arm.deb
+Size: 3279084
+MD5sum: 72737f6cc76034d21cd5d3a78ddb5793
+SHA1: b34f15be5a3c982636af79b2159976bee62dfa04
+SHA256: 141b4585c5187c2ab29e1159ff681d23c9b5a948dc5bbad3b3a285036b5c602b
+Section: Tweaks
+Description: 具有现代风格的iOS 6文件夹
+Author: CoolStar
+Depiction: https://repo.cypwn.xyz/depiction/2456
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/classicfolders3/icon.png
+Name: ClassicFolders 3
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/classicfolders3/Depiction
+
 Package: com.white.cloudmusic
 Version: 1.0
 Architecture: iphoneos-arm
@@ -8152,22 +8170,4 @@ SHA256: 8bee8415cfab01cfb89820dd08a62cb81687ae41b836053b7fde74d0def37751
 Section: Development
 Priority: optional
 Description: 基于文本的应用程序编程接口
-
-Package: xyz.cypwn.classicfolders3
-Version: 3.0.3.6
-Architecture: iphoneos-arm
-Maintainer: CyPwn
-Depends: mobilesubstrate
-Filename: ./debs/classicfolders3_3.0.3.6_iphoneos-arm.deb
-Size: 3279020
-MD5sum: 5f11d9dd154401c0464136fd2e15a00b
-SHA1: 8459161e7420df77340ed2ea785d9cce467021cf
-SHA256: d3470077b1311369612316c00bb6bb9c3e2bade9c79d203fcee0053886a74fc1
-Section: Tweaks
-Description: iOS 6 folders with a modern twist
-Author: CoolStar
-Depiction: https://repo.cypwn.xyz/depiction/2471
-Icon: https://repo.cypwn.xyz/packages/ClassicFolders3/icon.png
-Name: ClassicFolders 3
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2471
 
