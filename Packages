@@ -922,6 +922,24 @@ Icon: https://jabizb.com/repo/web/mbejabi.png
 Name: MBE Jabi键盘主题（浅色版）
 Sponsor: JaBi扎比
 
+Package: com.white.a-bypass
+Version: 1.5.8
+Architecture: iphoneos-arm
+Maintainer: Baw Appie <pp121324@gmail.com>
+Installed-Size: 960
+Depends: mobilesubstrate, com.white.libmryipc|com.muirey03.libmryipc, com.white.libaptoast|com.rpgfarm.libaptoast, preferenceloader
+Conflicts: com.rpgfarm.a-bypass, com.cydiabc.a-bypass, com.cydia.love.a-bypass
+Replaces: com.rpgfarm.a-bypass, com.cydiabc.a-bypass, com.cydia.love.a-bypass
+Filename: ./debs/a-bypass_1.5.8.deb
+Size: 143400
+MD5sum: f976712b2674f6e81749a0d85228cd9d
+SHA1: 2e26a9bbf043dd537d43b15c781946697bcf06e3
+SHA256: 1a74b56f570931a765c8d2b552085fd5110c316e2a129a73640ef52b1f0c1d8c
+Section: Tweaks
+Description: 超级越狱检测绕过！能解决iOS13王者荣耀、使命召唤等一些游戏的闪退，支付宝开启指纹面容ID
+Author: Baw Appie <pp121324@gmail.com>
+Name: A-Bypass
+
 Package: com.white.accessoryalertblocker
 Version: 0.0.1-2
 Architecture: iphoneos-arm
@@ -3846,6 +3864,25 @@ Author: akusio
 Depiction: http://akusio.github.io/descriptions/kernbypass/index.html
 Name: KernBypass
 
+Package: com.white.kwyycrack
+Version: 1.4-6
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 588
+Depends: mobilesubstrate, firmware (>= 11.0)
+Filename: ./debs/kwyycrack_1.4-6.deb
+Size: 145928
+MD5sum: 92e5b18f07aa225db1e07a9395009dce
+SHA1: 04ef53f69a28987ca102146b7b74da36b79e272e
+SHA256: f35e888a87e937d105c6062dfcce70b9e8435624687ee32c8a4e281ee44d896e
+Section: NoAds
+Description: 解锁所有歌曲听和缓存限制，解锁所有小说听和缓存限制，解锁音效和皮肤使用限制，去除启动广告，去除首页底部推荐列表，去除首页随机弹出的推广提示，去除播放页面正在直播，去除首页左侧设置中没啥用的功能，去除我的页面直播和小说推广和听点别的，去除评分提示，去除顶部随机出现的直播开播提示，去除本地/下载/最近播放/收藏中的推荐，去除底部曲库/直播/视频/ing/会员按钮，增加缓存歌曲导出(下载或本地页面，歌曲操作面板导出，支持自动解密kwm格式)，仅支持10.0.0及以上版本
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/kwyycrack/icon.png
+Name: 酷我音乐 Crack
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/kwyycrack/Depiction
+Sponsor: Netskao
+
 Package: com.white.laetus
 Version: 3.4.0
 Architecture: iphoneos-arm
@@ -3965,6 +4002,24 @@ Author: Devy_Design <idrainmax@gmail.com>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/LiacaTheme/dark.png
 Name: Liaca Dark
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/LiacaTheme/darkDepiction
+
+Package: com.white.libaptoast
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Baw Appie <pp121324@gmail.com>
+Installed-Size: 132
+Conflicts: com.rpgfarm.libaptoast
+Replaces: com.rpgfarm.libaptoast
+Filename: ./debs/libaptoast_1.0.deb
+Size: 7200
+MD5sum: f40a1d5144b657c5abbd0a630cb4453f
+SHA1: 5c31cab0edc3105633b0c38b54b6a413fe8bc006
+SHA256: 3e25ebd31e40e91adb047bcf237039792d1961b58a198fc3a94ab1c2cd48e98f
+Section: 依赖
+Description: Baw Appie's Toast依赖库
+Tag: role::developer
+Author: Baw Appie <pp121324@gmail.com>
+Name: libAPToast
 
 Package: com.white.libcrashreport
 Version: 1.1.2
