@@ -931,14 +931,16 @@ Depends: mobilesubstrate, com.white.libmryipc|com.muirey03.libmryipc, com.white.
 Conflicts: com.rpgfarm.a-bypass, com.cydiabc.a-bypass, com.cydia.love.a-bypass
 Replaces: com.rpgfarm.a-bypass, com.cydiabc.a-bypass, com.cydia.love.a-bypass
 Filename: ./debs/a-bypass_1.5.8.deb
-Size: 143400
-MD5sum: f976712b2674f6e81749a0d85228cd9d
-SHA1: 2e26a9bbf043dd537d43b15c781946697bcf06e3
-SHA256: 1a74b56f570931a765c8d2b552085fd5110c316e2a129a73640ef52b1f0c1d8c
+Size: 143572
+MD5sum: 5ac6b91ec23ca2b718fe57da0c322190
+SHA1: 1eb6a2860a89b4abff22e3bcca10e98547b04f3c
+SHA256: 77f4193f1b922c06657cf27b401f8f00850d45032ec7746f90efafd0168d9046
 Section: Tweaks
 Description: 超级越狱检测绕过！能解决iOS13王者荣耀、使命召唤等一些游戏的闪退，支付宝开启指纹面容ID
 Author: Baw Appie <pp121324@gmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/a-bypass/icon.png
 Name: A-Bypass
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/a-bypass/Depiction
 
 Package: com.white.accessoryalertblocker
 Version: 0.0.1-2
@@ -1781,6 +1783,42 @@ Size: 3279084
 MD5sum: 72737f6cc76034d21cd5d3a78ddb5793
 SHA1: b34f15be5a3c982636af79b2159976bee62dfa04
 SHA256: 141b4585c5187c2ab29e1159ff681d23c9b5a948dc5bbad3b3a285036b5c602b
+Section: Tweaks
+Description: 具有现代风格的iOS 6文件夹
+Author: CoolStar
+Depiction: https://repo.cypwn.xyz/depiction/2456
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/classicfolders3/icon.png
+Name: ClassicFolders 3
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/classicfolders3/Depiction
+
+Package: com.white.classicfolders3
+Version: 3.0.3.7
+Architecture: iphoneos-arm64
+Maintainer: CoolStar
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/classicfolders3_3.0.3.7_iphoneos-arm64.deb
+Size: 3297052
+MD5sum: baf288b0a24b6db6884d6623710e2efc
+SHA1: e36471836af653d1183bbe157b5f32cea013bc91
+SHA256: 38b29ab3ff970690ae7480f381a6072d03bc33c21337ee5bffaf29a0650b1c50
+Section: Tweaks
+Description: 具有现代风格的iOS 6文件夹
+Author: CoolStar
+Depiction: https://repo.cypwn.xyz/depiction/2456
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/classicfolders3/icon.png
+Name: ClassicFolders 3
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/classicfolders3/Depiction
+
+Package: com.white.classicfolders3
+Version: 3.0.3.7
+Architecture: iphoneos-arm
+Maintainer: CoolStar
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/classicfolders3_3.0.3.7_iphoneos-arm.deb
+Size: 3296788
+MD5sum: f508a3328023729b4a6613d3b7c5f4c0
+SHA1: f788d5a95224284e8092f0aef254c6a8a2d8fe51
+SHA256: 483311c3b00f427f0f7781cd2bd81d8c48802f6d35cd621aff0cd4c48ec09df4
 Section: Tweaks
 Description: 具有现代风格的iOS 6文件夹
 Author: CoolStar
@@ -4794,14 +4832,14 @@ Version: 1.2
 Architecture: iphoneos-arm
 Maintainer: Ball
 Installed-Size: 184
-Depends: mobilesubstrate
+Depends: mobilesubstrate, jp.soh.reprovision
 Conflicts: com.hk.reprovision.cn, com.cydiabc.reprovisionzh, com.hk.reprovisionzh
 Replaces: com.hk.reprovision.cn
 Filename: ./debs/reprovision.cn_1.2.deb
-Size: 17860
-MD5sum: 8164c947933c6c2a3698bd5b23e2ccd7
-SHA1: bc4b9627c1fe7bbdc6fc7522b4f8b28d973b5e3e
-SHA256: 6f894b5517ebe86e624237e34967b69c710fd17663af745f0734c7e37624b167
+Size: 17944
+MD5sum: 328504d67bdef28e456e67d5722864bc
+SHA1: 4eddd1c6ef1be0efc783a849793a6bbc64b088b4
+SHA256: 63f6f8ba09dd74713c3b1e3cdebb4ba1086d5a6bbb2911849670a915ea45fb75
 Section: Tweaks
 Description: 兼容旧版和重写版，登录界面和其他一些地方未生效
 Author: Ball
@@ -5521,6 +5559,42 @@ Author: iOS Creatix, kasiimh1, baptistecdr <kobebertels@icloud.com>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sugarcane/icon.png
 Name: SugarCane14
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sugarcane/Depiction
+
+Package: com.white.swiftgramplus
+Version: 4.2.0
+Architecture: iphoneos-arm
+Maintainer: Randy420
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./debs/swiftgramplus_4.2.0_iphoneos-arm.deb
+Size: 379688
+MD5sum: 257930aacf38ed45a1c624cf67c6e4f7
+SHA1: b50b26f9217884d357c5eeba0c4ec52b472b3488
+SHA256: 18933bac23db441b2d806f355abfb57f5ce5201e7cd17f0835b9ea16c42a4625
+Section: Tweaks
+Description: 移除所有聊天屏蔽限制(包括18+以上)并启用故事隐身模式。***使用Flex To Theos制作 更新：Randy420***
+Author: Randy420
+Depiction: https://repo.cypwn.xyz/depiction/2481
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/swiftgramplus/icon.png
+Name: Swiftgram+
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/swiftgramplus/Depiction
+
+Package: com.white.swiftgramplus
+Version: 4.2.0
+Architecture: iphoneos-arm64
+Maintainer: Randy420
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/swiftgramplus_4.2.0_iphoneos-arm64.deb
+Size: 700
+MD5sum: 6cd39e8c5bce7f8da3a6a6ec4614b5b3
+SHA1: 48c5b150e81406f290a85c242e9929edbf094f06
+SHA256: a0819d096c74015df0d05c87c842d61dd3a111e930f0bf42b28a4a1e1dfd4782
+Section: Tweaks
+Description: 移除所有聊天屏蔽限制(包括18+以上)并启用故事隐身模式。***使用Flex To Theos制作 更新：Randy420***
+Author: Randy420
+Depiction: https://repo.cypwn.xyz/depiction/2481
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/swiftgramplus/icon.png
+Name: Swiftgram+
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/swiftgramplus/Depiction
 
 Package: com.white.swipeformore
 Version: 1.1.10
@@ -6414,6 +6488,25 @@ Section: Akusio
 Description: Backgrounder Action 2和PSApp兼容性补丁
 Author: akusio
 Name: Backgrounder Action2 PSAppCompatibilityPatch
+
+Package: jp.soh.reprovision
+Version: 0.8.4~release
+Architecture: iphoneos-arm
+Maintainer: Soh Satoh
+Depends: firmware (>= 9.0)
+Conflicts: com.matchstic.reprovision
+Filename: ./debs/jp.soh.reprovision_0.8.4~release.deb
+Size: 15426296
+MD5sum: 6fecf548f53079fdf72c2b773572afa4
+SHA1: e32a999dc094b81998d57f2d0c3fe9dc73562bda
+SHA256: 375da584147ef8850f28b5d5327c61352ae65bfd72d31b88a37508f8009a31b3
+Section: Utilities
+Priority: optional
+Description: iOS越狱自签应用工具
+Author: Soh Satoh, Matt Clarke
+Dev: Matt Clarke
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/reprovision/icon.png
+Name: ReProvision Reborn
 
 Package: kloader
 Version: 1.0
