@@ -2317,12 +2317,12 @@ Version: 1.4.3
 Architecture: iphoneos-arm
 Maintainer: JunesiPhone
 Installed-Size: 17340
-Depends: mobilesubstrate, preferenceloader
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
 Filename: ./debs/designer_1.4.3_iphoneos-arm.deb
-Size: 6293048
-MD5sum: 6caa19a3450617eba18f4b80e76bcac1
-SHA1: 9fffdd2e2ca65e13f5e587bbea4528fc9b4e930f
-SHA256: 05b6f99ccfb06b197b091f762cb750ad452d2f8fd5096e66923bcc5ce1e2bb7b
+Size: 6293784
+MD5sum: 92a9a101b5676e1252730fb4e9c979cd
+SHA1: 4e091cd327dd8671a2e420c382be615a4bca41ce
+SHA256: 95ab6150fb8dc187533e183248eacb55f13219cfb7349fb02762a4f1511f6daf
 Section: Tweaks
 Description: 自定义锁屏和桌面布局
 Author: JunesiPhone
@@ -2335,15 +2335,32 @@ Version: 1.4.7
 Architecture: iphoneos-arm64
 Maintainer: JunesiPhone
 Installed-Size: 18316
-Depends: mobilesubstrate, preferenceloader
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Filename: ./debs/designer_1.4.7_iphoneos-arm64.deb
-Size: 11758624
-MD5sum: 1c95d1de4234616292ad9cb73f6a77a8
-SHA1: 4c480a2a0a5db7e1c105124533e2619e65745f9d
-SHA256: 6aff3a32afb1382fbf0d357a62c4ac6768676c49eac2fcbd1cdb29eb8b8de276
+Size: 11756712
+MD5sum: eaa6cda898b1c66fb860e5affb0eabad
+SHA1: 00fb68c7be1e54adec08764d1839d409a378ba8e
+SHA256: ea3ee8592075b18ae9f0afcaf47f92f5d70ffc4a9e4450ca64687790daaea064
 Section: Tweaks
 Description: 自定义锁屏和桌面布局
-Author: JunesiPhone <junesgraphics@gmail.com>
+Author: JunesiPhone
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/icon.png
+Name: Designer
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/Depiction
+
+Package: com.white.designer
+Version: 1.4.8
+Architecture: iphoneos-arm64
+Maintainer: JunesiPhone
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/designer_1.4.8_iphoneos-arm64.deb
+Size: 6501664
+MD5sum: f1a3fff3e01e5040f0e754fdf68688fc
+SHA1: 1f1a8bb4e9d443375cf49cd5841cf3ee59a59f2d
+SHA256: eb8209a016a56604a2bf1c6616ccffb982b98e5628b964e885344cd4ec9539ef
+Section: Tweaks
+Description: 自定义锁屏和桌面布局
+Author: JunesiPhone
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/icon.png
 Name: Designer
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/designer/Depiction
@@ -2890,6 +2907,26 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/re
 Name: Remover 越狱环境清理
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/remover/Depiction
 Sponsor: pwn20wnd/coolstarorg
+
+Package: com.white.exacttime
+Version: 2.0.1
+Architecture: iphoneos-arm
+Maintainer: gilshahar7
+Installed-Size: 1180
+Depends: firmware (>= 10.0), mobilesubstrate
+Conflicts: com.gilshahar7.exacttime, com.gilshahar7.exacttimemail, com.gilshahar7.exacttimephone, com.gilshahar7.exacttimemessages
+Replaces: com.gilshahar7.exacttime
+Filename: ./debs/exacttime_2.0.1_iphoneos-arm.deb
+Size: 60788
+MD5sum: 25a4f341840fe26bfd57618285c32e9d
+SHA1: fcc950c56bee3fdb2899cfd98e26aeae42f2e86e
+SHA256: f9c2ebaeb29db63db21fe4c6fa8192080972c95bb00deb201e05ea35197d5903
+Section: Tweaks
+Description: 显示通知、消息、电话和邮件的准确时间
+Author: gilshahar7
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/exacttime/icon.png
+Name: ExactTime
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/exacttime/Depiction
 
 Package: com.white.facetimeaudioenabler
 Version: 1.2.0
@@ -4871,38 +4908,56 @@ Sponsor: Ball
 Package: com.white.resentment
 Version: 1.0k
 Architecture: iphoneos-arm
-Maintainer: CyPwn
+Maintainer: uz.ra
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common, firmware (>= 14.0), firmware (<< 16.0)
 Filename: ./debs/resentment_1.0k_iphoneos-arm.deb
-Size: 80600
-MD5sum: f7ce375307058d2277f42dcf4dac6458
-SHA1: bb7db962a1f6559996ecae5886ad5e83a82e6c75
-SHA256: 7368fca7cf7c2c0a8ef65bedf1cdcd94367e450ee2d9bc53639254c4d9787d5f
+Size: 80620
+MD5sum: 9df30008f3d952c2e96fa3056f22d28a
+SHA1: 7dca8715521c748f9793f359d295cf39867e59d9
+SHA256: bef246d9f844bbfde6fb95f33c992ebc3c12cc763a72700a444fea1a83d0506a
 Section: Tweaks
 Description: 将iOS 16的音乐播放器引入旧版iOS，CBZ破解
 Author: uz.ra
 Depiction: https://repo.cypwn.xyz/depiction/1944
 Icon: https://media.havoc.app/65b9c2a8d798b2b3c1908016
 Name: Resentment
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1944
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/resentment/Depiction
+
+Package: com.white.resentment
+Version: 1.0k
+Architecture: iphoneos-arm64
+Maintainer: uz.ra
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, firmware (>= 14.0), firmware (<< 16.0)
+Filename: ./debs/resentment_1.0k_iphoneos-arm64.deb
+Size: 81588
+MD5sum: 34dcf01e075ccb071b1cd2def7949ef4
+SHA1: 63fb78be2494bb47e75c2add7d92452831ee4274
+SHA256: 05887a6605ea1a7684b683fa1382171b21570e486d205c896c5ef8d946f33db0
+Section: Tweaks
+Description: 将iOS 16的锁屏音乐播放器引入旧版iOS，CBZ破解
+Author: uz.ra
+Depiction: https://repo.cypwn.xyz/depiction/1945
+Icon: https://media.havoc.app/65b9c2a8d798b2b3c1908016
+Name: Resentment
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/resentment/Depiction
 
 Package: com.white.resentment
 Version: 1.1k
 Architecture: iphoneos-arm64
-Maintainer: CyPwn
+Maintainer: uz.ra
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common, firmware (>= 14.0), firmware (<< 16.0)
 Filename: ./debs/resentment_1.1k_iphoneos-arm64.deb
-Size: 81480
-MD5sum: e885cbcdf6986d3b6390f4b4c8b25499
-SHA1: 9b3dd1f1cb13ce59d239361dfbad900611ff9b20
-SHA256: 0d6b6413f403642035e7996159c52180c088f69474edeee1ec4d69b5ee96f146
+Size: 81816
+MD5sum: aebb11284596a5a95a86e9f9cd250405
+SHA1: ff8720343bf37328d0de7118393b61028f679306
+SHA256: dd8ea3987b8531e3b867b822379156ef692901a1dbb6f36d302bb2ddf49691f1
 Section: Tweaks
 Description: 将iOS 16的音乐播放器引入旧版iOS，CBZ破解
 Author: uz.ra
 Depiction: https://repo.cypwn.xyz/depiction/1944
 Icon: https://media.havoc.app/65b9c2a8d798b2b3c1908016
 Name: Resentment
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1944
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/resentment/Depiction
 
 Package: com.white.respringmodule
 Version: 1.1.3
