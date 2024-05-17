@@ -6245,6 +6245,191 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cl
 Name: 网易云音乐 NoAds
 Sponsor: Huayuarc
 
+Package: com.white.youmute
+Version: 1.2.1-3
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 112
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.white.ytvideooverlay (>= 1.1.0)
+Conflicts: com.ps.youmute
+Replaces: com.ps.youmute
+Filename: ./debs/youmute_1.2.1-3.deb
+Size: 5332
+MD5sum: fb81de56ec07ad7fda1ec6215e838e3e
+SHA1: 718568a98e302716f2bbb533c031e775a00e9167
+SHA256: cf953b7494c5fc5914baf3ef6df39c34ff6644b3481b71ae8415529efc383566
+Section: Tweaks
+Description: 快捷将YouTube中的视频静音/取消静音
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youmute.html
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/YouTube/icon.png
+Name: YouMute
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youmute.json
+
+Package: com.white.youpip
+Version: 1.8.10
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 204
+Depends: mobilesubstrate, firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | com.ps.forceinpicture | com.cabralcole.forceinpicture
+Conflicts: com.spicat.youpip, com.ps.youpip
+Replaces: com.spicat.youpip, com.ps.youpip
+Provides: com.spicat.youpip
+Filename: ./debs/youpip_1.8.10.deb
+Size: 19648
+MD5sum: 318ec9184bdeb4a3edeec37cc471554f
+SHA1: ac2db6db6ff358a1499ab19f3da8edaa12deca1f
+SHA256: 86a3abb405e28ac2a1daabb7aa4efdf244463dcf02a05486906c6c5d981514db
+Section: Tweaks
+Description: 在YouTube中启用画中画
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/YouTube/icon.png
+Name: YouPiP
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
+
+Package: com.white.youquality
+Version: 1.2.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 120
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.white.ytvideooverlay (>= 1.2.0)
+Conflicts: com.ps.youquality
+Replaces: com.ps.youquality
+Filename: ./debs/youquality_1.2.1.deb
+Size: 7548
+MD5sum: 1b16b62011c05907d337d12b55f00d2f
+SHA1: b653038c980d631c2d66cffa2f11491716705b58
+SHA256: 50e828a4b04501abccd15e27602f39cfa9cde6848bad9b369f821213e92eac83
+Section: Tweaks
+Description: 更快地查看/更改YouTube中的视频画质
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youquality.html
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/YouTube/icon.png
+Name: YouQuality
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youquality.json
+
+Package: com.white.youtubereborn
+Version: 4.2.6-1
+Architecture: iphoneos-arm
+Maintainer: Lillie & 妖刀
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Conflicts: com.dao.youtubereborn, net.sarahh12099.youtubereborn, com.twickd.sarahh12099.youtube-reborn, com.yourepo.jpet26.youtubetools1, com.justinpetkovic.youtubetools, com.johnzaro.perfectyoutube, com.ichitaso.youtubepatcher, com.yourepo.ikghd.youtubekiller, com.yourepo.ikghd.youtubekillers, com.sinfool.youtopia, com.google.ios.ytadblock, prasa.youtubeplus, com.unlimapps.ytpp, com.twickd.laki.raspberry, com.laki.raspberry, com.twickd.lazar.raspberry, 0xcc.woodfairy.noytads, weeb.lillie.enhancerforyoutubepremium, weeb.lillie.youtubepremiumplus, com.miro.uyou, com.ps.uyoucompat, com.ps.ytsystemappearance, com.yourepo.mohadu31.dzyoutube, com.lyvendia.ytspeed, com.miro.uyouimport, com.ichitaso.uyouplus, com.stem.deficient, com.ps.ytabconfig, com.ps.ytx, h.ryan.youtubereborn, com.hk.ryan.youtubereborn, com.hk.rootless.youtubereborn, com.hk.youtubereborn.cn.rl, com.hk.youtubereborn.cn
+Replaces: com.dao.youtubereborn
+Filename: ./debs/youtubereborn_4.2.6-1.deb
+Size: 9100080
+MD5sum: ab870f50a1955fe3f012ec23165fb7e0
+SHA1: 7c1935d32df87f000aada3e9a131f44b390e2ade
+SHA256: 5f89312e09f8a9864f14eb12f0d3d45d716bbe06ea68422571562d26e85ddafa
+Section: Tweaks
+Description: 根据开源妖刀编译的中文版YouTube Reborn，油管高级自定义插件，可去广告、下载、画中画、改布局等
+Author: Lillie & arichornlover
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/YouTube/icon.png
+Name: YTReborn
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ytr/js.json
+
+Package: com.white.ytclassicvideoquality
+Version: 1.4.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Conflicts: com.ps.ytclassicvideoquality
+Replaces: com.ps.ytclassicvideoquality
+Filename: ./debs/ytclassicvideoquality_1.4.0.deb
+Size: 4464
+MD5sum: 821afb4dfbe6f8bfbdf5b57438d42dcf
+SHA1: 558c1b7756db1e57fc18c848a18de1aa929eacf4
+SHA256: 08f154284ddd11687c4d1128afff43e8b5da8096bf007819330d4d9b1335f7bc
+Section: Tweaks
+Description: 在YouTube中恢复为原始视频画质选择
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytclassicvideoquality.html
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/YouTube/icon.png
+Name: YTClassicVideoQuality
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytclassicvideoquality.json
+
+Package: com.white.ytlite
+Version: 3.0.2
+Architecture: iphoneos-arm
+Maintainer: dvntm
+Depends: mobilesubstrate
+Conflicts: com.dvntm.ytlite, com.hk.ytlite
+Replaces: com.dvntm.ytlite, com.hk.ytlite
+Filename: ./debs/ytlite_3.0.2.deb
+Size: 105364
+MD5sum: f13d3dc0403bd5f6df67b7e616b0e9f2
+SHA1: 6ff47ccfb3e8895c5648eff14d7848d079307d57
+SHA256: 1db5eea81261c207a1b99998bb9a7d72736d27b24a66e893c0f12ca5833717a1
+Section: Tweaks
+Description: 轻量级YouTube功能插件汉化版，去广告、后台播放、隐藏投屏/通知/搜索、调节播放器等超多功能。插件选项位于油管"设置—YTLite"，更多功能请启用"YTLite—版本—高级模式"
+Author: dvntm
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/YouTube/icon.png
+Name: YTLite
+
+Package: com.white.ytnochecklocalnetwork
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Conflicts: com.ps.ytnochecklocalnetwork
+Replaces: com.ps.ytnochecklocalnetwork
+Filename: ./debs/ytnochecklocalnetwork_1.0.0.deb
+Size: 2508
+MD5sum: e1530e76155391108bdf1bd9b4a3a071
+SHA1: e2334d63659595d420029622a3bfa857d4bf6e55
+SHA256: 4a27279d1afe09abc0a17da1852209ce07c558a0af2d9cda961d7654d8b37641
+Section: Tweaks
+Description: 删除YouTube的本地网络权限检查
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytnochecklocalnetwork.html
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/YouTube/icon.png
+Name: YTNoCheckLocalNetwork
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytnochecklocalnetwork.json
+
+Package: com.white.ytuhd
+Version: 1.5.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Conflicts: com.ps.ytuhd
+Replaces: com.ps.ytuhd
+Filename: ./debs/ytuhd_1.5.1.deb
+Size: 8608
+MD5sum: 1c831e67591415a1db9ccd2d23b34393
+SHA1: a5f77cca88b6e863b44bf84d9a6b83d1ca5820f0
+SHA256: 02f5376a62f9434123ba6e0f95c2389d827340539cf81f55f610cdb5f5a316f5
+Section: Tweaks
+Description: 在YouTube中解锁1440P和2160P分辨率
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytuhd.html
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/YouTube/icon.png
+Name: YTUHD
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytuhd.json
+
+Package: com.white.ytvideooverlay
+Version: 1.2.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Conflicts: com.ps.ytvideooverlay
+Replaces: com.ps.ytvideooverlay
+Filename: ./debs/ytvideooverlay_1.2.0.deb
+Size: 10428
+MD5sum: 6f0bf8681686317fa0b28e637c90a2b2
+SHA1: 566bb60552f740c4940740dd1ffd90b1e8d00f10
+SHA256: a689ebd082e3f17d368cb9873b4f82e7b3d827aa4a89e687ff7f4b0e789d359e
+Section: Tweaks
+Description: 在YouTube视频叠加上添加按钮
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytvideooverlay.html
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/YouTube/icon.png
+Name: YTVideoOverlay
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytvideooverlay.json
+
 Package: com.white.zebra
 Version: 1.1.36
 Architecture: iphoneos-arm
