@@ -888,6 +888,23 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Li
 Name: LiNUZE Nightly
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/LiNUZE/Depiction
 
+Package: com.white.LiNUZE.nightly
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: rA9stuff
+Depends: firmware (>= 12.0), firmware (<< 16.0), libusbmuxd6, libusb-1.0-0, libirecovery3, libplist3, libimobiledevice6, usbmuxd, ldid
+Filename: ./debs/LiNUZE.nightly_1.1.deb
+Size: 2230988
+MD5sum: e3e253ed3e322c2710939bd5f4d56d81
+SHA1: ce24de0f113c99d6eeb0c393e4ace3fc9ce22b3f
+SHA256: be61fc662f7666cbba08c75891ee89b418fd5e6a8ebd0cf59ac7a22758dc718e
+Section: Utilities
+Description: 使用已越狱iOS设备管理其他iOS设备
+Author: rA9stuff
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/LiNUZE/icon.png
+Name: LiNUZE
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/LiNUZE/Depiction
+
 Package: com.white.MBEdark
 Version: 1.0
 Architecture: iphoneos-arm
