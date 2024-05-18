@@ -1490,6 +1490,42 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Bi
 Name: 哔哩哔哩大会员画质
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/Depiction
 
+Package: com.white.bilibili
+Version: 1.2.0
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 168
+Depends: firmware (>= 11.0), firmware (<= 14.8.1), mobilesubstrate
+Filename: ./debs/bilibili_1.2.0_iphoneos-arm.deb
+Size: 15768
+MD5sum: 25f89714a64b3099b8d3382d6accacc4
+SHA1: 914d2771f2b654ccb1fe95d6c2dfd40538392e68
+SHA256: 7eaf76b1cc0e1a79ab54dbdaa7ee89636dbcda82b8678685adc5e1507998034e
+Section: NoAds
+Description: 基于7.65.0制作，其他版本自测
+Author: White <1410970825@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/icon.png
+Name: 哔哩哔哩大会员画质
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/Depiction
+
+Package: com.white.bilibili
+Version: 1.2.0
+Architecture: iphoneos-arm64
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 200
+Depends: firmware (>= 15.0), firmware (<= 16.6.1), mobilesubstrate
+Filename: ./debs/bilibili_1.2.0_iphoneos-arm64.deb
+Size: 15980
+MD5sum: 21b5318af1d4a6b640f5952505d51e16
+SHA1: 45a57369840253943c1e366cb291c2e4f9e043b5
+SHA256: b7977e615deefe1bce8ef09339b7c64d40414c5960bf433ea1b62291d2734c63
+Section: NoAds
+Description: 基于7.65.0制作，其他版本自测
+Author: White <1410970825@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/icon.png
+Name: 哔哩哔哩大会员画质
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/Depiction
+
 Package: com.white.bilibilipure
 Version: 1.2-3.1
 Architecture: iphoneos-arm
