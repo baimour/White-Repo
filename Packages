@@ -7566,14 +7566,16 @@ Maintainer: Nets
 Installed-Size: 541
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: ./debs/qqpurification_1.1-2.deb
-Size: 88816
-MD5sum: 4aaa2812a22f5e3979162ac2aa60a69b
-SHA1: fd3055caf4e77896ec77df3cac2108f33da83629
-SHA256: 13114a58722bec5557713d07053fdbe47988a83bbffc466ceffa80dce447dfb2
+Size: 88920
+MD5sum: a5b2dd0ad91a4c10b69ae69c87e2d759
+SHA1: c6faacc0722615008c5cafd972c3af18f12e7fbb
+SHA256: 2474d5c1ea61df1bd28151a34bf4dbe44bc8ece675b3744fd0e58fea6391dadc
 Section: NoAds
 Description: QQ净化，还原聊天本质，干净的QQ给你，插件位于系统设置页面，仅支持8.2.6及以上版本
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Depiction
 
 Package: netskao.qqpurification
 Version: 1.1-3
@@ -7582,14 +7584,16 @@ Maintainer: Nets
 Installed-Size: 914
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: ./debs/qqpurification_1.1-3.deb
-Size: 161172
-MD5sum: a43054533ace12508426cdd6ca779843
-SHA1: 10f239a929406bc4f5bc45f838113ebb9545d2b1
-SHA256: eb41b01f87271038650bd386e504ef9055836e2497d423ff2553b42ae29c8be7
+Size: 161128
+MD5sum: 24f6268ee283f3921ef287072c19dcdc
+SHA1: da190920be72b5cffaf6b9bf72d515ad1f1c632a
+SHA256: 252ae9f85999006265c9ff0ef09f9215b4ea41990bf0fdd5abaf26dcc031a46e
 Section: NoAds
 Description: QQ净化，还原聊天本质，干净的QQ给你
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Depiction
 
 Package: netskao.qqpurification
 Version: 1.1-5
@@ -7598,14 +7602,16 @@ Maintainer: Nets
 Installed-Size: 906
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: ./debs/qqpurification_1.1-5.deb
-Size: 161512
-MD5sum: 0b3f220aca8c2c6c54a6218cc746cf3b
-SHA1: e2b4dbaf5b45b44032729811641cb7c4dbcb4405
-SHA256: e6ad3299eb96ed6ab41b0abbc2d0b2c7160b6d4bb9f19641d60b685f14a7a344
+Size: 161580
+MD5sum: 64a3748cb88fa90aef5109ef90ebfe20
+SHA1: 7fa66bddf575960740b8823b1ba633c6aec1c59c
+SHA256: 9b5c3661d1cf0fea509b627f8c836d1b6d362d49390c3d93bb6f6bf80b38f05c
 Section: NoAds
 Description: QQ净化，还原聊天本质，干净的QQ给你
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/gpsmaster/icon.png
 Name: QQ净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/gpsmaster/Depiction
 
 Package: netskao.qqpurification
 Version: 1.2-4
@@ -7614,14 +7620,16 @@ Maintainer: Nets
 Installed-Size: 577
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: ./debs/qqpurification_1.2-4.deb
-Size: 114124
-MD5sum: baa319cd06c6874e4c0e72896f265db0
-SHA1: ea5ea7c0782a223174af1eb65d66f0e51e83dabf
-SHA256: 7dabe26c2b76973aec6be02b85805865754130afc239ad84fd36d3eeae9c20e1
+Size: 114836
+MD5sum: 2922d19bd18739620a5b7b626cd18949
+SHA1: 7611db827d58fc261b87546d3a6a968786f1a9ca
+SHA256: f49d9e7e090cce274c7089742d8a42d013be9057c170da0296c99f1c53ef591e
 Section: NoAds
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Depiction
 
 Package: netskao.qqpurification
 Version: 1.2-5
@@ -7630,14 +7638,16 @@ Maintainer: Nets
 Installed-Size: 607
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: ./debs/qqpurification_1.2-5.deb
-Size: 119736
-MD5sum: fcbadb577adc6bdded6ac28f87686f42
-SHA1: 8cc984b2b555037b76f0b48312841958af04d557
-SHA256: 4cf88599ecddd8fd57fb805c64ab234095f6d029d489cdef6850d9f03b88a762
+Size: 120300
+MD5sum: 896c027d16d3d88dc9aabadd290796a9
+SHA1: b34f6bff0f7bf108f41243e7af4d1facf65e7b80
+SHA256: 6f8cd5193237a88eb0197536de3b136f4ddfea7e6a18cd13e855341b2cb581ad
 Section: NoAds
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Depiction
 
 Package: netskao.qqpurification
 Version: 1.2-8
@@ -7646,14 +7656,16 @@ Maintainer: Nets
 Installed-Size: 631
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: ./debs/qqpurification_1.2-8.deb
-Size: 125596
-MD5sum: 3149e655f7ae848f0487743b95e4fbbc
-SHA1: 85590c1e310dc1417a7a988c6d0807d605a96add
-SHA256: bbd3fcf2541e12318f97302df4c0c981a9db37644bc313823f06f77b4e1f6ff5
+Size: 125568
+MD5sum: 2a29f3ae28766cb7d653b30b276472ed
+SHA1: 64845d944df9932c447f1a11c19af921fccd74a3
+SHA256: 3b0f7413a2b7db1b786980f8328f5d98ba921acc1b891d029fa66e54f9b747a0
 Section: NoAds
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Depiction
 
 Package: netskao.qqpurification
 Version: 1.3-1
@@ -7662,14 +7674,16 @@ Maintainer: Nets
 Installed-Size: 1331
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: ./debs/qqpurification_1.3-1.deb
-Size: 243604
-MD5sum: 6167050c77a8667f40c198068841b673
-SHA1: 6c92998b0ede8abd8f0e9c85aa0d46ac3c9eed49
-SHA256: 9e0acbb9cd9f550c31eabd74ad8e507aa6e7448c7f8cc14ca1506a04ff22d87d
+Size: 244332
+MD5sum: dd4028ae30fe820b1d4658edcdd38288
+SHA1: f617c755523f9452b57cc82587564c8e3c0b2d37
+SHA256: 1776336035a6d844c744bd8a6cca8614739f88e3d7487d7ac860d84a8c618ca2
 Section: NoAds
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Depiction
 
 Package: netskao.qqpurification
 Version: 1.4-1
@@ -7678,14 +7692,16 @@ Maintainer: Nets
 Installed-Size: 1231
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: ./debs/qqpurification_1.4-1.deb
-Size: 249308
-MD5sum: a3c4b4d500dae9c7192cb655651de0f8
-SHA1: cea77ff7b3cef21a04342092761f50eeb7fd2166
-SHA256: 90b0b4a3b4c5fcca80e1fd29711952d939350eba946282341188130c07468032
+Size: 249500
+MD5sum: f85544db9a7c68a9d5738126cf7cfc3b
+SHA1: 1f910ef964578ed0cef276b3dda6f2565cab505b
+SHA256: bd4a1577ce94e0ee70bb3965c8067f1e39bc55d42f247bd27ec8db54e9174fb4
 Section: NoAds
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Depiction
 
 Package: netskao.qqpurification
 Version: 1.4-3
@@ -7694,14 +7710,16 @@ Maintainer: Nets
 Installed-Size: 1312
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: ./debs/qqpurification_1.4-3.deb
-Size: 257492
-MD5sum: f0d8cd05946bb0273170532091da7318
-SHA1: 85d1a06a68bf7fdb9f746db736050ecccc156113
-SHA256: a07390213a69e37f61cdc3171302a53b1e23d8ded7de3c040d7bc5df0e190784
+Size: 257584
+MD5sum: 2a7b4e71fc48647337addc8d2d48774a
+SHA1: fc925d61282c3e86d1be4ef3b872bdcb5209587d
+SHA256: 9f52eca633c2b350102dd47ac7f79e24047b81f8b31770e82c646b8bac21f188
 Section: NoAds
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Depiction
 
 Package: netskao.qqpurification
 Version: 1.4-5
@@ -7710,14 +7728,16 @@ Maintainer: Nets
 Installed-Size: 464
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: ./debs/qqpurification_1.4-5.deb
-Size: 126204
-MD5sum: a2415b2d03194ebc6f8765ecc0281f3e
-SHA1: 48ed5758346ac4dcd3b8759e97a34cf3eb2b57f6
-SHA256: cecb0fcb44ac8d72e3a6cde2c476e26c36ffa1519223cfc170f73da340fd0659
+Size: 126212
+MD5sum: d2481eaf232fdf9a682b0a886d7488a8
+SHA1: a3bc52a41a1812217a1f6fa9612cd1fee1191593
+SHA256: 00729418f41aed1641c8c9356c12f02f0581af08774231790817100a61a2ff1c
 Section: NoAds
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Depiction
 
 Package: netskao.qqpurification
 Version: 1.4-9
@@ -7726,14 +7746,16 @@ Maintainer: Nets
 Installed-Size: 464
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: ./debs/qqpurification_1.4-9.deb
-Size: 129648
-MD5sum: bdcfc3d4c3f30ff8acf9582e533e8bf0
-SHA1: 386c0042a1e31e5dfb1308cfeee746d52c727842
-SHA256: cf47f4179b21cf5d41f77d69c411ef7fc51411b3b078d304a8a453df04e5fbc7
+Size: 129780
+MD5sum: f2971ed0b50e8182b7888534efc0c2c1
+SHA1: 700ff6f58fb979442022c3097a8595ea2049c4fa
+SHA256: 08d70cef0008d528c472dfa912cf6366c4153b233cbca6297aa8da91921f107a
 Section: NoAds
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Depiction
 
 Package: netskao.qqpurification
 Version: 1.5-9
@@ -7742,14 +7764,16 @@ Maintainer: Nets
 Installed-Size: 490
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: ./debs/qqpurification_1.5-9.deb
-Size: 131960
-MD5sum: a7bd3605c4a876535f44e6d1aa5de746
-SHA1: 2b400ea8bc651351355d41ffc7c4437f76d3aab4
-SHA256: cb40da76660436673a19fd7c6ffe5bc9f3d9819e95612a8214eade14964991e5
+Size: 131964
+MD5sum: 8d5c7e9efc75fd412619abe599232d4f
+SHA1: a4606a07b8171a866d77200d6a02ccfe1342095f
+SHA256: d6f8d7f3d3056f8fdd66dd2d4d2ff481c179470283c1a894492e9f224a370ac4
 Section: NoAds
-Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.7.5及以上版本
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Depiction
 
 Package: netskao.qqpurification
 Version: 1.6-4
@@ -7758,14 +7782,16 @@ Maintainer: Nets
 Installed-Size: 535
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: ./debs/qqpurification_1.6-4.deb
-Size: 138068
-MD5sum: 710d005735dce2dfd4407b95ce075944
-SHA1: fe98a9f81f32cb525b60b33d598f9f18bfa5f2c3
-SHA256: 7b95a1520acfafb2c1669143de1a7ba4c8726613c3f07e05d0261e279ff69261
+Size: 138320
+MD5sum: d764c0ac78664519fb4b189221b78d87
+SHA1: d849229567c1973af8101b8067f7ce967b4e88da
+SHA256: a401bd3986f1e2d3aa0a9f5060b1b6f0fed841744ce1c68a554d1635859e41d8
 Section: NoAds
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Depiction
 
 Package: netskao.qqpurification
 Version: 1.7-1
@@ -7774,14 +7800,16 @@ Maintainer: Nets
 Installed-Size: 520
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: ./debs/qqpurification_1.7-1.deb
-Size: 138868
-MD5sum: a557dc7326b1108cfad2403e4ca67487
-SHA1: ecedd6ee0411a614efcfc8abfaad5f037676cc80
-SHA256: 67c1c2c40014eb0bd6248062d165d5a28206c8916ddd56aef256b0302aeb4391
+Size: 139012
+MD5sum: 7ff08dba25f19024f428b291963d6082
+SHA1: 675eac547e021f90901cac71816d232bf6cb4d83
+SHA256: e56ce3ce930484b65f16b395e491017b06ccbd8febf5f7cf9340d29c51118162
 Section: NoAds
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Depiction
 
 Package: netskao.qqpurification
 Version: 1.7-2
@@ -7790,14 +7818,16 @@ Maintainer: Nets
 Installed-Size: 515
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: ./debs/qqpurification_1.7-2.deb
-Size: 140104
-MD5sum: 9a785deea84f920bb3036639ea1d4269
-SHA1: ed53ea54544d1ff39ad79154e492dfd4b684bc02
-SHA256: 2564d2492218beaf8b63e3c23c376b45a2db0ec6f9e753fd962b40d6009f85ab
+Size: 140196
+MD5sum: 8638d94d8498e4f19c6767a82dea0126
+SHA1: d04010c05127a2e31fbab1454a92a4b3f9aad1df
+SHA256: 4147549fee605b4900cc6ab0a15c8e67a4d81a9a0ceb08d4607176f7c20e5d85
 Section: NoAds
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Depiction
 
 Package: netskao.qqpurification
 Version: 1.7-6
@@ -7806,14 +7836,16 @@ Maintainer: Nets
 Installed-Size: 532
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: ./debs/qqpurification_1.7-6.deb
-Size: 142644
-MD5sum: 7d2c8e2528d518195837b469b3f8fbba
-SHA1: 773af1d854dd4c72564244d10913584a377403f5
-SHA256: c4870f147309d6d658ebf0e8dd82776553f97bc8f1fbaddbeb70198729f9c572
+Size: 142920
+MD5sum: 5b88be24c58b7905eaa3dc32a22ae4de
+SHA1: 768e898bea038fa808872f999cf1cf3078e8356c
+SHA256: bdc70c9a4bdf950e769ea37488226d35764bc4f3269cc57eedf07b9ad3433feb
 Section: NoAds
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Depiction
 
 Package: netskao.qqpurification
 Version: 1.7-8
@@ -7822,14 +7854,16 @@ Maintainer: Nets
 Installed-Size: 539
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: ./debs/qqpurification_1.7-8.deb
-Size: 148228
-MD5sum: 099a9f20cf56d28aa8b320adea14c3a6
-SHA1: 80e8cc11a452756c76030a70226e990006612f98
-SHA256: aef004a5a4a822feeb236d297fab66127bf2f25421013edf75755cac8f729660
+Size: 148100
+MD5sum: 71c692572492957c1cb0e01b88950360
+SHA1: f2e9b694068644f32778492ccb1671fc0c3bdf57
+SHA256: 2fd64d3e74af3e1cee61110432c4ee6a49392d3c2ca290391ad1eb2088a96f95
 Section: NoAds
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Depiction
 
 Package: netskao.qqpurification
 Version: 1.8-8.2
@@ -7838,14 +7872,16 @@ Maintainer: Nets
 Installed-Size: 566
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: ./debs/qqpurification_1.8-8.2.deb
-Size: 156380
-MD5sum: 9b6978e510593fdece54bd19d2efc051
-SHA1: c2cf7a8e096b5ea9d4792398726d8f55573fe60b
-SHA256: c84aa9880e9e5b67d00f03416313c7a0dff21bde94e5ae6d484873148134e5b2
+Size: 156472
+MD5sum: 1ac0dc736df71f8109de529f46ac3b38
+SHA1: 529e1d3a0f6fd976736dd6dfbb404944d1d8254a
+SHA256: 7ae5fef0406422efaa44862e98f079922aeca3e136f3387da6a4468e32a3d96b
 Section: NoAds
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.7.5及以上版本
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Depiction
 
 Package: netskao.qqpurification
 Version: 1.8-9
@@ -7854,14 +7890,16 @@ Maintainer: Nets
 Installed-Size: 572
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: ./debs/qqpurification_1.8-9.deb
-Size: 157576
-MD5sum: 3026e9bf85907145848d3942a61b718e
-SHA1: ac9135e4ae35350f6167c43bb8e841be0f32ff93
-SHA256: dfa61ce3f1d8b213fe447cde9e19233950926c26e6d48ecf071c7c9e13afdf39
+Size: 157476
+MD5sum: 269854af0c5818dbb206ed90d97df901
+SHA1: 3bb4c58725f43425b4a2ad87f98360fa19933e19
+SHA256: 1790d552022dcd922502681787b8058c318864dc13d82b216fc149d674b0d306
 Section: NoAds
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.7.5及以上版本
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Depiction
 
 Package: netskao.qqpurification
 Version: 1.9-3.1
@@ -7870,14 +7908,16 @@ Maintainer: Nets
 Installed-Size: 463
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: ./debs/qqpurification_1.9-3.1.deb
-Size: 130504
-MD5sum: 7a4d2e890e7adcbbfb70e4a349e25d16
-SHA1: 28649ba556f406653bf602e096207f60588860a3
-SHA256: 58b426c1f37454ae7ae00ec06f13a0e6118ccfcb5c7a970aec659ed702916573
+Size: 130476
+MD5sum: 8b214e583b2ae1246331711ab22a3709
+SHA1: 77463b6ddead60069140fdc7df347bd9545e0bf4
+SHA256: 49c24112f53aafb06604f515956940f6b1651da9d550824d6d7d8d2348e20f77
 Section: NoAds
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.7.5及以上版本
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Depiction
 
 Package: netskao.qqpurification
 Version: 1.9-3.2
@@ -7886,14 +7926,16 @@ Maintainer: Nets
 Installed-Size: 445
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: ./debs/qqpurification_1.9-3.2.deb
-Size: 127880
-MD5sum: 063a96ad6b4c8157eec6b15adf3627f9
-SHA1: 6721257da00489433aa9aec12e2fc3aaa48b9d85
-SHA256: 9339fa4d1173896cdd4e34d6fc0e59105908a78ec1f62485e4dd99cf4425dd39
+Size: 127908
+MD5sum: ef4cb31ccc1be455da84bc025053e5ba
+SHA1: 89bb3a42231b9cffa856a2f84b3ace6194ac5abb
+SHA256: 0b7867a6b67b04308fee5c65bb3344a2717ab3f2f35fecae6bb9eddeba2a712d
 Section: NoAds
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.7.5及以上版本
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Depiction
 
 Package: netskao.qqpurification
 Version: 1.9-3.8
@@ -7902,14 +7944,16 @@ Maintainer: Nets
 Installed-Size: 468
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: ./debs/qqpurification_1.9-3.8.deb
-Size: 132976
-MD5sum: dcd07e81e2bce5ce4897beb10935eca5
-SHA1: 337e5c7404072389c278a573970b6fc53a836b12
-SHA256: 39a2094c65dace78a5f5a7b0fd24fefaf4d7c6c4364c5d5d129bd0ce05673c40
+Size: 133040
+MD5sum: f42d1c537c6d46e1aedff6cba0bd7711
+SHA1: ab58a52513348701c04cfadd3afe26cbc66a9e3a
+SHA256: 5e2653c55e7da9da528a1cdd8c57d3231149212746e5c4b279a4eef0a4e0b76e
 Section: NoAds
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.7.5及以上版本
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Depiction
 
 Package: netskao.qqpurification
 Version: 1.9-4.1
@@ -7918,14 +7962,16 @@ Maintainer: Nets
 Installed-Size: 530
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: ./debs/qqpurification_1.9-4.1.deb
-Size: 151916
-MD5sum: 76b126f71b5c470afbf5ae357ac4c6fd
-SHA1: 2e5f4f7a29a1f110356615d56cc4a24bbbe9982f
-SHA256: 493eb5a9ceea872b0033234675c21315f090e5fd12cd1b06cd71b8d3a1ce215b
+Size: 152464
+MD5sum: f21b9130e74a513c0f5a5c1d0474d825
+SHA1: d1f4204a50ec49d405609a63c490d2fbc2b2a65c
+SHA256: 3212d977614acd8e03b8c7ce78fd557a0b710edc34e491c5e19cf062644f74c4
 Section: NoAds
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.7.5及以上版本
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Depiction
 
 Package: netskao.qqpurification
 Version: 1.9-7
@@ -7934,14 +7980,16 @@ Maintainer: Nets
 Installed-Size: 535
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: ./debs/qqpurification_1.9-7.deb
-Size: 158108
-MD5sum: e1dd33cf48328ad23d7015e4ab0a5c04
-SHA1: c250b4d5151cf5fd29b7f434fbc9ae5d3543fee7
-SHA256: 62685f1e934b19398bc48a78019eb2d1451baa925f2a3b0681ec8a8661c07f2b
+Size: 158176
+MD5sum: 1a1de2fe8e883fc2c42e87ffffc9b544
+SHA1: 15a3b2c9abc1ec758cb19342d0a269832555a4a5
+SHA256: 209769547ac8c791a5e52fa8354c3071a9984c3397c4a456dfa9e049a4fa5d04
 Section: NoAds
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.7.5及以上版本
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Depiction
 
 Package: netskao.qqpurification
 Version: 1.9-9
@@ -7950,14 +7998,16 @@ Maintainer: Nets
 Installed-Size: 568
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: ./debs/qqpurification_1.9-9.deb
-Size: 163960
-MD5sum: 39ad9d976b6d8858de37ea37783b29d6
-SHA1: 96f8e7c1d275ed3fbfd9179f616a67c9b3f89914
-SHA256: 438a77273509399bbca12398f1b5fc87c63c4a768418a57728e2bf9c74440006
+Size: 163964
+MD5sum: 31fc27689da3cde7494a2c2586399914
+SHA1: 43c914181f4bd68ad4b3dee287f4b177698f118b
+SHA256: 57f70204c4fda92b284b0fa18e5c33acd24595a7339b8530b788527dbd08f24a
 Section: NoAds
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.7.5及以上版本
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Depiction
 
 Package: netskao.qqpurification
 Version: 1.9-9.1
@@ -7966,14 +8016,16 @@ Maintainer: Nets
 Installed-Size: 569
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: ./debs/qqpurification_1.9-9.1.deb
-Size: 171312
-MD5sum: 2ef2257a39d601afa0063b6d9fa9ef26
-SHA1: adcdd7d7a76e6ec676831d99822de4da65bc114a
-SHA256: 706560e94ebd1f29d556fe4f935c3bd337d2afb626cac972e83da1fae8cea446
+Size: 171364
+MD5sum: 2cdf7b227138ab9848d54cac536da50d
+SHA1: 863574b7614d13285564412ab390f925e27012cd
+SHA256: bba7fe9cf258c72e58c2b0b0ddf4355edf9f0a2ec3199a9a4ef3f1224c9927ba
 Section: NoAds
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.7.5及以上版本
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Depiction
 
 Package: netskao.qqpurification
 Version: 1.9-9.3
@@ -7982,14 +8034,16 @@ Maintainer: Nets
 Installed-Size: 469
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: ./debs/qqpurification_1.9-9.3.deb
-Size: 131784
-MD5sum: 15a71060092b82de6968ab6ec885594e
-SHA1: 4b6d4537c7da93220dbc4c4e720568d1783646d9
-SHA256: f6775c9ff164ed225fcb8f97fee90a90fe7908ff2c5c3a0f136aacef46cb3606
+Size: 131820
+MD5sum: 87aa0d1af0990f7ba5e9b06f266933bb
+SHA1: cfbe3cc79f9d5dd72eb17b9ef03fb60fb4a25037
+SHA256: ca56c74ad0b2782d687aecc89e16e709b40381c6b0b80e8090a5fb51449c318d
 Section: NoAds
-Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.8.0及以上版本
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.7.5及以上版本
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Depiction
 
 Package: netskao.qqpurification
 Version: 1.9-9.8
@@ -7999,13 +8053,15 @@ Installed-Size: 478
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: ./debs/qqpurification_1.9-9.8.deb
 Size: 142996
-MD5sum: 64544cbea398e90537526c693eec0722
-SHA1: 0886891305fc99706a3a9f825087a832ee214b82
-SHA256: 46b7aa504b078eb83a6f927423b07df971bdbeb87530b876df23dbff0ea5d99e
+MD5sum: 464933df7ad465aeaf096ea5e747d1d8
+SHA1: 8b115abe8175af7066c530b2fd5f741b23796442
+SHA256: 04ab0d650008bb074d26050d9e19d8f45528c26c288929adad8b40a2b60e1152
 Section: NoAds
-Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.8.0及以上版本
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.7.5及以上版本
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Depiction
 
 Package: netskao.qqpurification
 Version: 1.9-9.9
@@ -8014,14 +8070,16 @@ Maintainer: Nets
 Installed-Size: 899
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: ./debs/qqpurification_1.9-9.9.deb
-Size: 243616
-MD5sum: d307d63f257762a068ec883e9d7c92e2
-SHA1: 11d0492321d5e387648174e4169a7f76700fc657
-SHA256: e9de11dbc0825147473724cd042925f596cb55e00b736e7bf01693dca6279403
+Size: 243736
+MD5sum: 1ab74920d7a89f600edb6d39ea9e09dd
+SHA1: 355c718e9fe5e863487d6d1bed6da47bb5dc4b13
+SHA256: 69c35b7b4ece34ad59220a4ed1e5fd36d4b439c4415bbada0a053dde28ad4430
 Section: NoAds
-Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.8.0及以上版本
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.7.5及以上版本
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Depiction
 
 Package: netskao.qqpurification
 Version: 2.0-2
@@ -8030,14 +8088,16 @@ Maintainer: Nets
 Installed-Size: 806
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: ./debs/qqpurification_2.0-2.deb
-Size: 244872
-MD5sum: 0e998bbcb49f3f125b8286c3f671139a
-SHA1: ced58e433216913860bc3303596955c2a352b1f0
-SHA256: 0e29c2b3b25e6c4af27c59c5c3d30a8e6a9b4cc19a1457264bd35eaf5bfad559
+Size: 245092
+MD5sum: 207ac99c8ea82846ed8dabb313aa97a5
+SHA1: eb571f14816e292d8eccff07061598dca8d6ff06
+SHA256: 4a5fd52f28f4dcfa8b4e07578e35406336859b6b7df73d41a57a1904859d9152
 Section: NoAds
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.8.0及以上版本
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Depiction
 
 Package: netskao.qqpurification
 Version: 2.0-2.3
@@ -8046,14 +8106,16 @@ Maintainer: Nets
 Installed-Size: 936
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: ./debs/qqpurification_2.0-2.3.deb
-Size: 251884
-MD5sum: 8819af3ea69247ce3b003a8a1a52c032
-SHA1: a8d11fc72ab2f95e29e6028e6c1ee17b8930ea1f
-SHA256: bcd703db58d465179e35cacb3a910995ed753d6e763aa49ec63524542b6c84f9
+Size: 251924
+MD5sum: d649d6446ace6675cd35fccbefd4257f
+SHA1: 1f3c7f4858264616dd928fa5ba96bb6a22a563d9
+SHA256: 29925920fadd26bd54c1048fe60e52a36683326e816beb96adf39a9c944876ac
 Section: NoAds
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.8.0及以上版本
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Depiction
 
 Package: netskao.qqpurification
 Version: 2.0-2.3-1
@@ -8062,14 +8124,16 @@ Maintainer: Nets
 Installed-Size: 938
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: ./debs/qqpurification_2.0-2.3-1.deb
-Size: 256368
-MD5sum: aff5b7c6a2b11ea648b15913cafa4370
-SHA1: b981bbfe047675615e155e9ec18c027112ac3beb
-SHA256: bcbd62f58d5e570c3dca2c4822a08b91fd8cf89c01ee27ab38ede83d1cee61b0
+Size: 256556
+MD5sum: eea9a275bb23256c22a2a941d9a560da
+SHA1: 2a3856974e07aa153dcdc98aa0f1f2f370fed6a8
+SHA256: e9e1cf13ea7dd896b8f17bc57fc46af46c0b4e58be21abc80618e6c8309d984b
 Section: NoAds
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.8.0及以上版本
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Depiction
 
 Package: netskao.qqpurification
 Version: 2.1-1
@@ -8078,14 +8142,16 @@ Maintainer: Nets
 Installed-Size: 896
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: ./debs/qqpurification_2.1-1.deb
-Size: 252608
-MD5sum: 0345619ae5c34b188d558d4ae4233a00
-SHA1: 95592c8c84033008afad404af75eb4593237d2d6
-SHA256: 2228e4e004aada73431213949f7002042bec15098e223473840265de28f4a278
+Size: 252576
+MD5sum: 512d128222ae0dbe0f80d3857740d350
+SHA1: 63c215bccc6cee11b2ffa463229c7d3d388ca02f
+SHA256: f840abc5e071ee5272425bbd2e76826f9eab72d715c6a9e9c82120b6af0af8cb
 Section: NoAds
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.8.88及以上版本
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Depiction
 
 Package: netskao.qqpurification
 Version: 2.1-2
@@ -8094,47 +8160,52 @@ Maintainer: Nets
 Installed-Size: 964
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: ./debs/qqpurification_2.1-2.deb
-Size: 266620
-MD5sum: 6924cdabc5677737548fbdbcad0e9e45
-SHA1: 2480b076c2df4337b0432b369dced0ab795e8375
-SHA256: 12bd078ef2efa73d57d3016dc1d69cee489a73c0e24298c5b5445a580b7b4572
+Size: 266824
+MD5sum: be71d3df925a58b15101ff55449310fb
+SHA1: 91c599a6510369a44a5cd308512c55a5de26b589
+SHA256: e9f75dcc88515519b631366d7e67085d096f93fe332d52a7abaa2e3629399cbb
 Section: NoAds
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.8.88及以上版本
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Depiction
 
 Package: netskao.qqpurification
 Version: 2.2-5
 Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 1934
-Depends: mobilesubstrate, firmware (>= 12.2)
+Depends: mobilesubstrate, firmware (>= 12.0)
 Filename: ./debs/qqpurification_2.2-5.deb
-Size: 995796
-MD5sum: b285b252dfa561771e473e17ee33ea26
-SHA1: 69d455cbc4c6e0ac9d0a8693a1b925ad5fc1b283
-SHA256: bc1d91f42f73a911a3965abfe1dc5478e848dce2d49de40901f51bc22a256dd3
+Size: 995832
+MD5sum: 68bd63791c7a709e052b12bf9e8491ff
+SHA1: 61ef4b24d2edfeeb0a54109f847b7bb3befc456b
+SHA256: 8c3b3a5972eb52f8298dab481c84ab276048c2bb1e78c59770d38d176eac882a
 Section: NoAds
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.9.0及以上版本
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Depiction
 
 Package: netskao.qqpurification
 Version: 2.3-3
 Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 1900
-Depends: mobilesubstrate, firmware (>= 12.2)
+Depends: mobilesubstrate, firmware (>= 12.0)
 Filename: ./debs/qqpurification_2.3-3.deb
-Size: 1051570
-MD5sum: 12289deae15d72f12680452547be963b
-SHA1: 9ef398c0b362b9878e7f08114ac71deccb02ca18
-SHA256: 7804bcfca8effa060a9d48cb985c37ee95909968651c62fd266fd8b274f4dae2
+Size: 1007312
+MD5sum: b637c07608fdbb85bd32d4af8fa728e8
+SHA1: 49dca5e1068f68063fee8ecd84335f16455c58c5
+SHA256: 15fc937837ace369c2fd9a869a09d3fbde7d09e2bf1b12fe17ae15eb6e577a5c
 Section: NoAds
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.9.0及以上版本
 Author: Netskao
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Depiction
 
 Package: netskao.showtouch
 Version: 1.0.4-2
