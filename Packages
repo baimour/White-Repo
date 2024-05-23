@@ -544,13 +544,13 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: parrotgeek1 <parrotgeek1@gmail.com>
 Pre-Depends: grep, sed
-Depends: eu.heinelt.ifile
+Depends: eu.heinelt.ifile, com.white.ifile, firmware (<= 10.3.4)
 Filename: ./debs/iFileFix_1.0.deb
-Size: 904
-MD5sum: 188ee5b11392cc255bd8c0296c292e00
-SHA1: 4a71e22138701efce52a071938a302e70ef10c2b
-SHA256: f1fa76e0926fd266427b388ec48f075f2ce042159f0dfc77ba968c759665368c
-Section: Tweaks
+Size: 940
+MD5sum: b0b61f2acc1e5b64e6a9fb8c2d2639db
+SHA1: e9562204591592ed409059c9a27b8144f49ec59e
+SHA256: 5e8e52a3b442db38ee3f9e01d32c94d3c9eb7edfc4d6b15782e5cd1ab50c247e
+Section: 老iOS专用
 Description: 修复iFile启动时崩溃的问题
 Author: parrotgeek1 <parrotgeek1@gmail.com>
 Name: iFile崩溃修复
@@ -3761,13 +3761,13 @@ Version: 2.2.0-1
 Architecture: iphoneos-arm
 Maintainer: Carsten Heinelt <ifile@iphone.heinelt.eu>
 Installed-Size: 20224
-Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
+Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds, firmware (<= 10.3.4)
 Filename: ./debs/iFile_2.2.0-1.deb
-Size: 7468588
-MD5sum: 5adc315fa81402733b623b8d565b988e
-SHA1: d6b0eb7bd4000cdf7dbe475d3b8d4fd47a7348a2
-SHA256: 76df503cdc53d5d46f8703557855af6dc8266a2820cd5c9d2993dc4fcaa58745
-Section: Utilities
+Size: 7467508
+MD5sum: ad3d3499369098074b0bb0b6ac90d121
+SHA1: dc32fffbf523a9e6a548a622e512541d54821309
+SHA256: c7ae893da8d06c0887527c41fe95089203232f9b92ab4a3be4b44fc927392226
+Section: 老iOS专用
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
 Description: iFile是一款在用户root下运行的文件管理器，它允许快速浏览iPhone文件系统。它允许直接查看各种类型的文件，如电影、声音、文本、HTML、Microsoft 类型、PDF、ZIP。对于PDF文件，可以直接跳转到页面。还支持ZIP打包和解包。文件可以作为电子邮件附件发送。可编辑文本文件和属性列表。可为文件夹和文件添加书签。此外，还可从iFile内置的网络服务器上传和下载文件
 Author: Carsten Heinelt <ifile@iphone.heinelt.eu>
@@ -4615,14 +4615,16 @@ Maintainer: Spark
 Installed-Size: 484
 Depends: mobilesubstrate, com.spark.libsparkapplist
 Filename: ./debs/nomoresmallapps_2.0.1.deb
-Size: 125376
-MD5sum: 16abf8599813f07396167a76aa59a669
-SHA1: 398511ff81e5c6b7448c6dc16533b41461ff7fe4
-SHA256: 7cc7728e5e9a6dcd1afdf6010ebad666a808919635d7ed29b87b93510620d92f
+Size: 123508
+MD5sum: b5b19d46531f8e04c33c51cee5b2ca75
+SHA1: 43e03cebeec27c7009fd478620662b08449ef515
+SHA256: 4ac1a65dbd089822c442d3357fdbc298b350fdc7f9b62c80b8c00c69fef7bfbd
 Section: Tweaks
-Description: 让全面屏设备中的所有应用都能全屏显示
+Description: 使不支持全面屏设备的所有应用强制全屏，对于一些老应用和游戏很有用！
 Author: Spark
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/nomoresmallapps/icon.png
 Name: NoMoreSmallApps
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/nomoresmallapps/Depiction
 
 Package: com.white.nonceset143
 Version: 0.0.5
@@ -4813,6 +4815,29 @@ Tag: purpose::uikit, role::enduser
 Author: lvcoffee <admin@lvcoffee.info>
 Icon: file:///Applications/PPPOE.app/icon.png
 Name: PPPOE 无线拨号
+
+Package: com.white.ppsspp-dev-latest
+Version: 0v1.17.1-406-g6a493fcbbd
+Architecture: iphoneos-arm
+Maintainer: Henrik Rydgård
+Depends: preferenceloader
+Conflicts: org.ppsspp.ppsspp-dev-latest, com.myrepospace.theavenger.PPSSPP, net.angelxwind.ppsspp, net.angelxwind.ppsspp-testing, org.ppsspp.ppsspp, org.ppsspp.ppsspp-dev-working, org.ppsspp.ppssppgold-dev-working, org.ppsspp.ppssppgold-dev-latest
+Replaces: org.ppsspp.ppsspp-dev-latest, com.myrepospace.theavenger.PPSSPP, net.angelxwind.ppsspp, net.angelxwind.ppsspp-testing
+Provides: com.myrepospace.theavenger.PPSSPP, net.angelxwind.ppsspp, net.angelxwind.ppsspp-testing
+Filename: ./debs/ppsspp-dev-latest_0v1.17.1-406-g6a493fcbbd.deb
+Size: 22023764
+MD5sum: 5d3e95eab2db56b8207edb92a26967ea
+SHA1: c69132a9e59158a4bc076b86f3ec8246a41fcf20
+SHA256: fd8c8aa55cca46b1371e8c8992581be816d43051582138b6dc297c91b2586dcd
+Section: Utilities
+Homepage: https://build.ppsspp.org/
+Description: PSP模拟器
+Author: Henrik Rydgård
+Depiction: https://cydia.ppsspp.org/?page/org.ppsspp.ppsspp-dev-latest
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ppsspp/icon.png
+Icon2: file://Library/PPSSPPRepoIcons/org.ppsspp.ppsspp-dev-latest.png
+Name: PPSSPP (Dev-Latest)
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ppsspp/Depiction
 
 Package: com.white.procam7.app
 Version: 12.2.1
