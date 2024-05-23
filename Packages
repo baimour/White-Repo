@@ -2515,6 +2515,24 @@ Description: 解除国区账号无法下载国区AppSrore内已下架或者未�
 Author: Netskao
 Name: DisableTestFlightBlock
 
+Package: com.white.dj97
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Netskao
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/Dj97Crack_1.0.0.deb
+Size: 81680
+MD5sum: ead37d394fc86e2119863308a3b89310
+SHA1: f2b289702d672133b8313b0009f0055c9be53d94
+SHA256: d37bdaf5bffdec42d93416c6d703f894f82d988908a6dff8237928f7610dac6e
+Section: NoAds
+Description: 水晶DJ破解VIP权限，可下载高品质音乐
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/dj97/icon.png
+Name: 水晶DJ Crack
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/dj97/Depiction
+
 Package: com.white.dleasy
 Version: 2.14.4k
 Architecture: iphoneos-arm
