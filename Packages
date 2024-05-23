@@ -4056,14 +4056,16 @@ Maintainer: Spark
 Installed-Size: 1804
 Depends: mobilesubstrate, preferenceloader, com.spark.libsparkcolourpicker (>= 1.0.1)
 Filename: ./debs/laetus_3.4.0.deb
-Size: 1527548
-MD5sum: f36c102f2886df80da38bae460d5f54c
-SHA1: 97ae645d23ab1efcbed486b0686a2ccfcd94974f
-SHA256: ef056404095bbabd8e6fa21586352bc5f5e09d3d7542f83ecfdffbda75ba0994
+Size: 1491920
+MD5sum: 7e1d17ee4964c1a4e24278016d5eeee1
+SHA1: 90e7209e94b41332c2a7692f9465fee461284f2a
+SHA256: 79f49c23793a0c07ef682bfc8326bc53ffad02e5d286bf35727f6a0c1fbb813f
 Section: Tweaks
 Description: 自定义键盘/主题，内置扎比键盘主题
 Author: Spark
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/laetus/icon.png
 Name: Laetus
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/laetus/Depiction
 
 Package: com.white.laetus-keyboard-pack
 Version: 1.7.1

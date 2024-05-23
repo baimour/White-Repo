@@ -8,6 +8,12 @@
           "title": "LiNUZE",
           "package": "com.white.linuze.nightly",
           "hideShadow": false
+       },
+       {
+          "url": "https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/adaptive/top.png",
+          "title": "Adaptive",
+          "package": "com.white.adaptive",
+          "hideShadow": false
        }
    ]
 }
