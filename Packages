@@ -52,6 +52,44 @@ Author: White <1410970825@qq.com>
 Dev: White
 Name: 屏蔽设置重要提醒
 
+Package: com.babylonvip.carxdrift2
+Version: 1.31.1
+Architecture: iphoneos-arm
+Maintainer: Haidar_Phantom
+Installed-Size: 6644
+Depends: firmware (>= 11.0), mobilesubstrate
+Filename: ./debs/carxdrift2_1.31.1.deb
+Size: 1749860
+MD5sum: 5408b828c15d4e4e4d634904a1154c43
+SHA1: 92135e61f0c7e5aec7dcd8f58a8590bdb04ee947
+SHA256: be379296c2dedaef2a9791928565bc0ba003dc9b011e0efe0301cd8d1bcb0e79
+Section: Cracks
+Homepage: https://t.me/Haidar_Phantom
+Description: 由Haider_Phantom制作的Mod菜单！支持最新的1.31.1版本
+Author: Haidar_Phantom
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/carxdrift2/icon.png
+Name: CarX Drift 2 Crack
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/carxdrift2/Depiction
+
+Package: com.babylonvip.carxstreets
+Version: 1.3.1
+Architecture: iphoneos-arm
+Maintainer: Haidar_Phantom
+Installed-Size: 6644
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/carxstreets_1.3.1.deb
+Size: 1748548
+MD5sum: 2ec6f385330e980d32ae6ee37600d83b
+SHA1: de13012ade9752223683a6c5d6c396bf29648508
+SHA256: 1e4c49c3ea20072758e70207ed51334c9842c5f20df40ab83cc4b3caddffcf96
+Section: Cracks
+Homepage: https://t.me/Haidar_Phantom
+Description: 由Haider_Phantom制作的Mod菜单！支持最新的1.3.1版本
+Author: Haidar_Phantom
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/carxstreets/icon.png
+Name: CarX Street Crack
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/carxstreets/Depiction
+
 Package: com.creaturesurvive.libcscolorpicker
 Version: 1.0.6
 Architecture: iphoneos-arm
@@ -357,97 +395,6 @@ Section: Tweaks
 Description: iOS 16风格电池样式
 Author: MTAC
 Name: Ampere
-
-Package: com.myxxdev.samjet
-Version: 1.020722
-Architecture: iphoneos-arm
-Maintainer: MYXXdev™
-Installed-Size: 376
-Pre-Depends: dpkg
-Depends: firmware (>=14.0), firmware (<=15.0), mobilesubstrate, plutil, ws.hbang.common
-Conflicts: com.pheux.fixrandomresprings
-Replaces: com.pheux.fixrandomresprings
-Filename: ./debs/samjet_1.020722.deb
-Size: 64464
-MD5sum: 53b6ca89e5bd9fe6a0655ffdd226af1c
-SHA1: 34b50d1dde4b64973275787d5c8b04cc099c16ed
-SHA256: 313c930758d688abe638fc66f688f54235c14bc7a8578d54a4442a1b1b94ad54
-Section: System
-Description: 更稳定的iOS 14越狱环境！
- • Description:
- 此插件将提高有问题的jetsam条目值（仅适用于 iOS 14）
- -
- 您的jetsam文件将以当前状态（无论是原版还是自行修改后的）进行备份，并在卸载SamJet®后恢复该版本。两个不同的备份存储在 /usr/sbin/MYXXdev/SamJet/Backups 和 /var/mobile/Media/MYXXdev/SamJet/Backups
- -
- 不要删除这些文件/文件夹！
- -
- 在使用此插件之前，您对SamJet®中以外的条目所做的任何修改都将保持不变
- -
- 对以下jetsam条目进行了修改：
- -
- • CommCenter
- • CommCenterMobileHelper
- • CommCenterRootHelper
- • DragUI.druid
- • NetworkProcess
- • SpringBoard
- • accountsd
- • aggregated
- • apsd
- • assetsd
- • bulletindistributord
- • cfnetwork.AuthBrokerAgent
- • cfnetwork.cfnetworkagent
- • cloudd
- • configd
- • coreduetd
- • dasd
- • duetexpertd
- • healthd
- • locationd
- • mDNSResponder.reloaded
- • mlmodelingd
- • nanoprefsyncd.2
- • navd
- • networkd
- • nsurlsessiond
- • routined
- • searchd
- • sharingd
- • splashboard
- • symptomsd
- • symptomsd.helper
- • wifid
- • keyboard.service
- • share.services
- -
- --------------------------------------
- 感谢您使用SamJet®！
- ♥ MYXXdev™
- --------------------------------------
- • 更新日志：
- --------------------------------------
- -
- ~ v1.020722
- -
- 添加了额外的修改条目
- -
- 压缩图像以节省空间
- -
- 修正了Root检查
- -
- 更新描述以列出修改项目
- -
- 更新偏好设置
- -
- --------------------------------------
- -
- ~ v1.020422
- -
- 初始发布
- -
-Author: MYXXdev™
-Name: SamJet® (for iOS 14)
 
 Package: com.netskao.pulloverpro
 Version: 2.1.5-3
@@ -2620,6 +2567,42 @@ Name: Dock+ For iOS8/9/10
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/dockphone/Depiction
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.white.douyu
+Version: 1.0-2
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 1252
+Depends: mobilesubstrate
+Filename: ./debs/douyu_1.0-2_iphoneos-arm.deb
+Size: 293592
+MD5sum: 8227b2d73094d24c33cb9b01cea9e413
+SHA1: 04af35562297da767411ca03896e3c0375499bbf
+SHA256: d41175bb8807c1c557284fbcf65535db7a30bb0d592e9b449142e94cf12fec32
+Section: NoAds
+Description: 基于7.111版本制作，去除启动广告，直播飘窗广告、弹窗广告、首页横幅广告、去除青少年模式、精简我的界面
+Author: White <1410970825@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/dytv/icon.png
+Name: 斗鱼直播 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/dytv/Depiction
+
+Package: com.white.douyu
+Version: 1.0-2
+Architecture: iphoneos-arm64
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 1252
+Depends: mobilesubstrate
+Filename: ./debs/douyu_1.0-2_iphoneos-arm64.deb
+Size: 289568
+MD5sum: 35735ae0d6e7f94747c6d7fcdda028c7
+SHA1: 8e74565087794bf94c36172ed4d18c80ce87cdef
+SHA256: eaaa9d0daaf591a52d208d7758c71c3ba2627b323fc09e6f763ea724ba6d048a
+Section: NoAds
+Description: 基于7.111版本制作，去除启动广告，直播飘窗广告、弹窗广告、首页横幅广告、去除青少年模式、精简我的界面
+Author: White <1410970825@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/dytv/icon.png
+Name: 斗鱼直播 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/dytv/Depiction
+
 Package: com.white.downloadbar13
 Version: 1.0.2
 Architecture: iphoneos-arm
@@ -4030,6 +4013,42 @@ Author: akusio
 Depiction: http://akusio.github.io/descriptions/kernbypass/index.html
 Name: KernBypass
 
+Package: com.white.kiwi
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 1268
+Depends: mobilesubstrate
+Filename: ./debs/huya_1.0_iphoneos-arm.deb
+Size: 294248
+MD5sum: cfaedfa8f72326c9e4a28e64dd6e7da0
+SHA1: 360c3db438132ee96c80f5ad9593796b1e4fb90b
+SHA256: 7139ef6b36ae45555187325f0d03f43015acf52ea71e43be98ac12fc4ed4abe0
+Section: NoAds
+Description: 基于7.11.5制作
+Author: White <1410970825@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/hytv/icon.png
+Name: 虎牙直播 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/hytv/Depiction
+
+Package: com.white.kiwi
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 1252
+Depends: mobilesubstrate
+Filename: ./debs/huya_1.0_iphoneos-arm64.deb
+Size: 290666
+MD5sum: 37e03bc8bf5d6441d07fcef71a2e8bae
+SHA1: e7d247cae364a7fdb49b160bcb53db4a33249493
+SHA256: 97caf960e5b4608276f1c7b77a79c07bf0dbe0d9899e89fed0a388d225f29b85
+Section: NoAds
+Description: 基于7.11.5制作
+Author: White <1410970825@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/hytv/icon.png
+Name: 虎牙直播 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/hytv/Depiction
+
 Package: com.white.kwyycrack
 Version: 1.4-6
 Architecture: iphoneos-arm
@@ -5185,6 +5204,27 @@ Depiction: https://repo.cypwn.xyz/depiction/435
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sakura/icon.png
 Name: Sakura
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sakura/Depiction
+
+Package: com.white.samjet
+Version: 1.020722
+Architecture: iphoneos-arm
+Maintainer: MYXXdev™
+Installed-Size: 376
+Pre-Depends: dpkg
+Depends: firmware (>= 14.0), firmware (<< 15.0), mobilesubstrate, plutil, ws.hbang.common
+Conflicts: com.myxxdev.samjet, com.pheux.fixrandomresprings
+Replaces: com.myxxdev.samjet, com.pheux.fixrandomresprings
+Filename: ./debs/samjet_1.020722.deb
+Size: 63992
+MD5sum: c123e6a65e95d22a9c5afde11238309a
+SHA1: c03fb87b46334b2675ee1ce76d70429b9802e756
+SHA256: cc418631d215ec60824179d53198ab168614be8a00ad3ee6d2b481371f52b010
+Section: System
+Description: 更稳定的iOS 14越狱环境！
+Author: MYXXdev™
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/samjet/icon.png
+Name: SamJet® (for iOS 14)
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/samjet/Depiction
 
 Package: com.white.satella
 Version: 1.8.1
