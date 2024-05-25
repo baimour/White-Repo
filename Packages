@@ -1003,17 +1003,16 @@ Maintainer: CyPwn
 Installed-Size: 280
 Depends: mobilesubstrate
 Filename: ./debs/aismithpremium_1.0.0.deb
-Size: 19826
-MD5sum: ff0d99ab5c8b6d954e4dc15e042a1501
-SHA1: e7ce4d3ff7f6d79520d66c2ab7f40979a35538b6
-SHA256: 3418d493edee1f266cfbe7cde6a285d3d1736449549fbb00256fc0de88419f76
-Section: Tweaks
+Size: 18440
+MD5sum: 56f9c6b6bbec96760e776ee0588935f3
+SHA1: f783e83709d984767837cf2297d3efa8a4c1828e
+SHA256: 18f52b04ba2a62d2dce05f6995e8cb09b77955b2957691fdb94b1db2f8b489dd
+Section: Cracks
 Description: 激活年度会员权限
 Author: Ravand <Ravand0010@gmail.com>
 Depiction: https://repo.cypwn.xyz/depiction/1352
 Icon: https://i.postimg.cc/W3xbgsP2/1503-A9-A3-713-B-4232-A556-C1-E034-D18067.png
 Name: AI Smith Premium
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1352
 
 Package: com.white.alipaystep.rootless
 Version: 0.1-1
@@ -3504,17 +3503,16 @@ Architecture: iphoneos-arm
 Maintainer: CyPwn
 Depends: mobilesubstrate
 Filename: ./debs/genieaichatbot_6.1.0.deb
-Size: 11682
-MD5sum: 0a8e1b8678ee3007d112656d4dd37a9c
-SHA1: 3a75b9d115a6ec1821a67233098e55be36b21c85
-SHA256: 679489ad85e78f58af4c849465757f5e292f76a29b4a522bed3b80afd6ae3faf
-Section: NoAds
-Description: Genie解锁专业功能 - AI聊天机器人和键盘
+Size: 11080
+MD5sum: 5d00fa84435033e7f3932e1dbf6a57c1
+SHA1: 10f26c1f8743d9d92fdb6ec875245fb77e641f55
+SHA256: e10e710528fdabd01c6cefccb295157723c0259b3e9a9b791b250e0d9d69c93f
+Section: Cracks
+Description: 解锁Genie AI Chat Pro功能
 Author: CyPwn
 Depiction: https://repo.cypwn.xyz/depiction/1897
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/genieaichatbot.png
 Name: Genie AI Chatbot Pro
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1897
 
 Package: com.white.genieaichatbot
 Version: 6.2.0
@@ -3522,17 +3520,16 @@ Architecture: iphoneos-arm
 Maintainer: Blatant
 Depends: mobilesubstrate
 Filename: ./debs/genieaichatbot_6.2.0.deb
-Size: 6620
-MD5sum: 149ace35f6a36de5f2683d66b7f5e2e0
-SHA1: 469807be560351ceebebc9bab4f062226fc1486c
-SHA256: 57c8f41a1c8f39f8c1099c68ecfabe16d0ecc9155ea5cab56af3930a3f542299
-Section: Tweaks
-Description: 作者：Blatant，解锁Genie AI Chat Pro功能
+Size: 6616
+MD5sum: a897f80f4aedb60227775cd95c0b1627
+SHA1: 98fb2a9e27c062dd14edbb3f9b1e1d736ccc9482
+SHA256: 847e4877a13c0f9a9eac635b222408103697721b88815842d66d06f958fe67ea
+Section: Cracks
+Description: 解锁Genie AI Chat Pro功能
 Author: Blatant
 Depiction: https://repo.cypwn.xyz/depiction/2410
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/genieaichatbot.png
 Name: Genie AI Chatbot Pro
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2410
 
 Package: com.white.gpsmaster
 Version: 1.8.1
