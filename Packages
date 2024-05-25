@@ -509,11 +509,11 @@ Maintainer: Pheux
 Depends: com.bingner.plutil, firmware (>= 12.0)
 Filename: ./debs/fixrandomresprings_1.2.1.deb
 Size: 1280
-MD5sum: c2688c8dd14e1a1e48fd9e29b7fc259a
-SHA1: 653cf06d2db9a6edbdf5de051e1910e265c163f0
-SHA256: 1af4ed85c5f856874d236c58de26f4eff1126c57e7f56c3abbc6ace163098bdb
+MD5sum: cdd6b736deb9258fc0bd01a5f912125a
+SHA1: d01f95dc6972efba6cede36695711e77acfdcb39
+SHA256: ba4adef746c22b38f6ffbc340a427b3963c5d13cce5e3139d76c421af174c76f
 Section: System
-Description: 增加SpringBoard内存，以防止SpringBoard崩溃并停止随机注销重启。我找到了修复程序并告诉了最初编写此脚本的skitty。要恢复更改，只需卸载它即可
+Description: 增加SpringBoard内存，防止SpringBoard崩溃出现随机注销重启。我找到了修复程序并告诉了最初编写此脚本的skitty，要恢复原版，只需卸载即可
 Author: Pheux
 Name: Fix Random Resprings
 
@@ -1118,11 +1118,11 @@ Installed-Size: 200
 Depends: mobilesubstrate, com.white.tools (>=2.3.6)
 Replaces: com.randy420.fixcydia
 Filename: ./debs/aptfix_0.0.6.deb
-Size: 11148
-MD5sum: 571077d86d09ba3900a17989a43f246d
-SHA1: 9c9bd12b4c351cf1afd91ceb9216891cfa36e494
-SHA256: 24cf47324f6d291f4da7a269f2de5a67ac75841b713651ceb5d51e0da18e06fc
-Section: System
+Size: 11140
+MD5sum: 37aae2b171e8f443ed35f8705a1addce
+SHA1: 10c5c363e080b22d41fbfee99fd9c52cfdca65eb
+SHA256: 317c376823ad2d8adcf11b9c4af2d598812f1489a2db7518d63d6a7d1fc4de6c
+Section: Development
 Description: 修复DPKG Locked或apt locked错误
 Author: Randy420
 Depiction: https://Randy-420.GitHub.io/depic/aptFix.html
@@ -2254,11 +2254,11 @@ Maintainer: LukeZGD
 Depends: firmware (>= 8.0), firmware (<= 8.4.1), uikittools (>= 1.1.10)
 Conflicts: cy+cpu.arm64, io.pangu.xuanyuansword8, taiguntether83x, net.tihmstar.daemonloader
 Filename: ./debs/daibutsumigrator_2.0.3.deb
-Size: 50596
-MD5sum: 1b4a80b904bcb4494c11127178189fe4
-SHA1: 4c9490679bd544d2c99c30b4570610cf3f642fc8
-SHA256: 3f20f851065c552f4eb846c929b9c998df6a3807172e8a52707aa638b472f204
-Section: System
+Size: 50620
+MD5sum: 511c4b61bd3d10a8ed38370622c793e8
+SHA1: 61855e26acd65a0acd6cc9bc1124617f56a33fa7
+SHA256: 3b6f914bbd160abe31205d2f08f376445505bfa9a33f00d033c72d3c1801dead
+Section: 老iOS专用
 Description: 从EtasonJB/HomeDepot/openpwnage迁移到daibutsu untether，迁移完成后卸载。警告：有引导循环风险，请在安装前备份数据
 Author: LukeZGD
 Name: daibutsu migrator
@@ -2626,11 +2626,11 @@ Maintainer: LukeZGD
 Depends: openssh
 Replaces: com.lcampbell0x.dropbear
 Filename: ./debs/dropbear_1.0.1.deb
-Size: 408756
-MD5sum: eb2015f604d14a7c4be87555ffc6521b
-SHA1: 118eeec7f011e5ae13ffcc4061892dc3dee66eda
-SHA256: af24f7bc8f9f5a56e85efe0a5d38aa123946958f7493faf07469ffe63edc0442
-Section: System
+Size: 408592
+MD5sum: 7dee5df130bb1dde04d293bc21eabbbd
+SHA1: cdd0d9d9379c1cbbe9049f1e727c2e75e6f55144
+SHA256: 3fe6f08450aca5e9c01866a971b5486c6122f568564e5aa2dfc3c207423fa435
+Section: 老iOS专用
 Description: 适用于32/64位设备的Dropbear SSH，使用SSH隧道通过USB连接进行SSH (默认情况下不启用Wi-Fi SSH)
 Name: Dropbear
 
@@ -3926,6 +3926,20 @@ Depiction: https://ceadd.ca/cydia/depictions/?p=com.ceadd.jailbreakhistorytheme
 Name: History of Jailbreaking
 Sileodepiction: https://ceadd.ca/cydia/depictions/com.ceadd.jailbreakhistorytheme/SileoDepiction.json
 
+Package: com.white.jbme93xwebclip
+Version: 0.1
+Architecture: iphoneos-arm
+Maintainer: julioverne
+Filename: ./debs/jbme93xwebclip_0.1.deb
+Size: 331428
+MD5sum: 262ed9d8a886d4d7d279d72b84ba9487
+SHA1: dc3e61dc3acbf13ca9b38513d5ad5ea641de5926
+SHA256: e8f62339d8c2ad2b8667cfa472f3bc28dd40bddfb190007ee001406183211078
+Section: 老iOS专用
+Description: iOS9.3+本地激活越狱
+Author: julioverne
+Name: JBMe iOS9.3+本地激活越狱
+
 Package: com.white.jumpadvideo
 Version: 0.1-3
 Architecture: iphoneos-arm
@@ -3950,11 +3964,11 @@ Architecture: iphoneos-arm
 Maintainer: LukeZGD
 Depends: org.tihmstar.kDFUApp
 Filename: ./debs/kDFUBundles_1.0.1.deb
-Size: 9156
-MD5sum: 2e480eb58d899655d5c97a3d674831fa
-SHA1: 280982c7ad7576c9f6608fb5fff4db818a0487ec
-SHA256: 4772631463f9fe7c41b8a81f0798bb1c829ac68f6f3b7149f5bbe3fb229891e4
-Section: System
+Size: 9168
+MD5sum: e974250b1eb59fc9431b2536dc5b1e34
+SHA1: c57ef8831365e26bbe824f3ad3869a2c89793b4f
+SHA256: 5e9f23570037d594695ea895d33dfc372f5142cd02b7842bb60d3c72934e2f5c
+Section: 老iOS专用
 Description: 让kDFUApp支持更多设备
 Author: LukeZGD
 Name: kDFUApp Bundles
@@ -4630,6 +4644,23 @@ Section: Tweaks
 Description: 屏蔽iOS测试版更新弹窗 (iOS 9-13.x)
 Author: Ethan Nelson-Moore
 Name: NoBetaAlert
+
+Package: com.white.noclutter
+Version: 1.6
+Architecture: iphoneos-arm
+Maintainer: Quix <3parsa3@gmail.com>
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: ./debs/noclutter_1.6.deb
+Size: 314780
+MD5sum: 56ffc499addbf4812690073cf96bf800
+SHA1: 7779767144878ca19a00e315d2a7fb0a1c5726af
+SHA256: 89753e3f251f2e42187c8e1bec03b376c7ef3502ecbc6181f0c073023f35bc71
+Section: Tweaks
+Description: 全局隐藏iOS中杂乱的元素
+Author: Quix <3parsa3@gmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/noclutter/icon.png
+Name: NoClutter
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/noclutter/Depiction
 
 Package: com.white.noforcedentry
 Version: 0.0.2
@@ -6198,10 +6229,10 @@ Pre-Depends: cy+model.iphone (= 2.1) | cy+model.iphone (= 3.1) | cy+model.iphone
 Replaces: com.unthreadedjb.unthredera1n
 Filename: ./debs/unthredeh4il_1.0.0.deb
 Size: 10616
-MD5sum: b3e8f495d9d0e790d4d07585dac0f59a
-SHA1: a847d4e5f6e4969be75e6fbf125d987408fb7e17
-SHA256: 468ab4379720bfaa120c70fdff59428af66d4fe902d7af69db5a7cc15b580117
-Section: System
+MD5sum: c55b1be5079bad46d716678fb426092b
+SHA1: d919110809a6c0c2e0dce457bdad07695c876b14
+SHA256: d72dc91afab12dbfc2badb46ad57e56b2297860e056cfdb5d9cf644e9a38d2d6
+Section: 老iOS专用
 Description: unthredera1n untether的改进版本
 Author: UnthreadedJB
 Name: unthredeh4il
@@ -6774,11 +6805,11 @@ Architecture: iphoneos-arm
 Maintainer: sakuRdev/dora2ios
 Depends: firmware (>= 9.0), curl
 Filename: ./debs/iPwnderLite_1.0.deb
-Size: 19148
-MD5sum: 6bd68d39338a560c33645b2501921a0f
-SHA1: 7b13db63c0fbbda75069908f4150dffeaf77b55b
-SHA256: b2c06e9ff3fb1fa2f5f6d5c5961f1524e54700e4f7d4daa0c678d8c3d44d34ad
-Section: System
+Size: 19176
+MD5sum: 7a3106a994b438d7195ce5481cd0b367
+SHA1: 14391798d5b1145bed5edcc58f1e23ec92c63585
+SHA256: 003e74ffb925b52144c99c746b7ec0954a84ef176dfbb48b2d1d989400801acc
+Section: 老iOS专用
 Description: 适用于iPhoneOS的iPwnder Lite，如果是iOS 14，二进制文件必须放在/usr/local/bin
 Author: sakuRdev/dora2ios
 Depiction: https://dora2ios.github.io/info/ipwnderlite/
@@ -6931,16 +6962,16 @@ Maintainer: tihmstar
 Depends: firmware (>= 6.0)
 Conflicts: cy+cpu.arm64
 Filename: ./debs/kloader_1.0.deb
-Size: 7120
-MD5sum: 3ac8a103fb29c1b1bab2aa2ee36264ff
-SHA1: acaa9e222e3dcf03fe46eef00ae66d7c23d0e57c
-SHA256: c0a47c616ccc4759a268e52c22cb3cbc5eb578699e478a9bcfe941c7b1d5af6c
-Section: System
+Size: 7136
+MD5sum: e0637f8cb7abbd0d5326d60e6a6e72e6
+SHA1: d1f61745144aab57ad42c3c7160678c5f298ace8
+SHA256: 2b5257bf7264ab7595c7b4aca878856d6aa38aaacf2cef6f668ce2d4e815fb07
+Section: 老iOS专用
 Priority: optional
 Homepage: https://github.com/xerub/ios-kexec-utils/blob/master/kloader.c
 Description: 如果您不知道这是什么，请不要安装！不建议在生产设备上安装它
 Author: winocm, xerub
-Name: kloader
+Name: Kloader
 
 Package: libactivator
 Version: 1.9.13~rc6
@@ -6951,18 +6982,18 @@ Depends: mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2), com.a3tweak
 Conflicts: com.booleanmagic.overboard (<= 1.1), com.ashman.lockinfo (<= 2.0.0-6), sbsettings (<= 3.0.6), com.fuyuchi.missionboardpro (<= 1.3), com.kindadev.nobetaalert, libhide (<< 2.4.1), com.fortysixandtwo.activ8rfix, net.tateu.actisearch, com.jakeashacks.activator, com.udevs.activatorhomebuttoncrashfix, eu.rio-doro.actithemefix
 Replaces: com.booleanmagic.overboard (<= 1.1), com.ashman.lockinfo (<= 2.0.0-6), com.fuyuchi.missionboardpro (<= 1.3), com.kindadev.nobetaalert, com.fortysixandtwo.activ8rfix, net.tateu.actisearch, com.jakeashacks.activator, com.udevs.activatorhomebuttoncrashfix, eu.rio-doro.actithemefix
 Filename: ./debs/libactivator_1.9.13~rc6.deb
-Size: 931692
-MD5sum: 8ee2d65ea43dfb4e01d30d98667b8f27
-SHA1: ff5370623d59278c3ef0de2f1c5a26abe607c198
-SHA256: 06adee2102213b76ac60a2fcdfdb971c725dc2b29a2c982be70c8c17ce2768a5
-Section: System
+Size: 931608
+MD5sum: 45a469c415d47e005b45f1c41d5fce3f
+SHA1: 78b8c0c8274381afa030faae863e19b1ddd91e01
+SHA256: df34b27d35a6a8b7d559fc04e191af6f0921af14e4006593f5ba376d542d56bb
+Section: Tweaks
 Priority: optional
 Homepage: https://rpetri.ch/cydia/activator/beta/
 Description: iOS的整合手势、按钮和快捷方式管理
 Author: Ryan Petrich <rpetrich+activator@gmail.com>
 Depiction: https://rpetri.ch/cydia/activator/beta/
 Dev: rpetrich
-Icon: file:///Applications/Activator.app/Icon-Small-modern@2x.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/activator/icon.png
 Name: Activator
 Sponsor: thebigboss.org <http://thebigboss.org>
 依赖源：https: //rpetri.ch/cydia/
@@ -7193,10 +7224,10 @@ Maintainer: tihmstar
 Conflicts: cy+cpu.arm64
 Filename: ./debs/Daemonloader_1.0.0.deb
 Size: 47864
-MD5sum: 4906ae31f1985380fa2061471a0a6917
-SHA1: 79ff0325b7c95adeae398cc09931fde26086c793
-SHA256: bbc5a3e347f12d770be19fc9b9e416bc250f4567acf4fed838158e0c3ccdd35b
-Section: System
+MD5sum: ab968a2a040c373b4ebb3ea99ce23a4f
+SHA1: a4f8078d281aa0fd152988cb4d7f1cf48b1d59ba
+SHA256: 2801a3f08c2251c689714a8dae84a35b681d8c53fab1dfcdc9e23fea7155a2a7
+Section: 老iOS专用
 Description: 实际上在jsc/rtbuddyd untethers上加载launchdaemons，使用它让openssh加载etasonuntether或untetherhomedepot，使用untether生成的orphan_commander (libtakeover)等待syslogd启动，然后注入到它并运行"lanchctl load /Library/LaunchDaemons"
 Author: tihmstar
 Dev: tihmstar
@@ -7210,13 +7241,13 @@ Depends: net.tihmstar.daemonloader, firmware (>= 9.1), firmware (<= 9.3.4)
 Conflicts: cy+cpu.arm64, net.tihmstar.untetherhomedepotoffsets, io.pangu.fuxiqin9
 Replaces: net.tihmstar.betterhomedepot
 Filename: ./debs/untetherhomedepot_1.5.2.deb
-Size: 18696
-MD5sum: 72641bca498b3bde2f5ae4ca09f4f213
-SHA1: 6e459148baa688e5d85bcaa9e1870b25f6bef2f0
-SHA256: ffb271eb8092e40f9f25adc32bc1f55bf078c50c81db66b474a91225ec5ca363
-Section: System
+Size: 18684
+MD5sum: 340d8bc752b64e93015527f35d2f4a25
+SHA1: bd81d36129abef4f2580c39e323729c995a34bc0
+SHA256: dfbf6a60e3abd26669959a74d8020d925ec998c3b170620ad63a178ff615bd46
+Section: 老iOS专用
 Priority: optional
-Description: Untether适用于iOS 9.1-9.3.4 32位设备
+Description: Untether适用于iOS 9.1-9.3.4的32位设备
 Author: tihmstar
 Dev: tihmstar
 Name: UntetherHomeDepot
@@ -8707,11 +8738,11 @@ Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: firmware (>= 9.2), firmware (<= 10.2), org.coolstar.cctools
 Conflicts: com.tigisoftware.filza (<= 3.1.0-16)
 Filename: ./debs/stash933_1.5.0.deb
-Size: 21896
-MD5sum: bad59089f83e5c165696b376e5557a58
-SHA1: b888a61cad7f6dbc3bc62b3dd3f2a98e33efdac6
-SHA256: c6ab3314abc5cc8d35a0c751e824def246e371e8152ab87b7fdf781411a5ac61
-Section: System
+Size: 21872
+MD5sum: 8ae2e67dbba8138aa4198186a2071409
+SHA1: 548797f9f46b3cc836178e90e4beb16aabc2528a
+SHA256: 6c1f790be9561031d30d97074e1fa56d982c9a331accba635fdb6c1dbe1da5b6
+Section: 老iOS专用
 Description: 隐藏第三方组件，为它们腾出更多空间！
 Author: CoolStar <coolstarorganization@gmail.com>
 Name: Stashing for iOS 9.2 - 10.2
@@ -8722,11 +8753,11 @@ Architecture: iphoneos-arm
 Maintainer: tihmstar
 Depends: openssl, libcrippy-1.0.0, libpartialzip-1.0.0, curl, kloader, com.white.kDFUBundles, firmware (>= 6.0), firmware (<= 9.3.6)
 Filename: ./debs/kDFUApp_1.0.3.deb
-Size: 63744
-MD5sum: 2af62455cfab8ba3f02fe41d3ff2409a
-SHA1: 196945c9e0e320fe861c0ec54337b95b1c25a17e
-SHA256: c1294aada66e49ef45e866251684b85e50ffb03df4b88ec08855aa2eeb269b15
-Section: System
+Size: 63716
+MD5sum: ef0d914194865ae343007f23c88f7e56
+SHA1: dd2744ad5ec0b31ef897badb5b2d612cb701aa5e
+SHA256: aa20e06225fe22ad942b50370044d04b02be050a562c7b197ba860fc4643e3ae
+Section: 老iOS专用
 Priority: optional
 Description: 进入kDFU模式更简单的方法
 Author: tihmstar
