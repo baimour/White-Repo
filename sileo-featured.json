@@ -10,6 +10,12 @@
           "hideShadow": false
        },
        {
+          "url": "https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/noclutter/top.png",
+          "title": "NoClutter",
+          "package": "com.white.noclutter",
+          "hideShadow": false
+       },
+       {
           "url": "https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/adaptive/top.png",
           "title": "Adaptive",
           "package": "com.white.adaptive",
