@@ -2570,13 +2570,13 @@ Package: com.white.douyu
 Version: 1.0-2
 Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
-Installed-Size: 1252
-Depends: mobilesubstrate
+Installed-Size: 1716
+Depends: firmware (>= 9.0), mobilesubstrate
 Filename: ./debs/douyu_1.0-2_iphoneos-arm.deb
-Size: 293592
-MD5sum: 8227b2d73094d24c33cb9b01cea9e413
-SHA1: 04af35562297da767411ca03896e3c0375499bbf
-SHA256: d41175bb8807c1c557284fbcf65535db7a30bb0d592e9b449142e94cf12fec32
+Size: 341088
+MD5sum: f66d60b9a05a07a2c195a2baffc8dc2b
+SHA1: 4bb972e5fa7077e65d129fe376af27c9afb93632
+SHA256: b844dece81b4542e6edc01b316c39c6c66a5cf314a33fb3d1aa30ac0cb062b4d
 Section: NoAds
 Description: 基于7.111版本制作，去除启动广告，直播飘窗广告、弹窗广告、首页横幅广告、去除青少年模式、精简我的界面
 Author: White <1410970825@qq.com>
@@ -2589,12 +2589,12 @@ Version: 1.0-2
 Architecture: iphoneos-arm64
 Maintainer: White <1410970825@qq.com>
 Installed-Size: 1252
-Depends: mobilesubstrate
+Depends: firmware (>= 9.0), mobilesubstrate
 Filename: ./debs/douyu_1.0-2_iphoneos-arm64.deb
-Size: 289568
-MD5sum: 35735ae0d6e7f94747c6d7fcdda028c7
-SHA1: 8e74565087794bf94c36172ed4d18c80ce87cdef
-SHA256: eaaa9d0daaf591a52d208d7758c71c3ba2627b323fc09e6f763ea724ba6d048a
+Size: 289560
+MD5sum: 86b0651b0dfa29535ef9ef2c7380d8a8
+SHA1: a4b4eacd3185e50f61114dc8b9997bb5bf45720d
+SHA256: c8a2d891f2d4b7014311ea3087b1940d00e2f82b8ce8d8cafbf7977db5bd3817
 Section: NoAds
 Description: 基于7.111版本制作，去除启动广告，直播飘窗广告、弹窗广告、首页横幅广告、去除青少年模式、精简我的界面
 Author: White <1410970825@qq.com>
@@ -4031,10 +4031,10 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 1268
 Depends: mobilesubstrate
 Filename: ./debs/huya_1.0_iphoneos-arm.deb
-Size: 294248
-MD5sum: cfaedfa8f72326c9e4a28e64dd6e7da0
-SHA1: 360c3db438132ee96c80f5ad9593796b1e4fb90b
-SHA256: 7139ef6b36ae45555187325f0d03f43015acf52ea71e43be98ac12fc4ed4abe0
+Size: 294120
+MD5sum: 1d9a305e3da977a1d0bf393b912ceed6
+SHA1: c812f183ebfac4237923193fb34ffbc0f5cd5434
+SHA256: 2c0f517203b835313fa7e2ce7c5c491b5d1b6c37b9ea278b17def913e547e272
 Section: NoAds
 Description: 基于7.11.5制作
 Author: White <1410970825@qq.com>
@@ -4049,10 +4049,10 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 1252
 Depends: mobilesubstrate
 Filename: ./debs/huya_1.0_iphoneos-arm64.deb
-Size: 290666
-MD5sum: 37e03bc8bf5d6441d07fcef71a2e8bae
-SHA1: e7d247cae364a7fdb49b160bcb53db4a33249493
-SHA256: 97caf960e5b4608276f1c7b77a79c07bf0dbe0d9899e89fed0a388d225f29b85
+Size: 290776
+MD5sum: f72ca2a2268c72c19d4cac816bfd73f0
+SHA1: a938ed9b95bad79e557b4a34fb257eda8a4f1d8d
+SHA256: e9eb024f5a1686936d4df06b8dc6149863c2c248e3ec0fe4caaac22b824e75a9
 Section: NoAds
 Description: 基于7.11.5制作
 Author: White <1410970825@qq.com>
