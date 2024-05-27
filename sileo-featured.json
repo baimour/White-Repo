@@ -4,15 +4,21 @@
    "itemCornerRadius":10,
    "banners":[
        {
-          "url": "https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/LiNUZE/top.png",
-          "title": "LiNUZE",
-          "package": "com.white.linuze.nightly",
+          "url": "https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/velvet/top.png",
+          "title": "Velvet",
+          "package": "com.white.velvet",
           "hideShadow": false
        },
        {
           "url": "https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/noclutter/top.png",
           "title": "NoClutter",
           "package": "com.white.noclutter",
+          "hideShadow": false
+       },
+       {
+          "url": "https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/LiNUZE/top.png",
+          "title": "LiNUZE",
+          "package": "com.white.linuze.nightly",
           "hideShadow": false
        },
        {

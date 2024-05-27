@@ -36,6 +36,25 @@ Homepage: https://www.llvm.org/
 Description: C、C++ 和  Objective-C 编译器
 Name: LLVM Clang (clang-10)
 
+Package: com.Joka.NFSMostWantedFreeHack
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: iOSGods.com
+Installed-Size: 2712
+Depends: mobilesubstrate
+Filename: ./debs/com.Joka.NFSMostWantedFreeHack_1.1.0_iphoneos-arm.deb
+Size: 651752
+MD5sum: 9c72a44f3900f1d86ef6c9af52e2195c
+SHA1: 8d7a74824c2833c199b2883796474ff0e757add8
+SHA256: 05551ea2e2d662f54fbf7e5a65c27eaa8f0d43324e4edddf2b5ea8c0bb924cf1
+Section: Cracks
+Homepage: https://iosgods.com
+Description: Joka为iOSGods.com制作的Need for Speed™ Most Wanted iGMM修改器！
+Author: Joka
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/NFSMostWantedFreeHack/icon.png
+Name: Need for Speed™ Most Wanted Cheats
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/NFSMostWantedFreeHack/Depiction
+
 Package: com.apple.Preferences
 Version: 9.9.9
 Architecture: iphoneos-arm
@@ -6329,13 +6348,13 @@ Depends: mobilesubstrate, firmware (>= 13.0), firmware (<= 14.8.1), preferencelo
 Conflicts: com.initwithframe.velvet
 Replaces: com.initwithframe.velvet
 Filename: ./debs/velvet_1.5.1.deb
-Size: 185976
-MD5sum: d18bf378974937377c7b130375b473dc
-SHA1: 02f10eb2788caf8b3aaea842f7da927be0dee307
-SHA256: 072880f34a6e506d6ee17eae43d8355ed776e40bc38ed38e9c49b817a9092358
+Size: 186332
+MD5sum: 8dec3c1c3d18e8008a52974a3f2fad54
+SHA1: 150e2f0113ee8859cb1c2b955aa3dbf8988ccf08
+SHA256: ce2038df7578525d1355875d31a8294fe21cbd2038f1ef06e630c84f11dedc68
 Section: Tweaks
 Description: 自定义通知的新功能
-Tag: cydia::commercial, compatible_min::ios13.0
+Tag: compatible_min::ios13.0
 Author: initWithFrame <initwithframe@protonmail.com>
 Depiction: https://chariz.com/buy/velvet
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/velvet/icon.png
