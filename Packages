@@ -6215,6 +6215,42 @@ Name: TheosTips
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Theostips/Depiction
 Website: http://ikilledappl3.com
 
+Package: com.white.thunderbeta
+Version: 1.0-3
+Architecture: iphoneos-arm64
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/thunderbeta_1.0-3_iphoneos-arm64.deb
+Size: 4396
+MD5sum: c09da9b5b36ace4f72e66b4b84d23c7f
+SHA1: 981907022a3c1f4fb1ffa0a6a7c44b088cfe520b
+SHA256: 8c546eb082ce9baddfee531d9d364c2a29c1e026b8feff9f75eeaf6e99804d79
+Section: NoAds
+Description: 迅雷Beta6.15去除启动弹窗+优化
+Author: White <1410970825@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/thunderbeta/icon.png
+Name: 迅雷Beta NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/thunderbeta/Depiction
+
+Package: com.white.thunderbeta
+Version: 1.0-3
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 200
+Depends: mobilesubstrate
+Filename: ./debs/thunderbeta_1.0-3_iphoneos-arm.deb
+Size: 5568
+MD5sum: 5aa7bd106409a7b2b680927516e95d89
+SHA1: 60532080ba18aa97fb841bd8a73eb7932b2ef035
+SHA256: 38dae1bf1dd9a81c269be7f20a02599c87ec88b3bc9d9c04c7adad96d26edc4d
+Section: NoAds
+Description: 迅雷Beta6.15去除启动弹窗+优化
+Author: White <1410970825@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/thunderbeta/icon.png
+Name: 迅雷Beta NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/thunderbeta/Depiction
+
 Package: com.white.thunderhelper
 Version: 1.5.1
 Architecture: iphoneos-arm
