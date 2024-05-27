@@ -2525,6 +2525,40 @@ Name: DisableLC 隐藏锁屏相机
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/DisableLC/Depiction
 Sponsor: Skylerk99 <skylerk99@gmail.com>
 
+Package: com.white.disablelowbattery
+Version: 1.0-2
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 200
+Depends: firmware (>= 9.0), mobilesubstrate
+Filename: ./debs/disablelowbattery_1.0-2_iphoneos-arm.deb
+Size: 3794
+MD5sum: 6aee9415e82e503119ea366f3f618967
+SHA1: cba0c3d8bc5dc2bd9f2667ed5de2f6ddc15a241e
+SHA256: e28be5478ef8645bca01b10619a66d31b15b686259b0b2e7fad19d3349a8f436
+Section: Tweaks
+Description: 禁用iOS低电量弹窗
+Author: White <1410970825@qq.com>
+Name: 禁用低电量弹窗 (iOS9-15.x)
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/disablelowbattery/Depiction
+
+Package: com.white.disablelowbattery
+Version: 1.0-2
+Architecture: iphoneos-arm64
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 136
+Depends: firmware (>= 9.0), mobilesubstrate
+Filename: ./debs/disablelowbattery_1.0-2_iphoneos-arm64.deb
+Size: 3098
+MD5sum: 6d542f786a10b93a7544d46808d71576
+SHA1: 971034b76b5e73cbcfc43fa42c4c8e3b98297158
+SHA256: c7a344fc764bc2e7d6e9c944f9fdde2739ff6b492306bdfb5420be9c292707ae
+Section: Tweaks
+Description: 禁用iOS低电量弹窗
+Author: White <1410970825@qq.com>
+Name: 禁用低电量弹窗 (iOS9-15.x)
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/disablelowbattery/Depiction
+
 Package: com.white.disabletestflightblock
 Version: 1.1-4
 Architecture: iphoneos-arm
@@ -4740,6 +4774,23 @@ Author: Quix <3parsa3@gmail.com>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/noclutter/icon.png
 Name: NoClutter
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/noclutter/Depiction
+
+Package: com.white.nodisturb
+Version: 1.0-2
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 136
+Depends: firmware (>= 11.0), firmware (<= 14.8.1), mobilesubstrate
+Filename: ./debs/nodisturb_1.0-2_iphoneos-arm.deb
+Size: 2924
+MD5sum: 90d8c429751e5d4becbe955512b2a294
+SHA1: ecb519169057b2440d967b93f53afbf0eeeb6db4
+SHA256: aa0d784ed448b6c08e4627c2a7f7321cdf65dba020faf4ac6e8b15c20d2d9b6b
+Section: Tweaks
+Description: 屏蔽勿扰模式通知
+Author: White <1410970825@qq.com>
+Name: NoDisturbBanner
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/nodisturb/Depiction
 
 Package: com.white.noforcedentry
 Version: 0.0.2
