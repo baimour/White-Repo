@@ -309,27 +309,6 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ja
 Name: WeChat Jan
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/jan/Depiction
 
-Package: com.kingpuffdaddi.control-center.ccvpn
-Version: 1.0.6
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 154
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.opa334.ccsupport
-Filename: ./debs/control-center.ccvpn_1.0.6.deb
-Size: 15060
-MD5sum: 5643c78de01d8a213d435502d8bec8db
-SHA1: 0692a09cf933f380e208f2c6251cfcd128b45497
-SHA256: 3f2a0ff8e70e1f033b7b3f202ffe0b6caa94579b5489c0451ece25e8f33d4047
-Section: Tweaks
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccvpnDp
-Description: 用于连接/断开VPN的控制中心模块
-Tag: purpose::extension
-Author: KingPuffdaddi <kingpuffdaddi@icloud.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccvpnDp
-Dev: kingpuffdaddi
-Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Smartvpn/icon2.png
-Name: CCVPN
-
 Package: com.level3tjg.researchspoof
 Version: 1.0
 Architecture: iphoneos-arm
@@ -1201,6 +1180,29 @@ Depiction: https://chariz.com/get/atria
 Icon: https://img.chariz.cloud/icon/atria/icon@3x.png
 Name: Atria
 
+Package: com.white.axj
+Version: 8.0.0-50
+Architecture: iphoneos-arm
+Essential: no
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 31924
+Depends: firmware (>= 10.0), mobilesubstrate, coreutils-bin, zip, unzip
+Conflicts: app.weiphone.ALS, app.weiphone.IGG, app.weiphone.NZT, app.weiphone.LRN
+Filename: ./debs/axj_8.0.0-50.deb
+Size: 7137352
+MD5sum: 45494fcde23a4a5ee3f51b587f84a6e6
+SHA1: a998331a6b8ba75762dc4dabcb0cc51c0b420283
+SHA256: 3cd6431273eae0e908995ccc3a28ed70c02442719a84e638d080f4bb8d56ecd1
+Section: Utilities
+Priority: standard
+Description: AXJ爱新机(64位)禁止用于违法目的，严禁对Cydia、Sileo、Zebra等越狱商店使用，否则后果自负
+Tag: role::enduser
+Author: AXJ爱新机(64位)
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/axj/icon.png
+Name: AXJ爱新机破解版
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/axj/Depiction
+Sponsor: White <1410970825@qq.com>
+
 Package: com.white.backgrounderaction13
 Version: 0.1.4
 Architecture: iphoneos-arm
@@ -1592,6 +1594,67 @@ Section: Tweaks
 Description: 废除运营商签名保护 (iOS10-14)
 Author: Pwn20wnd <itweakios@yahoo.com>
 Name: CommCenter Patch (10-14)
+
+Package: com.white.ccvpn
+Version: 1.0.6
+Architecture: iphoneos-arm
+Maintainer: KingPuffdaddi <kingpuffdaddi@icloud.com>
+Installed-Size: 154
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.opa334.ccsupport
+Conflicts: com.kingpuffdaddi.control-center.ccvpn
+Replaces: com.kingpuffdaddi.control-center.ccvpn
+Filename: ./debs/ccvpn_1.0.6_iphoneos-arm.deb
+Size: 15076
+MD5sum: da919611feec273a799c7730d8e8414d
+SHA1: e4bf181ae8f6cb67c9a32b3cc0c20d63c5d47342
+SHA256: d583b55bb6db8af88f1fea2cc734a3fe97d36f2b102dbf8153fd92887f21e015
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccvpnDp
+Description: 用于连接/断开VPN的控制中心模块
+Tag: purpose::extension
+Author: KingPuffdaddi <kingpuffdaddi@icloud.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccvpnDp
+Dev: kingpuffdaddi
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ccvpn/icon.png
+Name: CCVPN
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ccvpn/Depiction
+
+Package: com.white.ccvpn
+Version: 1.1.1-2
+Architecture: iphoneos-arm
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Depends: com.opa334.ccsupport
+Filename: ./debs/ccvpn_1.1.1-2_iphoneos-arm.deb
+Size: 30264
+MD5sum: 9b025a6010ffcbd1a00a9950240ac8f9
+SHA1: 1c05de5a095fbdc7e9a1e58b58e1d8697d38c3be
+SHA256: 36c45eecf1cfd7bf6dcb21ed3f0ca139711fb3ad36b9d8b4baf55f69821f3508
+Section: Tweaks
+Description: 用于连接/断开VPN的控制中心模块
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Depiction: https://skypain.github.io/repo/static/view/?p=ccvpn
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ccvpn/icon.png
+Name: CCVPN
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ccvpn/Depiction
+
+Package: com.white.ccvpn
+Version: 1.1.1-2
+Architecture: iphoneos-arm64
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 184
+Depends: com.opa334.ccsupport
+Filename: ./debs/ccvpn_1.1.1-2_iphoneos-arm64.deb
+Size: 30644
+MD5sum: f9dac789a8cd382b8ce76689fad101d6
+SHA1: 037b000468f4ea76a45fb88a2f39ca1c748a8c99
+SHA256: afddd9bf9e52ab5b7045ea8e363e493a92c3f53303ba9ff3c72613be28bae60a
+Section: Tweaks
+Description: 用于连接/断开VPN的控制中心模块
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Depiction: https://skypain.github.io/repo/static/view/?p=ccvpn
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ccvpn/icon.png
+Name: CCVPN
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ccvpn/Depiction
 
 Package: com.white.celldia
 Version: 0.0~beta5
@@ -4763,6 +4826,29 @@ Description: 删除无SIM卡弹窗
 Author: Spark
 Name: NoSimAlert
 
+Package: com.white.notify10
+Version: 1.0.0-2
+Architecture: iphoneos-arm
+Maintainer: jailbreak365 <jailbreak365@mail.com>
+Installed-Size: 142
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Conflicts: com.jailbreak365.notify10
+Replaces: com.jailbreak365.notify10
+Filename: ./debs/notify10_1.0.0-2.deb
+Size: 7008
+MD5sum: c620d700eae9c0e3beef61c772406c0e
+SHA1: 339801c8e434eaf9d53085498476e74fe183223d
+SHA256: d70af0618994c5a3a54f1d61a3b84ddd373f407e00f483eaf685e169aa6abfe5
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=notify10Dp
+Description: 适用于iOS 11+的iOS 10风格通知
+Tag: purpose::extension
+Author: jailbreak365 <jailbreak365@mail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=notify10Dp
+Dev: jailbreak365
+Name: Notify10
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/notify10/Depiction
+
 Package: com.white.notitapdelay
 Version: 1.2
 Architecture: iphoneos-arm
@@ -5644,12 +5730,12 @@ Version: 2.1
 Architecture: iphoneos-arm
 Maintainer: b4db1r3
 Installed-Size: 424
-Depends: mobilesubstrate (>= 0.9.5000), com.kingpuffdaddi.control-center.ccvpn, com.opa334.altlist
+Depends: mobilesubstrate (>= 0.9.5000), com.kingpuffdaddi.control-center.ccvpn|com.white.ccvpn, com.opa334.altlist
 Filename: ./debs/smartvpn_2.1.deb
-Size: 45484
-MD5sum: 095ae8a5eaa845378871f4d8bece37aa
-SHA1: 18d48c01e9eac8bac8e6528c19d3212c7df2af06
-SHA256: abaaafa3e27fb38d9f56c9209c28d4df24e22dcc52d295b0912e884a06ac4e50
+Size: 45488
+MD5sum: c8f9bb1f301d572a627d1c8118116e75
+SHA1: 2da654433a3d126322e9b139e5789b71b80b9f96
+SHA256: 57af0ef0d4b78407f6bf263dc1b1e29153c984280733a0ec6ada36cb0f8fe91c
 Section: Tweaks
 Description: 为特定应用自动开启关闭VPN
 Author: b4db1r3
@@ -5662,12 +5748,12 @@ Version: 2.5
 Architecture: iphoneos-arm
 Maintainer: b4db1r3
 Installed-Size: 424
-Depends: mobilesubstrate (>= 0.9.5000), com.kingpuffdaddi.control-center.ccvpn, com.opa334.altlist
+Depends: mobilesubstrate (>= 0.9.5000), com.kingpuffdaddi.control-center.ccvpn|com.white.ccvpn, com.opa334.altlist
 Filename: ./debs/smartvpn_2.5.deb
-Size: 45460
-MD5sum: 4d327e8ac9de4c5e5460d99d9eda20f6
-SHA1: eb682e003738d7c2a656c7a22bb4e2c64248115b
-SHA256: 9ebbd71c86697527f77b49ae58f4eb1b29fac05a443393de73ccb9609212c212
+Size: 45540
+MD5sum: 03a106543e101b8e76c077a900de6e1e
+SHA1: dedb4d2336a1eb5a75a81034bfe03f1955ff795e
+SHA256: e1ff7dc49722e8644a0372a8befd8db2df5b362c2c1e1a5f15e9f610109a7ba3
 Section: Tweaks
 Description: 为特定应用自动开启关闭VPN
 Author: b4db1r3
@@ -6233,6 +6319,28 @@ Section: 老iOS专用
 Description: unthredera1n untether的改进版本
 Author: UnthreadedJB
 Name: unthredeh4il
+
+Package: com.white.velvet
+Version: 1.5.1
+Architecture: iphoneos-arm
+Maintainer: initWithFrame <initwithframe@protonmail.com>
+Installed-Size: 764
+Depends: mobilesubstrate, firmware (>= 13.0), firmware (<= 14.8.1), preferenceloader, net.limneos.libbulletin (>= 0.1-158), com.spark.libsparkcolourpicker
+Conflicts: com.initwithframe.velvet
+Replaces: com.initwithframe.velvet
+Filename: ./debs/velvet_1.5.1.deb
+Size: 185976
+MD5sum: d18bf378974937377c7b130375b473dc
+SHA1: 02f10eb2788caf8b3aaea842f7da927be0dee307
+SHA256: 072880f34a6e506d6ee17eae43d8355ed776e40bc38ed38e9c49b817a9092358
+Section: Tweaks
+Description: 自定义通知的新功能
+Tag: cydia::commercial, compatible_min::ios13.0
+Author: initWithFrame <initwithframe@protonmail.com>
+Depiction: https://chariz.com/buy/velvet
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/velvet/icon.png
+Name: Velvet
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/velvet/Depiction
 
 Package: com.white.videohelper
 Version: 3.0
