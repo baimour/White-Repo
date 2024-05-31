@@ -384,14 +384,15 @@ Architecture: iphoneos-arm
 Maintainer: MTAC
 Installed-Size: 604
 Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
-Filename: ./debs/com.mtac.ampere_1.4_iphoneos-arm.deb
-Size: 111064
-MD5sum: f36fe5541f307340ffb384849c23e87c
-SHA1: 7f3d2015bf92e72208a011fd6955c40974a04ec9
-SHA256: 4b0a8d5974bb4a87a35ac42ec3ab8207a9f35d5a9b9b0feb597c923c481081ed
+Filename: ./debs/ampere_1.4.deb
+Size: 102132
+MD5sum: 7d860991db4702e4d755f49c81ddd903
+SHA1: 4705460381df70b8c1fc892bf5fc591ceff9d18e
+SHA256: 632b2a32359d3d0747c19ba2c43825d5b2b3652d862420b62119018774c02ad2
 Section: Tweaks
 Description: iOS 16风格电池样式
 Author: MTAC
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ampere/icon.png
 Name: Ampere
 
 Package: com.netskao.pulloverpro
@@ -1094,17 +1095,17 @@ Maintainer: CokePokes
 Depends: firmware (>= 11.0), mobilesubstrate
 Conflicts: com.unlimapps.uaupdatetools
 Filename: ./debs/appstore++_0.10.1-5.deb
-Size: 3209136
-MD5sum: d62337a1def3ccc3ac819bb5a70b5335
-SHA1: e4bd441010e5811dde4bf45eda776c41f811a87d
-SHA256: 68d4c6f9a4f0b75ff66c20e6fadd2e7055828571b534e87fe5683bfff2253e3b
+Size: 3210436
+MD5sum: 5246c089b6c0fea47b6730536d243435
+SHA1: f65f5954d6bbc22673c32777ac6d8bb4d7fb7a32
+SHA256: 5422eb66c0754e1ab0f36fcffa5f52618d4242f909d21c8c15f49c7201f6881f
 Section: Tweaks
 Priority: optional
 Description: 支持iOS 11-15在AppStore中降级/升级应用
 Author: CokePokes
 Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
 Dev: CokePokes
-Icon: https://cokepokes.github.io/depiction/appstoreplus/icon.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/appstoreplusplus/icon.png
 Name: AppStore++汉化版
 
 Package: com.white.aptfix
@@ -1167,16 +1168,16 @@ Installed-Size: 877
 Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
 Conflicts: com.irepo.boxy4, me.kritanta.homepluspro
 Filename: ./debs/Atria_1.4.1_iphoneos-arm.deb
-Size: 259636
-MD5sum: cc6f1366740c9525b31381f5ce6c0378
-SHA1: 66593c7eddbd338389bfc3f9a606e5d7604214d6
-SHA256: e2d43d6013db31affd155b2b2661669dec6f7f598b8be537bfca98c10bd5e6c9
+Size: 244272
+MD5sum: c42140bc4632c16ac7db5e91021bd14b
+SHA1: 9575d8020208f8d2f6f58b056aa5027560bacb79
+SHA256: 6985a7eb15307124bff7dfe8fd4762731cfb7f6e319f25f45ce9f7accc0a022f
 Section: Tweaks
 Description: 适用于iOS 13-16的自定义桌面布局
 Tag: compatible_min::ios13.0
 Author: ren7995 <lau7995ren@gmail.com>
 Depiction: https://chariz.com/get/atria
-Icon: https://img.chariz.cloud/icon/atria/icon@3x.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/atria/icon.png
 Name: Atria
 
 Package: com.white.atria
@@ -1187,16 +1188,16 @@ Installed-Size: 886
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
 Conflicts: com.irepo.boxy4, me.kritanta.homepluspro
 Filename: ./debs/Atria_1.4.1_iphoneos-arm64.deb
-Size: 239868
-MD5sum: a981bf340be882dd3b425bddd1fb5bc3
-SHA1: f39be84c8c963eb1c815d82f961103a74ac818f8
-SHA256: 991186fc48e5c2242f70e7d064b2f89526d62c47dd0db292efb1f1c170f8815b
+Size: 239552
+MD5sum: 2d25b1de4c389b320d37a549221e98f4
+SHA1: ddb9ef551e280780d9cf9d95478ff8c6006b8b5b
+SHA256: 9f0cda830021300aa7e41d34de581bf879baebabacd86b5d18c6227122797766
 Section: Tweaks
 Description: 适用于iOS 13-16的桌面布局
 Tag: compatible_min::ios13.0
 Author: ren7995 <lau7995ren@gmail.com>
 Depiction: https://chariz.com/get/atria
-Icon: https://img.chariz.cloud/icon/atria/icon@3x.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/atria/icon.png
 Name: Atria
 
 Package: com.white.axj
@@ -2055,15 +2056,15 @@ Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5.000), preferenceloader
 Conflicts: org.thebigboss.colorbadges
 Replaces: org.thebigboss.colorbadges
 Filename: ./debs/colorbadges_1.5.0.deb
-Size: 64054
-MD5sum: 7556c8836c87bdcdeec1270238749fd1
-SHA1: ab731d24d31bcc502e552d11b493b51085a3563a
-SHA256: 8ca4db1ed9e2d1afb16de186eedee34c5e499c3a3343731b536264196b281f40
+Size: 61116
+MD5sum: c267e1933db1f3eb947186d54db32b22
+SHA1: 71d580a61d103df598a89f9f38cd5e490c3ce5fe
+SHA256: c5e8ead7854860a222092b86fa1b726596ab0223f0844521cac5226e21bedc78
 Section: Tweaks
 Description: 多彩角标，更改通知角标颜色
 Author: David Goldman <help@golddavid.com>
 Depiction: https://rejail.ru/depiction.php?file=colorbadges
-Icon: file:///Library/PreferenceBundles/cbprefs.bundle/CBCydiaIcon.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/colorbadges/icon.png
 Name: ColorBadges
 Sileodepiction: https://rejail.ru/sileo/depiction.php?file=colorbadges
 
@@ -3786,15 +3787,15 @@ Installed-Size: 362
 Depends: mobilesubstrate, preferenceloader, applist, ws.hbang.common, firmware (>= 10.0)
 Conflicts: com.cabralcole.haptickeyboard
 Filename: ./debs/haptickeys_4.4.deb
-Size: 33664
-MD5sum: 0b6ff8977991183a82ab4f73bf40e3b5
-SHA1: a1e43c11bf91721184eedd7c43600ebfd5ded63c
-SHA256: fa364819ea9d21ead7a206ce5df78d40e20d19db066c979451317b5284194c4a
+Size: 33588
+MD5sum: 44c8bd4f34419ef7290fc823e5886f52
+SHA1: 3db8c1fbdd4292d783f3e6c9c762ed4fdc1dc2f8
+SHA256: 7cc7a7b668afa0f12ca9f8d8989649ba1313233c4298963419ab7bc3fc7997a2
 Section: Tweaks
 Description: 添加键盘和桌面图标的触觉反馈
 Author: colecabral
 Depiction: https://rejail.ru/depiction.php?file=haptickeys
-Icon: file:///Library/PreferenceBundles/HKSettings.bundle/HK@2x.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/haptickeys/icon.png
 Name: HapticKeys Rus
 Sileodepiction: https://rejail.ru/sileo/depiction.php?file=haptickeys
 
@@ -6218,10 +6219,10 @@ Depends: firmware (>= 8.0), preferenceloader (>= 2.2.4), firmware (>= 11.0) | ne
 Conflicts: net.tetherme.tetherme
 Replaces: net.tetherme.tetherme
 Filename: ./debs/Tetherme8_2.1.1.deb
-Size: 7608712
-MD5sum: 1605d8c9a41fafffe567c6c95c370029
-SHA1: a1bcb654f0d339ada61970bbea5878e371cf7d1e
-SHA256: cf1de77b22d58ef343f04ff04ca7503129dab37325a0bdf3f64d484ccd7bb918
+Size: 7604004
+MD5sum: a6bedc3ab06586eb7957db6351f00984
+SHA1: 7eb866eae7735b2cdf93b48148fcf8d233ceffdf
+SHA256: 0492daddefe7e4f1eb9cd8e45ca9d06791e8cb6ebefd8e4b2c23f085d4387aba
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=tetherme8Dp
 Description: 为iOS8+设备动态启用本机网络连接，这应适用于任何运营商，无需自定义bundles或偏好设置
@@ -6229,7 +6230,7 @@ Tag: purpose::extension
 Author: Sam Bingner <support@tetherme.net>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=tetherme8Dp
 Dev: tetherme
-Icon: file:///Library/PreferenceBundles/TetherMe.bundle/TetherMe@2x.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/tetherme8/icon.png
 Name: TetherMe for iOS 8+
 Sponsor: thebigboss.org <http://thebigboss.org>
 
@@ -6545,13 +6546,14 @@ Maintainer: Joshua Wheeler
 Installed-Size: 544
 Depends: mobilesubstrate (>= 0.9.5000), libflex
 Filename: ./debs/volumeflex_0.0.5-1.deb
-Size: 78668
-MD5sum: 10f7a5b8306606fd2c7c6a780927856a
-SHA1: 4dc1f7a46a50889340f22093b45035921865c91e
-SHA256: 189a0f80ad74fa99d2488abcd9a618c7795b1f745d92182d00146c73a84803d4
+Size: 78800
+MD5sum: 015d8fe82d356ad92d4309094fe07f07
+SHA1: 0bfa934e26af3360b7be3a4a0ee5680ddb4d79c8
+SHA256: b5e4754f17f21e6c1c849c453d0314615adef5eeb84f7aa7a45719ac8d928681
 Section: Tweaks
 Description: 世界不需要另一个FLEX工具，但手指粗的人需要
 Author: Joshua Wheeler
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/volumeflex/icon.png
 Name: VolumeFLEX
 
 Package: com.white.volumeflex
@@ -6561,13 +6563,14 @@ Maintainer: Joshua Wheeler
 Installed-Size: 448
 Depends: mobilesubstrate (>= 0.9.5000), libflex
 Filename: ./debs/volumeflex_0.0.5-2.deb
-Size: 70560
-MD5sum: b6da64fe5e6f3f79ed6f492aea2c990c
-SHA1: 48f1ac90d6173de6f9ce409ea7b6ecca8d2aec04
-SHA256: 2ff8a4bd9aa5cf18ba2770fb2b1f43634197bbfa4e19afc3c2375a3d50892329
+Size: 70636
+MD5sum: 4bcd64f1704935307ee88a6376141b5e
+SHA1: 40c2e7793d0174f68e522bc03afc7bfddeb31122
+SHA256: 939c8ca73e2ce19ed091ac448767d91bcfe51fe6f0ea3f1e4f3e4fada38b1d8a
 Section: Tweaks
 Description: 世界不需要另一个FLEX工具，但手指粗的人需要
 Author: Joshua Wheeler
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/volumeflex/icon.png
 Name: VolumeFLEX
 
 Package: com.white.vpnindicator
@@ -7522,14 +7525,16 @@ Maintainer: Nets
 Installed-Size: 2456
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
 Filename: ./debs/netskao.appdata_1.4.1_iphoneos-arm.deb
-Size: 764524
-MD5sum: 1aa1a4eeb9db30a82738c6094d63db17
-SHA1: c9a605301963cf379a324c06766c21550e8447ee
-SHA256: a6fc857cac94237f462050c4188468aa5f9863b3bf0af6c22a187fc50ef5d88f
+Size: 674528
+MD5sum: af49cd86c43434cdc5620a42cfec6875
+SHA1: 8843328cf63c3133c9d8323d4a60306914e3c965
+SHA256: b793ab039e5807d0365826e887feada0f67c1378e30cc04f77759b364afbfa09
 Section: Tweaks
 Description: 桌面图标上滑或下滑或3D长按菜单选择即可唤出图标应用数据快捷工具，此版本由Netskao完整汉化并修改优化。修改优化:增加简单版降级应用，增加可选向下滑动唤出，增加查看应用加密状态，增加面板可选去除面板分割线，增加长按面板图标以安全模式启动，修改原版卸载应用为真实卸载不保留数据，修改原版清除缓存后未同步刷新总数据显示问题，修复原版更多信息页面长按复制的信息错误问题，修改原版重置数据为包括重置程序组内文件夹数据，修改原版重置数据栏数据大小显示为包括程序组内文件夹数据，修改原版重置数据后未同步刷新缓存数据显示和权限个数显示问题，修改原版在非AppStore中下载的应用唤出时无法使用重置数据/重置权限/卸载应用(修改后仅在系统应用上禁止)
 Author: Fouad Raheb
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/appdata/icon.png
 Name: AppData
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/appdata/Depiction
 
 Package: netskao.appdata-rootless
 Version: 1.4.1
@@ -7538,14 +7543,16 @@ Maintainer: Nets
 Installed-Size: 23032
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Filename: ./debs/netskao.appdata-rootless_1.4.1_iphoneos-arm64.deb
-Size: 6002610
-MD5sum: c5dc887a21fb5348b1e4fa53931bb3c2
-SHA1: f453acff5a973fc9735d17006fdf333deee6875c
-SHA256: d2266eb47d17bac69d824a4959bcb0f8e92aac3c6bf10e982943fae86d26c039
+Size: 5070532
+MD5sum: 4502c44879c9a01f3e7ff39c6b816b70
+SHA1: f7e01376c8b70b35a28365f2f5e7fe97a1e8f559
+SHA256: dc0164de6070a24e04ff9900f17ce82f809f71f5c4f6a791d3e213e7ae7331ca
 Section: Tweaks
 Description: 桌面图标上滑或下滑或3D长按菜单选择即可唤出图标应用数据快捷工具，此版本由Netskao完整汉化并修改优化。修改优化:增加简单版降级应用，增加可选向下滑动唤出，增加查看应用加密状态，增加面板可选去除面板分割线，增加长按面板图标以安全模式启动，修改原版卸载应用为真实卸载不保留数据，修改原版清除缓存后未同步刷新总数据显示问题，修复原版更多信息页面长按复制的信息错误问题，修改原版重置数据为包括重置程序组内文件夹数据，修改原版重置数据栏数据大小显示为包括程序组内文件夹数据，修改原版重置数据后未同步刷新缓存数据显示和权限个数显示问题，修改原版在非AppStore中下载的应用唤出时无法使用重置数据/重置权限/卸载应用(修改后仅在系统应用上禁止)
 Author: Fouad Raheb
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/appdata/icon.png
 Name: AppData-Rootless
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/appdata/Depiction
 
 Package: netskao.appsmanagercrack
 Version: 1.1-2
@@ -9036,14 +9043,15 @@ Maintainer: ReJail <rejail@rejail.ru>
 Installed-Size: 770
 Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader
 Filename: ./debs/ru.rejail.betterccxi_1.6.0.deb
-Size: 67656
-MD5sum: add6ba8b6e16375d762251d1d21f0265
-SHA1: 028a6270ac3234cf2ad6d690c12af622a8470706
-SHA256: 80afc3c2043968848dace893feb4fd1307d27910a4aca96852eb705607ba0d93
+Size: 67772
+MD5sum: 5bf87862d2a1642632375d7a4a69ac4b
+SHA1: 47a233573bc09dad2235f771d2d7eb4f98c25e22
+SHA256: 9e4950250fd326f622e7ea3e2de4409bee11a9f14e078663123ba69a9c5f74d7
 Section: Tweaks
 Description: 修改控制中心模块
 Author: ATWiiks
 Depiction: https://rejail.ru/depiction.php?file=betterccxi
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/betterccxi/icon.png
 Name: BetterCCXI Rus
 Sileodepiction: https://rejail.ru/sileo/depiction.php?file=betterccxi
 
