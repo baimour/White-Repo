@@ -733,6 +733,25 @@ Author: haoerloveyou <haoerloveyou@gmail.com>
 Name: Active5S_234G 1528 1533 iOS8
 Sponsor: haoerloveyou <haoerloveyou@gmail.com>
 
+Package: com.white.Clutch
+Version: 2.0.4
+Architecture: iphoneos-arm
+Maintainer: Clutch
+Installed-Size: 1120
+Depends: firmware (>= 7.0), firmware (<= 10.3.4)
+Filename: ./debs/Clutch_2.0.4.deb
+Size: 454666
+MD5sum: 9f2daeec263fe5b4093b6a7081dbd266
+SHA1: cd1fd4fbc7fb06e6f5761c5f6f678117335fa471
+SHA256: ab8ae15c503137842494d626b9d6907e1fe2a7216e7abf64b9725e9054922f84
+Section: 老iOS专用
+Priority: standard
+Description: 移除正版APP签名ID工具(砸壳)
+Author: Clutch
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/clutch/icon.png
+Name: Clutch
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/clutch/Depiction
+
 Package: com.white.Flex3beta
 Version: 1:3~Beta90
 Architecture: iphoneos-arm64
@@ -2411,17 +2430,17 @@ Version: 0.0.1-57
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 682
-Depends: firmware (>= 7.0), firmware (<= 9.3.5), mobilesubstrate, preferenceloader
+Depends: firmware (>= 7.0), firmware (<= 10.3.4), mobilesubstrate, preferenceloader
 Filename: ./debs/deleteforever_0.0.1-57.deb
-Size: 250772
-MD5sum: 3fee39ef7ff31a1c94eeece01662c4e1
-SHA1: 5a2d0bf75530655743a44fb0bca11e9084632ee7
-SHA256: 2eb4be53874d640e6277fcf087cc66c48da390707ffc35e902518671b2b079a9
+Size: 251564
+MD5sum: 7f8411526bc3be576fa9e967f623f98d
+SHA1: efe7c547458b8284ad5779781a545e4b172dc32e
+SHA256: a8797d05141e59b4bb3bf5f877c7cbf36113ee30a131bd0515c7e0886d4ac666
 Section: 老iOS专用
 Priority: optional
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=deleteforeverDp
-Description: 在删除照片时添加"永久删除"选项
-Tag: purpose::extension, compatible::ios8, compatible::ios9
+Description: 在删除照片时添加永久删除选项
+Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10
 Author: Creatix <ioscreatix@gmail.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=deleteforeverDp
 Dev: creatix
