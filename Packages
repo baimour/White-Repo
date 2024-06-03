@@ -3253,16 +3253,16 @@ Version: 4.0.1-4
 Architecture: iphoneos-arm64
 Maintainer: TIGI Software
 Installed-Size: 23200
-Depends: firmware (>= 15.0), zip, unzip, gzip, p7zip, rar, unrar
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
 Conflicts: ru.rejail.filza, com.tigisoftware.filza, com.tigisoftware.filza39, netskao.filzacrack
 Replaces: ru.rejail.filza, com.tigisoftware.filza, com.tigisoftware.filza39, netskao.filzacrack
 Filename: ./debs/filza_4.0.1-4_iphoneos-arm64.deb
-Size: 1340
-MD5sum: 4426973cbb07cab514d39d6c995b0c05
-SHA1: cc45c881970c05c917a764aebb280e0fcd3fca9f
-SHA256: b2c8f37150e007c80020e6770318a4c5d98e99efdde37eb2cfbd8a990262d699
+Size: 6916068
+MD5sum: 80131576823cb6692afde7515aae0127
+SHA1: ce77e15fe92cf3ae5606158b79d7ab7162bcd071
+SHA256: 61f31a72449f040749f1bf406a088cfc8981942327ba8c01854a80d36d41d3b9
 Section: Utilities
-Description: 强大的iOS文件管理器
+Description: 适用iPhone、iPad、iPod Touch的文件管理器，该版本仅支持iOS 11+的64位设备
 Author: TIGI Software
 Depiction: https://rejail.ru/depiction.php?file=filza
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/filza/icon.png
@@ -3274,16 +3274,15 @@ Version: 4.0.1-4
 Architecture: iphoneos-arm
 Maintainer: TIGI Software
 Installed-Size: 19388
-Depends: firmware (>= 7.0), zip, unzip, gzip, p7zip, rar, unrar
 Conflicts: ru.rejail.filza, com.tigisoftware.filza, com.tigisoftware.filza39, netskao.filzacrack
 Replaces: ru.rejail.filza, com.tigisoftware.filza, com.tigisoftware.filza39, netskao.filzacrack
 Filename: ./debs/filza_4.0.1-4_iphoneos-arm.deb
-Size: 6998036
-MD5sum: 6928d4319e96e2db97765271caa60d9b
-SHA1: 408b94c79ec7c12ade5073cbad86e44db4284ff1
-SHA256: f77df5c372800b7750de1f19013d1a19a5b7a90d184c5a1bbee9e8c17a0ab3e6
+Size: 6906272
+MD5sum: 8bcd1be77188d9dfc2c19fd8b93e9a59
+SHA1: 63f0618388a9bf3f210ebfcd6a600245d84e64a8
+SHA256: 72664ab5768e9d05938f68cece741ebf82acc8062015281944c0e1439fc04125
 Section: Utilities
-Description: 强大的iOS文件管理器
+Description: 适用iPhone、iPad、iPod Touch的文件管理器，该版本仅支持iOS 11+的64位设备
 Author: TIGI Software
 Depiction: https://rejail.ru/depiction.php?file=filza
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/filza/icon.png
@@ -5044,6 +5043,24 @@ Author: kritanta
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/pagebar/icon.png
 Name: Pagebar
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/pagebar/Depiction
+
+Package: com.white.photoeraser
+Version: 1.3.3.7
+Architecture: iphoneos-arm
+Maintainer: blatant
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/photoeraser_1.3.3.7_iphoneos-arm.deb
+Size: 18076
+MD5sum: d82d02c6557d8f5098d48eb40b6c19b6
+SHA1: 2f22a06ba1a0f2f284febba35f7d9bf322939877
+SHA256: 2d459994eedaeb1469ac6a4c236a41b33dc7a59b72581dde3ea5018ce8f07b7f
+Section: Tweaks
+Description: 解锁会员功能，作者：Blatant
+Author: blatant
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/photoeraser/icon.png
+Name: photoeraser
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/photoeraser/Depiction
 
 Package: com.white.photoinfo
 Version: 1.0
