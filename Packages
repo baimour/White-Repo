@@ -738,15 +738,15 @@ Version: 2.0.4
 Architecture: iphoneos-arm
 Maintainer: Clutch
 Installed-Size: 1120
-Depends: firmware (>= 7.0), firmware (<= 10.3.4)
+Depends: firmware (>= 7.0), firmware (<= 14.8.1)
 Filename: ./debs/Clutch_2.0.4.deb
-Size: 454666
-MD5sum: 9f2daeec263fe5b4093b6a7081dbd266
-SHA1: cd1fd4fbc7fb06e6f5761c5f6f678117335fa471
-SHA256: ab8ae15c503137842494d626b9d6907e1fe2a7216e7abf64b9725e9054922f84
+Size: 250620
+MD5sum: cddc7aa40ceca6b4aeb1661d97b04f02
+SHA1: 260d17dcb48cb3e5e2378da3125bd6fec72d1aba
+SHA256: e497def1717e0104a5b40a21291e18d9a73e45a41cde75acdb97db83c42e66fe
 Section: 老iOS专用
 Priority: standard
-Description: 移除正版APP签名ID工具(砸壳)
+Description: 移除正版APP签名ID(砸壳)工具
 Author: Clutch
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/clutch/icon.png
 Name: Clutch
@@ -1277,6 +1277,24 @@ Description: 支持7.3.0-8.1.0去启动/首页广告及更新弹窗
 Author: White <1410970825@qq.com>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/bankabc/icon.png
 Name: 中国农业银行屏蔽越狱
+
+Package: com.white.bfdecrypt
+Version: 1.3.5
+Architecture: iphoneos-arm
+Maintainer: BishopFox
+Depends: mobilesubstrate, com.opa334.altlist, firmware (>= 11.0), firmware (<= 14.8.1)
+Filename: ./debs/bfdecrypt_1.3.5.deb
+Size: 90700
+MD5sum: 689da32939bd809546a0161ba7de4233
+SHA1: 0c590bf2886ed43d16a60b513e4e30b0aca8f431
+SHA256: 745b12a3e9a3524a6d114b35f4c9a1393a7528374fa5dd43012c980f86097a57
+Section: Tweaks
+Description: 适用于iOS 11+的应用程序解密
+Author: BishopFox
+Depiction: https://repo.cypwn.xyz/depiction/1675
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/bfdecrypt/icon.png
+Name: bfdecrypt
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/bfdecrypt/Depiction
 
 Package: com.white.bigsurcenter
 Version: 1.4.4k
@@ -5050,13 +5068,13 @@ Architecture: iphoneos-arm
 Maintainer: blatant
 Installed-Size: 204
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/photoeraser_1.3.3.7_iphoneos-arm.deb
-Size: 18076
-MD5sum: d82d02c6557d8f5098d48eb40b6c19b6
-SHA1: 2f22a06ba1a0f2f284febba35f7d9bf322939877
-SHA256: 2d459994eedaeb1469ac6a4c236a41b33dc7a59b72581dde3ea5018ce8f07b7f
-Section: Tweaks
-Description: 解锁会员功能，作者：Blatant
+Filename: ./debs/photoeraser_1.3.3.7.deb
+Size: 18116
+MD5sum: 7b03f6487c2b872af16aeab10dd66424
+SHA1: 09ceff99372d4382ce8b626322854b6dcb681153
+SHA256: 71d3ff60da0c6aa1c5b942eb5e274d9d89ee799e74fb2c47d1a0944ae53c408d
+Section: Cracks
+Description: 测试版本：3.2，解锁会员功能，作者：Blatant
 Author: blatant
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/photoeraser/icon.png
 Name: photoeraser
@@ -5650,6 +5668,25 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/se
 Name: seng 控制中心增强
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/seng/Depiction
 Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+
+Package: com.white.server
+Version: 16.3.1
+Architecture: iphoneos-arm
+Maintainer: Ole André Vadla Ravnås <oleavr@nowsecure.com>
+Installed-Size: 61176
+Conflicts: re.frida.server, re.frida.server64
+Replaces: re.frida.server
+Filename: ./debs/frida.server_16.3.deb
+Size: 16526824
+MD5sum: 60bfaa79d9427868dcb7f6617cb27243
+SHA1: 3208d36ff295ee9e6ce7bf6df83b639fd3442dd6
+SHA256: a8275b62485277f15f9bd9680e680a56152b5a74922f9217c059b52d3f5c6536
+Section: Development
+Priority: optional
+Homepage: https://frida.re/
+Description: 观察并重新编程正在运行的程序
+Author: Frida Developers <oleavr@nowsecure.com>
+Name: Frida
 
 Package: com.white.shadowsocks
 Version: 0.3.2-3
