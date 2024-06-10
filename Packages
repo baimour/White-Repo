@@ -395,6 +395,24 @@ Author: MTAC
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ampere/icon.png
 Name: Ampere
 
+Package: com.netskao.dumpdecrypter
+Version: 1.4-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 4308
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.netskao.dumpdecrypter_1.4-1_iphoneos-arm64.deb
+Size: 1287368
+MD5sum: 0e64c03cc16ec19e455de0f25c6ba24d
+SHA1: 0e444150a7a2b4c8b2bc118439fb6ac680efef65
+SHA256: b23857eac16612f19ed2ea149ec85062b3e24a4537961b9be331a62978dfdf42
+Section: Netskao-Tweaks
+Description: Decrypt iOS Apps
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/DumpDecrypter/icon.png
+Name: DumpDecrypter
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/DumpDecrypter/Depiction
+
 Package: com.netskao.pulloverpro
 Version: 2.1.5-3
 Architecture: iphoneos-arm64
