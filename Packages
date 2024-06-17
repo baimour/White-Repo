@@ -3670,12 +3670,32 @@ Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDe
 
 Package: com.white.ftt
 Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 392
+Depends: mobilesubstrate, com.white.tools (>=2.3.6)
+Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
+Filename: ./debs/ftt_1.1_iphoneos-arm64.deb
+Size: 63298
+MD5sum: fb0b5ad98b17d71b178f2b2a728dd301
+SHA1: a1dce8d6d83591a75d5cabd06b9c4fd06959dea2
+SHA256: 9385dcdf5f5f0916393de270007f057589d3648cce19923c3207f0eb52c5c00d
+Section: Development
+Homepage: https://theemeraldisle.family
+Description: 最初由iPadkid358制作，后由randy420更新
+Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/ftt.html
+Name: Flex To Theos
+Sileodepiction: https://baimour.github.io/repo/SileoDepiction/ftt/Depiction
+
+Package: com.white.ftt
+Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 408
 Depends: mobilesubstrate, com.white.tools (>=2.3.6)
 Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
-Filename: ./debs/ftt_1.1.deb
+Filename: ./debs/ftt_1.1_iphoneos-arm.deb
 Size: 63640
 MD5sum: 1bbba6556a63c981e0fac3f46084e4f3
 SHA1: e7d1a67f4ef2b90447756132967fe9ae8e3df3c4
@@ -6165,7 +6185,7 @@ Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 296
 Depends: clang, curl, git, grep, perl, rsync, unzip, make, ldid, com.opa334.ccsupport, xar
 Conflicts: net.howett.theos
-Filename: ./debs/tai_5.2.2.deb
+Filename: ./debs/tai_5.2.2_iphoneos-arm.deb
 Size: 42528
 MD5sum: aeb2723e66e7e9a4585cf90ed18c7938
 SHA1: e8617fe235611c41bca75dc8e3a3c5302610ef00
@@ -6176,6 +6196,25 @@ Author: Randy420 <randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/tai.html
 Name: Theos Auto Installer
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/tai/Depiction
+
+Package: com.white.tai
+Version: 5.2.2
+Architecture: iphoneos-arm64
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 184
+Depends: com.white.tools (>= 2.3.6), clang, curl, git, grep, perl, rsync, unzip, make, ldid, com.opa334.ccsupport, xar
+Conflicts: net.howett.theos
+Filename: ./debs/tai_5.2.2_iphoneos-arm64.deb
+Size: 25938
+MD5sum: 022adac7204c4ddee1b8ffe80f35c617
+SHA1: 74226d66ddda0fc599d38bbc9c3bf970544bef60
+SHA256: f6131c3d8b4872bae1cab5ead909bb8f071f6ffb9afb0fb7ea90441e834ca4f3
+Section: Development
+Description: 使用简单的命令安装Theos
+Author: Randy420 <randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/tai.html
+Name: Theos Auto Installer
+Sileodepiction: https://baimour.github.io/repo/SileoDepiction/tai/Depiction
 
 Package: com.white.taidependscoolstar
 Version: 0.4
