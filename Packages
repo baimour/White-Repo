@@ -2090,11 +2090,31 @@ Installed-Size: 1116
 Depends: firmware (>= 7.0)
 Conflicts: ru.domo.cocoatop64, ru.domo.cocoatop
 Replaces: ru.domo.cocoatop64
-Filename: ./debs/cocoatop64_2.2.3.deb
+Filename: ./debs/cocoatop64_2.2.3_iphoneos-arm.deb
 Size: 254404
 MD5sum: 0deb2ed494224c3d654a2dd0ffed1e53
 SHA1: ed3df8152264ad245232f53bf04ced4253d730d3
 SHA256: dd4582a4735ced4fbbf51519511ab8bd977e75f18e926cc3532290497fa04435
+Section: Utilities
+Description: iOS图形界面的进程查看器，由SXX为iOS 13更新
+Author: Domo, SXX
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cocoatop/icon.png
+Name: CocoaTop
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cocoatop/Depiction
+
+Package: com.white.cocoatop64
+Version: 2.2.3
+Architecture: iphoneos-arm64
+Maintainer: SXX, Domo
+Installed-Size: 1308
+Depends: firmware (>= 7.0)
+Conflicts: ru.domo.cocoatop64, ru.domo.cocoatop
+Replaces: ru.domo.cocoatop64
+Filename: ./debs/cocoatop64_2.2.3_iphoneos-arm64.deb
+Size: 257380
+MD5sum: 18a0c96b52b8790af6ac7e01859474b6
+SHA1: cfaa21ed920aba362635bbaf5d57f9658a7e3125
+SHA256: 181a8a750d4ed1f242a5a927e0ad9d728423a77ff3f8e590e8357038577c8671
 Section: Utilities
 Description: iOS图形界面的进程查看器，由SXX为iOS 13更新
 Author: Domo, SXX
@@ -3667,26 +3687,6 @@ Author: XsF1re
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/flyjbx/icon.png
 Name: FlyJB X
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/flyjbx/Depiction
-
-Package: com.white.ftt
-Version: 1.1
-Architecture: iphoneos-arm64
-Maintainer: Randy420 <randy.skinner@hotmail.com>
-Installed-Size: 392
-Depends: mobilesubstrate, com.white.tools (>=2.3.6)
-Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
-Filename: ./debs/ftt_1.1_iphoneos-arm64.deb
-Size: 63298
-MD5sum: fb0b5ad98b17d71b178f2b2a728dd301
-SHA1: a1dce8d6d83591a75d5cabd06b9c4fd06959dea2
-SHA256: 9385dcdf5f5f0916393de270007f057589d3648cce19923c3207f0eb52c5c00d
-Section: Development
-Homepage: https://theemeraldisle.family
-Description: 最初由iPadkid358制作，后由randy420更新
-Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
-Depiction: https://Randy-420.GitHub.io/depic/ftt.html
-Name: Flex To Theos
-Sileodepiction: https://baimour.github.io/repo/SileoDepiction/ftt/Depiction
 
 Package: com.white.ftt
 Version: 1.1
@@ -6197,25 +6197,6 @@ Depiction: https://Randy-420.GitHub.io/depic/tai.html
 Name: Theos Auto Installer
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/tai/Depiction
 
-Package: com.white.tai
-Version: 5.2.2
-Architecture: iphoneos-arm64
-Maintainer: Randy420 <randy.skinner@hotmail.com>
-Installed-Size: 184
-Depends: com.white.tools (>= 2.3.6), clang, curl, git, grep, perl, rsync, unzip, make, ldid, com.opa334.ccsupport, xar
-Conflicts: net.howett.theos
-Filename: ./debs/tai_5.2.2_iphoneos-arm64.deb
-Size: 25938
-MD5sum: 022adac7204c4ddee1b8ffe80f35c617
-SHA1: 74226d66ddda0fc599d38bbc9c3bf970544bef60
-SHA256: f6131c3d8b4872bae1cab5ead909bb8f071f6ffb9afb0fb7ea90441e834ca4f3
-Section: Development
-Description: 使用简单的命令安装Theos
-Author: Randy420 <randy.skinner@hotmail.com>
-Depiction: https://Randy-420.GitHub.io/depic/tai.html
-Name: Theos Auto Installer
-Sileodepiction: https://baimour.github.io/repo/SileoDepiction/tai/Depiction
-
 Package: com.white.taidependscoolstar
 Version: 0.4
 Architecture: iphoneos-arm
@@ -6224,7 +6205,7 @@ Installed-Size: 0
 Depends: odcctools, lz4, swift, xz-utils, plutil | com.bingner.plutil
 Conflicts: com.randy420.taidependsother, org.theos.dependencies
 Replaces: com.randy420.taidependsother, org.theos.dependencies, theos-dependencies
-Filename: ./debs/dependsCool.deb
+Filename: ./debs/dependsCool_0.4_iphoneos-arm.deb
 Size: 968
 MD5sum: aecf1c068b7b401a3a5011c8cdd02f2e
 SHA1: b1dd3932f9475f2789cc11e267208fa7d3407c4b
@@ -6232,6 +6213,27 @@ SHA256: 6cf2263e6586a5384bf25f4dca55bfd66da3c953487634b83ddfafd7d623c7e3
 Section: Development
 Homepage: https://theemeraldisle.family
 Description: Coolstar越狱环境所需依赖项
+Tag: role::hacker
+Author: Randy420 <randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/taidependscoolstar.html
+Name: Theos Auto Installer Dependencies for Procursus based jailbreaks
+
+Package: com.white.taidependscoolstar
+Version: 0.6
+Architecture: iphoneos-arm64
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 0
+Depends: theos-dependencies, swift
+Conflicts: com.randy420.taidependscoolstar, com.randy420.taidependsother, com.randy420.taidependslegacy
+Replaces: com.randy420.taidependscoolstar, com.randy420.taidependsother, com.randy420.taidependslegacy
+Filename: ./debs/dependsCool_0.6_iphoneos-arm64.deb
+Size: 956
+MD5sum: d3bf349a9a6179de66baa978acaa7ea5
+SHA1: bb7e370da55f884e591108c42c4ee14d13862977
+SHA256: b870d73137d80e9c9630fcdb9c0b7c913ac7f2feb72e6a65834f5cabd3894a14
+Section: Development
+Homepage: https://theemeraldisle.family
+Description: 基于Procursus的越狱的Theos依赖 (称为CoolStar越狱)
 Tag: role::hacker
 Author: Randy420 <randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/taidependscoolstar.html
