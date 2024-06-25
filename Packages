@@ -9399,10 +9399,10 @@ Architecture: iphoneos-arm
 Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 92
 Filename: ./debs/shc_4.0.3.deb
-Size: 17064
-MD5sum: e71d8189f7ea15aff69bb2e701d2d28d
-SHA1: 28a448138a56bfbc16c4f9da2aaf577782d02335
-SHA256: f9ab238d756e792d8a425158db8306ca98a972c3213e253c26c7ab63c0d479db
+Size: 17128
+MD5sum: 3c091cdec239d0e8430b818bb7b34278
+SHA1: 6761e401af1a724cdc8c34e777d81a25b8997854
+SHA256: 2cd593283eff82d72d536f9a203695de7a480653eb7c6087127c687e26028a11
 Section: Development
 Priority: optional
 Description: shell脚本编译器
@@ -9413,6 +9413,7 @@ Description: shell脚本编译器
  .
  shc它不像cc这样的编译器，它是对shell脚本进行编码和加密，并生成具有附加过期功能的C源码。然后，它使用系统编译器编译一个剥离的二进制文件，其行为与原始脚本完全相同。执行时，编译后的二进制文件将使用shell 的 -c 选项解密并执行代码
 Name: shc (脚本编译器)
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/shc/Depiction
 
 Package: tapi-10
 Version: 10.0.0~svn-20200108+247e5b37d63-2
