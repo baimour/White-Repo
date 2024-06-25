@@ -36,6 +36,70 @@ Homepage: https://www.llvm.org/
 Description: C、C++ 和  Objective-C 编译器
 Name: LLVM Clang (clang-10)
 
+Package: cn.llld.copy1
+Version: 1.4.4
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/cn.llld.copy1_1.4.4_iphoneos-arm64.deb
+Size: 9196
+MD5sum: 4d9fd1a03e746f678d1d87f0f92df13e
+SHA1: 2c68cece038375b4034cd5c436fe9757cfe2f34d
+SHA256: c0c75443ae9a706993bcb42607374f9c9d355ecbc6e4e0c5367cf48c5b7a9661
+Section: Tweaks
+Description: 使用方法：短按复制文本内容，该插件属于测试版。后续更新会支持更多，支持应用就不一一列举了，设置、电话、短信、App Store、QQ、贴吧、巨魔等，此版本不支持Roothide，0507:自行用Choicy手动禁用对于抖音的注入，如果还有窗口点击的应用问题也禁用
+Author: 来了老弟 h_h_x_t
+Name: Copy-Text
+
+Package: cn.llld.copy1
+Version: 1.4.4
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/cn.llld.copy1_1.4.4_iphoneos-arm.deb
+Size: 8912
+MD5sum: f2faef2cfca215b265535d7cb11a948c
+SHA1: 1c431f8fa79d713ef5fd256e87f4640db1191adf
+SHA256: bde9b2ad3fe60449158a3711cc708c258934cbdffe648cba6cba42ff5cc562e8
+Section: Tweaks
+Description: 使用方法：短按复制文本内容，该插件属于测试版。后续更新会支持更多，支持应用就不一一列举了，设置、电话、短信、App Store、QQ、贴吧、巨魔等
+Author: 来了老弟
+Name: Copy-Text
+
+Package: com.3dmenu.cheatpatch
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: flyX099
+Installed-Size: 1616
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/3dmenu.cheatpatch_1.0.0_iphoneos-arm64.deb
+Size: 402380
+MD5sum: 3a7151a4c856d67676e845dc968c2b6b
+SHA1: cfd2b82538db7c103e92726a9fe366ed81b72630
+SHA256: 2c0ea7ddcab04ef80eb9765306ca504fac04af3f4d02bf20dfd6974c6234a9b2
+Section: Tweaks
+Description: 自用 上传备份(勿下) 使用3DMenu快速注入iGameGod(无广告+汉化) 内购破解 秒过广告 修补偏移地址 脱壳等
+Author: flyX099
+Name: 3DMenuGameTool
+
+Package: com.3dmenu.cheatpatch
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: flyX099
+Installed-Size: 1600
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/3dmenu.cheatpatch_1.0.0_iphoneos-arm.deb
+Size: 401020
+MD5sum: adb2521fe822f1e0e6ef1ec8fa458379
+SHA1: e9e547e989ed6cc255ec9636b6ab2d754a4f2a83
+SHA256: 409a34a7aabf8eea41793be09ecc043b6313ada9b043abbc513a46b077cca7ca
+Section: Tweaks
+Description: 自用 上传备份(勿下) 使用3DMenu快速注入iGameGod(无广告+汉化) 内购破解 秒过广告 修补偏移地址 脱壳等
+Author: flyX099
+Name: 3DMenuGameTool
+
 Package: com.Joka.NFSMostWantedFreeHack
 Version: 1.1.0
 Architecture: iphoneos-arm
@@ -3729,7 +3793,7 @@ Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 408
 Depends: mobilesubstrate, com.white.tools (>=2.3.6)
 Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
-Filename: ./debs/ftt_1.1_iphoneos-arm.deb
+Filename: ./debs/ftt_1.1.deb
 Size: 63640
 MD5sum: 1bbba6556a63c981e0fac3f46084e4f3
 SHA1: e7d1a67f4ef2b90447756132967fe9ae8e3df3c4
@@ -3741,6 +3805,50 @@ Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/ftt.html
 Name: Flex To Theos
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ftt/Depiction
+
+Package: com.white.ftt
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 1300
+Depends: mobilesubstrate, com.white.tools (>=2.3.7)
+Conflicts: ru.rj.ftt
+Replaces: ru.rj.ftt, com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
+Filename: ./debs/ftt_1.4_iphoneos-arm64.deb
+Size: 560120
+MD5sum: 07246db68c86250f4db30f328a0ba6cc
+SHA1: 36417771674d9a706d0841632783eaa198f22ce8
+SHA256: 11a7a1dd94737b7ea447dc5d81f88f65be4c8322073c0237dbd8dbe1f701449a
+Section: Development
+Homepage: https://theemeraldisle.family
+Description: 原作者：iPadkid358 - 然后由Randy420维护，使用简单的终端命令将Flex 3补丁转为Theos项目
+  
+ - 使用‘ftt-？'命令可查看完整的选项列表
+Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/ftt.html
+Name: Flex To Theos
+
+Package: com.white.ftt
+Version: 1.4
+Architecture: iphoneos-arm
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 1300
+Depends: mobilesubstrate, com.white.tools (>=2.3.7)
+Conflicts: ru.rj.ftt
+Replaces: ru.rj.ftt, com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
+Filename: ./debs/ftt_1.4_iphoneos-arm.deb
+Size: 560092
+MD5sum: c548834d7aa61279304b61302519fb65
+SHA1: b07a8d5aa229e3e0967fe797c1363aa6906c2c1f
+SHA256: 613570664ff10457a11c071cb6749d3cb3937f3c5a81dfc38cbe4698adf8af5f
+Section: Development
+Homepage: https://theemeraldisle.family
+Description: 原作者：iPadkid358 - 然后由Randy420维护，使用简单的终端命令将Flex 3补丁转为Theos项目
+  
+ - 使用‘ftt-？'命令可查看完整的选项列表
+Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/ftt.html
+Name: Flex To Theos
 
 Package: com.white.fuckpay
 Version: 0.0.1
@@ -5117,6 +5225,24 @@ Icon: https://img.chariz.cloud/icon/onesettings/icon@3x.png
 Name: OneSettings
 Sileodepiction: https://mrepo.org/sileo/5576
 
+Package: com.white.ovpnspider
+Version: 2506-1
+Architecture: iphoneos-arm
+Maintainer: hahios <kevinpham250607@gmail.com>
+Installed-Size: 3144
+Depends: mobilesubstrate
+Filename: ./debs/ovpnspider_2506-1.deb
+Size: 1123404
+MD5sum: df1c31957f953fd962b4642819dedcf5
+SHA1: b9dad7460416b8f2350c786dbd00f49af39cfe86
+SHA256: ee91da59fc70176bc3a35dd877f51e098f622ef4d11e133c827b133cbfbbb9bb
+Section: Cracks
+Description: 破解高级版功能，测试版本：6.1
+Author: hahios <kevinpham250607@gmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ovpnspider/icon.png
+Name: OvpnSpider Cracks
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ovpnspider/Depiction
+
 Package: com.white.pagebar
 Version: 0.0.1-alpha
 Architecture: iphoneos-arm
@@ -6486,6 +6612,50 @@ Section: Development
 Description: Theos自动配置工具，在原版基础上精简优化选项
 Author: White <1410970825@qq.com>
 Name: 420 Tools (Theos Installer)
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/RandyTool/Depiction
+
+Package: com.white.tools
+Version: 2.3.9
+Architecture: iphoneos-arm
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 3148
+Depends: com.white.ftt, firmware (<= 15.0) | cy+cpu.arm64v8 | oldabi-xina | oldabi
+Conflicts: com.randy420.tools
+Replaces: com.randy420.tools, com.randy420.encrypt
+Filename: ./debs/RandyTools_2.3.9_iphoneos-arm.deb
+Size: 698596
+MD5sum: e15b19f8492bbe4733b3a881db5f0249
+SHA1: 3fa20667e778e30377c9cd9e14098303a4da1073
+SHA256: 03f71f66ebe25e191c6f8cab9db110e7e8f67981d11e7234c8a7ee09b5a1a106
+Section: Development
+Homepage: https://theemeraldisle.family
+Description: 420Tools插件整合了Randy420所有插件的配置以及插件的共享文件
+Tag: role::hacker
+Author: Randy420 <randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/420Tools.html
+Name: 420 Tools
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/RandyTool/Depiction
+
+Package: com.white.tools
+Version: 2.3.9
+Architecture: iphoneos-arm64
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 2392
+Depends: com.white.ftt, firmware (<= 15.0) | cy+cpu.arm64v8 | oldabi-xina | oldabi
+Conflicts: com.randy420.tools
+Replaces: com.randy420.tools, com.randy420.encrypt
+Filename: ./debs/RandyTools_2.3.9_iphoneos-arm64.deb
+Size: 549964
+MD5sum: 5e2315f66017ed85001cf03fd74852e7
+SHA1: 7756fdf385ce914a52ed23b8cbe614020e49a454
+SHA256: b1370f044d7fa5e5059e4308ee5437eb5d9c68c32d36b410f64d86fdaf41cd49
+Section: Development
+Homepage: https://theemeraldisle.family
+Description: 420Tools插件整合了Randy420所有插件的配置以及插件的共享文件
+Tag: role::hacker
+Author: Randy420 <randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/420Tools.html
+Name: 420 Tools
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/RandyTool/Depiction
 
 Package: com.white.tsssaver
