@@ -68,6 +68,42 @@ Description: 使用方法：短按复制文本内容，该插件属于测试版�
 Author: 来了老弟
 Name: Copy-Text
 
+Package: cn.llld.qsyy
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 304
+Depends: mobilesubstrate
+Filename: ./debs/cn.llld.qsyy_1.0_iphoneos-arm.deb
+Size: 37164
+MD5sum: 31e2f8a598d1c620992e8159049acf41
+SHA1: fcb3eb9c217895b3682f8c217b18cd54a87615cb
+SHA256: f8a354a2e794f9069ef21136f9593e1845cca8f8c6ab241b30d7ccf629333b1c
+Section: Tweaks
+Description: 一款支持批量替换文本的悬浮窗工具，使用说明：悬浮窗内填写：文本替换前===文本替换后，===是替换符。使用场景：修改通话时间，修改联系人，修改通话记录，翻译替换文本，隐藏设备实际信息，靓仔装逼等。之前代码是垃圾，一切以最新版为准，提示：装了非真皮120或全局篡改插件的设备，不要装此插件，这只是应用类插件，不会影响到系统全局或桌面
+Author: 来了老弟
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qsyy/icon.png
+Name: 悬浮翻译汉化工具
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qsyy/Depiction
+
+Package: cn.llld.qsyy
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 540
+Depends: mobilesubstrate
+Filename: ./debs/cn.llld.qsyy_1.2_iphoneos-arm64.deb
+Size: 94016
+MD5sum: 30e7fb5531799777542f5a07497c68ac
+SHA1: 0e3e880900fd1518d14b7e59ea4fb098bd95dc71
+SHA256: a28efeb271be854ee4b9afc397e9407324c50e4203887f13483577a22eb061b0
+Section: Tweaks
+Description: 一款支持批量替换文本的悬浮窗工具，使用说明：悬浮窗内填写：文本替换前===文本替换后，===是替换符。使用场景：修改通话时间，修改联系人，修改通话记录，翻译替换文本，隐藏设备实际信息，靓仔装逼等。之前代码是垃圾，一切以最新版为准，提示：装了非真皮120或全局篡改插件的设备，不要装此插件，这只是应用类插件，不会影响到系统全局或桌面
+Author: 来了老弟
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qsyy/icon.png
+Name: 悬浮翻译汉化工具
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qsyy/Depiction
+
 Package: com.3dmenu.cheatpatch
 Version: 1.0.0
 Architecture: iphoneos-arm64
