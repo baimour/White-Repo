@@ -395,24 +395,6 @@ Author: MTAC
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ampere/icon.png
 Name: Ampere
 
-Package: com.netskao.dumpdecrypter
-Version: 1.4-1
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 4308
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debs/com.netskao.dumpdecrypter_1.4-1_iphoneos-arm64.deb
-Size: 1287368
-MD5sum: 0e64c03cc16ec19e455de0f25c6ba24d
-SHA1: 0e444150a7a2b4c8b2bc118439fb6ac680efef65
-SHA256: b23857eac16612f19ed2ea149ec85062b3e24a4537961b9be331a62978dfdf42
-Section: Netskao-Tweaks
-Description: Decrypt iOS Apps
-Author: Netskao
-Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/DumpDecrypter/icon.png
-Name: DumpDecrypter
-Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/DumpDecrypter/Depiction
-
 Package: com.netskao.pulloverpro
 Version: 2.1.5-3
 Architecture: iphoneos-arm64
@@ -619,6 +601,40 @@ Description: 基于5.8.0制作，去除启动广告及首页顶部横幅，屏�
 Author: White <1410970825@qq.com>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/12306/icon.png
 Name: 铁路12306屏蔽越狱
+
+Package: com.white.123pan
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 1432
+Depends: mobilesubstrate
+Filename: ./debs/123pan_1.0_iphoneos-arm.deb
+Size: 338430
+MD5sum: d646f539d1b9a373f92a7e2bcd5381ff
+SHA1: 250e9acb943713e14ddcbc67b26062a7a53e6c9a
+SHA256: df9cf82b090d28de28e285b7ee32a9e16f428674cd68cd842c1fc435af0cc81e
+Section: NoAds
+Description: 屏蔽强制更新
+Author: White <1410970825@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/123pan/icon.png
+Name: 123云盘屏蔽更新
+
+Package: com.white.123pan
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 984
+Depends: mobilesubstrate
+Filename: ./debs/123pan_1.0_iphoneos-arm64.deb
+Size: 288126
+MD5sum: 5b628c6b259146c9f8cf5228925cf047
+SHA1: dda99e7972cf5570403656139a969bf30e28fb47
+SHA256: 5ea4bda7841eed614263f594557756097f1ffde1f7e215133ab2e8da9c7d4667
+Section: NoAds
+Description: 屏蔽强制更新
+Author: White <1410970825@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/123pan/icon.png
+Name: 123云盘屏蔽更新
 
 Package: com.white.14294gios9
 Version: 3.0.1
@@ -2867,11 +2883,11 @@ Architecture: iphoneos-arm
 Maintainer: Netskao
 Installed-Size: 2428
 Depends: firmware (>= 11.0), mobilesubstrate
-Filename: ./debs/dumpdecrypter_1.3-7.deb
-Size: 529236
-MD5sum: 9d560f92c20d44396ee7071e10faf40a
-SHA1: d75fdc4e77e17bf54273f4fe883bbd6958ad5755
-SHA256: 4ad48b4016837f15ec929f875b2521505a6a88845e6793241f053a7f553c52c2
+Filename: ./debs/dumpdecrypter_1.3-7_iphoneos-arm.deb
+Size: 532040
+MD5sum: 96801622943aea64999a0beb45872b52
+SHA1: f6625bc88a3cf56b1f40aa750c7b03ba4a51ad74
+SHA256: e6beedc85783e89b63a3ea1ec4af94eab99c44d1e9b480340d3709cda33ae8e8
 Section: Utilities
 Description: 基于dumpdecrypted的修改封装版
 Author: Netskao
@@ -2879,6 +2895,24 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Du
 Name: DumpDecrypter
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/DumpDecrypter/Depiction
 Sponsor: Netskao
+
+Package: com.white.dumpdecrypter
+Version: 1.4-4
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 4324
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/dumpdecrypter_1.4-4_iphoneos-arm64.deb
+Size: 1295096
+MD5sum: bb8884e6a5f0f958a3c15d8d4e0fc75d
+SHA1: cc10be183822fa15a71137e493b4f2754695b1bc
+SHA256: 160741357c45089f033338e5ca4d5f1453d3b72c6c7108d8e156574da850c5f6
+Section: Utilities
+Description: Decrypt iOS Apps and Plugins
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/DumpDecrypter/icon.png
+Name: DumpDecrypter
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/DumpDecrypter/Depiction
 
 Package: com.white.dynamicpeninsula
 Version: 0.6-80
