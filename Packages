@@ -3815,10 +3815,10 @@ Depends: mobilesubstrate, com.white.tools (>=2.3.7)
 Conflicts: ru.rj.ftt
 Replaces: ru.rj.ftt, com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
 Filename: ./debs/ftt_1.4_iphoneos-arm64.deb
-Size: 560120
-MD5sum: 07246db68c86250f4db30f328a0ba6cc
-SHA1: 36417771674d9a706d0841632783eaa198f22ce8
-SHA256: 11a7a1dd94737b7ea447dc5d81f88f65be4c8322073c0237dbd8dbe1f701449a
+Size: 560108
+MD5sum: 48fb55893eebf2c68ac50943fe2aa31b
+SHA1: 562a7fa2095a4b281c501f05382982b5b5bfebc6
+SHA256: 428f61485ac0221b416dff4672b15290984679cbf30a15b49a2bcef478342090
 Section: Development
 Homepage: https://theemeraldisle.family
 Description: 原作者：iPadkid358 - 然后由Randy420维护，使用简单的终端命令将Flex 3补丁转为Theos项目
@@ -3827,6 +3827,7 @@ Description: 原作者：iPadkid358 - 然后由Randy420维护，使用简单的�
 Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/ftt.html
 Name: Flex To Theos
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ftt/Depiction
 
 Package: com.white.ftt
 Version: 1.4
@@ -3837,10 +3838,10 @@ Depends: mobilesubstrate, com.white.tools (>=2.3.7)
 Conflicts: ru.rj.ftt
 Replaces: ru.rj.ftt, com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
 Filename: ./debs/ftt_1.4_iphoneos-arm.deb
-Size: 560092
-MD5sum: c548834d7aa61279304b61302519fb65
-SHA1: b07a8d5aa229e3e0967fe797c1363aa6906c2c1f
-SHA256: 613570664ff10457a11c071cb6749d3cb3937f3c5a81dfc38cbe4698adf8af5f
+Size: 560144
+MD5sum: 94041147204fb672891d29845d85f5a2
+SHA1: 136deacca1ceaca271acd55a6c4b03dd72b82bb2
+SHA256: 03a8e39e8e814ad9b8552b4727728531a604585fa3098c1e7f81cb5d45e3f89e
 Section: Development
 Homepage: https://theemeraldisle.family
 Description: 原作者：iPadkid358 - 然后由Randy420维护，使用简单的终端命令将Flex 3补丁转为Theos项目
@@ -3849,6 +3850,7 @@ Description: 原作者：iPadkid358 - 然后由Randy420维护，使用简单的�
 Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/ftt.html
 Name: Flex To Theos
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ftt/Depiction
 
 Package: com.white.fuckpay
 Version: 0.0.1
