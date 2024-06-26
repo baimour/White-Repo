@@ -210,6 +210,57 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ca
 Name: CarX Street Crack
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/carxstreets/Depiction
 
+Package: com.coolbooter.cbuntether
+Version: 1.0-release
+Architecture: iphoneos-arm
+Maintainer: CoolBooter <coolbooterios@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/CoolUntether_1.0-release.deb
+Size: 21360
+MD5sum: d154fc5ed9a3c61d63755642201777d5
+SHA1: dd5f6cc52c0bdade9c80d2d75aa0df5bad606714
+SHA256: 38b5fb817a17f71dd8577007bd58a7d8a44da5b97890544db3cfa612497426ee
+Section: 老iOS专用
+Description: 解除现有CoolBooter安装的Untethers状态
+ CoolBooter Untetherer是CoolBooter的扩展，允许用户自动引导到第二个iOS系统
+ 要禁用Untether功能，请在开机时按住音量减
+Author: CoolBooter <coolbooterios@gmail.com>
+Name: CoolBooter Untetherer
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cbuntether/Depiction
+
+Package: com.coolbooter.coolbooter
+Version: 1.6-release
+Architecture: iphoneos-arm
+Maintainer: CoolBooter <coolbooterios@gmail.com>
+Depends: xpwn, zip, unzip, ldid, diskdev-cmds, firmware (>= 7.0)
+Filename: ./debs/CoolBooter_1.6-release.deb
+Size: 32751540
+MD5sum: 26467bec4772ad2778a5b43fd6456bc9
+SHA1: 0aa8e96e5fa14fce81929d95290b569972f6be0f
+SHA256: daff13e58c18c2573bae4992d9d282bd40da3afefc2a8730a322e13cd5f620f0
+Section: 老iOS专用
+Description: CoolBooter是一款适用于已越狱32位iOS设备的一体式双系统引导工具
+Author: CoolBooter <coolbooterios@gmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/coolbooter/icon.png
+Name: CoolBooter
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/coolbooter/Depiction
+
+Package: com.coolbooter.coolbootercli
+Version: 1.1-beta2-release
+Architecture: iphoneos-arm
+Maintainer: CoolBooter <coolbooterios@gmail.com>
+Depends: xpwn, zip, unzip, ldid, diskdev-cmds, wget, firmware (>= 5.0)
+Filename: ./debs/CoolBooterCLI_1.1-beta2-release.deb
+Size: 23468996
+MD5sum: 9f6f7ad584b1b3a68c008640bd006de2
+SHA1: b3635f79c8fcb7085fef27f0cac8b2720cc8e32b
+SHA256: 03d981287de41683b1d8206d87254c61fed7d4b23ed3f6d0b62bcf694fa1b0d4
+Section: 老iOS专用
+Description: 适用于已越狱32位iOS设备的一体式双系统引导工具
+Author: CoolBooter <coolbooterios@gmail.com>
+Name: CoolBooter CLI
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/coolbootercli/Depiction
+
 Package: com.creaturesurvive.libcscolorpicker
 Version: 1.0.6
 Architecture: iphoneos-arm
