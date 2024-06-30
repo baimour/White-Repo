@@ -758,18 +758,19 @@ Package: com.white.123pan
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
-Installed-Size: 1432
+Installed-Size: 1448
 Depends: mobilesubstrate
 Filename: ./debs/123pan_1.0_iphoneos-arm.deb
-Size: 338430
-MD5sum: d646f539d1b9a373f92a7e2bcd5381ff
-SHA1: 250e9acb943713e14ddcbc67b26062a7a53e6c9a
-SHA256: df9cf82b090d28de28e285b7ee32a9e16f428674cd68cd842c1fc435af0cc81e
+Size: 339896
+MD5sum: dfc21014b61016cdd8320954c61d83c4
+SHA1: 1ae694ec6c8200e11b40ebd547fc91e3a874406a
+SHA256: c150f472fbec8c9307c5cd3811dac633a989b5216b35dfd00ce75696125afaea
 Section: NoAds
-Description: 屏蔽强制更新
+Description: 去除启动广告，屏蔽强制更新
 Author: White <1410970825@qq.com>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/123pan/icon.png
-Name: 123云盘屏蔽更新
+Name: 123云盘去启动广告
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/123pan/Depiction
 
 Package: com.white.123pan
 Version: 1.0
@@ -778,15 +779,16 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 984
 Depends: mobilesubstrate
 Filename: ./debs/123pan_1.0_iphoneos-arm64.deb
-Size: 288126
-MD5sum: 5b628c6b259146c9f8cf5228925cf047
-SHA1: dda99e7972cf5570403656139a969bf30e28fb47
-SHA256: 5ea4bda7841eed614263f594557756097f1ffde1f7e215133ab2e8da9c7d4667
+Size: 288894
+MD5sum: cedf0d13a9bc15af3e91bd16cd8b81ec
+SHA1: 037dfe6afa77039ce446f017fced58524ce64eca
+SHA256: 8cb38fa6f25109569eab210f3a6b75382482d2d81d7f42d2fef97d12e5d0d79f
 Section: NoAds
-Description: 屏蔽强制更新
+Description: 去除启动广告，屏蔽强制更新
 Author: White <1410970825@qq.com>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/123pan/icon.png
-Name: 123云盘屏蔽更新
+Name: 123云盘去启动广告
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/123pan/Depiction
 
 Package: com.white.14294gios9
 Version: 3.0.1
