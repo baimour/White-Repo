@@ -261,6 +261,26 @@ Author: CoolBooter <coolbooterios@gmail.com>
 Name: CoolBooter CLI
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/coolbootercli/Depiction
 
+Package: com.creaturecoding.libcspreferences
+Version: 1.5.8
+Architecture: iphoneos-arm64
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 2332
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
+Filename: ./debs/com.creaturecoding.libcspreferences_1.5.8_iphoneos-arm64.deb
+Size: 334080
+MD5sum: 73afebea2a57a12e87cc49b80892af6a
+SHA1: 24937cea6f0370166c6eeec7162b3f7ece84514b
+SHA256: 61c3397b3311923a1bb50f58f74bdee71bf8eba07f276b4d42492ea0e8bf0272
+Section: Development
+Homepage: https://creaturecoding.com/
+Description: 一个不错的依赖库！
+Tag: compatible_min::iOS9
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=libcspreferences
+Name: libCSPreferences
+Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcspreferences
+
 Package: com.creaturesurvive.libcscolorpicker
 Version: 1.0.6
 Architecture: iphoneos-arm
@@ -1220,6 +1240,25 @@ Depiction: https://repo.cypwn.xyz/depiction/1352
 Icon: https://i.postimg.cc/W3xbgsP2/1503-A9-A3-713-B-4232-A556-C1-E034-D18067.png
 Name: AI Smith Premium
 
+Package: com.white.alipayhooks
+Version: 1.1-3
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 328
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: netskao.alipayhooks-rootless
+Replaces: netskao.alipayhooks-rootless
+Filename: ./debs/alipayhooks_1.1-3_iphoneos-arm64.deb
+Size: 72604
+MD5sum: 31f6be29ceb771ba1e1c41c098af09aa
+SHA1: 06ed418433b1f5bb7c63393d1fb56c5578af904c
+SHA256: 3786d76eddc211f5635bf1f3fa59a648303b91080c7f58d2a008fe0a3017856f
+Section: NoAds
+Description: 支付宝去除底部理财选项(理财是不可能理财的, 只有收收钱勉强维持生活), 固定每天10w步
+Author: Netskao
+Name: 支付宝 Hooks
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/alipay/icon.png
+
 Package: com.white.alipaystep.rootless
 Version: 0.1-1
 Architecture: iphoneos-arm64
@@ -1954,6 +1993,31 @@ Author: julioverne
 Depiction: https://julioverne.github.io/description.html?id=com.julioverne.celldia
 Name: CellDia
 
+Package: com.white.choicy
+Version: 1.4.10-3
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 814
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist (>= 1.0.4)
+Conflicts: com.opa334.choicy
+Replaces: com.opa334.choicy
+Filename: ./debs/choicy_1.4.10-3_iphoneos-arm64.deb
+Size: 106648
+MD5sum: d5f770d9ef234a01eff9eb6c9b7d3a7e
+SHA1: f950b749abd982459ecc154e21a90dceeafdc028
+SHA256: 4321daced79cd08d012366a22c50d4235fa03f6f5ca1b3a2982dc60ee7ef9ccb
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=choicyDp
+Description: 高级插件配置
+Tag: purpose::extension
+Author: opa334 <opa334@protonmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=choicyDp
+Dev: opa334
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/choicy/icon.png
+Name: Choicy
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/choicy/Depiction
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.white.classicfolders3
 Version: 3.0.1
 Architecture: iphoneos-arm64
@@ -2166,6 +2230,25 @@ Section: Tweaks
 Description: 具有现代风格的iOS 6文件夹
 Author: CoolStar
 Depiction: https://repo.cypwn.xyz/depiction/2456
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/classicfolders3/icon.png
+Name: ClassicFolders 3
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/classicfolders3/Depiction
+
+Package: com.white.classicfolders3
+Version: 3.0.4.5
+Architecture: iphoneos-arm64
+Maintainer: CoolStar & Lizynz
+Installed-Size: 4348
+Depends: mobilesubstrate
+Conflicts: org.coolstar.classicfolders2, org.coolstar.classicfolders3, com.hk.classicfolders3.cn.rl, com.hk.classicfolders3.cn, com.ikilledappl3.autofolderclose-rootless
+Filename: ./debs/classicfolders3_3.0.4.5_iphoneos-arm64.deb
+Size: 3282020
+MD5sum: 2a04cc794102daeab17308c4effcbaf4
+SHA1: a82f58de615d62d22df793aefb2f5bf0bc9b134f
+SHA256: 99bbb6b1d0451245839444c69ef3dc8680db3838990ab8adb85bbfa02d891e5e
+Section: Tweaks
+Description: 具有现代风格的iOS 6文件夹
+Author: CoolStar & Lizynz
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/classicfolders3/icon.png
 Name: ClassicFolders 3
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/classicfolders3/Depiction
@@ -3992,6 +4075,26 @@ Depiction: https://repo.cypwn.xyz/depiction/2410
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/genieaichatbot.png
 Name: Genie AI Chatbot Pro
 
+Package: com.white.gesturesxv
+Version: 1.6
+Architecture: iphoneos-arm64
+Maintainer: Ethan Whited
+Installed-Size: 2756
+Depends: mobilesubstrate
+Conflicts: com.nahtedetihw.gesturesxv
+Replaces: com.nahtedetihw.gesturesxv
+Filename: ./debs/gesturesxv_1.6_iphoneos-arm64.deb
+Size: 2161100
+MD5sum: 71d251569707f72e528c65b5cc0e047b
+SHA1: 970aa84b0b70cd181462de902baa012db0f41bcb
+SHA256: 9172f769afe4bc7f77e884d1d693ccb7820cfad796eb3b42bc65a4721ce1de5c
+Section: Tweaks
+Description: 在兼容iOS15的旧款iPhone上启用全面屏手势
+Author: Ethan Whited
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/gesturesxv/icon.png
+Name: GesturesXV
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/gesturesxv/Depiction
+
 Package: com.white.gpsmaster
 Version: 1.8.1
 Architecture: iphoneos-arm
@@ -4973,6 +5076,27 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/mi
 Name: MilkyWay3
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/924
 
+Package: com.white.milkyway4
+Version: 0.1.1
+Architecture: iphoneos-arm64
+Maintainer: @akusio_RR
+Installed-Size: 3464
+Depends: mobilesubstrate, com.opa334.altlist, preferenceloader
+Conflicts: jp.akusio.milkyway4
+Replaces: jp.akusio.milkyway4
+Filename: ./debs/milkyway4_0.1.1_iphoneos-arm64.deb
+Size: 1300036
+MD5sum: f90b6b150cd6541af8512eea050be4d6
+SHA1: db4b1c499671d4c335fb2c6cf5454d3a105b3da3
+SHA256: a8f70fb65cc6b7cb2d155f135f6effb8a4022a39f273df240dfc4fd84426f17c
+Section: Tweaks
+Description: iOS15+多任务分屏
+Author: @akusio_RR
+Depiction: https://akusio.github.io/descriptions/milkyway4/index.html
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/milkyway/icon.png
+Name: MilkyWay4
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/milkyway/Depiction
+
 Package: com.white.mimeticdark
 Version: 1.0.2
 Architecture: iphoneos-arm
@@ -5496,6 +5620,24 @@ Section: NoAds
 Description: 去除启动广告，去除搜索横幅广告，去除首页、播放页面广告，屏蔽音乐宠物、Music Zone入口，精简个人页面，解锁臻品音质2.0
 Author: iOSign
 Name: QQ音乐
+
+Package: com.white.realcc
+Version: 0.0.4
+Architecture: iphoneos-arm64
+Maintainer: Jake James
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.jakeashacks.realcc
+Replaces: com.jakeashacks.realcc
+Filename: ./debs/realcc_0.0.4_iphoneos-arm64.deb
+Size: 3928
+MD5sum: 9196417b380bb43ce5a04341ae6d21d9
+SHA1: 204017238307936d260a8494f6bcdafb2922505d
+SHA256: 9de39e1ce511bb97d5331812d46c1a21f083df19cf664d1ed01c3bf6ab5ab18e
+Section: Tweaks
+Description: 在iOS 11+系统从CC真实关闭WiFi和蓝牙
+Author: Jake James
+Name: RealCC
 
 Package: com.white.rebootmodule
 Version: 1.1.0
@@ -6069,11 +6211,30 @@ Architecture: iphoneos-arm
 Maintainer: White
 Depends: org.coolstar.sileo
 Replaces: org.coolstar.sileo
-Filename: ./debs/sileo-zh_1.0.deb
+Filename: ./debs/sileo-zh_1.0_iphoneos-arm.deb
 Size: 7696
 MD5sum: 6df61f9be311ba196bdcaa4288e1d383
 SHA1: 35065c7108b562460fb5ea929b9e321b1953b8e6
 SHA256: f4c9fedd443d81457d36401d15f15ac04db52c029164cd7b920b05b12f32eb56
+Section: Tweaks
+Description: 为Sileo完善部分汉化
+Author: White
+Depiction: N/A
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sileo-zh/icon.png
+Name: zh-Hans For Sileo
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sileo-zh/Depiction
+
+Package: com.white.sileo-zh
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: White
+Depends: org.coolstar.sileo
+Replaces: org.coolstar.sileo
+Filename: ./debs/sileo-zh_1.0_iphoneos-arm64.deb
+Size: 7732
+MD5sum: 5686dd8a122d631370a279e39a27f933
+SHA1: ddc82e6d3e482add0fa42095b59952008a12fe6a
+SHA256: c68590d86759c1e053e30df172f28aece2289c9bd09384d16c30be3dea933d54
 Section: Tweaks
 Description: 为Sileo完善部分汉化
 Author: White
@@ -6737,10 +6898,10 @@ Depends: com.white.ftt, firmware (<= 15.0) | cy+cpu.arm64v8 | oldabi-xina | olda
 Conflicts: com.randy420.tools
 Replaces: com.randy420.tools, com.randy420.encrypt
 Filename: ./debs/RandyTools_2.3.9_iphoneos-arm64.deb
-Size: 549964
-MD5sum: 5e2315f66017ed85001cf03fd74852e7
-SHA1: 7756fdf385ce914a52ed23b8cbe614020e49a454
-SHA256: b1370f044d7fa5e5059e4308ee5437eb5d9c68c32d36b410f64d86fdaf41cd49
+Size: 550432
+MD5sum: 35ca7fc66ca02a12dd70728a4491ff3a
+SHA1: 2cf9a9b93d12e4783c4d04e19226b44c2482110b
+SHA256: afe3a1a57651b52ec769a392bdec510ec59b082bcac50a5e603ae2a56eab7465
 Section: Development
 Homepage: https://theemeraldisle.family
 Description: 420Tools插件整合了Randy420所有插件的配置以及插件的共享文件
@@ -7334,6 +7495,25 @@ Author: Dcsyhi <dcsyhi1998@gmail.com>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/zetsu/icon.png
 Name: Zetsu
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/zetsu/Depiction
+
+Package: com.white.zfbb
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 204
+Depends: mobilesubstrate
+Conflicts: cn.llld.zfbb
+Replaces: cn.llld.zfbb
+Filename: ./debs/zfbb_1.2_iphoneos-arm64.deb
+Size: 18280
+MD5sum: 0b8601a15ee1a436b35acbe20273e3eb
+SHA1: f3a407337b0d0f5412e29e6b8e412b220259efe6
+SHA256: f16590e5a055aca050942451735167ecd71870902bc5b9cc836ba95030d506ea
+Section: NoAds
+Description: 支付宝自定义步数，屏蔽越狱检测(代码半年没动了)，精简主页显示内容。长按底栏1秒控件或森林、运动顶栏或任意右上角控件顶部，弹出设置。支持任意版本，0303:增加移除理财，自行设置里关了视频，底部就居中了
+Author: 来了老弟
+Name: 支付宝步数XD
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/alipay/icon.png
 
 Package: cydia.installer
 Version: 1.1.36-3
