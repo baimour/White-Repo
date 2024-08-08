@@ -724,6 +724,22 @@ Tag: role::developer
 Author: Spark
 Name: libSparkAppList
 
+Package: com.spark.libsparkapplist
+Version: 1.1.0~rootless
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 408
+Filename: ./debs/com.spark.libsparkapplist_1.1.0~rootless_iphoneos-arm64.deb
+Size: 24952
+MD5sum: 8dfe0b1dc80b363e3889fad667f894f9
+SHA1: a48af62f00d039b4db12380632b5c6c8b813873e
+SHA256: bf73a4334bca1d37fa38d086e3ac521b07d7baeb96e84745093b3736c0a50e39
+Section: Development
+Description: AppList alternative
+Tag: role::developer
+Author: Spark
+Name: libSparkAppList
+
 Package: com.spark.libsparkcolourpicker
 Version: 1.0.2
 Architecture: iphoneos-arm
@@ -1193,13 +1209,31 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 440
 Depends: mobilesubstrate, com.spark.libsparkapplist, preferenceloader
 Filename: ./debs/adspeed_1.1.1_iphoneos-arm.deb
-Size: 74496
-MD5sum: f0f3942f2a9b7ce8005aefd90f1d4e46
-SHA1: a9e02eb6a0eeae0810585fe0f7fe7e086516d30c
-SHA256: 2b60c392ac24a453b70933b4149a3684a865aa5a09cd7a0ddf0ab7f6654a7914
+Size: 66896
+MD5sum: 9c530a118ea71810d6f51b2cacb97684
+SHA1: 3c2b2d8bc4bb077e3e7f83a476a044fcaf4991fe
+SHA256: 12c18ff23fff8804197edf81eb486e4fcf54bd88a166b93ec5bda207cbca0c09
 Section: Tweaks
 Description: 快速跳过视频广告，奖励可正常领取
 Author: White <1410970825@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/adspeed/icon.png
+Name: VideoAdsSpeed【快速跳过广告】
+
+Package: com.white.adspeed
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 600
+Depends: mobilesubstrate, com.spark.libsparkapplist, preferenceloader
+Filename: ./debs/adspeed_1.1.1_iphoneos-arm64.deb
+Size: 104400
+MD5sum: 4f32cbcd0dfff879cbdc1a5cd118afa2
+SHA1: 57d81289b99650f827885381b79a91308e53a4f8
+SHA256: 82fcd5bd2e1524710fcda2ab7ea73c947bfb17b1db3c612d47dd4fcb37251997
+Section: Tweaks
+Description: 快速跳过视频广告，奖励可正常领取
+Author: White <1410970825@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/adspeed/icon.png
 Name: VideoAdsSpeed【快速跳过广告】
 
 Package: com.white.afakerx
@@ -3553,6 +3587,42 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/fa
 Name: FakeLocationX
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/fakelocationx/Depiction
 Sponsor: xia0 & Lakr
+
+Package: com.white.fakemodel
+Version: 1.1-9
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: netskao.fakemodel
+Replaces: netskao.fakemodel
+Filename: ./debs/fakemodel_1.1-9_iphoneos-arm64.deb
+Size: 164560
+MD5sum: 0ae74f2a9d39360939f6f904b0b7ea34
+SHA1: 68cf7d2a4ca0a2719d27c0913e90f7a025ee6fc3
+SHA256: 5d266114ef384798efcec3a6666513e4ea4b8e6c7503e9c5dda685f0c855f966
+Section: Tweaks
+Description: 修改为虚假设备型号欺骗应用程序
+Author: Netskao
+Name: FakeModel
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/fakemodel/icon.png
+
+Package: com.white.fakemodel
+Version: 1.2-1
+Architecture: iphoneos-arm
+Maintainer: Nets
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
+Conflicts: netskao.fakemodel
+Replaces: netskao.fakemodel
+Filename: ./debs/fakemodel_1.2-1_iphoneos-arm.deb
+Size: 170768
+MD5sum: 8353781cfd29c81e6ccf04a724ee58dd
+SHA1: e50a9c6106c8589977d74966b3e182c436293362
+SHA256: ce99c5bd9db74629e6e243bcd0d2fec68df5fc4f9c476693d9a70b65951164a3
+Section: Tweaks
+Description: 修改为虚假设备型号欺骗应用程序
+Author: Netskao
+Name: FakeModel
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/fakemodel/icon.png
 
 Package: com.white.fgotw60fps
 Version: 0.1.4~b1
@@ -8390,23 +8460,6 @@ Section: Utilities
 Description: 提供二进制文件动态解密列表，方便逆向工程应用
 Author: White <1410970825@qq.com>
 Name: DumpBinaryFiles
-
-Package: netskao.fakemodel
-Version: 1.2-1
-Architecture: iphoneos-arm
-Maintainer: Nets
-Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
-Filename: ./debs/fakemodel_1.2-1.deb
-Size: 185600
-MD5sum: a8ce35576370a16ba55ac17355d35281
-SHA1: 2b3b890a4d9542ba4ae43a14cc92725a1c2d20ca
-SHA256: 96dcfdbf9d5d194b7cd7327776c886426a7496ce9af013d74be4a5c8c3aec83d
-Section: Tweaks
-Description: 修改为虚假设备型号欺骗应用程序
-Author: Netskao
-Depiction: https://repo.cypwn.xyz/depiction/1774
-Name: FakeModel
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1774
 
 Package: netskao.filzacrack
 Version: 1.1-8
