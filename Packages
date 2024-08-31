@@ -5285,6 +5285,56 @@ Name: NewTerm 2
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/newterm/Depiction
 Support: https://hashbang.productions/support/
 
+Package: com.white.newterm3
+Version: 3.0~beta1
+Architecture: iphoneos-arm64
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 7012
+Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
+Recommends: gettext-localizations, iterm2-shell-integration, zsh-autosuggestions, zsh-syntax-highlighting
+Conflicts: ws.hbang.newterm, ws.hbang.newterm2, ws.hbang.newterm3
+Replaces: ws.hbang.newterm, ws.hbang.newterm2, ws.hbang.newterm3
+Filename: ./debs/newterm3_3.0~beta1_iphoneos-arm64.deb
+Size: 23543744
+MD5sum: 651a37cc4bbb8442b993e8edf43e06ae
+SHA1: b08372e4c3dd6d633702ee6302ead149d245df08
+SHA256: eb3e73f2d54d271779bae792c9acdfa320f60686ce275db995b457fddf10bcbd
+Section: Terminal Support
+Description: 功能强大的iOS终端程序
+Tag: compatible_min::ios14.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/newterm-beta
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/newterm/icon2.png
+Icon2: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
+Name: NewTerm 3 Beta
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/newterm/Depiction2
+Support: https://hashbang.productions/support/
+
+Package: com.white.newterm3
+Version: 3.0~beta1
+Architecture: iphoneos-arm
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 7012
+Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
+Recommends: gettext-localizations, iterm2-shell-integration, zsh-autosuggestions, zsh-syntax-highlighting
+Conflicts: ws.hbang.newterm, ws.hbang.newterm2, ws.hbang.newterm3
+Replaces: ws.hbang.newterm, ws.hbang.newterm2, ws.hbang.newterm3
+Filename: ./debs/newterm3_3.0~beta1_iphoneos-arm.deb
+Size: 23543464
+MD5sum: 729cb5cfa40c119b34a277318af5368d
+SHA1: 08131a45e838942f1494dbb53b6f39ee0ce7424b
+SHA256: aa5f5ab18a4870b84dc425676c21c2d6acd573434d9b75f78f989c9bc4550388
+Section: Terminal Support
+Description: 功能强大的iOS终端程序
+Tag: compatible_min::ios14.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/newterm-beta
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/newterm/icon2.png
+Icon2: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
+Name: NewTerm 3 Beta
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/newterm/Depiction2
+Support: https://hashbang.productions/support/
+
 Package: com.white.nobetaalert
 Version: 1.4.3
 Architecture: iphoneos-arm
@@ -6694,37 +6744,58 @@ Conflicts: com.randy420.taidependsother, org.theos.dependencies
 Replaces: com.randy420.taidependsother, org.theos.dependencies, theos-dependencies
 Filename: ./debs/dependsCool_0.4_iphoneos-arm.deb
 Size: 968
-MD5sum: aecf1c068b7b401a3a5011c8cdd02f2e
-SHA1: b1dd3932f9475f2789cc11e267208fa7d3407c4b
-SHA256: 6cf2263e6586a5384bf25f4dca55bfd66da3c953487634b83ddfafd7d623c7e3
+MD5sum: 1d7ea7e10d8ead7715b17688020fe3e2
+SHA1: 8b9ba08d1c8a218d9fc37dbd56ac1037043e90cd
+SHA256: 0fea0d432bd991671bcc3e640a1be2bb5a287981e7057bf5b2c20c5acd1dcdc8
 Section: Development
 Homepage: https://theemeraldisle.family
-Description: Coolstar越狱环境所需依赖项
+Description: 基于Procursus越狱依赖项 (称为Coolstar越狱)
 Tag: role::hacker
 Author: Randy420 <randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/taidependscoolstar.html
-Name: Theos Auto Installer Dependencies for Procursus based jailbreaks
+Name: Dependencies for Procursus
+
+Package: com.white.taidependscoolstar
+Version: 0.6
+Architecture: iphoneos-arm
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 0
+Depends: theos-dependencies, swift, curl, git
+Conflicts: com.randy420.taidependsother, com.randy420.taidependslegacy
+Replaces: com.randy420.taidependsother, com.randy420.taidependslegacy
+Filename: ./debs/dependsCool_0.6_iphoneos-arm.deb
+Size: 932
+MD5sum: 56f07fb66546a4750d147938d45ca216
+SHA1: cffdc8b511f73d48326156f1c58045a6693ad85b
+SHA256: 80273dc7418e0c7ee5138676c80316bebcb19e7c0fb4140de77746b04a1dee6a
+Section: Development
+Homepage: https://theemeraldisle.family
+Description: 基于Procursus越狱依赖项 (称为Coolstar越狱)
+Tag: role::hacker
+Author: Randy420 <randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/taidependscoolstar.html
+Name: Dependencies for Procursus
 
 Package: com.white.taidependscoolstar
 Version: 0.6
 Architecture: iphoneos-arm64
 Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 0
-Depends: theos-dependencies, swift
-Conflicts: com.randy420.taidependscoolstar, com.randy420.taidependsother, com.randy420.taidependslegacy
-Replaces: com.randy420.taidependscoolstar, com.randy420.taidependsother, com.randy420.taidependslegacy
+Depends: theos-dependencies, swift, curl, git
+Conflicts: com.randy420.taidependsother, com.randy420.taidependslegacy
+Replaces: com.randy420.taidependsother, com.randy420.taidependslegacy
 Filename: ./debs/dependsCool_0.6_iphoneos-arm64.deb
-Size: 956
-MD5sum: d3bf349a9a6179de66baa978acaa7ea5
-SHA1: bb7e370da55f884e591108c42c4ee14d13862977
-SHA256: b870d73137d80e9c9630fcdb9c0b7c913ac7f2feb72e6a65834f5cabd3894a14
+Size: 936
+MD5sum: e702ee71179071a1314ba1455667da0f
+SHA1: d01670436b4bb28602314969dae6fd9e65a8e241
+SHA256: ce51a1566e3488c3de20bc7a141b262eb3990e10dd076025c53c27f407e19588
 Section: Development
 Homepage: https://theemeraldisle.family
-Description: 基于Procursus的越狱的Theos依赖 (称为CoolStar越狱)
+Description: 基于Procursus越狱依赖项 (称为Coolstar越狱)
 Tag: role::hacker
 Author: Randy420 <randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/taidependscoolstar.html
-Name: Theos Auto Installer Dependencies for Procursus based jailbreaks
+Name: Dependencies for Procursus
 
 Package: com.white.taobao
 Version: 1.0-1
