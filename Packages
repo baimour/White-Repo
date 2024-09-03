@@ -930,6 +930,25 @@ Recommended: com.rpetrich.rocketbootstrap
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Flex/Depiction
 
 Package: com.white.Flex3beta
+Version: 3.1
+Architecture: iphoneos-arm64
+Maintainer: John Coates
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package, com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package, com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Filename: ./debs/Flex3beta_3.1_iphoneos-arm64.deb
+Size: 16822636
+MD5sum: 00e1ec7786a0e1f74e47a2dcb0f169d4
+SHA1: 5360319560e6e39f47a74c160fd7c2c072de91e9
+SHA256: b1c79fc246bd4f47dee9f250e474268fedbf736f55f6941fa02392b929ee7a65
+Section: Utilities
+Description: 开发您自己的补丁并在Flex社区Cloud上分享
+Author: John Coates
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Flex/icon.png
+Name: Flex 3 Beta可解析版
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Flex/Depiction
+
+Package: com.white.Flex3beta
 Version: 3~Beta50
 Architecture: iphoneos-arm
 Maintainer: John Coates
@@ -1199,11 +1218,29 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.white.aismithpremium
 Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Installed-Size: 280
+Depends: mobilesubstrate
+Filename: ./debs/aismithpremium_1.0.0_iphoneos-arm64.deb
+Size: 17832
+MD5sum: 2bad5b466b18704a4d1e519334132035
+SHA1: c88750bcc5aa9c20ce26ea0553696a00ace1642e
+SHA256: d8c2118ed7025bbdff96d6a0f16361510991a929ad8c185a1a82f795470efbc2
+Section: Cracks
+Description: 激活年度会员权限
+Author: Ravand <Ravand0010@gmail.com>
+Depiction: https://repo.cypwn.xyz/depiction/1352
+Icon: https://i.postimg.cc/W3xbgsP2/1503-A9-A3-713-B-4232-A556-C1-E034-D18067.png
+Name: AI Smith Premium
+
+Package: com.white.aismithpremium
+Version: 1.0.0
 Architecture: iphoneos-arm
 Maintainer: CyPwn
 Installed-Size: 280
 Depends: mobilesubstrate
-Filename: ./debs/aismithpremium_1.0.0.deb
+Filename: ./debs/aismithpremium_1.0.0_iphoneos-arm.deb
 Size: 18440
 MD5sum: 56f9c6b6bbec96760e776ee0588935f3
 SHA1: f783e83709d984767837cf2297d3efa8a4c1828e
@@ -1308,6 +1345,24 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/an
 Name: AnimationsBeFastPlus
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/animationsbefastplus/Depiction
 Sponsor: White <1410970825@qq.com>
+
+Package: com.white.appstoreplus
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: CokePokes
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/appstoreplus_1.0.3_iphoneos-arm64.deb
+Size: 10969936
+MD5sum: 4ac66c9442890900eed9f9785eb2f2fc
+SHA1: 70c2155c306b7aaa38da502a9c33c0fcafa34f12
+SHA256: 8ac2b90dbfe360d8a3f66ce200ff469159ab6a3658cb05a1dbdb3a7acdce1a3b
+Section: Utilities
+Description: 允许您降级/升级应用程序
+Author: CokePokes
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/appstoreplus/icon.png
+Name: AppStore++
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/appstoreplus/Depiction
+Sponsor: CokePokes
 
 Package: com.white.appstoreplusplus
 Version: 0.10.1-5
