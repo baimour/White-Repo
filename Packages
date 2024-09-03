@@ -36,75 +36,6 @@ Homepage: https://www.llvm.org/
 Description: C、C++ 和  Objective-C 编译器
 Name: LLVM Clang (clang-10)
 
-Package: cn.llld.copy1
-Version: 1.4.4
-Architecture: iphoneos-arm64
-Maintainer: 来了老弟
-Installed-Size: 172
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/cn.llld.copy1_1.4.4_iphoneos-arm64.deb
-Size: 9184
-MD5sum: b0e49b1aded53a97029b800873e5e003
-SHA1: 3fc0f4d10759abfffbd255d16a64dee025f8b580
-SHA256: e9c26893c3ac3b3ef0da95f51b055919e5ee4f71a19a1c50c88f6030b91f834a
-Section: Tweaks
-Description: 使用方法：短按复制文本内容，该插件属于测试版，后续的更新支持更多。此版本不支持Roothide，0507:自行用Choicy手动禁用对于抖音的注入，如果还有窗口点击的应用问题也禁用
-Author: 来了老弟 h_h_x_t
-Name: Copy-Text
-Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/copy/Depiction
-
-Package: cn.llld.copy1
-Version: 1.4.4
-Architecture: iphoneos-arm
-Maintainer: 来了老弟
-Installed-Size: 172
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/cn.llld.copy1_1.4.4_iphoneos-arm.deb
-Size: 8932
-MD5sum: 07e1e3207b66fa446fe266aab7066eac
-SHA1: b2d81cdd2725ef4ba9d7b022ecf34122c46d94a4
-SHA256: 1e224f4a0e99a172e33d26fd4f2214c16ebc476c1229eba4ecd21268afec2ea3
-Section: Tweaks
-Description: 使用方法：短按复制文本内容，该插件属于测试版。后续更新会支持更多，支持应用就不一一列举了，设置、电话、短信、App Store、QQ、贴吧、巨魔等
-Author: 来了老弟
-Name: Copy-Text
-
-Package: cn.llld.qsyy
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: 来了老弟
-Installed-Size: 304
-Depends: mobilesubstrate
-Filename: ./debs/cn.llld.qsyy_1.0_iphoneos-arm.deb
-Size: 37164
-MD5sum: 31e2f8a598d1c620992e8159049acf41
-SHA1: fcb3eb9c217895b3682f8c217b18cd54a87615cb
-SHA256: f8a354a2e794f9069ef21136f9593e1845cca8f8c6ab241b30d7ccf629333b1c
-Section: Tweaks
-Description: 一款支持批量替换文本的悬浮窗工具，使用说明：悬浮窗内填写：文本替换前===文本替换后，===是替换符。使用场景：修改通话时间，修改联系人，修改通话记录，翻译替换文本，隐藏设备实际信息，靓仔装逼等。之前代码是垃圾，一切以最新版为准，提示：装了非真皮120或全局篡改插件的设备，不要装此插件，这只是应用类插件，不会影响到系统全局或桌面
-Author: 来了老弟
-Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qsyy/icon.png
-Name: 悬浮翻译汉化工具
-Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qsyy/Depiction
-
-Package: cn.llld.qsyy
-Version: 1.2
-Architecture: iphoneos-arm64
-Maintainer: 来了老弟
-Installed-Size: 540
-Depends: mobilesubstrate
-Filename: ./debs/cn.llld.qsyy_1.2_iphoneos-arm64.deb
-Size: 94016
-MD5sum: 30e7fb5531799777542f5a07497c68ac
-SHA1: 0e3e880900fd1518d14b7e59ea4fb098bd95dc71
-SHA256: a28efeb271be854ee4b9afc397e9407324c50e4203887f13483577a22eb061b0
-Section: Tweaks
-Description: 一款支持批量替换文本的悬浮窗工具，使用说明：悬浮窗内填写：文本替换前===文本替换后，===是替换符。使用场景：修改通话时间，修改联系人，修改通话记录，翻译替换文本，隐藏设备实际信息，靓仔装逼等。之前代码是垃圾，一切以最新版为准，提示：装了非真皮120或全局篡改插件的设备，不要装此插件，这只是应用类插件，不会影响到系统全局或桌面
-Author: 来了老弟
-Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qsyy/icon.png
-Name: 悬浮翻译汉化工具
-Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qsyy/Depiction
-
 Package: com.3dmenu.cheatpatch
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -756,23 +687,6 @@ Tag: role::developer
 Author: Spark
 Name: libsparkcolourpicker
 
-Package: com.sunshinesong.split-view-pro-helper
-Version: 999.1
-Architecture: iphoneos-arm64
-Maintainer: sunshinesong
-Installed-Size: 13792
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
-Filename: ./debs/split-view-pro-helper_999.1_iphoneos-arm64.deb
-Size: 1372
-MD5sum: 09b0b51fca2b599f10681892c172d6a3
-SHA1: c3df244ce0817d58c6e70b2b1fbc328af4d26141
-SHA256: 027f12e71867f3ad347dcfc56850b396740b8e706a142461f93046051c602cf0
-Section: Tweaks
-Description: 分屏，不必太复杂，一切从简即可
-Author: sunshinesong
-Name: split-view-pro helper
-Ts: sp-sss
-
 Package: com.white.12306
 Version: 1.0-2
 Architecture: iphoneos-arm
@@ -983,11 +897,11 @@ Maintainer: John Coates
 Depends: mobilesubstrate, firmware (>= 15.0) | org.swift.libswift (>=5.0)
 Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package, com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
 Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package, com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
-Filename: ./debs/Flex3beta_1.3~Beta92_iphoneos-arm64.deb
-Size: 9640560
-MD5sum: cc95f4c41a6e15f4231ca8d6578158bd
-SHA1: 402808a38cc6198d362e81fa63093b0b3ecd2d17
-SHA256: 5a079f3d48ef30960ce2384da08f6614f4d6573078fabee4e71b618a0a1d6d1c
+Filename: ./debs/Flex3beta_1.3~Beta90_iphoneos-arm64.deb
+Size: 9658464
+MD5sum: 50dbe0f6922dcefecb7aed0318a1c1c1
+SHA1: 2abee37ad34b8559be560936ebc8ff64555fb886
+SHA256: 0eb9f89a59094b4c1bd659713b6c2677e5345966628246dd93f2bc8ff6f4ac5f
 Section: Utilities
 Description: 开发您自己的补丁并在Flex社区Cloud上分享
 Author: John Coates
@@ -1002,11 +916,11 @@ Maintainer: John Coates
 Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmware (>= 9.0)
 Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
 Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
-Filename: ./debs/Flex3beta_1.3~Beta98.deb
-Size: 9927196
-MD5sum: fd30faf79cefd99ead85c3db758eb390
-SHA1: 22e3e92ded7211fd54b18cd88853ba38de9e8cee
-SHA256: f89dcd86e34291b3bd6b09628ba1500fea8d15d390d614c0d6006f4256f4848f
+Filename: ./debs/Flex3beta_1.3~Beta98_iphoneos-arm.deb
+Size: 9974172
+MD5sum: 5bb683d7a3663208bc5d76ea734d4b8c
+SHA1: 229e798d3cdbe6df194b79d590ef1117065556fb
+SHA256: 0cef406bd5e0b603ea5351c19a9b2890ac316712732e8e6cb72b7016962b4ddc
 Section: Utilities
 Description: 开发您自己的补丁并在Flex社区Cloud上分享
 Author: John Coates
@@ -1022,11 +936,11 @@ Maintainer: John Coates
 Depends: mobilesubstrate, firmware (>= 9.0), com.rpetrich.rocketbootstrap
 Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
 Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
-Filename: ./debs/Flex3beta_3~Beta50.deb
-Size: 15269064
-MD5sum: a0d2475fedfc135310266a1dd597043e
-SHA1: 732cab9c01ec2279356ee64229d4674ab55b37a1
-SHA256: 79e739505a554f45e6e3a8750d8f992ed86216ad502c87a0573f41904e9ac75a
+Filename: ./debs/Flex3beta_3~Beta50_iphoneos-arm.deb
+Size: 15365396
+MD5sum: a6755558594ab09b220819ff00cb18a9
+SHA1: d9ddc93b4abdf8f5b5682d38e4081e4b8b67afdc
+SHA256: 48b99d293afe754485b7326095b4006973437149914174f54f296c61064f4d5e
 Section: Utilities
 Description: 开发您自己的补丁并在Flex社区Cloud上分享
 Author: John Coates
@@ -1042,11 +956,11 @@ Installed-Size: 57210
 Depends: mobilesubstrate, firmware (>= 9.0), com.rpetrich.rocketbootstrap
 Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, Flex3, Flex3beta, flex3featurecatalog
 Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, Flex3, Flex3beta, flex3featurecatalog
-Filename: ./debs/Flex3beta_3~EarlyAccess4.deb
-Size: 15034656
-MD5sum: 1f877a38258c836f03e830f089ebdf32
-SHA1: 079816e2a916230e25c876172c9dbbee262738db
-SHA256: 55c954b77488719aeb2f7f70311b2d328b0a638dd51d606f3c9096f7383d62ad
+Filename: ./debs/Flex3beta_3~EarlyAccess4_iphoneos-arm.deb
+Size: 15171272
+MD5sum: 8b6997235dee6689dbaf6d6c01e8acca
+SHA1: 040b5af1142bec252a882b74cf3cd18e8a98bec6
+SHA256: c003f6873a450b3e635d8ceddc7f1f4c498f5c4368bd8294a3d4b40afad3b9ff
 Section: Utilities
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=flex3Dp
 Description: 开发您自己的补丁并在Flex社区Cloud上分享
@@ -1257,6 +1171,31 @@ Depiction: https://mrepo.org/depiction/4987
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/afakerx/icon.png
 Name: AFakerX
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/afakerx/Depiction
+
+Package: com.white.afc2d-arm64
+Version: 1.2.0
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 342
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64, mobilesubstrate, firmware (>= 11.0)
+Conflicts: com.cannathea.afc2d-arm64, com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Replaces: com.cannathea.afc2d-arm64, com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Filename: ./debs/afc2d-arm64_1.2.0_iphoneos-arm64.deb
+Size: 9936
+MD5sum: 992e3ec69ec2d2c4c616304af990edbc
+SHA1: 5d5f1af4f54e295bbc71390d99cd2e1444347363
+SHA256: 8a89e6737d324f3fc8c5ff660f7e6e4d1b2aca4b4cde710d788aa6a516fc5d12
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpplessDp
+Description: 允许所有arm64设备通过USB访问完整的系统文件，对iOS 11及更高版本的设备特别有用。不要忘了安装ldid (除了XinaA15越狱)
+Tag: purpose::daemon
+Author: saurik, Cannathea <csupport@cannathea.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpplessDp
+Dev: cannathea
+Name: Apple File Conduit "2" (iOS 11+, arm64)
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.white.aismithpremium
 Version: 1.0.0
@@ -1523,6 +1462,23 @@ Depiction: https://mrepo.org/depiction/1415
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/milkyway/icon2.png
 Name: BackgrounderAction2 for CCSupport
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/milkyway/Depiction
+
+Package: com.white.backgrounderaction15
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Maintainer: @akusio_RR
+Installed-Size: 340
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/backgrounderaction15_0.1.0_iphoneos-arm64.deb
+Size: 10172
+MD5sum: 9978891239050954835ff7930b48cb21
+SHA1: f5ef37ebe04bf1832973760ec085e5dd113266b8
+SHA256: d41ffc811951336751f31c40503e20ce2c5fd45a2199c5fb42c4cd9c1d6a175f
+Section: Tweaks
+Description: iOS15+真后台模块，控制中心里添加后进入你想要的APP，下滑控制中心点击真后台按钮即可！
+Author: @akusio_RR
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: CCSupport真后台模块
 
 Package: com.white.bankabc
 Version: 1.0
@@ -2465,6 +2421,39 @@ Author: 4nni3 <4nni3.14@gmail.com>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/coolcc/icon.png
 Name: CoolCC
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/coolcc/Depiction
+
+Package: com.white.copy1
+Version: 1.4.4
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/copy1_1.4.4_iphoneos-arm64.deb
+Size: 9208
+MD5sum: b2aac400b45fd5a67af693cc8d5360cf
+SHA1: c6a607c4457b866f91cc6c14ecdc1f6914c91558
+SHA256: 3c9f05635fb0ed64a7cf5756952b2467d22ed7fd6e43029afdfd8cc3027b3743
+Section: Tweaks
+Description: 使用方法：短按复制文本内容，该插件属于测试版，后续的更新支持更多。此版本不支持Roothide，0507:自行用Choicy手动禁用对于抖音的注入，如果还有窗口点击的应用问题也禁用
+Author: 来了老弟
+Name: Copy-Text
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/copy/Depiction
+
+Package: com.white.copy1
+Version: 1.4.4
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/copy1_1.4.4_iphoneos-arm.deb
+Size: 8936
+MD5sum: 8d19882379498af8a357d11e1aafe49b
+SHA1: c140934ff68d59d90f7b55f92e42cbdb9ffeb941
+SHA256: ae83a103a4d5aee988a03aafd64f561de5ef082380e5fd6e919681f4616d9ee3
+Section: Tweaks
+Description: 使用方法：短按复制文本内容，该插件属于测试版。后续更新会支持更多，支持应用就不一一列举了，设置、电话、短信、App Store、QQ、贴吧、巨魔等
+Author: 来了老弟
+Name: Copy-Text
 
 Package: com.white.cr4shed
 Version: 4.3.1
@@ -3496,6 +3485,25 @@ Name: Remover 越狱环境清理
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/remover/Depiction
 Sponsor: pwn20wnd/coolstarorg
 
+Package: com.white.ersatz
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: Skitty
+Installed-Size: 504
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/ersatz_1.0.1_iphoneos-arm64.deb
+Size: 49160
+MD5sum: 28fb15dce4f7da209eed2b855ecbc75c
+SHA1: 4a6fd135180aca70d7bf572ff0ebc27e34b5eb07
+SHA256: e4e5eb308e06c1372f8709eaac64a812065c94a2f9f70ed7e28f837d1e0ebd7c
+Section: Tweaks
+Description: 全局替换任意位置的文字，可用来汉化插件，也可以改自己想要显示的文字！
+Author: Skitty
+Depiction: https://skitty.xyz/repo/depictions/xyz.skitty.ersatz/
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.ersatz.png
+Name: Ersatz
+Sileodepiction: https://skitty.xyz/repo/depictions/xyz.skitty.ersatz/sileo.json
+
 Package: com.white.exacttime
 Version: 2.0.1
 Architecture: iphoneos-arm
@@ -3831,6 +3839,22 @@ Description: 修复有锁6/6P使用联通遇到的问题 •	4G卡在8.3以前
 Author: haoerloveyou <haoerloveyou@gmail.com>
 Name: FixUnicom 6 6P iOS8
 Sponsor: haoerloveyou <haoerloveyou@gmail.com>
+
+Package: com.white.flex3ss
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/flex3ss_0.0.1_iphoneos-arm64.deb
+Size: 8812
+MD5sum: d10cf7acad4e4aedf8362d95bb3fd5e3
+SHA1: 1cadb0aae41479aa5b4404b491fd2f715fab4c29
+SHA256: 1377f98ee30edc233afee0e4c0c87b3096463512b16de375d5163172b4c9795e
+Section: Tweaks
+Description: Flex3 Bate内添加(搜索关键词悬浮窗)，适合在学习或词汇有限的Flex3用户，这是初版，只放了一点关键词，不同应用自动搜索生成关键词的还在构思
+Author: 来了老弟
+Name: Flex3悬浮关键词
 
 Package: com.white.flexall
 Version: 0.0.1-24
@@ -4356,6 +4380,24 @@ Author: iBreak <ibreak2019@qq.com>
 Name: Hide Dark
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/hidedark/Depiction
 
+Package: com.white.iapstorefugu
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 384
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/iapstorefugu_0.0.2_iphoneos-arm64.deb
+Size: 41792
+MD5sum: 4f5df51cdd246248d1001c9b8613a334
+SHA1: d2c2524c5c4e3c12d2c1a2e53b80a90dd0435c0f
+SHA256: a1ed50f8f82b227c9603cec9091fed16682b3d5cc72a29e8e307463087b2c202
+Section: Tweaks
+Description: Fugu15应用内购神器，弹窗付款点击取消即可
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/iapstorefugu.html
+Name: IAPStore【内购神器】
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/iapstorefugusileo/Depiction
+
 Package: com.white.icleanerpro
 Version: 7.10.0
 Architecture: iphoneos-arm
@@ -4363,16 +4405,34 @@ Maintainer: Ivano Bilenchi <support@ib-soft.net>
 Depends: firmware (>= 4.0), findutils, apt | apt7
 Conflicts: ru.rejail.icleanerpro, com.exile90.icleanerpro, org.altervista.exilecom.icleaner
 Replaces: ru.rejail.icleanerpro, com.exile90.icleanerpro, org.altervista.exilecom.icleaner
-Filename: ./debs/icleanerpro_7.10.0.deb
-Size: 2379272
-MD5sum: a10dd300d07b3e821e11ce98a47702f9
-SHA1: 58558ff83f390524dad5ebb849a2a8eb95a44f28
-SHA256: 0cf6a55e39e2779bca1e7b957baa2feb2dd40474a926ce7dce668d9c6cfe3893
+Filename: ./debs/icleanerpro_7.10.0_iphoneos-arm.deb
+Size: 2378584
+MD5sum: 29d4ef72dcd77555b8898b26bb908ec7
+SHA1: d09c1f1dae404b9444419d48199458d9dd8be8da
+SHA256: 35937ed4f3dd11c6ef616d9aee208b724036e95c7632548944c78e93728bb1be
 Section: Utilities
 Homepage: http://ib-soft.net/icleaner
-Description: 第一个真正的iOS系统清理和管理程序
+Description: iOS系统清理和管理实用程序
 Author: Ivano Bilenchi <support@ib-soft.net>
 Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/icleanerpro/icon.png
+Name: iCleaner Pro
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/icleanerpro/Depiction
+
+Package: com.white.icleanerpro
+Version: 7.10.0
+Architecture: iphoneos-arm64
+Maintainer: Ivano Bilenchi
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner, xyz.cypwn.icleanerprocrackrootless, com.exile90.icleanerpro
+Filename: ./debs/icleanerpro_7.10.0_iphoneos-arm64.deb
+Size: 1101756
+MD5sum: 7086eda3917cd2e3d87e23a2e7597f02
+SHA1: a905888a6c71d56a55969e2367bf4fb5fa3d8ff9
+SHA256: fbfd89f15a555b6185598663015c39d00b320ba1a8e4289146a13623e7f3c05e
+Section: Utilities
+Description: iOS系统清理和管理实用程序
+Author: Ivano Bilenchi
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/icleanerpro/icon.png
 Name: iCleaner Pro
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/icleanerpro/Depiction
@@ -5159,10 +5219,10 @@ Depends: mobilesubstrate, com.opa334.altlist, preferenceloader
 Conflicts: jp.akusio.milkyway4
 Replaces: jp.akusio.milkyway4
 Filename: ./debs/milkyway4_0.1.1_iphoneos-arm64.deb
-Size: 1300036
-MD5sum: f90b6b150cd6541af8512eea050be4d6
-SHA1: db4b1c499671d4c335fb2c6cf5454d3a105b3da3
-SHA256: a8f70fb65cc6b7cb2d155f135f6effb8a4022a39f273df240dfc4fd84426f17c
+Size: 1300000
+MD5sum: 7cff4ff549d56068b506791b8ef2a251
+SHA1: 700a53c06dae4a1ae93ec8ad4e3782c0204aaa84
+SHA256: 6c89589ebbed064d920daa1171251e9d73b7862dbca288123f7e5d2c9279539e
 Section: Tweaks
 Description: iOS15+多任务分屏
 Author: @akusio_RR
@@ -5295,11 +5355,11 @@ Recommends: gettext-localizations, iterm2-shell-integration, zsh-autosuggestions
 Conflicts: ws.hbang.newterm, ws.hbang.newterm2, ws.hbang.newterm3
 Replaces: ws.hbang.newterm, ws.hbang.newterm2, ws.hbang.newterm3
 Filename: ./debs/newterm3_3.0~beta1_iphoneos-arm64.deb
-Size: 23543744
-MD5sum: 651a37cc4bbb8442b993e8edf43e06ae
-SHA1: b08372e4c3dd6d633702ee6302ead149d245df08
-SHA256: eb3e73f2d54d271779bae792c9acdfa320f60686ce275db995b457fddf10bcbd
-Section: Terminal Support
+Size: 23552744
+MD5sum: 2f45d8de4ac9f592d7f62d834c2c13e5
+SHA1: 3f20436907f98074f90a62c6cb533e6536a09c85
+SHA256: 23efda614074df0560eeeed870e845780800c857865e47e09e6a5f9227ec2c0e
+Section: Utilities
 Description: 功能强大的iOS终端程序
 Tag: compatible_min::ios14.0
 Author: HASHBANG Productions <support@hbang.ws>
@@ -5320,11 +5380,11 @@ Recommends: gettext-localizations, iterm2-shell-integration, zsh-autosuggestions
 Conflicts: ws.hbang.newterm, ws.hbang.newterm2, ws.hbang.newterm3
 Replaces: ws.hbang.newterm, ws.hbang.newterm2, ws.hbang.newterm3
 Filename: ./debs/newterm3_3.0~beta1_iphoneos-arm.deb
-Size: 23543464
-MD5sum: 729cb5cfa40c119b34a277318af5368d
-SHA1: 08131a45e838942f1494dbb53b6f39ee0ce7424b
-SHA256: aa5f5ab18a4870b84dc425676c21c2d6acd573434d9b75f78f989c9bc4550388
-Section: Terminal Support
+Size: 23545864
+MD5sum: 1b2801f7ec9f01b655e8184545fe3932
+SHA1: 19744f7b55fff9a38224e069b820db9c9a6f7f8e
+SHA256: b9515c40a4f35d5378bdbdb2b308e7ac023dff3d780a292e4ed3314e5f5e9c97
+Section: Utilities
 Description: 功能强大的iOS终端程序
 Tag: compatible_min::ios14.0
 Author: HASHBANG Productions <support@hbang.ws>
@@ -5744,6 +5804,42 @@ Section: NoAds
 Description: 去除启动广告，去除搜索横幅广告，去除首页、播放页面广告，屏蔽音乐宠物、Music Zone入口，精简个人页面，解锁臻品音质2.0
 Author: iOSign
 Name: QQ音乐
+
+Package: com.white.qsyy
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 304
+Depends: mobilesubstrate
+Filename: ./debs/qsyy_1.0_iphoneos-arm.deb
+Size: 37472
+MD5sum: 0adbd3fd0ff10ded31213f8ba63e170e
+SHA1: 0e672778d9dcb5b5a2e0a1eb01fc804d4da35b8e
+SHA256: dc75e362b21390b06cef9a2863e7749f9ee4321ca572a109df3339b57f57d018
+Section: Tweaks
+Description: 批量替换文本的悬浮窗工具，使用说明：悬浮窗内填写：文本替换前===文本替换后，===是替换符。使用场景：修改通话时间，修改联系人，修改通话记录，翻译替换文本，隐藏设备实际信息，靓仔装逼等。之前代码是垃圾，一切以最新版为准，提示：装了非真皮120或全局篡改插件的设备，不要装此插件，这只是应用类插件，不会影响到系统全局或桌面
+Author: 来了老弟
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qsyy/icon.png
+Name: 悬浮翻译汉化工具
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qsyy/Depiction
+
+Package: com.white.qsyy
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 540
+Depends: mobilesubstrate
+Filename: ./debs/qsyy_1.2_iphoneos-arm64.deb
+Size: 94028
+MD5sum: 62c78d7f39a0a9a008328583d4b27853
+SHA1: 68601c5b4c945b8f7e6996b6d0eb577165b80138
+SHA256: ada1974ac2a4551f03fe942ff2b858c62a46299fc356e08fe27cfa16d287bb6c
+Section: Tweaks
+Description: 批量替换文本的悬浮窗工具，使用说明：悬浮窗内填写：文本替换前===文本替换后，===是替换符。使用场景：修改通话时间，修改联系人，修改通话记录，翻译替换文本，隐藏设备实际信息，靓仔装逼等。之前代码是垃圾，一切以最新版为准，提示：装了非真皮120或全局篡改插件的设备，不要装此插件，这只是应用类插件，不会影响到系统全局或桌面
+Author: 来了老弟
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qsyy/icon.png
+Name: 悬浮翻译汉化工具
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qsyy/Depiction
 
 Package: com.white.realcc
 Version: 0.0.4
@@ -6575,21 +6671,93 @@ Author: Spark
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/snowboard/icon.png
 Name: SnowBoard
 
+Package: com.white.sogouinput
+Version: 0.1-2
+Architecture: iphoneos-arm64
+Maintainer: IOSign
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/sogouinput_0.1-2_iphoneos-arm64.deb
+Size: 3428
+MD5sum: 196ba8fba7b99bc0824429abf9e111a0
+SHA1: 8b418a9e81c9e9818494ccc94ff1344a976a870b
+SHA256: 0832dcfa063978d22ae6c6ebe8724bc6be5c7da80fa33c3a883bdaa345e977ab
+Section: Cracks
+Description: 输入法皮肤内购破解，多款付费皮肤随心购！使用方法：点击购买皮肤，出现弹窗时，取消即可！
+Author: IOSign
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sogouinput/icon.png
+Name: 搜狗输入法内购破解
+
+Package: com.white.split-view-pro-helper
+Version: 999.1
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Installed-Size: 13792
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader
+Filename: ./debs/split-view-pro-helper_999.1_iphoneos-arm64.deb
+Size: 1384
+MD5sum: cbef33f2e2871618f6803f79e01adfdd
+SHA1: be12e1f741e98de63b335a236ccc809de2a36d47
+SHA256: bc4ac2645fbda808c165a84a8d69a5b1bd033d85c36f2fcf494ffee4d3f21213
+Section: Development
+Description: 低版本分屏依赖
+Author: sunshinesong
+Name: Split View Pro Helper
+Ts: sp-sss
+
 Package: com.white.splitviewpro
 Version: 1.1.4
 Architecture: iphoneos-arm64
 Maintainer: sunshinesong
-Depends: mobilesubstrate, preferenceloader, com.sunshinesong.split-view-pro-helper (>= 999.1)
+Depends: mobilesubstrate, preferenceloader, com.white.split-view-pro-helper (>= 999.1)
 Filename: ./debs/splitviewpro_1.1.4_iphoneos-arm64.deb
-Size: 3527636
-MD5sum: 45d0cb4ffa97647a01235ab4c0949d62
-SHA1: 07442ab9099dd80445db5f44d97a9c6cbbde0b70
-SHA256: 379a5dbfb060d9c1cc0f13aabfea6b37e54ee1d799e7cb4cc357cb6929c6d4a6
+Size: 3526956
+MD5sum: 09edd53585bbe58056e05c84b3ee9fa1
+SHA1: dec40a0fbc6c5a15711abfef5b28f2d580961440
+SHA256: f6f20ec3d1a96b2c08692cd9c8bcfa6a87922f04362a420818283d31b51d7728
 Section: Tweaks
-Description: 由Sunshine Song开发的免费多任务分屏
+Description: 分屏，不必太复杂，一切从简即可
 Author: sunshinesong
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/splitviewpro/icon.png
 Name: Split View Pro
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/splitviewpro/Depiction
+
+Package: com.white.splitviewpro
+Version: 1.1.6
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Installed-Size: 13648
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader
+Filename: ./debs/splitviewpro_1.1.6_iphoneos-arm64.deb
+Size: 3475572
+MD5sum: 32e8046a7f7f6a67c04ee7f0042f41a8
+SHA1: 5963f053eb28dc413517a4af2210321fd42771e0
+SHA256: efb90da5243e818434b942324b8749630582b3b412061e7a5903ddfce1400946
+Section: Tweaks
+Description: 如果安全模式可以尝试打开 Filza，进入/var/jb/var/mobile/Library/Preferences/，删除插件配置再安装！如果还是安全模式就没办法了
+Author: sunshinesong
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/splitviewpro/icon.png
+Name: Split View Pro
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/splitviewpro/Depiction
+
+Package: com.white.splitviewpro
+Version: 1.3.7
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Installed-Size: 5624
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Filename: ./debs/splitviewpro_1.3.7_iphoneos-arm64.deb
+Size: 1538388
+MD5sum: 56397815567f973dc32af862cd79f362
+SHA1: f354ac947d569ecbdd422a90ce41ae6e2fe30cf0
+SHA256: a194415cfa87a402f636a4d8efa30dbd678847381f1a4c06bac421a12c166746
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可
+Author: sunshinesong
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/splitviewpro/icon.png
+Name: Split View Pro
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/splitviewpro/Depiction
+Ts: sp-sss
 
 Package: com.white.storeswitcher2
 Version: 1.0.3
@@ -7043,10 +7211,10 @@ Depends: com.white.ftt, firmware (<= 15.0) | cy+cpu.arm64v8 | oldabi-xina | olda
 Conflicts: com.randy420.tools
 Replaces: com.randy420.tools, com.randy420.encrypt
 Filename: ./debs/RandyTools_2.3.9_iphoneos-arm64.deb
-Size: 550432
-MD5sum: 35ca7fc66ca02a12dd70728a4491ff3a
-SHA1: 2cf9a9b93d12e4783c4d04e19226b44c2482110b
-SHA256: afe3a1a57651b52ec769a392bdec510ec59b082bcac50a5e603ae2a56eab7465
+Size: 548684
+MD5sum: 67895d139ed749731f89d596fcaeb105
+SHA1: b000d2f62c0b8a3288bd8c9026ad0a0a6ce2cebc
+SHA256: c6708dae728a9b81b1005e57c2766d6f6072e5a98a666cd685ecc4aec12f32d8
 Section: Development
 Homepage: https://theemeraldisle.family
 Description: 420Tools插件整合了Randy420所有插件的配置以及插件的共享文件
@@ -7413,6 +7581,21 @@ Description: 微信多功能定义助手
 Author: iBreak <ibreak2019@qq.com>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/icon.png
 Name: WeChat Helper
+
+Package: com.white.wtvrbglauncher
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: Lessica
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Filename: ./debs/wtvrbglauncher_1.1_iphoneos-arm64.deb
+Size: 23152
+MD5sum: f7734d2e7b4d1eb35cae3e1733e122e7
+SHA1: f3a23607a64a2e05df7f3a6fd3507cc191eb6865
+SHA256: 58aee29f446143d64fbc38b0641ac067d22c852e645faf37529043d9f219ef09
+Section: Tweaks
+Description: App内调用输入法的“语音转文字”功能时，免去跳转的过程；支持搜狗输入法，百度输入法，讯飞输入法，微信输入法。v1.x：新增插件简易选项
+Author: Lessica
+Name: 语音转文字免跳转
 
 Package: com.white.wyyllnoads
 Version: 0.0.1
@@ -7922,23 +8105,6 @@ Author: akusio <akusio-report@neko2.net>
 Depiction: http://akusio.github.io/descriptions/milkyway/index.html
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/milkyway/icon.png
 Name: MilkyWay
-
-Package: jp.akusio.milkyway4
-Version: 0.1.1
-Architecture: iphoneos-arm64
-Maintainer: @akusio_RR
-Installed-Size: 3464
-Depends: mobilesubstrate, com.opa334.altlist, preferenceloader
-Filename: ./debs/akusio.milkyway4_0.1.1_iphoneos-arm64.deb
-Size: 1299672
-MD5sum: 1d4ec4931260a6cf99b6445f73e40ec9
-SHA1: 79076c8edb68176bf4fd1017b2405f5c201b8b3f
-SHA256: 10e62d4a079de8d04573822621706635523518da89fbe5bfc1c18470baea3b09
-Section: Tweaks
-Description: iOS15无根的多任务分屏
-Author: @akusio_RR
-Depiction: https://akusio.github.io/descriptions/milkyway4/index.html
-Name: MilkyWay4-rootless
 
 Package: jp.akusio.noentersafemode
 Version: 0.0.1
