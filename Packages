@@ -1897,6 +1897,42 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Bi
 Name: 哔哩哔哩 NoAds(重写版)
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/nDepiction
 
+Package: com.white.cainiao240628
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: White <(null)>
+Installed-Size: 1448
+Depends: mobilesubstrate
+Filename: ./debs/cainiao_1.0_iphoneos-arm.deb
+Size: 339196
+MD5sum: c3324a6b376bb6c41adb87aa9a9b4a24
+SHA1: b7cf5b0831dc7f4f8d5f0ab589d1607fed7949b5
+SHA256: af1b48c56b00602f9c6684007f421e0893f5af6f18895a858ac4758383bd72b7
+Section: NoAds
+Description: 基于8.7.195制作，去广告优化界面
+Author: White <(null)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cainiao/icon.png
+Name: 菜鸟NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cainiao/Depiction
+
+Package: com.white.cainiao240628
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: White <(null)>
+Installed-Size: 1448
+Depends: mobilesubstrate
+Filename: ./debs/cainiao_1.0_iphoneos-arm64.deb
+Size: 339260
+MD5sum: e4014a4ae787d37d7bddd1c92cd9548b
+SHA1: b2868fb93ba95022228b3a53522a395f811abadf
+SHA256: 33b5b7dbf8465fcbf9cbc7050214fb07768880739d2d1ce8b106625de4c728da
+Section: NoAds
+Description: 基于8.7.195制作，去广告优化界面
+Author: White <(null)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cainiao/icon.png
+Name: 菜鸟NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cainiao/Depiction
+
 Package: com.white.carriercrack-global
 Version: 3.1.19
 Architecture: iphoneos-arm
@@ -5823,6 +5859,42 @@ Icon: file:///Applications/Cydia.app/Sections/Utilities.png
 Name: ProCam 7 专业级单反相机
 Sponsor: White
 
+Package: com.white.qeeyou
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: White <(null)>
+Installed-Size: 1448
+Depends: mobilesubstrate
+Filename: ./debs/qeeyou_1.0_iphoneos-arm64.deb
+Size: 339100
+MD5sum: 90662d3754a580459987eae0e52d369f
+SHA1: f2726d595994e64f9ae55a049bae3a934c38b8a4
+SHA256: 5bd1c521418964bbaadbe56bd12750e398e7f06540a1c5a966190e4c1cdebc8e
+Section: NoAds
+Description: 基于3.5.3版本制作，屏蔽Banner广告，屏蔽漂浮、屏蔽启动、屏蔽热启动广告
+Author: White <(null)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qeeyou/icon.png
+Name: 奇游加速器NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qeeyou/Depiction
+
+Package: com.white.qeeyou
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: White <(null)>
+Installed-Size: 1448
+Depends: mobilesubstrate
+Filename: ./debs/qeeyou_1.0_iphoneos-arm.deb
+Size: 338982
+MD5sum: 80fcb7511d9f60917efa19999e850dd7
+SHA1: a07e572bf6fb41b974d78650e103758efe550a1c
+SHA256: 2290067f745c185cb4a4cb965be1fdfc4456f7075b9d74afcf48fdad78460632
+Section: NoAds
+Description: 基于3.5.3版本制作，屏蔽Banner广告，屏蔽漂浮、屏蔽启动、屏蔽热启动广告
+Author: White <(null)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qeeyou/icon.png
+Name: 奇游加速器NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qeeyou/Depiction
+
 Package: com.white.qq.rootless
 Version: 0.1-1
 Architecture: iphoneos-arm64
@@ -7669,6 +7741,26 @@ Author: Huayuarc
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cloudmusic/icon.png
 Name: 网易云音乐 NoAds
 Sponsor: Huayuarc
+
+Package: com.white.youdao
+Filename: ./debs/youdao_1.0_iphoneos-arm64.deb
+Size: 337144
+MD5sum: 4470672b7a490601c01afec4f8a24009
+SHA1: 8ac26607d7b252217b6a1bf52a0a20d33074aea7
+SHA256: dced78ecb701e61cb4598dbeb290f9816b78e4c4904e72426257c72cdee4c51f
+Description: 有道翻译官3.9.x启动广告、翻译结果底部广告
+Author: White <(null)>
+Name: 有道翻译官NoAds
+
+Package: com.white.youdao
+Filename: ./debs/youdao_1.0_iphoneos-arm.deb
+Size: 337084
+MD5sum: 0260e740d5744e73b7cb89f65218a1bf
+SHA1: cbdf84b11714714ea24e1acf78ef82f6002ff22d
+SHA256: 4b5422ba0b8092dfbd49417932e03645e41e18c90457ff64a54b80dc11d1533b
+Description: 有道翻译官3.9.x启动广告、翻译结果底部广告
+Author: White <(null)>
+Name: 有道翻译官NoAds
 
 Package: com.white.youmute
 Version: 1.2.1-3
