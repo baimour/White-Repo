@@ -1261,17 +1261,17 @@ Depends: firmware (>= 15.0), mobilesubstrate
 Conflicts: netskao.alipayhooks-rootless
 Replaces: netskao.alipayhooks-rootless
 Filename: ./debs/alipayhooks_1.1-3_iphoneos-arm64.deb
-Size: 72604
-MD5sum: 31f6be29ceb771ba1e1c41c098af09aa
-SHA1: 06ed418433b1f5bb7c63393d1fb56c5578af904c
-SHA256: 3786d76eddc211f5635bf1f3fa59a648303b91080c7f58d2a008fe0a3017856f
+Size: 72632
+MD5sum: 7072a32f9c2109e783542daf657df635
+SHA1: bf4859e16e3546b4db9630d24d5781e945fa4dc6
+SHA256: 21e0f05e61e923fffd0e93a105ad2890c175b828f447648fab7e7e4877eda441
 Section: NoAds
 Description: 支付宝去除底部理财选项(理财是不可能理财的, 只有收收钱勉强维持生活), 固定每天10w步
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/alipay/icon.png
 Name: 支付宝 Hooks
-Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/alipay/icon.png
 
-Package: com.white.alipaystep.rootless
+Package: com.white.alipaystep
 Version: 0.1-1
 Architecture: iphoneos-arm64
 Maintainer: iOSign
@@ -1279,14 +1279,15 @@ Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: iosign.alipaystep.rootless
 Replaces: iosign.alipaystep.rootless
-Filename: ./debs/alipaystep.rootless_0.1-1.deb
-Size: 3116
-MD5sum: 241d37b282b550b02da431eb6a56e20c
-SHA1: 02b730da6b31ae630744b14bdf6aaa48daf48a39
-SHA256: 6b3f1df18b0713c401a182b931dd7d0fa0f08990dd619504e6430e852507b77d
+Filename: ./debs/alipaystep_0.1-1_iphoneos-arm64.deb
+Size: 3200
+MD5sum: 985211e6104cdf7fce42be84f7bf86ca
+SHA1: 1a1148715b781bbe0e58ad52c4548b6568ec809e
+SHA256: 17a9e885be9a6bd6bc6f0c1fb083b283f636ab0bfbb7c8e8c933b943d158ebad
 Section: NoAds
 Description: 每天十万步，屏蔽更新检测，精简首页内容
 Author: iOSign
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/alipay/icon.png
 Name: 支付宝十万步
 
 Package: com.white.allowkeyboard
@@ -1352,10 +1353,10 @@ Architecture: iphoneos-arm64
 Maintainer: CokePokes
 Depends: firmware (>= 15.0), mobilesubstrate
 Filename: ./debs/appstoreplus_1.0.3_iphoneos-arm64.deb
-Size: 21731652
-MD5sum: f94199ccd9b023e0f6ffa520587d00d7
-SHA1: b4ec3d895c640de8a1ac5e21439d8a4dc9d56780
-SHA256: 824de6b18f61ac3dbfcbb7314ebb9f67ac2aba25ae4ff6d4ca6ab384186a0091
+Size: 10969448
+MD5sum: 06a9625edd6cb648acca03b13adf8f78
+SHA1: 592b0ab29b37fa5669a4c7ca4d671e91cad91a47
+SHA256: 4ce8059178109fdb33441f817387f377c3f5e64b5f04753fd114040fc3d3f87f
 Section: Utilities
 Description: 允许您降级/升级应用程序
 Author: CokePokes
@@ -5914,6 +5915,25 @@ Author: iOSign
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ
 
+Package: com.white.qqmusic
+Version: 0.1-1
+Architecture: iphoneos-arm64
+Maintainer: iOSign
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: iosign.qqmusic.rootless
+Replaces: iosign.qqmusic.rootless
+Filename: ./debs/qqmusic_0.1-1_iphoneos-arm64.deb
+Size: 3708
+MD5sum: e2cda4295717728e59629fb83ba9ca78
+SHA1: 1de43bdec8335724b50c28601f8908eaa1600268
+SHA256: 2137b868cb36c58ba49e4d0756b3e4be082b024a16ac7aabaddcf28aa3d2de05
+Section: NoAds
+Description: 去除启动广告，去除搜索横幅广告，去除首页、播放页面广告，屏蔽音乐宠物、Music Zone入口，精简个人页面，解锁臻品音质2.0
+Author: iOSign
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qqmusic/icon.png
+Name: QQ音乐
+
 Package: com.white.qqmusic.rootless
 Version: 0.1-1
 Architecture: iphoneos-arm64
@@ -8030,15 +8050,15 @@ Depends: mobilesubstrate
 Conflicts: cn.llld.zfbb
 Replaces: cn.llld.zfbb
 Filename: ./debs/zfbb_1.2_iphoneos-arm64.deb
-Size: 18280
-MD5sum: 0b8601a15ee1a436b35acbe20273e3eb
-SHA1: f3a407337b0d0f5412e29e6b8e412b220259efe6
-SHA256: f16590e5a055aca050942451735167ecd71870902bc5b9cc836ba95030d506ea
+Size: 18368
+MD5sum: b338215c6bb07d9d6764a5df0cd1178d
+SHA1: ccc436d2d4b2dda509ab52fb08b53579f85ccbf2
+SHA256: 5c5cf3466282f1fc6f516462748ae5815448c398d8637ee61ae88ac8118d3990
 Section: NoAds
-Description: 支付宝自定义步数，屏蔽越狱检测(代码半年没动了)，精简主页显示内容。长按底栏1秒控件或森林、运动顶栏或任意右上角控件顶部，弹出设置。支持任意版本，0303:增加移除理财，自行设置里关了视频，底部就居中了
+Description: 支付宝自定义步数，屏蔽越狱检测(代码半年没动了)，精简主页显示内容。长按底栏1秒控件或森林、运动顶栏或任意右上角控件顶部，弹出设置。支持任意版本，0303:增加移除理财，设置里关了视频，底部就居中了
 Author: 来了老弟
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/alipay/icon.png
 Name: 支付宝步数XD
-Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/alipay/icon.png
 
 Package: cydia.installer
 Version: 1.1.36-3
@@ -8803,21 +8823,21 @@ Description: 双SIM卡用户，可以通过控制中心快捷切换所选择的�
 Author: Netskao
 Name: CCSwitchData
 
-Package: netskao.ccswitchdata-rootless
+Package: netskao.ccswitchdata
 Version: 1.1-4
 Architecture: iphoneos-arm64
 Maintainer: Nets
 Installed-Size: 132
 Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
-Filename: ./debs/netskao.ccswitchdata-rootless_1.1-4_iphoneos-arm64.deb
-Size: 22300
-MD5sum: e973561ee5bba97a8b08f79771f1d188
-SHA1: 29fb56fdce3b1d16e7b68fdf2cadfe7b975d9384
-SHA256: bc8acbc748e3c4aa0326c8525fb0d50a851f280cfa8d27cfe9d1bdab41d3dab0
+Filename: ./debs/netskao.ccswitchdata_1.1-4_iphoneos-arm64.deb
+Size: 20792
+MD5sum: ec3fca19d1022c01074566039c559228
+SHA1: c14e6f3b5e2d515f8aba29972fb9d59968a8cb76
+SHA256: f3b0e62262b1de16548fc5df1decde8ffedc6dbca2808e4747a03cbc510a3574
 Section: Tweaks
-Description: 双SIM卡用户，可以通过控制中心快速切换所选的蜂窝网络
+Description: 双SIM卡用户，可以通过控制中心快速切换副卡蜂窝网络
 Author: Netskao
-Name: CCSwitchData-Rootless
+Name: CCSwitchData
 
 Package: netskao.deletephotoscompletely
 Version: 1.2-2
@@ -9635,6 +9655,22 @@ Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDe
 
 Package: netskao.showtouch
 Version: 1.0.4-2
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 2412
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/netskao.showtouch_1.0.4-2_iphoneos-arm64.deb
+Size: 579396
+MD5sum: a3f318eb9792f8f532d88a35cc852304
+SHA1: d2fb0222011758b2a56b859e3220b65d0195f7be
+SHA256: 8afe42adaead926527047fde6d683d16ec2db36cfbe0b36efc809942e5a762a9
+Section: Tweaks
+Description: 录屏显示触摸屏幕的位置
+Author: LonestarX
+Name: ShowTouch
+
+Package: netskao.showtouch
+Version: 1.0.4-2
 Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 564
@@ -9649,21 +9685,38 @@ Description: 录屏显示触摸屏幕的位置
 Author: LonestarX
 Name: ShowTouch
 
-Package: netskao.showtouch-rootless
-Version: 1.0.4-2
+Package: netskao.showtouch
+Version: 1.0.4-3
 Architecture: iphoneos-arm64
 Maintainer: Nets
-Installed-Size: 2412
+Installed-Size: 1432
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: ./debs/netskao.showtouch-rootless_1.0.4-2_iphoneos-arm64.deb
-Size: 688534
-MD5sum: 91f5da91821a55dbdc9b070a02670e6e
-SHA1: 23ff59235bd4d31a1aa19dea828d0dc5bc997e59
-SHA256: 6984a9424457663efcea4240d0a77965d113a8258c3e04dd2be6a779d4ff1081
+Filename: ./debs/netskao.showtouch_1.0.4-3_iphoneos-arm64.deb
+Size: 376260
+MD5sum: ba4fa681d46c75708e4199c2adeae0fa
+SHA1: 9eb124c53a5caf0073a2782d2a7a467c97f92180
+SHA256: e26920d84dd79c39464e75411ec69671b5a0ab8074c48243b0538678f3ea4c5b
 Section: Tweaks
 Description: 录屏显示触摸屏幕的位置
-Author: LonestarX
-Name: ShowTouch-Rootless
+Author: Netskao
+Name: ShowTouch
+
+Package: netskao.smallbanners
+Version: 1.2-6
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 1444
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: it.dreamcode.picobanners2, netskao.picobanners2
+Filename: ./debs/netskao.smallbanners_1.2-6_iphoneos-arm64.deb
+Size: 366560
+MD5sum: c310e053ae81c444f2e3e205ae14a0d2
+SHA1: 224013a516d9ba14c25de70e65acba0340780230
+SHA256: 1f94987585156e92748239bcebd09c5f930414f678f41a75e647704cd9e0838f
+Section: Tweaks
+Description: 小通知横幅，支持iOS13-16
+Author: Netskao
+Name: SmallBanners
 
 Package: netskao.smallbanners
 Version: 1.2-6
@@ -9673,48 +9726,30 @@ Installed-Size: 544
 Depends: mobilesubstrate, firmware (>= 13.0)
 Conflicts: it.dreamcode.picobanners2, netskao.picobanners2
 Filename: ./debs/netskao.smallbanners_1.2-6_iphoneos-arm.deb
-Size: 123410
-MD5sum: a9bc885e9ea6b173bada3ca87384a375
-SHA1: 29ae37b6472cc43d7904790e58de6d0380d82d2a
-SHA256: f125500be984e990e7c54fb26e22b052f2001db168ec732163b1a02be5ef3a99
+Size: 106980
+MD5sum: b5aa3e6f22c89b85ebef77ebc7dd6a8f
+SHA1: 01888f7e10a1b31446d845e69985cee4a807cca8
+SHA256: c791363ff7e98e4004b50182b18c5d54edc144db6679a1e860921d482545310d
 Section: Tweaks
-Description: 小通知横幅，支持iOS13-15
+Description: 小通知横幅，支持iOS13-16
 Author: Netskao
 Name: SmallBanners
 
-Package: netskao.smallbanners-rootless
-Version: 1.2-6
+Package: netskao.smallbanners
+Version: 1.2-8
 Architecture: iphoneos-arm64
 Maintainer: Nets
-Installed-Size: 1444
-Depends: mobilesubstrate, firmware (>= 15.0)
-Conflicts: it.dreamcode.picobanners2, netskao.picobanners2
-Filename: ./debs/netskao.smallbanners_1.2-6_iphoneos-arm64.deb
-Size: 423244
-MD5sum: db0cf7629b12d51656ed304462e0091a
-SHA1: f7094d3edf4ddf431718e50fe2066c6dfaf0ab9b
-SHA256: 09ec9ae46204ed87619d2fbf8688b3cca16d47eed532319acf90f57463170c37
+Installed-Size: 900
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 17.0)
+Filename: ./debs/netskao.smallbanners_1.2-8_iphoneos-arm64.deb
+Size: 201740
+MD5sum: d158719550e062a8a87aa8db4550c252
+SHA1: b2e05c2df4155788220758b32bfcaa9291dadd53
+SHA256: b692d24b301ab689bae44785af78f0743dc63ca08df05ecb505708e6bfbd01d0
 Section: Tweaks
-Description: 小通知横幅，支持iOS13-iOS15
+Description: 小通知横幅，支持iOS13-16
 Author: Netskao
-Name: SmallBanners-Rootless
-
-Package: netskao.smallbanners-rootless
-Version: 1.2-6
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 1444
-Depends: mobilesubstrate, firmware (>= 15.0)
-Conflicts: it.dreamcode.picobanners2, netskao.picobanners2
-Filename: ./debs/netskao.smallbanners-rootless_1.2-6_iphoneos-arm64.deb
-Size: 423274
-MD5sum: c2c18c2e3f01e2704471cda403d2f8c7
-SHA1: 8a002469f11534f55bfbc2ed1f8f4bfe0999a1ab
-SHA256: 06a7c7c99323ad03f1eed14b0b68a7c3b7345ce91605b0a0621b03acf36da2ab
-Section: Tweaks
-Description: 小通知横幅，支持iOS13-15
-Author: Netskao
-Name: SmallBanners-Rootless
+Name: SmallBanners
 
 Package: netskao.storeswitchaccounts
 Version: 1.1-2
@@ -9732,21 +9767,21 @@ Description: 长按桌面AppStore图标快捷切换登录账户
 Author: Netskao
 Name: StoreSwitchAccounts
 
-Package: netskao.storeswitchaccounts-rootless
+Package: netskao.storeswitchaccounts
 Version: 1.1-2
 Architecture: iphoneos-arm64
 Maintainer: Nets
 Installed-Size: 232
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debs/netskao.storeswitchaccounts-rootless_1.1-2_iphoneos-arm64.deb
-Size: 58302
-MD5sum: 452a955dfdae433d89aba5c51c26ba80
-SHA1: 0f74e5c7652e9a7cd0de05590e9ceb6a2003fea5
-SHA256: 0fa392ac3e017a41abb36d7992e2593efccee876a41f33499b4a087f5fffc551
+Filename: ./debs/netskao.storeswitchaccounts_1.1-2_iphoneos-arm64.deb
+Size: 51564
+MD5sum: 49d40321df4f9921a6819030898fbe15
+SHA1: fd752549da20ac236a26714f0ce238133bcd659d
+SHA256: ed634b5fdacef69a940e056837b287c646aef4905f886646c5aa9533eaf6648e
 Section: Tweaks
 Description: 长按桌面AppStore图标快捷切换登录账户
 Author: Netskao
-Name: StoreSwitchAccounts-Rootless
+Name: StoreSwitchAccounts
 
 Package: netskao.wcpureextension
 Version: 2.2-3
