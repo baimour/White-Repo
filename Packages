@@ -6323,10 +6323,10 @@ Maintainer: Paisseon
 Installed-Size: 456
 Depends: firmware (>= 13.0), preferenceloader, com.opa334.altlist
 Filename: ./debs/satella2_1.9.0_iphoneos-arm64.deb
-Size: 74204
-MD5sum: 9cea660e26e3c717821169558e273471
-SHA1: fe38d59d86fcd059277ca7ea78e6071864889d91
-SHA256: d1e2821e267351a88d1f009aca5816e59b1d732819588c2e9512c42f26294c6d
+Size: 72612
+MD5sum: e0b36b02ddd73c0cf0c2010179293d8c
+SHA1: 0fa635d1377f12d9392687ea79a21cb26d7c2fce
+SHA256: 59c9d56c5e37aed5dfab4f6f43c4659af49c0c33491f9d3c9b6f892f797147e2
 Section: Tweaks
 Description: 现代应用内购破解，内置汉化补丁
 Author: Paisseon
@@ -6341,10 +6341,10 @@ Maintainer: Paisseon
 Installed-Size: 456
 Depends: firmware (>= 13.0), preferenceloader, com.opa334.altlist
 Filename: ./debs/satella2_1.9.0_iphoneos-arm.deb
-Size: 74080
-MD5sum: 1df8052445f9d2bfc97196c5929e5e42
-SHA1: 2da560ae673e9323d61a6d0382e2bd667214ef11
-SHA256: 56917379dd1e7a65e8a16f187e7d78942a9b277b7bb1d99d1acf8d76312fd9ff
+Size: 72544
+MD5sum: 26b7af343292031aad059a3b72c3e15b
+SHA1: a7b3597e6d6854937344e18da7aebef88bf46173
+SHA256: 8ed0c62fec1193155c95a167437fedea0796573e975e686d3dbe30c12bec2465
 Section: Tweaks
 Description: 现代应用内购破解。内置汉化补丁
 Author: Paisseon
@@ -7743,24 +7743,40 @@ Name: 网易云音乐 NoAds
 Sponsor: Huayuarc
 
 Package: com.white.youdao
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: White <(null)>
+Installed-Size: 1432
+Depends: mobilesubstrate
 Filename: ./debs/youdao_1.0_iphoneos-arm64.deb
-Size: 337144
-MD5sum: 4470672b7a490601c01afec4f8a24009
-SHA1: 8ac26607d7b252217b6a1bf52a0a20d33074aea7
-SHA256: dced78ecb701e61cb4598dbeb290f9816b78e4c4904e72426257c72cdee4c51f
-Description: 有道翻译官3.9.x启动广告、翻译结果底部广告
+Size: 337228
+MD5sum: 42bede74fee91015bbf1c2df7548e9cd
+SHA1: 4627e5098e02c4b034368709eba3309a69419fef
+SHA256: 35a3c2456d8250e87dfa0884ec446faed20d089940eb0851e19010535ed47a77
+Section: NoAds
+Description: 有道翻译官3.9.x启动广告，隐藏翻译历史，翻译历史底部广告
 Author: White <(null)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/youdao/icon.png
 Name: 有道翻译官NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/youdao/Depiction
 
 Package: com.white.youdao
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: White <(null)>
+Installed-Size: 1432
+Depends: mobilesubstrate
 Filename: ./debs/youdao_1.0_iphoneos-arm.deb
-Size: 337084
-MD5sum: 0260e740d5744e73b7cb89f65218a1bf
-SHA1: cbdf84b11714714ea24e1acf78ef82f6002ff22d
-SHA256: 4b5422ba0b8092dfbd49417932e03645e41e18c90457ff64a54b80dc11d1533b
-Description: 有道翻译官3.9.x启动广告、翻译结果底部广告
+Size: 336940
+MD5sum: 76c6981a1a8dc7c3a1d0fbb40554b04a
+SHA1: 9e7d7307f35d340765d28e4c1af221ba5f4b150c
+SHA256: 22822198b66b6d444dd03936677e124153c8a4f15feb3a12495a1f55ddf000b4
+Section: NoAds
+Description: 有道翻译官3.9.x启动广告，隐藏翻译历史，翻译历史底部广告
 Author: White <(null)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/youdao/icon.png
 Name: 有道翻译官NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/youdao/Depiction
 
 Package: com.white.youmute
 Version: 1.2.1-3
