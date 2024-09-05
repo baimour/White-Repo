@@ -1352,10 +1352,10 @@ Architecture: iphoneos-arm64
 Maintainer: CokePokes
 Depends: firmware (>= 15.0), mobilesubstrate
 Filename: ./debs/appstoreplus_1.0.3_iphoneos-arm64.deb
-Size: 10969936
-MD5sum: 4ac66c9442890900eed9f9785eb2f2fc
-SHA1: 70c2155c306b7aaa38da502a9c33c0fcafa34f12
-SHA256: 8ac2b90dbfe360d8a3f66ce200ff469159ab6a3658cb05a1dbdb3a7acdce1a3b
+Size: 21731652
+MD5sum: f94199ccd9b023e0f6ffa520587d00d7
+SHA1: b4ec3d895c640de8a1ac5e21439d8a4dc9d56780
+SHA256: 824de6b18f61ac3dbfcbb7314ebb9f67ac2aba25ae4ff6d4ca6ab384186a0091
 Section: Utilities
 Description: 允许您降级/升级应用程序
 Author: CokePokes
@@ -6251,12 +6251,12 @@ Maintainer: Paisseon
 Installed-Size: 456
 Depends: firmware (>= 13.0), preferenceloader, com.opa334.altlist
 Filename: ./debs/satella2_1.9.0_iphoneos-arm64.deb
-Size: 69672
-MD5sum: 9f32f43a88df55c8cf648cb728e737ae
-SHA1: e7635f9cb5dbf861a132d10dde30bcdb74a5670f
-SHA256: b6a0da5c92558d7174fb8b952527c98cc83f3d2a34bbc165673902565eacbc79
+Size: 74204
+MD5sum: 9cea660e26e3c717821169558e273471
+SHA1: fe38d59d86fcd059277ca7ea78e6071864889d91
+SHA256: d1e2821e267351a88d1f009aca5816e59b1d732819588c2e9512c42f26294c6d
 Section: Tweaks
-Description: 现代应用内购破解
+Description: 现代应用内购破解，内置汉化补丁
 Author: Paisseon
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/satella/icon.png
 Name: Satella
@@ -6269,12 +6269,12 @@ Maintainer: Paisseon
 Installed-Size: 456
 Depends: firmware (>= 13.0), preferenceloader, com.opa334.altlist
 Filename: ./debs/satella2_1.9.0_iphoneos-arm.deb
-Size: 69696
-MD5sum: 0e80e9a29e0bcb91258af54afd163bb5
-SHA1: 6a71da718bd765f4dcc701789d5fb7a17f705f84
-SHA256: b89335318cb559bf983cf9b33381e2a5e97df305d6c4424583d9726f367d81b2
+Size: 74080
+MD5sum: 1df8052445f9d2bfc97196c5929e5e42
+SHA1: 2da560ae673e9323d61a6d0382e2bd667214ef11
+SHA256: 56917379dd1e7a65e8a16f187e7d78942a9b277b7bb1d99d1acf8d76312fd9ff
 Section: Tweaks
-Description: 现代应用内购破解
+Description: 现代应用内购破解。内置汉化补丁
 Author: Paisseon
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/satella/icon.png
 Name: Satella
