@@ -4889,6 +4889,28 @@ Author: LukeZGD
 Name: kDFUApp Bundles
 
 Package: com.white.kayoko
+Version: 2.0.1-1
+Architecture: iphoneos-arm64
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 1012
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: com.skypain.kayoko, dev.traurige.kayoko, codes.aurora.kayoko
+Replaces: com.skypain.kayoko
+Filename: ./debs/kayoko_2.0.1-1_iphoneos-arm64.deb
+Size: 115536
+MD5sum: 6fd9447431d9b436e40df986175ea910
+SHA1: e65696246e1b88d31dc686406e1665d6921d5ad1
+SHA256: 300d72a4a31e982fac2124304de7a9c56eb6c3d6f71cf943041e3f5ccc8f53ec
+Section: Tweaks
+Homepage: https://skypain.github.io/repo/
+Description: Kayoko Modified 基于Traurige和Lessica的开源项目 支持Rootless和Roothide
+Author: Traurige&Lessica
+Depiction: https://skypain.github.io/repo/static/view/?p=kayoko
+Icon: https://skypain.github.io/repo/src/kayoko/Icon.png
+Name: Kayoko Modified
+Sileodepiction: https://skypain.github.io/repo/src/kayoko/config/sileo/depiction.json
+
+Package: com.white.kayoko
 Version: 2.0.3.1
 Architecture: iphoneos-arm
 Maintainer: 妖刀
@@ -5565,6 +5587,29 @@ Name: NewTerm 2
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/newterm/Depiction
 Support: https://hashbang.productions/support/
 
+Package: com.white.newterm2
+Version: 2.5
+Architecture: iphoneos-arm
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 6664
+Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.common (>= 1.16), bash, coreutils, ncurses, system-cmds, gettext-localizations | com.linusyang.localeutf8
+Conflicts: ws.hbang.newterm2, com.alucard.newterm.cn, ws.hbang.newterm, com.lint.ntarrows
+Replaces: ws.hbang.newterm2, com.alucard.newterm.cn, ws.hbang.newterm, com.lint.ntarrows
+Filename: ./debs/newterm2_2.5_iphoneos-arm.deb
+Size: 23537564
+MD5sum: 22c9f747493d5ab564986fdf6f7007a2
+SHA1: 3b79a73dd777a84068e939ea17c7fff202a925bc
+SHA256: 767b22538297e946467630e9a9268648a8606bdcf359c9203bd1abcdfe5eb6fc
+Section: Utilities
+Description: iOS系统的强大终端应用程序
+Tag: compatible_min::ios10.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/newterm
+Icon: https://chariz.com/cdn/icon/newterm/icon@3x.png
+Name: NewTerm 2
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/newterm/Depiction
+Support: https://hashbang.productions/support/
+
 Package: com.white.newterm3
 Version: 3.0~beta1
 Architecture: iphoneos-arm64
@@ -5575,10 +5620,10 @@ Recommends: gettext-localizations, iterm2-shell-integration, zsh-autosuggestions
 Conflicts: ws.hbang.newterm, ws.hbang.newterm2, ws.hbang.newterm3
 Replaces: ws.hbang.newterm, ws.hbang.newterm2, ws.hbang.newterm3
 Filename: ./debs/newterm3_3.0~beta1_iphoneos-arm64.deb
-Size: 23552744
-MD5sum: 2f45d8de4ac9f592d7f62d834c2c13e5
-SHA1: 3f20436907f98074f90a62c6cb533e6536a09c85
-SHA256: 23efda614074df0560eeeed870e845780800c857865e47e09e6a5f9227ec2c0e
+Size: 23545148
+MD5sum: cbe216002586542fc1901cc4c9d4152e
+SHA1: afa9349c3ecc22471266b0f9143be37668a20d56
+SHA256: 2a2f8ff28c22f734038a6d33cfcc300c92329a84aed33f0aa9e92acd6e8197d9
 Section: Utilities
 Description: 功能强大的iOS终端程序
 Tag: compatible_min::ios14.0
@@ -5600,10 +5645,10 @@ Recommends: gettext-localizations, iterm2-shell-integration, zsh-autosuggestions
 Conflicts: ws.hbang.newterm, ws.hbang.newterm2, ws.hbang.newterm3
 Replaces: ws.hbang.newterm, ws.hbang.newterm2, ws.hbang.newterm3
 Filename: ./debs/newterm3_3.0~beta1_iphoneos-arm.deb
-Size: 23545864
-MD5sum: 1b2801f7ec9f01b655e8184545fe3932
-SHA1: 19744f7b55fff9a38224e069b820db9c9a6f7f8e
-SHA256: b9515c40a4f35d5378bdbdb2b308e7ac023dff3d780a292e4ed3314e5f5e9c97
+Size: 23545428
+MD5sum: 98b129139ccb4ef1cea7f5b157d34ce6
+SHA1: dac53cebdd74005faa1273f9adfca127a6000e6e
+SHA256: ceb8f770b4fcc7bfba0c4e868952b3f38621572064012a620c2bcee988313faa
 Section: Utilities
 Description: 功能强大的iOS终端程序
 Tag: compatible_min::ios14.0
