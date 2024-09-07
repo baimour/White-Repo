@@ -778,13 +778,13 @@ Package: com.white.123pan
 Version: 1.0-2
 Architecture: iphoneos-arm64
 Maintainer: White <1410970825@qq.com>
-Installed-Size: 1448
+Installed-Size: 1432
 Depends: mobilesubstrate
 Filename: ./debs/123pan_1.0-2_iphoneos-arm64.deb
-Size: 338902
-MD5sum: 6cc68051c0391870c452e5ff62aab443
-SHA1: a5b8dd26e43a0dd863f9dcffa80dfc3bd47c71a3
-SHA256: 5e84c7855e7d77918848c2e7907459c9688ec28ee6eec018f3d176cbd96ead3e
+Size: 338108
+MD5sum: d2b66bb3203eae4d0d888293f3b2072b
+SHA1: b62635289903fc870417200c667d8a5ff3ddbbe4
+SHA256: 5a9cbfa4a35bddb44b96b0cd6a3caa8ab136a3530746d12312a2f7068526be0d
 Section: NoAds
 Description: 基于2.0.1版本制作，屏蔽越狱及强制更新
 Author: White <1410970825@qq.com>
@@ -796,13 +796,13 @@ Package: com.white.123pan
 Version: 1.0-2
 Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
-Installed-Size: 1448
+Installed-Size: 1432
 Depends: mobilesubstrate
 Filename: ./debs/123pan_1.0-2_iphoneos-arm.deb
-Size: 338630
-MD5sum: 2348914035da005439c7357359fe6480
-SHA1: f24b1a453bbd61bce9c16ed0dc7b7b202ba715b2
-SHA256: 44dc1b19b713b266287f361b2d881c745415f56410b257ea08e4dd0da7cefd55
+Size: 338012
+MD5sum: 34d2a9c0b1659dd459ec90333a6f054b
+SHA1: 654ad8164714235f82fb387a545908668504ff19
+SHA256: 263c638b5ea0c1a11352a7a0527c9038742e91d0fd5932bf671ceb95a0962081
 Section: NoAds
 Description: 基于2.0.1版本制作，屏蔽越狱及强制更新
 Author: White <1410970825@qq.com>
@@ -1630,10 +1630,10 @@ Maintainer: White <(null)>
 Installed-Size: 1448
 Depends: mobilesubstrate
 Filename: ./debs/bdpan_1.0_iphoneos-arm64.deb
-Size: 339480
-MD5sum: 016d5261a806b0e790e61bacb15087d3
-SHA1: 19628912e80c3137d910abd707f749f66adbd9e8
-SHA256: 588acc62efd5326e1510df6059a4844dad9998d0297e8d7db0b49334cc45453c
+Size: 339260
+MD5sum: 704c252daa2c481a85495c60d85aff5b
+SHA1: 78115724c6c05cd0f9d88ad02995dd27e67a4271
+SHA256: 27f8c8f8bfecec12ee126707d5a8c15bc2b9741a6f3dfcf65721775b945af897
 Section: NoAds
 Description: 基于11.14.5制作测试到11.16.5，去广告优化界面
 Author: White <(null)>
@@ -1648,10 +1648,10 @@ Maintainer: White <(null)>
 Installed-Size: 1448
 Depends: mobilesubstrate
 Filename: ./debs/bdpan_1.0_iphoneos-arm.deb
-Size: 339534
-MD5sum: ab16520a2ce9157dec27c87dddb75816
-SHA1: 5edc68abfbf4659d2a546d256981b87eae279577
-SHA256: ea9fa8ca3f25423954b8a009ad28253a4f9da18b09d4c32344ff3e575a75bfb4
+Size: 339260
+MD5sum: 26126772b06d4d54482cbd0701f5eb2f
+SHA1: 2aabf69f96006d31d1cf0f7289bc53d78f664bf5
+SHA256: 55d8c3db64a7c569f785e288b14ecda2d8ea10dd4e11ba485c63dcd574f74cec
 Section: NoAds
 Description: 基于11.14.5制作测试到11.16.5，去广告优化界面
 Author: White <(null)>
@@ -1948,6 +1948,42 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Bi
 Name: 哔哩哔哩大会员画质
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/Depiction
 
+Package: com.white.bilibili
+Version: 1.2.3
+Architecture: iphoneos-arm64
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 1528
+Depends: firmware (>= 10.0), firmware (<= 16.6.1), mobilesubstrate
+Filename: ./debs/bilibili_1.2.3_iphoneos-arm64.deb
+Size: 348496
+MD5sum: a5fa7aea4eb18b37f2306e9237efee15
+SHA1: a5f4cba1283e1bf428940cd2104353ee0a2159a0
+SHA256: bea1bae46159701c2d12b124bafcc6ec279e7aec90e63966d51f600feba47519
+Section: NoAds
+Description: 基于7.65.0制作，其他版本自测
+Author: White <1410970825@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/icon.png
+Name: 哔哩哔哩大会员画质
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/Depiction
+
+Package: com.white.bilibili
+Version: 1.2.3
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 1528
+Depends: firmware (>= 10.0), firmware (<= 14.8.1), mobilesubstrate
+Filename: ./debs/bilibili_1.2.3_iphoneos-arm.deb
+Size: 347694
+MD5sum: 1bb40447b4731390a36728b6b1431865
+SHA1: 3dd5489aff590722c189a80abbeb717683a8dd06
+SHA256: 507ad8741ab23cc44c5eeddabd08090bbbf9252e01e8f9bb9aa53e45661850c0
+Section: NoAds
+Description: 基于7.65.0制作，其他版本自测
+Author: White <1410970825@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/icon.png
+Name: 哔哩哔哩大会员画质
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/Depiction
+
 Package: com.white.bilibilipure
 Version: 1.2-3.1
 Architecture: iphoneos-arm
@@ -2011,10 +2047,10 @@ Maintainer: White <(null)>
 Installed-Size: 1448
 Depends: mobilesubstrate
 Filename: ./debs/cainiao_1.0_iphoneos-arm.deb
-Size: 339196
-MD5sum: c3324a6b376bb6c41adb87aa9a9b4a24
-SHA1: b7cf5b0831dc7f4f8d5f0ab589d1607fed7949b5
-SHA256: af1b48c56b00602f9c6684007f421e0893f5af6f18895a858ac4758383bd72b7
+Size: 338888
+MD5sum: 3624d733024afb5831b2321ef4ac6fda
+SHA1: c4d825eaa7d7dd923f344ce3eb03edaa1d67af20
+SHA256: 6ef577baf7e274347dc7a1aed10fd95afea3d50065e068a0b77ba847a2841446
 Section: NoAds
 Description: 基于8.7.195制作，去广告优化界面
 Author: White <(null)>
@@ -2029,10 +2065,10 @@ Maintainer: White <(null)>
 Installed-Size: 1448
 Depends: mobilesubstrate
 Filename: ./debs/cainiao_1.0_iphoneos-arm64.deb
-Size: 339260
-MD5sum: e4014a4ae787d37d7bddd1c92cd9548b
-SHA1: b2868fb93ba95022228b3a53522a395f811abadf
-SHA256: 33b5b7dbf8465fcbf9cbc7050214fb07768880739d2d1ce8b106625de4c728da
+Size: 338840
+MD5sum: 3afe6571b7e0bd2655f9d0fae2ae6b32
+SHA1: 731f24eec1c8561194f4e121ac424d11e40688f7
+SHA256: 869f394beec33b0554df5ab7e69a80185d1da1439d3f2789898aa4451ea855d4
 Section: NoAds
 Description: 基于8.7.195制作，去广告优化界面
 Author: White <(null)>
@@ -4568,13 +4604,13 @@ Package: com.white.i4notes
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: White <(null)>
-Installed-Size: 968
+Installed-Size: 200
 Depends: mobilesubstrate
 Filename: ./debs/i4notes_1.0_iphoneos-arm64.deb
-Size: 290712
-MD5sum: 5fe76fa16994e394b0e7e46350573365
-SHA1: df4b25694e7c30519b300db3fc5aa33414dbb35e
-SHA256: 0aecf8f52a1a395986ef066b2ef4aa89fe82ace4971445aac369a0b8a6a6c1a6
+Size: 13608
+MD5sum: 703131831abb085b2323fdfdd1a1fa0b
+SHA1: 903aadffd8f32c60ff435f95dcccf4852a18edb4
+SHA256: 24e16108d9a2789e5cd6853eda9b57f667b775d37933309be859e75af16939d5
 Section: NoAds
 Description: 去启动广告，去除关闭限制广告追踪弹窗提示
 Author: White <(null)>
@@ -4586,13 +4622,13 @@ Package: com.white.i4notes
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: White <(null)>
-Installed-Size: 968
+Installed-Size: 200
 Depends: mobilesubstrate
 Filename: ./debs/i4notes_1.0_iphoneos-arm.deb
-Size: 290936
-MD5sum: 947176d19310b4a1dd5419ad3fcb1646
-SHA1: fc2fa5847e615f1b029368a71d58a0ebf8c1b41b
-SHA256: 6ec09c3519efe44b61c32c8a35a69243768ce45642ccb81068aca9f525921bc0
+Size: 13510
+MD5sum: 8fcdb48d6cb5265b6c638bcc2ee2c71e
+SHA1: 5aea2d9c8181cbaba96ad6e9a48f40b14f3f62e4
+SHA256: b655fb96770c24e2fca994f5d6b89e249994e05ca44dd0aa0c008ec5269f33c2
 Section: NoAds
 Description: 去启动广告，去除关闭限制广告追踪弹窗提示
 Author: White <(null)>
@@ -6040,10 +6076,10 @@ Maintainer: White <(null)>
 Installed-Size: 1448
 Depends: mobilesubstrate
 Filename: ./debs/qeeyou_1.0_iphoneos-arm64.deb
-Size: 339100
-MD5sum: 90662d3754a580459987eae0e52d369f
-SHA1: f2726d595994e64f9ae55a049bae3a934c38b8a4
-SHA256: 5bd1c521418964bbaadbe56bd12750e398e7f06540a1c5a966190e4c1cdebc8e
+Size: 338852
+MD5sum: 8ff020b339d89e25ccba90651e186784
+SHA1: e789e0fe1c4da990ee7eeebb80d282202cb9905e
+SHA256: a2538441a223dbcae11b6ca6de3c1a7d82f10dc92296f5a0121909a6bad3433b
 Section: NoAds
 Description: 基于3.5.3版本制作，屏蔽Banner广告，屏蔽漂浮、屏蔽启动、屏蔽热启动广告
 Author: White <(null)>
@@ -6058,10 +6094,10 @@ Maintainer: White <(null)>
 Installed-Size: 1448
 Depends: mobilesubstrate
 Filename: ./debs/qeeyou_1.0_iphoneos-arm.deb
-Size: 338982
-MD5sum: 80fcb7511d9f60917efa19999e850dd7
-SHA1: a07e572bf6fb41b974d78650e103758efe550a1c
-SHA256: 2290067f745c185cb4a4cb965be1fdfc4456f7075b9d74afcf48fdad78460632
+Size: 338858
+MD5sum: bf94744f3dbaf5864e4986e1ff6c5f42
+SHA1: efdd5a40b798658a285186f2866f3f153da9055f
+SHA256: 0e498e6fcc97ba526dd93542d3e61c27811c21cd0c844388888638acaa402cbb
 Section: NoAds
 Description: 基于3.5.3版本制作，屏蔽Banner广告，屏蔽漂浮、屏蔽启动、屏蔽热启动广告
 Author: White <(null)>
@@ -6092,13 +6128,13 @@ Package: com.white.qqmail
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: White <(null)>
-Installed-Size: 1432
+Installed-Size: 0
 Depends: mobilesubstrate
 Filename: ./debs/qqmail_1.0_iphoneos-arm.deb
-Size: 336860
-MD5sum: f2562cea9ba2ac47029752a0b7757ab8
-SHA1: 6c62255de4b8d3e222ae0ee1c1dacca477a6c40a
-SHA256: efaf263b6a78d10d1d10a12d0045d353b2795243b668d0b314497b28229e61ee
+Size: 716
+MD5sum: eadb1cc96b0234ac67867c557f5d0133
+SHA1: 3e7f1360af930bc0c5c47db53c3db3aa2824c4f8
+SHA256: c69703d1674e09a54e09829fea0280bb0289b254841c5c6615df30bd4d11e539
 Section: NoAds
 Description: 基于6.5.6版本制作，去除收件箱列表广告
 Author: White <(null)>
@@ -6110,13 +6146,13 @@ Package: com.white.qqmail
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: White <(null)>
-Installed-Size: 1432
+Installed-Size: 0
 Depends: mobilesubstrate
 Filename: ./debs/qqmail_1.0_iphoneos-arm64.deb
-Size: 336988
-MD5sum: b7690727c2f84d240ef9db72b0bc500b
-SHA1: 94bacf7465e40132d94a9fc758ef55b8dcfb9c0a
-SHA256: 23e83a648f617504c3f0e35752389ed49e757f0a7d395e4cefd95dfae33f5712
+Size: 718
+MD5sum: 8d99d31f8ca083a8efe525eb31570eb1
+SHA1: cbe73f5ba45257cf4f2fa54ad5d71566dce4ba8e
+SHA256: a68960021c0073e46019765c64d3ced527bec703709ec3419d54470a1068cd45
 Section: NoAds
 Description: 基于6.5.6版本制作，去除收件箱列表广告
 Author: White <(null)>
@@ -7051,10 +7087,10 @@ Maintainer: White <(null)>
 Installed-Size: 1448
 Depends: mobilesubstrate
 Filename: ./debs/sogouinput_1.0_iphoneos-arm64.deb
-Size: 340662
-MD5sum: 6cd35c980dc478186f704f17989ebc29
-SHA1: f962dd1679a5d80552b1f1074e827369da16b1c0
-SHA256: 6cdee5b55e27007b31e32646c4dd49256cbcbff1454013ea3b35e6e9cb2e10d7
+Size: 339614
+MD5sum: d69b02216d76eeceb98e454064052084
+SHA1: 2961ace286352a5fb61d90517b45e3d512509370
+SHA256: c80ccdbceb2fcda0362a9c357ab3dd3134db167c3272e10d7b94d480ceee47bf
 Section: NoAds
 Description: 基于11.39.3制作，去广告破解内购，支持TF最新版
 Author: White <(null)>
@@ -7069,10 +7105,10 @@ Maintainer: White <(null)>
 Installed-Size: 1448
 Depends: mobilesubstrate
 Filename: ./debs/sogouinput_1.0_iphoneos-arm.deb
-Size: 340454
-MD5sum: c9f16520678ae03cab6742d1c2c7c0a0
-SHA1: e76d654f3b7e21f410f7fece4605ed2e7cc76d4f
-SHA256: f3bf2f74004af10dace04238a7591109df6474ffc998fa964d080b4bd7ea7cf3
+Size: 339452
+MD5sum: 1a3e460401ed9af3927bb714f600e184
+SHA1: 7b64812fe4eb07ee11a72b71ab4d2c2291242879
+SHA256: 9f651eaec45f4977afe827ba52dcd7760f655e79640169c0e04ab4c58e5f92b3
 Section: NoAds
 Description: 基于11.39.3制作，去广告破解内购，支持TF最新版
 Author: White <(null)>
@@ -7545,10 +7581,10 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 1448
 Depends: mobilesubstrate
 Filename: ./debs/thunderbeta_1.0-4_iphoneos-arm64.deb
-Size: 340398
-MD5sum: 03cffe65466d162fbb496143d9cdc87c
-SHA1: e459dd81f6d1a301cbd28b7f775e0bb511731dc9
-SHA256: bb7fbb978d1d8b9f9c92ce5a4edcdcea94a3115a7bfedc7c2c67fba15be871b7
+Size: 339934
+MD5sum: 4d574dce26af6f44907738319c47471a
+SHA1: 542b3259ba7b6caeb17f4084950ec4b17715e36b
+SHA256: d717035ad7f144d66a818804533600ea1b4c21f072aa262ba6cd0a33426410aa
 Section: NoAds
 Description: 基于迅雷Beta版6.15.1.10127制作，伪装会员优化界面、强制开启播放锚点图
 Author: White <1410970825@qq.com>
@@ -7563,10 +7599,10 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 1448
 Depends: mobilesubstrate
 Filename: ./debs/thunderbeta_1.0-4_iphoneos-arm.deb
-Size: 340206
-MD5sum: 5a7b47d483fb8fcbc14f66c4f142d048
-SHA1: 2989261c4ce8c5890cd2ea3016e3ac08c5067449
-SHA256: a3d30c0d9245f5e0cee6d7dd215f3d56806448e36f8e851922334574316377e5
+Size: 339922
+MD5sum: a6d09820b924ad339a10d0c79cdba4a0
+SHA1: 99286406969a041ad517694185d22fe8adb0870c
+SHA256: 4fd33cd5080c2c1cb6af2afe7ee3dff82f4353d54ce2655bc4a79f66e6399cb0
 Section: NoAds
 Description: 基于迅雷Beta版6.15.1.10127制作，伪装会员优化界面、强制开启播放锚点图
 Author: White <1410970825@qq.com>
