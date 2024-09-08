@@ -6143,24 +6143,6 @@ Author: iOSign
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qqmusic/icon.png
 Name: QQ音乐
 
-Package: com.white.qqmusic.rootless
-Version: 0.1-1
-Architecture: iphoneos-arm64
-Maintainer: iOSign
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: iosign.qqmusic.rootless
-Replaces: iosign.qqmusic.rootless
-Filename: ./debs/qqmusic.rootless_0.1-1.deb
-Size: 3620
-MD5sum: c775c6ca6024afbfa3f4c414f0c46bd6
-SHA1: 4198e45be4a7db78fa11f7e0f1499bae728370a8
-SHA256: e2790d90593ad0936ec0e777231184cfea83ff744879ae5c6689884c796e290b
-Section: NoAds
-Description: 去除启动广告，去除搜索横幅广告，去除首页、播放页面广告，屏蔽音乐宠物、Music Zone入口，精简个人页面，解锁臻品音质2.0
-Author: iOSign
-Name: QQ音乐
-
 Package: com.white.qsyy
 Version: 1.0
 Architecture: iphoneos-arm
