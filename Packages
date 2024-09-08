@@ -778,13 +778,13 @@ Package: com.white.123pan
 Version: 1.0-2
 Architecture: iphoneos-arm64
 Maintainer: White <1410970825@qq.com>
-Installed-Size: 1432
+Installed-Size: 200
 Depends: mobilesubstrate
 Filename: ./debs/123pan_1.0-2_iphoneos-arm64.deb
-Size: 338108
-MD5sum: d2b66bb3203eae4d0d888293f3b2072b
-SHA1: b62635289903fc870417200c667d8a5ff3ddbbe4
-SHA256: 5a9cbfa4a35bddb44b96b0cd6a3caa8ab136a3530746d12312a2f7068526be0d
+Size: 14558
+MD5sum: b81eac0d9e7da592b0f952fffebb26df
+SHA1: 11bc45d769168a8f5a3528be403acef08177e630
+SHA256: b4bade929e192e86e9a08628800b136a7cee40371109636fea9bbb9340f4d203
 Section: NoAds
 Description: 基于2.0.1版本制作，屏蔽越狱及强制更新
 Author: White <1410970825@qq.com>
@@ -796,13 +796,13 @@ Package: com.white.123pan
 Version: 1.0-2
 Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
-Installed-Size: 1432
+Installed-Size: 200
 Depends: mobilesubstrate
 Filename: ./debs/123pan_1.0-2_iphoneos-arm.deb
-Size: 338012
-MD5sum: 34d2a9c0b1659dd459ec90333a6f054b
-SHA1: 654ad8164714235f82fb387a545908668504ff19
-SHA256: 263c638b5ea0c1a11352a7a0527c9038742e91d0fd5932bf671ceb95a0962081
+Size: 14462
+MD5sum: e698e7f179bff9b13ebf4b9a5c04f227
+SHA1: 8d7db0b2830ccb0e9832dc5fb125c504b856dd00
+SHA256: c47b0cc6ab2db65ecb53a2bb0ab145c0ae7c8288d69b4fe65d4ede13cafa89d2
 Section: NoAds
 Description: 基于2.0.1版本制作，屏蔽越狱及强制更新
 Author: White <1410970825@qq.com>
@@ -1627,13 +1627,13 @@ Package: com.white.bdpan
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: White <(null)>
-Installed-Size: 1448
+Installed-Size: 200
 Depends: mobilesubstrate
 Filename: ./debs/bdpan_1.0_iphoneos-arm64.deb
-Size: 339260
-MD5sum: 704c252daa2c481a85495c60d85aff5b
-SHA1: 78115724c6c05cd0f9d88ad02995dd27e67a4271
-SHA256: 27f8c8f8bfecec12ee126707d5a8c15bc2b9741a6f3dfcf65721775b945af897
+Size: 15528
+MD5sum: 21ed849386e297d48e77f38402b0d8f4
+SHA1: 6880759b2d200aad392ffe8a2d5a1f5970c2315b
+SHA256: cec9889f6a37a904920c65ed8acc462b8b7d58d183ebf1407faed74aba925c99
 Section: NoAds
 Description: 基于11.14.5制作测试到11.16.5，去广告优化界面
 Author: White <(null)>
@@ -1645,13 +1645,13 @@ Package: com.white.bdpan
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: White <(null)>
-Installed-Size: 1448
+Installed-Size: 200
 Depends: mobilesubstrate
 Filename: ./debs/bdpan_1.0_iphoneos-arm.deb
-Size: 339260
-MD5sum: 26126772b06d4d54482cbd0701f5eb2f
-SHA1: 2aabf69f96006d31d1cf0f7289bc53d78f664bf5
-SHA256: 55d8c3db64a7c569f785e288b14ecda2d8ea10dd4e11ba485c63dcd574f74cec
+Size: 15440
+MD5sum: 8445c0ddcfdc9c82e19e8a706da02871
+SHA1: 548e2c8e34210dc41256935bc71c8ef9bb014dbf
+SHA256: 04f5f7e2afffe141cb11881260a141b1a558d20ee014b26e853921e93bc32fb8
 Section: NoAds
 Description: 基于11.14.5制作测试到11.16.5，去广告优化界面
 Author: White <(null)>
@@ -2044,13 +2044,13 @@ Package: com.white.cainiao240628
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: White <(null)>
-Installed-Size: 1448
+Installed-Size: 200
 Depends: mobilesubstrate
 Filename: ./debs/cainiao_1.0_iphoneos-arm.deb
-Size: 338888
-MD5sum: 3624d733024afb5831b2321ef4ac6fda
-SHA1: c4d825eaa7d7dd923f344ce3eb03edaa1d67af20
-SHA256: 6ef577baf7e274347dc7a1aed10fd95afea3d50065e068a0b77ba847a2841446
+Size: 15018
+MD5sum: 7c3eb22fac798667a94a210afc72f104
+SHA1: 0a459bd94dc2cbbd3b77b07005fe8c58215da4c9
+SHA256: f02e53ab3cd696a43f512330072f79c54ea59bc678373b866471943bbed87d4d
 Section: NoAds
 Description: 基于8.7.195制作，去广告优化界面
 Author: White <(null)>
@@ -2062,13 +2062,13 @@ Package: com.white.cainiao240628
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: White <(null)>
-Installed-Size: 1448
+Installed-Size: 200
 Depends: mobilesubstrate
 Filename: ./debs/cainiao_1.0_iphoneos-arm64.deb
-Size: 338840
-MD5sum: 3afe6571b7e0bd2655f9d0fae2ae6b32
-SHA1: 731f24eec1c8561194f4e121ac424d11e40688f7
-SHA256: 869f394beec33b0554df5ab7e69a80185d1da1439d3f2789898aa4451ea855d4
+Size: 15094
+MD5sum: 8859bfcd52851876a669e4015c28829e
+SHA1: f6ddf3bde10efc09bd6a522d02044e70689ce7e6
+SHA256: 1b06f4ddf9606a9b9058a9719b5eb314b82ee001de43b532fb518b2f9985d371
 Section: NoAds
 Description: 基于8.7.195制作，去广告优化界面
 Author: White <(null)>
@@ -4101,10 +4101,10 @@ Depends: firmware (>= 11.0) | org.swift.libswift (>=5.0)
 Conflicts: flexdecrypt
 Replaces: flexdecrypt
 Filename: ./debs/flexdecrypt_1.1.deb
-Size: 517988
-MD5sum: 11de68676c5ab7e2782f686f7a3d6881
-SHA1: 0c63733a8f651418f8f744dfdc615ff2a8c4fa4a
-SHA256: 7a0e7c3b1a8f37b025edaca478cc026f2c73c8048edd3732564629c09dc49498
+Size: 518596
+MD5sum: 1c289df1ce6c2c5780c7d7f871a8b3f8
+SHA1: 4e00b205493438e57e51f55e7d876a5c8a55eaa1
+SHA256: f87cbaf9aba36c70ef4085d676b7cdb7645f17959ec439ffb1371934a2f38611
 Section: Tweaks
 Description: 用于解密iOS应用和Mach-O二进制文件的工具
 Author: John Coates
@@ -4306,10 +4306,10 @@ Depends: mobilesubstrate, com.white.tools (>=2.3.7)
 Conflicts: ru.rj.ftt
 Replaces: ru.rj.ftt, com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
 Filename: ./debs/ftt_1.4_iphoneos-arm64.deb
-Size: 560108
-MD5sum: 48fb55893eebf2c68ac50943fe2aa31b
-SHA1: 562a7fa2095a4b281c501f05382982b5b5bfebc6
-SHA256: 428f61485ac0221b416dff4672b15290984679cbf30a15b49a2bcef478342090
+Size: 560408
+MD5sum: f871f8e6f93577207f26cfdc14d3f24a
+SHA1: 1eee2994891aac8213f3c6f73e27616f97d853ec
+SHA256: 1f35c5fe05a1c5dcb199f41de7ccd5528dfb9cde97fa67a9b6f0c04117d63246
 Section: Development
 Homepage: https://theemeraldisle.family
 Description: 原作者：iPadkid358 - 然后由Randy420维护，使用简单的终端命令将Flex 3补丁转为Theos项目
@@ -4329,10 +4329,10 @@ Depends: mobilesubstrate, com.white.tools (>=2.3.7)
 Conflicts: ru.rj.ftt
 Replaces: ru.rj.ftt, com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
 Filename: ./debs/ftt_1.4_iphoneos-arm.deb
-Size: 560144
-MD5sum: 94041147204fb672891d29845d85f5a2
-SHA1: 136deacca1ceaca271acd55a6c4b03dd72b82bb2
-SHA256: 03a8e39e8e814ad9b8552b4727728531a604585fa3098c1e7f81cb5d45e3f89e
+Size: 560368
+MD5sum: 57808e828474af5aeecee2bdcfde2d22
+SHA1: 8354de3793ca056c249663d37578b76fe8d47189
+SHA256: 595320a65c5c9d2cc4db551f43a83cb6194e71f3e803d36e14fc3264ed53beae
 Section: Development
 Homepage: https://theemeraldisle.family
 Description: 原作者：iPadkid358 - 然后由Randy420维护，使用简单的终端命令将Flex 3补丁转为Theos项目
@@ -6073,13 +6073,13 @@ Package: com.white.qeeyou
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: White <(null)>
-Installed-Size: 1448
+Installed-Size: 200
 Depends: mobilesubstrate
 Filename: ./debs/qeeyou_1.0_iphoneos-arm64.deb
-Size: 338852
-MD5sum: 8ff020b339d89e25ccba90651e186784
-SHA1: e789e0fe1c4da990ee7eeebb80d282202cb9905e
-SHA256: a2538441a223dbcae11b6ca6de3c1a7d82f10dc92296f5a0121909a6bad3433b
+Size: 15058
+MD5sum: 203c6feacb9ab48c2439a9e3f37e3f0b
+SHA1: bd532d6301afdf232dba8d0b15193ca73ca5dfe8
+SHA256: b54fe5d22eadf405fb8bc876bc68bc87d661b9bf16ff4f2733bc0e77c8b53031
 Section: NoAds
 Description: 基于3.5.3版本制作，屏蔽Banner广告，屏蔽漂浮、屏蔽启动、屏蔽热启动广告
 Author: White <(null)>
@@ -6091,13 +6091,13 @@ Package: com.white.qeeyou
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: White <(null)>
-Installed-Size: 1448
+Installed-Size: 200
 Depends: mobilesubstrate
 Filename: ./debs/qeeyou_1.0_iphoneos-arm.deb
-Size: 338858
-MD5sum: bf94744f3dbaf5864e4986e1ff6c5f42
-SHA1: efdd5a40b798658a285186f2866f3f153da9055f
-SHA256: 0e498e6fcc97ba526dd93542d3e61c27811c21cd0c844388888638acaa402cbb
+Size: 14960
+MD5sum: c66cd553a2efa6b849607daaf9fafa22
+SHA1: a3aaea9ddead38d61ae35b51b5710ae9d1bea0c7
+SHA256: 20dccf971df16178f04930fa9be2c5f9152e579e6ab6eaa0a8db593c16a505b5
 Section: NoAds
 Description: 基于3.5.3版本制作，屏蔽Banner广告，屏蔽漂浮、屏蔽启动、屏蔽热启动广告
 Author: White <(null)>
@@ -7084,13 +7084,13 @@ Package: com.white.sogouinput
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: White <(null)>
-Installed-Size: 1448
+Installed-Size: 200
 Depends: mobilesubstrate
 Filename: ./debs/sogouinput_1.0_iphoneos-arm64.deb
-Size: 339614
-MD5sum: d69b02216d76eeceb98e454064052084
-SHA1: 2961ace286352a5fb61d90517b45e3d512509370
-SHA256: c80ccdbceb2fcda0362a9c357ab3dd3134db167c3272e10d7b94d480ceee47bf
+Size: 15680
+MD5sum: 684b7df2080e5e5dcc2e1a8cc06f66d0
+SHA1: 53e4a80c621f24235aeb5d7593f78dee39574734
+SHA256: 9fe60df2c4a7b77383ccc8d61ba4d1f6d7e85b56f5de72137c81b554343363da
 Section: NoAds
 Description: 基于11.39.3制作，去广告破解内购，支持TF最新版
 Author: White <(null)>
@@ -7102,13 +7102,13 @@ Package: com.white.sogouinput
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: White <(null)>
-Installed-Size: 1448
+Installed-Size: 200
 Depends: mobilesubstrate
 Filename: ./debs/sogouinput_1.0_iphoneos-arm.deb
-Size: 339452
-MD5sum: 1a3e460401ed9af3927bb714f600e184
-SHA1: 7b64812fe4eb07ee11a72b71ab4d2c2291242879
-SHA256: 9f651eaec45f4977afe827ba52dcd7760f655e79640169c0e04ab4c58e5f92b3
+Size: 15560
+MD5sum: a895ebaf39a07d4d012a38e3f1a60590
+SHA1: b6a39a290dfdbf3b60173baa1cdc47bb9c20557e
+SHA256: 3e13459ef39a4ee33da571487b600b9a2fca320c5f0f59048f4f31e265a6ea95
 Section: NoAds
 Description: 基于11.39.3制作，去广告破解内购，支持TF最新版
 Author: White <(null)>
@@ -7578,13 +7578,13 @@ Package: com.white.thunderbeta
 Version: 1.0-4
 Architecture: iphoneos-arm64
 Maintainer: White <1410970825@qq.com>
-Installed-Size: 1448
+Installed-Size: 200
 Depends: mobilesubstrate
 Filename: ./debs/thunderbeta_1.0-4_iphoneos-arm64.deb
-Size: 339934
-MD5sum: 4d574dce26af6f44907738319c47471a
-SHA1: 542b3259ba7b6caeb17f4084950ec4b17715e36b
-SHA256: d717035ad7f144d66a818804533600ea1b4c21f072aa262ba6cd0a33426410aa
+Size: 16242
+MD5sum: 560dc0782abcd424857d4113f054b4eb
+SHA1: 3411305968e57a0f4b1187a77c92dc50c482d1a3
+SHA256: db6da2fb097f6776fe44bc0781915fbbeafc05fa2bab46358dffa4703b631d89
 Section: NoAds
 Description: 基于迅雷Beta版6.15.1.10127制作，伪装会员优化界面、强制开启播放锚点图
 Author: White <1410970825@qq.com>
@@ -7596,13 +7596,13 @@ Package: com.white.thunderbeta
 Version: 1.0-4
 Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
-Installed-Size: 1448
+Installed-Size: 200
 Depends: mobilesubstrate
 Filename: ./debs/thunderbeta_1.0-4_iphoneos-arm.deb
-Size: 339922
-MD5sum: a6d09820b924ad339a10d0c79cdba4a0
-SHA1: 99286406969a041ad517694185d22fe8adb0870c
-SHA256: 4fd33cd5080c2c1cb6af2afe7ee3dff82f4353d54ce2655bc4a79f66e6399cb0
+Size: 16166
+MD5sum: 417a200739dbe915ae25850092179c3a
+SHA1: 1d7030743422d1f6e9bd7c2bfdd4ce7da0f6925f
+SHA256: 76a149f4f07b4449cc20fa12a129c7037f1e8db80a22463d57c58e3336b3acf7
 Section: NoAds
 Description: 基于迅雷Beta版6.15.1.10127制作，伪装会员优化界面、强制开启播放锚点图
 Author: White <1410970825@qq.com>
