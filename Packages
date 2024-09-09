@@ -778,13 +778,13 @@ Package: com.white.123pan
 Version: 1.0-2
 Architecture: iphoneos-arm64
 Maintainer: White <1410970825@qq.com>
-Installed-Size: 200
+Installed-Size: 220
 Depends: mobilesubstrate
 Filename: ./debs/123pan_1.0-2_iphoneos-arm64.deb
-Size: 14558
-MD5sum: b81eac0d9e7da592b0f952fffebb26df
-SHA1: 11bc45d769168a8f5a3528be403acef08177e630
-SHA256: b4bade929e192e86e9a08628800b136a7cee40371109636fea9bbb9340f4d203
+Size: 15850
+MD5sum: 9c38718107b4e3ee3757d152cb9fe0a5
+SHA1: 52d09371d76863a73878ce1e567f0a0631eb27ae
+SHA256: 6c69574a4e3990b9e37682c9a4f316b41905bc7a311a7cb88aa5deec3f630669
 Section: NoAds
 Description: 基于2.0.1版本制作，屏蔽越狱及强制更新
 Author: White <1410970825@qq.com>
@@ -796,13 +796,13 @@ Package: com.white.123pan
 Version: 1.0-2
 Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
-Installed-Size: 200
+Installed-Size: 220
 Depends: mobilesubstrate
 Filename: ./debs/123pan_1.0-2_iphoneos-arm.deb
-Size: 14462
-MD5sum: e698e7f179bff9b13ebf4b9a5c04f227
-SHA1: 8d7db0b2830ccb0e9832dc5fb125c504b856dd00
-SHA256: c47b0cc6ab2db65ecb53a2bb0ab145c0ae7c8288d69b4fe65d4ede13cafa89d2
+Size: 15754
+MD5sum: e33655a642646903e6d55f886c3ff46e
+SHA1: b9ee5523520bafb61506dc9f6fec55103a4bf70a
+SHA256: f95bda909a3e5b8b06d093168f83e40369ab66b2fbe972fcee3a036a212879dc
 Section: NoAds
 Description: 基于2.0.1版本制作，屏蔽越狱及强制更新
 Author: White <1410970825@qq.com>
@@ -977,6 +977,25 @@ Description: 开发您自己的补丁并在Flex社区Cloud上分享
 Author: John Coates
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Flex/icon.png
 Name: Flex 3 Beta90
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Flex/Depiction
+
+Package: com.white.Flex3beta
+Version: 1:3~Beta92
+Architecture: iphoneos-arm64
+Maintainer: John Coates
+Depends: mobilesubstrate, firmware (>= 12.2) | org.swift.libswift (>=5.0)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package, com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package, com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Filename: ./debs/Flex3beta_1.3~Beta92_iphoneos-arm64.deb
+Size: 9656172
+MD5sum: b6ae8c0115b2e8dc676bb7f0fd81fd00
+SHA1: aa4b643fb082c2181f122e3d6ff1e7d19055bdf0
+SHA256: 4b3fd0183843beec059b10825724428a8e4ed048160cd3c510493d4d20bbdb28
+Section: Utilities
+Description: 开发您自己的补丁并在Flex社区Cloud上分享
+Author: John Coates
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Flex/icon.png
+Name: Flex 3 Beta92
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Flex/Depiction
 
 Package: com.white.Flex3beta
@@ -1368,12 +1387,12 @@ Depends: mobilesubstrate
 Conflicts: com.yourepo.ibreak.allowkeyboard
 Replaces: com.yourepo.ibreak.allowkeyboard
 Filename: ./debs/allowkeyboard_1.6.deb
-Size: 6064
-MD5sum: c4ca1cc668dfe9566ca3c07512e50036
-SHA1: fba2a575b7bb10f1d51fa1f3189eb3538605cb04
-SHA256: a33f00171ae2373b6dce7b222a90781fdc2921d5643c1706b372fb5afda66bc3
+Size: 6286
+MD5sum: 710c694a5e576b7db4430d740b4c9e4b
+SHA1: c14017e0a9716bb40256c86c322f082a6eca03c2
+SHA256: c8eca47b9c68e7e974e44da329f5a0ad05175e75d4f09d18eb38295cf8f9208f
 Section: Tweaks
-Description: 允许第三方键盘获取优先级权限，密码可使用第三方输入法
+Description: 允许第三方键盘获取优先级权限，输入密码时可使用第三方输入法
 Author: iBreak <ibreak2019@qq.com>
 Name: Allow KeyBoard
 
@@ -1627,13 +1646,13 @@ Package: com.white.bdpan
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: White <(null)>
-Installed-Size: 200
+Installed-Size: 1448
 Depends: mobilesubstrate
 Filename: ./debs/bdpan_1.0_iphoneos-arm64.deb
-Size: 15528
-MD5sum: 21ed849386e297d48e77f38402b0d8f4
-SHA1: 6880759b2d200aad392ffe8a2d5a1f5970c2315b
-SHA256: cec9889f6a37a904920c65ed8acc462b8b7d58d183ebf1407faed74aba925c99
+Size: 339966
+MD5sum: 900088ca2102660a9cf57bbcf3cdb16d
+SHA1: 7ca0bb6471458b64228ef05dd83d197bb69d02d4
+SHA256: cf67ef412c3a753ec3b5d7a7de8a5435730b3f6cbba69db8167acac0f7fb10b9
 Section: NoAds
 Description: 基于11.14.5制作测试到11.16.5，去广告优化界面
 Author: White <(null)>
@@ -1645,13 +1664,13 @@ Package: com.white.bdpan
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: White <(null)>
-Installed-Size: 200
+Installed-Size: 1448
 Depends: mobilesubstrate
 Filename: ./debs/bdpan_1.0_iphoneos-arm.deb
-Size: 15440
-MD5sum: 8445c0ddcfdc9c82e19e8a706da02871
-SHA1: 548e2c8e34210dc41256935bc71c8ef9bb014dbf
-SHA256: 04f5f7e2afffe141cb11881260a141b1a558d20ee014b26e853921e93bc32fb8
+Size: 339800
+MD5sum: 94230e03317ea7faad912fcbe26d6a32
+SHA1: 0d767917c17aad431134870c92dc7208c3e9a824
+SHA256: 5b5a64d22a9703170ca2aff19e047183fff87b36c5ae7b5ff8ea56c37bf19850
 Section: NoAds
 Description: 基于11.14.5制作测试到11.16.5，去广告优化界面
 Author: White <(null)>
@@ -2445,6 +2464,25 @@ Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDe
 
 Package: com.white.classicfolders3
 Version: 3.0.5.5
+Architecture: iphoneos-arm
+Maintainer: CoolStar & Lizynz
+Installed-Size: 4360
+Depends: mobilesubstrate
+Conflicts: org.coolstar.classicfolders2, org.coolstar.classicfolders3, com.hk.classicfolders3.cn.rl, com.hk.classicfolders3.cn, com.ikilledappl3.autofolderclose-rootless
+Filename: ./debs/classicfolders3_3.0.5.5_iphoneos-arm.deb
+Size: 3291944
+MD5sum: 6cb3b1c318289b1affa1feb9b34b57e4
+SHA1: a1168a67dcb47e343460814b522690221fbed19f
+SHA256: fc1bf2ee39c993931d75e8df04ff084295497b0b61e798ac799d1d4673618509
+Section: Tweaks
+Description: 具有现代风格的iOS 6文件夹
+Author: CoolStar & Lizynz
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/classicfolders3/icon.png
+Name: ClassicFolders 3
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/classicfolders3/Depiction
+
+Package: com.white.classicfolders3
+Version: 3.0.5.5
 Architecture: iphoneos-arm64
 Maintainer: CoolStar & Lizynz
 Installed-Size: 4360
@@ -2942,6 +2980,25 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/da
 Name: DataMeter 悬浮网速
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/datameter/Depiction
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.white.deb
+Version: 0.2.9
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: coreutils, sed, gawk, findutils, curl, zstd, xz-utils, bzip2, gzip
+Conflicts: com.nan.deb
+Replaces: com.nan.deb
+Filename: ./debs/deb_0.2.9_iphoneos-arm.deb
+Size: 5392
+MD5sum: 1914a40c0c27202ebcf8dda00b8a9b60
+SHA1: b50ec0c9ddada6ffd947ca4adf686cfd08bcb956
+SHA256: 728d17819fe6d2f7731f3e4bef90b6644b628154408678afb9fc2c603ecbbb36
+Section: Development
+Description: deb工具，普通解压，普通打包，批量解压，批量打包，提取已安装插件，deb信息查看
+Author: zhaonan <invalidunit@icloud.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/newterm/icon.png
+Name: deb
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/newterm/Depiction
 
 Package: com.white.deleteforever
 Version: 0.0.1-57
@@ -4064,6 +4121,24 @@ Maintainer: John Coates
 Depends: firmware (>= 11.0) | org.swift.libswift (>=5.0)
 Conflicts: flexdecrypt
 Replaces: flexdecrypt
+Filename: ./debs/flexdecrypt_1.1_iphoneos-arm.deb
+Size: 593622
+MD5sum: ed6b0b872832e0a97a55c907d1516ebb
+SHA1: 4e0d3ffcf822d3848c9360000f0c743e61c7ec9b
+SHA256: a27eb7f04d3e6e180313c2be362da9a08287c0df2c2c31847998b106fff6bcad
+Section: Tweaks
+Description: 用于解密iOS应用和Mach-O二进制文件的工具
+Author: John Coates
+Name: flexdecrypt
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/flexdecrypt/Depiction
+
+Package: com.white.flexdecrypt
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: John Coates
+Depends: firmware (>= 11.0) | org.swift.libswift (>=5.0)
+Conflicts: flexdecrypt
+Replaces: flexdecrypt
 Filename: ./debs/flexdecrypt_1.1.deb
 Size: 518596
 MD5sum: 1c289df1ce6c2c5780c7d7f871a8b3f8
@@ -4293,10 +4368,10 @@ Depends: mobilesubstrate, com.white.tools (>=2.3.7)
 Conflicts: ru.rj.ftt
 Replaces: ru.rj.ftt, com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
 Filename: ./debs/ftt_1.4_iphoneos-arm.deb
-Size: 560368
-MD5sum: 57808e828474af5aeecee2bdcfde2d22
-SHA1: 8354de3793ca056c249663d37578b76fe8d47189
-SHA256: 595320a65c5c9d2cc4db551f43a83cb6194e71f3e803d36e14fc3264ed53beae
+Size: 571872
+MD5sum: 45119ff273ccc8405f06baf1a2b9bdd1
+SHA1: 53d7475c1bb62a1c822bad69ffe480c14c358ea9
+SHA256: 087b48cbb6bfcdac554febbd7e7f3195d92890b9e953c6b5c54b6e1d51ccaadc
 Section: Development
 Homepage: https://theemeraldisle.family
 Description: 原作者：iPadkid358 - 然后由Randy420维护，使用简单的终端命令将Flex 3补丁转为Theos项目
@@ -4376,6 +4451,27 @@ Author: Ethan Whited
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/gesturesxv/icon.png
 Name: GesturesXV
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/gesturesxv/Depiction
+
+Package: com.white.goodwifi
+Version: 0.0~beta6
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.julioverne.goodwifi
+Replaces: com.julioverne.goodwifi
+Filename: ./debs/goodwifi_0.0~beta6.deb
+Size: 104694
+MD5sum: e7344ad170c3ca7e4f9bebdba738edcc
+SHA1: 13ac04549f1f8ef2da627df4a0b70846f7e99ed8
+SHA256: de6f9f52f1563a704e1a88bd57a8749f4ca686190a5d6d104a43bafea96783be
+Section: Tweaks
+Homepage: https://twitter.com/ijulioverne
+Description: 更好的WiFi配置，显示信道，密码、Mac地址、加密方式、RSSI限制
+Author: julioverne
+Depiction: https://julioverne.github.io/description.html?id=com.julioverne.goodwifi
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/goodwifi/icon.png
+Name: GoodWiFi
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/goodwifi/Depiction
 
 Package: com.white.gpsmaster
 Version: 1.8.1
@@ -5564,28 +5660,23 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ne
 Name: NetworkManager
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/networkmanager/Depiction
 
-Package: com.white.newterm2
+Package: com.white.networkspeed13
 Version: 2.5
 Architecture: iphoneos-arm
-Maintainer: HASHBANG Productions <support@hbang.ws>
-Installed-Size: 6664
-Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.common (>= 1.16), bash, coreutils, ncurses, system-cmds, gettext-localizations | com.linusyang.localeutf8
-Conflicts: ws.hbang.newterm2, com.alucard.newterm.cn, ws.hbang.newterm, com.lint.ntarrows
-Replaces: ws.hbang.newterm2, com.alucard.newterm.cn, ws.hbang.newterm, com.lint.ntarrows
-Filename: ./debs/newterm2_2.5.deb
-Size: 2021876
-MD5sum: 21192a105bc52bc71c790ea0828a3922
-SHA1: 761ad1c4da943c0f64d690e39047abe9f4452dab
-SHA256: 27402d695f053024afbcffe20c27d788b5eb41d0dcf65de262195ffb2707e885
-Section: Utilities
-Description: iOS系统的强大终端应用程序
-Tag: compatible_min::ios10.0
-Author: HASHBANG Productions <support@hbang.ws>
-Depiction: https://chariz.com/get/newterm
-Icon: https://chariz.com/cdn/icon/newterm/icon@3x.png
-Name: NewTerm 2
-Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/newterm/Depiction
-Support: https://hashbang.productions/support/
+Maintainer: Johnzaro <johnzrgnns@gmail.com>
+Depends: mobilesubstrate, com.spark.libsparkapplist, com.spark.libsparkcolourpicker, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 12)
+Conflicts: com.johnzaro.networkspeed13
+Filename: ./debs/networkspeed13_2.5_iphoneos-arm.deb
+Size: 71640
+MD5sum: cbbe8ba3ddab357b4cb5bf978db85646
+SHA1: c6cfc0916515006470757633078c8b8bf11b4051
+SHA256: 12ba89caf27463983cfc9749d7e85ec9fb1b4133f205125916b66c8700f462c1
+Section: Tweaks
+Description: 悬浮网速显示
+Author: Johnzaro
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/networkspeed13/icon.png
+Name: NetworkSpeed13
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/networkspeed13/Depiction
 
 Package: com.white.newterm2
 Version: 2.5
@@ -5596,16 +5687,16 @@ Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.c
 Conflicts: ws.hbang.newterm2, com.alucard.newterm.cn, ws.hbang.newterm, com.lint.ntarrows
 Replaces: ws.hbang.newterm2, com.alucard.newterm.cn, ws.hbang.newterm, com.lint.ntarrows
 Filename: ./debs/newterm2_2.5_iphoneos-arm.deb
-Size: 23537564
-MD5sum: 22c9f747493d5ab564986fdf6f7007a2
-SHA1: 3b79a73dd777a84068e939ea17c7fff202a925bc
-SHA256: 767b22538297e946467630e9a9268648a8606bdcf359c9203bd1abcdfe5eb6fc
+Size: 31122602
+MD5sum: 78e023b3b48e6aaa62f561a42ab18e92
+SHA1: 45ab51a7bd72895c5635581faf2e7f86a5931207
+SHA256: 20aa27d6bd60a412d0314cff88ebf83886c4da6a4c0a7615622f5242ef481657
 Section: Utilities
-Description: iOS系统的强大终端应用程序
+Description: 功能强大的iOS终端程序
 Tag: compatible_min::ios10.0
 Author: HASHBANG Productions <support@hbang.ws>
 Depiction: https://chariz.com/get/newterm
-Icon: https://chariz.com/cdn/icon/newterm/icon@3x.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/newterm/icon.png
 Name: NewTerm 2
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/newterm/Depiction
 Support: https://hashbang.productions/support/
@@ -6037,13 +6128,13 @@ Package: com.white.qeeyou
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: White <(null)>
-Installed-Size: 200
+Installed-Size: 220
 Depends: mobilesubstrate
 Filename: ./debs/qeeyou_1.0_iphoneos-arm64.deb
-Size: 15058
-MD5sum: 203c6feacb9ab48c2439a9e3f37e3f0b
-SHA1: bd532d6301afdf232dba8d0b15193ca73ca5dfe8
-SHA256: b54fe5d22eadf405fb8bc876bc68bc87d661b9bf16ff4f2733bc0e77c8b53031
+Size: 15770
+MD5sum: 565dce33a99cb050a9695c7965523996
+SHA1: 32c774476f64ca113471e0df283c72c1bdfb38b0
+SHA256: 95458b0189e0dcc0e981382c39e04b1b6d42ddc404f7b53ad32b13bb6ead91a9
 Section: NoAds
 Description: 基于3.5.3版本制作，屏蔽Banner广告，屏蔽漂浮、屏蔽启动、屏蔽热启动广告
 Author: White <(null)>
@@ -6055,13 +6146,13 @@ Package: com.white.qeeyou
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: White <(null)>
-Installed-Size: 200
+Installed-Size: 220
 Depends: mobilesubstrate
 Filename: ./debs/qeeyou_1.0_iphoneos-arm.deb
-Size: 14960
-MD5sum: c66cd553a2efa6b849607daaf9fafa22
-SHA1: a3aaea9ddead38d61ae35b51b5710ae9d1bea0c7
-SHA256: 20dccf971df16178f04930fa9be2c5f9152e579e6ab6eaa0a8db593c16a505b5
+Size: 15658
+MD5sum: 1cbb3b97e5264cc4577259939630a801
+SHA1: 151d97afd37a10397375b25e21f2ae3b75a15586
+SHA256: 764cfa7410ba4e8b8d5b8fa8cd55ea216b052322ac1225faec9758f01b8594ce
 Section: NoAds
 Description: 基于3.5.3版本制作，屏蔽Banner广告，屏蔽漂浮、屏蔽启动、屏蔽热启动广告
 Author: White <(null)>
@@ -6178,6 +6269,24 @@ Author: 来了老弟
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qsyy/icon.png
 Name: 悬浮翻译汉化工具
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qsyy/Depiction
+
+Package: com.white.raminfo13
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Johnzaro <johnzrgnns@gmail.com>
+Installed-Size: 496
+Depends: mobilesubstrate, com.spark.libsparkapplist, com.spark.libsparkcolourpicker, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 12)
+Filename: ./debs/raminfo13_2.0_iphoneos.arm.deb
+Size: 66764
+MD5sum: f4c532441fa9ba7297a597d01b5306ac
+SHA1: f198fcf35188b92e0639b2db7d991a2991e03f23
+SHA256: abffbef6d36fa0ed776af41858d66a9cb1a7d55e0af4497d93c1557673879af6
+Section: Tweaks
+Description: 在状态栏中显示虚拟内存用量
+Author: Johnzaro <johnzrgnns@gmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/raminfo13/icon.png
+Name: RAMInfo13
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/raminfo13/Depiction
 
 Package: com.white.realcc
 Version: 0.0.4
@@ -7030,15 +7139,15 @@ Package: com.white.sogouinput
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: White <(null)>
-Installed-Size: 200
-Depends: mobilesubstrate
+Installed-Size: 1448
+Depends: firmware (>= 10.0), mobilesubstrate
 Filename: ./debs/sogouinput_1.0_iphoneos-arm64.deb
-Size: 15680
-MD5sum: 684b7df2080e5e5dcc2e1a8cc06f66d0
-SHA1: 53e4a80c621f24235aeb5d7593f78dee39574734
-SHA256: 9fe60df2c4a7b77383ccc8d61ba4d1f6d7e85b56f5de72137c81b554343363da
+Size: 360698
+MD5sum: 39e58e36dd0834ea87e7c34962e7413f
+SHA1: a0c0b878015ba0e1645899b1a50fff2ddf4df15a
+SHA256: 7e2501fa5c388f4babd997acf7bac66cb41aef13b731087a540f12470dbff43d
 Section: NoAds
-Description: 基于11.39.3制作，去广告破解内购，支持TF最新版
+Description: 基于11.39.3制作，去除启动广告，屏蔽越狱检查以及破解内购。支持TF最新版by: White
 Author: White <(null)>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sogouinput/icon.png
 Name: 搜狗输入法 NoAds
@@ -7048,15 +7157,15 @@ Package: com.white.sogouinput
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: White <(null)>
-Installed-Size: 200
-Depends: mobilesubstrate
+Installed-Size: 1448
+Depends: firmware (>= 10.0), mobilesubstrate
 Filename: ./debs/sogouinput_1.0_iphoneos-arm.deb
-Size: 15560
-MD5sum: a895ebaf39a07d4d012a38e3f1a60590
-SHA1: b6a39a290dfdbf3b60173baa1cdc47bb9c20557e
-SHA256: 3e13459ef39a4ee33da571487b600b9a2fca320c5f0f59048f4f31e265a6ea95
+Size: 359314
+MD5sum: 27e1174e14bdceb838c1bf2ef612d4ea
+SHA1: d18ce5b96b6e934daba906a6fb58e73e97dd82f5
+SHA256: 1eda02a5fd77ff67435f148d71ddaa8f23b834eafed8542cda77afd7cf7912b7
 Section: NoAds
-Description: 基于11.39.3制作，去广告破解内购，支持TF最新版
+Description: 基于11.39.3制作，去除启动广告，屏蔽越狱检查以及破解内购。支持TF最新版by: White
 Author: White <(null)>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sogouinput/icon.png
 Name: 搜狗输入法 NoAds
@@ -7281,14 +7390,14 @@ Version: 0.4
 Architecture: iphoneos-arm
 Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 0
-Depends: odcctools, lz4, swift, xz-utils, plutil | com.bingner.plutil
+Depends: make, odcctools, lz4, swift, xz-utils, plutil | com.bingner.plutil
 Conflicts: com.randy420.taidependsother, org.theos.dependencies
 Replaces: com.randy420.taidependsother, org.theos.dependencies, theos-dependencies
 Filename: ./debs/dependsCool_0.4_iphoneos-arm.deb
-Size: 968
-MD5sum: 1d7ea7e10d8ead7715b17688020fe3e2
-SHA1: 8b9ba08d1c8a218d9fc37dbd56ac1037043e90cd
-SHA256: 0fea0d432bd991671bcc3e640a1be2bb5a287981e7057bf5b2c20c5acd1dcdc8
+Size: 780
+MD5sum: 22afa6ce904aa5e502e0119adfd1b604
+SHA1: 5672cc267bce3e459246c2b5dd185b01f61a76a0
+SHA256: 97ef8f737b5a6c9b22bd3df350a94d9d5d39c6d2d36b6195a3d5a4803a2c7a19
 Section: Development
 Homepage: https://theemeraldisle.family
 Description: 基于Procursus越狱依赖项 (称为Coolstar越狱)
@@ -7302,14 +7411,14 @@ Version: 0.6
 Architecture: iphoneos-arm
 Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 0
-Depends: theos-dependencies, swift, curl, git
+Depends: make, theos-dependencies, swift, curl, git
 Conflicts: com.randy420.taidependsother, com.randy420.taidependslegacy
 Replaces: com.randy420.taidependsother, com.randy420.taidependslegacy
 Filename: ./debs/dependsCool_0.6_iphoneos-arm.deb
-Size: 932
-MD5sum: 56f07fb66546a4750d147938d45ca216
-SHA1: cffdc8b511f73d48326156f1c58045a6693ad85b
-SHA256: 80273dc7418e0c7ee5138676c80316bebcb19e7c0fb4140de77746b04a1dee6a
+Size: 746
+MD5sum: c9ab126e07f09b94371530ad877cb1c1
+SHA1: 83c632051cfd3b8cea84e25da87ea300cf392149
+SHA256: 8b0f8b40ac74fe468f9aa82444e3a2a8a0f137037f5cb636723cab808225145e
 Section: Development
 Homepage: https://theemeraldisle.family
 Description: 基于Procursus越狱依赖项 (称为Coolstar越狱)
@@ -7323,14 +7432,14 @@ Version: 0.6
 Architecture: iphoneos-arm64
 Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 0
-Depends: theos-dependencies, swift, curl, git
+Depends: make, theos-dependencies, swift, curl, git
 Conflicts: com.randy420.taidependsother, com.randy420.taidependslegacy
 Replaces: com.randy420.taidependsother, com.randy420.taidependslegacy
 Filename: ./debs/dependsCool_0.6_iphoneos-arm64.deb
-Size: 936
-MD5sum: e702ee71179071a1314ba1455667da0f
-SHA1: d01670436b4bb28602314969dae6fd9e65a8e241
-SHA256: ce51a1566e3488c3de20bc7a141b262eb3990e10dd076025c53c27f407e19588
+Size: 746
+MD5sum: d59bf33d28a0d09c4830c42885115b0e
+SHA1: bbd75b3cce59b7f6d23ed12ab7473375839da3df
+SHA256: 882e55bc39a114fa6f5f6fa6a4899deb5b68ef4740d97aa6868434daa06ed75c
 Section: Development
 Homepage: https://theemeraldisle.family
 Description: 基于Procursus越狱依赖项 (称为Coolstar越狱)
@@ -7524,13 +7633,13 @@ Package: com.white.thunderbeta
 Version: 1.0-4
 Architecture: iphoneos-arm64
 Maintainer: White <1410970825@qq.com>
-Installed-Size: 200
+Installed-Size: 1448
 Depends: mobilesubstrate
 Filename: ./debs/thunderbeta_1.0-4_iphoneos-arm64.deb
-Size: 16242
-MD5sum: 560dc0782abcd424857d4113f054b4eb
-SHA1: 3411305968e57a0f4b1187a77c92dc50c482d1a3
-SHA256: db6da2fb097f6776fe44bc0781915fbbeafc05fa2bab46358dffa4703b631d89
+Size: 340652
+MD5sum: b83c3ca37b6b5de1bc64e9c6a2f6a317
+SHA1: 8ede6131f7aaa2dee4c040fb52a94b1ccbd13633
+SHA256: 44445f8215e9d45cc1816ab04110c21f510476cfca555f1f412e7bc0efb5ec59
 Section: NoAds
 Description: 基于迅雷Beta版6.15.1.10127制作，伪装会员优化界面、强制开启播放锚点图
 Author: White <1410970825@qq.com>
@@ -7542,13 +7651,13 @@ Package: com.white.thunderbeta
 Version: 1.0-4
 Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
-Installed-Size: 200
+Installed-Size: 1448
 Depends: mobilesubstrate
 Filename: ./debs/thunderbeta_1.0-4_iphoneos-arm.deb
-Size: 16166
-MD5sum: 417a200739dbe915ae25850092179c3a
-SHA1: 1d7030743422d1f6e9bd7c2bfdd4ce7da0f6925f
-SHA256: 76a149f4f07b4449cc20fa12a129c7037f1e8db80a22463d57c58e3336b3acf7
+Size: 340322
+MD5sum: accee569cf97448db6343e14e7678df2
+SHA1: 4506290056ae62b298f710eb61b71af5ab7dd255
+SHA256: 7386ce52316ab04ffa82b722864d1353bbdfd596eb7946f1c32c5b26f85eee97
 Section: NoAds
 Description: 基于迅雷Beta版6.15.1.10127制作，伪装会员优化界面、强制开启播放锚点图
 Author: White <1410970825@qq.com>
@@ -7599,10 +7708,10 @@ Depends: com.white.ftt, firmware (<= 15.0) | cy+cpu.arm64v8 | oldabi-xina | olda
 Conflicts: com.randy420.tools
 Replaces: com.randy420.tools, com.randy420.encrypt
 Filename: ./debs/RandyTools_2.3.9_iphoneos-arm.deb
-Size: 698596
-MD5sum: e15b19f8492bbe4733b3a881db5f0249
-SHA1: 3fa20667e778e30377c9cd9e14098303a4da1073
-SHA256: 03f71f66ebe25e191c6f8cab9db110e7e8f67981d11e7234c8a7ee09b5a1a106
+Size: 772300
+MD5sum: 039f8c536e33e9959772858928362ec2
+SHA1: ee80d46e8ccbf991cdb7580b781c07b88162b008
+SHA256: f8c49f4236de939d283f8b9514a0c301c63f24ef8fc2f78ea6d06bdae726c14e
 Section: Development
 Homepage: https://theemeraldisle.family
 Description: 420Tools插件整合了Randy420所有插件的配置以及插件的共享文件
@@ -7991,6 +8100,42 @@ Description: 微信多功能定义助手
 Author: iBreak <ibreak2019@qq.com>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/icon.png
 Name: WeChat Helper
+
+Package: com.white.wifikey
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: White <(null)>
+Installed-Size: 220
+Depends: mobilesubstrate
+Filename: ./debs/wifikey_1.0_iphoneos-arm64.deb
+Size: 15110
+MD5sum: 34d36924815cc4e26c32eaf478181730
+SHA1: c4f6e6a22463666ea4aba5005f7451a9a9126304
+SHA256: 0f1b1eae1be58cf1a02688dd2a17658c7ae46d776fd6661339c2d675ed6171a3
+Section: NoAds
+Description: 基于1.3版本制作，WiFi万能钥匙极速版1.3去广告
+Author: White <(null)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/wifikey/icon.png
+Name: WiFi万能钥匙极速版 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/wifikey/Depiction
+
+Package: com.white.wifikey
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: White <(null)>
+Installed-Size: 220
+Depends: mobilesubstrate
+Filename: ./debs/wifikey_1.0_iphoneos-arm.deb
+Size: 14996
+MD5sum: a8ac6f364a3c0bad0e025634ecba35bd
+SHA1: c75c2f6637aadafe8b31ccbdc72121452c001ef1
+SHA256: 202648f5b1f95607565b1b91c03b366e5b0a37346d07fe4316b8d8f9467caf4d
+Section: NoAds
+Description: 基于1.3版本制作，WiFi万能钥匙极速版1.3去广告
+Author: White <(null)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/wifikey/icon.png
+Name: WiFi万能钥匙极速版 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/wifikey/Depiction
 
 Package: com.white.wtvrbglauncher
 Version: 1.1
@@ -9011,14 +9156,15 @@ Maintainer: Nets
 Installed-Size: 136
 Depends: mobilesubstrate, com.tigisoftware.appdatamanager
 Filename: ./debs/netskao.appsmanagercrack_1.1-2_iphoneos-arm.deb
-Size: 7524
-MD5sum: b300f13ad557ee5778f1c510dda23af1
-SHA1: 7f57c1be673aa45768afff346a5a4e73ad36e492
-SHA256: c6babe1642c03f025975bef1d2690e399e962de954d7276c1e443983d470fd1a
-Section: Tweaks
+Size: 7728
+MD5sum: c20aae2832c3fe834606567030dc16c5
+SHA1: 4a7530340f56d7c243f43b8d49ecbaef54afa2be
+SHA256: 5643b41e39799ecba86365507b9f1d858f9470ba4af4ee8e9c4dce3a15967373
+Section: Cracks
 Homepage: https://tigisoftware.com/cydia/
 Description: AppsManager解锁全部功能，主程序请在官方源安装
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/appsmanager/icon.png
 Name: AppsManager Crack
 
 Package: netskao.appstore++zhcn
@@ -9240,14 +9386,15 @@ Maintainer: Nets
 Installed-Size: 136
 Depends: mobilesubstrate, com.tigisoftware.filza64bit
 Filename: ./debs/netskao.filzacrack_1.1-8_iphoneos-arm.deb
-Size: 7574
-MD5sum: e8d740dd16e36e1534c915b2933e30e9
-SHA1: 706ecf811c6efaae03a4c61fe59ff28ad5a62ad6
-SHA256: ac5a1ae297d59b017bdd5ff10be7ce019e2edf5c67035c1b3d4e9141a299f15d
-Section: Tweaks
+Size: 7798
+MD5sum: 95074c9f1dcf64405e52ca0a246b613c
+SHA1: c17c61a59f194070adaee963569590d94bb5f59d
+SHA256: 51462c64a7ddb54c4f36acfad103ce3279d0b75e7480f249f462e2919c7e6cfb
+Section: Cracks
 Homepage: https://tigisoftware.com/cydia/
 Description: Filza解锁全部功能，主程序请在官方源安装
 Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/filza/icon.png
 Name: Filza Crack
 
 Package: netskao.injectipa
