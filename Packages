@@ -2653,10 +2653,10 @@ Depends: firmware (>= 7.0)
 Conflicts: ru.domo.cocoatop64, ru.domo.cocoatop
 Replaces: ru.domo.cocoatop64
 Filename: ./debs/cocoatop64_2.2.3_iphoneos-arm.deb
-Size: 254404
-MD5sum: 0deb2ed494224c3d654a2dd0ffed1e53
-SHA1: ed3df8152264ad245232f53bf04ced4253d730d3
-SHA256: dd4582a4735ced4fbbf51519511ab8bd977e75f18e926cc3532290497fa04435
+Size: 243600
+MD5sum: bde0680046253eac4d8f6734708cf0b4
+SHA1: 0fc1f1e30478b66341922ef904a9f1aa5cd80d60
+SHA256: 4a37a55310241b664ef24e96ef61fe5db515be8cb53ba3ecce9ada81093b5c21
 Section: Utilities
 Description: iOS图形界面的进程查看器，由SXX为iOS 13更新
 Author: Domo, SXX
