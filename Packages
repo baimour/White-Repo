@@ -1474,6 +1474,67 @@ Dev: CokePokes
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/appstoreplusplus/icon.png
 Name: AppStore++汉化版
 
+Package: com.white.appsyncunified
+Version: 112.0
+Architecture: iphoneos-arm
+Maintainer: White
+Installed-Size: 636
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 16.6.1)
+Conflicts: ai.akemi.appsyncunified, us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178,com.cydia.love.appsyncunified10
+Replaces: ai.akemi.appsyncunified, us.hackulo.appsync50
+Provides: appsync
+Filename: ./debs/appsyncunified_112.0_iphoneos-arm.deb
+Size: 35552
+MD5sum: 56d1bec741b80d84a6e7d58af133be5d
+SHA1: 5e7258c0b57b6bb0418ce315248c4ca01824c8e0
+SHA256: 16ac68d0c3cf1ab7028e08015a80b06067ede153546b5e385a92acdbe56254ec
+Section: Tweaks
+Description: 允许安装未签名/假签名的iOS应用
+Author: Karen/あけみ (angelXwind) <karen@angelxwind.net>
+Name: AppSync Unified
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/appsyncunified/Depiction
+
+Package: com.white.appsyncunified
+Version: 112.0
+Architecture: iphoneos-arm64
+Maintainer: White
+Depends: mobilesubstrate, firmware (<= 16.6.1)
+Conflicts: ai.akemi.appsyncunified
+Replaces: ai.akemi.appsyncunified
+Provides: ai.akemi.appsyncunified (= 112.0)
+Filename: ./debs/appsyncunified_112.0_iphoneos-arm64.deb
+Size: 34092
+MD5sum: 3995b85a59707a65798107b021a27018
+SHA1: 6e02f08c4d518a7e58c9ae537209bff128fe2cc5
+SHA256: 504e63d2147e95d22d2bae3ff62707d4f55bc50c34e93912444062c4c4562db9
+Section: Tweaks
+Description: 启用未签名/假签名的iOS应用的安装权限
+Author: Karen, Linus Yang
+Name: AppSync Unified
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/appsyncunified/Depiction
+
+Package: com.white.appsyncunified
+Version: 90.0
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 700
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 14.4)
+Conflicts: ai.akemi.appsyncunified, us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute
+Replaces: ai.akemi.appsyncunified, us.hackulo.appsync50, net.angelxwind.appsyncunified
+Provides: appsync, net.angelxwind.appsyncunified
+Filename: ./debs/appsyncunified_90.0_iphoneos-arm.deb
+Size: 38080
+MD5sum: b969df3daf6512e03c582d896481c677
+SHA1: 6cc2b4e84538b7c5289fd936b0c1525b460eccdb
+SHA256: 46aeefc8452db37d1d4915740484d3ba71b5f33dd082fab846a9ae64efc85eb2
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: 允许安装未签名/假签名的iOS应用
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
+Name: AppSync Unified
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/appsyncunified/Depiction
+
 Package: com.white.aptfix
 Version: 0.0.6
 Architecture: iphoneos-arm
@@ -1516,15 +1577,16 @@ Architecture: iphoneos-arm
 Maintainer: s1ris
 Depends: clang, clang-10, ld64, odcctools, libllvm10, liblto10, libtapi10, make
 Filename: ./debs/arm64e_tool_0.1.deb
-Size: 984
-MD5sum: 0927fe4d7d00552aff5fa1a646fd6d41
-SHA1: bea432055311fe67b895e204365d488aa6beee66
-SHA256: 365a8ad10bd1946114acaf1373641db9c82247e89e6540715a15bd7b992031a2
+Size: 860
+MD5sum: a1d97412e3f3d6c09e05d4ddc798d176
+SHA1: d93384715efaea52df09cc9831e4331ce07f9aff
+SHA256: 24d6862042536bd70ea31f6bb15c024637be927e1a7443b0c4c36cd8598ae9a2
 Section: Development
-Description: 在设备上编译arm64e架构，此插件需要安装Sam的Bingners软件源中的必要工具依赖，完成后您就可以使用arm64e架构编译Theos项目。在越狱商店允许您安装此插件之前，您可能需要手动卸载旧的开发插件。安装完成后就可以卸载此插件了
+Description: 编译arm64e架构依赖
 Author: s1ris
 Depiction: https://apt.s1ris.org/depictions/arm64e/index.html
 Name: arm64e Tools
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/arm64e/Depiction
 
 Package: com.white.atria
 Version: 1.4.1
@@ -2611,10 +2673,10 @@ Depends: firmware (>= 7.0)
 Conflicts: ru.domo.cocoatop64, ru.domo.cocoatop
 Replaces: ru.domo.cocoatop64
 Filename: ./debs/cocoatop64_2.2.3_iphoneos-arm64.deb
-Size: 257380
-MD5sum: 18a0c96b52b8790af6ac7e01859474b6
-SHA1: cfaa21ed920aba362635bbaf5d57f9658a7e3125
-SHA256: 181a8a750d4ed1f242a5a927e0ad9d728423a77ff3f8e590e8357038577c8671
+Size: 246928
+MD5sum: 805d7f10c472433807131a3d554909d0
+SHA1: db8f5a474a2452ce48f3a4b90371d507dc6aa6c0
+SHA256: 611832fc4cdbc7ede1bb45ae9a4db1657355169637943add2c076fab0fc8586b
 Section: Utilities
 Description: iOS图形界面的进程查看器，由SXX为iOS 13更新
 Author: Domo, SXX
