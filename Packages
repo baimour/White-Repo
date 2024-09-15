@@ -2989,16 +2989,35 @@ Depends: coreutils, sed, gawk, findutils, curl, zstd, xz-utils, bzip2, gzip
 Conflicts: com.nan.deb
 Replaces: com.nan.deb
 Filename: ./debs/deb_0.2.9_iphoneos-arm.deb
-Size: 5392
-MD5sum: 1914a40c0c27202ebcf8dda00b8a9b60
-SHA1: b50ec0c9ddada6ffd947ca4adf686cfd08bcb956
-SHA256: 728d17819fe6d2f7731f3e4bef90b6644b628154408678afb9fc2c603ecbbb36
+Size: 5548
+MD5sum: 5315a2aa08d822c36371adef41af4772
+SHA1: bbb3fee7ff84ab92934f39938bb556b3f5476bbc
+SHA256: 704ac0c75167daa5e4c8d805630f7fd2abc1412d2d7f39b8cf459fd7cf36545f
 Section: Development
 Description: deb工具，普通解压，普通打包，批量解压，批量打包，提取已安装插件，deb信息查看
 Author: zhaonan <invalidunit@icloud.com>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/newterm/icon.png
 Name: deb
-Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/newterm/Depiction
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/deb/Depiction
+
+Package: com.white.deb
+Version: 0.2.9
+Architecture: iphoneos-arm64
+Maintainer: zhaonan
+Depends: coreutils, sed, gawk, findutils, curl, zstd, xz-utils, bzip2, gzip
+Conflicts: com.nan.deb
+Replaces: com.nan.deb
+Filename: ./debs/deb_0.2.9_iphoneos-arm64.deb
+Size: 5580
+MD5sum: d77cfe37a348d6431bd4f85f6fafa047
+SHA1: f1bb002c9f42353e479e92abeeba96293e63655a
+SHA256: 911a391d6ed43f6fc08a2558c82bb561981202baa8f3fa3c59cd5d2c22ab26a9
+Section: Development
+Description: deb工具，普通解压，普通打包，批量解压，批量打包，提取已安装插件，deb信息查看
+Author: zhaonan <invalidunit@icloud.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/newterm/icon.png
+Name: deb
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/deb/Depiction
 
 Package: com.white.deleteforever
 Version: 0.0.1-57
@@ -3907,12 +3926,12 @@ Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
 Conflicts: ru.rejail.filza, com.tigisoftware.filza, com.tigisoftware.filza39, netskao.filzacrack
 Replaces: ru.rejail.filza, com.tigisoftware.filza, com.tigisoftware.filza39, netskao.filzacrack
 Filename: ./debs/filza_4.0.1-4_iphoneos-arm64.deb
-Size: 6916068
-MD5sum: 80131576823cb6692afde7515aae0127
-SHA1: ce77e15fe92cf3ae5606158b79d7ab7162bcd071
-SHA256: 61f31a72449f040749f1bf406a088cfc8981942327ba8c01854a80d36d41d3b9
+Size: 6916480
+MD5sum: 1d101d7e523fb320323eb82d16f9b3dc
+SHA1: 0afe79d6ac211f81b89dfc79f607f9874736e5a2
+SHA256: 56d9d55a2902491bb7b4eca0245ac58b125921858de020b961dd48292c2028ae
 Section: Utilities
-Description: 适用iPhone、iPad、iPod Touch的文件管理器，该版本仅支持iOS 11+的64位设备
+Description: 适用iPhone、iPad、iPod Touch的文件管理器，支持iOS 11+的64位设备
 Author: TIGI Software
 Depiction: https://rejail.ru/depiction.php?file=filza
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/filza/icon.png
@@ -3927,12 +3946,12 @@ Installed-Size: 19388
 Conflicts: ru.rejail.filza, com.tigisoftware.filza, com.tigisoftware.filza39, netskao.filzacrack
 Replaces: ru.rejail.filza, com.tigisoftware.filza, com.tigisoftware.filza39, netskao.filzacrack
 Filename: ./debs/filza_4.0.1-4_iphoneos-arm.deb
-Size: 6906272
-MD5sum: 8bcd1be77188d9dfc2c19fd8b93e9a59
-SHA1: 63f0618388a9bf3f210ebfcd6a600245d84e64a8
-SHA256: 72664ab5768e9d05938f68cece741ebf82acc8062015281944c0e1439fc04125
+Size: 6905948
+MD5sum: 2c71bc3a451363728f80f9e9d16e54f9
+SHA1: d106cb8e6269db5950fa1f13bace986a840700d9
+SHA256: 5b6ddaa55237f3ca42f905bbb9ca76cb2f4d146d49c661dffc09e6fc2ae1e675
 Section: Utilities
-Description: 适用iPhone、iPad、iPod Touch的文件管理器，该版本仅支持iOS 11+的64位设备
+Description: 适用iPhone、iPad、iPod Touch的文件管理器，适用于iOS 11+额64位设备
 Author: TIGI Software
 Depiction: https://rejail.ru/depiction.php?file=filza
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/filza/icon.png
@@ -5687,10 +5706,10 @@ Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.c
 Conflicts: ws.hbang.newterm2, com.alucard.newterm.cn, ws.hbang.newterm, com.lint.ntarrows
 Replaces: ws.hbang.newterm2, com.alucard.newterm.cn, ws.hbang.newterm, com.lint.ntarrows
 Filename: ./debs/newterm2_2.5_iphoneos-arm.deb
-Size: 31122602
-MD5sum: 78e023b3b48e6aaa62f561a42ab18e92
-SHA1: 45ab51a7bd72895c5635581faf2e7f86a5931207
-SHA256: 20aa27d6bd60a412d0314cff88ebf83886c4da6a4c0a7615622f5242ef481657
+Size: 2021868
+MD5sum: 9cab9dce3012d863cfca78cc06568bfb
+SHA1: 6b2ab2ee7b29f50734821b72634ea0d72ec8c795
+SHA256: e2f622faffe84db5d0bfca942601c5d1f09e42f7e8b1b07dd8c46f4456832caf
 Section: Utilities
 Description: 功能强大的iOS终端程序
 Tag: compatible_min::ios10.0
@@ -5711,10 +5730,10 @@ Recommends: gettext-localizations, iterm2-shell-integration, zsh-autosuggestions
 Conflicts: ws.hbang.newterm, ws.hbang.newterm2, ws.hbang.newterm3
 Replaces: ws.hbang.newterm, ws.hbang.newterm2, ws.hbang.newterm3
 Filename: ./debs/newterm3_3.0~beta1_iphoneos-arm64.deb
-Size: 23545148
-MD5sum: cbe216002586542fc1901cc4c9d4152e
-SHA1: afa9349c3ecc22471266b0f9143be37668a20d56
-SHA256: 2a2f8ff28c22f734038a6d33cfcc300c92329a84aed33f0aa9e92acd6e8197d9
+Size: 2113656
+MD5sum: 120a55aeca7e484d5561d2c1a72d60bd
+SHA1: fae8c124d58d82c1832184212da8675120540e45
+SHA256: ef4319d7d32e7bb77daf254d6dec2d40305101757944a97c3d9a8189bd81d2fb
 Section: Utilities
 Description: 功能强大的iOS终端程序
 Tag: compatible_min::ios14.0
@@ -5736,10 +5755,10 @@ Recommends: gettext-localizations, iterm2-shell-integration, zsh-autosuggestions
 Conflicts: ws.hbang.newterm, ws.hbang.newterm2, ws.hbang.newterm3
 Replaces: ws.hbang.newterm, ws.hbang.newterm2, ws.hbang.newterm3
 Filename: ./debs/newterm3_3.0~beta1_iphoneos-arm.deb
-Size: 23545428
-MD5sum: 98b129139ccb4ef1cea7f5b157d34ce6
-SHA1: dac53cebdd74005faa1273f9adfca127a6000e6e
-SHA256: ceb8f770b4fcc7bfba0c4e868952b3f38621572064012a620c2bcee988313faa
+Size: 2112680
+MD5sum: 02c4beafa3fcfa1f45393fb41768d80b
+SHA1: 8784900293bdf32f20dfb0cbd522942ed67dc326
+SHA256: e4e730d1bfc860f3471d8d0e88a5bd0483328dbacb863c2a8de498d73e6459c9
 Section: Utilities
 Description: 功能强大的iOS终端程序
 Tag: compatible_min::ios14.0
@@ -7448,6 +7467,52 @@ Author: Randy420 <randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/taidependscoolstar.html
 Name: Dependencies for Procursus
 
+Package: com.white.taidependscoolstar
+Version: 0.7
+Architecture: iphoneos-arm64
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 0
+Depends: clang, odcctools, curl, git, grep, perl, rsync, unzip, xz-utils, make, ldid, swift, file, fakeroot, clang-tools
+Conflicts: com.randy420.taidependsother, com.randy420.taidependslegacy
+Replaces: com.randy420.taidependsother, com.randy420.taidependslegacy
+Filename: ./debs/dependsCool_0.7_iphoneos-arm64.deb
+Size: 1040
+MD5sum: da4077f02cf38b4797c546280272c55a
+SHA1: abd2a6c660bfa5de698af9bf8eb5169d5b1e74e3
+SHA256: d859ae06cf814b51db56c71387388b9edd2f2f3757a2243cfcbfb988b7ce2a8e
+Section: Development
+Homepage: https://theemeraldisle.family
+Description: 基于Procursus源环境开发依赖项
+Tag: role::hacker
+Author: Randy420 <randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/taidependscoolstar.html
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/taidependscoolstar/icon.png
+Name: Dependencies for Procursus
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/taidependscoolstar/Depiction
+
+Package: com.white.taidependscoolstar
+Version: 0.7
+Architecture: iphoneos-arm
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 0
+Depends: clang, odcctools, curl, git, grep, perl, rsync, unzip, xz-utils, make, ldid, swift, clang-tools
+Conflicts: com.randy420.taidependsother, com.randy420.taidependslegacy
+Replaces: com.randy420.taidependsother, com.randy420.taidependslegacy
+Filename: ./debs/dependsCool_0.7_iphoneos-arm.deb
+Size: 1028
+MD5sum: cb6f36bcf895f616a81aa81431f0b82b
+SHA1: 23b3a76a6a59dcafacd2b514b10d2cf301471ef5
+SHA256: d97ce885ee7b69e4bf7301a05c01bf379655f540cba6a83bff2276d7b7b37362
+Section: Development
+Homepage: https://theemeraldisle.family
+Description: 基于Procursus源环境开发依赖项
+Tag: role::hacker
+Author: Randy420 <randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/taidependscoolstar.html
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/taidependscoolstar/icon.png
+Name: Dependencies for Procursus
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/taidependscoolstar/Depiction
+
 Package: com.white.taobao
 Version: 1.0-1
 Architecture: iphoneos-arm
@@ -7574,6 +7639,44 @@ Dev: tetherme
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/tetherme8/icon.png
 Name: TetherMe for iOS 8+
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.white.theosdepends
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: White <(NULL)>
+Depends: com.white.taidependscoolstar
+Conflicts: com.randy420.taidependsother, com.randy420.taidependslegacy
+Replaces: com.randy420.taidependsother, com.randy420.taidependslegacy
+Filename: ./debs/TheosDepends_1.4_iphoneos-arm64.deb
+Size: 29181148
+MD5sum: 3e6d1216fd64a087d51540f441a9f679
+SHA1: 6c2bdddcd54063df81fe1dcf77b0915018ab0771
+SHA256: 13c00daf4936777f9c227a3e6cbfe2ffc94e7b00d3b2951f9017471173b061ed
+Section: Development
+Description: Theos开发环境，已内置sdk
+Author: White <(NULL)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/theosdepends/icon.png
+Name: Theos Resource
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/theosdepends/Depiction
+
+Package: com.white.theosdepends
+Version: 1.4
+Architecture: iphoneos-arm
+Maintainer: White <(NULL)>
+Depends: com.white.taidependscoolstar
+Conflicts: com.randy420.taidependsother, com.randy420.taidependslegacy
+Replaces: com.randy420.taidependsother, com.randy420.taidependslegacy
+Filename: ./debs/TheosDepends_1.4_iphoneos-arm.deb
+Size: 29034276
+MD5sum: 5ab034d93e047bec59d96229ef37d21f
+SHA1: c6d323ea5e9b42338c2b99f59f7f75a894b281d1
+SHA256: 1e0b6d19b7a68e9fd2e9fd67533b1053ccb570691ed902d4efae510e0e7c3538
+Section: Development
+Description: Theos开发环境，已内置sdk
+Author: White <(NULL)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/theosdepends/icon.png
+Name: Theos Resource
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/theosdepends/Depiction
 
 Package: com.white.theostips
 Version: 1.0-1
