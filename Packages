@@ -7710,10 +7710,10 @@ Depends: com.white.taidependscoolstar
 Conflicts: com.randy420.taidependsother, com.randy420.taidependslegacy
 Replaces: com.randy420.taidependsother, com.randy420.taidependslegacy
 Filename: ./debs/TheosDepends_1.4_iphoneos-arm64.deb
-Size: 29181148
-MD5sum: 3e6d1216fd64a087d51540f441a9f679
-SHA1: 6c2bdddcd54063df81fe1dcf77b0915018ab0771
-SHA256: 13c00daf4936777f9c227a3e6cbfe2ffc94e7b00d3b2951f9017471173b061ed
+Size: 29190096
+MD5sum: daf38925559ff7b7206b2d6a2ad08dd7
+SHA1: 2779a2d80f199d380278ff4ca4ec095dc64e227e
+SHA256: 2202fbdc74c7b52a1265932020bf577e72457392695f4233e6943520e126c806
 Section: Development
 Description: Theos开发环境，已内置sdk
 Author: White <(NULL)>
@@ -7895,10 +7895,10 @@ Depends: com.white.ftt, firmware (<= 15.0) | cy+cpu.arm64v8 | oldabi-xina | olda
 Conflicts: com.randy420.tools
 Replaces: com.randy420.tools, com.randy420.encrypt
 Filename: ./debs/RandyTools_2.3.9_iphoneos-arm64.deb
-Size: 548684
-MD5sum: 67895d139ed749731f89d596fcaeb105
-SHA1: b000d2f62c0b8a3288bd8c9026ad0a0a6ce2cebc
-SHA256: c6708dae728a9b81b1005e57c2766d6f6072e5a98a666cd685ecc4aec12f32d8
+Size: 547532
+MD5sum: 85c6960027c4790047e487e2cfad1576
+SHA1: de79bcf8eaf272e804951b4cb1a60de205c228cc
+SHA256: 549bf43ba3038bc93d42a4a8c403ee2bd4f67cc775ea54f85c5145a38eba7dad
 Section: Development
 Homepage: https://theemeraldisle.family
 Description: 420Tools插件整合了Randy420所有插件的配置以及插件的共享文件
