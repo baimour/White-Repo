@@ -77,14 +77,16 @@ Maintainer: flyX099
 Installed-Size: 1616
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/3dmenu.cheatpatch_1.0.0_iphoneos-arm64.deb
-Size: 402380
-MD5sum: 3a7151a4c856d67676e845dc968c2b6b
-SHA1: cfd2b82538db7c103e92726a9fe366ed81b72630
-SHA256: 2c0ea7ddcab04ef80eb9765306ca504fac04af3f4d02bf20dfd6974c6234a9b2
+Size: 402640
+MD5sum: e5326475c3ed78bd4bc0909b499b8527
+SHA1: 3217a37bc6413e7f6846c7ac4f4085aff0658cf5
+SHA256: bccfa068f4cabdbf164dc9f6da7685deb126c407b722e7490b634b3c6350ade1
 Section: Tweaks
-Description: 自用 上传备份(勿下) 使用3DMenu快速注入iGameGod(无广告+汉化) 内购破解 秒过广告 修补偏移地址 脱壳等
+Description: 使用3DMenu快速注入iGameGod(无广告+汉化) 内购破解 秒过广告 修补偏移地址 脱壳等
 Author: flyX099
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cheatpatch/icon.png
 Name: 3DMenuGameTool
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cheatpatch/Depiction
 
 Package: com.3dmenu.cheatpatch
 Version: 1.0.0
@@ -93,14 +95,16 @@ Maintainer: flyX099
 Installed-Size: 1600
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/3dmenu.cheatpatch_1.0.0_iphoneos-arm.deb
-Size: 401020
-MD5sum: adb2521fe822f1e0e6ef1ec8fa458379
-SHA1: e9e547e989ed6cc255ec9636b6ab2d754a4f2a83
-SHA256: 409a34a7aabf8eea41793be09ecc043b6313ada9b043abbc513a46b077cca7ca
+Size: 401240
+MD5sum: 7f161fa82f886af12b112af4939c014d
+SHA1: 33b3be74d088126de80193fff637b7222123a645
+SHA256: 00c5049d9252dd952f146365b3534a6cd35d981acd09c5365bc353de527943ef
 Section: Tweaks
-Description: 自用 上传备份(勿下) 使用3DMenu快速注入iGameGod(无广告+汉化) 内购破解 秒过广告 修补偏移地址 脱壳等
+Description: 使用3DMenu快速注入iGameGod(无广告+汉化) 内购破解 秒过广告 修补偏移地址 脱壳等
 Author: flyX099
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cheatpatch/icon.png
 Name: 3DMenuGameTool
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cheatpatch/Depiction
 
 Package: com.Joka.NFSMostWantedFreeHack
 Version: 1.1.0
@@ -271,16 +275,53 @@ Version: 1.25
 Architecture: iphoneos-arm
 Maintainer: Elio Feghali
 Installed-Size: 688
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/souvenir_1.25.deb
-Size: 3688488
-MD5sum: 70b7565d4c24db11726ff01115602112
-SHA1: 284801264cb759bfc3a9da95d66b99937d0fca9c
-SHA256: d04f265e5f6a65dc5ff0b71e5d9ff3893246f0d8f03777c92f0c9ba301260faf
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/souvenir_1.25_iphoneos-arm.deb
+Size: 3688052
+MD5sum: d8dc0d13288a187950cd0c605317dec6
+SHA1: 713a8724605231aeba2de14e3bd38bc477ddba54
+SHA256: 8d794b249140da3a71fe7d6a6c7b730b484a30d5b63c434735ba5ca8e6ad7672
 Section: Tweaks
-Description: 锁屏界面自定义调整！
+Description: 锁屏界面自定义美化！
 Author: Elio Feghali
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/souvenir/icon.png
 Name: Souvenir
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/souvenir/Depiction
+
+Package: com.eliofeghali.souvenir
+Version: 1.25
+Architecture: iphoneos-arm64
+Maintainer: Elio Feghali
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/souvenir_1.25_iphoneos-arm64.deb
+Size: 108496
+MD5sum: d2fb3df188e105be0a73a4bddb2cc6a7
+SHA1: ff60f6fbb0533efad0b8e555a2b6cbc70aecc9c9
+SHA256: 83376fe4f0b0f117c2b7ee9b7c7bed1b1e3c869a9953ce8703cf56ce3aa6eb29
+Section: Tweaks
+Description: 锁屏界面自定义美化！
+Author: Elio Feghali
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/souvenir/icon.png
+Name: Souvenir
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/souvenir/Depiction
+
+Package: com.eliofeghali.souvenir
+Version: 1.31
+Architecture: iphoneos-arm64
+Maintainer: Elio Feghali
+Installed-Size: 676
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/souvenir_1.31_iphoneos-arm64.deb
+Size: 110664
+MD5sum: 3c76eae2cd6de6c943a09b169d391dde
+SHA1: 0fccdc75e69b73f997e9ffeae15463d830835e24
+SHA256: 180e6ce6e70b502ddf4adcb569ddf4eabf8770d1d69cf8da1c16ce233b5bb4d2
+Section: Tweaks
+Description: 锁屏界面自定义美化！
+Author: Elio Feghali
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/souvenir/icon.png
+Name: Souvenir
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/souvenir/Depiction
 
 Package: com.huayuarc.qjkqdbyx
 Version: 0.0.1.1+debug
@@ -540,14 +581,16 @@ Installed-Size: 2440
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Conflicts: com.c1d3r.pulloverpro
 Filename: ./debs/com.netskao.pulloverpro_2.1.5-3_iphoneos-arm64.deb
-Size: 708676
-MD5sum: 0d5bb99533a16ce1cc1b91d7b2f3a98c
-SHA1: d1846d6e2679c22053143f90df32b078e3af7730
-SHA256: 7b84f96476ff1692fad995a3422b7fafe59c16a58b88cb22e40bae2a20658060
+Size: 708008
+MD5sum: e6f3225bfa9ea32d57c923ebe6f06152
+SHA1: 66f103d4c02eb55387baa05391ce7a8cb858080d
+SHA256: a3558a8dc7e3f13eabe5a3edb326e13edb7c41c7a5cefa7e320c99bd0a14cff3
 Section: Tweaks
-Description: 更好的多任务分屏！修复对iOS15+的支持
+Description: 更好的多任务分屏，修复iOS15+的支持
 Author: c1d3r
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/pulloverpro/icon.png
 Name: PullOver Pro
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/pulloverpro/Depiction
 
 Package: com.opa334.altlist
 Version: 1.0.10
@@ -1267,10 +1310,10 @@ Maintainer: CUNSTUCK
 Installed-Size: 820
 Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.rpetrich.rocketbootstrap, org.mr.cunstuck|com.white.cunstuck
 Filename: ./debs/afakerx_2.3-7.deb
-Size: 88392
-MD5sum: b4f0dec8121c691c12c9a17a570e73ce
-SHA1: 341078be5cecc8409fcea5a5313fb1420d5326f7
-SHA256: 27840d45e952d905855d4fb3e815e5599f685c7bf516ed1a1c50d29eb8a56c8a
+Size: 88472
+MD5sum: a7eccdbdb2a7ae1e8d27366e462f7a58
+SHA1: 8114c1788ad1534cb0e6e3dc913d489f952b7635
+SHA256: 4cd0a816c9cceed25cf4763adfd54ece36ac3aee9da0db1204f4aeac01ed9803
 Section: Tweaks
 Description: 隐藏/加密应用程序
 Tag: purpose::extension, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
@@ -1387,14 +1430,15 @@ Depends: mobilesubstrate
 Conflicts: com.yourepo.ibreak.allowkeyboard
 Replaces: com.yourepo.ibreak.allowkeyboard
 Filename: ./debs/allowkeyboard_1.6.deb
-Size: 6286
-MD5sum: 710c694a5e576b7db4430d740b4c9e4b
-SHA1: c14017e0a9716bb40256c86c322f082a6eca03c2
-SHA256: c8eca47b9c68e7e974e44da329f5a0ad05175e75d4f09d18eb38295cf8f9208f
+Size: 6140
+MD5sum: eac252e1ac52d505a8209714cfc62d5d
+SHA1: ae5b08b259f6447493f94ecb0ea0f7f833f23af1
+SHA256: 76589373677b0b02a44569fc9df0df75d223babe7c04153e1c29f6f4742e85e8
 Section: Tweaks
 Description: 允许第三方键盘获取优先级权限，输入密码时可使用第三方输入法
 Author: iBreak <ibreak2019@qq.com>
 Name: Allow KeyBoard
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/allowkeyboard/Depiction
 
 Package: com.white.analytics
 Version: 0.0.3
@@ -1677,14 +1721,14 @@ Maintainer: @akusio_RR
 Installed-Size: 340
 Depends: mobilesubstrate, com.opa334.ccsupport
 Filename: ./debs/backgrounderaction15_0.1.0_iphoneos-arm64.deb
-Size: 10172
-MD5sum: 9978891239050954835ff7930b48cb21
-SHA1: f5ef37ebe04bf1832973760ec085e5dd113266b8
-SHA256: d41ffc811951336751f31c40503e20ce2c5fd45a2199c5fb42c4cd9c1d6a175f
+Size: 10188
+MD5sum: 59ee6486d29f8d25b0702f0d00768855
+SHA1: 979a84aaefd48af83c541c9eeea36f7ef69ba9ee
+SHA256: db3e999ab78200f4a9f15a38c9d8f888eb8efe9cf6c938a9f4e638a31c6508cb
 Section: Tweaks
 Description: iOS15+真后台模块，控制中心里添加后进入你想要的APP，下滑控制中心点击真后台按钮即可！
 Author: @akusio_RR
-Icon: https://chinesebuilding.club/pic/cydia.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/milkyway/icon.png
 Name: CCSupport真后台模块
 
 Package: com.white.bankabc
@@ -9251,14 +9295,15 @@ Maintainer: Nets
 Installed-Size: 796
 Depends: firmware (>= 15.0), mobilesubstrate
 Filename: ./debs/netskao.actionbarreborn_1.1-2_iphoneos-arm64.deb
-Size: 161692
-MD5sum: 80b5047a0240c031abd326e65777ff3f
-SHA1: 36f5040c63cf6536727e7ae61065c7bfd02aa16d
-SHA256: da875ae84afdc312001948e9e0444d7f66b5da8a06037da06db8920acf9e2702
+Size: 161628
+MD5sum: 98b9b20512de22601f9c5dde945ee0c6
+SHA1: d267a085bd7be0506388903193dee62d2bab2e86
+SHA256: f093b2a60f23cf6b6102aab8e2ea7a4c2d57395d23b001b209aaa48ef081d05f
 Section: Tweaks
 Description: 在键盘底部撤销、重做、全选、复制、剪切和粘贴操作
 Author: Netskao
 Name: ActionBar Reborn
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/actionbarreborn/Depiction
 
 Package: netskao.appdata
 Version: 1.4.1
@@ -9569,15 +9614,16 @@ Maintainer: Nets
 Installed-Size: 3492
 Depends: firmware (>= 11.0)
 Filename: ./debs/netskao.injectipa_1.4-4_iphoneos-arm.deb
-Size: 1111412
-MD5sum: ba459a4925baf8c861f79306c4cd6561
-SHA1: 8dc783ea6ccd1372f3ea4d77aaebecac2f626689
-SHA256: 20fe7d0add6378276016ae19e74ea9c5b1dd9bcc48fbaefe4801bdb21aad52eb
+Size: 946696
+MD5sum: cc8ab67083e62fb29ea090d05d652245
+SHA1: e26912f333dccdadae0a02688a670753821a604b
+SHA256: 36572816d29505c105150be609cf1a3a512699a5d20aca0deba79bbf68ce1c06
 Section: Tweaks
 Homepage: https://github.com/Netskao/MacOS-Utils
-Description: injectipa是一款命令行一键注入dylib到ipa工具. 用法: injectipa ipa路径 dylib路径 (如有多个dylib依次填写在末尾即可), 其它参数执行injectipa查看即可, 注入完成后的IPA需要签名使用
+Description: 命令行一键注入dylib到ipa工具
 Author: Netskao
 Name: injectipa
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/injectipa/Depiction
 
 Package: netskao.injectipa
 Version: 1.4-4
@@ -9586,14 +9632,15 @@ Maintainer: Nets
 Installed-Size: 3508
 Depends: firmware (>= 15.0)
 Filename: ./debs/netskao.injectipa_1.4-4_iphoneos-arm64.deb
-Size: 964936
-MD5sum: 2a11fea2308dcceeb12c11679c61eb0b
-SHA1: ade236346a3471d0cf0ff5e07edc63d57b406c72
-SHA256: d298a9dd36b0f351deb3df5ce75ea838b70f99e69a5e4bb018e77d0339467521
+Size: 962972
+MD5sum: 2eec8ee11ff0efe7ec2bdf904d2fb6be
+SHA1: 8049a55fb6bc86d4c220ccfe17569b4ce54864ff
+SHA256: 4913f69790cf623de372d2fe19fc1256a75e0de6fd73f26fcee05c4c8c453e5e
 Section: Tweaks
-Description: injectipa是一款命令行一键注入dylib到IPA工具. 用法: injectipa IPA路径 dylib路径 (如有多个dylib依次填写在末尾即可), 其它参数执行injectipa查看即可, 注入完成后的IPA需要签名使用
+Description: 命令行一键注入dylib到ipa工具
 Author: Netskao
 Name: injectipa
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/injectipa/Depiction
 
 Package: netskao.lookinloader
 Version: 1.1-3
