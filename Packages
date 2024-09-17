@@ -294,10 +294,10 @@ Architecture: iphoneos-arm64
 Maintainer: Elio Feghali
 Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/souvenir_1.25_iphoneos-arm64.deb
-Size: 108496
-MD5sum: d2fb3df188e105be0a73a4bddb2cc6a7
-SHA1: ff60f6fbb0533efad0b8e555a2b6cbc70aecc9c9
-SHA256: 83376fe4f0b0f117c2b7ee9b7c7bed1b1e3c869a9953ce8703cf56ce3aa6eb29
+Size: 3680764
+MD5sum: 543f6c3ed2ab80cccffa4395e381512d
+SHA1: 41726ff5624ccf6be856f05057d10cf330cf82d2
+SHA256: f7d5fa2eefb653030bacfa10e3f7f1087359a27874c24759a53d6b2cb38b75b0
 Section: Tweaks
 Description: 锁屏界面自定义美化！
 Author: Elio Feghali
@@ -312,10 +312,10 @@ Maintainer: Elio Feghali
 Installed-Size: 676
 Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/souvenir_1.31_iphoneos-arm64.deb
-Size: 110664
-MD5sum: 3c76eae2cd6de6c943a09b169d391dde
-SHA1: 0fccdc75e69b73f997e9ffeae15463d830835e24
-SHA256: 180e6ce6e70b502ddf4adcb569ddf4eabf8770d1d69cf8da1c16ce233b5bb4d2
+Size: 3682996
+MD5sum: 7e593b14c62b81ef72cf37e7c2fc702d
+SHA1: ad9376b7152c51a40e93150a66689d7229f5cf8e
+SHA256: 7ff1653aaf38d7b121b5555f9253a4dc1add30d1ea9ee5424897ca7bb1dd59f4
 Section: Tweaks
 Description: 锁屏界面自定义美化！
 Author: Elio Feghali
