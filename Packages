@@ -1784,6 +1784,43 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/bd
 Name: 百度网盘 NoAds
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/bdpan/Depiction
 
+Package: com.white.betterccxi
+Version: 1.6.0
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 770
+Depends: firmware (>= 11.0), mobilesubstrate, com.opa334.ccsupport, preferenceloader
+Filename: ./debs/betterccxi_1.6.0_iphoneos-arm.deb
+Size: 67820
+MD5sum: ef49a4ea425b0c08b56b2ccafb0d25ef
+SHA1: ca3e7d7e554fb8608959f12afc6d34e4d2f03ce9
+SHA256: 8844b8ea56914a8883af69da52fe7e7af6354522c774e8e410a703c79d1162ec
+Section: Tweaks
+Description: 修改控制中心模块
+Author: ATWiiks
+Depiction: https://rejail.ru/depiction.php?file=betterccxi
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/betterccxi/icon.png
+Name: BetterCCXI
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/betterccxi/Depiction
+
+Package: com.white.betterccxi
+Version: 1.6.1
+Architecture: iphoneos-arm64
+Maintainer: ATWiiks
+Installed-Size: 640
+Depends: firmware (>= 11.0), mobilesubstrate, com.opa334.ccsupport, oldabi
+Filename: ./debs/betterccxi_1.6.1_iphoneos-arm64.deb
+Size: 81116
+MD5sum: 5b2c0ce9b513b5fa109bb5fcd7661946
+SHA1: 2347c93cc6e020550fbe2d1c2fe1fa535d7cc2b8
+SHA256: 33a1e5c89453830711da952796bb7630f6e99e946022ecb8392f2ef950f01733
+Section: Tweaks
+Description: 修改控制中心模块，此为转插，需要legacy插件支持，可能有注销重启风险
+Author: ATWiiks
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/betterccxi/icon.png
+Name: BetterCCXI
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/betterccxi/Depiction
+
 Package: com.white.bfdecrypt
 Version: 1.3.5
 Architecture: iphoneos-arm
@@ -3892,19 +3929,18 @@ Version: 1.0.1
 Architecture: iphoneos-arm64
 Maintainer: Skitty
 Installed-Size: 504
-Depends: mobilesubstrate, preferenceloader
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
 Filename: ./debs/ersatz_1.0.1_iphoneos-arm64.deb
-Size: 49160
-MD5sum: 28fb15dce4f7da209eed2b855ecbc75c
-SHA1: 4a6fd135180aca70d7bf572ff0ebc27e34b5eb07
-SHA256: e4e5eb308e06c1372f8709eaac64a812065c94a2f9f70ed7e28f837d1e0ebd7c
+Size: 49204
+MD5sum: c6a70cd1384e2ed60011991a34220b7a
+SHA1: 642e50fa3e2a72a845c11dd433aa50830691ac41
+SHA256: 46ebc4f29a3b64e43c1428d8db38f2f0bd0a070e196cb1a78cb5843a9901ac95
 Section: Tweaks
-Description: 全局替换任意位置的文字，可用来汉化插件，也可以改自己想要显示的文字！
+Description: 任意替换全局位置的文字，可用来汉化插件，也可以改自己想要显示的文字！
 Author: Skitty
-Depiction: https://skitty.xyz/repo/depictions/xyz.skitty.ersatz/
-Icon: https://skitty.xyz/repo/icons/xyz.skitty.ersatz.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ersatz/icon.png
 Name: Ersatz
-Sileodepiction: https://skitty.xyz/repo/depictions/xyz.skitty.ersatz/sileo.json
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ersatz/Depiction
 
 Package: com.white.exacttime
 Version: 2.0.1
@@ -7071,6 +7107,27 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/si
 Name: zh-Hans For Sileo
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sileo-zh/Depiction
 
+Package: com.white.sixls
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: Skitty
+Installed-Size: 2260
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0), firmware(>= 12.2) | org.swift.libswift (>= 5.0)
+Conflicts: xyz.skitty.sixls
+Replaces: xyz.skitty.sixls
+Filename: ./debs/sixls_1.1_iphoneos-arm64.deb
+Size: 1473312
+MD5sum: 86f5b770500f0cd1d65798424c4eb955
+SHA1: 1be4c4728d6d01cf07eb79af2b0c06973795fb65
+SHA256: df3a7641092f123195c7c9c103913bc86277f84ec12ad9e66fd797069d159150
+Section: Tweaks
+Description: iOS6风格锁屏、音效、外观
+Author: Skitty
+Depiction: https://skitty.xyz/repo/depictions/xyz.skitty.sixls
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sixls/icon.png
+Name: Six (LS)
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sixls/Depiction
+
 Package: com.white.smartbattery
 Version: 3.5
 Architecture: iphoneos-arm
@@ -9547,19 +9604,37 @@ Name: CCSwitchData
 
 Package: netskao.deletephotoscompletely
 Version: 1.2-2
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 184
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./debs/netskao.deletephotoscompletely_1.2-2_iphoneos-arm64.deb
+Size: 17096
+MD5sum: 730a80a1e10d9f97752ea85019e5c6c7
+SHA1: ea9010fe3cf75ad3351099322262edf6abf77e33
+SHA256: de8c11b00cc05a4e9efe157a9e7ac13d0325a2397b6ff88c844f99a8bfa5353d
+Section: Tweaks
+Description: 为相册添加彻底删除照片选项
+Author: Netskao
+Name: DeletePhotosCompletely
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/deletephotoscompletely/Depiction
+
+Package: netskao.deletephotoscompletely
+Version: 1.2-2
 Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 136
 Depends: mobilesubstrate, firmware (>= 11.0)
 Filename: ./debs/netskao.deletephotoscompletely_1.2-2_iphoneos-arm.deb
-Size: 5744
-MD5sum: 8287c8b6d9d46da8806a27872510c23d
-SHA1: 6a8724304b30f0fd604bd5b22e53f906529a297b
-SHA256: 7d7d4ed3fad800f7c3d2fb1b0201b91aafa8ed6c1ccb3cbbf9bcb32fa729b098
+Size: 5688
+MD5sum: e2437a6032c17d1755188133908477cc
+SHA1: 8d55df8a4b29a762f18a9f7bc909866144f8ddf8
+SHA256: c2f9cc8e4fcb56c445837c11c6033b30a3a4df614d60cdea203f360b5631e4ce
 Section: Tweaks
 Description: 为相册添加彻底删除照片选项
 Author: Netskao
 Name: DeletePhotosCompletely
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/deletephotoscompletely/Depiction
 
 Package: netskao.disablepastetips
 Version: 1.1-5
@@ -10910,25 +10985,6 @@ Priority: optional
 Homepage: http://www.python.org/
 Description: 架构编程语言依赖
 Name: Python
-
-Package: ru.rejail.betterccxi
-Version: 1.6.0
-Architecture: iphoneos-arm
-Maintainer: ReJail <rejail@rejail.ru>
-Installed-Size: 770
-Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader
-Filename: ./debs/ru.rejail.betterccxi_1.6.0.deb
-Size: 67772
-MD5sum: 5bf87862d2a1642632375d7a4a69ac4b
-SHA1: 47a233573bc09dad2235f771d2d7eb4f98c25e22
-SHA256: 9e4950250fd326f622e7ea3e2de4409bee11a9f14e078663123ba69a9c5f74d7
-Section: Tweaks
-Description: 修改控制中心模块
-Author: ATWiiks
-Depiction: https://rejail.ru/depiction.php?file=betterccxi
-Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/betterccxi/icon.png
-Name: BetterCCXI Rus
-Sileodepiction: https://rejail.ru/sileo/depiction.php?file=betterccxi
 
 Package: shc
 Version: 4.0.3
