@@ -1784,6 +1784,24 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/bd
 Name: 百度网盘 NoAds
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/bdpan/Depiction
 
+Package: com.white.betterccbrightness
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: White
+Depends: firmware (>= 13.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/betterccbrightness_1.0.2_iphoneos-arm64.deb
+Size: 43772
+MD5sum: aca6a92ebe4ca8c7dc25c699e57832c8
+SHA1: cafc5d547947cb96e0e78389e38bf49238b2c121
+SHA256: 42edaff8566a557c0ed24a323e7b5cc202c471c47916163776bbdb71480e9514
+Section: Tweaks
+Description: 为控制中心亮度模块，拓展出很多功能，安装无设置，注销即生效！长按控制中心亮度模块呼出界面！
+Author: level3tjg
+Depiction: https://repo.cypwn.xyz/depiction/2209
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/betterccbrightness/icon.png
+Name: BetterCCBrightness
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/betterccbrightness/Depiction
+
 Package: com.white.betterccxi
 Version: 1.6.0
 Architecture: iphoneos-arm
@@ -3441,6 +3459,25 @@ Depiction: https://repo.cypwn.xyz/depiction/2054
 Icon: https://media.havoc.app/62040a16cc1cde4bfe9aba43
 Name: DLEasy
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2054
+
+Package: com.white.dndmyrecording
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: gilshahar7, 0xkuj
+Installed-Size: 216
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.gilshahar7.dndmyrecording
+Replaces: com.gilshahar7.dndmyrecording
+Filename: ./debs/dndmyrecording_1.3_iphoneos-arm64.deb
+Size: 7012
+MD5sum: 3273aa6acacc086c87076dee8b8b6c86
+SHA1: db350a077a42383d973d2ec79456ac1215811fa8
+SHA256: 25b16cfb8178d6eb9f172ebbbf12a6031230f6d32c116a2cff3603ccea43241c
+Section: Tweaks
+Description: 使用屏幕录制时自动启用勿扰模式
+Author: gilshahar7, 0xkuj
+Name: DNDMyRecording
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/dndmyrecording/Depiction
 
 Package: com.white.dockxi
 Version: 1.1.1
