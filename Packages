@@ -1786,14 +1786,31 @@ Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDe
 
 Package: com.white.betterccbrightness
 Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: White
+Depends: firmware (>= 13.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/betterccbrightness_1.0.2_iphoneos-arm.deb
+Size: 43680
+MD5sum: edbecf4a3852a3f9cc1d6c78e716e63b
+SHA1: d6768f186d14171d891d87aa1cb172906e9a9788
+SHA256: 20574c4852a1882b30371cb3379a88814af457d71eb257a6c641eb74fa785111
+Section: Tweaks
+Description: 为控制中心亮度模块，拓展出很多功能，安装无设置，注销即生效！长按控制中心亮度模块呼出界面！
+Author: level3tjg
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/betterccbrightness/icon.png
+Name: BetterCCBrightness
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/betterccbrightness/Depiction
+
+Package: com.white.betterccbrightness
+Version: 1.0.2
 Architecture: iphoneos-arm64
 Maintainer: White
 Depends: firmware (>= 13.0), mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/betterccbrightness_1.0.2_iphoneos-arm64.deb
-Size: 43772
-MD5sum: aca6a92ebe4ca8c7dc25c699e57832c8
-SHA1: cafc5d547947cb96e0e78389e38bf49238b2c121
-SHA256: 42edaff8566a557c0ed24a323e7b5cc202c471c47916163776bbdb71480e9514
+Size: 43832
+MD5sum: 94a6cb1dfa6030a42724f0f1b3aed10e
+SHA1: 0c31a8cc0dfe8441f46424f7e3633d04b464b560
+SHA256: 6c63e021bbfcbe839511693a66b64fdddd24520cc106df042f1e15c16bc74cfe
 Section: Tweaks
 Description: 为控制中心亮度模块，拓展出很多功能，安装无设置，注销即生效！长按控制中心亮度模块呼出界面！
 Author: level3tjg
@@ -3461,18 +3478,37 @@ Name: DLEasy
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2054
 
 Package: com.white.dndmyrecording
+Version: 1.2.1
+Architecture: iphoneos-arm
+Maintainer: gilshahar7, 0xkuj
+Installed-Size: 196
+Depends: firmware (>= 12.0), mobilesubstrate
+Conflicts: com.gilshahar7.dndmyrecording
+Replaces: com.gilshahar7.dndmyrecording
+Filename: ./debs/dndmyrecording_1.2.1_iphoneos-arm.deb
+Size: 6692
+MD5sum: 313219ab59c32df7087c44b2b4cd4502
+SHA1: 5876886f2381df5083d388ef946afe35ee442c71
+SHA256: b5a11a21d8b0208bd4aff0e40c5387d2b657b9550ff29787334e0f367c8c51ff
+Section: Tweaks
+Description: 使用屏幕录制时自动启用勿扰模式
+Author: gilshahar7, 0xkuj
+Name: DNDMyRecording
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/dndmyrecording/Depiction
+
+Package: com.white.dndmyrecording
 Version: 1.3
 Architecture: iphoneos-arm64
 Maintainer: gilshahar7, 0xkuj
 Installed-Size: 216
-Depends: firmware (>= 15.0), mobilesubstrate
+Depends: firmware (>= 12.0), mobilesubstrate
 Conflicts: com.gilshahar7.dndmyrecording
 Replaces: com.gilshahar7.dndmyrecording
 Filename: ./debs/dndmyrecording_1.3_iphoneos-arm64.deb
 Size: 7012
-MD5sum: 3273aa6acacc086c87076dee8b8b6c86
-SHA1: db350a077a42383d973d2ec79456ac1215811fa8
-SHA256: 25b16cfb8178d6eb9f172ebbbf12a6031230f6d32c116a2cff3603ccea43241c
+MD5sum: dff8f150317add4e4de3a510e53b3878
+SHA1: 47516876cf666a2ed530d7902e7cad8bd81ff15d
+SHA256: e0c24038b53f5dcf364d55b666ed586f8f201a20bea735f4450cf84f962c8bb8
 Section: Tweaks
 Description: 使用屏幕录制时自动启用勿扰模式
 Author: gilshahar7, 0xkuj
@@ -7153,10 +7189,31 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0), firmware(>= 12.2
 Conflicts: xyz.skitty.sixls
 Replaces: xyz.skitty.sixls
 Filename: ./debs/sixls_1.1_iphoneos-arm64.deb
-Size: 1473312
-MD5sum: 86f5b770500f0cd1d65798424c4eb955
-SHA1: 1be4c4728d6d01cf07eb79af2b0c06973795fb65
-SHA256: df3a7641092f123195c7c9c103913bc86277f84ec12ad9e66fd797069d159150
+Size: 1473136
+MD5sum: 18b2ecb2577d52d2bb011e2c47392432
+SHA1: 0f064798d12828c7ee79d0f311fff76496d6de3c
+SHA256: d81e0d98a74a3b7404d029f56520203d2dc1f858663a5157370cbb678a4d128c
+Section: Tweaks
+Description: iOS6风格锁屏、音效、外观
+Author: Skitty
+Depiction: https://skitty.xyz/repo/depictions/xyz.skitty.sixls
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sixls/icon.png
+Name: Six (LS)
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sixls/Depiction
+
+Package: com.white.sixls
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Skitty
+Installed-Size: 2200
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0), firmware(>= 12.2) | org.swift.libswift (>= 5.0)
+Conflicts: xyz.skitty.sixls
+Replaces: xyz.skitty.sixls
+Filename: ./debs/sixls_1.1_iphoneos-arm.deb
+Size: 1463312
+MD5sum: ad4f6efd4e0aa82243fd92454e139c65
+SHA1: 99483b245068d73247f406af5055d34ac9714208
+SHA256: a4a3a6bc75c9b2ee27183ebf384358eb859856847a6d5ab7ffdb1ab15e1ede46
 Section: Tweaks
 Description: iOS6风格锁屏、音效、外观
 Author: Skitty
