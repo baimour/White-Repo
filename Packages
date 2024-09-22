@@ -2152,10 +2152,10 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 1528
 Depends: firmware (>= 10.0), mobilesubstrate
 Filename: ./debs/bilibili_1.2.2-2_iphoneos-arm.deb
-Size: 350668
-MD5sum: 23dffcaafbca6600ef50ae6cb0ba6742
-SHA1: 3160f76ede69376ffc6c7e9c361e7bb7928fbb8b
-SHA256: cd68015465294f01572a425f5ca06d41e5f95ae7efd965eec92fe9e1f0090e28
+Size: 350494
+MD5sum: 1040f7847fecb23bbf4d289bb8d9f851
+SHA1: d8ed31047337de13ce386863d266d94a74461925
+SHA256: 0648d1b5965d10f7f93e3ef7ba0b8870a8fad944d3acb5ec2f818a7bd31c0c81
 Section: NoAds
 Description: 基于7.65.0制作，其他版本自测
 Author: White <1410970825@qq.com>
@@ -2170,10 +2170,10 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 1032
 Depends: firmware (>= 10.0), mobilesubstrate
 Filename: ./debs/bilibili_1.2.2-2_iphoneos-arm64.deb
-Size: 298624
-MD5sum: 6025adba690a52876b93e8fdc8e2be6c
-SHA1: 7430d4ed830f43d54ce560b4627974dcfcea4c5b
-SHA256: a1daefb56582b06841e17ac24d0c215458fb7b7ee0d2bb10ea4df5109774a5b6
+Size: 297704
+MD5sum: da370adbad8b53a84519b3c0272c7b59
+SHA1: e615e2cce8d42e2b301be50d94e7b6cb6a41a938
+SHA256: fdf62eabdf26a6ffe75912f15fd954a4ab4c1447e00b9b5f15b8b3b0b9f752e5
 Section: NoAds
 Description: 基于7.65.0制作，其他版本自测
 Author: White <1410970825@qq.com>
@@ -8054,6 +8054,42 @@ Size: 340322
 MD5sum: accee569cf97448db6343e14e7678df2
 SHA1: 4506290056ae62b298f710eb61b71af5ab7dd255
 SHA256: 7386ce52316ab04ffa82b722864d1353bbdfd596eb7946f1c32c5b26f85eee97
+Section: NoAds
+Description: 基于迅雷Beta版6.15.1.10127制作，伪装会员优化界面、强制开启播放锚点图
+Author: White <1410970825@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/thunderbeta/icon.png
+Name: 迅雷Beta NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/thunderbeta/Depiction
+
+Package: com.white.thunderbeta
+Version: 1.0-5
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 1448
+Depends: firmware (>= 10.0), mobilesubstrate
+Filename: ./debs/thunderbeta_1.0-5_iphoneos-arm.deb
+Size: 337118
+MD5sum: 64357473b87a54a9faef1e5fbf68b26f
+SHA1: 5c397b40f7388ada1d63f5b96d12ba41ffcefefe
+SHA256: e5a67a0bfadd49f126ec5ba0f6e63eddfc55e147c5cc13c6e99f421e865f95ff
+Section: NoAds
+Description: 基于迅雷Beta版6.15.1.10127制作，伪装会员优化界面、强制开启播放锚点图
+Author: White <1410970825@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/thunderbeta/icon.png
+Name: 迅雷Beta NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/thunderbeta/Depiction
+
+Package: com.white.thunderbeta
+Version: 1.0-5
+Architecture: iphoneos-arm64
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 984
+Depends: firmware (>= 10.0), mobilesubstrate
+Filename: ./debs/thunderbeta_1.0-5_iphoneos-arm64.deb
+Size: 289852
+MD5sum: b1ab3768ca9d6d2c4d159d04e109d76c
+SHA1: 0165728c9ce61659227e3f71ce3f67316748ecad
+SHA256: c1c39df4f5e5662508239c1052ebf9bcb843864c3b76e284ca23d7cdf29f8784
 Section: NoAds
 Description: 基于迅雷Beta版6.15.1.10127制作，伪装会员优化界面、强制开启播放锚点图
 Author: White <1410970825@qq.com>
