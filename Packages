@@ -277,15 +277,15 @@ Maintainer: iOSGods
 Installed-Size: 11276
 Depends: firmware (>= 10.0), mobilesubstrate
 Filename: ./debs/bilibilinter_3.3.0_iphoneos-arm64.deb
-Size: 3193990
-MD5sum: c953cbed3dc412abed944b365c908e5a
-SHA1: 829e00269a198c848ec2baa0b4c46e1fcf7b90aa
-SHA256: e3ee5f62a6757986739cf35697af3cea70c40e47f80966f0da8a6dc884fe105a
+Size: 2226736
+MD5sum: 6a9100d7c4c7da885253daebe51d5ddd
+SHA1: 478e9db99b866d41ee44cd628b463ecbff4af8d2
+SHA256: 5d353a9417eae689e7d518e48e379a7ec96894a868b07c38eef80bf6f8952c47
 Section: NoAds
 Description: BiliBili - HD Anime, Videos iGMM Cheats by tien0246 for iOSGods
 Author: tien0246
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/icon2.png
-Name: 哔哩哔哩国际版解锁大会员画质
+Name: 哔哩哔哩国际版大会员画质
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/Depiction2
 
 Package: com.doantien.bilibili
@@ -295,15 +295,15 @@ Maintainer: iOSGods
 Installed-Size: 11276
 Depends: firmware (>= 10.0), mobilesubstrate
 Filename: ./debs/bilibilinter_3.3.0_iphoneos-arm.deb
-Size: 2227800
-MD5sum: 7e7c09ab3707a3fd016bba4447634e49
-SHA1: aa219cd6ab293ace7c562fd2d9734432fcd9c6d3
-SHA256: 364fbd770947c2c0558ae65f0a805323720dd4a687718a2d2afcc8f36487ed49
+Size: 2227476
+MD5sum: e8eeba5dc8fdc1a8ffc91ca6efb9f100
+SHA1: a7655aba6cd7bc0676714893b6a57d1e9d63f169
+SHA256: 58565ad5a0a680190171817626b26fda97e81a314f01f7c315a0105b669f94ec
 Section: NoAds
 Description: BiliBili - HD Anime, Videos iGMM Cheats by tien0246 for iOSGods
 Author: tien0246
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/icon2.png
-Name: 哔哩哔哩国际版解锁大会员画质
+Name: 哔哩哔哩国际版大会员画质
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/Depiction2
 
 Package: com.eliofeghali.souvenir
