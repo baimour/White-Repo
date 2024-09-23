@@ -802,11 +802,28 @@ Name: libsparkcolourpicker
 
 Package: com.white.12306
 Version: 1.0-2
+Architecture: iphoneos-arm64
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: ./debs/12306_1.0-2_iphoneos-arm64.deb
+Size: 3662
+MD5sum: 457e3abd48199d9befdeb663ef55d4c5
+SHA1: 392a60f4a022c031bacb4f2e75976ae3ffc7795b
+SHA256: 7892b2ba45c3fbeafa9f8cbf9cc45c5bf976062b0876fac08603832c774ed326
+Section: NoAds
+Description: 基于5.8.0制作，去除启动广告及首页顶部横幅，屏蔽部分越狱
+Author: White <1410970825@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/12306/icon.png
+Name: 铁路12306屏蔽越狱
+
+Package: com.white.12306
+Version: 1.0-2
 Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
 Installed-Size: 72
 Depends: mobilesubstrate
-Filename: ./debs/12306_1.0-2.deb
+Filename: ./debs/12306_1.0-2_iphoneos-arm.deb
 Size: 3318
 MD5sum: dc5c554b33911b6252d751cfe9bc2ad3
 SHA1: 35bd339ff63741e809816d43d62154fb35a4dad2
@@ -1773,11 +1790,28 @@ Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
 Installed-Size: 165
 Depends: mobilesubstrate
-Filename: ./debs/bankabc_1.0.deb
+Filename: ./debs/bankabc_1.0_iphoneos-arm.deb
 Size: 7610
 MD5sum: da567a8b980271c2301b7c40503ef2cd
 SHA1: f99c54196701fd2e95a0e42ae93137c75eec05b7
 SHA256: 298c4c19862971b21131daaa5f77202686823a670e768986d157d97d6568f799
+Section: NoAds
+Description: 支持7.3.0-8.1.0去启动/首页广告及更新弹窗
+Author: White <1410970825@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/bankabc/icon.png
+Name: 中国农业银行屏蔽越狱
+
+Package: com.white.bankabc
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 165
+Depends: mobilesubstrate
+Filename: ./debs/bankabc_1.0_iphoneos-arm64.deb
+Size: 8836
+MD5sum: 55950e360d0b2f718d0a0557a2dd0595
+SHA1: cc00f51ccf69ae77b1990bf2e750082c8d282b47
+SHA256: 33ccae368a2f04f61e2ea15b84090cf2666f8ceb640b563e4cf61f62ca058a31
 Section: NoAds
 Description: 支持7.3.0-8.1.0去启动/首页广告及更新弹窗
 Author: White <1410970825@qq.com>
@@ -2752,11 +2786,28 @@ Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDe
 
 Package: com.white.cloudmusic
 Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 165
+Depends: mobilesubstrate
+Filename: ./debs/cloudmusic_1.0_iphoneos-arm64.deb
+Size: 6260
+MD5sum: 9e72f3c32416d5716cb63adb66e61fad
+SHA1: b0196bc2ffec69343dfddf939b865ebea1e592d6
+SHA256: b90fab5c8c3526962fcac84b09762b3ae0a3d66ea9a48d00a3f4108662f4e0f7
+Section: NoAds
+Description: 基于9.0.25制作，去启动/首页广告+屏蔽越狱
+Author: White <1410970825@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cloudmusic/icon.png
+Name: 网易云音乐屏蔽越狱
+
+Package: com.white.cloudmusic
+Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
 Installed-Size: 165
 Depends: mobilesubstrate
-Filename: ./debs/cloudmusic_1.0.deb
+Filename: ./debs/cloudmusic_1.0_iphoneos-arm.deb
 Size: 5464
 MD5sum: 8f5036a3bbf338c51f4b7295aa20702e
 SHA1: c2016d30cd0bc15531e4510b6f8375399a52728c
@@ -3479,11 +3530,29 @@ Name: DisableTestFlightBlock
 
 Package: com.white.dj97
 Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Netskao
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/dj97_1.0.0_iphoneos-arm64.deb
+Size: 110496
+MD5sum: b1e07e5991bf8b1cc6456fd226be0e0e
+SHA1: a1e2809dd866c55e9ca5639ef59c630544b4e384
+SHA256: e1fcf052cbebdbba74c1e7a87e165897135f724e8769f8af0d6fb70bb7f3b326
+Section: NoAds
+Description: 水晶DJ破解VIP权限，可下载高品质音乐
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/dj97/icon.png
+Name: 水晶DJ Crack
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/dj97/Depiction
+
+Package: com.white.dj97
+Version: 1.0.0
 Architecture: iphoneos-arm
 Maintainer: Netskao
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/Dj97Crack_1.0.0.deb
+Filename: ./debs/dj97_1.0.0_iphoneos-arm.deb
 Size: 81680
 MD5sum: ead37d394fc86e2119863308a3b89310
 SHA1: f2b289702d672133b8313b0009f0055c9be53d94
@@ -4694,15 +4763,33 @@ Architecture: iphoneos-arm
 Maintainer: 小果子
 Installed-Size: 152
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/fuckpay_0.0.1.deb
-Size: 3188
-MD5sum: 24805f74e617631ae5c6b4cdd65df6c9
-SHA1: f2d17b8fd878d585d9f4d2f6fd274fcab46a7938
-SHA256: a2848839e989731076b5b5608b99a97bc0958808652ec7e55f8917ca8d40bdaa
+Filename: ./debs/fuckpay_0.0.1_iphoneos-arm.deb
+Size: 3264
+MD5sum: c32a56ace1c3ce555defadb6ea8f2555
+SHA1: 0681efff79886c4964b13ce0a8d6a2a9abf8ed9e
+SHA256: 4d2f2e296f51a96e60ec2224872be3fbc1b832f155550b67eb86a22db2597baa
 Section: Tweaks
 Description: 本地内购插件，仅支持本地验证的应用内购，请不要尝试内购热门软件，支持免越狱注入，如果支持内购，点击购买后取消即为内购成功
 Author: 小果子
 Name: FuckPay
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/fuckpay/Depiction
+
+Package: com.white.fuckpay
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: 小果子
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/fuckpay_0.0.1_iphoneos-arm64.deb
+Size: 3036
+MD5sum: 378a1d5da75352a25e24f5c336aed810
+SHA1: 111d7960202d6660479b18f2aed2524907d2373f
+SHA256: 6bf41ccada8828f7b722149f177bebe9fc228f2b72109476b3b386ba5e371989
+Section: Tweaks
+Description: 本地内购插件，仅支持本地验证的应用内购，请不要尝试内购热门软件，支持免越狱注入，如果支持内购，点击购买后取消即为内购成功
+Author: 小果子
+Name: FuckPay
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/fuckpay/Depiction
 
 Package: com.white.genieaichatbot
 Version: 6.1.0
@@ -5508,6 +5595,45 @@ Section: Tweaks
 Description: Lightricks软件包括Photoleap, Videoleap, Beatleap, Lightleap, 艺章(Artleap), Motionleap及Facetune Video, Facetune破解，解锁会员订阅
 Author: 小果子
 Name: Lightricks-leap通用破解
+
+Package: com.white.leftpan
+Version: 1.0-2
+Architecture: iphoneos-arm
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader, applist
+Filename: ./debs/leftpan_1.0-2_iphoneos-arm.deb
+Size: 44416
+MD5sum: b1fc56361e82d32416384cc449fe5a54
+SHA1: 4f4d8eb7a142afa0e7e86db9cc16847df4e4872c
+SHA256: 9e72b9191f67801406ad30b40a515dccf188d6c58aeb836a63a496af49893823
+Section: Tweaks
+Priority: optional
+Description: 左滑返回上一页
+Author: Mao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/leftpan/icon.png
+Name: 左滑返回
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/leftpan/Depiction
+Sponsor: admin@25mao.com
+
+Package: com.white.leftpan
+Version: 1.0-6
+Architecture: iphoneos-arm64
+Maintainer: admin@25mao.com
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.4)
+Conflicts: com.25mao.leftpan.rootless
+Replaces: com.25mao.leftpan.rootless
+Filename: ./debs/leftpan_1.0-6_iphoneos-arm64.deb
+Size: 44368
+MD5sum: 01519ae64fd79693e4b060fceacf9dbe
+SHA1: 03df0c762db0e33e22305bafa8e9795a544e531d
+SHA256: e8c8d0e403eef7dc5f0a4d2dd6550c0196bbcccdce76e95dd860e636ecfb3b7a
+Section: Tweaks
+Priority: optional
+Description: 左滑返回上一页面
+Author: Mao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/leftpan/icon.png
+Name: 左滑返回
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/leftpan/Depiction
 
 Package: com.white.liaca
 Version: 4.3
@@ -7844,11 +7970,28 @@ Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDe
 
 Package: com.white.taobao
 Version: 1.0-1
+Architecture: iphoneos-arm64
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: ./debs/taobao_1.0-1_iphoneos-arm64.deb
+Size: 7010
+MD5sum: 1f4dc33bc89d24dcdba7982373aed1c4
+SHA1: 6a410d374b80cc49d2c2a1ccd935ef3c893e2ff2
+SHA256: 53cd903d0bb626eaeedbb42571f30f6a69e78c250e22601721c705f05d3b4355
+Section: NoAds
+Description: 基于10.32.20制作，屏蔽部分越狱
+Author: White <1410970825@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/taobao/icon.png
+Name: 淘宝屏蔽越狱
+
+Package: com.white.taobao
+Version: 1.0-1
 Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
 Installed-Size: 72
 Depends: mobilesubstrate
-Filename: ./debs/taobao_1.0-1.deb
+Filename: ./debs/taobao_1.0-1_iphoneos-arm.deb
 Size: 6170
 MD5sum: 3c5f78bdf78bb824de00aad5dc4aa786
 SHA1: 5f6fa6c9a4b418922e8e816d53f5b385122675ef
@@ -8024,6 +8167,25 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Th
 Name: TheosTips
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Theostips/Depiction
 Website: http://ikilledappl3.com
+
+Package: com.white.thermalmonitord
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Maintainer: zhaonan
+Depends: plutil
+Conflicts: com.nan.disablethermalmonitord
+Replaces: com.nan.disablethermalmonitord
+Filename: ./debs/thermalmonitord_0.1.0_iphoneos-arm64.deb
+Size: 1232
+MD5sum: d6d10da3151e720077b82a61f1f63d4d
+SHA1: 347be25d920e2009cd6c6b32230afcf0eb51d7d8
+SHA256: 9815acfd7ec13050fec015d608b2422c43c7dbd1a54e9eb6c1df275dc90369a3
+Section: Tweaks
+Description: 禁用thermalmonitord守护进程，可以防止降频
+Author: zhaonan
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/thermalmonitord/icon.png
+Name: Disable Thermalmonitord
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/thermalmonitord/Depiction
 
 Package: com.white.thunderbeta
 Version: 1.0-3
@@ -8322,11 +8484,27 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
 Depends: mobilesubstrate
-Filename: ./debs/unidream_1.0.deb
+Filename: ./debs/unidream_1.0_iphoneos-arm.deb
 Size: 5684
 MD5sum: 835ef2678f33a19208fb73e517b7b004
 SHA1: 437933c4b5653e03863e815f89fb3c4af3e0c58e
 SHA256: d48814c672b7800c4408068ea776ad004bdd8ac4785066beb897d9606ee1e4cb
+Section: NoAds
+Description: 屏蔽最新版越狱和关键词检查
+Author: White <1410970825@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/UniDream/icon.png
+Name: Uni Dream屏蔽关键词检查
+
+Package: com.white.unidream
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: White <1410970825@qq.com>
+Depends: mobilesubstrate
+Filename: ./debs/unidream_1.0_iphoneos-arm64.deb
+Size: 5874
+MD5sum: 4b1935a4842eb137a6e465efde0a404e
+SHA1: 9841a3c175385cb9d04c98712841d129fcf8424e
+SHA256: b5e6f0de27101248fea1826fde9d39371805a72f4d19148684381e456ad7535d
 Section: NoAds
 Description: 屏蔽最新版越狱和关键词检查
 Author: White <1410970825@qq.com>
