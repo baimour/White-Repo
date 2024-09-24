@@ -803,36 +803,38 @@ Name: libsparkcolourpicker
 Package: com.white.12306
 Version: 1.0-2
 Architecture: iphoneos-arm64
-Maintainer: White <1410970825@qq.com>
+Maintainer: White <(NULL)>
 Installed-Size: 72
 Depends: mobilesubstrate
 Filename: ./debs/12306_1.0-2_iphoneos-arm64.deb
-Size: 3662
-MD5sum: 457e3abd48199d9befdeb663ef55d4c5
-SHA1: 392a60f4a022c031bacb4f2e75976ae3ffc7795b
-SHA256: 7892b2ba45c3fbeafa9f8cbf9cc45c5bf976062b0876fac08603832c774ed326
+Size: 3432
+MD5sum: c8be11543e3148bffaaad4ab398f8941
+SHA1: e4235bf0efe73474c598e69ef3e50253e9030867
+SHA256: 9113b3291c0dc951b6d4bec822512fe28bda6552ce7f1b2e7500906cd8701255
 Section: NoAds
 Description: 基于5.8.0制作，去除启动广告及首页顶部横幅，屏蔽部分越狱
-Author: White <1410970825@qq.com>
+Author: White <(NULL)>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/12306/icon.png
 Name: 铁路12306屏蔽越狱
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/12306/Depiction
 
 Package: com.white.12306
 Version: 1.0-2
 Architecture: iphoneos-arm
-Maintainer: White <1410970825@qq.com>
+Maintainer: White <(NULL)>
 Installed-Size: 72
 Depends: mobilesubstrate
 Filename: ./debs/12306_1.0-2_iphoneos-arm.deb
-Size: 3318
-MD5sum: dc5c554b33911b6252d751cfe9bc2ad3
-SHA1: 35bd339ff63741e809816d43d62154fb35a4dad2
-SHA256: a5bfb4e46ad871ec687fa3e0dd9e3e4ea134199edba26931789720b0203bc251
+Size: 3352
+MD5sum: ca568e2f603556ee394b8540ca0d53c7
+SHA1: 3c453f2a45c24890ac002d3b3d9e8b8189acd2d8
+SHA256: 5d965820e4c30210292dcffbc9cb7d10e74c189a8f9dd5bb49dd88e6c7a97416
 Section: NoAds
 Description: 基于5.8.0制作，去除启动广告及首页顶部横幅，屏蔽部分越狱
-Author: White <1410970825@qq.com>
+Author: White <(NULL)>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/12306/icon.png
 Name: 铁路12306屏蔽越狱
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/12306/Depiction
 
 Package: com.white.123pan
 Version: 1.0
@@ -1787,36 +1789,38 @@ Name: CCSupport真后台模块
 Package: com.white.bankabc
 Version: 1.0
 Architecture: iphoneos-arm
-Maintainer: White <1410970825@qq.com>
+Maintainer: White <(NULL)>
 Installed-Size: 165
 Depends: mobilesubstrate
 Filename: ./debs/bankabc_1.0_iphoneos-arm.deb
-Size: 7610
-MD5sum: da567a8b980271c2301b7c40503ef2cd
-SHA1: f99c54196701fd2e95a0e42ae93137c75eec05b7
-SHA256: 298c4c19862971b21131daaa5f77202686823a670e768986d157d97d6568f799
+Size: 7284
+MD5sum: 86e15c5f6246f14b4440a014506683cb
+SHA1: 46a6744338d31b692b0ef1816ddfc1a976133572
+SHA256: 3df39f41b929f0d1019c266424a9485471d84a05f7a0f1efd85b7c7bf8506885
 Section: NoAds
 Description: 支持7.3.0-8.1.0去启动/首页广告及更新弹窗
-Author: White <1410970825@qq.com>
+Author: White <(NULL)>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/bankabc/icon.png
 Name: 中国农业银行屏蔽越狱
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/bankabc/Depiction
 
 Package: com.white.bankabc
 Version: 1.0
 Architecture: iphoneos-arm64
-Maintainer: White <1410970825@qq.com>
+Maintainer: White <(NULL)>
 Installed-Size: 165
 Depends: mobilesubstrate
 Filename: ./debs/bankabc_1.0_iphoneos-arm64.deb
-Size: 8836
-MD5sum: 55950e360d0b2f718d0a0557a2dd0595
-SHA1: cc00f51ccf69ae77b1990bf2e750082c8d282b47
-SHA256: 33ccae368a2f04f61e2ea15b84090cf2666f8ceb640b563e4cf61f62ca058a31
+Size: 7340
+MD5sum: 597a8b9fda3b338edcf6568b50f65984
+SHA1: dba4130defb0fdcb711c7a4436584b91700a01da
+SHA256: 3e91ff4654a23d8152604345d514572164879eb74797cc9ec536e48768d12f54
 Section: NoAds
 Description: 支持7.3.0-8.1.0去启动/首页广告及更新弹窗
-Author: White <1410970825@qq.com>
+Author: White <(NULL)>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/bankabc/icon.png
 Name: 中国农业银行屏蔽越狱
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/bankabc/Depiction
 
 Package: com.white.bdpan
 Version: 1.0
@@ -2787,36 +2791,38 @@ Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDe
 Package: com.white.cloudmusic
 Version: 1.0
 Architecture: iphoneos-arm64
-Maintainer: White <1410970825@qq.com>
+Maintainer: White <(NULL)>
 Installed-Size: 165
-Depends: mobilesubstrate
+Depends: firmware (>= 11.0), mobilesubstrate
 Filename: ./debs/cloudmusic_1.0_iphoneos-arm64.deb
-Size: 6260
-MD5sum: 9e72f3c32416d5716cb63adb66e61fad
-SHA1: b0196bc2ffec69343dfddf939b865ebea1e592d6
-SHA256: b90fab5c8c3526962fcac84b09762b3ae0a3d66ea9a48d00a3f4108662f4e0f7
+Size: 5544
+MD5sum: a2e0fc7bb101c4dc8c88e4411fcae8b0
+SHA1: 6016505e2c586127dcab492f92ab3a4e39e188d0
+SHA256: abe8b2b61b845899781b05cdfe101f18a5472572e13fbfc8a31582f2cdb71148
 Section: NoAds
 Description: 基于9.0.25制作，去启动/首页广告+屏蔽越狱
-Author: White <1410970825@qq.com>
+Author: White <(NULL)>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cloudmusic/icon.png
 Name: 网易云音乐屏蔽越狱
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cloudmusic/Depiction2
 
 Package: com.white.cloudmusic
 Version: 1.0
 Architecture: iphoneos-arm
-Maintainer: White <1410970825@qq.com>
+Maintainer: White <(NULL)>
 Installed-Size: 165
-Depends: mobilesubstrate
+Depends: firmware (>= 11.0), mobilesubstrate
 Filename: ./debs/cloudmusic_1.0_iphoneos-arm.deb
-Size: 5464
-MD5sum: 8f5036a3bbf338c51f4b7295aa20702e
-SHA1: c2016d30cd0bc15531e4510b6f8375399a52728c
-SHA256: ec219e21a62834e32822a8167dd95bf067448dfcf28dd85240a44d6818fd1da4
+Size: 5492
+MD5sum: 0ee79061f1f9f67e2af4a55458fa2f5f
+SHA1: 0b85a87ef72082c266203ea8fedecc66eb0bd1f1
+SHA256: f8a26ed527bec1fe72951aedfe4250593f654a247ef8614996eb0b16654648d9
 Section: NoAds
 Description: 基于9.0.25制作，去启动/首页广告+屏蔽越狱
-Author: White <1410970825@qq.com>
+Author: White <(NULL)>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cloudmusic/icon.png
 Name: 网易云音乐屏蔽越狱
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cloudmusic/Depiction2
 
 Package: com.white.cmcc234g
 Version: 1.1
@@ -7993,36 +7999,38 @@ Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDe
 Package: com.white.taobao
 Version: 1.0-1
 Architecture: iphoneos-arm64
-Maintainer: White <1410970825@qq.com>
+Maintainer: White <(NULL)>
 Installed-Size: 72
 Depends: mobilesubstrate
 Filename: ./debs/taobao_1.0-1_iphoneos-arm64.deb
-Size: 7010
-MD5sum: 1f4dc33bc89d24dcdba7982373aed1c4
-SHA1: 6a410d374b80cc49d2c2a1ccd935ef3c893e2ff2
-SHA256: 53cd903d0bb626eaeedbb42571f30f6a69e78c250e22601721c705f05d3b4355
+Size: 5976
+MD5sum: 08663475e26de302b1697654e6276f1d
+SHA1: 366774ad9bfde30979f479105a152cc5c4d5685f
+SHA256: 85a79db155d73c3002a5e75676d58a14629fdc5a321e12ad950c28c1f22ae4f6
 Section: NoAds
 Description: 基于10.32.20制作，屏蔽部分越狱
-Author: White <1410970825@qq.com>
+Author: White <(NULL)>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/taobao/icon.png
 Name: 淘宝屏蔽越狱
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/taobao/Depiction
 
 Package: com.white.taobao
 Version: 1.0-1
 Architecture: iphoneos-arm
-Maintainer: White <1410970825@qq.com>
+Maintainer: White <(NULL)>
 Installed-Size: 72
 Depends: mobilesubstrate
 Filename: ./debs/taobao_1.0-1_iphoneos-arm.deb
-Size: 6170
-MD5sum: 3c5f78bdf78bb824de00aad5dc4aa786
-SHA1: 5f6fa6c9a4b418922e8e816d53f5b385122675ef
-SHA256: 28a9c1cb7313bb5c3805798784e731a0a8d6643ff88031bfed4a13c544754764
+Size: 5884
+MD5sum: 58fd1a123238218afec7ae9db4f9489a
+SHA1: f40968fd9bfac0d36b84d33724555a27bed162b7
+SHA256: 2b08cf76dac5e2a19bda428a9e6177b032dff0fc9cef85d2dde099ecd0212e60
 Section: NoAds
 Description: 基于10.32.20制作，屏蔽部分越狱
-Author: White <1410970825@qq.com>
+Author: White <(NULL)>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/taobao/icon.png
 Name: 淘宝屏蔽越狱
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/taobao/Depiction
 
 Package: com.white.tapticboard
 Version: 1.1.1
