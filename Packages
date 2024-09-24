@@ -8543,17 +8543,17 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Un
 Name: Uni Dream屏蔽关键词检查
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/UniDream/Depiction2
 
-Package: com.white.unidreampb
+Package: com.white.unidreambp
 Version: 1.0-2
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Maintainer: White <(NULL)>
-Installed-Size: 984
+Installed-Size: 1448
 Depends: firmware (>= 11.0), mobilesubstrate
-Filename: ./debs/unidreampb_1.0-2_iphoneos-arm64.deb
-Size: 292618
-MD5sum: 09a5422aabb45e453ddd091e81f1e815
-SHA1: c61ec558955f912272553ee7289bce55b4c97d9a
-SHA256: faae18f64085b113b9db5ab4a8147db8cd757814dc69dddfb1df5cfc056ac5c1
+Filename: ./debs/unidreambp_1.0-2_iphoneos-arm.deb
+Size: 339656
+MD5sum: 897e58eedf5e1c7df59b1b17013ce400
+SHA1: ac255b91f8bf8061c1b2e14c22f58d07def12089
+SHA256: 562319fcec3318191b2528b3ff170daddb1b721c72b9b8dda19d5d86c4f6bfb7
 Section: NoAds
 Description: 基于6.4.2版本制作，屏蔽越狱及关键词检查
 Author: White <(NULL)>
@@ -8561,17 +8561,17 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Un
 Name: Uni Dream屏蔽关键词检查
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/UniDream/Depiction2
 
-Package: com.white.unidreampb
+Package: com.white.unidreambp
 Version: 1.0-2
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64
 Maintainer: White <(NULL)>
-Installed-Size: 1448
+Installed-Size: 984
 Depends: firmware (>= 11.0), mobilesubstrate
-Filename: ./debs/unidreampb_1.0-2_iphoneos-arm.deb
-Size: 339492
-MD5sum: c458383faf413535ff8657d3fd3550e1
-SHA1: 6bcd14c9b1eb237adf81d9f05b1217ca0fc82d9f
-SHA256: 18364e44527a5aca2c77b7d1c2c36a15b98dce094e83de24d0d92c285748efa3
+Filename: ./debs/unidreambp_1.0-2_iphoneos-arm64.deb
+Size: 292792
+MD5sum: 21f3d276c1b557630dadba6a1c23fef7
+SHA1: 00873c864d59d1f2762fa75469ad564930e6b5ef
+SHA256: c42bbab1ed09e39b2341ae9ee7d6545b1997b276a40aa4fa21b68f1f20541c9b
 Section: NoAds
 Description: 基于6.4.2版本制作，屏蔽越狱及关键词检查
 Author: White <(NULL)>
