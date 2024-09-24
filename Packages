@@ -9793,6 +9793,42 @@ Moderndepiction: https://ios.jjolano.me/depiction/native/me.jjolano.alertdismiss
 Name: AlertDismiss
 Sileodepiction: https://ios.jjolano.me/depiction/native/me.jjolano.alertdismiss.json
 
+Package: mterminal
+Version: 1.6
+Architecture: iphoneos-arm64
+Maintainer: D.F (MTAC) <mtac@mtac.app>
+Installed-Size: 272
+Depends: coreutils, firmware (>= 11.0), gettext-localizations, system-cmds, zsh
+Filename: ./debs/mterminal_1.6_iphoneos-arm64.deb
+Size: 86500
+MD5sum: 6b479c2fd70c34de99c3c6e6062d9272
+SHA1: ecf89720f4f8e5c24d60814b57fb8d88c774fe48
+SHA256: 2dd7256183c447a31b396e9386fbd51547dbbe005ae6ed13eaf93b6974e69712
+Section: Utilities
+Description: 移动终端重新编译版
+Author: lordscotland <admin@officialscheduler.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/newterm/icon.png
+Name: MTerminal
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/newterm/Depiction3
+
+Package: mterminal
+Version: 1.6
+Architecture: iphoneos-arm
+Maintainer: D.F (MTAC) <mtac@mtac.app>
+Installed-Size: 272
+Depends: coreutils, firmware (>= 11.0), gettext-localizations, system-cmds, zsh
+Filename: ./debs/mterminal_1.6_iphoneos-arm.deb
+Size: 86416
+MD5sum: 998c38eca9902b96a89ad177ef5c097b
+SHA1: 903e10f401e2bc9102923218078bfd179a0776db
+SHA256: 50e39914c7fc8f622cb053074aee17c93fd54e78a014ba1e09d8addf44c4e112
+Section: Utilities
+Description: 移动终端重新编译版
+Author: lordscotland <admin@officialscheduler.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/newterm/icon.png
+Name: MTerminal
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/newterm/Depiction3
+
 Package: net.tihmstar.daemonloader
 Version: 1.0.0
 Architecture: iphoneos-arm
