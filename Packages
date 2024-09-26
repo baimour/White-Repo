@@ -359,6 +359,22 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/so
 Name: Souvenir
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/souvenir/Depiction
 
+Package: com.haoerloveyou.killupdate
+Version: 1.2.0
+Architecture: iphoneos-arm
+Maintainer: haoerloveyou <haoerloveyou@gmail.com>
+Installed-Size: 21
+Depends: firmware (>= 7.0), firmware (<= 9.3.4)
+Filename: ./debs/killupdate_1.2.0.deb
+Size: 1064
+MD5sum: 7bf099b907b0369d54cf9c0679876eab
+SHA1: fc674bd13c38dba23381f52e7b35edfb46c1f782
+SHA256: 43ce3464eae4bde38add110715814330fb83aad6a4a3b3eb7edf35b6949881f6
+Section: 老iOS专用
+Description: 屏蔽iOS 7-9运营商更新
+Author: haoerloveyou <haoerloveyou@gmail.com>
+Name: Kill Cellular Update
+
 Package: com.huayuarc.qjkqdbyx
 Version: 0.0.1.1+debug
 Architecture: iphoneos-arm
@@ -799,6 +815,64 @@ Description: 颜色选择器依赖库，作者：SparkDev
 Tag: role::developer
 Author: Spark
 Name: libsparkcolourpicker
+
+Package: com.unlimapps.uasharedtools
+Version: 2.2r-60
+Architecture: iphoneos-arm
+Maintainer: UnlimApps Inc. <support@unlimapps.com>
+Depends: mobilesubstrate, firmware (<< 11.0)
+Conflicts: com.yourepo.abo1bs.uasharedtoolsno-ads, com.hackyouriphone.uasharedtools, com.unlimapps.uasharedtools.nostash, com.unlimapps.uasharedtools (<< 2.2r-36)
+Replaces: com.unlimapps.uasharedtools.nostash, com.unlimapps.uasharedtools (<< 2.2r-36)
+Provides: com.unlimapps.uasharedtools.virtual
+Filename: ./debs/uasharedtools_2.2r-60.deb
+Size: 8180776
+MD5sum: 06a7464bec0d08397fdc0f9102b3e680
+SHA1: 3bb36b50dac7c6647be9c11e76813dbf58c8d149
+SHA256: 2866bba13b07ea4ec7f6f69db2ce7137818caae9c5e6935ec9ddd7317149a85b
+Section: Development
+Description: Unlimapps插件的共享工具
+Tag: purpose::library, cydia::obsolete, role::developer
+Author: UnlimApps Inc. <support@unlimapps.com>
+Name: uasharedtools (iOS 7-10)
+
+Package: com.unlimapps.uasharedtools.nostash
+Version: 2.2r-60
+Architecture: iphoneos-arm
+Maintainer: UnlimApps Inc. <support@unlimapps.com>
+Depends: mobilesubstrate, firmware (>= 11.0)
+Conflicts: com.yourepo.abo1bs.uasharedtoolsno-ads, com.hackyouriphone.uasharedtools, com.unlimapps.uasharedtools.stash, com.unlimapps.uasharedtools (<< 2.2r-36)
+Replaces: com.unlimapps.uasharedtools.stash, com.unlimapps.uasharedtools (<< 2.2r-36)
+Provides: com.unlimapps.uasharedtools.virtual
+Filename: ./debs/uasharedtools.nostash_2.2r-60.deb
+Size: 15958252
+MD5sum: f72f840ccf8e3ba93496e763d66ad7a7
+SHA1: 56cf9fc64a9d4f71827e00ab06f7336c5dd9cf8d
+SHA256: 8d9f911c50bf52bd16650209d9a39a3792126df3af5d90f7a70a27f2881b4673
+Section: Development
+Description: Unlimapps插件的共享工具
+Tag: purpose::library, cydia::obsolete, role::developer
+Author: UnlimApps Inc. <support@unlimapps.com>
+Name: uasharedtools (iOS 11+)
+
+Package: com.unlimapps.uaupdatetools
+Version: 1.0r-102
+Architecture: iphoneos-arm
+Maintainer: UnlimApps Inc.
+Depends: firmware (>= 7.0), mobilesubstrate
+Conflicts: it.marcocristalli.asupdatehider
+Filename: ./debs/appadmin_1.0r-102.deb
+Size: 543744
+MD5sum: f118f430db3ee85b3a2d571d9c2a76e2
+SHA1: 1132c937e2f26a6c974c249a827dd3db83d6cdce
+SHA256: 8b875e788cfa54adc5aed480dae05ca6035ef27b1236628220b87eccd23b7e6f
+Section: 老iOS专用
+Priority: optional
+Homepage: http://beta.unlimapps.com/depiction/com.unlimapps.uaupdatetools/
+Description: 降级App版本工具
+Author: UnlimApps Inc.
+Depiction: http://beta.unlimapps.com/depiction/com.unlimapps.uaupdatetools/
+Name: App Admin
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/appadmin/Depiction
 
 Package: com.white.12306
 Version: 1.0-2
@@ -1378,6 +1452,27 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/af
 Name: AFakerX
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/afakerx/Depiction
 
+Package: com.white.afc2d
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware (<< 8.0) | mobilesubstrate
+Conflicts: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2, com.saurik.afc2d
+Replaces: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2, com.saurik.afc2d
+Provides: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2, com.saurik.afc2d
+Filename: ./debs/afc2d_1.2.deb
+Size: 12112
+MD5sum: a1a654475fd447976e06b050390b8892
+SHA1: d9bbfdf952b7d6c482929efa4479f45bbd987014
+SHA256: d025087ac4c306a9357e0fe1997bfa9b7ba0c3122035a5f363bdbe69359eb002
+Section: 老iOS专用
+Priority: optional
+Description: 启用访问系统文件路径权限
+Tag: purpose::daemon, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: AFC2 (iOS 8-9)
+
 Package: com.white.afc2d-arm64
 Version: 1.2.0
 Architecture: iphoneos-arm64
@@ -1402,6 +1497,21 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpples
 Dev: cannathea
 Name: Apple File Conduit "2" (iOS 11+, arm64)
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.white.afc2dfix10
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Depends: firmware (>= 10.3.3), com.white.afc2d
+Filename: ./debs/afc2dfix10_1.0-1.deb
+Size: 1276
+MD5sum: 28bc6f68e407131371f53789cec7aaec
+SHA1: 2c0a97ba82a53ee3ac7a3ab203d497c909ca14ba
+SHA256: 643cffa64b03a03de41df9543d5badf8ec7ae01e87d254094a38d93c3d5d643d
+Section: 老iOS专用
+Description: 修复afc2d兼容iOS 10
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: AFC2Fix (iOS 10)
 
 Package: com.white.aismithpremium
 Version: 1.0.0
@@ -1929,6 +2039,23 @@ Author: ATWiiks
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/betterccxi/icon.png
 Name: BetterCCXI
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/betterccxi/Depiction
+
+Package: com.white.betterhomedepot
+Version: 1.2.0
+Architecture: iphoneos-arm
+Maintainer: tihmstar
+Depends: firmware (>= 9.1), firmware (<= 9.3.4)
+Conflicts: cy+cpu.arm64
+Filename: ./debs/homedepot_1.2.0.deb
+Size: 17400
+MD5sum: cd541be06e40529ccd0d4d0a9f02e928
+SHA1: 46b163585b7d87457b72bb16b27daff7f0ed2c6f
+SHA256: 0e209e5f0d17cee8d8fc86c5929160a6b7b441b1c72f539535a30a6d5eaa5587
+Section: 老iOS专用
+Priority: optional
+Description: 32位iOS 9.1-9.3.4完美越狱补丁
+Author: tihmstar
+Name: HomeDepot (iOS 9.1-9.3.4)
 
 Package: com.white.bfdecrypt
 Version: 1.3.5
@@ -8461,6 +8588,42 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/tw
 Name: TweakSettings
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/tweaksettings/Depiction
 
+Package: com.white.uaupdatetools
+Version: 1.0r-101
+Architecture: iphoneos-arm
+Maintainer: UnlimApps Inc. <support@unlimapps.com>
+Depends: firmware (>= 7.0), mobilesubstrate, com.unlimapps.uasharedtools (>= 2.2r-60)
+Conflicts: it.marcocristalli.asupdatehider
+Filename: ./debs/appadmin_1.0r-101.deb
+Size: 543388
+MD5sum: 511a551dc82a98fe4086d8ee4efac361
+SHA1: 99776c6c05a8ac4b086e35794b5ffcae74c7ff24
+SHA256: c08a5b41b200b45724e52c8bac807a710b2819cf128b286859e75b49e604ee55
+Section: 老iOS专用
+Priority: optional
+Description: 降级App版本工具
+Author: UnlimApps Inc. <support@unlimapps.com>
+Name: App Admin (iOS 7-10)
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/appadmin/Depiction
+
+Package: com.white.uaupdatetools11
+Version: 1.0r-101
+Architecture: iphoneos-arm
+Maintainer: UnlimApps Inc. <support@unlimapps.com>
+Depends: firmware (>= 11.0), mobilesubstrate, com.unlimapps.uasharedtools.nostash (>= 2.2r-60)
+Conflicts: it.marcocristalli.asupdatehider
+Filename: ./debs/appadmin11_1.0r-101.deb
+Size: 543332
+MD5sum: 6f332ccf425536130e47e05fb0ca0455
+SHA1: 43adf325436a4c89c80dce139d3ffd225886c6b2
+SHA256: 52e1585a01293bc0bc9413facee8a18874f456d5da706ad4cbac5bc60301edd5
+Section: 老iOS专用
+Priority: optional
+Description: 降级App版本工具
+Author: UnlimApps Inc. <support@unlimapps.com>
+Name: App Admin (iOS 11+)
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/appadmin/Depiction
+
 Package: com.white.unicom5siOS9
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -11438,17 +11601,18 @@ Package: org.coolstar.stash933
 Version: 1.5.0
 Architecture: iphoneos-arm
 Maintainer: CoolStar <coolstarorganization@gmail.com>
-Depends: firmware (>= 9.2), firmware (<= 10.2), org.coolstar.cctools
+Depends: firmware (>= 9.0), firmware (<= 10.3.3), org.coolstar.cctools
 Conflicts: com.tigisoftware.filza (<= 3.1.0-16)
 Filename: ./debs/stash933_1.5.0.deb
-Size: 21872
-MD5sum: 8ae2e67dbba8138aa4198186a2071409
-SHA1: 548797f9f46b3cc836178e90e4beb16aabc2528a
-SHA256: 6c1f790be9561031d30d97074e1fa56d982c9a331accba635fdb6c1dbe1da5b6
+Size: 21972
+MD5sum: 56a9f089e8f1b9bba62e8df65c854d9b
+SHA1: c6c15738f332e7b7ccee0fb5f2a3a7d5c2ad9b86
+SHA256: bdc905b64799fcafd03eb7b58e9bd29b859f446d5d7f5036cb8df134b43a14aa
 Section: 老iOS专用
-Description: 隐藏第三方组件，为它们腾出更多空间！
+Description: 将第3方组件存储到用户分区，可以腾出更多空间！
 Author: CoolStar <coolstarorganization@gmail.com>
 Name: Stashing for iOS 9.2 - 10.2
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/stash933/Depiction
 
 Package: org.tihmstar.kDFUApp
 Version: 1.0.3
