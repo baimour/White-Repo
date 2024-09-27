@@ -70,6 +70,53 @@ Author: 来了老弟
 Name: Copy-Text
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/copy/Depiction
 
+Package: cn.tinyapps.respringassistant
+Version: 1.6.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 849
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/respringassistant_1.6.1_iphoneos-arm.deb
+Size: 244860
+MD5sum: 03f43ad9b96163601e1964fa7c5fc98f
+SHA1: 475aaceb71d9dcfe9e9fa2e3724327718207b439
+SHA256: c233dc593884a7a0841059ec843c074b29d057fe32e1196dff26960b7a98f42a
+Section: Utilities
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=respringassistantDp
+Description: [快速注销+联网修复]快速重启桌面进程，注销设备；一键刷新桌面应用图标；修复越狱后无法联网问题
+Tag: purpose::extension, role::enduser
+Author: Tinyapps.cn <tinyapps@qq.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=respringassistantDp
+Dev: shengwen
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/respringassistant/icon.png
+Icon2: file:///Applications/Rehosts.app/Icon.png
+Name: Respring Assistant
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/respringassistant/Depiction
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: cn.tinyapps.respringassistant
+Version: 1.6.1
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 836
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/respringassistant_1.6.1_iphoneos-arm64.deb
+Size: 235964
+MD5sum: 299bfa4977b6bd5830f24b566705f2d4
+SHA1: f0fb54ba1bf7494e583ddd4c9ac9c4d3c1bb5576
+SHA256: b8cfa878e3381ddf766d6ec7c05e909fdc2bfad7997ff07cd3a15e302d1cc13f
+Section: Utilities
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=respringassistantDp
+Description: [快速注销+联网修复]快速重启桌面进程，注销设备；一键刷新桌面应用图标；修复越狱后无法联网问题
+Tag: purpose::extension, role::enduser
+Author: Tinyapps.cn <tinyapps@qq.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=respringassistantDp
+Dev: shengwen
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/respringassistant/icon.png
+Name: Respring Assistant
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/respringassistant/Depiction
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.3dmenu.cheatpatch
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -124,6 +171,93 @@ Author: Joka
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/NFSMostWantedFreeHack/icon.png
 Name: Need for Speed™ Most Wanted Cheats
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/NFSMostWantedFreeHack/Depiction
+
+Package: com.anemonetheming.anemone
+Version: 2.1.8-2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 8112
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), com.rpetrich.rocketbootstrap, pincrush
+Conflicts: org.coolstar.themelib, anemoneteam.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Replaces: org.coolstar.themelib, anemoneteam.anemone, org.coolstar.classicdock, winterboard, org.coolstar.classicbadges, com.codethemed.iconbundles, com.idd.iconomatic
+Provides: org.coolstar.themelib, anemoneteam.anemone, org.coolstar.classicdock, winterboard, org.coolstar.classicbadges, org.coolstar.customclock, com.codethemed.iconbundles, com.idd.iconomatic
+Filename: ./debs/anemone_2.1.8-2.deb
+Size: 1858436
+MD5sum: d2d29f8e20b3e6314245a2de3a8de888
+SHA1: 3f46c71e858fac2496793cb1f5bb19f8766339f2
+SHA256: 70b538b82edd59bbba57080464b9ce27a7d50c0d5f5969a18948ea9edaff4dc3
+Section: 老iOS专用
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=anemoneDp
+Description: 一个很棒的主题管理器！
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
+Author: AnemoneTeam <anemonetheming@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=anemoneDp
+Dev: anemonetheming
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Anemone/icon.png
+Icon2: file:///Applications/Anemone.app/icon.png
+Name: Anemone
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Anemone/Depiction
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.anemonetheming.anemone3
+Version: 3.0~beta24
+Architecture: iphoneos-arm
+Maintainer: AnemoneTeam <anemonetheming@gmail.com>
+Depends: firmware (>=11.0), org.coolstar.libhooker, firmware (>=12.2) | org.swift.libswift (>=5.0)
+Conflicts: winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Replaces: org.coolstar.themelib, anemoneteam.anemone,  com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Provides: org.coolstar.themelib, anemoneteam.anemone, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Filename: ./debs/anemone3_3.0~beta24.deb
+Size: 805984
+MD5sum: 601ee110e8127c5c5c3527eec5662c7d
+SHA1: 7db733c26ad360f16eba7abe28cf7f4df3c48914
+SHA256: d4bcd13aba93ec595749f621f97d0ee77315e6c951ce6d27588532c7adbb5ecd
+Section: Utilities
+Description: 一个很棒的主题管理器！
+Author: AnemoneTeam <anemonetheming@gmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/anemone3/icon.png
+Name: Anemone 3
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/anemone3/Depiction
+
+Package: com.anemonetheming.anemone3
+Version: 3.0~beta6
+Architecture: iphoneos-arm
+Maintainer: AnemoneTeam <anemonetheming@gmail.com>
+Depends: firmware (>=11.0), org.coolstar.tweakinject, com.ex.libsubstitute, pincrush
+Conflicts: winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Replaces: org.coolstar.themelib, anemoneteam.anemone,  com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Provides: org.coolstar.themelib, anemoneteam.anemone, com.anemonetheming.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Filename: ./debs/anemone3_3.0~beta6.deb
+Size: 11296792
+MD5sum: 1c476c659a0a945070d6976e5558a4a4
+SHA1: 662671cd57d78dfdf86e015945925969b6ddc597
+SHA256: e0603301fba823781e672c4e6b20e5f71fc4dd8c27d28fca41db65efccc20699
+Section: Utilities
+Description: 优秀的主题平台
+Author: AnemoneTeam <anemonetheming@gmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/anemone3/icon.png
+Name: Anemone 3
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/anemone3/Depiction
+
+Package: com.anemonetheming.anemone3-extsb
+Version: 3.0~beta14
+Architecture: iphoneos-arm
+Maintainer: AnemoneTeam <anemonetheming@gmail.com>
+Depends: firmware (>=11.0), org.coolstar.libhooker, com.anemonetheming.anemone3 (>=3.0~beta16)
+Replaces: org.coolstar.classicdock, org.coolstar.classicbadges
+Provides: org.coolstar.classicdock, org.coolstar.classicbadges
+Filename: ./debs/anemone3-extsb_3.0~beta14.deb
+Size: 37084
+MD5sum: 26e4c6efe45542c6c76aea6f4b6ae94e
+SHA1: 78a982afd0a4a5b32f281fae45dbaa6a378c780b
+SHA256: 3d720371e170e2d02952b4b4bc30bbcd5c16980bb9a2546123d1acd3f03e79f4
+Section: Tweaks
+Description: 主题管理器扩展包
+Author: AnemoneTeam <anemonetheming@gmail.com>
+Icon: https://repo.theodyssey.dev/depictions/icons/anemone3.png
+Name: Anemone 3 SpringBoard Extension Pack
+Sileodepiction: https://repo.theodyssey.dev/depictions/json/anemone3extsb.json
 
 Package: com.apple.Preferences
 Version: 9.9.9
@@ -270,6 +404,50 @@ Depiction: https://creaturecoding.com/?page=depiction&id=libcscolorpicker
 Name: libCSColorPicker
 Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcscolorpicker
 
+Package: com.dave1482.powerapp
+Version: 7.0
+Architecture: iphoneos-arm64
+Maintainer: Teddible (aka Dave1482) <dave1482@dave1482.com>
+Installed-Size: 1024
+Pre-Depends: firmware (>= 8.0), system-cmds, shell-cmds, coreutils
+Conflicts: com.dave1482.powerappbeta
+Filename: ./debs/powerapp_7.0_iphoneos-arm64.deb
+Size: 510204
+MD5sum: fb2b5914f3aab9d28001bee08c974f06
+SHA1: 7db04cc4e8114f4ec4781a79a730b62547e9dd57
+SHA256: f2a84cb13f75790bb37fcfae94a6d0732d43ce1b7e85e592f0c3abe9679b4c8c
+Section: Utilities
+Description: 快捷工具，重启、关机、重启、进入安全模式
+Tag: purpose::uikit, compatible::ios15, compatible::ios16, compatible::ios17, compatible::ios18, compatible_min::ios8.0
+Author: Teddible (aka Dave1482) <dave1482@dave1482.com>
+Depiction: https://chariz.com/get/powerapp
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/powerapp/icon.png
+Icon2: https://img.chariz.cloud/icon/powerapp/icon@3x.png
+Name: PowerApp
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/powerapp/Depiction
+
+Package: com.dave1482.powerapp
+Version: 7.0
+Architecture: iphoneos-arm
+Maintainer: Teddible (aka Dave1482) <dave1482@dave1482.com>
+Installed-Size: 1344
+Pre-Depends: firmware (>= 8.0), system-cmds, shell-cmds, coreutils
+Conflicts: com.dave1482.powerappbeta
+Filename: ./debs/powerapp_7.0_iphoneos-arm.deb
+Size: 562628
+MD5sum: b9b6f155a065e7f45d3f61ceeae043d5
+SHA1: 324ab8f5b21a9a365177806c46212fc978f35562
+SHA256: 0f91de9cf048096783bb9b649c395f7f691992f23df158e7dcf6e0ee2a9adb9e
+Section: Utilities
+Description: 快捷工具，重启、关机、重启、进入安全模式
+Tag: purpose::uikit, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13, compatible::ios14, compatible::ios15, compatible::ios16, compatible::ios17, compatible::ios18, compatible_min::ios8.0
+Author: Teddible (aka Dave1482) <dave1482@dave1482.com>
+Depiction: https://chariz.com/get/powerapp
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/powerapp/icon.png
+Icon2: https://img.chariz.cloud/icon/powerapp/icon@3x.png
+Name: PowerApp
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/powerapp/Depiction
+
 Package: com.doantien.bilibili
 Version: 3.3.0
 Architecture: iphoneos-arm64
@@ -391,6 +569,66 @@ Description: 全局开启杜比音效，杜比音效和普通音效的区别在�
 Author: Huayuarc
 Name: 全局开启杜比音效
 Sponsor: Huayuarc
+
+Package: com.i0stweak3r.respringalert
+Version: 1.0.2-2
+Architecture: iphoneos-arm
+Maintainer: i0s_tweak3r <djvs23@icloud.com>
+Depends: firmware (>= 14.0), firmware (< 18.0), mobilesubstrate, preferenceloader
+Conflicts: com.yourepo.cydiageek.noticemyrespring
+Filename: ./debs/respringalert_1.0.2-2_iphoneos-arm.deb
+Size: 95752
+MD5sum: 91f9578064fc56d7fe67c1b591193e1f
+SHA1: ffdacb7f33d6111f393bf1bd07d81f54dd9736f2
+SHA256: 92df9af636c58b3670748c6e3c23a00b28eb1ace9f862abf5d3227540c5478e8
+Section: Tweaks
+Description: 一个小插件，每次注销后发出弹窗的形式跟踪您的设备每天进行注销的次数。它显示当天的日期和运行总数。您甚至会知道设备何时完成注销！厌倦了注销计数？弹窗中有120多个随机笑话和愚蠢的引文的选项。支持所有无根越狱设备
+Author: i0s_tweak3r <djvs23@icloud.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/respringalert/icon.png
+Name: RespringAlert
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/respringalert/Depiction
+
+Package: com.i0stweak3r.respringalert
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Maintainer: i0s_tweak3r
+Installed-Size: 556
+Depends: firmware (>= 14.0), firmware (< 18.0), mobilesubstrate, preferenceloader
+Conflicts: com.yourepo.cydiageek.noticemyrespring
+Replaces: com.yourepo.cydiageek.noticemyrespring
+Filename: ./debs/respringalert_1.0.5_iphoneos-arm64.deb
+Size: 90164
+MD5sum: b633359eb26bf03d1980bd489b6b1754
+SHA1: 305c02fbf14320bb12bc57a14bad0f46973940d5
+SHA256: ede3e4ac938af1be54cc1f4bb13cb866371ee2875d1d24c6980740b6597fdbdf
+Section: Tweaks
+Description: 一个小插件，每次注销后发出弹窗的形式跟踪您的设备每天进行注销的次数。它显示当天的日期和运行总数。您甚至会知道设备何时完成注销！厌倦了注销计数？弹窗中有150多个随机笑话和愚蠢的引文的选项。支持所有无根越狱设备
+Author: i0s_tweak3r
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/respringalert/icon.png
+Name: RespringAlert
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/respringalert/Depiction
+
+Package: com.iky1e.swipeselection
+Version: 1.5.2-1
+Architecture: iphoneos-arm
+Maintainer: Bigboss <bigboss@thebigboss.org>
+Installed-Size: 132
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 4.0), firmware (<= 10.3.3)
+Filename: ./debs/swipeselection_1.5.2-1.deb
+Size: 11540
+MD5sum: 44f81b703ff02b5d32f45142ca90c4f5
+SHA1: 017b43930f1bce1624a63331a0017331c4c65ff2
+SHA256: 4d7c609c5e29d05e5c23effbff6fba0e914fbdf4ddc89852524a0dc6bc4da57c
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=swipeselectionDp
+Description: 键盘滑动光标并选择文本
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9
+Author: iKy1e (Kyle Howells) <freerunnering+SwipeSelection@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=swipeselectionDp
+Dev: freerunnering
+Name: SwipeSelection
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/swipeselection/Depiction
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.ios.wechat
 Version: 1.0.6
@@ -558,6 +796,27 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ja
 Name: WeChat Jan
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/jan/Depiction
 
+Package: com.jailbreak365.notify10
+Version: 1.0.0-2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 142
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/notify10_1.0.0-2.deb
+Size: 7008
+MD5sum: d97b8b5d3fff0b63c23f64960b3b09d5
+SHA1: eee297c6d4eea1d8668859c342900e628650051d
+SHA256: 6f3a5d8a4b520972a847fa6e49a1593be564ca1878843c20d6ed9cc4c016e155
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=notify10Dp
+Description: 适用于iOS 11+的iOS 10样式通知
+Tag: purpose::extension
+Author: jailbreak365 <jailbreak365@mail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=notify10Dp
+Dev: jailbreak365
+Name: Notify10
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/notify10/Depiction
+
 Package: com.level3tjg.researchspoof
 Version: 1.0
 Architecture: iphoneos-arm
@@ -607,6 +866,28 @@ Author: halo_michael <yc992147156@me.com>
 Depiction: https://halo-michael.github.io/repo/info/suer
 Name: suer
 Sponsor: halo_michael <yc992147156@me.com>
+
+Package: com.miro.swipeselection
+Version: 1.0~beta9
+Architecture: iphoneos-arm
+Maintainer: MiRO <tweaks_support@miro92.com>
+Installed-Size: 756
+Depends: firmware (>= 13.0), firmware (< 15.0), mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.11)
+Conflicts: com.iky1e.swipeselection, com.iky1e.swipeselection-pro, com.yourepo.restiveconch.swipeselectionfix
+Filename: ./debs/swipeselection_1.0~beta9.deb
+Size: 174188
+MD5sum: 3ba37cc886e657858b25e0772e753a8b
+SHA1: 983a07919d15cbd4667ab87c697a6f72a390a5f6
+SHA256: f255b4a5afcc2cb347073e926b9724d0bb951a6cca68d9fa1bf34d885a81aba1
+Section: Tweaks
+Description: 使用键盘上的手势移动光标选择文本
+Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
+Author: MiRO <tweaks_support@miro92.com>
+Depiction: https://miro92.com/repo/depictions/?p=com.miro.swipeselection
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/swipeselection/icon.png
+Icon2: file:////Library/PreferenceBundles/SwipeSelectionPrefs.bundle/Header.png
+Name: SwipeSelection
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/swipeselection/Depiction2
 
 Package: com.mtac.ampere
 Version: 1.4
@@ -2438,6 +2719,41 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Bi
 Name: 哔哩哔哩 NoAds(重写版)
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/nDepiction
 
+Package: com.white.bytafont2
+Version: 2.6.4
+Architecture: iphoneos-arm
+Maintainer: BytaFont <info@bytafont.com>
+Depends: firmware (>= 7.0), applist, unzip
+Replaces: com.bytafont.bytafont2
+Filename: ./debs/bytafont2_2.6.4.deb
+Size: 1194756
+MD5sum: 8f5bdd99ade27b94ee49781b49d96384
+SHA1: b3b575de66721f9b674d7c4562e44101ae0f8d9c
+SHA256: df30cd5d3ec9cc95248c5f58ed6082604ff639fe10cf5d96543dad55dc58d373
+Section: 老iOS专用
+Description: 第三方字体平台
+Author: BytaFont <info@bytafont.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/bytafont/icon.png
+Name: BytaFont 2
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/bytafont/Depiction
+
+Package: com.white.bytafont3
+Version: 3.1.5
+Architecture: iphoneos-arm
+Maintainer: BytaFont <info@bytafont.com>
+Depends: firmware (>= 9.0), unzip, mobilesubstrate
+Filename: ./debs/bytafont3_3.1.5.deb
+Size: 1431948
+MD5sum: 12e0e24417b44c473040d30c1682139a
+SHA1: 3ca52b9c5b618e312a82fa5ce3b929f43edf3640
+SHA256: 8fe8223039b1c8ca48a74566ead50788d9f8b37e57857e8f1c68f9273c70103c
+Section: 老iOS专用
+Description: 第三方字体平台
+Author: BytaFont <info@bytafont.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/bytafont/icon.png
+Name: BytaFont 3
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/bytafont/Depiction2
+
 Package: com.white.cainiao240628
 Version: 1.0
 Architecture: iphoneos-arm
@@ -3207,6 +3523,28 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cr
 Moderndepiction: https://revulate.dev/depiction/native/com.spark.crash-reporter.json
 Name: CrashReporter
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/crashrepprter/Depiction
+
+Package: com.white.cretime3d
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 429
+Depends: firmware (>= 9.0), firmware (< 15.0), mobilesubstrate
+Filename: ./debs/cretime3d_1.0.2.deb
+Size: 67356
+MD5sum: cebb6cb045820f35ab823aa439802c65
+SHA1: dde225c39336f59a5f346c8fd8b9467aa5004ab9
+SHA256: 17088cd7392283e505b24a499b9c2612fa8a9419b11abd44a00a8bb1789c0294
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cretime3dDp
+Description: 长按应用图标查询证书到期时间
+Tag: purpose::extension
+Author: BigBoss <bigboss@thebigboss.org>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cretime3dDp
+Dev: ant
+Name: 3DTouch查询证书到期
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cretime3d/Depiction
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.white.cunstuck
 Version: 1.0
@@ -4824,6 +5162,44 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/fl
 Name: FlyJB X
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/flyjbx/Depiction
 
+Package: com.white.fontios8
+Version: 1.0.0
+Architecture: iphoneos-arm
+Essential: no
+Maintainer: White <(NULL)>
+Pre-Depends: com.white.bytafont3, firmware (>= 9.0), firmware (< 10.0)
+Filename: ./debs/fontios8_1.0.0.deb
+Size: 23725524
+MD5sum: 5b402f23da6f22346a66e3b64daa354f
+SHA1: 681d527b1dbf96128ea9896eee228ee509d768c9
+SHA256: 38e57c6b426e77d56c85b5da6ba7882369b1e3a9d8ddc924d9285c2722649710
+Section: Fonts
+Priority: standard
+Description: 适用iOS9的iOS8字体
+Tag: role::enduser
+Author: White <(NULL)>
+Name: iOS8全套字体 (iOS 9)
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/font8/Depiction
+
+Package: com.white.fontzyzy
+Version: 1.0.0
+Architecture: iphoneos-arm
+Essential: no
+Maintainer: White <(NULL)>
+Pre-Depends: com.white.bytafont3, firmware (>= 9.0), firmware (<= 10.3.3)
+Filename: ./debs/fontzyzy_1.0.0.deb
+Size: 11906756
+MD5sum: cba01a55688a7a7fb7770d6b40786de9
+SHA1: d2930c24b895dc666479e6fdfdd9be7ec184018a
+SHA256: a3c522f0ffd3b47c419d901fe92ac2d16e6b2723a371bdb4705dd9989c1da4f0
+Section: Fonts
+Priority: standard
+Description: 自由之翼字体
+Tag: role::enduser
+Author: White <(NULL)>
+Name: 自由之翼体
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/fontzyzy/Depiction
+
 Package: com.white.ftt
 Version: 1.1
 Architecture: iphoneos-arm
@@ -6059,6 +6435,23 @@ Name: LocationHandleX
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/locationhandlex/Depiction
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.white.lockeypad7
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: White <(NULL)>
+Installed-Size: 152
+Depends: firmware (>= 11.0), mobilesubstrate
+Filename: ./debs/lockeypad7_0.0.2.deb
+Size: 4992
+MD5sum: 678e9b8e2d9443a1c2cece5a181ead91
+SHA1: 48e45f083fdba1ebb4472c2ea08fd28f72d5a44c
+SHA256: 3626b5f80876f3a0e01349c0eb1ecd14a354b39b218826f30d85627c9d6be949
+Section: Tweaks
+Description: 锁屏iOS 7键盘样式
+Author: XsF1re
+Name: LockeyPad7
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/lockeypad7/Depiction
+
 Package: com.white.lowernotifs
 Version: 1.0.1
 Architecture: iphoneos-arm
@@ -6491,29 +6884,6 @@ Section: Tweaks
 Description: 删除无SIM卡弹窗
 Author: Spark
 Name: NoSimAlert
-
-Package: com.white.notify10
-Version: 1.0.0-2
-Architecture: iphoneos-arm
-Maintainer: jailbreak365 <jailbreak365@mail.com>
-Installed-Size: 142
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Conflicts: com.jailbreak365.notify10
-Replaces: com.jailbreak365.notify10
-Filename: ./debs/notify10_1.0.0-2.deb
-Size: 7008
-MD5sum: c620d700eae9c0e3beef61c772406c0e
-SHA1: 339801c8e434eaf9d53085498476e74fe183223d
-SHA256: d70af0618994c5a3a54f1d61a3b84ddd373f407e00f483eaf685e169aa6abfe5
-Section: Tweaks
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=notify10Dp
-Description: 适用于iOS 11+的iOS 10风格通知
-Tag: purpose::extension
-Author: jailbreak365 <jailbreak365@mail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=notify10Dp
-Dev: jailbreak365
-Name: Notify10
-Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/notify10/Depiction
 
 Package: com.white.notitapdelay
 Version: 1.2
@@ -9868,6 +10238,21 @@ Description: none
 Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
 Name: libpartialzip
 
+Package: libpng16-16
+Version: 1.6.37-2
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 240
+Filename: ./debs/libpng16-16_1.6.37-2.deb
+Size: 80824
+MD5sum: 2a08d651048bae4ceeb1300e58c135f6
+SHA1: 6de4e9852198911d289566db6cbe29f092e821de
+SHA256: f35228cfd783b1263233d58d0b1c93a7a500f5ae9a0ddf674c4c818cac788d59
+Section: Development
+Priority: optional
+Multi-Arch: foreign
+Description: PNG-运行库 (1.6版)，libpng是一个实现读取和写入PNG（便携式网络图形）格式文件的界面的库。此插件包含使用libpng运行软件所需的运行时库文件
+
 Package: libssl1.0
 Version: 1.0.2s-1
 Architecture: iphoneos-arm
@@ -9992,6 +10377,52 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ne
 Name: MTerminal
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/newterm/Depiction3
 
+Package: net.joebruce.respringhelper
+Version: 1.5.4
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 6328
+Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000), applist (>= 1.5.14), com.rpetrich.rocketbootstrap (>= 1.0.2)
+Filename: ./debs/respringhelper_1.5.4_iphoneos-arm.deb
+Size: 1981804
+MD5sum: 38ad272d83dc4337011be63ec9e1e084
+SHA1: 26ee3dba5b0692368a9b5a67c94ce53542854b7e
+SHA256: daf1048845a83509943f68aae07453b5a2ff0028af9913064ad5dfb111335a64
+Section: Utilities
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=respringhelperDp
+Description: 快捷重启桌面进程应用程序
+Tag: purpose::extension
+Author: Joe Bruce <joebruce1122@hotmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=respringhelperDp
+Dev: joebruce
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/respringhelper/icon.png
+Name: Respring Helper
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/respringhelper/Depiction
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: net.joebruce.respringhelper
+Version: 1.5.4
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 6128
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), applist (>= 1.5.14), com.rpetrich.rocketbootstrap (>= 1.0.2)
+Filename: ./debs/respringhelper_1.5.4_iphoneos-arm64.deb
+Size: 1942768
+MD5sum: 900ae75ac8f02b8996fffbf74450c8d0
+SHA1: d15496f19c73fa345b747e2508cf2e94c2bc81c4
+SHA256: d9a5b5472488b33bedc71bcef9cc4ec84751a9d5fa8e7663347f8944f79816bf
+Section: Utilities
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=respringhelperDp
+Description: 快捷重启桌面进程应用程序
+Tag: purpose::extension
+Author: Joe Bruce <joebruce1122@hotmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=respringhelperDp
+Dev: joebruce
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/respringhelper/icon.png
+Name: Respring Helper
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/respringhelper/Depiction
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: net.tihmstar.daemonloader
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -10034,14 +10465,32 @@ Maintainer: Nets
 Installed-Size: 448
 Depends: firmware (>= 13.0), mobilesubstrate
 Filename: ./debs/netskao.3dnetworkfixer_1.1-8_iphoneos-arm.deb
-Size: 82488
-MD5sum: 496f916f9b070cfadba410c39ebad3f5
-SHA1: 189f2314a8b6b59f0147451439692d5bef5a6e91
-SHA256: 74e6d8f7411fc69b6b79ae44fd1e4e57a0e3cf8cdae0865390a966107a7be2b5
+Size: 78488
+MD5sum: dd84927db2206554060bb42ed69ae575
+SHA1: 55f2e3fbe77b795cee3f6e69895e54721ea83bec
+SHA256: ab0c72124f21dae97831408cc02bded726c913fe2cbba65b5322cdc316b5eca0
 Section: Tweaks
 Description: 3D桌面菜单，快速修复应用程序联网权限，支持iOS13-iOS15
 Author: Netskao
 Name: 3DNetworkFixer
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/3dnetworkfixer/Depiction
+
+Package: netskao.3dnetworkfixer
+Version: 1.1-8
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 496
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/netskao.3dnetworkfixer_1.1-8_iphoneos-arm64.deb
+Size: 115808
+MD5sum: 31ae82e3cd679e50dc587a8b07859e40
+SHA1: 7c52b892feba054cac9d41b302e42e85fe79f93e
+SHA256: 86b03d8a5fc6e0edf29317a5e75dec701f6114b756fd94e2c138ddfa7b5dc0dc
+Section: Tweaks
+Description: 使用3DTouch菜单，修复应用联网权限，支持iOS 13-iOS 15
+Author: Netskao
+Name: 3DNetworkFixer-Rootless
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/3dnetworkfixer/Depiction
 
 Package: netskao.actionbarreborn
 Version: 1.1-2
@@ -11630,6 +12079,24 @@ Description: 进入kDFU模式更简单的方法
 Author: tihmstar
 Dev: tihmstar
 Name: kDFUApp
+
+Package: pincrush
+Version: 0.9.2
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 144
+Depends: libpng16
+Filename: ./debs/pincrush_0.9.2.deb
+Size: 7132
+MD5sum: 4d467ad936dd14f8f3cd3f5fff9388c9
+SHA1: 215f0a1c6650396e0be393af41e8d2dd91030878
+SHA256: 2c979b12377d999c297c3b0055b836596ab0ac550e060ad945897597fa82be1a
+Section: Development
+Homepage: http://howett.net/pincrush
+Description: 像苹果一样优化PNG，pincrush是苹果专有的PNG mangler的开放式跨平台替代品，用于优化iPhoneOS设备上显示的PNG
+Tag: purpose::console, role::hacker
+Author: Dustin Howett <dustin@howett.net>
+Name: pincrush
 
 Package: python
 Version: 2.7.15-2
