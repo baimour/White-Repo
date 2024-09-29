@@ -2078,6 +2078,42 @@ Depiction: https://apt.s1ris.org/depictions/arm64e/index.html
 Name: arm64e Tools
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/arm64e/Depiction
 
+Package: com.white.astool
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: White <(null)>
+Installed-Size: 200
+Depends: mobilesubstrate
+Filename: ./debs/astool_1.0_iphoneos-arm.deb
+Size: 13086
+MD5sum: 1564ec1b8cb0a5b7dedc6db9ee036c15
+SHA1: 0a184d4df9ec6f4aec0840b6153eb3793a54fcdc
+SHA256: 8f87c0ab7ea0771b8da2c69f6e8f2ae0eae9362286d3c2cafecfa5714b535bc4
+Section: NoAds
+Description: 去启动广告
+Author: White <(null)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/i4notes/icon2.png
+Name: 爱思极速版 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/i4notes/Depiction
+
+Package: com.white.astool
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: White <(null)>
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/astool_1.0_iphoneos-arm64.deb
+Size: 9026
+MD5sum: 9106d4b78eae8d47a2c406aacab5f258
+SHA1: f2d5c94665fe704096160e53c47758f93d81e838
+SHA256: 042254b92cc724eb2fe338f2d62088b06e97036ec2ad434c92e33c8df96232ee
+Section: NoAds
+Description: 去启动广告
+Author: White <(null)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/i4notes/icon2.png
+Name: 爱思极速版 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/i4notes/Depiction
+
 Package: com.white.atria
 Version: 1.4.1
 Architecture: iphoneos-arm
