@@ -3429,6 +3429,124 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/co
 Name: ColorBadges
 Sileodepiction: https://rejail.ru/sileo/depiction.php?file=colorbadges
 
+Package: com.white.conditionalwifi
+Version: 1.0.0-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 132
+Depends: firmware (>= 7.0), firmware (< 10.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: com.creatix.conditionalwifi
+Replaces: com.creatix.conditionalwifi
+Filename: ./debs/conditionalwifi_1.0.0-1_iphoneos-arm.deb
+Size: 14304
+MD5sum: f75176757369da75875470d7c5619c58
+SHA1: 0b0fb433f50591591c56b4143c4bb67bf5326c58
+SHA256: 00cfaa84822043c65b8becaa1ce4e42055429b173b91cb7edcfb208ca6a7a1b1
+Section: 老iOS专用
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=conditionalwifiDp
+Description: 在设置中添加应用网络权限控制
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9
+Author: Creatix <ioscreatix@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=conditionalwifiDp
+Dev: creatix
+Name: ConditionalWiFi
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/conditionalwifi/Depiction
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.white.conditionalwifi2
+Version: 1.0.0-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 118
+Depends: firmware (>= 10.0), firmware (< 11.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: com.ioscreatix.conditionalwifi2
+Replaces: com.ioscreatix.conditionalwifi2
+Filename: ./debs/conditionalwifi2_1.0.0-1_iphoneos-arm.deb
+Size: 13344
+MD5sum: 280c32272808d04cfa96418872223d45
+SHA1: 753b3fc23d7ddee900eb3f93df9672427b36d87e
+SHA256: d5eaa53ae5cf61e9bfdad37e87352bc5633c79bde921ed643c2d05420e285430
+Section: 老iOS专用
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=conditionalwifi2Dp
+Description: 在设置中添加应用网络权限控制
+Tag: purpose::extension, compatible::ios10
+Author: iOS Creatix <cardflourish101@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=conditionalwifi2Dp
+Dev: creatix
+Name: ConditionalWiFi2 (iOS 10)
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/conditionalwifi/Depiction2
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.white.conditionalwifi3
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: iOS Creatix
+Installed-Size: 128
+Depends: firmware (>= 11.0), firmware (< 13.0), mobilesubstrate
+Conflicts: com.ioscreatix.conditionalwifi3
+Replaces: com.ioscreatix.conditionalwifi3
+Filename: ./debs/conditionalwifi3_1.0.0_iphoneos-arm.deb
+Size: 9120
+MD5sum: 4f9f0b6a3d68dbb06e21badf1afec8bf
+SHA1: a5fd5bbeb43887e9d6fea4170efdc78365e6f9f0
+SHA256: bb648c52020978ad9780408e2382b23d9b7f310562d7ae1ec8b3c1742eae5279
+Section: Tweaks
+Description: 在设置中添加应用网络权限控制
+Author: iOS Creatix
+Name: ConditionalWiFi3 (iOS 11)
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/conditionalwifi/Depiction3
+
+Package: com.white.conditionalwifi4
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: iOS Creatix
+Installed-Size: 128
+Depends: firmware (>= 12.0), firmware (< 13.0), mobilesubstrate
+Filename: ./debs/conditionalwifi4_1.0.0_iphoneos-arm.deb
+Size: 9180
+MD5sum: fa968e38979e8dad2b0b77caada7c585
+SHA1: ee193b45a177403e45d5440ea8016151fdc430d4
+SHA256: 45cff2e179bf0ea66d6dda6ddfb5f2b041153fafce7052d9ddfe2e25919cea07
+Section: Tweaks
+Description: 在设置中添加应用网络权限控制
+Author: iOS Creatix
+Name: ConditionalWiFi4 (iOS 12)
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/conditionalwifi/Depiction4
+
+Package: com.white.conditionalwifi5
+Version: 2.0.1
+Architecture: iphoneos-arm
+Maintainer: ATWiiks
+Installed-Size: 128
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/conditionalwifi5_2.0.1_iphoneos-arm.deb
+Size: 9184
+MD5sum: 7f0f06a3491510ddc602d25700eee6c1
+SHA1: 1b3db492512ad2c97008e67db90a709e9ce46710
+SHA256: 8d063f6cb54cbe910fae582316fb9954433d5ae1c98d6f9e8d17af8bce4e06fb
+Section: Tweaks
+Description: 在设置中添加应用网络权限控制
+Author: ATWiiks
+Name: ConditionalWiFi5 (iOS 13)
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/conditionalwifi/Depiction5
+
+Package: com.white.conditionalwifi6
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: ATWiiks
+Installed-Size: 128
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./debs/conditionalwifi6_1.0_iphoneos-arm.deb
+Size: 9168
+MD5sum: f0c6d1930154f862f864a7676f0ab142
+SHA1: a3e19b743fcbec22b236268b22779e05b068d68a
+SHA256: d703b94820b4b0ac9616fd9351abfe82eca5ccf6f67b4041c1a5d53b3f00ff2f
+Section: Tweaks
+Description: 在设置中添加应用网络权限控制
+Author: ATWiiks
+Name: ConditionalWiFi6 (iOS 14)
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/conditionalwifi/Depiction6
+
 Package: com.white.control-center.ccmono
 Version: 1.0.2
 Architecture: iphoneos-arm
@@ -5390,6 +5508,42 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ge
 Name: GesturesXV
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/gesturesxv/Depiction
 
+Package: com.white.ghallownetwork
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 272
+Depends: firmware (>= 9.0), mobilesubstrate
+Filename: ./debs/ghallownetwork_0.0.1_iphoneos-arm.deb
+Size: 44636
+MD5sum: 0f7d9aa9429d85b523668d2fb78efd91
+SHA1: 81a24be40291c786ba55898589df9f1c3cbbdf13
+SHA256: 6574961fdfdbdb0441c76d3d450b3a40d3615a5299c1f91c953fb7e8abf4ca04
+Section: Tweaks
+Description: 国行设备自动允许应用网络权限
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/ghallownetwork.html
+Name: Allow Network
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ghallownetwork/Depiction
+
+Package: com.white.ghallownetwork
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 152
+Depends: firmware (>= 9.0), mobilesubstrate
+Filename: ./debs/ghallownetwork_0.0.1_iphoneos-arm64.deb
+Size: 8128
+MD5sum: d834fc74f4e3df15fb012eabe0e5b36b
+SHA1: 9a15f9c06736c1f9955274f80cfd65702b7a97f3
+SHA256: a0af8653607243bd718a16495a21e7df0690b53d209de014b1d0fac1d954a7c1
+Section: Tweaks
+Description: 国行设备自动允许应用网络权限
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/ghallownetwork.html
+Name: Allow Network
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ghallownetwork/Depiction
+
 Package: com.white.goodwifi
 Version: 0.0~beta6
 Architecture: iphoneos-arm
@@ -6643,6 +6797,38 @@ Author: CydiaGeek <lucaluca86@aol.com>
 Name: MoreLinesNotifications
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/morelinesnotifications/Depiction
 
+Package: com.white.netfix
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: White <(NULL)>
+Depends: firmware (>= 7.0), firmware (< 18.0)
+Filename: ./debs/netfix_1.0-1_iphoneos-arm.deb
+Size: 1028
+MD5sum: 84524e4bd86d791845c683343fed3fb6
+SHA1: 6d5b927dadee56fd567380dfed1eb07907266cf9
+SHA256: 805fe38e97f230afb0cd7e03c53fc6f10815df0628aa8634d95e75ccfc33914f
+Section: Tweaks
+Description: 修复国行Cydia不能联网问题
+Author: White <(NULL)>
+Name: Netfix Cydia联网修复
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/netfix/Depiction
+
+Package: com.white.netfix
+Version: 1.0-1
+Architecture: iphoneos-arm64
+Maintainer: White <(NULL)>
+Depends: firmware (>= 7.0), firmware (< 18.0)
+Filename: ./debs/netfix_1.0-1_iphoneos-arm64.deb
+Size: 944
+MD5sum: 8152ab1b19291aa068910a5c6ea857ce
+SHA1: 1164e5b4a37ac093f13d12d6d4a78036744856cb
+SHA256: 585bf8c0d38981bac7ebcd03df2c40bf9347dad4c6b878685295fcd5d4f297d0
+Section: Tweaks
+Description: 修复国行Cydia不能联网问题
+Author: White <(NULL)>
+Name: Netfix Cydia联网修复
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/netfix/Depiction
+
 Package: com.white.networkexalt
 Version: 1.2.1
 Architecture: iphoneos-arm
@@ -7316,6 +7502,58 @@ Tag: purpose::extension
 Author: White <1410970825@qq.com>
 Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 Name: 控制中心重启模块
+
+Package: com.white.renet
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 8111
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: cn.tinyapps.renet
+Replaces: cn.tinyapps.renet
+Filename: ./debs/renet_1.2_iphoneos-arm.deb
+Size: 2260864
+MD5sum: e526dff8ac6e648423647a43c715bfc9
+SHA1: fc0662dcc36378e4e76404ceb939e9c764e48a15
+SHA256: ab08f07ff77f3e2e57231ec4909af556d498cad0e9cd06dce6a8e623359f3ac0
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=renetDp
+Description: 修复越狱后Cydia等一些软件无法联网的问题
+Tag: purpose::extension
+Author: Tinyapps <tinyapps@qq.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=renetDp
+Dev: tinyapps
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/renet/icon.png
+Icon2: file:///Applications/Renet.app/AppIcon20x20@3x.png
+Name: 连个锤子
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/renet/Depiction
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.white.renet
+Version: 1.2.2
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 805
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: cn.tinyapps.renet
+Replaces: cn.tinyapps.renet
+Filename: ./debs/renet_1.2.2_iphoneos-arm64.deb
+Size: 224440
+MD5sum: 9c572084c03704f9f89adc304cdcf9df
+SHA1: 5031d7bca83db5711cb9c1d85b2c22bbc31bf635
+SHA256: 7e208a3b95df9d260a9aa52bb069fd0ff6ffe256553b54713a95ea36788ae41e
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=renetDp
+Description: 修复越狱后Cydia等一些软件无法联网的问题
+Tag: purpose::extension
+Author: Tinyapps <tinyapps@qq.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=renetDp
+Dev: tinyapps
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/renet/icon.png
+Icon2: file:///var/jb/Applications/Renet.app/AppIcon20x20@3x.png
+Name: 连个锤子
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/renet/Depiction
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.white.reo
 Version: 2.6.0
@@ -9435,6 +9673,38 @@ Author: iBreak <ibreak2019@qq.com>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/icon.png
 Name: WeChat Helper
 
+Package: com.white.wechatif
+Version: 1.6-2
+Architecture: iphoneos-arm64
+Maintainer: appku <xuanhua880@gmail.com>
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/wechatif_1.6-2_iphoneos-arm64.deb
+Size: 1659136
+MD5sum: 315e883efaa1b4fa861ce2327cdf0bba
+SHA1: c9a9566de6f5345799d0573e7ea438939c0a2ac6
+SHA256: cfa1d8e47a1563bcb60f45a5c352c6fe1fea0f65875fc80ec5507e69acc081c2
+Section: Wechat
+Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,多端登录设备隐藏、新增朋友圈转发、修改聊天时间以及修改部分BUG
+Author: appku <xuanhua880@gmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/wechatif/icon.png
+Name: 爱锋助手
+
+Package: com.white.wechatif
+Version: 1.6-2
+Architecture: iphoneos-arm
+Maintainer: appku <xuanhua880@gmail.com>
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/wechatif_1.6-2_iphoneos-arm.deb
+Size: 1599744
+MD5sum: e069a0ded093762cb264664650b76f43
+SHA1: ff41dd32a673696fbc199a2acc01870feb124374
+SHA256: 6177d22cebab334ae9fac6fa70bc217329d30133f07a1a336e04f8e17bbffeeb
+Section: Wechat
+Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,多端登录设备隐藏、新增朋友圈转发、修改聊天时间以及修改部分BUG
+Author: appku <xuanhua880@gmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/wechatif/icon.png
+Name: 爱锋助手
+
 Package: com.white.wifikey
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -9470,6 +9740,54 @@ Author: White <(null)>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/wifikey/icon.png
 Name: WiFi万能钥匙极速版 NoAds
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/wifikey/Depiction
+
+Package: com.white.wifiqr
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 317
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Conflicts: com.kingpuffdaddi.wifiqr
+Replaces: com.kingpuffdaddi.wifiqr
+Filename: ./debs/wifiqr_1.1.1_iphoneos-arm.deb
+Size: 25832
+MD5sum: 85ef654bbd80cd75b40a0b4a0fb5cd0c
+SHA1: 029e2c37891e9da580827ccc7a04d31fd587973a
+SHA256: 58e7b274f202c2576b7a44ab6fe8ae0c87aa9a41f2a8df0b219cf41075163bfc
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wifiqrDp
+Description: 在设置中为WiFi网络生成二维码
+Tag: purpose::extension
+Author: KingPuffdaddi <kingpuffdaddi@icloud.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wifiqrDp
+Dev: kingpuffdaddi
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/wifiqr/icon.png
+Name: WiFiQR
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/wifiqr/Depiction
+
+Package: com.white.wifiqr
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 388
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: com.kingpuffdaddi.wifiqr
+Replaces: com.kingpuffdaddi.wifiqr
+Filename: ./debs/wifiqr_1.1.1_iphoneos-arm64.deb
+Size: 28912
+MD5sum: 857d8588faec5cfbff07b64bc1a0c1b6
+SHA1: e79447bd8ece632993e30cbeed2c0ff97f600208
+SHA256: 94c66b49392d47286bbb6ed10a551d83283739f39b4623c676a0a330b24503da
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wifiqrDp
+Description: 在设置中为WiFi网络生成二维码
+Tag: purpose::extension
+Author: KingPuffdaddi <kingpuffdaddi@icloud.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wifiqrDp
+Dev: kingpuffdaddi
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/wifiqr/icon.png
+Name: WiFiQR
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/wifiqr/Depiction
 
 Package: com.white.wtvrbglauncher
 Version: 1.1
