@@ -1263,6 +1263,42 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/12
 Name: 123云盘 NoAds
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/123pan/Depiction
 
+Package: com.white.123pan
+Version: 1.0-3
+Architecture: iphoneos-arm64
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/123pan_1.0-3_iphoneos-arm64.deb
+Size: 10034
+MD5sum: d35865fabc9543f6c6bc9583003f5cdc
+SHA1: 7f3161a9962f41bacd59c9215ea77d44cf48472e
+SHA256: eb3be33f7b542fde009baa8321533669183e7bf989c9a07bda3d1855b077f53e
+Section: NoAds
+Description: 基于2.0.1版本制作，屏蔽越狱及强制更新
+Author: White <1410970825@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/123pan/icon.png
+Name: 123云盘 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/123pan/Depiction
+
+Package: com.white.123pan
+Version: 1.0-3
+Architecture: iphoneos-arm
+Maintainer: White <1410970825@qq.com>
+Installed-Size: 200
+Depends: mobilesubstrate
+Filename: ./debs/123pan_1.0-3_iphoneos-arm.deb
+Size: 14458
+MD5sum: f95e8b1e002d0c9abdf588974fa7e441
+SHA1: ec908ece4d7308086188789d1f4b3419ae05db90
+SHA256: cf7a5dce4667337b630bf7ff52503d87452f8282a36e443f4eeee5613d329a23
+Section: NoAds
+Description: 基于2.0.1版本制作，屏蔽越狱及强制更新
+Author: White <1410970825@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/123pan/icon.png
+Name: 123云盘 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/123pan/Depiction
+
 Package: com.white.14294gios9
 Version: 3.0.1
 Architecture: iphoneos-arm
@@ -9436,6 +9472,42 @@ Author: iApps
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/UniDream/icon.png
 Name: Uni Dream Crack
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/UniDream/Depiction
+
+Package: com.white.unionpay
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: White <(null)>
+Installed-Size: 1448
+Depends: mobilesubstrate
+Filename: ./debs/unionpay_1.0_iphoneos-arm.deb
+Size: 339428
+MD5sum: 6565a5ce1c2a27146cdc19c15961d806
+SHA1: 62ca8672c5bf6fee0bedf89708f1af1e5f6d7c53
+SHA256: 8ab384d407270d1556b0d4d31664bb57aeef094463938c7b4881246bdd6e0032
+Section: NoAds
+Description: 基于9.0.5版本制作，去启动广告精简界面
+Author: White <(null)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/unionpay/icon.png
+Name: 云闪付 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/unionpay/Depiction
+
+Package: com.white.unionpay
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: White <(null)>
+Installed-Size: 984
+Depends: mobilesubstrate
+Filename: ./debs/unionpay_1.0_iphoneos-arm64.deb
+Size: 292490
+MD5sum: 8108166c3c0b3a54544c65c8ff41d674
+SHA1: 4d414f3f9a1d055b3cdc86f87ccdcd3fdfb7dfc6
+SHA256: 4af956204bc6a795cdefff0955bd5b54186fce3e4a3b31ecf60b2d04f1ebbbf2
+Section: NoAds
+Description: 基于9.0.5版本制作，去启动广告精简界面
+Author: White <(null)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/unionpay/icon.png
+Name: 云闪付 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/unionpay/Depiction
 
 Package: com.white.unityfpsindicator
 Version: 0.0.4.1
