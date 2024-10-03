@@ -4261,6 +4261,42 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/dj
 Name: 水晶DJ Crack
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/dj97/Depiction
 
+Package: com.white.djdduo
+Version: 1.5
+Architecture: iphoneos-arm64
+Maintainer: White <(null)>
+Installed-Size: 968
+Depends: mobilesubstrate
+Filename: ./debs/djdduo_1.5_iphoneos-arm64.deb
+Size: 291376
+MD5sum: aa4daf92460ec66500c9bb4d24d3985c
+SHA1: 59330b25423cab2a2dcb2af0e05deb1dccde2468
+SHA256: 7df287ab939e8884bad04b086d156877bca09d1656daf8c2ece0fb00df24c37c
+Section: NoAds
+Description: 基于3.3.0版本制作，测试到4.1.0
+Author: White <(null)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/djdduo/icon.png
+Name: DJ多多(破解) NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/djdduo/Depiction
+
+Package: com.white.djdduo
+Version: 1.5
+Architecture: iphoneos-arm
+Maintainer: White <(null)>
+Installed-Size: 1432
+Depends: mobilesubstrate
+Filename: ./debs/djdduo_1.5_iphoneos-arm.deb
+Size: 337938
+MD5sum: b3ec9da3cd14aab54db05bf6bffaea28
+SHA1: 2b3eea256ddd7ad751498d6c77c1b7ae8cbc730a
+SHA256: c5a1bd197448c7e68225cf41a0e619bf51bcada72747a786186e44ce1f7de88a
+Section: NoAds
+Description: 基于3.3.0版本制作，测试到4.1.0
+Author: White <(null)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/djdduo/icon.png
+Name: DJ多多(破解) NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/djdduo/Depiction
+
 Package: com.white.dleasy
 Version: 2.14.4k
 Architecture: iphoneos-arm
