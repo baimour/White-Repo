@@ -1270,10 +1270,10 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 136
 Depends: mobilesubstrate
 Filename: ./debs/123pan_1.0-3_iphoneos-arm64.deb
-Size: 10034
-MD5sum: d35865fabc9543f6c6bc9583003f5cdc
-SHA1: 7f3161a9962f41bacd59c9215ea77d44cf48472e
-SHA256: eb3be33f7b542fde009baa8321533669183e7bf989c9a07bda3d1855b077f53e
+Size: 10066
+MD5sum: 6a21070dea2f1a297d4e8c6dcd18c775
+SHA1: cdc59054ca4f742276e3e7d013d8a27560414515
+SHA256: d6bc2fb4cc08ddf0976f83aea5028b4289e95e1f37d4e4fcad6b6a2279a46c19
 Section: NoAds
 Description: 基于2.0.1版本制作，屏蔽越狱及强制更新
 Author: White <1410970825@qq.com>
@@ -1288,10 +1288,10 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 200
 Depends: mobilesubstrate
 Filename: ./debs/123pan_1.0-3_iphoneos-arm.deb
-Size: 14458
-MD5sum: f95e8b1e002d0c9abdf588974fa7e441
-SHA1: ec908ece4d7308086188789d1f4b3419ae05db90
-SHA256: cf7a5dce4667337b630bf7ff52503d87452f8282a36e443f4eeee5613d329a23
+Size: 14538
+MD5sum: 3edf19b038ffb9e659fa0eef6d96e22c
+SHA1: 3b3012c9abb3230d8dc4b268d15f63a64759798b
+SHA256: 0b5f44b7c2a14620b133a9f79e70ee009077938c80a1743903e5aa6c9d16d308
 Section: NoAds
 Description: 基于2.0.1版本制作，屏蔽越狱及强制更新
 Author: White <1410970825@qq.com>
@@ -2284,6 +2284,42 @@ Author: White <(NULL)>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/bankabc/icon.png
 Name: 中国农业银行屏蔽越狱
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/bankabc/Depiction
+
+Package: com.white.bdnavi
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: White <(null)>
+Installed-Size: 968
+Depends: mobilesubstrate
+Filename: ./debs/bdnavi_1.0_iphoneos-arm64.deb
+Size: 291392
+MD5sum: 5a61519f758e9a12587dea5e956be183
+SHA1: abf2cc15fb806ac6d1637609484a0e538490a9d2
+SHA256: 930fbf4aaa2bc4221e184045fcac086720b095e34e974ba59287d2d33d0158f2
+Section: NoAds
+Description: 基于2.0版本制作，去广告
+Author: White <(null)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/bdnavi/icon.png
+Name: 北斗导航 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/bdnavi/Depiction
+
+Package: com.white.bdnavi
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: White <(null)>
+Installed-Size: 1432
+Depends: mobilesubstrate
+Filename: ./debs/bdnavi_1.0_iphoneos-arm.deb
+Size: 337678
+MD5sum: ed49f31d7e3290e6306613f679466bcc
+SHA1: a5bf4b59787b4b60da0c0ea794f33e9e3c38480b
+SHA256: 287d73bbcec2fb96a906688ff4fe70d10d37735658eaefdb06cffa639b8a6299
+Section: NoAds
+Description: 基于2.0版本制作，去广告
+Author: White <(null)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/bdnavi/icon.png
+Name: 北斗导航 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/bdnavi/Depiction
 
 Package: com.white.bdpan
 Version: 1.0
@@ -6079,6 +6115,42 @@ Description: iOS9.3+本地激活越狱
 Author: julioverne
 Name: JBMe iOS9.3+本地激活越狱
 
+Package: com.white.jiakaobd
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: White <(null)>
+Installed-Size: 968
+Depends: mobilesubstrate
+Filename: ./debs/jiakaobd_1.0_iphoneos-arm64.deb
+Size: 291152
+MD5sum: 775abb2b5082d426bc4b3e9e4d4b08e1
+SHA1: c5dfe2f1ed248c5f64310719dd8cc0301dc0eb5d
+SHA256: f896b9f9aaaee2308eed2027992dc150f66b9f8c585429846085d959bb20adbb
+Section: NoAds
+Description: 基于8.52.0版本制作，去广告
+Author: White <(null)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/jiakaobd/icon.png
+Name: 驾考宝典 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/jiakaobd/Depiction
+
+Package: com.white.jiakaobd
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: White <(null)>
+Installed-Size: 1432
+Depends: mobilesubstrate
+Filename: ./debs/jiakaobd_1.0_iphoneos-arm.deb
+Size: 337724
+MD5sum: 29f5f148519e271c6f51aab7638cc2f8
+SHA1: 3887ff58fe3bd92e26b1738a78fc441eadf5deab
+SHA256: c4ac6216350a37167a10df5e74e0270f405648f19ea1305e4b45545b3d35365b
+Section: NoAds
+Description: 基于8.52.0版本制作，去广告
+Author: White <(null)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/jiakaobd/icon.png
+Name: 驾考宝典 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/jiakaobd/Depiction
+
 Package: com.white.jumpadvideo
 Version: 0.1-3
 Architecture: iphoneos-arm
@@ -6696,6 +6768,42 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/lo
 Name: LowerNotifs
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/lowernotifs/Depiction
 
+Package: com.white.mailmaster
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: White <(null)>
+Installed-Size: 968
+Depends: mobilesubstrate
+Filename: ./debs/mailmaster_1.0_iphoneos-arm64.deb
+Size: 290932
+MD5sum: 592dcdadc5ddcbc69c1488816a0122cc
+SHA1: cad3107b0558fd1727c856df4c957ca0b41ba065
+SHA256: 5c72b0d959d66fdb8911989faa280f21af39e5e78cb9acb57c83e442bd73969e
+Section: NoAds
+Description: 基于7.8.1版本制作，去广告
+Author: White <(null)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/mailmaster/icon.png
+Name: 网易邮箱大师 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/mailmaster/Depiction
+
+Package: com.white.mailmaster
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: White <(null)>
+Installed-Size: 1432
+Depends: mobilesubstrate
+Filename: ./debs/mailmaster_1.0_iphoneos-arm.deb
+Size: 337180
+MD5sum: c85426c54201ec63e057257ac621aa55
+SHA1: 407f7b0186a21dab5bbf6e9383b8248a8b6c8d05
+SHA256: dc83d73de8e42a8c6ea297b57a133232f3ff762098883d88d3457fe62773d52b
+Section: NoAds
+Description: 基于7.8.1版本制作，去广告
+Author: White <(null)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/mailmaster/icon.png
+Name: 网易邮箱大师 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/mailmaster/Depiction
+
 Package: com.white.martda-lazuardi.belza-statusbar
 Version: 1.3
 Architecture: iphoneos-arm
@@ -7264,6 +7372,42 @@ Section: Tweaks
 Description: 在相册照片顶部显示当前照片的分辨率和大小
 Author: shepgoba
 Name: PhotoInfo
+
+Package: com.white.pindduo
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: White <(null)>
+Installed-Size: 984
+Depends: mobilesubstrate
+Filename: ./debs/pindduo_1.0_iphoneos-arm64.deb
+Size: 293190
+MD5sum: f9d18320092c482606a90d32981da559
+SHA1: 16239f826fcceb0b608e99aab2824fde6368c50c
+SHA256: 0705f5c8f5066bd20e83f125fec407b8e15bc0a8385f6b055b6423506bfa2ec4
+Section: NoAds
+Description: 基于6.68.0版本制作，去广告
+Author: White <(null)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/pindduo/icon.png
+Name: 拼多多 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/pindduo/Depiction
+
+Package: com.white.pindduo
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: White <(null)>
+Installed-Size: 1448
+Depends: mobilesubstrate
+Filename: ./debs/pindduo_1.0_iphoneos-arm.deb
+Size: 340204
+MD5sum: d6e52f7ed4587c10aee246796f80aa48
+SHA1: caaf0e28c07be83c74c8c232158654592f46b8e3
+SHA256: 20c75861021b9a26744952aa440049debc85bfb0ac4c16dd1756e02ace2fc498
+Section: NoAds
+Description: 基于6.68.0版本制作，去广告
+Author: White <(null)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/pindduo/icon.png
+Name: 拼多多 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/pindduo/Depiction
 
 Package: com.white.pollapo.pollapo-settings-icons-pack
 Version: 1.0.0
@@ -9268,6 +9412,42 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/tw
 Name: TweakSettings
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/tweaksettings/Depiction
 
+Package: com.white.txdecos
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: White <(null)>
+Installed-Size: 968
+Depends: mobilesubstrate
+Filename: ./debs/txdecos_1.0_iphoneos-arm64.deb
+Size: 291648
+MD5sum: 259b3c8ad28fe82d53945103027554ff
+SHA1: 71fbc7625ce24821237238fc31604a7219936104
+SHA256: 1c13f978e9a58f11e0a697b015b85868e1f0d55dc0935b71c19d81d14bdaa475
+Section: NoAds
+Description: 基于3.8.5版本制作，去广告
+Author: White <(null)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/txdecos/icon.png
+Name: 腾讯文档 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/txdecos/Depiction
+
+Package: com.white.txdecos
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: White <(null)>
+Installed-Size: 1432
+Depends: mobilesubstrate
+Filename: ./debs/txdecos_1.0_iphoneos-arm.deb
+Size: 338230
+MD5sum: 83b07ebd9305c3a4b52b23504571e603
+SHA1: 7ddd4f6d9fd97d8208b3a1c6d3184cf9677dd0ca
+SHA256: edbc0eefbc9d14d4cd49c6f998063e48749017bac3c01f3febed9c72cab0a0ef
+Section: NoAds
+Description: 基于3.8.5版本制作，去广告
+Author: White <(null)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/txdecos/icon.png
+Name: 腾讯文档 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/txdecos/Depiction
+
 Package: com.white.uaupdatetools
 Version: 1.0r-101
 Architecture: iphoneos-arm
@@ -9861,6 +10041,42 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/wi
 Name: WiFiQR
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/wifiqr/Depiction
 
+Package: com.white.woodread
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: White <(null)>
+Installed-Size: 1432
+Depends: mobilesubstrate
+Filename: ./debs/woodread_1.0_iphoneos-arm.deb
+Size: 337846
+MD5sum: 7433483a9dc0d22198e76f8bfd9ce4f0
+SHA1: ac29ac342a3d1d2eaa2291da9af3410a2d6833e7
+SHA256: 7ff2996c9186fe83ca1886b86b62adeee11f76b336d92ba7c2c65c3d2233828d
+Section: NoAds
+Description: 基于6.1.3版本制作，去广告; 测试到6.3.1
+Author: White <(null)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/woodread/icon.png
+Name: 常读小说 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/woodread/Depiction
+
+Package: com.white.woodread
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: White <(null)>
+Installed-Size: 968
+Depends: mobilesubstrate
+Filename: ./debs/woodread_1.0_iphoneos-arm64.deb
+Size: 291474
+MD5sum: 78b23155060ad4ef913338db1efc7a2d
+SHA1: e5530906539b973b33147647fc121377a29c682c
+SHA256: cc569f20024f6f45e30d826b3eea58d063264342f90d7260b20f997b58606df7
+Section: NoAds
+Description: 基于6.1.3版本制作，去广告; 测试到6.3.1
+Author: White <(null)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/woodread/icon.png
+Name: 常读小说 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/woodread/Depiction
+
 Package: com.white.wtvrbglauncher
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -9893,6 +10109,42 @@ Author: Huayuarc
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cloudmusic/icon.png
 Name: 网易云音乐 NoAds
 Sponsor: Huayuarc
+
+Package: com.white.yiyancrack
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: White <(null)>
+Installed-Size: 968
+Depends: mobilesubstrate
+Filename: ./debs/yiyancrack_1.0_iphoneos-arm64.deb
+Size: 291036
+MD5sum: 079608e7e9e8c986ac324e51839aef53
+SHA1: 5e47f1673fbfda5285cf6f3fcf4a7082cb064747
+SHA256: e18c6553af49a0d319cea6779b157d9463915ab49de231c49329315c8b21031e
+Section: Cracks
+Description: 基于5.02版本制作，破解会员权限
+Author: White <(null)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/yiyan/icon.png
+Name: 一言 Crack
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/yiyan/Depiction
+
+Package: com.white.yiyancrack
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: White <(null)>
+Installed-Size: 1432
+Depends: mobilesubstrate
+Filename: ./debs/yiyancrack_1.0_iphoneos-arm.deb
+Size: 337182
+MD5sum: 9154388bb520754aa2fd23b5e595e6ee
+SHA1: 1dc7600e2a92f7f2d10c50b4568c775b2516c86d
+SHA256: 32722737009a7d1d396b515f4af9b4520b777bc0f4784194bd0f2c44bdd9eb1c
+Section: Cracks
+Description: 基于5.02版本制作，破解会员权限
+Author: White <(null)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/yiyan/icon.png
+Name: 一言 Crack
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/yiyan/Depiction
 
 Package: com.white.youdao
 Version: 1.0
