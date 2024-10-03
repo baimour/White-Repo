@@ -6707,6 +6707,27 @@ Description: CBZ制作的Limneos源插件破解，使用了新的ABI编译。破
 Author: CBZ
 Name: Limneos Patch
 
+Package: com.white.littlexs
+Version: 2.4.4
+Architecture: iphoneos-arm
+Maintainer: White <(NULL)>
+Installed-Size: 332
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.binksalex.fluidify, com.ryannair05.poseidon, com.ryannair05.poseidon-rounded, com.vitataf.homegesture, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Replaces: com.binksalex.fluidify, com.ryannair05.poseidon, com.ryannair05.poseidon-rounded, com.vitataf.homegesture, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Provides: com.binksalex.fluidify, com.ryannair05.poseidon, com.ryannair05.poseidon-rounded, com.vitataf.homegesture, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.duraidabdul.neptune
+Filename: ./debs/littlexs_2.4.4.deb
+Size: 22704
+MD5sum: a2a37de2126cc43d96d4018e1e7ed06b
+SHA1: 494fba6d816bbe72efa7bcb5d81e7fe9d7a8fb36
+SHA256: 0098c7743983ee333908309253dbcf7fc21348338bf73d5332fd2c8eee930303
+Section: Tweaks
+Description: iOS12全面屏手势
+Author: Ryan Nair & binksalex
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/littlexs/icon.png
+Name: LittleXS
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/littlexs/Depiction
+
 Package: com.white.liveactivities
 Version: 1.0.5
 Architecture: iphoneos-arm
