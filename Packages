@@ -608,6 +608,216 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/re
 Name: RespringAlert
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/respringalert/Depiction
 
+Package: com.ichitaso.fivehome13
+Version: 0.0.3
+Architecture: iphoneos-arm
+Maintainer: ichitaso
+Installed-Size: 136
+Pre-Depends: firmware (>= 13.0)
+Depends: firmware (>= 13.0), mobilesubstrate, com.chpwn.iconsupport, com.muirey03.iconsupportfix
+Conflicts: gsc.ipad
+Filename: ./debs/com.ichitaso.fivehome13_0.0.3.deb
+Size: 4480
+MD5sum: 4cf23674fed78e76f5789197f824df26
+SHA1: b0eb957adda5189e60f3d9551821d1ee24dac765
+SHA256: 2d54a759225896223d54a82ca0cef8b84cef029748523ad545d764273850daa0
+Section: Tweaks
+Homepage: https://ichitaso.com/
+Description: 在桌面上添加第五列图标
+Tag: purpose::extension, compatible::ios13
+Author: ichitaso
+Depiction: https://cydia.ichitaso.com/depiction/fivehome13.html
+Dev: ichitaso
+Name: FiveColumnHomeScreen13
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/fivehome13/Depiction
+
+Package: com.ichitaso.fiveicondock13
+Version: 0.0.5
+Architecture: iphoneos-arm
+Maintainer: ichitaso
+Installed-Size: 136
+Pre-Depends: firmware (>= 13.0)
+Depends: firmware (>= 13.0), mobilesubstrate, com.chpwn.iconsupport, com.muirey03.iconsupportfix
+Conflicts: gsc.ipad, me.nepeta.docky, me.nepeta.2dock, com.synnyg.floatydock, com.p2kdev.floatingdock13, com.p2kdev.fivedock13, com.p2kdev.floatingdockplus13, com.imkpatil.floatingdockplus, com.imkpatil.floatingdock, com.dgh0st.floatingdock, com.cabralcole.dockalpha, me.gmoran.fiveicondockxi, info.rpdev.betterfiveicondock, com.noisyflake.cleardock12, com.yourepo.cydiageek.shydock, com.noisyflake.moderndock, com.julioverne.cirdock11, com.daniel63194.colormydock
+Replaces: com.ichitaso.fiveicondock13
+Filename: ./debs/com.ichitaso.fiveicondock13_0.0.5.deb
+Size: 4576
+MD5sum: a951de1fd2a6ecf5ca427c3f7a670fdb
+SHA1: 6e8d6854738139c96caf66810838595db36362f5
+SHA256: affb30cd7262b24f395b422496a487ff510c94d6ac4d13ff928cd5eab638f56b
+Section: Tweaks
+Homepage: https://ichitaso.com/
+Description: 支持iOS 13的Dock放五个图标
+Tag: purpose::extension, compatible::ios13
+Author: ichitaso
+Depiction: https://cydia.ichitaso.com/depiction/fivedock13.html
+Dev: ichitaso
+Name: FiveIconDock13
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/fiveicondock13/Depiction
+
+Package: com.ichitaso.hidedots13
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: ichitaso
+Installed-Size: 136
+Pre-Depends: firmware (>= 13.0)
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/com.ichitaso.hidedots13_0.0.1.deb
+Size: 2596
+MD5sum: 5f652b8f8f4027688c6f96e78574e072
+SHA1: f464092616d233b985761b22a6be711ec772d50c
+SHA256: ee1f4a38e91e0f17a347be7acb5871437ae324c1c015a5251dacd151ce47c9ef
+Section: Tweaks
+Homepage: https://ichitaso.com/
+Description: 隐藏iOS 13翻页点
+Tag: purpose::extension, compatible::ios13
+Author: ichitaso
+Depiction: https://cydia.ichitaso.com/depiction/hidedots13.html
+Dev: ichitaso
+Name: HidePageDots13
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/hidedots13/Depiction
+
+Package: com.ichitaso.hideserialnumber
+Version: 0.0.4
+Architecture: iphoneos-arm64
+Maintainer: ichitaso
+Installed-Size: 472
+Depends: firmware (>= 12.2), firmware (< 18.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.ichitaso.hideserialnumber_0.0.4_iphoneos-arm64.deb
+Size: 60144
+MD5sum: e6e557cf3d67dde5d61786db6aa5f1c5
+SHA1: fe9222010cf91b0e3cda73360ff26eab57b27dca
+SHA256: 2d3c83f5c89749a1c85f56aaf2f8ae2b734f758cc4222fd51c300a2222a3c31d
+Section: Tweaks
+Homepage: https://cydia.ichitaso.com/depiction/hidesn.html
+Description: 在设置-关于界面隐藏序列号
+Tag: purpose::extension, compatible_min::ios12.2, compatible_max::ios17.1.2
+Author: ichitaso
+Depiction: https://cydia.ichitaso.com/depiction/hidesn.html
+Dev: ichitaso
+Icon: https://i.imgur.com/uFWkBXD.png
+Name: HideSerialNumber
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/hideserialnumber/Depiction
+
+Package: com.ichitaso.hideserialnumber
+Version: 0.0.4
+Architecture: iphoneos-arm
+Maintainer: ichitaso
+Installed-Size: 408
+Depends: firmware (>= 12.2), firmware (< 18.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.ichitaso.hideserialnumber_0.0.4_iphoneos-arm.deb
+Size: 65240
+MD5sum: 22e81bc9fa9d4660f356f9e0159041b2
+SHA1: 606505fc94e2a3751e534fa8ee06f68ff4856fc5
+SHA256: 74d7fc44d47366d99c4992bc7c024cca0427d83152e7a81386f961b6f0bc41de
+Section: Tweaks
+Homepage: https://cydia.ichitaso.com/depiction/hidesn.html
+Description: 在设置-关于界面隐藏序列号
+Tag: purpose::extension, compatible_min::ios12.2, compatible_max::ios17.1.2
+Author: ichitaso
+Depiction: https://cydia.ichitaso.com/depiction/hidesn.html
+Dev: ichitaso
+Icon: https://i.imgur.com/uFWkBXD.png
+Name: HideSerialNumber
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/hideserialnumber/Depiction
+
+Package: com.ichitaso.iconanus
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: Packix
+Installed-Size: 136
+Pre-Depends: firmware (>= 12.0)
+Depends: mobilesubstrate
+Conflicts: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix
+Replaces: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix
+Provides: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix
+Filename: ./debs/com.ichitaso.iconanus_1.0.3.deb
+Size: 6564
+MD5sum: 48334372993a75419605ab0b9817044c
+SHA1: 8e82213210c965d25748c069e9dea35f5eea29ba
+SHA256: 17d7fe1f411cc9fbf153c38d42f7809f1fa000265dd6c7ed59e228502ca50ef6
+Section: Tweaks
+Homepage: https://ichitaso.com/
+Description: 当Springboard崩溃或重启将保留自定义图标布局
+Tag: purpose::extension, compatible::ios13, compatible::ios14
+Author: ichitaso
+Depiction: https://cydia.ichitaso.com/depiction/iconanus.html
+Dev: ichitaso
+Name: IconAnus
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/iconanus/Depiction
+
+Package: com.ichitaso.iconorder
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: Havoc
+Installed-Size: 168
+Pre-Depends: firmware (>= 12.0)
+Depends: firmware (>= 12.0), firmware (< 18.0), mobilesubstrate
+Conflicts: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix, com.ichitaso.iconanus
+Replaces: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix, com.ichitaso.iconanus
+Provides: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix, com.ichitaso.iconanus
+Filename: ./debs/com.ichitaso.iconorder_1.0.3_iphoneos-arm64.deb
+Size: 8900
+MD5sum: 8f29378765e91b49746ad246e51647cf
+SHA1: 451904b216516d9c42a3c99b81a76943a2559dc7
+SHA256: 0e92dc62e48ca61e1e620b5347a3776faf29543e171e777b461f1ca8dbbf2172
+Section: Tweaks
+Homepage: https://ichitaso.com/
+Description: 通过Springboard Crash或重新启动等来保留自定义图标布局
+Tag: purpose::extension, compatible_min::ios12.0, compatible_max::ios17.5.1
+Author: ichitaso
+Depiction: https://cydia.ichitaso.com/depiction/iconorder.html
+Dev: ichitaso
+Name: IconOrder
+Sileodepiction: https://cydia.ichitaso.com/depiction/iconorder.json
+
+Package: com.ichitaso.iconorder
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: Havoc
+Installed-Size: 136
+Pre-Depends: firmware (>= 12.0)
+Depends: firmware (>= 12.0), firmware (< 18.0), mobilesubstrate
+Conflicts: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix, com.ichitaso.iconanus
+Replaces: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix, com.ichitaso.iconanus
+Provides: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix, com.ichitaso.iconanus
+Filename: ./debs/com.ichitaso.iconorder_1.0.3_iphoneos-arm.deb
+Size: 9376
+MD5sum: 24d900395a7c443df9d3e032af5bfd42
+SHA1: 43077f3cea4976e706b5e75db1fdee69843ced7f
+SHA256: cbc4c5440e46f07916cb51d0d9b745dd9432b55e07889e9845e656a338b2a08f
+Section: Tweaks
+Homepage: https://ichitaso.com/
+Description: 通过Springboard Crash或重新启动等来保留自定义图标布局
+Tag: purpose::extension, compatible_min::ios12.0, compatible_max::ios17.5.1
+Author: ichitaso
+Depiction: https://cydia.ichitaso.com/depiction/iconorder.html
+Dev: ichitaso
+Name: IconOrder
+Sileodepiction: https://cydia.ichitaso.com/depiction/iconorder.json
+
+Package: com.ichitaso.networkdisabler
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: ichitaso <willfeeltips+ntd@gmail.com>
+Installed-Size: 1044
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader, applist
+Filename: ./debs/com.ichitaso.networkdisabler_1.0.1.deb
+Size: 193264
+MD5sum: c67a927779646c5663fff95432ca2268
+SHA1: a22863bc1e37e741f8cbe393f88662f9a068e045
+SHA256: ce24d8b374a715c037db19391ae644fb1eb112309ce4e7128bbff6cefa347946
+Section: Tweaks
+Homepage: https://ichitaso.com
+Description: 单独控制您的应用程序网络
+Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13
+Author: ichitaso <willfeeltips+ntd@gmail.com>
+Depiction: https://cydia.ichitaso.com/depiction/networkdisabler.html
+Dev: ichitaso
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/networkdisabler/icon.png
+Name: NetworkDisabler
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/networkdisabler/Depiction
+
 Package: com.iky1e.swipeselection
 Version: 1.5.2-1
 Architecture: iphoneos-arm
@@ -1048,6 +1258,24 @@ Author: pixelomer <contact@pixelomer.com>
 Depiction: https://chariz.com/get/tweakreviewsdb
 Icon: https://img.chariz.cloud/icon/tweakreviewsdb/icon@3x.png
 Name: TweakReviewsDB
+
+Package: com.ps.batteryhealthenabler
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.3)
+Filename: ./debs/com.ps.batteryhealthenabler_1.0.0.deb
+Size: 5252
+MD5sum: 6b20d96f6400241d9c52361204d313b6
+SHA1: 26afe7879a064820e425d9b70d6ece027e39e966
+SHA256: c0c5615a97a2fe31a53093ee7aa64c4d615b7c00d58cb5255903129c4fba1e80
+Section: Tweaks
+Description: 在不受支持的设备上启用电池健康
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/batteryhealthenabler.html
+Name: Battery Health Enabler
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/batteryhealthenabler/Depiction
 
 Package: com.spark.libsparkapplist
 Version: 1.0.10
@@ -7034,16 +7262,17 @@ Package: com.white.networkexalt
 Version: 1.2.1
 Architecture: iphoneos-arm
 Maintainer: iBreak <ibreak2019@qq.com>
-Depends: mobilesubstrate
+Depends: firmware (>= 9.0), mobilesubstrate
 Filename: ./debs/networkexalt_1.2.1.deb
-Size: 6814
-MD5sum: 4e5a493870e1fdd82394f00d3489deec
-SHA1: 695927387017400dd73f1d9088abb10baa7208b5
-SHA256: 5804cb9e6ff1214ec923502c973d5b93d17d7ef1a07a9baca6d1aecf3397e35c
+Size: 6588
+MD5sum: 43d96979b3564368ca47d4a58bc2b3f2
+SHA1: 318f4d797b4e1c5c53a891fc2440b9a00ae3230a
+SHA256: 249e6e8d5a0c5f08c675eec51ae581c6ce1c782bb5e957a25cf36ef89ae05a36
 Section: Tweaks
 Description: 启动无线/蜂窝网络框架优化来提升响应速度
 Author: iBreak <ibreak2019@qq.com>
 Name: Network Exalt
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/networkexalt/Depiction
 
 Package: com.white.networkmanager
 Version: 1.0.2
@@ -11112,6 +11341,29 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ne
 Name: MTerminal
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/newterm/Depiction3
 
+Package: net.85819.ios.otrlocation
+Version: 6.7.0-6
+Architecture: iphoneos-arm
+Maintainer: onTheRoadStudio <ontheroadstudio@live.cn>
+Installed-Size: 178712
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), com.rpetrich.rocketbootstrap (>= 1.0.6)
+Filename: ./debs/anywhere_6.7.0-6.deb
+Size: 51474232
+MD5sum: 5c211c70046af69f43e6a3cf8e935862
+SHA1: cbc5b6a4f04cfce82b27a05cca4211c3ddbe0725
+SHA256: ba09728cf1c8e7dde4bfda6321081357067417f189cab901ba6ffbe0e77415d6
+Section: Utilities
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=otrlocationDp
+Description: 完全免费的定位和设备型号修改神器！
+Tag: purpose::extension
+Author: onTheRoadStudio <ontheroadstudio@live.cn>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=otrlocationDp
+Dev: ontheroadstudio
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/anywhere/icon.png
+Icon2: file:///Applications/OTRLocation.app/icon.png
+Name: Anywhere 虚拟定位
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/anywhere/Depiction
+
 Package: net.joebruce.respringhelper
 Version: 1.5.4
 Architecture: iphoneos-arm
@@ -12797,6 +13049,26 @@ Description: 将第3方组件存储到用户分区，可以腾出更多空间！
 Author: CoolStar <coolstarorganization@gmail.com>
 Name: Stashing for iOS 9.2 - 10.2
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/stash933/Depiction
+
+Package: org.ppssppgold-dev-latest
+Version: 0v1.12.3-1196-g017f71a70
+Architecture: iphoneos-arm
+Maintainer: Henrik Rydgård
+Depends: preferenceloader
+Conflicts: com.myrepospace.theavenger.PPSSPP, net.angelxwind.ppsspp, net.angelxwind.ppsspp-testing, org.ppsspp.ppsspp, org.ppsspp.ppsspp-dev-working, org.ppsspp.ppsspp-dev-latest, org.ppsspp.ppssppgold-dev-working
+Replaces: com.myrepospace.theavenger.PPSSPP, net.angelxwind.ppsspp, net.angelxwind.ppsspp-testing
+Provides: com.myrepospace.theavenger.PPSSPP, net.angelxwind.ppsspp, net.angelxwind.ppsspp-testing
+Filename: ./debs/ppssppgold_0v1.12.3-1196-g017f71a70.deb
+Size: 25650584
+MD5sum: b1b6ae7508e4a7e8c729c429ec321795
+SHA1: 01248600ce76191a4d56e9a8375f9694892a1dc6
+SHA256: 33d3250193c282694aefc1ad4a531b807409595e48c594f14fc98fc016d1d819
+Section: Utilities
+Description: PSP模拟器黄金版，捐赠所得
+Author: Henrik Rydgård
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ppssppgold/icon.png
+Name: PPSSPP Gold Dev
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ppssppgold/Depiction
 
 Package: org.tihmstar.kDFUApp
 Version: 1.0.3
