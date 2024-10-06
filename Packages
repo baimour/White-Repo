@@ -7805,6 +7805,42 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qe
 Name: 奇游加速器NoAds
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qeeyou/Depiction
 
+Package: com.white.qfeng
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: White <(null)>
+Installed-Size: 984
+Depends: mobilesubstrate
+Filename: ./debs/qfeng_1.0_iphoneos-arm64.deb
+Size: 292038
+MD5sum: a5c32fb629515fb6d4b1ce8445aa5a6d
+SHA1: 14cf695df19f9493665dcfce777ffc42b98bffe2
+SHA256: dd6783c6822725e7329d5ecda904c674db54bd235dd494fbe05660b8b2e060a6
+Section: NoAds
+Description: 基于2.5.9版本制作，去广告
+Author: White <(null)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qfeng/icon.png
+Name: 清风DJ NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qfeng/Depiction
+
+Package: com.white.qfeng
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: White <(null)>
+Installed-Size: 1448
+Depends: mobilesubstrate
+Filename: ./debs/qfeng_1.0_iphoneos-arm.deb
+Size: 338688
+MD5sum: c94680fa79aa6431d38544c96811c8a1
+SHA1: 7741989093a83ae114532cfbac3bf8aa586bba83
+SHA256: 58638554574442d650462ee97f6bffa2ac800f221cc2383236d4111cd9209750
+Section: NoAds
+Description: 基于2.5.9版本制作，去广告
+Author: White <(null)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qfeng/icon.png
+Name: 清风DJ NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qfeng/Depiction
+
 Package: com.white.qq.rootless
 Version: 0.1-1
 Architecture: iphoneos-arm64
