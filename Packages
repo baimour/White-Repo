@@ -156,16 +156,33 @@ Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDe
 Package: com.Joka.NFSMostWantedFreeHack
 Version: 1.1.0
 Architecture: iphoneos-arm
-Maintainer: iOSGods.com
+Maintainer: iOSGods
 Installed-Size: 2712
 Depends: mobilesubstrate
-Filename: ./debs/com.Joka.NFSMostWantedFreeHack_1.1.0_iphoneos-arm.deb
-Size: 651752
-MD5sum: 9c72a44f3900f1d86ef6c9af52e2195c
-SHA1: 8d7a74824c2833c199b2883796474ff0e757add8
-SHA256: 05551ea2e2d662f54fbf7e5a65c27eaa8f0d43324e4edddf2b5ea8c0bb924cf1
+Filename: ./debs/NFSMostWantedFreeHack_1.1.0_iphoneos-arm.deb
+Size: 651888
+MD5sum: 7946411043d063edb29b7b7b6f01887e
+SHA1: dd0646bfd462680913dbb260bb4f598c73bce2ff
+SHA256: 34fbc188a46e1ede8dfde8f5c89d0a1f330a86c0baf6d0d082d69c67633d0fef
 Section: Cracks
-Homepage: https://iosgods.com
+Description: Joka为iOSGods.com制作的Need for Speed™ Most Wanted iGMM修改器！
+Author: Joka
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/NFSMostWantedFreeHack/icon.png
+Name: Need for Speed™ Most Wanted Cheats
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/NFSMostWantedFreeHack/Depiction
+
+Package: com.Joka.NFSMostWantedFreeHack
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: iOSGods
+Installed-Size: 2712
+Depends: mobilesubstrate
+Filename: ./debs/NFSMostWantedFreeHack_1.1.0_iphoneos-arm64.deb
+Size: 660104
+MD5sum: 1baea49c8273bb338f335401e5043fad
+SHA1: ad2034635308f30015f7a51184f539bce2165045
+SHA256: be9e25f9c01a53ffc1d02d4c73178e71a1d8b6cd89927c35cf929b42a318cbe0
+Section: Cracks
 Description: Joka为iOSGods.com制作的Need for Speed™ Most Wanted iGMM修改器！
 Author: Joka
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/NFSMostWantedFreeHack/icon.png
@@ -281,11 +298,30 @@ Architecture: iphoneos-arm
 Maintainer: Haidar_Phantom
 Installed-Size: 6644
 Depends: firmware (>= 11.0), mobilesubstrate
-Filename: ./debs/carxdrift2_1.31.1.deb
-Size: 1749860
-MD5sum: 5408b828c15d4e4e4d634904a1154c43
-SHA1: 92135e61f0c7e5aec7dcd8f58a8590bdb04ee947
-SHA256: be379296c2dedaef2a9791928565bc0ba003dc9b011e0efe0301cd8d1bcb0e79
+Filename: ./debs/carxdrift2_1.31.1_iphoneos-arm.deb
+Size: 1750836
+MD5sum: 0575bb3ee6aa9b1782e4a9375d5336c8
+SHA1: 5228e1049b374aee556bbacd2d3831eb3eec5d66
+SHA256: aef6a4bd5aa4779a5a341a464883e47aa337e28fd6afe3efdf2a0966d893b920
+Section: Cracks
+Homepage: https://t.me/Haidar_Phantom
+Description: 由Haider_Phantom制作的Mod菜单！支持最新的1.31.1版本
+Author: Haidar_Phantom
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/carxdrift2/icon.png
+Name: CarX Drift 2 Crack
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/carxdrift2/Depiction
+
+Package: com.babylonvip.carxdrift2
+Version: 1.31.1
+Architecture: iphoneos-arm64
+Maintainer: Haidar_Phantom
+Installed-Size: 6644
+Depends: firmware (>= 11.0), mobilesubstrate
+Filename: ./debs/carxdrift2_1.31.1_iphoneos-arm64.deb
+Size: 2159528
+MD5sum: 577275668c701619b357250e8ae5a64f
+SHA1: 9e87cd833031d4c127d473898b9f493f05096958
+SHA256: 32af035eacb84a904915dd2e9bc8309d8f3248e24bbff382b1f3e99563392666
 Section: Cracks
 Homepage: https://t.me/Haidar_Phantom
 Description: 由Haider_Phantom制作的Mod菜单！支持最新的1.31.1版本
@@ -300,11 +336,30 @@ Architecture: iphoneos-arm
 Maintainer: Haidar_Phantom
 Installed-Size: 6644
 Depends: firmware (>= 13.0), mobilesubstrate
-Filename: ./debs/carxstreets_1.3.1.deb
-Size: 1748548
-MD5sum: 2ec6f385330e980d32ae6ee37600d83b
-SHA1: de13012ade9752223683a6c5d6c396bf29648508
-SHA256: 1e4c49c3ea20072758e70207ed51334c9842c5f20df40ab83cc4b3caddffcf96
+Filename: ./debs/carxstreets_1.3.1_iphoneos-arm.deb
+Size: 1747988
+MD5sum: 65e1239276e4a027739398f6491d8b53
+SHA1: 142884d3069ddf312e0b73652ebf9e3f1031e2b9
+SHA256: 5e744e9ea74a5ec7293f0b788ec193f354af3d52d7a2c6a9ddb9e530b0af1de3
+Section: Cracks
+Homepage: https://t.me/Haidar_Phantom
+Description: 由Haider_Phantom制作的Mod菜单！支持最新的1.3.1版本
+Author: Haidar_Phantom
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/carxstreets/icon.png
+Name: CarX Street Crack
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/carxstreets/Depiction
+
+Package: com.babylonvip.carxstreets
+Version: 1.3.1
+Architecture: iphoneos-arm64
+Maintainer: Haidar_Phantom
+Installed-Size: 6644
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/carxstreets_1.3.1_iphoneos-arm64.deb
+Size: 2158826
+MD5sum: 2e58bff992579ea44be25a5eb44e2760
+SHA1: 9fbcd7bda92d63434d3bf888cb0509a717d5b94a
+SHA256: eee4edef3416620fd798f0e85cbcef971cf11119372e8ffbeab9166e8de64ebf
 Section: Cracks
 Homepage: https://t.me/Haidar_Phantom
 Description: 由Haider_Phantom制作的Mod菜单！支持最新的1.3.1版本
@@ -7754,15 +7809,33 @@ Sileodepiction: https://mrepo.org/sileo/5576
 
 Package: com.white.ovpnspider
 Version: 2506-1
+Architecture: iphoneos-arm64
+Maintainer: hahios <kevinpham250607@gmail.com>
+Installed-Size: 3144
+Depends: mobilesubstrate
+Filename: ./debs/ovpnspider_2506-1_iphoneos-arm64.deb
+Size: 1140418
+MD5sum: 2eb563eee7cc3afc2cf61fff1aa16390
+SHA1: 65d10ce1d0805266633b73fdec9c1958f275ccb1
+SHA256: 9167ec07ea7c75274a5c68ff727a8d64ceb941386e2f7a44552b24c44ef98d6f
+Section: Cracks
+Description: 破解高级版功能，测试版本：6.1
+Author: hahios <kevinpham250607@gmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ovpnspider/icon.png
+Name: OvpnSpider Cracks
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ovpnspider/Depiction
+
+Package: com.white.ovpnspider
+Version: 2506-1
 Architecture: iphoneos-arm
 Maintainer: hahios <kevinpham250607@gmail.com>
 Installed-Size: 3144
 Depends: mobilesubstrate
-Filename: ./debs/ovpnspider_2506-1.deb
-Size: 1123404
-MD5sum: df1c31957f953fd962b4642819dedcf5
-SHA1: b9dad7460416b8f2350c786dbd00f49af39cfe86
-SHA256: ee91da59fc70176bc3a35dd877f51e098f622ef4d11e133c827b133cbfbbb9bb
+Filename: ./debs/ovpnspider_2506-1_iphoneos-arm.deb
+Size: 1123548
+MD5sum: 06d59997193938ce99aef3241ee5ab25
+SHA1: f26e5b5da10c54cb1beefb6998a27f4ca584b345
+SHA256: 97f74d6d7e474ee12eb321a52fa1c887bc5c546da7156656ddfe394db04c11c0
 Section: Cracks
 Description: 破解高级版功能，测试版本：6.1
 Author: hahios <kevinpham250607@gmail.com>
@@ -7793,11 +7866,29 @@ Architecture: iphoneos-arm
 Maintainer: blatant
 Installed-Size: 204
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/photoeraser_1.3.3.7.deb
-Size: 18116
-MD5sum: 7b03f6487c2b872af16aeab10dd66424
-SHA1: 09ceff99372d4382ce8b626322854b6dcb681153
-SHA256: 71d3ff60da0c6aa1c5b942eb5e274d9d89ee799e74fb2c47d1a0944ae53c408d
+Filename: ./debs/photoeraser_1.3.3.7_iphoneos-arm.deb
+Size: 18108
+MD5sum: 7abecd0eaeef9199a8766bc3172154f5
+SHA1: f79afe48d8cab9aabaa6282b08fbf4bf192707cd
+SHA256: cb559384932e19cb36339a84632c7187767b45a480e69ef55685b7fdf1effdca
+Section: Cracks
+Description: 测试版本：3.2，解锁会员功能，作者：Blatant
+Author: blatant
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/photoeraser/icon.png
+Name: photoeraser
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/photoeraser/Depiction
+
+Package: com.white.photoeraser
+Version: 1.3.3.7
+Architecture: iphoneos-arm64
+Maintainer: blatant
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/photoeraser_1.3.3.7_iphoneos-arm64.deb
+Size: 23226
+MD5sum: edee6bb20bc0a27afc79a56faff9c941
+SHA1: e54a9bd6b6096f4de3665694f9b3852c721c34d3
+SHA256: b59933f3d87af5f7e81fa84049783cfee094ff0a7254054601fa3c6d0570f73a
 Section: Cracks
 Description: 测试版本：3.2，解锁会员功能，作者：Blatant
 Author: blatant
