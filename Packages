@@ -7939,15 +7939,16 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: iosign.qqmusic.rootless
 Replaces: iosign.qqmusic.rootless
 Filename: ./debs/qqmusic_0.1-1_iphoneos-arm64.deb
-Size: 3708
-MD5sum: e2cda4295717728e59629fb83ba9ca78
-SHA1: 1de43bdec8335724b50c28601f8908eaa1600268
-SHA256: 2137b868cb36c58ba49e4d0756b3e4be082b024a16ac7aabaddcf28aa3d2de05
+Size: 3644
+MD5sum: fb2e1ea5d80cabfa5f29382520d30d68
+SHA1: f805dbd5504499a85dd11d99ad0e2ba7a18b842c
+SHA256: 841aef9ce1ec0c49e04c26e07fcf8074fd0b34ec5bf5bcf08f2e5e27c9422a8c
 Section: NoAds
-Description: 去除启动广告，去除搜索横幅广告，去除首页、播放页面广告，屏蔽音乐宠物、Music Zone入口，精简个人页面，解锁臻品音质2.0
+Description: 去除广告，精简个人页面，解锁臻品音质2.0
 Author: iOSign
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qqmusic/icon.png
 Name: QQ音乐
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qqmusic/Depiction
 
 Package: com.white.qsyy
 Version: 1.0
