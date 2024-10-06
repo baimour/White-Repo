@@ -1332,6 +1332,61 @@ Depiction: https://poomsmart.github.io/repo/depictions/batteryhealthenabler.html
 Name: Battery Health Enabler
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/batteryhealthenabler/Depiction
 
+Package: com.shadow.h5gg.plugin.hideview
+Version: 1
+Architecture: iphoneos-arm
+Maintainer: Shadow-
+Depends: mobilesubstrate
+Filename: ./debs/h5gg_plugin_iphoneos-arm.deb
+Size: 6600
+MD5sum: bf69e37e7ce4fa621f98919e90ca4ee1
+SHA1: 3895d83ff139b65e34402be1e52517a4fb5dbaae
+SHA256: d562a5f537f5a922d8626c2e30e9f623d210b67b3edc61c24f926b0b2be0dcb4
+Section: 修改器
+Description: H5GG过直播依赖
+Author: Shadow-
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/h5gg/icon.png
+Name: H5GG过直播
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/h5gg/Deplugin
+
+Package: com.shadow.h5ggapp
+Version: 7.9
+Architecture: iphoneos-arm
+Maintainer: Shadow-
+Depends: firmware (>= 12.0), mobilesubstrate
+Filename: ./debs/h5ggapp_7.9_iphoneos-arm.deb
+Size: 1764344
+MD5sum: f1da945c5114440a822ba9f435483d2c
+SHA1: 27e306d9272111ce58252bc0927de17a43715510
+SHA256: a56abbfd4cd4dc1f8bd259365b452b200c76f1658206b6585683a329be241644
+Section: 修改器
+Priority: optional
+Homepage: https://apt.h5gg.app
+Description: H5GG 跨进程悬浮版
+Author: tuancc
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/h5gg/icon.png
+Name: H5GG 跨进程悬浮版
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/h5gg/Depapp
+
+Package: com.shadow.h5ggapp
+Version: 7.9
+Architecture: iphoneos-arm64
+Maintainer: H5GG
+Depends: firmware (>= 12.0), mobilesubstrate
+Filename: ./debs/h5ggapp_7.9_iphoneos-arm64.deb
+Size: 2069348
+MD5sum: 63199b44f538cc3752fbfe935cef8ef5
+SHA1: 7381e0d7e3faa646706e5e8746c8c4b7d0a46b91
+SHA256: 794f117554653ff6306609a3937015341abc2fd9951f2a24de82e80a4674630f
+Section: 修改器
+Priority: optional
+Homepage: https://apt.h5gg.app
+Description: H5GG跨进程悬浮版iOS15专用(该版本不支持iPad的原生分屏浮动, 如有需要可使用H5GG跨进程普通版), Credits: BawAppie and Akusio
+Author: H5GG
+Name: H5GG 跨进程悬浮版(iOS15)
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/h5gg/Dep15
+ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/h5gg/icon.png
+
 Package: com.spark.libsparkapplist
 Version: 1.0.10
 Architecture: iphoneos-arm
@@ -1379,6 +1434,63 @@ Description: 颜色选择器依赖库，作者：SparkDev
 Tag: role::developer
 Author: Spark
 Name: libsparkcolourpicker
+
+Package: com.summit.h5ggapp
+Version: 0
+Architecture: iphoneos-arm
+Maintainer: Summit
+Installed-Size: 784
+Depends: firmware (>= 12.0), mobilesubstrate
+Filename: ./debs/h5ggapp_iphoneos-arm.deb
+Size: 1780392
+MD5sum: dcd53929f4a3383224a385e9c5c5c2ff
+SHA1: 896bb4f2c64e0019aa126ef7823dea597f3b41fd
+SHA256: 411d1cd8942316857b8f2e747c7ccb93e3186876dd574e245aebb72dccc61c57
+Section: 修改器
+Description: H5GG 跨进程悬浮版(随机化)
+Author: Summit
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/h5gg/icon.png
+Name: H5GG 跨进程悬浮版(随机化)
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/h5gg/Depapp2
+
+Package: com.summit.h5ggapp
+Version: 7.9
+Architecture: iphoneos-arm64
+Maintainer: H5GG
+Installed-Size: 800
+Depends: firmware (>= 12.0), mobilesubstrate
+Filename: ./debs/h5ggapp_iphoneos-arm64.deb
+Size: 2078348
+MD5sum: c00053522098d9826becdf89686e6e11
+SHA1: bdd83520b310f31e270f0e1cc69adb24b538ce5e
+SHA256: 17278777512b2d097457d82a4df4479bc86fb9be49018c98175ad948d45c44a6
+Section: 修改器
+Priority: optional
+Homepage: https://apt.h5gg.app
+Description: H5GG跨进程悬浮版iOS15专用(该版本不支持iPad的原生分屏浮动, 如有需要可使用H5GG跨进程普通版), Credits: BawAppie and Akusio
+Author: H5GG
+Name: H5GG 随机化跨进程悬浮版(iOS15)
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/h5gg/Depapp
+ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/h5gg/icon.png
+
+Package: com.summit.h5ggapp15
+Version: 7.9
+Architecture: iphoneos-arm
+Maintainer: Summit
+Depends: firmware (>= 12.0), mobilesubstrate
+Filename: ./debs/h5ggapp15_7.9_iphoneos-arm.deb
+Size: 1783784
+MD5sum: 1f43866e343eddfb01815e0002de6927
+SHA1: 9bd5e4ed80c21626ea42aada5d39c3168a844ca4
+SHA256: 09606b9698051a302058b815eb361bb61730b00034cd28087ad4ada52cfb9ae9
+Section: 修改器
+Priority: optional
+Homepage: https://apt.h5gg.app
+Description: H5GG 跨进程悬浮版iOS15专用(该版本不支持iPad的原生分屏浮动, 如有需要可使用H5GG跨进程普通版)如打开App闪退请使用Xina越狱工具修复dylib功能
+Author: Summit
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/h5gg/icon.png
+Name: H5GG 跨进程悬浮版(iOS15)
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/h5gg/Dep15
 
 Package: com.unlimapps.uasharedtools
 Version: 2.2r-60
