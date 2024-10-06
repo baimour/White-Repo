@@ -6285,6 +6285,40 @@ Author: 0xkuj <0xkujz@gmail.com>
 Icon: file:///Applications/IPARanger.app/AppIcon60x60.png
 Name: IPA Ranger
 
+Package: com.white.iplayer
+Version: 1.6.2
+Architecture: iphoneos-arm64
+Maintainer: White
+Depends: firmware (>= 12.0), mobilesubstrate
+Filename: ./debs/iplayer_1.6.2_iphoneos-arm64.deb
+Size: 71608
+MD5sum: 568f8fbe7e15db578764e57c7deb263d
+SHA1: a71a93e79533756c8d75eb0e1e2238ba065a43f9
+SHA256: dbc3a94f0fdc049ac30b27071c978d2fd294f6a47dc1162b6693864d05db264a
+Section: Cracks
+Description: 解锁所有付费功能
+Author: Whute
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/iplayer/icon.png
+Name: iPlayer Crack
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/iplayer/Depiction
+
+Package: com.white.iplayer
+Version: 1.6.2
+Architecture: iphoneos-arm
+Maintainer: White
+Depends: firmware (>= 12.0), mobilesubstrate
+Filename: ./debs/iplayer_1.6.2_iphoneos-arm.deb
+Size: 58776
+MD5sum: f7a10f8f22fda13c2a93e4caf2cc4699
+SHA1: b4d8fa97c7515555c5ef241d7469fa913dcc41ee
+SHA256: 18a730763c00f17a050feaaa8c27d922463116609e994f09e7adf39b29f3d585
+Section: Cracks
+Description: 解锁所有付费功能
+Author: Whute
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/iplayer/icon.png
+Name: iPlayer Crack
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/iplayer/Depiction
+
 Package: com.white.iridium
 Version: 1.2.15
 Architecture: iphoneos-arm
