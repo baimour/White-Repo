@@ -7807,36 +7807,36 @@ Package: com.white.qeeyou
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: White <(null)>
-Installed-Size: 220
+Installed-Size: 984
 Depends: mobilesubstrate
 Filename: ./debs/qeeyou_1.0_iphoneos-arm64.deb
-Size: 15770
-MD5sum: 565dce33a99cb050a9695c7965523996
-SHA1: 32c774476f64ca113471e0df283c72c1bdfb38b0
-SHA256: 95458b0189e0dcc0e981382c39e04b1b6d42ddc404f7b53ad32b13bb6ead91a9
+Size: 293218
+MD5sum: d7bedeb27171244c185ab8ccbf058c57
+SHA1: 245f597bf2c986af4d6d499270776a258851b7a0
+SHA256: 680f28c701d7f5e57678d45b03c055b6f70d354146cb5bbf97b496450d7d1a09
 Section: NoAds
-Description: 基于3.5.3版本制作，屏蔽Banner广告，屏蔽漂浮、屏蔽启动、屏蔽热启动广告
+Description: 基于3.5.3版本制作，去广告
 Author: White <(null)>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qeeyou/icon.png
-Name: 奇游加速器NoAds
+Name: 奇游加速器 NoAds
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qeeyou/Depiction
 
 Package: com.white.qeeyou
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: White <(null)>
-Installed-Size: 220
+Installed-Size: 1448
 Depends: mobilesubstrate
 Filename: ./debs/qeeyou_1.0_iphoneos-arm.deb
-Size: 15658
-MD5sum: 1cbb3b97e5264cc4577259939630a801
-SHA1: 151d97afd37a10397375b25e21f2ae3b75a15586
-SHA256: 764cfa7410ba4e8b8d5b8fa8cd55ea216b052322ac1225faec9758f01b8594ce
+Size: 340230
+MD5sum: ae72312b2d2eb8e663b97a17a453692c
+SHA1: bb15e6d2cc07a2d90144020f5a7183fdb42b7d65
+SHA256: 33a9cc9faebe1c4b636c0d9c59312fddd450a45b8fac03205256048514791d4e
 Section: NoAds
-Description: 基于3.5.3版本制作，屏蔽Banner广告，屏蔽漂浮、屏蔽启动、屏蔽热启动广告
+Description: 基于3.5.3版本制作，去广告
 Author: White <(null)>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qeeyou/icon.png
-Name: 奇游加速器NoAds
+Name: 奇游加速器 NoAds
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qeeyou/Depiction
 
 Package: com.white.qfeng
