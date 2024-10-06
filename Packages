@@ -1495,15 +1495,15 @@ Package: com.white.123pan
 Version: 1.0-3
 Architecture: iphoneos-arm64
 Maintainer: White <1410970825@qq.com>
-Installed-Size: 136
+Installed-Size: 1000
 Depends: mobilesubstrate
 Filename: ./debs/123pan_1.0-3_iphoneos-arm64.deb
-Size: 10066
-MD5sum: 6a21070dea2f1a297d4e8c6dcd18c775
-SHA1: cdc59054ca4f742276e3e7d013d8a27560414515
-SHA256: d6bc2fb4cc08ddf0976f83aea5028b4289e95e1f37d4e4fcad6b6a2279a46c19
+Size: 298088
+MD5sum: 5e14e80ebf0a76a6c90e280fe6d40486
+SHA1: af6c4535288fa8ce886b296893ba1df1d67e1725
+SHA256: 02fd18b1e3a9254e0fb518f802700becb6f3108bf3aefdf44c84d7b2cfcbc4d9
 Section: NoAds
-Description: 基于2.0.1版本制作，屏蔽越狱及强制更新
+Description: 基于2.0.1版本制作，屏蔽广告
 Author: White <1410970825@qq.com>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/123pan/icon.png
 Name: 123云盘 NoAds
@@ -1513,15 +1513,15 @@ Package: com.white.123pan
 Version: 1.0-3
 Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
-Installed-Size: 200
+Installed-Size: 1496
 Depends: mobilesubstrate
 Filename: ./debs/123pan_1.0-3_iphoneos-arm.deb
-Size: 14538
-MD5sum: 3edf19b038ffb9e659fa0eef6d96e22c
-SHA1: 3b3012c9abb3230d8dc4b268d15f63a64759798b
-SHA256: 0b5f44b7c2a14620b133a9f79e70ee009077938c80a1743903e5aa6c9d16d308
+Size: 347378
+MD5sum: dd72dc0e88f5ac72d21d43f33cde80be
+SHA1: 1e5dfd06d6ee4737e88adffd40509e207f5934c2
+SHA256: 6a006840ce255ce03a91aa0d267d4e7ab3623885d98d93249b8465fae8ce5091
 Section: NoAds
-Description: 基于2.0.1版本制作，屏蔽越狱及强制更新
+Description: 基于2.0.1版本制作，屏蔽广告
 Author: White <1410970825@qq.com>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/123pan/icon.png
 Name: 123云盘 NoAds
