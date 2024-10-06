@@ -2190,6 +2190,24 @@ Name: AnimationsBeFastPlus
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/animationsbefastplus/Depiction
 Sponsor: White <1410970825@qq.com>
 
+Package: com.white.appstore++
+Version: 0.10.1-5
+Architecture: iphoneos-arm64
+Maintainer: CokePokes <xuanhua880@gmail.com>
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: com.unlimapps.uaupdatetools, com.cokepokes.appstoreplusplus, byg.iosios.net.appstoreplusplus
+Filename: ./debs/appstore++_0.10.1-5_iphoneos-arm64.deb
+Size: 3082828
+MD5sum: bc0f60df2d3e63579f4a48d9178d9800
+SHA1: 9e13e927710ed703a3e7d4e9c90165a181b95250
+SHA256: 79d4374342fac44a0f3928a19669596c061d89af0a3d88281bfafc23b26ddfe1
+Section: Tweaks
+Description: 降级/升级应用程序版本
+Author: CokePokes <xuanhua880@gmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/appstoreplus/icon.png
+Name: AppStore++
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/appstoreplus/Depiction
+
 Package: com.white.appstoreplus
 Version: 1.0.3
 Architecture: iphoneos-arm64
@@ -2214,7 +2232,7 @@ Architecture: iphoneos-arm
 Maintainer: CokePokes
 Depends: firmware (>= 11.0), mobilesubstrate
 Conflicts: com.unlimapps.uaupdatetools
-Filename: ./debs/appstore++_0.10.1-5.deb
+Filename: ./debs/appstore++_0.10.1-5_iphoneos-arm.deb
 Size: 3210436
 MD5sum: 5246c089b6c0fea47b6730536d243435
 SHA1: f65f5954d6bbc22673c32777ac6d8bb4d7fb7a32
@@ -5316,7 +5334,7 @@ Version: 1.0.5
 Architecture: iphoneos-arm
 Maintainer: yan
 Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, firmware(>= 14.0), com.mrgcgamer.libgcuniversal
-Filename: ./debs/fiona_1.0.5.deb
+Filename: ./debs/fiona_1.0.5_iphoneos-arm.deb
 Size: 120584
 MD5sum: b3320efeeab5ffb4d6b1de0fad994abd
 SHA1: b64e59d4cf03e10b5ae44c7b0fe2e8421c7fee4f
@@ -5329,12 +5347,30 @@ Name: Fiona
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/fiona/Depiction
 
 Package: com.white.fiona
+Version: 1.0.6
+Architecture: iphoneos-arm64
+Maintainer: yan
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, firmware(>= 14.0), com.mrgcgamer.libgcuniversal
+Filename: ./debs/fiona_1.0.6_iphoneos-arm64.deb
+Size: 122212
+MD5sum: b93f50c766b7f23133aef1309562fa0f
+SHA1: 46bea5d82413eea5f6abe680644aa740d9509616
+SHA256: b7538e2ac2576bf563b1c29d3e69d6d346588c36ca69fe51dd23a657de3f2b63
+Section: Tweaks
+Description: iOS悬浮选项卡栏
+Author: yan
+Depiction: https://repo.cypwn.xyz/depiction/2146
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/fiona/icon.png
+Name: Fiona
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/fiona/Depiction
+
+Package: com.white.fiona
 Version: 1.0.7
 Architecture: iphoneos-arm
 Maintainer: yan
 Installed-Size: 576
 Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, firmware(>= 14.0), com.mrgcgamer.libgcuniversal
-Filename: ./debs/fiona_1.0.7.deb
+Filename: ./debs/fiona_1.0.7_iphoneos-arm.deb
 Size: 122832
 MD5sum: ee052af818a10ebd898950c05a7fe51f
 SHA1: cd7377a0f38253b4cd7d20537908b998ef99210f
@@ -5792,37 +5828,111 @@ Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDe
 
 Package: com.white.genieaichatbot
 Version: 6.1.0
-Architecture: iphoneos-arm
-Maintainer: CyPwn
+Architecture: iphoneos-arm64
+Maintainer: Blatant
 Depends: mobilesubstrate
-Filename: ./debs/genieaichatbot_6.1.0.deb
-Size: 11080
-MD5sum: 5d00fa84435033e7f3932e1dbf6a57c1
-SHA1: 10f26c1f8743d9d92fdb6ec875245fb77e641f55
-SHA256: e10e710528fdabd01c6cefccb295157723c0259b3e9a9b791b250e0d9d69c93f
+Filename: ./debs/genieaichatbot_6.1.0_iphoneos-arm64.deb
+Size: 11180
+MD5sum: 5a1ec156a1bef4de2436e94ffc0f4594
+SHA1: a858d220b505cd190c02b3a72a7b58bded6e0c7a
+SHA256: c42f6be8aa9362451113322b5d516775ab3f9de4fc06108a64e9af1581b1f68c
 Section: Cracks
 Description: 解锁Genie AI Chat Pro功能
-Author: CyPwn
-Depiction: https://repo.cypwn.xyz/depiction/1897
-Icon: https://repo.cypwn.xyz/assets/repo/Featured/genieaichatbot.png
+Author: Blatant
+Depiction: https://repo.cypwn.xyz/depiction/1898
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/genieaichatbot/icon.png
 Name: Genie AI Chatbot Pro
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/genieaichatbot/Depiction
+
+Package: com.white.genieaichatbot
+Version: 6.1.0
+Architecture: iphoneos-arm
+Maintainer: Blatant
+Depends: mobilesubstrate
+Filename: ./debs/genieaichatbot_6.1.0_iphoneos-arm.deb
+Size: 11144
+MD5sum: 1690a9396e3741ce6b6b4581b334cad0
+SHA1: f5ba191f52d6847f284c224c561772674f607f65
+SHA256: 390f2a685abff1145e3f5e0e4ae3778980cb34094fcada2eb2eaad76d3083cc2
+Section: Cracks
+Description: 解锁Genie AI Chat Pro功能
+Author: Blatant
+Depiction: https://repo.cypwn.xyz/depiction/1897
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/genieaichatbot/icon.png
+Name: Genie AI Chatbot Pro
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/genieaichatbot/Depiction
 
 Package: com.white.genieaichatbot
 Version: 6.2.0
 Architecture: iphoneos-arm
 Maintainer: Blatant
 Depends: mobilesubstrate
-Filename: ./debs/genieaichatbot_6.2.0.deb
-Size: 6616
-MD5sum: a897f80f4aedb60227775cd95c0b1627
-SHA1: 98fb2a9e27c062dd14edbb3f9b1e1d736ccc9482
-SHA256: 847e4877a13c0f9a9eac635b222408103697721b88815842d66d06f958fe67ea
+Filename: ./debs/genieaichatbot_6.2.0_iphoneos-arm.deb
+Size: 6644
+MD5sum: 13c49ce01ad1ad117488125e7b1d97ab
+SHA1: da142c3ab82556680a12212d2fde380d75288f1b
+SHA256: 06af76cab3252525163ade777862c526e9980f93d77c41c8721fd1c57fb4c561
 Section: Cracks
 Description: 解锁Genie AI Chat Pro功能
 Author: Blatant
 Depiction: https://repo.cypwn.xyz/depiction/2410
-Icon: https://repo.cypwn.xyz/assets/repo/Featured/genieaichatbot.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/genieaichatbot/icon.png
 Name: Genie AI Chatbot Pro
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/genieaichatbot/Depiction
+
+Package: com.white.genieaichatbot
+Version: 6.2.0
+Architecture: iphoneos-arm64
+Maintainer: Blatant
+Depends: mobilesubstrate
+Filename: ./debs/genieaichatbot_6.2.0_iphoneos-arm64.deb
+Size: 6716
+MD5sum: b35fa36436eafb36cf75c1b698361d36
+SHA1: d2696dce615d385aaacfe031bbbc4e4325a4c85a
+SHA256: ea4ff5082983c04f0ebfef4cdd26183bc587df0f9d9251476cf038430ee23e96
+Section: Cracks
+Description: 解锁Genie AI Chat Pro功能
+Author: Blatant
+Depiction: https://repo.cypwn.xyz/depiction/2411
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/genieaichatbot/icon.png
+Name: Genie AI Chatbot Pro
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/genieaichatbot/Depiction
+
+Package: com.white.genieaichatbot
+Version: 7.1.2
+Architecture: iphoneos-arm
+Maintainer: Blatant
+Depends: mobilesubstrate
+Filename: ./debs/genieaichatbot_7.1.2_iphoneos-arm.deb
+Size: 27720
+MD5sum: e0494800d1f0056c33b37277e629d0a4
+SHA1: c313e54992d7a165147809f7d9d362194ba865ea
+SHA256: 408b8b3fd272a1a3b738d7672295bf2586def2f1b913561410b502d4e21b2a0a
+Section: Cracks
+Description: 解锁Genie AI Chat Pro功能
+Author: Blatant
+Depiction: https://repo.cypwn.xyz/depiction/2820
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/genieaichatbot/icon.png
+Name: Genie AI Chatbot Pro
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/genieaichatbot/Depiction
+
+Package: com.white.genieaichatbot
+Version: 7.1.2
+Architecture: iphoneos-arm64
+Maintainer: Blatant
+Depends: mobilesubstrate
+Filename: ./debs/genieaichatbot_7.1.2_iphoneos-arm64.deb
+Size: 27728
+MD5sum: b20b8ca091b1f6cdfe9fdc8246f11970
+SHA1: 617d4aae3c9ad51b4013f5bf2963dddd3228c1ab
+SHA256: fa082a335d2698a7cc84b83020d6367dd8d6d23824fffc1140238f34b2b35bf1
+Section: Cracks
+Description: 解锁Genie AI Chat Pro功能
+Author: Blatant
+Depiction: https://repo.cypwn.xyz/depiction/2821
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/genieaichatbot/icon.png
+Name: Genie AI Chatbot Pro
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/genieaichatbot/Depiction
 
 Package: com.white.gesturesxv
 Version: 1.6
