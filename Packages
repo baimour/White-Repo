@@ -7665,6 +7665,24 @@ Description: 去除状态栏左上角App快捷返回
 Author: iBreak <ibreak2019@qq.com>
 Name: No Quick Bar
 
+Package: com.white.noredirect
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: Lessica
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.altlist, com.opa334.libsandy
+Filename: ./debs/noredirect_1.3_iphoneos-arm64.deb
+Size: 44228
+MD5sum: 6c92c6fa97e0fd36e53757caeb0493c3
+SHA1: 0037239b6f62f21716ea679240cd38ab23573afc
+SHA256: 6cd85fc7eaea0fb164d2a0715e3b35b1b8ba1f5165ca3cd0e92cf2f596c17818
+Section: Tweaks
+Description: 禁止指定应用重定向到App Store、Safari浏览器或其他应用
+Author: Lessica
+Depiction: https://repo.cypwn.xyz/depiction/2818
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/noredirect/icon.png
+Name: No Redirect
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/noredirect/Depiction
+
 Package: com.white.nosimalert
 Version: 1.0.0
 Architecture: iphoneos-arm
