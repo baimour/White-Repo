@@ -2116,38 +2116,40 @@ Name: AFC2Fix (iOS 10)
 Package: com.white.aismithpremium
 Version: 1.0.0
 Architecture: iphoneos-arm64
-Maintainer: CyPwn
+Maintainer: Ravand
 Installed-Size: 280
 Depends: mobilesubstrate
 Filename: ./debs/aismithpremium_1.0.0_iphoneos-arm64.deb
-Size: 17832
-MD5sum: 2bad5b466b18704a4d1e519334132035
-SHA1: c88750bcc5aa9c20ce26ea0553696a00ace1642e
-SHA256: d8c2118ed7025bbdff96d6a0f16361510991a929ad8c185a1a82f795470efbc2
+Size: 17824
+MD5sum: ad07596d90cee94f572b64d92f58d66b
+SHA1: a0190974f9f92f2ef7e18b876bdd9b97416cd5a2
+SHA256: 0a382a20e996ff5e7830f936754f5669e6575fd58c1334058a0a19c1c049cb12
 Section: Cracks
-Description: 激活年度会员权限
+Description: 激活年会员权限
 Author: Ravand <Ravand0010@gmail.com>
 Depiction: https://repo.cypwn.xyz/depiction/1352
-Icon: https://i.postimg.cc/W3xbgsP2/1503-A9-A3-713-B-4232-A556-C1-E034-D18067.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/aismith/icon.png
 Name: AI Smith Premium
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/aismith/Depiction
 
 Package: com.white.aismithpremium
 Version: 1.0.0
 Architecture: iphoneos-arm
-Maintainer: CyPwn
+Maintainer: Ravand
 Installed-Size: 280
 Depends: mobilesubstrate
 Filename: ./debs/aismithpremium_1.0.0_iphoneos-arm.deb
-Size: 18440
-MD5sum: 56f9c6b6bbec96760e776ee0588935f3
-SHA1: f783e83709d984767837cf2297d3efa8a4c1828e
-SHA256: 18f52b04ba2a62d2dce05f6995e8cb09b77955b2957691fdb94b1db2f8b489dd
+Size: 18416
+MD5sum: a06e66cf18dd24c6597b23b0202845e5
+SHA1: 6fb503590672ee8f5886a72a3f56aa2638075d41
+SHA256: 20df0034a191e1621c56addefb9e9d7aa51ad7ebfa134b5ce42d792cf1683ac2
 Section: Cracks
-Description: 激活年度会员权限
+Description: 激活年会员权限
 Author: Ravand <Ravand0010@gmail.com>
 Depiction: https://repo.cypwn.xyz/depiction/1352
-Icon: https://i.postimg.cc/W3xbgsP2/1503-A9-A3-713-B-4232-A556-C1-E034-D18067.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/aismith/icon.png
 Name: AI Smith Premium
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/aismith/Depiction
 
 Package: com.white.alipayhooks
 Version: 1.1-3
