@@ -2359,6 +2359,54 @@ Name: AnimationsBeFastPlus
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/animationsbefastplus/Depiction
 Sponsor: White <1410970825@qq.com>
 
+Package: com.white.applibrarydisabler
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 172
+Depends: firmware (>= 14.0), mobilesubstrate, cy+model.iphone | cy+model.ipod | firmware (>= 15.0)
+Conflicts: com.tomaszpoliszuk.applibraryenabler
+Replaces: com.tomaszpoliszuk.applibraryenabler
+Filename: ./debs/applibrarydisabler_1.1.1_iphoneos-arm64.deb
+Size: 3400
+MD5sum: 5ffec9c225434dc13cda21e5649dd50c
+SHA1: 69f5b25ed67c8c68168b9b82ead57c93a30514ee
+SHA256: 683ab850cc3cdd90eedce8c263c842571791d663cef1af14779bbfd2b7f6678a
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=applibrarydisablerDp
+Description: 禁用iOS14资源库
+Tag: purpose::extension
+Author: Tomasz Poliszuk <tomaszpoliszuk+bigboss@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=applibrarydisablerDp
+Dev: tomaszpoliszuk
+Name: App Library Disabler
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/applibrarydisabler/Depiction
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.white.applibrarydisabler
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 172
+Depends: firmware (>= 14.0), mobilesubstrate, cy+model.iphone | cy+model.ipod | firmware (>= 15.0)
+Conflicts: com.tomaszpoliszuk.applibraryenabler
+Replaces: com.tomaszpoliszuk.applibraryenabler
+Filename: ./debs/applibrarydisabler_1.1.1_iphoneos-arm.deb
+Size: 3552
+MD5sum: 233de01500f2c652a8932accf5571315
+SHA1: b1131dc4dbfe584ddea2fdf86359a03ebeb1c729
+SHA256: e91c9ebbfca35a6800af73589cebd0052b29754e225bcfa78f594fa37363ae40
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=applibrarydisablerDp
+Description: 禁用iOS14资源库
+Tag: purpose::extension
+Author: Tomasz Poliszuk <tomaszpoliszuk+bigboss@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=applibrarydisablerDp
+Dev: tomaszpoliszuk
+Name: App Library Disabler
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/applibrarydisabler/Depiction
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.white.appstore++
 Version: 0.10.1-5
 Architecture: iphoneos-arm64
@@ -2699,6 +2747,40 @@ Author: White <(NULL)>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/bankabc/icon.png
 Name: 中国农业银行屏蔽越狱
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/bankabc/Depiction
+
+Package: com.white.bankdisable
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc <xuanhua880@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/bankdisable_0.0.1_iphoneos-arm64.deb
+Size: 4072
+MD5sum: 5cf7909f855a69a86dd1a69b14bf180c
+SHA1: 6aaa5dbd0cfcfcf80af1c95dd8aeaacca6ec8ccd
+SHA256: 2a1a1481d4a654399f3b27067c1156da101c4abf53ba191727a54988eec55681
+Section: NoAds
+Description: 屏蔽更新弹窗
+Author: Huayuarc <xuanhua880@gmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/bankabc/icon.png
+Name: 中国农业银行屏蔽更新弹窗
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/bankabc/Depiction2
+
+Package: com.white.bankdisable
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Huayuarc <xuanhua880@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/bankdisable_0.0.1_iphoneos-arm.deb
+Size: 4552
+MD5sum: c99b00f9bbb9d4e85a01d48dd807a6d3
+SHA1: c9cd4100dbf5df7b7393596c86bd0dea38a568cc
+SHA256: 0750a95a1ac9f68f86a0ca172e4d4c702e097328eececd656db968af9edebc8b
+Section: NoAds
+Description: 屏蔽更新弹窗
+Author: Huayuarc <xuanhua880@gmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/bankabc/icon.png
+Name: 中国农业银行屏蔽更新弹窗
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/bankabc/Depiction2
 
 Package: com.white.bdnavi
 Version: 1.0
@@ -5622,6 +5704,42 @@ Author: haoerloveyou <haoerloveyou@gmail.com>
 Name: FixUnicom 6 6P iOS8
 Sponsor: haoerloveyou <haoerloveyou@gmail.com>
 
+Package: com.white.fkcamerahook
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: ./debs/promoviecrack_0.0.1_iphoneos-arm.deb
+Size: 25292
+MD5sum: 6ba070687d4c12d9f6943ea42cdbfde1
+SHA1: 1b35b6152d6a4e691e5586fb529fefa4ccf95494
+SHA256: ecc201a97d14a633cf2ad3b6b7814d5e79998e8d643d3b7c9d7d9c043846251a
+Section: Cracks
+Description: 解锁会员权限
+Author: lenglengyu
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/promovie/icon.png
+Name: ProMovie Crack
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/promovie/Depiction
+
+Package: com.white.fkcamerahook
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: ./debs/promoviecrack_0.0.1_iphoneos-arm64.deb
+Size: 24708
+MD5sum: 1cae7ae3944948436453ee7747892591
+SHA1: c439119b80ef8d6d44441939a1a3e7fb220688f4
+SHA256: 51a9545b01db444d73dadfacc30d101e0ce1c0ba88375056cf3b761fdaab71fc
+Section: Cracks
+Description: 解锁会员权限
+Author: lenglengyu
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/promovie/icon.png
+Name: ProMovie Crack
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/promovie/Depiction
+
 Package: com.white.flex3ss
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -6239,6 +6357,40 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/gr
 Name: Grupi
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/grupi/Depiction
 
+Package: com.white.gswechathelper
+Version: 3.0-6
+Architecture: iphoneos-arm64
+Maintainer: 挂神 <xuanhua880@gmail.com>
+Depends: firmware (>= 12.0)
+Filename: ./debs/gswechathelper_3.0-6_iphoneos-arm64.deb
+Size: 76960
+MD5sum: c4192e025ec83d52dff6fff89c1463b0
+SHA1: e48ec718fd1e79560041a63cac91f9e41c84e919
+SHA256: 6024507e901b6e1a96977ff89c3d759c42a8dacbfa3af03cc7d4db31bd94d798
+Section: Wechat
+Description: 挂神微信助手
+Author: 挂神 <xuanhua880@gmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/wechat/icon.png
+Name: GSWeChatHelper
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/gswchelper/Depiction
+
+Package: com.white.gswechathelper
+Version: 3.0-6
+Architecture: iphoneos-arm
+Maintainer: 挂神 <xuanhua880@gmail.com>
+Depends: firmware (>= 12.0)
+Filename: ./debs/gswechathelper_3.0-6_iphoneos-arm.deb
+Size: 78856
+MD5sum: 08caefafde2acd8067e82e585e84e40c
+SHA1: c8552ecb662b6334dc34f1bd89c43452a019f5b1
+SHA256: 02e282e35597bc36f3d8da9de5dd0bc9d6abda9957573d88e2f014d63dc010a6
+Section: Wechat
+Description: 挂神微信助手
+Author: 挂神 <xuanhua880@gmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/wechat/icon.png
+Name: GSWeChatHelper
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/gswchelper/Depiction
+
 Package: com.white.gtgj
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -6502,7 +6654,7 @@ Architecture: iphoneos-arm
 Maintainer: iGameGod
 Installed-Size: 200952
 Depends: mobilesubstrate (>= 0.9.5000), ldid, odcctools
-Filename: ./debs/igg_0.4.3.deb
+Filename: ./debs/igg_0.4.3_iphoneos-arm.deb
 Size: 51787396
 MD5sum: 6165e32c13aeba3bbe610da34f6f3719
 SHA1: 4c02a8445b744b823eaaa1b211543c96f807aa21
@@ -6513,6 +6665,59 @@ Author: iGameGod
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/igg/icon.png
 Name: iGameGod
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/igg/Depiction
+
+Package: com.white.igg
+Version: 0.4.4
+Architecture: iphoneos-arm64
+Maintainer: iGameGod
+Installed-Size: 203320
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/igg_0.4.4_iphoneos-arm64.deb
+Size: 52424548
+MD5sum: 9815661209d0487f66994ad7024415af
+SHA1: c1e7236a9cd51611a83c28069ed29bd3740cfe41
+SHA256: 7a82c6e874056a882285c5f25872ac0912b3dd39498f4c9614848bbdfafc6a3c
+Section: Utilities
+Description: 成为游戏之神！
+Author: iGameGod
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/igg/icon.png
+Name: iGameGod Rootless
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/igg/Depiction
+
+Package: com.white.installer
+Version: 5.1-91
+Architecture: iphoneos-arm
+Maintainer: AppTapp <support@apptapp.me>
+Depends: firmware (>= 11.0)
+Conflicts: me.apptapp.installer
+Filename: ./debs/installer_5.1-91_iphoneos-arm.deb
+Size: 8715676
+MD5sum: 3359c77e9abd64cb103dcb7d2a770ba1
+SHA1: c53333aebe8fe3d66ef89348269bddcec33f849e
+SHA256: 946414058cc59dee00e0fd82badf90add84decc854444e483fb03ce0fc393021
+Section: Utilities
+Description: Installer 5.1测试版，适用于iOS的最快插件管理器
+Author: AppTapp <support@apptapp.me>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/installer/icon.png
+Name: Installer
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/installer/Depiction
+
+Package: com.white.installer
+Version: 5.1.1
+Architecture: iphoneos-arm64
+Maintainer: AppTapp <xuanhua880@gmail.com>
+Depends: firmware (>= 11.0)
+Filename: ./debs/installer_5.1.1_iphoneos-arm64.deb
+Size: 9544828
+MD5sum: aaf4d8524b0bac02355c68426a927d49
+SHA1: 5a88b4694d6845a9d3ba696a2dafcf3c8db4f04b
+SHA256: 23a0d7cf5249367d6ff43f812deef446414b0fd2d643f487f7301a72d16fca41
+Section: Utilities
+Description: Installer 5.1测试版，适用于iOS的最快插件管理器
+Author: AppTapp <xuanhua880@gmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/installer/icon.png
+Name: Installer
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/installer/Depiction
 
 Package: com.white.ios-9-14-system-unlocker
 Version: 1.0.3
@@ -8136,6 +8341,40 @@ Icon: file:///Applications/Cydia.app/Sections/Utilities.png
 Name: ProCam 7 专业级单反相机
 Sponsor: White
 
+Package: com.white.promoviehook
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Huayuarc <xuanhua880@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/promoviehook_0.0.1_iphoneos-arm.deb
+Size: 3332
+MD5sum: bc951ca2d9a5e5f76e2f83b83b81b670
+SHA1: 3889639de20eed80ea73e407c850647e46b61ed9
+SHA256: 30ec903aa701ea8c199d3c72706b7c5747c93425efdca99e1982b9409b8f7f8e
+Section: Cracks
+Description: 解除水印功能限制
+Author: Huayuarc <xuanhua880@gmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/promovie/icon.png
+Name: ProMovie Hook
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/promovie/Depiction2
+
+Package: com.white.promoviehook
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc <xuanhua880@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/promoviehook_0.0.1_iphoneos-arm64.deb
+Size: 2848
+MD5sum: 231096f7cab8a3cd18a6ccf678c4ee2a
+SHA1: f59b731725bd086d16c009b90563a1c44a5e8e4a
+SHA256: 842326a29afd5220fa6f8f57e90cf5750b8aa77657d73b774e8c4a81bab1f5e7
+Section: Cracks
+Description: 解除水印功能限制
+Author: Huayuarc <xuanhua880@gmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/promovie/icon.png
+Name: ProMovie Hook
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/promovie/Depiction2
+
 Package: com.white.qeeyou
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -8272,15 +8511,32 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: iosign.qqmusic.rootless
 Replaces: iosign.qqmusic.rootless
 Filename: ./debs/qqmusic_0.1-1_iphoneos-arm64.deb
-Size: 3644
-MD5sum: fb2e1ea5d80cabfa5f29382520d30d68
-SHA1: f805dbd5504499a85dd11d99ad0e2ba7a18b842c
-SHA256: 841aef9ce1ec0c49e04c26e07fcf8074fd0b34ec5bf5bcf08f2e5e27c9422a8c
+Size: 3636
+MD5sum: 515e8455fcfc5807a6d4e860f7113107
+SHA1: 20a2a1a291ce0258827ece816d815f18bd925865
+SHA256: ede47be5c069a6c0f16586ff562db337ee2d40dc2b5a8712b4918956c4fba31e
 Section: NoAds
 Description: 去除广告，精简个人页面，解锁臻品音质2.0
 Author: iOSign
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qqmusic/icon.png
-Name: QQ音乐
+Name: QQ音乐 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qqmusic/Depiction
+
+Package: com.white.qqmusic
+Version: 0.1-1
+Architecture: iphoneos-arm
+Maintainer: iOSign
+Depends: mobilesubstrate
+Filename: ./debs/qqmusic_0.1-1_iphoneos-arm.deb
+Size: 9260
+MD5sum: 1398c0d894302ad64607a9acf68cbe2c
+SHA1: ec7ac3261e366561b4aff6dd49cc15964a0c21ec
+SHA256: 4352789f6b26dd39d078c99fcdd430dcba58693fceb236fba0749a1d251d734d
+Section: Tweaks
+Description: 去除广告，精简个人页面，解锁臻品音质2.0
+Author: iOSign
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qqmusic/icon.png
+Name: QQ音乐 NoAds
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qqmusic/Depiction
 
 Package: com.white.qsyy
@@ -8372,6 +8628,48 @@ Tag: purpose::extension
 Author: White <1410970825@qq.com>
 Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 Name: 控制中心重启模块
+
+Package: com.white.recordpause
+Version: 2.0.3
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 14.0), firmware (<< 18.0)
+Conflicts: org.thebigboss.recordpause, com.spicat.recordpause
+Replaces: org.thebigboss.recordpause, com.spicat.recordpause
+Provides: org.thebigboss.recordpause, com.spicat.recordpause
+Filename: ./debs/recordpause_2.0.3_iphoneos-arm.deb
+Size: 10092
+MD5sum: 03f9b869e905c6a2e9eaa446d3b00802
+SHA1: b751ec77c746e33452e55ccf66446d831ee100f5
+SHA256: 5c01904237c1eb0f2a1dd57c9fa5afa0d2127d21fca27fe12155133c1c0a0710
+Section: Tweaks
+Description: 在录制视频时支持暂停/继续录制
+Author: PoomSmart
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/recordpause/icon.png
+Name: RecordPause
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/recordpause/Depiction
+
+Package: com.white.recordpause
+Version: 2.0.3
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 14.0), firmware (<< 18.0)
+Conflicts: org.thebigboss.recordpause, com.spicat.recordpause
+Replaces: org.thebigboss.recordpause, com.spicat.recordpause
+Provides: org.thebigboss.recordpause, com.spicat.recordpause
+Filename: ./debs/recordpause_2.0.3_iphoneos-arm64.deb
+Size: 10168
+MD5sum: 7e743cd67ab197190813a78dde52a54c
+SHA1: d51549c345cbf37bbe153900b20e75d24258649a
+SHA256: d15fe3649399c067a5ae3621e6c5039021b85ee3fd7b89645f185187619faa78
+Section: Tweaks
+Description: 在录制视频时支持暂停/继续录制
+Author: PoomSmart
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/recordpause/icon.png
+Name: RecordPause
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/recordpause/Depiction
 
 Package: com.white.renet
 Version: 1.2
@@ -10621,15 +10919,16 @@ Architecture: iphoneos-arm64
 Maintainer: appku <xuanhua880@gmail.com>
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/wechatif_1.6-2_iphoneos-arm64.deb
-Size: 1659136
-MD5sum: 315e883efaa1b4fa861ce2327cdf0bba
-SHA1: c9a9566de6f5345799d0573e7ea438939c0a2ac6
-SHA256: cfa1d8e47a1563bcb60f45a5c352c6fe1fea0f65875fc80ec5507e69acc081c2
+Size: 1652852
+MD5sum: ee25c8f26004e418df2ff8a143d02d2d
+SHA1: 83eb9ae24644890b3c5de845d3644316b07d82bf
+SHA256: 741fc2f0f8889c0bb48a996af88b13ea31a0d2df3e676d56b20e04b3211b415b
 Section: Wechat
 Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,多端登录设备隐藏、新增朋友圈转发、修改聊天时间以及修改部分BUG
 Author: appku <xuanhua880@gmail.com>
-Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/wechatif/icon.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/icon.png
 Name: 爱锋助手
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/Depfeng
 
 Package: com.white.wechatif
 Version: 1.6-2
@@ -10637,15 +10936,33 @@ Architecture: iphoneos-arm
 Maintainer: appku <xuanhua880@gmail.com>
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/wechatif_1.6-2_iphoneos-arm.deb
-Size: 1599744
-MD5sum: e069a0ded093762cb264664650b76f43
-SHA1: ff41dd32a673696fbc199a2acc01870feb124374
-SHA256: 6177d22cebab334ae9fac6fa70bc217329d30133f07a1a336e04f8e17bbffeeb
+Size: 1600152
+MD5sum: 156c66142afebeea83b19587f2be2d13
+SHA1: d27ae125ca1ead1888c6a80853d2cc376eeb35f4
+SHA256: 9683211fe0adeaa54bd50c457ea47287b67f45d254582f774b37f6f869a48bae
 Section: Wechat
 Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,多端登录设备隐藏、新增朋友圈转发、修改聊天时间以及修改部分BUG
 Author: appku <xuanhua880@gmail.com>
-Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/wechatif/icon.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/icon.png
 Name: 爱锋助手
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/Depfeng
+
+Package: com.white.wechatif
+Version: 1.6-3
+Architecture: iphoneos-arm64
+Maintainer: appku
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/wechatif_1.6-3_iphoneos-arm64.deb
+Size: 1670820
+MD5sum: 700cc71a9ad86298fa8e21825f9666c6
+SHA1: cc883c23e90ad7b438253282c87408d485cf25fd
+SHA256: fa664f1404feac5282888bf33f9a0695adc3e8b017f4279d202169d24be3d3b0
+Section: Wechat
+Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,多端登录设备隐藏、新增朋友圈转发、修改聊天时间以及修改部分BUG
+Author: appku
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/icon.png
+Name: 爱锋助手
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/Depfeng
 
 Package: com.white.wifikey
 Version: 1.0
