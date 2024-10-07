@@ -1171,6 +1171,42 @@ Author: MTAC
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ampere/icon.png
 Name: Ampere
 
+Package: com.netskao.awemedownloadmedia
+Version: 1.1-3
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 304
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.netskao.awemedownloadmedia_1.1-3_iphoneos-arm64.deb
+Size: 81420
+MD5sum: 3872e92feb040595c54875761cb80b58
+SHA1: 1854b1bee228306d9323a3887632ecc0bd332bf9
+SHA256: a279e461f19f93a970771f19e9681d767757e6d22799f698000333d6452d8480
+Section: NoAds
+Description: 抖音无水印下载媒体，仅在30.3.0及更高版本上进行测试
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemedownloadmedia/icon.png
+Name: 抖音下载媒体
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemedownloadmedia/Depiction
+
+Package: com.netskao.awemefullscreen
+Version: 1.1-8
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 108
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.netskao.awemefullscreen_1.1-8_iphoneos-arm64.deb
+Size: 23860
+MD5sum: b079225691a6b5da7d23e8d9766b1b94
+SHA1: 4bbc9255e905a139e3229a508348e7d268a0f652
+SHA256: 01e9d87571762bde96d8ba30668bf5cc65d2dc46a1819ba96c2d0230c6ff0536
+Section: NoAds
+Description: 抖音全屏播放，仅在29.8.0版本上测试，后续版本更新导致的问题将不会被维护
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemedownloadmedia/icon.png
+Name: 抖音全屏播放
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemefullscreen/Depiction
+
 Package: com.netskao.pulloverpro
 Version: 2.1.5-3
 Architecture: iphoneos-arm64
