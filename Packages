@@ -292,6 +292,48 @@ Author: White <1410970825@qq.com>
 Dev: White
 Name: 屏蔽设置重要提醒
 
+Package: com.asmallman.redbag
+Version: 2.3.0
+Architecture: iphoneos-arm64
+Maintainer: asmallman <226084404@qq.com>
+Installed-Size: 1122
+Depends: firmware (>= 8.0), mobilesubstrate, emt.paisseon.xinamine (>= 0.0.5)
+Filename: ./debs/redbag_2.3.0_iphoneos-arm64.deb
+Size: 288540
+MD5sum: e283b1a7e0c7017d768b863c20764652
+SHA1: f3dfde72abe5ab9ac5a0fa4ae8d6981f59ba1869
+SHA256: 9122a6cec5d9ae88f89b404dcdc08f8232ec2ff4f776b9a2187cc52021e9a998
+Section: Wechat
+Description: (支持微信8.0)微信自动抢红包，自动收款，支持提醒、自动回复、延迟、指定不抢
+Tag: purpose::extension
+Author: asmallman <226084404@qq.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=redbagDp
+Dev: asmallman
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/icon.png
+Name: 红包达人
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/Depredbag
+
+Package: com.asmallman.redbag
+Version: 2.3.0
+Architecture: iphoneos-arm
+Maintainer: asmallman <226084404@qq.com>
+Installed-Size: 1122
+Depends: firmware (>= 8.0), mobilesubstrate
+Filename: ./debs/redbag_2.3.0_iphoneos-arm.deb
+Size: 288448
+MD5sum: dde63d0b637c8f767bc7720cfb35a440
+SHA1: 5697d35922b076235ad0cfb61bf8624d6e99b281
+SHA256: 38cea9389d609c38796cecbf4848eb49d0c2c9a328893c8f049c1af02f4656d6
+Section: Wechat
+Description: (支持微信8.0)微信自动抢红包，自动收款，支持提醒、自动回复、延迟、指定不抢
+Tag: purpose::extension
+Author: asmallman <226084404@qq.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=redbagDp
+Dev: asmallman
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/icon.png
+Name: 红包达人
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/Depredbag
+
 Package: com.babylonvip.carxdrift2
 Version: 1.31.1
 Architecture: iphoneos-arm
@@ -1349,24 +1391,6 @@ Author: pixelomer <contact@pixelomer.com>
 Depiction: https://chariz.com/get/tweakreviewsdb
 Icon: https://img.chariz.cloud/icon/tweakreviewsdb/icon@3x.png
 Name: TweakReviewsDB
-
-Package: com.ps.batteryhealthenabler
-Version: 1.0.0
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 136
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.3)
-Filename: ./debs/com.ps.batteryhealthenabler_1.0.0.deb
-Size: 5252
-MD5sum: 6b20d96f6400241d9c52361204d313b6
-SHA1: 26afe7879a064820e425d9b70d6ece027e39e966
-SHA256: c0c5615a97a2fe31a53093ee7aa64c4d615b7c00d58cb5255903129c4fba1e80
-Section: Tweaks
-Description: 在不受支持的设备上启用电池健康
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/batteryhealthenabler.html
-Name: Battery Health Enabler
-Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/batteryhealthenabler/Depiction
 
 Package: com.shadow.h5gg.plugin.hideview
 Version: 1
@@ -2560,6 +2584,24 @@ Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
 Name: AppSync Unified
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/appsyncunified/Depiction
 
+Package: com.white.apptrust
+Version: 4.7
+Architecture: iphoneos-arm
+Maintainer: Q(2776495731) <xuanhua880@gmail.com>
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: com.aodmin.cn
+Filename: ./debs/apptrust_4.7.deb
+Size: 923688
+MD5sum: 550b7467057972a8b4ce751ba7b76cf0
+SHA1: b0c46a7f717a0f74aa7d69d1ef316bf59ef13069
+SHA256: f51592e25e6379666008677b2f7b8f0652534761b9076a507a8d9aea83e8fd54
+Section: Tweaks
+Description: 支持10-14系统（iOS13.3.1除外），无视证书掉签，重启后也可使用。演示视频-官网：Aodmin.cn
+Author: wx(aodmin) <xuanhua880@gmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/apptrust/icon.png
+Name: AppTrust
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/apptrust/Depiction
+
 Package: com.white.aptfix
 Version: 0.0.6
 Architecture: iphoneos-arm
@@ -2817,6 +2859,42 @@ Author: Huayuarc <xuanhua880@gmail.com>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/bankabc/icon.png
 Name: 中国农业银行屏蔽更新弹窗
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/bankabc/Depiction2
+
+Package: com.white.batteryhealthenabler
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.3)
+Filename: ./debs/batteryhealthenabler_1.0.0_iphoneos-arm64.deb
+Size: 5608
+MD5sum: d819ca87e6c1f05a9e67e84cfb98a63a
+SHA1: 75db329ebb2c19d7eae957328982fe4376ebe9df
+SHA256: 0dcef7b94ca0967f75ae794b5b264e3a0cd7ad3f2ff16f370b26b2d3bc4aa463
+Section: Tweaks
+Description: 在不受支持的设备上启用电池健康
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/batteryhealthenabler.html
+Name: Battery Health Enabler
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/batteryhealthenabler/Depiction
+
+Package: com.white.batteryhealthenabler
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.3)
+Filename: ./debs/batteryhealthenabler_1.0.0_iphoneos-arm.deb
+Size: 5256
+MD5sum: 99d7747f4e54026903cd83325aa97ece
+SHA1: d97122a933ec4470a5fee1d63334a05b7f73f9d5
+SHA256: b29d0fd04c13f33b50b6dd01630736fe45034a22698246e8b190ceca3eb6de0a
+Section: Tweaks
+Description: 在不受支持的设备上启用电池健康
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/batteryhealthenabler.html
+Name: Battery Health Enabler
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/batteryhealthenabler/Depiction
 
 Package: com.white.bdnavi
 Version: 1.0
@@ -8665,6 +8743,40 @@ Author: White <1410970825@qq.com>
 Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 Name: 控制中心重启模块
 
+Package: com.white.recordanywhere
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Muirey03 / Netskao
+Installed-Size: 136
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/recordanywhere_1.0.1_iphoneos-arm.deb
+Size: 5680
+MD5sum: 16f2753f8fa3c23c769fe9c1fdd644d6
+SHA1: 6efcc41045932875c3a709c1d2c524851d060150
+SHA256: f8049ebf39532c3fed3aefbf2a0e97cd1e45c0af02097f8edc7dd2a8e521d893
+Section: Tweaks
+Description: 允许设备锁屏时进行屏幕录制，由Netskao修复支持iOS14
+Author: Muirey03 / Netskao
+Name: RecordAnywhere
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/recordanywhere/Depiction
+
+Package: com.white.recordanywhere
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: Muirey03 & lclrc
+Installed-Size: 168
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/recordanywhere_1.1.0_iphoneos-arm64.deb
+Size: 4628
+MD5sum: 71643f176bb18015836ad8e750e23f54
+SHA1: bfbc599a4442fc1769e9a6b6853a0837020a6eae
+SHA256: 370cdf6b83d59c3426eb83f57f632d1a9be6872bc984e879dad92636f07de8f0
+Section: Tweaks
+Description: 允许设备锁屏时进行屏幕录制，由乌贼修复支持Dopamine，感谢原作者提供的思路
+Author: Muirey03 & lclrc
+Name: RecordAnywhere
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/recordanywhere/Depiction
+
 Package: com.white.recordpause
 Version: 2.0.3
 Architecture: iphoneos-arm
@@ -9344,6 +9456,25 @@ Depiction: N/A
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sileo-zh/icon.png
 Name: zh-Hans For Sileo
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sileo-zh/Depiction
+
+Package: com.white.singlemutes
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: 82Flex
+Installed-Size: 168
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: com.82flex.singlemute
+Filename: ./debs/singlemutes_1.4_iphoneos-arm64.deb
+Size: 23784
+MD5sum: 39022410e6924d7058d8065e9854a858
+SHA1: 56fa9f6b95f05eac1494601c63936eb03d82d443
+SHA256: 777dc4d38ebee31002628ccb0d6fd3e8a3fec4e49eaafdf39c4e84ab35e0fe2e
+Section: Tweaks
+Description: 状态栏左上角显示静音图标
+Author: 82Flex
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/singlemutes/icon.png
+Name: Single Mute
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/singlemutes/Depiction
 
 Package: com.white.sixls
 Version: 1.1
