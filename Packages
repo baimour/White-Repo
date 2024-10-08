@@ -5527,6 +5527,42 @@ Version: 1.0.4.2
 Architecture: iphoneos-arm
 Maintainer: KingPuffdaddi
 Installed-Size: 356
+Depends: firmware (>= 9.0), mobilesubstrate, ws.hbang.common, preferenceloader
+Filename: ./debs/fakecallhistory_1.0.4.2_iphoneos-arm.deb
+Size: 15184
+MD5sum: 93854d9e4a5ce13b2b5f446920230510
+SHA1: dcc2ec081fe803839d3f17b3691e51c2d171bc63
+SHA256: 07eff86cf875b40ca673efb834579f86b9f305b5fe6881d454f1f96b9bee4e62
+Section: Tweaks
+Description: 将假电话添加到您的通话记录中！
+Author: NeinZedd9
+Depiction: https://kingpuffdaddi.github.io/depictions/?p=com.neinzedd9.fakecallhistory
+Name: Fake Call History
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/fakecallhistory/Depiction
+
+Package: com.white.fakecallhistory
+Version: 1.0.4.2
+Architecture: iphoneos-arm64
+Maintainer: KingPuffdaddi
+Installed-Size: 7296
+Depends: firmware (>= 9.0), mobilesubstrate, ws.hbang.common, preferenceloader
+Filename: ./debs/fakecallhistory_1.0.4.2_iphoneos-arm64.deb
+Size: 13608
+MD5sum: 9434b2d14ab4d4b7c9c8f725c9a20452
+SHA1: d3a9efaa8b0e0cd80343c743a8d3e6e383cab0b5
+SHA256: 0c46bbc79721d3bcb0dc035bc7d6de82ccca59d0c28e91378b20e9a32e46e0a7
+Section: Tweaks
+Description: 将假电话添加到您的通话记录中！
+Author: NeinZedd9
+Depiction: https://kingpuffdaddi.github.io/depictions/?p=com.neinzedd9.fakecallhistory
+Name: Fake Call History
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/fakecallhistory/Depiction
+
+Package: com.white.fakecallhistory
+Version: 1.0.4.2
+Architecture: iphoneos-arm
+Maintainer: KingPuffdaddi
+Installed-Size: 356
 Depends: mobilesubstrate, ws.hbang.common, preferenceloader
 Filename: ./debs/fakecallhistory_1.0.4.2.deb
 Size: 16138
