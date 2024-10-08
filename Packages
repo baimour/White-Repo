@@ -6595,6 +6595,42 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/gt
 Name: 高铁管家屏蔽越狱
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/gtgj/Depiction
 
+Package: com.white.gtgj
+Version: 1.0-7
+Architecture: iphoneos-arm
+Maintainer: White
+Installed-Size: 200
+Depends: mobilesubstrate
+Filename: ./debs/gtgj_1.0-7_iphoneos-arm.deb
+Size: 5106
+MD5sum: 280ee04591d7d1225b59aa1340a723b5
+SHA1: cef87c66d53327a87658f7254fbab2f7a950589c
+SHA256: eba025759223ce29ff2e5f0c482f5152d5f8c24139bae39dc60e1d5063dc4f22
+Section: NoAds
+Description: 基于8.72.1版本制作，去广告
+Author: White
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/gtgj/icon.png
+Name: 高铁管家 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/gtgj/Depiction
+
+Package: com.white.gtgj
+Version: 1.0-7
+Architecture: iphoneos-arm64
+Maintainer: White
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/gtgj_1.0-7_iphoneos-arm64.deb
+Size: 4080
+MD5sum: 4ba433bc96c0fba56580d55071a7678d
+SHA1: 0758c0eef66dc2a444254636cbf59919bb31f897
+SHA256: 5324d275008a29447f997345294fe2af5d7375083ac8132493403f9d459ea1fc
+Section: NoAds
+Description: 基于8.72.1版本制作，去广告
+Author: White
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/gtgj/icon.png
+Name: 高铁管家 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/gtgj/Depiction
+
 Package: com.white.haptickeys
 Version: 4.4
 Architecture: iphoneos-arm
