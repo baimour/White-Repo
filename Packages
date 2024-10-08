@@ -1231,6 +1231,24 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/aw
 Name: 抖音下载媒体
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemedownloadmedia/Depiction
 
+Package: com.netskao.awemedownloadmedia
+Version: 1.1-6
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 436
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.netskao.awemedownloadmedia_1.1-6_iphoneos-arm64.deb
+Size: 112772
+MD5sum: 3b0a28921de19d8ad524d1cbeed16c82
+SHA1: 66a385df08cbdfaea4477f4d5de3e747914323f9
+SHA256: eb801d37251ea61db61af742b6f536661cbb27751f67f185267c64449f97f1d6
+Section: NoAds
+Description: 抖音无水印下载媒体，仅在30.3.0及更高版本上进行测试
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemedownloadmedia/icon.png
+Name: 抖音下载媒体
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemedownloadmedia/Depiction
+
 Package: com.netskao.awemefullscreen
 Version: 1.1-8
 Architecture: iphoneos-arm64
