@@ -10142,10 +10142,10 @@ Depends: com.white.taidependscoolstar
 Conflicts: com.randy420.taidependsother, com.randy420.taidependslegacy
 Replaces: com.randy420.taidependsother, com.randy420.taidependslegacy
 Filename: ./debs/TheosDepends_1.4_iphoneos-arm64.deb
-Size: 29190096
-MD5sum: daf38925559ff7b7206b2d6a2ad08dd7
-SHA1: 2779a2d80f199d380278ff4ca4ec095dc64e227e
-SHA256: 2202fbdc74c7b52a1265932020bf577e72457392695f4233e6943520e126c806
+Size: 29190496
+MD5sum: 4c0797964b4b3e37e9cfc6a33b9d8a96
+SHA1: 99bf3eeb6fb9d1c0439413e3470864a36d6271f9
+SHA256: 365e2fb34f958a63ef43b8afec11b6f7b3459805dbac9ca665c0dbd11e135af0
 Section: Development
 Description: Theos开发环境，已内置sdk
 Author: White <(NULL)>
@@ -10161,10 +10161,10 @@ Depends: com.white.taidependscoolstar
 Conflicts: com.randy420.taidependsother, com.randy420.taidependslegacy
 Replaces: com.randy420.taidependsother, com.randy420.taidependslegacy
 Filename: ./debs/TheosDepends_1.4_iphoneos-arm.deb
-Size: 29034276
-MD5sum: 5ab034d93e047bec59d96229ef37d21f
-SHA1: c6d323ea5e9b42338c2b99f59f7f75a894b281d1
-SHA256: 1e0b6d19b7a68e9fd2e9fd67533b1053ccb570691ed902d4efae510e0e7c3538
+Size: 29036776
+MD5sum: ca4989f1aaf789e903f7a96da58763a0
+SHA1: 27a53408bab96ff52f477f3d578fbebc786f2f23
+SHA256: 16603e4cdd2476cdf34dd2d341e956b5e71d2062e73597a718c56d1de2c1632e
 Section: Development
 Description: Theos开发环境，已内置sdk
 Author: White <(NULL)>
@@ -10192,19 +10192,38 @@ Website: http://ikilledappl3.com
 
 Package: com.white.thermalmonitord
 Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: White
+Depends: plutil, firmware (>= 10.0)
+Conflicts: com.nan.disablethermalmonitord
+Replaces: com.nan.disablethermalmonitord
+Filename: ./debs/thermalmonitord_0.1.0_iphoneos-arm.deb
+Size: 1232
+MD5sum: 31478c5b597cacdeb1ece8354aafe36d
+SHA1: 162a65e2357638a2d77ae4b9f00c27e62eb5cad7
+SHA256: 19174590792b61ee666957040f2f159d258e765bfd4a67957a166fae387e5bee
+Section: Tweaks
+Description: 禁用thermalmonitord进程，防止降频
+Author: White
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/thermalmonitord/icon.png
+Name: Disable Thermalmonitord
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/thermalmonitord/Depiction
+
+Package: com.white.thermalmonitord
+Version: 0.1.0
 Architecture: iphoneos-arm64
-Maintainer: zhaonan
-Depends: plutil
+Maintainer: White
+Depends: plutil, firmware (>= 10.0)
 Conflicts: com.nan.disablethermalmonitord
 Replaces: com.nan.disablethermalmonitord
 Filename: ./debs/thermalmonitord_0.1.0_iphoneos-arm64.deb
-Size: 1232
-MD5sum: d6d10da3151e720077b82a61f1f63d4d
-SHA1: 347be25d920e2009cd6c6b32230afcf0eb51d7d8
-SHA256: 9815acfd7ec13050fec015d608b2422c43c7dbd1a54e9eb6c1df275dc90369a3
+Size: 1236
+MD5sum: d1bd528986f36dec0877fa8362465fa5
+SHA1: e07f5743928891d4a4e463d4a460492d82b4f8e3
+SHA256: 13f6c6acc3597149071de0228b5ccd6e1d17969b843af012c13d13384bfbe810
 Section: Tweaks
-Description: 禁用thermalmonitord守护进程，可以防止降频
-Author: zhaonan
+Description: 禁用thermalmonitord进程，防止降频
+Author: White
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/thermalmonitord/icon.png
 Name: Disable Thermalmonitord
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/thermalmonitord/Depiction
