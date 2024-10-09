@@ -153,6 +153,40 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ch
 Name: 3DMenuGameTool
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cheatpatch/Depiction
 
+Package: com.BeanbunsHelpers.DB
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: Beanbuns
+Depends: mobilesubstrate
+Filename: ./debs/com.BeanbunsHelpers.DB_1.0-1_iphoneos-arm.deb
+Size: 479140
+MD5sum: fc1823a0f4071b6a69d5391aebe18d41
+SHA1: 464c5f46a228bc0d722aa01863dd8b0a8087449b
+SHA256: 27245e7fb38167354a87b8294366cac34539084b1f1586e468efafd869c97811
+Section: NoAds
+Description: 豆包助手抖音项目（仅供逆向学习），给自己的抖音添加一些小功能
+Author: Beanbuns
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Aweme/icon.png
+Name: 豆包助手
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Beanbuns/Depiction
+
+Package: com.BeanbunsHelpers.DB
+Version: 1.0-1
+Architecture: iphoneos-arm64
+Maintainer: Beanbuns
+Depends: mobilesubstrate
+Filename: ./debs/com.BeanbunsHelpers.DB_1.0-1_iphoneos-arm64.deb
+Size: 464840
+MD5sum: 2f469a5b4d5786c3deee12a8eae26579
+SHA1: 023fbddee576dbf671b248a74f81328ebe124bc9
+SHA256: 3689a261c92e5f505bf603f81c8edc731a08d2d07ca9bbd8e1302de5c51518b5
+Section: NoAds
+Description: 豆包助手抖音项目（仅供逆向学习），给自己的抖音添加一些小功能
+Author: Beanbuns
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Aweme/icon.png
+Name: 豆包助手
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Beanbuns/Depiction
+
 Package: com.Joka.NFSMostWantedFreeHack
 Version: 1.1.0
 Architecture: iphoneos-arm
@@ -649,6 +683,40 @@ Section: 老iOS专用
 Description: 屏蔽iOS 7-9运营商更新
 Author: haoerloveyou <haoerloveyou@gmail.com>
 Name: Kill Cellular Update
+
+Package: com.huami.DYYY
+Version: 1.4-2
+Architecture: iphoneos-arm
+Depends: firmware (>= 10.0), mobilesubstrate
+Filename: ./debs/com.huami.DYYY_1.4-2_iphoneos-arm.deb
+Size: 19692
+MD5sum: a7b67422eeac85e313367639186460b0
+SHA1: 1b8f2cfe26967634cea17b6f4e32d882a426e924
+SHA256: 0a9d54212c514149342fe235de0fe903c947a1bd9de5e3aff7f6eb39046528d9
+Section: NoAds
+Priority: optional
+Description: 仅供学习交流，请在24内小时内自觉删除
+Author: huami
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Aweme/icon.png
+Name: DYYY
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/DYYY/Depiction
+
+Package: com.huami.DYYY
+Version: 1.4-2
+Architecture: iphoneos-arm64
+Depends: firmware (>= 10.0), mobilesubstrate
+Filename: ./debs/com.huami.DYYY_1.4-2_iphoneos-arm64.deb
+Size: 19744
+MD5sum: 6860200abb4898e789461c5c0200b5f6
+SHA1: 3fda0982f7b7886dd7264d4679bb3a0d200dffcb
+SHA256: 76c449fced3ac1ab9e48389dcd25649e17a11839dbafc361744700ef4270f979
+Section: NoAds
+Priority: optional
+Description: 仅供学习交流，请在24内小时内自觉删除
+Author: huami
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Aweme/icon.png
+Name: DYYY
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/DYYY/Depiction
 
 Package: com.huayuarc.qjkqdbyx
 Version: 0.0.1.1+debug
@@ -1213,6 +1281,42 @@ Author: MTAC
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ampere/icon.png
 Name: Ampere
 
+Package: com.netskao.awemedisablebar
+Version: 1.1-2
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 172
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.netskao.awemedisablebar_1.1-2_iphoneos-arm64.deb
+Size: 41460
+MD5sum: 3855e7a98165580a8da49d5c56ef6e81
+SHA1: fcdef0c25554c6f5cf34ae03ee8a4bf612f01641
+SHA256: 51b00d3aa3cec6e203587d491e20e14600c48468519ef9db22e9ebdccf035fa6
+Section: NoAds
+Description: 抖音禁用顶部/底部选项卡按钮，仅在30.3.0及更高版本上进行测试
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemedownloadmedia/icon.png
+Name: 抖音禁用按钮
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemedisablebar/Depiction
+
+Package: com.netskao.awemedisablebar
+Version: 1.1-3
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 172
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.netskao.awemedisablebar_1.1-3_iphoneos-arm64.deb
+Size: 42220
+MD5sum: 44342edd0b2c05abeb0f47326609b472
+SHA1: 2862a96d6e78eafd373d0f618a8ec8083042b068
+SHA256: 75b44bd880e8270eeedc4c16e8532fa47c29cc097f2e13a83ebf35796462760f
+Section: NoAds
+Description: 抖音禁用顶部/底部选项卡按钮，仅在30.3.0及更高版本上进行测试
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemedownloadmedia/icon.png
+Name: 抖音禁用按钮
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemedisablebar/Depiction
+
 Package: com.netskao.awemedownloadmedia
 Version: 1.1-3
 Architecture: iphoneos-arm64
@@ -1249,6 +1353,24 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/aw
 Name: 抖音下载媒体
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemedownloadmedia/Depiction
 
+Package: com.netskao.awemedownloadmedia
+Version: 1.1-7
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 436
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.netskao.awemedownloadmedia_1.1-7_iphoneos-arm64.deb
+Size: 112348
+MD5sum: c25c26db8075676df6be8d1ed1a5c49a
+SHA1: 38b273704d1845cea5564ae97e4e93afbb722331
+SHA256: c8a6e4f6c2f0c205efb9695ba2e5a45edcf88aa7b3acaef7ba73d48e687c190a
+Section: NoAds
+Description: 抖音无水印下载媒体，仅在30.3.0及更高版本上进行测试
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemedownloadmedia/icon.png
+Name: 抖音下载媒体
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemedownloadmedia/Depiction
+
 Package: com.netskao.awemefullscreen
 Version: 1.1-8
 Architecture: iphoneos-arm64
@@ -1266,6 +1388,24 @@ Author: Netskao
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemedownloadmedia/icon.png
 Name: 抖音全屏播放
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemefullscreen/Depiction
+
+Package: com.netskao.awemevideotime
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 124
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.netskao.awemevideotime_1.1-1_iphoneos-arm64.deb
+Size: 28380
+MD5sum: 7db71a1dfc201b4f80f1d8a2f123f548
+SHA1: e446f33c68b1207fea9c4789037e2c5b19c68280
+SHA256: 556734942e72bfe175f8277537370fc251924455f075158d2230ff54aa94b509
+Section: NoAds
+Description: 抖音视频显示时间，仅在30.3.0及更高版本上进行测试
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemedownloadmedia/icon.png
+Name: 抖音视频时间
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemevideotime/Depiction
 
 Package: com.netskao.pulloverpro
 Version: 2.1.5-3
@@ -6602,12 +6742,12 @@ Maintainer: White
 Installed-Size: 200
 Depends: mobilesubstrate
 Filename: ./debs/gtgj_1.0-7_iphoneos-arm.deb
-Size: 5106
-MD5sum: 280ee04591d7d1225b59aa1340a723b5
-SHA1: cef87c66d53327a87658f7254fbab2f7a950589c
-SHA256: eba025759223ce29ff2e5f0c482f5152d5f8c24139bae39dc60e1d5063dc4f22
+Size: 5522
+MD5sum: fd7f3ee2bcb02e57cc2a25ccfe4246e8
+SHA1: 5ce741ebd685293742223cf8937fedf250e6756f
+SHA256: 3983da52b8334450c7696a28b5172d4744fb569d3812ca4b9ff6dfeb9b4be628
 Section: NoAds
-Description: 基于8.72.1版本制作，去广告
+Description: 基于8.65.0版本制作，去广告
 Author: White
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/gtgj/icon.png
 Name: 高铁管家 NoAds
@@ -6620,12 +6760,12 @@ Maintainer: White
 Installed-Size: 136
 Depends: mobilesubstrate
 Filename: ./debs/gtgj_1.0-7_iphoneos-arm64.deb
-Size: 4080
-MD5sum: 4ba433bc96c0fba56580d55071a7678d
-SHA1: 0758c0eef66dc2a444254636cbf59919bb31f897
-SHA256: 5324d275008a29447f997345294fe2af5d7375083ac8132493403f9d459ea1fc
+Size: 4354
+MD5sum: baea1c469cf9a81f1a7f25696af540ee
+SHA1: 82e7a7db43cc1b7014b3dcae7ae80c7b3725e15d
+SHA256: c7d2e79de0ce9b0588587a63689d5900c67608be0f0c45964b89ca797e098452
 Section: NoAds
-Description: 基于8.72.1版本制作，去广告
+Description: 基于8.65.0版本制作，去广告
 Author: White
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/gtgj/icon.png
 Name: 高铁管家 NoAds
@@ -8261,6 +8401,60 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/no
 Name: No Redirect
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/noredirect/Depiction
 
+Package: com.white.noredirect
+Version: 1.8
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 576
+Depends: firmware (>= 14.0), mobilesubstrate, com.opa334.altlist, com.opa334.libsandy
+Filename: ./debs/noredirect_1.8_iphoneos-arm64.deb
+Size: 53856
+MD5sum: e61f85999d4f406d790c68e8dcfc2545
+SHA1: 9d83c1e23321c3ca0d917067e890ba266eb96fcb
+SHA256: 8c38ec5ee518a75c5a8ae1fd4ad2f10273dabb4c35af7d9190bc8adc140e16fb
+Section: Tweaks
+Description: 禁止指定应用重定向到App Store、Safari浏览器或其他应用
+Author: Lessica <82flex@gmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/noredirect/icon.png
+Name: No Redirect
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/noredirect/Depiction
+
+Package: com.white.noredirect
+Version: 1.9
+Architecture: iphoneos-arm
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 576
+Depends: firmware (>= 14.0), mobilesubstrate, com.opa334.altlist, com.opa334.libsandy
+Filename: ./debs/noredirect_1.9_iphoneos-arm.deb
+Size: 54004
+MD5sum: a92d563103feb91d7f816a983d512035
+SHA1: 3b97f925e5f97671d6c328fcddff8da7dccf063e
+SHA256: c8a4d26356ac014e536cff9926e72f0665cd1bb0e1174b708e9915733301765e
+Section: Tweaks
+Description: 禁止指定应用重定向到App Store、Safari浏览器或其他应用
+Author: Lessica <82flex@gmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/noredirect/icon.png
+Name: No Redirect
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/noredirect/Depiction
+
+Package: com.white.noredirect
+Version: 1.9
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 576
+Depends: firmware (>= 14.0), mobilesubstrate, com.opa334.altlist, com.opa334.libsandy
+Filename: ./debs/noredirect_1.9_iphoneos-arm64.deb
+Size: 53992
+MD5sum: ccbf2da9b49796b2e6dfd505f6bd7a9e
+SHA1: 50658cca1ae8fb22ccc0f103f0bb7c27d8653f9d
+SHA256: 2197c6a85c821e96d835770a78d7ba516833d9f5be3179813eeebebf6e6fbaac
+Section: Tweaks
+Description: 禁止指定应用重定向到App Store、Safari浏览器或其他应用
+Author: Lessica <82flex@gmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/noredirect/icon.png
+Name: No Redirect
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/noredirect/Depiction
+
 Package: com.white.nosimalert
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -8622,10 +8816,10 @@ Maintainer: White <(null)>
 Installed-Size: 984
 Depends: mobilesubstrate
 Filename: ./debs/qfeng_1.0_iphoneos-arm64.deb
-Size: 292038
-MD5sum: a5c32fb629515fb6d4b1ce8445aa5a6d
-SHA1: 14cf695df19f9493665dcfce777ffc42b98bffe2
-SHA256: dd6783c6822725e7329d5ecda904c674db54bd235dd494fbe05660b8b2e060a6
+Size: 292138
+MD5sum: def1bab1ca0d296eb62ad2ac03bfcdfa
+SHA1: d64dc2cdca418b8c100e53e100854228e7c0a64e
+SHA256: d54e82360f4504a5c110d0e8d0101bd3c6c9ac1010792a9845b6804584e89b9b
 Section: NoAds
 Description: 基于2.5.9版本制作，去广告
 Author: White <(null)>
@@ -8640,10 +8834,10 @@ Maintainer: White <(null)>
 Installed-Size: 1448
 Depends: mobilesubstrate
 Filename: ./debs/qfeng_1.0_iphoneos-arm.deb
-Size: 338688
-MD5sum: c94680fa79aa6431d38544c96811c8a1
-SHA1: 7741989093a83ae114532cfbac3bf8aa586bba83
-SHA256: 58638554574442d650462ee97f6bffa2ac800f221cc2383236d4111cd9209750
+Size: 338930
+MD5sum: 407f8a5d5b45175e52291b195ed3d9ee
+SHA1: aaf65f31282ced21efffeae9bfbebc081e12718e
+SHA256: 24b29649bc334737a7cdeb1f6cf8f59c5f8b50c4998cdc7a675c9cda3c9c7168
 Section: NoAds
 Description: 基于2.5.9版本制作，去广告
 Author: White <(null)>
@@ -8742,6 +8936,42 @@ Author: iOSign
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qqmusic/icon.png
 Name: QQ音乐 NoAds
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qqmusic/Depiction
+
+Package: com.white.qqsports
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: White
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/qqsports_1.0_iphoneos-arm64.deb
+Size: 3638
+MD5sum: 20369f829312c886c579f4f1f34bd46c
+SHA1: bc1e3570129919189115c8b93678b9d3bdbe9cf5
+SHA256: 232a309501615a603fcd38722e9bde9bc59505d952890600f09ce4bfed5f56e7
+Section: NoAds
+Description: 基于9.0.8制作，屏蔽QQ运动广告
+Author: White
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
+Name: QQ Sports
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Deports
+
+Package: com.white.qqsports
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: White
+Installed-Size: 200
+Depends: mobilesubstrate
+Filename: ./debs/qqsports_1.0_iphoneos-arm.deb
+Size: 4562
+MD5sum: d2b4c2e31a99ddfdce6c8d43d36eb056
+SHA1: 4faf56ebdd1988d6e5bfb9216864b2343392f0cd
+SHA256: 537512e0afa5fd28ece1a5afefabcdf2f6cc074a3ac5d8a3a4b4c83e89a8d3a9
+Section: NoAds
+Description: 基于9.0.8制作，屏蔽QQ运动广告
+Author: White
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
+Name: QQ Sports
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Deports
 
 Package: com.white.qsyy
 Version: 1.0
@@ -9836,17 +10066,17 @@ Name: 搜狗输入法内购破解
 Package: com.white.sogouinput
 Version: 1.0
 Architecture: iphoneos-arm64
-Maintainer: White <(null)>
-Installed-Size: 1448
-Depends: firmware (>= 10.0), mobilesubstrate
+Maintainer: White
+Installed-Size: 984
+Depends: mobilesubstrate
 Filename: ./debs/sogouinput_1.0_iphoneos-arm64.deb
-Size: 360698
-MD5sum: 39e58e36dd0834ea87e7c34962e7413f
-SHA1: a0c0b878015ba0e1645899b1a50fff2ddf4df15a
-SHA256: 7e2501fa5c388f4babd997acf7bac66cb41aef13b731087a540f12470dbff43d
+Size: 293156
+MD5sum: 8f851f3116f9b31bbe4b3ede46a7abcb
+SHA1: 404e2d19e375baf6b139ca55c0c560bf0851c3d1
+SHA256: c11780c1ad3211ed197c827c5ff1c213ae8939ba33e341cd96a553703b645211
 Section: NoAds
-Description: 基于11.39.3制作，去除启动广告，屏蔽越狱检查以及破解内购。支持TF最新版by: White
-Author: White <(null)>
+Description: 基于11.39.3制作，去广告破解内购，支持TF最新版
+Author: White
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sogouinput/icon.png
 Name: 搜狗输入法 NoAds
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sogouinput/Depiction
@@ -9854,17 +10084,17 @@ Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDe
 Package: com.white.sogouinput
 Version: 1.0
 Architecture: iphoneos-arm
-Maintainer: White <(null)>
+Maintainer: White
 Installed-Size: 1448
-Depends: firmware (>= 10.0), mobilesubstrate
+Depends: mobilesubstrate
 Filename: ./debs/sogouinput_1.0_iphoneos-arm.deb
-Size: 359314
-MD5sum: 27e1174e14bdceb838c1bf2ef612d4ea
-SHA1: d18ce5b96b6e934daba906a6fb58e73e97dd82f5
-SHA256: 1eda02a5fd77ff67435f148d71ddaa8f23b834eafed8542cda77afd7cf7912b7
+Size: 340170
+MD5sum: e57dfb2ac3ca2bcd303ebc4c7e5f974d
+SHA1: d3bb91f495972deb384979155cbe2700450042fc
+SHA256: 9d3ef3996d712ab72d7a70cd00b50549dd18900a7573d6cfc94345e1f1988d57
 Section: NoAds
-Description: 基于11.39.3制作，去除启动广告，屏蔽越狱检查以及破解内购。支持TF最新版by: White
-Author: White <(null)>
+Description: 基于11.39.3制作，去广告破解内购，支持TF最新版
+Author: White
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sogouinput/icon.png
 Name: 搜狗输入法 NoAds
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sogouinput/Depiction
@@ -10525,13 +10755,13 @@ Package: com.white.thunderbeta
 Version: 1.0-5
 Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
-Installed-Size: 1448
+Installed-Size: 1464
 Depends: firmware (>= 10.0), mobilesubstrate
 Filename: ./debs/thunderbeta_1.0-5_iphoneos-arm.deb
-Size: 337118
-MD5sum: 64357473b87a54a9faef1e5fbf68b26f
-SHA1: 5c397b40f7388ada1d63f5b96d12ba41ffcefefe
-SHA256: e5a67a0bfadd49f126ec5ba0f6e63eddfc55e147c5cc13c6e99f421e865f95ff
+Size: 336270
+MD5sum: b64267c79ae11c181c6d6888ae7d79f3
+SHA1: 9d3ab7ead2714a6231d01fea7cdb76fae91512ac
+SHA256: 3f009d302a13f4bbaea0b2d8c094f22f11d445ee65809d8071989aa087f96d95
 Section: NoAds
 Description: 基于迅雷Beta版6.15.1.10127制作，伪装会员优化界面、强制开启播放锚点图
 Author: White <1410970825@qq.com>
@@ -10543,13 +10773,13 @@ Package: com.white.thunderbeta
 Version: 1.0-5
 Architecture: iphoneos-arm64
 Maintainer: White <1410970825@qq.com>
-Installed-Size: 984
+Installed-Size: 1000
 Depends: firmware (>= 10.0), mobilesubstrate
 Filename: ./debs/thunderbeta_1.0-5_iphoneos-arm64.deb
-Size: 289852
-MD5sum: b1ab3768ca9d6d2c4d159d04e109d76c
-SHA1: 0165728c9ce61659227e3f71ce3f67316748ecad
-SHA256: c1c39df4f5e5662508239c1052ebf9bcb843864c3b76e284ca23d7cdf29f8784
+Size: 288558
+MD5sum: 4190ffbb0984a8aed65a9971af099ef6
+SHA1: bd739bacc5ae435e179b12db5367438a2402143a
+SHA256: 08afcc4446a18dae2b8d9d1bc9b7b61f216023076de24f29ecb13cc0a5746e8e
 Section: NoAds
 Description: 基于迅雷Beta版6.15.1.10127制作，伪装会员优化界面、强制开启播放锚点图
 Author: White <1410970825@qq.com>
