@@ -6742,10 +6742,10 @@ Maintainer: White
 Installed-Size: 200
 Depends: mobilesubstrate
 Filename: ./debs/gtgj_1.0-7_iphoneos-arm.deb
-Size: 5522
-MD5sum: fd7f3ee2bcb02e57cc2a25ccfe4246e8
-SHA1: 5ce741ebd685293742223cf8937fedf250e6756f
-SHA256: 3983da52b8334450c7696a28b5172d4744fb569d3812ca4b9ff6dfeb9b4be628
+Size: 5702
+MD5sum: 9338bf9a23ecb6aa75237132bbef8584
+SHA1: bb3243faf220c7ad3b114c6e3b412882ff9cf36c
+SHA256: 6f296a4cb8227a54fbd841e215228e91cfb5b0f6fea777644382b03b691990f1
 Section: NoAds
 Description: 基于8.65.0版本制作，去广告
 Author: White
@@ -6760,10 +6760,10 @@ Maintainer: White
 Installed-Size: 136
 Depends: mobilesubstrate
 Filename: ./debs/gtgj_1.0-7_iphoneos-arm64.deb
-Size: 4354
-MD5sum: baea1c469cf9a81f1a7f25696af540ee
-SHA1: 82e7a7db43cc1b7014b3dcae7ae80c7b3725e15d
-SHA256: c7d2e79de0ce9b0588587a63689d5900c67608be0f0c45964b89ca797e098452
+Size: 4486
+MD5sum: 5cda10ee3af8cab65cbda3fe26798c64
+SHA1: 02af9e391f03617d83de4e9e80ac21b59e98ffdd
+SHA256: 7643276224e0d0ac83ef7c74a69691f6e2713653ca038dffd4d63b43898a8278
 Section: NoAds
 Description: 基于8.65.0版本制作，去广告
 Author: White
@@ -10758,10 +10758,10 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 1464
 Depends: firmware (>= 10.0), mobilesubstrate
 Filename: ./debs/thunderbeta_1.0-5_iphoneos-arm.deb
-Size: 336270
-MD5sum: b64267c79ae11c181c6d6888ae7d79f3
-SHA1: 9d3ab7ead2714a6231d01fea7cdb76fae91512ac
-SHA256: 3f009d302a13f4bbaea0b2d8c094f22f11d445ee65809d8071989aa087f96d95
+Size: 336080
+MD5sum: cb1ade8d943ae48a0ff0ee563c4547e8
+SHA1: a53de6a97e2a2edeb4117ec27c20b9acce0885bb
+SHA256: cfc8e292e03df13f12eef37b32d032910ec62e2837e143878ef62489ae2adb4c
 Section: NoAds
 Description: 基于迅雷Beta版6.15.1.10127制作，伪装会员优化界面、强制开启播放锚点图
 Author: White <1410970825@qq.com>
@@ -10776,10 +10776,10 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 1000
 Depends: firmware (>= 10.0), mobilesubstrate
 Filename: ./debs/thunderbeta_1.0-5_iphoneos-arm64.deb
-Size: 288558
-MD5sum: 4190ffbb0984a8aed65a9971af099ef6
-SHA1: bd739bacc5ae435e179b12db5367438a2402143a
-SHA256: 08afcc4446a18dae2b8d9d1bc9b7b61f216023076de24f29ecb13cc0a5746e8e
+Size: 288154
+MD5sum: ea1808a9d9a53af63658ef3c8e92dea1
+SHA1: eefb29e619e7c91a4322511e36f01941cc9506b9
+SHA256: d8cd5a46e9bbba1a4e87e822bc8d3bf6a7f1909a9cba37bf46ab7b3c42c0c5de
 Section: NoAds
 Description: 基于迅雷Beta版6.15.1.10127制作，伪装会员优化界面、强制开启播放锚点图
 Author: White <1410970825@qq.com>
