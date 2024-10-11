@@ -3133,10 +3133,10 @@ Maintainer: White
 Installed-Size: 1000
 Depends: mobilesubstrate
 Filename: ./debs/bdpan_1.0-7_iphoneos-arm64.deb
-Size: 288584
-MD5sum: 09489f7efb6849f6f5dcd87d12eff68a
-SHA1: 571ccfa4a6aadcb72fbd8983ff70573a12d07001
-SHA256: da680104b1f5cb143bde9aac4af587954c9f4a7f29d381cd06d87f6b1ce9b633
+Size: 288046
+MD5sum: 14db1025eb798f3e11bea45d2a22b589
+SHA1: 8a1230809b373a6f488fb39f0974e8c96c0bd3f7
+SHA256: 603a14a9ed37eb6fe2c37df9fa51bf6c40237cc45d15e9e550d68b51f11c9ce7
 Section: NoAds
 Description: 基于11.14.5制作，去广告精简界面
 Author: White
@@ -3151,10 +3151,10 @@ Maintainer: White
 Installed-Size: 1464
 Depends: mobilesubstrate
 Filename: ./debs/bdpan_1.0-7_iphoneos-arm.deb
-Size: 335536
-MD5sum: 1bd1e103784cfe443251f1b76ef520d3
-SHA1: 30924ef0fe975ea203faf952f171bae5dc1b5c9d
-SHA256: 79b862c3317f632953cf477f6091dba58df06bf17b92b9c3ec0dcd08eda44fc4
+Size: 335526
+MD5sum: 77eeed1433ff99a1ac9c427388c3db7a
+SHA1: 0dedeb4f7eb37f1ccc6381efc4a79e78f3ece7b4
+SHA256: 9f0d24d12ca2235b9c699d4635882d24c5d047932be83f2a72b2c59ae089873e
 Section: NoAds
 Description: 基于11.14.5制作，去广告精简界面
 Author: White
@@ -8813,13 +8813,13 @@ Package: com.white.qeeyou
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: White <(null)>
-Installed-Size: 984
+Installed-Size: 1000
 Depends: mobilesubstrate
 Filename: ./debs/qeeyou_1.0_iphoneos-arm64.deb
-Size: 293218
-MD5sum: d7bedeb27171244c185ab8ccbf058c57
-SHA1: 245f597bf2c986af4d6d499270776a258851b7a0
-SHA256: 680f28c701d7f5e57678d45b03c055b6f70d354146cb5bbf97b496450d7d1a09
+Size: 293204
+MD5sum: 8a8622db542bb8600bc2aa7b57388246
+SHA1: 70b8914c02f8e68cb814159fc62c684fc4391e1e
+SHA256: c9e3b2036ff309f34ad9b6976b22256f39d1b9fece98e194676c0959e5a0b36f
 Section: NoAds
 Description: 基于3.5.3版本制作，去广告
 Author: White <(null)>
@@ -8831,13 +8831,13 @@ Package: com.white.qeeyou
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: White <(null)>
-Installed-Size: 1448
+Installed-Size: 1464
 Depends: mobilesubstrate
 Filename: ./debs/qeeyou_1.0_iphoneos-arm.deb
-Size: 340230
-MD5sum: ae72312b2d2eb8e663b97a17a453692c
-SHA1: bb15e6d2cc07a2d90144020f5a7183fdb42b7d65
-SHA256: 33a9cc9faebe1c4b636c0d9c59312fddd450a45b8fac03205256048514791d4e
+Size: 340582
+MD5sum: 8317c1fdbe0a3ae3a35c98c4b48a359e
+SHA1: 5cc1ee2b2e9a009f31a296b8d638bfff2fa062a7
+SHA256: 8078f4bdf5b5c4b48047b0c8ad5c1685b4f7124df3ae044341aace253ef0e0ed
 Section: NoAds
 Description: 基于3.5.3版本制作，去广告
 Author: White <(null)>
