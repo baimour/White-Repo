@@ -3547,10 +3547,10 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 1528
 Depends: firmware (>= 10.0), mobilesubstrate
 Filename: ./debs/bilibili_1.2.2-2_iphoneos-arm.deb
-Size: 350494
-MD5sum: 1040f7847fecb23bbf4d289bb8d9f851
-SHA1: d8ed31047337de13ce386863d266d94a74461925
-SHA256: 0648d1b5965d10f7f93e3ef7ba0b8870a8fad944d3acb5ec2f818a7bd31c0c81
+Size: 349566
+MD5sum: b7118131ac7327c61ccd90a83f49ea39
+SHA1: 7737fc2763c063f4c7b0c73647bba5a3a2024f46
+SHA256: 2f35b425b97a5d64e77290b5af509c93cbab42207296f6d78acafb926610df7b
 Section: NoAds
 Description: 基于7.65.0制作，其他版本自测
 Author: White <1410970825@qq.com>
@@ -3565,10 +3565,10 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 1032
 Depends: firmware (>= 10.0), mobilesubstrate
 Filename: ./debs/bilibili_1.2.2-2_iphoneos-arm64.deb
-Size: 297704
-MD5sum: da370adbad8b53a84519b3c0272c7b59
-SHA1: e615e2cce8d42e2b301be50d94e7b6cb6a41a938
-SHA256: fdf62eabdf26a6ffe75912f15fd954a4ab4c1447e00b9b5f15b8b3b0b9f752e5
+Size: 297556
+MD5sum: 88c538b4f6a10547512ddf1d16bd8cac
+SHA1: eb19a16524dc1558cbb5ad45acf7fd543b847aa7
+SHA256: 2c14020543b47e39c396d84d350af6e68b826d62dee5da44442b6149a420099b
 Section: NoAds
 Description: 基于7.65.0制作，其他版本自测
 Author: White <1410970825@qq.com>
