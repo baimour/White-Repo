@@ -3547,10 +3547,10 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 1528
 Depends: firmware (>= 10.0), mobilesubstrate
 Filename: ./debs/bilibili_1.2.2-2_iphoneos-arm.deb
-Size: 349566
-MD5sum: b7118131ac7327c61ccd90a83f49ea39
-SHA1: 7737fc2763c063f4c7b0c73647bba5a3a2024f46
-SHA256: 2f35b425b97a5d64e77290b5af509c93cbab42207296f6d78acafb926610df7b
+Size: 349586
+MD5sum: 13e3c66a9f2f002a45d2b567d053b519
+SHA1: 52d07aefccb790e522830f105cdc7d2444bb36e7
+SHA256: daf69ff03a78d0b1eac7ba9f84084d5c7456ce74eae2d38253e1d9a66852df7c
 Section: NoAds
 Description: 基于7.65.0制作，其他版本自测
 Author: White <1410970825@qq.com>
@@ -3565,10 +3565,10 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 1032
 Depends: firmware (>= 10.0), mobilesubstrate
 Filename: ./debs/bilibili_1.2.2-2_iphoneos-arm64.deb
-Size: 297556
-MD5sum: 88c538b4f6a10547512ddf1d16bd8cac
-SHA1: eb19a16524dc1558cbb5ad45acf7fd543b847aa7
-SHA256: 2c14020543b47e39c396d84d350af6e68b826d62dee5da44442b6149a420099b
+Size: 298388
+MD5sum: b2c50af5047bdb0d794e7bee20dc4c78
+SHA1: cb83947ea9f75bd033550469afca8cf117e26f48
+SHA256: 21b8273957e3152f46eae7ccef720232af0a9da868dc8b4e36bdd434fc52c221
 Section: NoAds
 Description: 基于7.65.0制作，其他版本自测
 Author: White <1410970825@qq.com>
@@ -8539,6 +8539,40 @@ Description: 去除键盘延迟，安装即生效。如果没有延迟则不需�
 Tag: purpose::extension, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
 Author: Frozen Penguin
 Name: NoTrackpadDelay
+
+Package: com.white.oledkeyboard
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: dvntm
+Installed-Size: 168
+Depends: firmware (>= 13.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/oledkeyboard_0.0.2_iphoneos-arm64.deb
+Size: 4574
+MD5sum: 69c2d9e967d8e154d23790208295b490
+SHA1: 2a2da915c233827fca7e399e08e67b99357b1a89
+SHA256: bebb4a6d7d0b15f9e197306b8b88ec7e04adcbfe8d7df32d4fd9b9c51f04cd14
+Section: Tweaks
+Description: OLED样式iOS系统键盘
+Author: dvntm
+Name: OledKeyboard
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/oledkeyboard/Depiction
+
+Package: com.white.oledkeyboard
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: dvntm
+Installed-Size: 168
+Depends: firmware (>= 13.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/oledkeyboard_0.0.2_iphoneos-arm.deb
+Size: 4492
+MD5sum: e8440ad0d26b52247b51805d3d42999d
+SHA1: 30f18775acc601162b6c82f149635107c2109925
+SHA256: 14d6bc1ed10bc57d7fa8cb6e8c0b9536ac169651fb635b6a89040bd01401c888
+Section: Tweaks
+Description: OLED样式iOS系统键盘
+Author: dvntm
+Name: OledKeyboard
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/oledkeyboard/Depiction
 
 Package: com.white.onesettings
 Version: 2.0.4
