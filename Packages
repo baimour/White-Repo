@@ -3670,37 +3670,37 @@ Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDe
 Package: com.white.cainiao240628
 Version: 1.0
 Architecture: iphoneos-arm
-Maintainer: White <(null)>
-Installed-Size: 200
+Maintainer: White <(NULL)>
+Installed-Size: 1448
 Depends: mobilesubstrate
 Filename: ./debs/cainiao_1.0_iphoneos-arm.deb
-Size: 15018
-MD5sum: 7c3eb22fac798667a94a210afc72f104
-SHA1: 0a459bd94dc2cbbd3b77b07005fe8c58215da4c9
-SHA256: f02e53ab3cd696a43f512330072f79c54ea59bc678373b866471943bbed87d4d
+Size: 338920
+MD5sum: e2bd3f1b05b7d897a4d744410c49d9ea
+SHA1: ea1353042b836bccd3242edd1bdd2d7f0cc87ddf
+SHA256: b3f13426117066bf7e1f7106692c779c9e2896acfd4bde6f9c72fe5e24714b5f
 Section: NoAds
-Description: 基于8.7.195制作，去广告优化界面
-Author: White <(null)>
+Description: 基于8.7.195制作，去广告
+Author: White <(NULL)>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cainiao/icon.png
-Name: 菜鸟NoAds
+Name: 菜鸟 NoAds
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cainiao/Depiction
 
 Package: com.white.cainiao240628
 Version: 1.0
 Architecture: iphoneos-arm64
-Maintainer: White <(null)>
-Installed-Size: 200
+Maintainer: White <(NULL)>
+Installed-Size: 984
 Depends: mobilesubstrate
 Filename: ./debs/cainiao_1.0_iphoneos-arm64.deb
-Size: 15094
-MD5sum: 8859bfcd52851876a669e4015c28829e
-SHA1: f6ddf3bde10efc09bd6a522d02044e70689ce7e6
-SHA256: 1b06f4ddf9606a9b9058a9719b5eb314b82ee001de43b532fb518b2f9985d371
+Size: 292208
+MD5sum: 2b384aa95fef48ce2a4182ed058c24a7
+SHA1: 4ec189be252e245a5147508897aba92daee01b99
+SHA256: ef0761ad4c90663fc5d8ae4e531533694646b144f125ee1aded5ec29f1f9c104
 Section: NoAds
-Description: 基于8.7.195制作，去广告优化界面
-Author: White <(null)>
+Description: 基于8.7.195制作，去广告
+Author: White <(NULL)>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cainiao/icon.png
-Name: 菜鸟NoAds
+Name: 菜鸟 NoAds
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cainiao/Depiction
 
 Package: com.white.carriercrack-global
@@ -5230,17 +5230,17 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 Package: com.white.douyu
 Version: 1.0-2
 Architecture: iphoneos-arm
-Maintainer: White <1410970825@qq.com>
-Installed-Size: 1716
+Maintainer: White <(NULL)>
+Installed-Size: 1448
 Depends: firmware (>= 9.0), mobilesubstrate
 Filename: ./debs/douyu_1.0-2_iphoneos-arm.deb
-Size: 341088
-MD5sum: f66d60b9a05a07a2c195a2baffc8dc2b
-SHA1: 4bb972e5fa7077e65d129fe376af27c9afb93632
-SHA256: b844dece81b4542e6edc01b316c39c6c66a5cf314a33fb3d1aa30ac0cb062b4d
+Size: 339236
+MD5sum: 92297e15945ef04e7eb9ca4fa497d8d4
+SHA1: e80be9b622b447aa1cf89701870b4c42b2b81b63
+SHA256: e909038ad3ef56d76d7a19717dfb7bc6836cf4ef360658dbb0e4a99ed541acf6
 Section: NoAds
-Description: 基于7.111版本制作，去除启动广告，直播飘窗广告、弹窗广告、首页横幅广告、去除青少年模式、精简我的界面
-Author: White <1410970825@qq.com>
+Description: 基于7.111版本制作，去广告
+Author: White <(NULL)>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/dytv/icon.png
 Name: 斗鱼直播 NoAds
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/dytv/Depiction
@@ -5248,17 +5248,17 @@ Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDe
 Package: com.white.douyu
 Version: 1.0-2
 Architecture: iphoneos-arm64
-Maintainer: White <1410970825@qq.com>
-Installed-Size: 1252
+Maintainer: White <(NULL)>
+Installed-Size: 984
 Depends: firmware (>= 9.0), mobilesubstrate
 Filename: ./debs/douyu_1.0-2_iphoneos-arm64.deb
-Size: 289560
-MD5sum: 86b0651b0dfa29535ef9ef2c7380d8a8
-SHA1: a4b4eacd3185e50f61114dc8b9997bb5bf45720d
-SHA256: c8a2d891f2d4b7014311ea3087b1940d00e2f82b8ce8d8cafbf7977db5bd3817
+Size: 292462
+MD5sum: adacb8fa5b4590a1410e9f64abce9952
+SHA1: 80f56c52ff794878528bba8cf43e62478d6d1b9d
+SHA256: 900347af814ff276b6c6208bfb59c51919b2407ae4bc5444cb8982f0e96096d3
 Section: NoAds
-Description: 基于7.111版本制作，去除启动广告，直播飘窗广告、弹窗广告、首页横幅广告、去除青少年模式、精简我的界面
-Author: White <1410970825@qq.com>
+Description: 基于7.111版本制作，去广告
+Author: White <(NULL)>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/dytv/icon.png
 Name: 斗鱼直播 NoAds
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/dytv/Depiction
@@ -11130,17 +11130,17 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Un
 Name: Uni Dream屏蔽关键词检查
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/UniDream/Depiction2
 
-Package: com.white.unidreambp
+Package: com.white.unidreampb
 Version: 1.0-2
 Architecture: iphoneos-arm
 Maintainer: White <(NULL)>
 Installed-Size: 1448
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: ./debs/unidreambp_1.0-2_iphoneos-arm.deb
-Size: 339656
-MD5sum: 897e58eedf5e1c7df59b1b17013ce400
-SHA1: ac255b91f8bf8061c1b2e14c22f58d07def12089
-SHA256: 562319fcec3318191b2528b3ff170daddb1b721c72b9b8dda19d5d86c4f6bfb7
+Size: 339510
+MD5sum: ac42db677c3946a9f443d440d2f6286f
+SHA1: 9c3085357c3e32ab8e3576a9f0f32b1500e80927
+SHA256: 79c7ad7ba75313bbd9c08d23f80c97d8456ae857e0ddc7c3727978fe8ffc54de
 Section: NoAds
 Description: 基于6.4.2版本制作，屏蔽越狱及关键词检查
 Author: White <(NULL)>
@@ -11148,17 +11148,17 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Un
 Name: Uni Dream屏蔽关键词检查
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/UniDream/Depiction2
 
-Package: com.white.unidreambp
+Package: com.white.unidreampb
 Version: 1.0-2
 Architecture: iphoneos-arm64
 Maintainer: White <(NULL)>
 Installed-Size: 984
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: ./debs/unidreambp_1.0-2_iphoneos-arm64.deb
-Size: 292792
-MD5sum: 21f3d276c1b557630dadba6a1c23fef7
-SHA1: 00873c864d59d1f2762fa75469ad564930e6b5ef
-SHA256: c42bbab1ed09e39b2341ae9ee7d6545b1997b276a40aa4fa21b68f1f20541c9b
+Size: 292690
+MD5sum: f90c833edca6a7b0c2da9fc41cef168d
+SHA1: f7a1d40ba5cbbb7498759b10494e97c157893ed6
+SHA256: fd81fa8496de01b10dad07832c0f4261f90f6b531b8a9214c8f904deb4d84345
 Section: NoAds
 Description: 基于6.4.2版本制作，屏蔽越狱及关键词检查
 Author: White <(NULL)>
@@ -11224,12 +11224,12 @@ Maintainer: White <(null)>
 Installed-Size: 1448
 Depends: mobilesubstrate
 Filename: ./debs/unionpay_1.0_iphoneos-arm.deb
-Size: 339428
-MD5sum: 6565a5ce1c2a27146cdc19c15961d806
-SHA1: 62ca8672c5bf6fee0bedf89708f1af1e5f6d7c53
-SHA256: 8ab384d407270d1556b0d4d31664bb57aeef094463938c7b4881246bdd6e0032
+Size: 339392
+MD5sum: e5ac4b339504000adfb29c76ca77df46
+SHA1: 38b7602a54a0c515cc14b86e98839c64933b28a5
+SHA256: 87554251da44197b32bef1e3b9ea6e18f4b7c5e31ef72ea8568a8bb89819a86a
 Section: NoAds
-Description: 基于9.0.5版本制作，去启动广告精简界面
+Description: 基于9.0.5版本制作，去广告
 Author: White <(null)>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/unionpay/icon.png
 Name: 云闪付 NoAds
@@ -11242,12 +11242,12 @@ Maintainer: White <(null)>
 Installed-Size: 984
 Depends: mobilesubstrate
 Filename: ./debs/unionpay_1.0_iphoneos-arm64.deb
-Size: 292490
-MD5sum: 8108166c3c0b3a54544c65c8ff41d674
-SHA1: 4d414f3f9a1d055b3cdc86f87ccdcd3fdfb7dfc6
-SHA256: 4af956204bc6a795cdefff0955bd5b54186fce3e4a3b31ecf60b2d04f1ebbbf2
+Size: 292466
+MD5sum: a619595bf94dfe49f83a75c484581c86
+SHA1: bc29424dbae19e3c3d8fcd9cbaeab76db8f16104
+SHA256: 2ddd7615d9ef04999942082147444443166974236be4fc707c94efc345398695
 Section: NoAds
-Description: 基于9.0.5版本制作，去启动广告精简界面
+Description: 基于9.0.5版本制作，去广告
 Author: White <(null)>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/unionpay/icon.png
 Name: 云闪付 NoAds
