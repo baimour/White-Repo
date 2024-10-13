@@ -8816,10 +8816,10 @@ Maintainer: White <(null)>
 Installed-Size: 1000
 Depends: mobilesubstrate
 Filename: ./debs/qeeyou_1.0_iphoneos-arm64.deb
-Size: 293204
-MD5sum: 8a8622db542bb8600bc2aa7b57388246
-SHA1: 70b8914c02f8e68cb814159fc62c684fc4391e1e
-SHA256: c9e3b2036ff309f34ad9b6976b22256f39d1b9fece98e194676c0959e5a0b36f
+Size: 293306
+MD5sum: 36fae48075fb699b30038c7320adf438
+SHA1: 75d7281b10cb54459ea78c4c2341bfb3bbf8e8a8
+SHA256: ff055449d88b5985f6bef31c8dc4bca415f2a287847041e3e1522bd3ce80c34f
 Section: NoAds
 Description: 基于3.5.3版本制作，去广告
 Author: White <(null)>
@@ -8834,10 +8834,10 @@ Maintainer: White <(null)>
 Installed-Size: 1464
 Depends: mobilesubstrate
 Filename: ./debs/qeeyou_1.0_iphoneos-arm.deb
-Size: 340582
-MD5sum: 8317c1fdbe0a3ae3a35c98c4b48a359e
-SHA1: 5cc1ee2b2e9a009f31a296b8d638bfff2fa062a7
-SHA256: 8078f4bdf5b5c4b48047b0c8ad5c1685b4f7124df3ae044341aace253ef0e0ed
+Size: 340544
+MD5sum: 8a3d02aefa850c86bde8faa19cc7c2d5
+SHA1: 71730493dfda4d181d76833aab2439b08915e47e
+SHA256: 2567ea1448fb68197d3a5929421aa148aeac3997222d94de638c0dbd5a99002b
 Section: NoAds
 Description: 基于3.5.3版本制作，去广告
 Author: White <(null)>
