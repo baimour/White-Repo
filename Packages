@@ -1772,36 +1772,70 @@ Package: com.white.12306
 Version: 1.0-2
 Architecture: iphoneos-arm64
 Maintainer: White <(NULL)>
-Installed-Size: 72
 Depends: mobilesubstrate
 Filename: ./debs/12306_1.0-2_iphoneos-arm64.deb
-Size: 3432
-MD5sum: c8be11543e3148bffaaad4ab398f8941
-SHA1: e4235bf0efe73474c598e69ef3e50253e9030867
-SHA256: 9113b3291c0dc951b6d4bec822512fe28bda6552ce7f1b2e7500906cd8701255
+Size: 3372
+MD5sum: 209a2642954c86208bf2f55fe04b54f1
+SHA1: 97caab10a05debb8437d77db5930a98096f4deb5
+SHA256: e463770252530a216f717524d457ec7b19be4fb99f3dbe6248d4d280933d3628
 Section: NoAds
-Description: 基于5.8.0制作，去除启动广告及首页顶部横幅，屏蔽部分越狱
+Description: 基于5.8.0制作，去广告
 Author: White <(NULL)>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/12306/icon.png
-Name: 铁路12306屏蔽越狱
+Name: 铁路12306 NoAds
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/12306/Depiction
 
 Package: com.white.12306
 Version: 1.0-2
 Architecture: iphoneos-arm
 Maintainer: White <(NULL)>
-Installed-Size: 72
 Depends: mobilesubstrate
 Filename: ./debs/12306_1.0-2_iphoneos-arm.deb
-Size: 3352
-MD5sum: ca568e2f603556ee394b8540ca0d53c7
-SHA1: 3c453f2a45c24890ac002d3b3d9e8b8189acd2d8
-SHA256: 5d965820e4c30210292dcffbc9cb7d10e74c189a8f9dd5bb49dd88e6c7a97416
+Size: 3368
+MD5sum: 57ba6ae38fa53e916935bf7444e8baee
+SHA1: 82169a295b0f3bc9cf48c0a6971a3de4fbb68ee3
+SHA256: 3ce7779d402bf102b5afb6ab590450ef3565286a51bf774588b66ff8b1d7931b
 Section: NoAds
-Description: 基于5.8.0制作，去除启动广告及首页顶部横幅，屏蔽部分越狱
+Description: 基于5.8.0制作，去广告
 Author: White <(NULL)>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/12306/icon.png
-Name: 铁路12306屏蔽越狱
+Name: 铁路12306 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/12306/Depiction
+
+Package: com.white.12306
+Version: 1.0-7
+Architecture: iphoneos-arm64
+Maintainer: White <(NULL)>
+Installed-Size: 984
+Depends: mobilesubstrate
+Filename: ./debs/12306_1.0-7_iphoneos-arm64.deb
+Size: 292956
+MD5sum: 1b1030071dbe0f31f29daa11a61f7fa5
+SHA1: 03952bd9e2ac438ce39c25bbf06aedbf23f4c065
+SHA256: 49ccee05123f6ad882229be4de4c105d7066a1f570cb7bfd0e3eea3f0cebf616
+Section: NoAds
+Description: 基于5.8.0制作，去广告
+Author: White <(NULL)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/12306/icon.png
+Name: 铁路12306 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/12306/Depiction
+
+Package: com.white.12306
+Version: 1.0-7
+Architecture: iphoneos-arm
+Maintainer: White <(NULL)>
+Installed-Size: 1448
+Depends: mobilesubstrate
+Filename: ./debs/12306_1.0-7_iphoneos-arm.deb
+Size: 339926
+MD5sum: 17d22cbbb0da306375356c31f8c6c9bb
+SHA1: 4e76258ffcf9cf67459255492eec2724a41ef09b
+SHA256: e63e6c058e249325eeba0ea02d8c8aa0c9e417db5beb0b38891bcf03751b2472
+Section: NoAds
+Description: 基于5.8.0制作，去广告
+Author: White <(NULL)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/12306/icon.png
+Name: 铁路12306 NoAds
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/12306/Depiction
 
 Package: com.white.123pan
@@ -11096,33 +11130,16 @@ Author: haoerloveyou <haoerloveyou@gmail.com>
 Name: FixUnicom 6S 6SP iOS9
 Sponsor: haoerloveyou <haoerloveyou@gmail.com>
 
-Package: com.white.unidreambp
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: White <(NULL)>
-Depends: firmware (>= 11.0), mobilesubstrate
-Filename: ./debs/unidreambp_1.0_iphoneos-arm64.deb
-Size: 5332
-MD5sum: 21497a5125d8de7574f77fae8d998845
-SHA1: b3885310dc2535e6a5bf145ca9fe89d267314de0
-SHA256: 3e455fdc5022142b8c16bd8204b52cc4f4052d2d77a36ca2b356afe0cb3bc61b
-Section: NoAds
-Description: 屏蔽越狱和关键词检查
-Author: White <(NULL)>
-Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/UniDream/icon.png
-Name: Uni Dream屏蔽关键词检查
-Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/UniDream/Depiction2
-
-Package: com.white.unidreambp
+Package: com.white.unidreampb
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: White <(NULL)>
 Depends: firmware (>= 11.0), mobilesubstrate
-Filename: ./debs/unidreambp_1.0_iphoneos-arm.deb
-Size: 5704
-MD5sum: 314e5dcdc2055a334dc70b8a29430202
-SHA1: ff3a14cc39676a1470f5c07d7c5e53dba6c72031
-SHA256: 51d46138aae84391acbcfe00580821ee01ba12ee5494dcfb330e1962702361a8
+Filename: ./debs/unidreampb_1.0_iphoneos-arm.deb
+Size: 5708
+MD5sum: c7b7d2b24290de34e8d65e67b5209700
+SHA1: fe93d7a65b4a9fb4e699a1185b4e971ea782988d
+SHA256: fea3b057e196e7d06db7952f46290a8f50691dd8aec7df866f834fbf78ab24e1
 Section: NoAds
 Description: 屏蔽越狱和关键词检查
 Author: White <(NULL)>
@@ -11131,18 +11148,17 @@ Name: Uni Dream屏蔽关键词检查
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/UniDream/Depiction2
 
 Package: com.white.unidreampb
-Version: 1.0-2
-Architecture: iphoneos-arm
+Version: 1.0
+Architecture: iphoneos-arm64
 Maintainer: White <(NULL)>
-Installed-Size: 1448
 Depends: firmware (>= 11.0), mobilesubstrate
-Filename: ./debs/unidreambp_1.0-2_iphoneos-arm.deb
-Size: 339510
-MD5sum: ac42db677c3946a9f443d440d2f6286f
-SHA1: 9c3085357c3e32ab8e3576a9f0f32b1500e80927
-SHA256: 79c7ad7ba75313bbd9c08d23f80c97d8456ae857e0ddc7c3727978fe8ffc54de
+Filename: ./debs/unidreampb_1.0_iphoneos-arm64.deb
+Size: 5348
+MD5sum: 6020bf675b649bb981610806e4e49750
+SHA1: e552ab5e4e084de289d07da2fa9280478f55b8c9
+SHA256: 4014528ed1ccfaf804e77e21664ffe22a3c3ab71bab6f567dbf7d2bb4a0fb467
 Section: NoAds
-Description: 基于6.4.2版本制作，屏蔽越狱及关键词检查
+Description: 屏蔽越狱和关键词检查
 Author: White <(NULL)>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/UniDream/icon.png
 Name: Uni Dream屏蔽关键词检查
@@ -11154,11 +11170,29 @@ Architecture: iphoneos-arm64
 Maintainer: White <(NULL)>
 Installed-Size: 984
 Depends: firmware (>= 11.0), mobilesubstrate
-Filename: ./debs/unidreambp_1.0-2_iphoneos-arm64.deb
-Size: 292690
-MD5sum: f90c833edca6a7b0c2da9fc41cef168d
-SHA1: f7a1d40ba5cbbb7498759b10494e97c157893ed6
-SHA256: fd81fa8496de01b10dad07832c0f4261f90f6b531b8a9214c8f904deb4d84345
+Filename: ./debs/unidreampb_1.0-2_iphoneos-arm64.deb
+Size: 292836
+MD5sum: 89bbcc91be2370b1f9bf1fff5aa4bc51
+SHA1: 349461e354fb4a992b2ee40a01ba421862cb2cb6
+SHA256: 159556dc439d7d2f8742068e53b5b52a6a227a7d4f452b20d0f000fbab4480b0
+Section: NoAds
+Description: 基于6.4.2版本制作，屏蔽越狱及关键词检查
+Author: White <(NULL)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/UniDream/icon.png
+Name: Uni Dream屏蔽关键词检查
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/UniDream/Depiction2
+
+Package: com.white.unidreampb
+Version: 1.0-2
+Architecture: iphoneos-arm
+Maintainer: White <(NULL)>
+Installed-Size: 1448
+Depends: firmware (>= 11.0), mobilesubstrate
+Filename: ./debs/unidreampb_1.0-2_iphoneos-arm.deb
+Size: 339600
+MD5sum: 7092c4cbc4b2c30081fae657b8031d41
+SHA1: e0853b726fe9031a89b611733dc7858e03eddfcc
+SHA256: c81a769ba96bbf4c0d7ec36a325711ea234a69e111c9e38b0babcdf1000de67b
 Section: NoAds
 Description: 基于6.4.2版本制作，屏蔽越狱及关键词检查
 Author: White <(NULL)>
