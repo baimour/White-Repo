@@ -7069,11 +7069,11 @@ Maintainer: iGameGod
 Installed-Size: 200952
 Depends: mobilesubstrate (>= 0.9.5000), ldid, odcctools
 Filename: ./debs/igg_0.4.3_iphoneos-arm.deb
-Size: 51787396
-MD5sum: 6165e32c13aeba3bbe610da34f6f3719
-SHA1: 4c02a8445b744b823eaaa1b211543c96f807aa21
-SHA256: 9019ea413a168e9b2867194e0fca7dd702df93140be0be21768e4337174841c9
-Section: Utilities
+Size: 52133064
+MD5sum: aebbdc846f55a831383a0f52d20c217c
+SHA1: 064361e39d0c9cf39c76af5d31d86926edbf79ee
+SHA256: b10ee1b1b54db49393641327b895d41f3b29a661a448e8df84b5b1fe7d300b8e
+Section: 修改器
 Description: 成为游戏之神
 Author: iGameGod
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/igg/icon.png
@@ -7087,15 +7087,15 @@ Maintainer: iGameGod
 Installed-Size: 203320
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/igg_0.4.4_iphoneos-arm64.deb
-Size: 52424548
-MD5sum: 9815661209d0487f66994ad7024415af
-SHA1: c1e7236a9cd51611a83c28069ed29bd3740cfe41
-SHA256: 7a82c6e874056a882285c5f25872ac0912b3dd39498f4c9614848bbdfafc6a3c
-Section: Utilities
+Size: 52426312
+MD5sum: 9662698365614668e1751d4b52c963fa
+SHA1: 1d8e18f847e59ce080c24c0f3fd32bd35f7a3600
+SHA256: d6a6735be44972b150d099b116bab2edc5860151d6d5e03388ae41c742a6fe74
+Section: 修改器
 Description: 成为游戏之神！
 Author: iGameGod
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/igg/icon.png
-Name: iGameGod Rootless
+Name: iGameGod
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/igg/Depiction
 
 Package: com.white.installer
