@@ -5354,12 +5354,52 @@ Maintainer: Nets
 Installed-Size: 4324
 Depends: firmware (>= 15.0), mobilesubstrate
 Filename: ./debs/dumpdecrypter_1.4-4_iphoneos-arm64.deb
-Size: 1295096
-MD5sum: bb8884e6a5f0f958a3c15d8d4e0fc75d
-SHA1: cc10be183822fa15a71137e493b4f2754695b1bc
-SHA256: 160741357c45089f033338e5ca4d5f1453d3b72c6c7108d8e156574da850c5f6
+Size: 1293480
+MD5sum: 14ef1fd3045c184bdd1dbcd01bdd8107
+SHA1: 9ea3afa2bcfc0c49bcb6704e710ed0c898f54efc
+SHA256: f49e2960b6c55ea959eddd7114cbe5604f3c035e174ba5f845a94d0c16c20b1b
 Section: Utilities
-Description: Decrypt iOS Apps and Plugins
+Description: 解密iOS应用和小组件
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/DumpDecrypter/icon.png
+Name: DumpDecrypter
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/DumpDecrypter/Depiction
+
+Package: com.white.dumpdecrypter
+Version: 1.4-8
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 896
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.netskao.dumpdecrypter
+Replaces: com.netskao.dumpdecrypter
+Filename: ./debs/dumpdecrypter_1.4-8_iphoneos-arm64.deb
+Size: 376860
+MD5sum: 638a62187f9fc25844f7f6a8bb98cf7e
+SHA1: 0c4bae7e1ed44d0137fe1bbbf5cbbff04cd7d085
+SHA256: a5af5349aa9fc723377eea66e16ecf2887d4e17a55e73c391fa997c4f316138d
+Section: Utilities
+Description: 解密iOS应用和小组件，支持iOS15+，仅测试iOS16.1
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/DumpDecrypter/icon.png
+Name: DumpDecrypter
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/DumpDecrypter/Depiction
+
+Package: com.white.dumpdecrypter
+Version: 1.4-9
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 912
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.netskao.dumpdecrypter
+Replaces: com.netskao.dumpdecrypter
+Filename: ./debs/dumpdecrypter_1.4-9_iphoneos-arm64.deb
+Size: 376120
+MD5sum: cf91f0c20e4a9c6fe68581b92f483bf4
+SHA1: db0f0de19bd1e93da0f60ff278b9103296fe6952
+SHA256: 372ff65e8f567afbb5f112ddb2f600916ab1d75190cdfe3c22f08ec147787cd8
+Section: Utilities
+Description: 解密iOS应用和小组件，支持iOS15+，仅测试iOS16.1
 Author: Netskao
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/DumpDecrypter/icon.png
 Name: DumpDecrypter
@@ -8315,6 +8355,24 @@ Name: NewTerm 3 Beta
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/newterm/Depiction2
 Support: https://hashbang.productions/support/
 
+Package: com.white.noappthinning
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: ned
+Installed-Size: 168
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/noappthinning_1.2_iphoneos-arm64.deb
+Size: 3768
+MD5sum: 837650fecf9e2d0b01b5cfccb4472c7d
+SHA1: dd4991e88c75dac91ce997be2f3f9b5c4bd7e920
+SHA256: a9657adb18b660cce40a4a4826a7f53667323f9872b060fc309959c04e25a752
+Section: Tweaks
+Description: 允许AppStore/TestFlight下载全量包应用，作者：level3tjg
+Author: ned
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/noappthinning/icon.png
+Name: NoAppThinning
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/noappthinning/Depiction
+
 Package: com.white.nobetaalert
 Version: 1.4.3
 Architecture: iphoneos-arm
@@ -10891,6 +10949,42 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/th
 Name: 迅雷Beta NoAds
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/thunderbeta/Depiction
 
+Package: com.white.thunderbeta
+Version: 1.0-7
+Architecture: iphoneos-arm64
+Maintainer: White <(NULL)>
+Installed-Size: 1000
+Depends: firmware (>= 10.0), mobilesubstrate
+Filename: ./debs/thunderbeta_1.0-7_iphoneos-arm64.deb
+Size: 288892
+MD5sum: fb650ace752294ed3622bb6863111158
+SHA1: 0e4bc3a64aff0dd3c4522940e0a18a31dd9113fe
+SHA256: b93341e0a70d7f74dddc5e60912ab229afaa677b40bce2018e6dfff734ee57c2
+Section: NoAds
+Description: 基于迅雷Beta版6.15.1.10127制作，伪装会员优化界面、强制开启播放锚点图
+Author: White <(NULL)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/thunderbeta/icon.png
+Name: 迅雷Beta NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/thunderbeta/Depiction
+
+Package: com.white.thunderbeta
+Version: 1.0-7
+Architecture: iphoneos-arm
+Maintainer: White <(NULL)>
+Installed-Size: 1464
+Depends: firmware (>= 10.0), mobilesubstrate
+Filename: ./debs/thunderbeta_1.0-7_iphoneos-arm.deb
+Size: 337046
+MD5sum: 1c635124371c7343d0663fc55903e6ba
+SHA1: dac77aa050acf84f69591cb10d9609bbd1a9178c
+SHA256: 3164606146eb332969406bf05366ec59d1fa7e3b730b7f09c4bdd6d1dbccbcbd
+Section: NoAds
+Description: 基于迅雷Beta版6.15.1.10127制作，伪装会员优化界面、强制开启播放锚点图
+Author: White <(NULL)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/thunderbeta/icon.png
+Name: 迅雷Beta NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/thunderbeta/Depiction
+
 Package: com.white.thunderhelper
 Version: 1.5.1
 Architecture: iphoneos-arm
@@ -12876,6 +12970,42 @@ SHA1: 9e65f96688e78b1f0e77e8b2a5fe1f2dd826a1b9
 SHA256: dfc150720dbef3399188011142c6f33b5e4aa17cfa90175f39e183109926d859
 Section: Tweaks
 Description: 桌面图标上滑或下滑或3D长按菜单选择即可唤出图标应用数据快捷工具，此版本由站长完整汉化并修改优化。修改优化:增加简单版降级应用，增加可选向下滑动唤出，增加查看应用加密状态，增加面板可选去除面板分割线，增加长按面板图标以安全模式启动，修改原版卸载应用为真实卸载不保留数据，修改原版清除缓存后未同步刷新总数据显示问题，修复原版更多信息页面长按复制的信息错误问题，修改原版重置数据为包括重置程序组内文件夹数据，修改原版重置数据栏数据大小显示为包括程序组内文件夹数据，修改原版重置数据后未同步刷新缓存数据显示和权限个数显示问题，修改原版在非AppStore中下载的应用唤出时无法使用重置数据/重置权限/卸载应用(修改后仅在系统应用上禁止)
+Author: Fouad Raheb
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/appdata/icon.png
+Name: AppData
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/appdata/Depiction
+
+Package: netskao.appdata
+Version: 1.4.3
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 12532
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/appdata_1.4.3_iphoneos-arm64.deb
+Size: 4625968
+MD5sum: 203de7a4f29d287ba75c5c3fd4f35c06
+SHA1: 99e6ab49cc39cf36e7b0980a7588b9602423932a
+SHA256: 110ffea4a48c07bde5e31898e41c6b52da653c53395ae8540f7e4d7497d82328
+Section: Netskao-Tweaks
+Description: 从桌面查看和管理应用数据
+Author: Fouad Raheb
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/appdata/icon.png
+Name: AppData
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/appdata/Depiction
+
+Package: netskao.appdata
+Version: 1.4.4
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 13548
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/appdata_1.4.4_iphoneos-arm64.deb
+Size: 5049436
+MD5sum: 47534ba17dc959d05d175d5bdd362ae0
+SHA1: 0362db346e924efeda2e1f7ab0bac15d260f19fd
+SHA256: cfa42c155c0db02cddd46edd64599b5404a8ffd7b5a7b549d7f26a945cef05c4
+Section: Tweaks
+Description: 从桌面查看和管理应用数据
 Author: Fouad Raheb
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/appdata/icon.png
 Name: AppData
