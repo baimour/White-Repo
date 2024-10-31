@@ -117,6 +117,24 @@ Name: Respring Assistant
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/respringassistant/Depiction
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: cn.white.zfbb
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: ./debs/zfbb_1.3_iphoneos-arm64.deb
+Size: 18564
+MD5sum: b83790a378b2d67ff95a3750e7fa3b30
+SHA1: 765f82b6ac6ca7763fdb20f22a743c23c94f4322
+SHA256: 972e2ed1681b5e4c59318df5c312c1393243156917ddb5a16e4fd439540d5d01
+Section: NoAds
+Description: 可注入可越狱使用，自定义步数，屏蔽越狱检测(代码半年没动了)，精简主页显示内容。长按底栏1秒控件或森林、运动顶栏或任意右上角控件顶部，弹出设置，支持任意版本。0303:增加移除理财。自行设置里关了视频，底部就居中了（不建议用这功能）
+Author: 来了老弟
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/alipay/icon.png
+Name: 支付宝步数XD
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/zfbb/Depiction
+
 Package: com.3dmenu.cheatpatch
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -4634,6 +4652,24 @@ Section: Tweaks
 Description: Crane可以让你的每个应用程序拥有多个容器！
 Author: opa334
 Depiction: https://mrepo.org/depiction/5580
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/crane/icon.png
+Name: Crane
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/crane/Depiction
+
+Package: com.white.crane
+Version: 1.3.14-6
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.5), com.opa334.libsandy, com.opa334.libundirect (>= 1.1.4) | firmware (<< 14.0)
+Conflicts: com.opa334.cranelite, com.opa334.crane13lite, com.opa334.crane13, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices, com.opa334.crane
+Filename: ./debs/crane_1.3.14-6_iphoneos-arm64.deb
+Size: 576164
+MD5sum: 3df7b43182584b7d0cacaf2961633fd5
+SHA1: 3515b4b6489a47f6692b2e08cd4c0ece55a7f448
+SHA256: 6b1ac5097baa1ea610be16b8bf045a3cf5221279ed1c94e7b39ac5dad2d5a2cd
+Section: Tweaks
+Description: 为应用程序提供多个容器，账号多开神器
+Author: opa334
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/crane/icon.png
 Name: Crane
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/crane/Depiction
@@ -12217,15 +12253,16 @@ Depends: mobilesubstrate
 Conflicts: cn.llld.zfbb
 Replaces: cn.llld.zfbb
 Filename: ./debs/zfbb_1.2_iphoneos-arm64.deb
-Size: 18368
-MD5sum: b338215c6bb07d9d6764a5df0cd1178d
-SHA1: ccc436d2d4b2dda509ab52fb08b53579f85ccbf2
-SHA256: 5c5cf3466282f1fc6f516462748ae5815448c398d8637ee61ae88ac8118d3990
+Size: 18488
+MD5sum: 0daf2efdd63e6d4a15d3e5213b9c96c8
+SHA1: 915d0d352b1fffbd14f9f42bb00d64556c068e16
+SHA256: cc884d2b1204f44d963a60498581f046102280406d4e877ba5c706b37ff02f1a
 Section: NoAds
 Description: 支付宝自定义步数，屏蔽越狱检测(代码半年没动了)，精简主页显示内容。长按底栏1秒控件或森林、运动顶栏或任意右上角控件顶部，弹出设置。支持任意版本，0303:增加移除理财，设置里关了视频，底部就居中了
 Author: 来了老弟
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/alipay/icon.png
 Name: 支付宝步数XD
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/zfbb/Depiction
 
 Package: cydia.installer
 Version: 1.1.36-3
