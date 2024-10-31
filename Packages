@@ -1281,6 +1281,24 @@ Author: MTAC
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ampere/icon.png
 Name: Ampere
 
+Package: com.netskao.awemeclearlikes
+Version: 1.1-2
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 88
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.netskao.awemeclearlikes_1.1-2_iphoneos-arm64.deb
+Size: 19884
+MD5sum: 6d86dfab0fc45a9c2ac528700d4568c0
+SHA1: 718de7cc593becbb5dd71b391d1b87bef737a635
+SHA256: b97943161027c88b0cba972f6a46fe1dde9ccbd367dc8335108e4c7224f55c57
+Section: NoAds
+Description: 抖音清除所有喜欢，在我最喜欢的页面上摇动它开始！
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemedownloadmedia/icon.png
+Name: 抖音清除喜欢
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemeclearlikes/Depiction
+
 Package: com.netskao.awemedisablebar
 Version: 1.1-2
 Architecture: iphoneos-arm64
@@ -1312,6 +1330,24 @@ SHA1: 2862a96d6e78eafd373d0f618a8ec8083042b068
 SHA256: 75b44bd880e8270eeedc4c16e8532fa47c29cc097f2e13a83ebf35796462760f
 Section: NoAds
 Description: 抖音禁用顶部/底部选项卡按钮，仅在30.3.0及更高版本上进行测试
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemedownloadmedia/icon.png
+Name: 抖音禁用按钮
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemedisablebar/Depiction
+
+Package: com.netskao.awemedisablebar
+Version: 1.1-4
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 204
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.netskao.awemedisablebar_1.1-4_iphoneos-arm64.deb
+Size: 65268
+MD5sum: b9f6fe09bcaf89f2947f2e602b931c5b
+SHA1: d4d26855959998fbf3fc71a57869c18ff4e132d3
+SHA256: 8fed1dc20712f3c67d738491e930cf7f8dc364fed1fada2be8a7f8ea41f65060
+Section: NoAds
+Description: 抖音禁用顶部/底部/右选项卡按钮，仅在30.3.0及更高版本上进行测试
 Author: Netskao
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemedownloadmedia/icon.png
 Name: 抖音禁用按钮
@@ -1371,6 +1407,24 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/aw
 Name: 抖音下载媒体
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemedownloadmedia/Depiction
 
+Package: com.netskao.awemedownloadmedia
+Version: 1.1-8
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 456
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.netskao.awemedownloadmedia_1.1-8_iphoneos-arm64.deb
+Size: 146696
+MD5sum: 5aebf933023619c16f1b32ae3fd14b8d
+SHA1: d5f53d85ae9f05af618c6e7dea2bc528146e01a6
+SHA256: 2377f01c30fb3e0a6dde7c54d40879de4b3eeba32c259a3cfa07f6008e1e64e8
+Section: NoAds
+Description: 抖音无水印下载媒体，仅在31.7.0及更高版本上进行测试
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemedownloadmedia/icon.png
+Name: 抖音下载媒体
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemedownloadmedia/Depiction
+
 Package: com.netskao.awemefullscreen
 Version: 1.1-8
 Architecture: iphoneos-arm64
@@ -1400,6 +1454,24 @@ Size: 28380
 MD5sum: 7db71a1dfc201b4f80f1d8a2f123f548
 SHA1: e446f33c68b1207fea9c4789037e2c5b19c68280
 SHA256: 556734942e72bfe175f8277537370fc251924455f075158d2230ff54aa94b509
+Section: NoAds
+Description: 抖音视频显示时间，仅在30.3.0及更高版本上进行测试
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemedownloadmedia/icon.png
+Name: 抖音视频时间
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemevideotime/Depiction
+
+Package: com.netskao.awemevideotime
+Version: 1.1-2
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 124
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.netskao.awemevideotime_1.1-2_iphoneos-arm64.deb
+Size: 31704
+MD5sum: 438f6730f44235589c74dea89f446f84
+SHA1: d17324fbd0c21f3d7eeb0684739a6b0c431be1ba
+SHA256: f5a8b7dfed5b73e3d791bd9a6c7a8302b60c0afc1dc4a5472a2b21cb75da91f5
 Section: NoAds
 Description: 抖音视频显示时间，仅在30.3.0及更高版本上进行测试
 Author: Netskao
