@@ -7737,18 +7737,18 @@ Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.libsa
 Conflicts: com.skypain.kayoko, dev.traurige.kayoko, codes.aurora.kayoko
 Replaces: com.skypain.kayoko
 Filename: ./debs/kayoko_2.0.1-1_iphoneos-arm64.deb
-Size: 115536
-MD5sum: 6fd9447431d9b436e40df986175ea910
-SHA1: e65696246e1b88d31dc686406e1665d6921d5ad1
-SHA256: 300d72a4a31e982fac2124304de7a9c56eb6c3d6f71cf943041e3f5ccc8f53ec
+Size: 115420
+MD5sum: 7680352a1ec61d7395a24f7dfba5e8cf
+SHA1: c5a61e1eebb4c586d46a49024c2ff768f4aa6f9c
+SHA256: b6b4e2f5015c6f2dab6dc3b85b5d1bc467a92fe9b53c9c610cd47532571bb55b
 Section: Tweaks
 Homepage: https://skypain.github.io/repo/
 Description: Kayoko Modified 基于Traurige和Lessica的开源项目 支持Rootless和Roothide
 Author: Traurige&Lessica
 Depiction: https://skypain.github.io/repo/static/view/?p=kayoko
-Icon: https://skypain.github.io/repo/src/kayoko/Icon.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/kayoko/icon.png
 Name: Kayoko Modified
-Sileodepiction: https://skypain.github.io/repo/src/kayoko/config/sileo/depiction.json
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/kayoko/Depiction
 
 Package: com.white.kayoko
 Version: 2.0.3.1
@@ -7756,15 +7756,17 @@ Architecture: iphoneos-arm
 Maintainer: 妖刀
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
 Conflicts: dev.traurige.kayoko, codes.aurora.kayoko, com.skypain.kayoko, com.hk.kayoko.cn.rl, com.hk.kayoko.cn, com.daodao.kayoko, com.daodao.82.kayoko, com.hk.traurige.kayoko, com.hk.kayoko, xyz.cypwn.kayoko, zp.codes.aurora.kayoko
-Filename: ./debs/kayoko_2.0.3.1.deb
-Size: 89612
-MD5sum: d174e6b73284de15c537dc8b66e5f6bb
-SHA1: fe46511081d63197830b6e9971322a73400dc9e6
-SHA256: cf708556c42da5d13105c36ec81b0fa45b206a1b731fd442a8abe1dd9e0664e6
+Filename: ./debs/kayoko_2.0.3.1_iphoneos-arm.deb
+Size: 80140
+MD5sum: fa399d2ff476c418b854b43ecf918727
+SHA1: 20aa402ec061031e9b5a1acdfe34f7036284cd92
+SHA256: 4d912ed0da56827b46032269d1739e2acdb9c1bc6378c7763ffd3dacf5ef2063
 Section: Tweaks
 Description: 剪切板插件，直接替代听写键。基于原作者重构的2.0源码制作，和之前1.x版稍微有点小变化，只是微改(完善中文翻译，调低了剪切板高度，iOS15替换了"听写键/地球"图标，收藏的心图标换成星图标，优化多语言的支持)，基本保持了原滋原味。v2.0.3+的版本，不兼容之前的v2.0.2及以下版本的剪切板数据，请清空历史和收藏再使用v2.0.3+
 Author: Alexandra Aurora Göttlicher
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/kayoko/icon.png
 Name: Kayoko
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/kayoko/Depiction
 
 Package: com.white.kayoko
 Version: 2.7
@@ -7773,10 +7775,10 @@ Maintainer: Lessica <82flex@gmail.com>
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
 Conflicts: dev.traurige.kayoko, codes.aurora.kayoko, com.daodao.kayoko
 Filename: ./debs/kayoko_2.7_iphoneos-arm64.deb
-Size: 123944
-MD5sum: 2ef4d84e6f224a59f73ee6fab6b02e09
-SHA1: 8105b6a0adb71dcbc75332b056d30070f58cec22
-SHA256: 41cc9403a392db5a1fb1180c9c1563ddfa7f8d8c1dce27dac727af6006af08b5
+Size: 123764
+MD5sum: 662b9240785a7ab4fe582ccb86cb4e84
+SHA1: 68651d37c28bdf3867ee31e1074f7666c80ce383
+SHA256: d66bc90dfe4c69e57ef8a33259a3a170a4b0632a8602d2f9d1edc56dc97e3952
 Section: Tweaks
 Description: 由乌龙工作室更新，更多优化增强，新增支持iOS16
 Author: Alexandra Aurora Göttlicher
@@ -8726,14 +8728,14 @@ Maintainer: ned
 Installed-Size: 168
 Depends: firmware (>= 15.0), mobilesubstrate
 Filename: ./debs/noappthinning_1.2_iphoneos-arm64.deb
-Size: 3768
-MD5sum: 837650fecf9e2d0b01b5cfccb4472c7d
-SHA1: dd4991e88c75dac91ce997be2f3f9b5c4bd7e920
-SHA256: a9657adb18b660cce40a4a4826a7f53667323f9872b060fc309959c04e25a752
+Size: 3764
+MD5sum: c246c145842c77e07c2f649ab4a1ed15
+SHA1: 511e5cde4c7f1014ef93828ea9a30f51e7f6a29e
+SHA256: 75b476d756cba9850c362f3d478a15f38143a3910bed33657ce729620008d370
 Section: Tweaks
 Description: 允许AppStore/TestFlight下载全量包应用，作者：level3tjg
 Author: ned
-Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/noappthinning/icon.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/appstore/icon.png
 Name: NoAppThinning
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/noappthinning/Depiction
 
@@ -8744,14 +8746,14 @@ Maintainer: ned
 Installed-Size: 136
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: ./debs/noappthinning_1.3_iphoneos-arm.deb
-Size: 4232
-MD5sum: 7e349e22ae8d7781b5150284de53f477
-SHA1: 1a6c6391ba35e93d97b3610f04740e308e9b830c
-SHA256: 05c2bdfbc46468da1611f74703756ae9db7d0ed2d185b74aa60982d88ba84c6b
+Size: 4316
+MD5sum: c9df98935b3f2454e1210abc5e9c1410
+SHA1: a081066369b5126a7b24bb33c58fc1dc617ca6a1
+SHA256: 1d4609e08eeb2243e4177ee69a9729d99c5cf705b62c22fbaa1958d49a5cfe82
 Section: Tweaks
 Description: 允许AppStore/TestFlight下载全量包应用，作者：level3tjg
 Author: ned
-Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/noappthinning/icon.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/appstore/icon.png
 Name: NoAppThinning
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/noappthinning/Depiction
 
@@ -8762,14 +8764,14 @@ Maintainer: ned
 Installed-Size: 136
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: ./debs/noappthinning_1.3_iphoneos-arm64.deb
-Size: 4312
-MD5sum: 67f4ca2c8db43afe98bcfa32a7e35423
-SHA1: 1fc3c6ca2a75bf1732d2561a5e5f86372afd1a46
-SHA256: 2a64430e3dc16581753b2029a285908733433d59e9a878fb95bd13dae87ca030
+Size: 4400
+MD5sum: 6353033ca5a65b65469786e768e9c837
+SHA1: fa354283ded898e21174e1835a1d522b683e407a
+SHA256: 32f3b7834b5a6f14e6a2fba5067c4f5c9883686e9271d74461cb1995ece120f0
 Section: Tweaks
 Description: 允许AppStore/TestFlight下载全量包应用，作者：level3tjg
 Author: ned
-Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/noappthinning/icon.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/appstore/icon.png
 Name: NoAppThinning
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/noappthinning/Depiction
 
