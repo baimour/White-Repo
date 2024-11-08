@@ -8956,6 +8956,42 @@ Author: iBreak <ibreak2019@qq.com>
 Name: No Quick Bar
 
 Package: com.white.noredirect
+Version: 1.10
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 580
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.libsandy
+Filename: ./debs/noredirect_1.10_iphoneos-arm64.deb
+Size: 60842
+MD5sum: c1ceed4ff1c30b14af47623ef47cf61d
+SHA1: 03a6cbec4892546b0aeab9d9bd43cc04ee3754f1
+SHA256: 3acdb715b59c208fcd5f0d78164100bf389517acbc66418d16fcd0c5862f711e
+Section: Tweaks
+Description: 禁止指定应用重定向到App Store、Safari浏览器或其他应用
+Author: Lessica <82flex@gmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/noredirect/icon.png
+Name: No Redirect
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/noredirect/Depiction
+
+Package: com.white.noredirect
+Version: 1.10
+Architecture: iphoneos-arm
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 580
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.libsandy
+Filename: ./debs/noredirect_1.10_iphoneos-arm.deb
+Size: 60986
+MD5sum: 53c44a2fd7225f47fe631422902ca7e9
+SHA1: 607bd4d9ca48a9a8d270f22447d00628401c8655
+SHA256: 624b6bdd883ff9388aeabc669e8cf321f8eb65eb15cb13cd3e116821de2bb2ff
+Section: Tweaks
+Description: 禁止指定应用重定向到App Store、Safari浏览器或其他应用
+Author: Lessica <82flex@gmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/noredirect/icon.png
+Name: No Redirect
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/noredirect/Depiction
+
+Package: com.white.noredirect
 Version: 1.3
 Architecture: iphoneos-arm64
 Maintainer: Lessica
