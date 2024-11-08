@@ -7446,6 +7446,48 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ig
 Name: iGameGod
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/igg/Depiction
 
+Package: com.white.immortalizer
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: sergy
+Installed-Size: 412
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Conflicts: com.sergy.immortalizer
+Replaces: com.sergy.immortalizer
+Filename: ./debs/immortalizer_1.0.1_iphoneos-arm64.deb
+Size: 31922
+MD5sum: b15e40bcde7d6a15d5cf1f991197532b
+SHA1: 6b5adb46727550b3a0c59387b78133b930834188
+SHA256: aacd6f58e3281f02ac0a38d8aa6faabd412617b93a969a2cabe1d84cab009c8c
+Section: Tweaks
+Description: 全新真后台插件，即使您的应用在后台，也将其置于前台！
+Author: sergy
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Immortalizer/icon.png
+Icon2: https://media.havoc.app/672ab6f3a80bcf5e2e0abe8c?w=1920&q=75
+Name: Immortalizer
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Immortalizer/Depiction
+
+Package: com.white.immortalizer
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: sergy
+Installed-Size: 412
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Conflicts: com.sergy.immortalizer
+Replaces: com.sergy.immortalizer
+Filename: ./debs/immortalizer_1.0.1_iphoneos-arm.deb
+Size: 31852
+MD5sum: d1233f0422f3d00c0d594d9132930fde
+SHA1: 2d8bda97740be614ee2a51641cdd3debe7752e48
+SHA256: 8aec0dbbcb3469a3372fa3958c653992022895c3c1a96037d68f53a43f91aa2a
+Section: Tweaks
+Description: 全新真后台插件，即使您的应用在后台，也将其置于前台！
+Author: sergy
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Immortalizer/icon.png
+Icon2: https://media.havoc.app/672ab6f3a80bcf5e2e0abe8c?w=1920&q=75
+Name: Immortalizer
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Immortalizer/Depiction
+
 Package: com.white.installer
 Version: 5.1-91
 Architecture: iphoneos-arm
