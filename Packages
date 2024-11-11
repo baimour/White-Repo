@@ -2665,14 +2665,14 @@ Package: com.white.allowkeyboard
 Version: 1.6
 Architecture: iphoneos-arm
 Maintainer: iBreak <ibreak2019@qq.com>
-Depends: mobilesubstrate
+Depends: firmware (>= 9.0), mobilesubstrate
 Conflicts: com.yourepo.ibreak.allowkeyboard
 Replaces: com.yourepo.ibreak.allowkeyboard
-Filename: ./debs/allowkeyboard_1.6.deb
-Size: 6140
-MD5sum: eac252e1ac52d505a8209714cfc62d5d
-SHA1: ae5b08b259f6447493f94ecb0ea0f7f833f23af1
-SHA256: 76589373677b0b02a44569fc9df0df75d223babe7c04153e1c29f6f4742e85e8
+Filename: ./debs/allowkeyboard_1.6_iphoneos-arm.deb
+Size: 6160
+MD5sum: 59b20ca5dcb58f163f38104280540b4f
+SHA1: cb3e6358cf0b0b6e63b521caca6edee3d922631d
+SHA256: 82e56d2f57ad5ffdb283df73edc086838d94f968b9030b36419cfc6aa9a78aee
 Section: Tweaks
 Description: 允许第三方键盘获取优先级权限，输入密码时可使用第三方输入法
 Author: iBreak <ibreak2019@qq.com>
@@ -4403,15 +4403,15 @@ Maintainer: White <(NULL)>
 Installed-Size: 165
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: ./debs/cloudmusic_1.0_iphoneos-arm64.deb
-Size: 5544
-MD5sum: a2e0fc7bb101c4dc8c88e4411fcae8b0
-SHA1: 6016505e2c586127dcab492f92ab3a4e39e188d0
-SHA256: abe8b2b61b845899781b05cdfe101f18a5472572e13fbfc8a31582f2cdb71148
+Size: 5552
+MD5sum: f1b85c8af66f1861a20a8ba874d637ce
+SHA1: bf401b36436fcfa55b44dca0bde04a9adacdf915
+SHA256: 8a409d9b87e79e52c3869c803f385874c260812e25649de9441a2cc7f2983ca6
 Section: NoAds
 Description: 基于9.0.25制作，去启动/首页广告+屏蔽越狱
 Author: White <(NULL)>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cloudmusic/icon.png
-Name: 网易云音乐屏蔽越狱
+Name: 网易云音乐 Hook
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cloudmusic/Depiction2
 
 Package: com.white.cloudmusic
@@ -4421,15 +4421,15 @@ Maintainer: White <(NULL)>
 Installed-Size: 165
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: ./debs/cloudmusic_1.0_iphoneos-arm.deb
-Size: 5492
-MD5sum: 0ee79061f1f9f67e2af4a55458fa2f5f
-SHA1: 0b85a87ef72082c266203ea8fedecc66eb0bd1f1
-SHA256: f8a26ed527bec1fe72951aedfe4250593f654a247ef8614996eb0b16654648d9
+Size: 5496
+MD5sum: d20b964f5c40fb159642ed1e6001c76c
+SHA1: 4add4c0b3cc3d432b0a04b820cc912a8d48e308b
+SHA256: ce4501259a501d1b72120e9db941def0725315f21ff0c32019685c74246b1874
 Section: NoAds
 Description: 基于9.0.25制作，去启动/首页广告+屏蔽越狱
 Author: White <(NULL)>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cloudmusic/icon.png
-Name: 网易云音乐屏蔽越狱
+Name: 网易云音乐 Hook
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cloudmusic/Depiction2
 
 Package: com.white.cmcc234g
@@ -5307,11 +5307,11 @@ Maintainer: Netskao
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/dj97_1.0.0_iphoneos-arm64.deb
-Size: 110496
-MD5sum: b1e07e5991bf8b1cc6456fd226be0e0e
-SHA1: a1e2809dd866c55e9ca5639ef59c630544b4e384
-SHA256: e1fcf052cbebdbba74c1e7a87e165897135f724e8769f8af0d6fb70bb7f3b326
-Section: NoAds
+Size: 79052
+MD5sum: acfc4f6ef4c32e134b7b9095b49a57f2
+SHA1: d4faea172d5d1392a7faf794da460f2e58c229e7
+SHA256: d053dfe43f09a1ba422410c39d9fb652e766a836f3a86bb26a61aeaccfb0474e
+Section: Cracks
 Description: 水晶DJ破解VIP权限，可下载高品质音乐
 Author: Netskao
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/dj97/icon.png
@@ -5325,11 +5325,11 @@ Maintainer: Netskao
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/dj97_1.0.0_iphoneos-arm.deb
-Size: 81680
-MD5sum: ead37d394fc86e2119863308a3b89310
-SHA1: f2b289702d672133b8313b0009f0055c9be53d94
-SHA256: d37bdaf5bffdec42d93416c6d703f894f82d988908a6dff8237928f7610dac6e
-Section: NoAds
+Size: 81924
+MD5sum: f0ba843a0c84ca45bcd2eb25d77cf6e7
+SHA1: f9cfbe71ce7333734fd4414ed09ff49727a665aa
+SHA256: 4c25c882d05bc1652904de3b707a6e7555127dcf0fb5a3c787789ee9918be5fd
+Section: Cracks
 Description: 水晶DJ破解VIP权限，可下载高品质音乐
 Author: Netskao
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/dj97/icon.png
@@ -6233,15 +6233,14 @@ Package: com.white.filza
 Version: 4.0.1-4
 Architecture: iphoneos-arm64
 Maintainer: TIGI Software
-Installed-Size: 23200
 Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
 Conflicts: ru.rejail.filza, com.tigisoftware.filza, com.tigisoftware.filza39, netskao.filzacrack
 Replaces: ru.rejail.filza, com.tigisoftware.filza, com.tigisoftware.filza39, netskao.filzacrack
 Filename: ./debs/filza_4.0.1-4_iphoneos-arm64.deb
-Size: 6916480
-MD5sum: 1d101d7e523fb320323eb82d16f9b3dc
-SHA1: 0afe79d6ac211f81b89dfc79f607f9874736e5a2
-SHA256: 56d9d55a2902491bb7b4eca0245ac58b125921858de020b961dd48292c2028ae
+Size: 6915788
+MD5sum: 81ce13e1d62fafe134fa6a5f2cb97dcc
+SHA1: b27bcd8780333d3a064247999fe3db9d740cd2c4
+SHA256: 1b268db56121a6e11fefb7129fd94030039b3ef583ba2aaff1787ab722ba6495
 Section: Utilities
 Description: 适用iPhone、iPad、iPod Touch的文件管理器，支持iOS 11+的64位设备
 Author: TIGI Software
@@ -6254,16 +6253,16 @@ Package: com.white.filza
 Version: 4.0.1-4
 Architecture: iphoneos-arm
 Maintainer: TIGI Software
-Installed-Size: 19388
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
 Conflicts: ru.rejail.filza, com.tigisoftware.filza, com.tigisoftware.filza39, netskao.filzacrack
 Replaces: ru.rejail.filza, com.tigisoftware.filza, com.tigisoftware.filza39, netskao.filzacrack
 Filename: ./debs/filza_4.0.1-4_iphoneos-arm.deb
-Size: 6905948
-MD5sum: 2c71bc3a451363728f80f9e9d16e54f9
-SHA1: d106cb8e6269db5950fa1f13bace986a840700d9
-SHA256: 5b6ddaa55237f3ca42f905bbb9ca76cb2f4d146d49c661dffc09e6fc2ae1e675
+Size: 6905952
+MD5sum: 3276f70969d52e2030a196de8b5908fa
+SHA1: 557598c52b028548467fc195eb181f3e315a49d8
+SHA256: cae8f84d7822e7fdadeb18fca0d7e628292db3cc7670955767dd317ce12477c8
 Section: Utilities
-Description: 适用iPhone、iPad、iPod Touch的文件管理器，适用于iOS 11+额64位设备
+Description: 适用iPhone、iPad、iPod Touch的文件管理器，适用于iOS 11+的64位设备
 Author: TIGI Software
 Depiction: https://rejail.ru/depiction.php?file=filza
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/filza/icon.png
@@ -7951,12 +7950,12 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 588
 Depends: mobilesubstrate, firmware (>= 11.0)
-Filename: ./debs/kwyycrack_1.4-6.deb
-Size: 145928
-MD5sum: 92e5b18f07aa225db1e07a9395009dce
-SHA1: 04ef53f69a28987ca102146b7b74da36b79e272e
-SHA256: f35e888a87e937d105c6062dfcce70b9e8435624687ee32c8a4e281ee44d896e
-Section: NoAds
+Filename: ./debs/kwyycrack_1.4-6_iphoneos-arm.deb
+Size: 145984
+MD5sum: 6ac5ecea4a0c65aea0db066d8bcb8e56
+SHA1: 93b2750f0ee7a81ebaf7bca93d03e3bf03a9f1d7
+SHA256: 7eaab63ea61b17a5592679df8c507b69fe12e5c1ccd25b837731400f4accd3c6
+Section: Cracks
 Description: 解锁所有歌曲听和缓存限制，解锁所有小说听和缓存限制，解锁音效和皮肤使用限制，去除启动广告，去除首页底部推荐列表，去除首页随机弹出的推广提示，去除播放页面正在直播，去除首页左侧设置中没啥用的功能，去除我的页面直播和小说推广和听点别的，去除评分提示，去除顶部随机出现的直播开播提示，去除本地/下载/最近播放/收藏中的推荐，去除底部曲库/直播/视频/ing/会员按钮，增加缓存歌曲导出(下载或本地页面，歌曲操作面板导出，支持自动解密kwm格式)，仅支持10.0.0及以上版本
 Author: Netskao
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/kwyycrack/icon.png
@@ -9245,15 +9244,15 @@ Maintainer: blatant
 Installed-Size: 204
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/photoeraser_1.3.3.7_iphoneos-arm.deb
-Size: 18108
-MD5sum: 7abecd0eaeef9199a8766bc3172154f5
-SHA1: f79afe48d8cab9aabaa6282b08fbf4bf192707cd
-SHA256: cb559384932e19cb36339a84632c7187767b45a480e69ef55685b7fdf1effdca
+Size: 18204
+MD5sum: 5df5a188a855dfc482432e477d4f8cab
+SHA1: 5ac1770efd35731f2e02807e3943264e9d771bff
+SHA256: 7d04301a95e6d12f9924e68119c7b21276cf7154c97eb46acd9dc224ab707812
 Section: Cracks
-Description: 测试版本：3.2，解锁会员功能，作者：Blatant
+Description: 仅在3.2版本测试，解锁会员功能
 Author: blatant
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/photoeraser/icon.png
-Name: photoeraser
+Name: Photo Eraser
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/photoeraser/Depiction
 
 Package: com.white.photoeraser
@@ -9263,15 +9262,15 @@ Maintainer: blatant
 Installed-Size: 204
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/photoeraser_1.3.3.7_iphoneos-arm64.deb
-Size: 23226
-MD5sum: edee6bb20bc0a27afc79a56faff9c941
-SHA1: e54a9bd6b6096f4de3665694f9b3852c721c34d3
-SHA256: b59933f3d87af5f7e81fa84049783cfee094ff0a7254054601fa3c6d0570f73a
+Size: 18180
+MD5sum: 3c06f0d5168944a0c8ea671bc168c8b3
+SHA1: 5199834ab5010f1f9cab3d38147f17b58df2c830
+SHA256: 35a2c134997af1e6b15d598c0e6a783d7ce71886a268038e731a96a1b5c8db99
 Section: Cracks
-Description: 测试版本：3.2，解锁会员功能，作者：Blatant
+Description: 仅在3.2版本测试，解锁会员功能
 Author: blatant
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/photoeraser/icon.png
-Name: photoeraser
+Name: Photo Eraser
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/photoeraser/Depiction
 
 Package: com.white.photoinfo
@@ -11127,14 +11126,14 @@ Installed-Size: 72
 Depends: mobilesubstrate
 Filename: ./debs/taobao_1.0-1_iphoneos-arm64.deb
 Size: 5976
-MD5sum: 08663475e26de302b1697654e6276f1d
-SHA1: 366774ad9bfde30979f479105a152cc5c4d5685f
-SHA256: 85a79db155d73c3002a5e75676d58a14629fdc5a321e12ad950c28c1f22ae4f6
+MD5sum: 6fa60c1f61147b2522363bfa98377b64
+SHA1: 58bc617ec78bc277e4ff164d3d3f35935319e349
+SHA256: 1e41fb7e5308a79c0fd505fea6e5ab345a2c91485c462c039d7cae5719a2829f
 Section: NoAds
 Description: 基于10.32.20制作，屏蔽部分越狱
 Author: White <(NULL)>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/taobao/icon.png
-Name: 淘宝屏蔽越狱
+Name: 淘宝 Hook
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/taobao/Depiction
 
 Package: com.white.taobao
@@ -11145,14 +11144,14 @@ Installed-Size: 72
 Depends: mobilesubstrate
 Filename: ./debs/taobao_1.0-1_iphoneos-arm.deb
 Size: 5884
-MD5sum: 58fd1a123238218afec7ae9db4f9489a
-SHA1: f40968fd9bfac0d36b84d33724555a27bed162b7
-SHA256: 2b08cf76dac5e2a19bda428a9e6177b032dff0fc9cef85d2dde099ecd0212e60
+MD5sum: e4754dc29d08dd9b0990c7b78d363ea7
+SHA1: ff29beb06ac6714ee87c8c93a995cd7b81dbc567
+SHA256: bb2d24b6be823af80ee372b7f5baae38c6e3eaf7676667b22288423e7d674742
 Section: NoAds
 Description: 基于10.32.20制作，屏蔽部分越狱
 Author: White <(NULL)>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/taobao/icon.png
-Name: 淘宝屏蔽越狱
+Name: 淘宝 Hook
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/taobao/Depiction
 
 Package: com.white.tapticboard
@@ -11766,14 +11765,14 @@ Maintainer: White <(NULL)>
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: ./debs/unidreampb_1.0_iphoneos-arm.deb
 Size: 5708
-MD5sum: c7b7d2b24290de34e8d65e67b5209700
-SHA1: fe93d7a65b4a9fb4e699a1185b4e971ea782988d
-SHA256: fea3b057e196e7d06db7952f46290a8f50691dd8aec7df866f834fbf78ab24e1
+MD5sum: a8e55335586cc9701b06e8f66ab2d9bc
+SHA1: ae81a89d936ed870d788e0095165f04e21b15549
+SHA256: ae7043b41d1f53606d8c206f808f00136432109bc58200248c2e94da0eb574a8
 Section: NoAds
 Description: 屏蔽越狱和关键词检查
 Author: White <(NULL)>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/UniDream/icon.png
-Name: Uni Dream屏蔽关键词检查
+Name: Uni Dream Hook
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/UniDream/Depiction2
 
 Package: com.white.unidreampb
@@ -11782,15 +11781,15 @@ Architecture: iphoneos-arm64
 Maintainer: White <(NULL)>
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: ./debs/unidreampb_1.0_iphoneos-arm64.deb
-Size: 5348
-MD5sum: 6020bf675b649bb981610806e4e49750
-SHA1: e552ab5e4e084de289d07da2fa9280478f55b8c9
-SHA256: 4014528ed1ccfaf804e77e21664ffe22a3c3ab71bab6f567dbf7d2bb4a0fb467
+Size: 5320
+MD5sum: c3f9b2ddef16c03b019a2209d2ec5d5e
+SHA1: 2d22b23eacf3ff964e441bd40258de2c77256255
+SHA256: acaf6127fce43d31b16544bd3fd976f2f5da6a0acc9bddad32fa96904e110930
 Section: NoAds
 Description: 屏蔽越狱和关键词检查
 Author: White <(NULL)>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/UniDream/icon.png
-Name: Uni Dream屏蔽关键词检查
+Name: Uni Dream Hook
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/UniDream/Depiction2
 
 Package: com.white.unidreampb
@@ -11800,15 +11799,15 @@ Maintainer: White <(NULL)>
 Installed-Size: 984
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: ./debs/unidreampb_1.0-2_iphoneos-arm64.deb
-Size: 292836
-MD5sum: 89bbcc91be2370b1f9bf1fff5aa4bc51
-SHA1: 349461e354fb4a992b2ee40a01ba421862cb2cb6
-SHA256: 159556dc439d7d2f8742068e53b5b52a6a227a7d4f452b20d0f000fbab4480b0
+Size: 292780
+MD5sum: f0002c7623e5f3584d2204201df9f16f
+SHA1: 8f38db6201d7b877ef0dfafdf223cf8c718ede74
+SHA256: 34501b785a7c04b86ab4ce395927ec4926c38ffe2c638507abea6e4807a2ed0a
 Section: NoAds
 Description: 基于6.4.2版本制作，屏蔽越狱及关键词检查
 Author: White <(NULL)>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/UniDream/icon.png
-Name: Uni Dream屏蔽关键词检查
+Name: Uni Dream Hook
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/UniDream/Depiction2
 
 Package: com.white.unidreampb
@@ -11818,15 +11817,15 @@ Maintainer: White <(NULL)>
 Installed-Size: 1448
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: ./debs/unidreampb_1.0-2_iphoneos-arm.deb
-Size: 339600
-MD5sum: 7092c4cbc4b2c30081fae657b8031d41
-SHA1: e0853b726fe9031a89b611733dc7858e03eddfcc
-SHA256: c81a769ba96bbf4c0d7ec36a325711ea234a69e111c9e38b0babcdf1000de67b
+Size: 339544
+MD5sum: 12a2853092c4fa5b1416cc2d6eef0983
+SHA1: 3dd25b404fbe3974b7add614277a7645ebef7247
+SHA256: 999adeb87d487994a8fb931b1c1dcd840ae2a2e9521f6933bfcb44f4a457fe0b
 Section: NoAds
 Description: 基于6.4.2版本制作，屏蔽越狱及关键词检查
 Author: White <(NULL)>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/UniDream/icon.png
-Name: Uni Dream屏蔽关键词检查
+Name: Uni Dream Hook
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/UniDream/Depiction2
 
 Package: com.white.unidreampro
