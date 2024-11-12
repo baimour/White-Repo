@@ -4908,12 +4908,12 @@ Architecture: iphoneos-arm
 Maintainer: t0mi <fritsch.weiding@yahoo.de>
 Depends: mobilesubstrate
 Filename: ./debs/cydiaplus_1.2_iphoneos-arm.deb
-Size: 56302
-MD5sum: 3a7e77ce4f7a003a669d594d5df73cfc
-SHA1: 82b10d6e481cbcf873691245199e96893f593b99
-SHA256: f83e18e29818d5eeb31b032335f58f26bf1290bb1e0fef6996327556fd1f45d8
+Size: 51036
+MD5sum: f19c27e4ae1e1011a437a60b35986f54
+SHA1: fa02c6ef3b49408770de53f737a9bd8448812a26
+SHA256: b82a60836841b6fbf42b13de75e5f05e052a29caf2be75c0f3aeb0f908aaf1a1
 Section: Tweaks
-Description: 加速Cydia刷新源，无设置
+Description: 加速刷新Cydia源
 Author: t0mi <fritsch.weiding@yahoo.de>
 Name: Cydia Plus
 
@@ -4923,12 +4923,12 @@ Architecture: iphoneos-arm
 Maintainer: t0mi <fritsch.weiding@yahoo.de>
 Depends: mobilesubstrate
 Filename: ./debs/cydiapulldown_1.1_iphoneos-arm.deb
-Size: 6584
-MD5sum: 0e8ced4a99d32a44e34e7095600e5baa
-SHA1: 1dd654f9bb83392a806b039e7ea09ac0de7329a5
-SHA256: fbce14c023bb577edf66e9db4d1723aa8802225063766db0c2c99284f62a6246
+Size: 6472
+MD5sum: cb2a0a403b0489d626daba48330837f4
+SHA1: 65e036b4400a74100cc17d4a3b6906e0becb8512
+SHA256: 0b1581ccd7ebec23ea0cd6f7adc5625ba6e65dbe8c2f2a6d60f61d1deea637f6
 Section: Tweaks
-Description: Cydia软件源列表添加下拉刷新功能
+Description: 在Cydia软件源列表添加下拉刷新功能
 Author: t0mi <fritsch.weiding@yahoo.de>
 Name: CydiaPullDown
 
@@ -4938,10 +4938,10 @@ Architecture: iphoneos-arm
 Maintainer: iBreak <ibreak2019@qq.com>
 Depends: mobilesubstrate
 Filename: ./debs/cydiaquick_2.2.0_iphoneos-arm.deb
-Size: 68690
-MD5sum: 1702ab0ca244d768313d697c1b31bb2e
-SHA1: f5ad401349e7b3b46722a2a367bc80cdffce0d59
-SHA256: 452559fb7b099886c9701ecc6fe90f2d2e4ec8e14a22ce5019f11f521c2df0ab
+Size: 66472
+MD5sum: 8afa23653edf9f48b12b4180300a270a
+SHA1: 42bb561ff41ef55942ae7e71d6239bcdf011305f
+SHA256: 4724d0b20ef7d3ffb95e59a0227383534e507955a0de0ac7c1a70238bcc53b84
 Section: Tweaks
 Description: Cydia加速启动载入与加载响应等
 Author: iBreak <ibreak2019@qq.com>
@@ -4953,10 +4953,10 @@ Architecture: iphoneos-arm
 Maintainer: White <1410970825@qq.com>
 Depends: mobilesubstrate
 Filename: ./debs/cydiazq_1.0.0_iphoneos-arm.deb
-Size: 7072
-MD5sum: 67c93a970e34ffc5b36a34a57bf0c289
-SHA1: 9658a7a63a60f9e9b7fe12164206ab6bd0fb897e
-SHA256: 5fdb6aeab78c1673f3ddbd8f785e1c5f6485db20715619d73fce8a8adfc6a3d7
+Size: 7104
+MD5sum: b408e1128c6aa2a7ecf8229955cd2ae5
+SHA1: c4057c09deefa0d87563c155af852fe911fcb2c5
+SHA256: 037b81e3c8e07c4c8ca0695be96c7bbbede62045b35f4c1e8c9651f4552a9c01
 Section: Tweaks
 Description: Cydia增强，去除黄色错误，去除非法源提示
 Author: White <1410970825@qq.com>
@@ -12727,6 +12727,31 @@ Author: 来了老弟
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/alipay/icon.png
 Name: 支付宝步数XD
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/zfbb/Depiction
+
+Package: cydia
+Version: 420.1.30-2
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: debianutils, dpkg (>= 1.14.25-8)
+Depends: apt7-lib, apt7-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.4)
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Provides: bigbossbetarepo, cydia-sources
+Filename: ./debs/cydia_420.1.30-2_iphoneos-arm.deb
+Size: 1291784
+MD5sum: e878b016b28f2ef5292b8961d582faa8
+SHA1: 5574350cf40f0f9f207fcafcd8ad10e6fb0cfff3
+SHA256: f29e6bef4e900ec81adf399f2b8596551f97fca65141eddde2ed145c0f49755e
+Section: Utilities
+Priority: required
+Description: Cydia越狱源管理器
+Tag: purpose::uikit, cydia::essential, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia/
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Cydia/icon.png
+Icon2: file:///Applications/Cydia.app/Icon-60.png
+Name: Cydia Installer
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Cydia/Depiction2
 
 Package: cydia.installer
 Version: 1.1.36-3
