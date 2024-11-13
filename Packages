@@ -1515,6 +1515,46 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/aw
 Name: 抖音视频时间
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemevideotime/Depiction
 
+Package: com.netskao.disabletestflightblock
+Version: 1.1-4
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 104
+Depends: firmware (>= 13.0), mobilesubstrate
+Conflicts: netskao.disabletestflightblock
+Replaces: netskao.disabletestflightblock
+Filename: ./debs/com.netskao.disabletestflightblock_1.1-4_iphoneos-arm.deb
+Size: 13032
+MD5sum: bf9a76080781f85a72b03d2972ed3bad
+SHA1: fd3ee9d63347692b6b00b312bcd5080875ef9254
+SHA256: f30cb696507d9f8a870f97900442f7581b85e15028d2517fc61f3914e4d0be59
+Section: Tweaks
+Description: 解除国区账号无法下载国区AppSrore内已下架或者未上架国区的对应TestFlight应用
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/disabletestflightblock/icon.png
+Name: DisableTestFlightBlock
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/disabletestflightblock/Depiction
+
+Package: com.netskao.disabletestflightblock
+Version: 1.1-4
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 104
+Depends: firmware (>= 13.0), mobilesubstrate
+Conflicts: netskao.disabletestflightblock
+Replaces: netskao.disabletestflightblock
+Filename: ./debs/com.netskao.disabletestflightblock_1.1-4_iphoneos-arm64.deb
+Size: 16004
+MD5sum: ac587b59e0eeb951ee4e0ae34306b73e
+SHA1: 88a3ffc255278973eaa275abc575df01c2aa2174
+SHA256: aed1e9db784f7794c861b9a2ea99299f30c31dac79691c6df84a810b160c97d6
+Section: Tweaks
+Description: 解除国区账号无法下载国区AppSrore内已下架或者未上架国区的对应TestFlight应用
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/disabletestflightblock/icon.png
+Name: DisableTestFlightBlock
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/disabletestflightblock/Depiction
+
 Package: com.netskao.pulloverpro
 Version: 2.1.5-3
 Architecture: iphoneos-arm64
@@ -5317,24 +5357,6 @@ Description: 禁用iOS低电量弹窗
 Author: White <1410970825@qq.com>
 Name: 禁用低电量弹窗 (iOS9-15.x)
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/disablelowbattery/Depiction
-
-Package: com.white.disabletestflightblock
-Version: 1.1-4
-Architecture: iphoneos-arm
-Maintainer: Nets
-Installed-Size: 104
-Depends: firmware (>= 13.0), mobilesubstrate
-Conflicts: netskao.disabletestflightblock
-Replaces: netskao.disabletestflightblock
-Filename: ./debs/disabletestflightblock_1.1-4.deb
-Size: 12908
-MD5sum: 7d6f7879f695c95db38c91d5c8ca9524
-SHA1: f9bfab9763a581d60eaba73c4ff357ac6f531a3f
-SHA256: 012b9d6e50756368db801166f296ffc8bedb1d9979f8de474c06d66958b005f0
-Section: Tweaks
-Description: 解除国区账号无法下载国区AppSrore内已下架或者未上架国区的对应TestFlight应用
-Author: Netskao
-Name: DisableTestFlightBlock
 
 Package: com.white.dj97
 Version: 1.0.0
