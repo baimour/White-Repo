@@ -2215,15 +2215,15 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 168
 Depends: mobilesubstrate
 Filename: ./debs/189cloud_1.0_iphoneos-arm64.deb
-Size: 5430
-MD5sum: ddb22d12a28c3565ae0a63e16adf2469
-SHA1: f14053407868e8badb95e71e511a69032dd32d77
-SHA256: 2fb56741e1d9f7d0b8076110e78c6ab22305010ca8cd3aa07f0df358a40063ea
+Size: 5480
+MD5sum: 7c608334f73c297a329dea30d7c94173
+SHA1: 9cddefa7a971a4f09068f9c2c80e3934a4f289d8
+SHA256: d1d90609a1bcbe522eee96af1f881f13ca55842bc52f9a2ba82b822d7be5050c
 Section: NoAds
 Description: 基于9.1.1版本制作，去除启动/优惠弹窗
 Author: White <1410970825@qq.com>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/189cloud/icon.png
-Name: 天翼云盘去更新弹窗
+Name: 天翼云盘 Hook
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/189cloud/Depiction
 
 Package: com.white.189cloud
@@ -2233,15 +2233,15 @@ Maintainer: White <1410970825@qq.com>
 Installed-Size: 136
 Depends: mobilesubstrate
 Filename: ./debs/189cloud_1.0_iphoneos-arm.deb
-Size: 5346
-MD5sum: d3100978e7e3d106b95e390b766e2c7c
-SHA1: b9c9ae40e0a1c245ba35a1938e24fa29e0d92edf
-SHA256: 35b17a62bdf27b9c887d894fd93484b9b1ef45f1771ddd6b089add58aa30bc7f
+Size: 5440
+MD5sum: 8b51555461bcf8505d44432302c1b9bb
+SHA1: ee5af250513b2c91db2ae733732d07b9d2cc86a3
+SHA256: a26dc64676aa22816485afd3d0c1bb5d746ba73e31733d9097bd6bfa1415ccd4
 Section: NoAds
 Description: 基于9.1.1版本制作，去除启动/优惠弹窗
 Author: White <1410970825@qq.com>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/189cloud/icon.png
-Name: 天翼云盘去更新弹窗
+Name: 天翼云盘 Hook
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/189cloud/Depiction
 
 Package: com.white.5s234
