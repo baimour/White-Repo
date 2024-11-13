@@ -1353,6 +1353,24 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/aw
 Name: 抖音禁用按钮
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemedisablebar/Depiction
 
+Package: com.netskao.awemedisablebar
+Version: 1.1-6
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 708
+Depends: firmware (>= 12.0), mobilesubstrate
+Filename: ./debs/com.netskao.awemedisablebar_1.1-6_iphoneos-arm64.deb
+Size: 305212
+MD5sum: 0714b2554957a207374df43e968d6d95
+SHA1: 9fc1f0307d9a8224240b84126e1eec389139597a
+SHA256: d52dff06e31de1417ef835b0bbcf9948f8a52400776b9e38e90ecca3042d2a20
+Section: NoAds
+Description: 抖音禁用顶部/底部/右选项卡按钮，仅在30.3.0及更高版本上进行测试
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemedownloadmedia/icon.png
+Name: 抖音禁用按钮
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemedisablebar/Depiction
+
 Package: com.netskao.awemedownloadmedia
 Version: 1.1-3
 Architecture: iphoneos-arm64
@@ -1438,6 +1456,24 @@ SHA1: 4bbc9255e905a139e3229a508348e7d268a0f652
 SHA256: 01e9d87571762bde96d8ba30668bf5cc65d2dc46a1819ba96c2d0230c6ff0536
 Section: NoAds
 Description: 抖音全屏播放，仅在29.8.0版本上测试，后续版本更新导致的问题将不会被维护
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemedownloadmedia/icon.png
+Name: 抖音全屏播放
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemefullscreen/Depiction
+
+Package: com.netskao.awemefullscreen
+Version: 1.2-3
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 384
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.netskao.awemefullscreen_1.2-3_iphoneos-arm64.deb
+Size: 161696
+MD5sum: a49e31d6a4f4eacccb8ab25c90b5ab1f
+SHA1: 0cb787f6d8084699328e7ea4c9e66e3db12fd6c6
+SHA256: 0f701bbf5c2f2017e9e9e90ff2acd4ee10e2e20da12cf3fd2b2db6e7b4063051
+Section: NoAds
+Description: 抖音全屏播放，仅在31.9.0版本上测试，后续版本更新导致的问题将不会被维护
 Author: Netskao
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemedownloadmedia/icon.png
 Name: 抖音全屏播放
@@ -7316,6 +7352,22 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/i4
 Name: 爱思全能版 NoAds
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/i4notes/Depiction
 
+Package: com.white.iMemScan
+Version: 1.2.7
+Architecture: iphoneos-arm
+Maintainer: Unknown
+Depends: firmware (>= 13.0)
+Filename: ./debs/iMemScan_1.2.7_iphoneos-arm.deb
+Size: 1704204
+MD5sum: 7a8bbaaa0e3f766dd72f7b85d90674c7
+SHA1: 1c2447d93c05524223e9345e1658b5468d6a0863
+SHA256: 266c427ae3d4e612daab64100c4c2ca3b85e027782b1a99c41801016cc84cb09
+Section: 修改器
+Description: 记忆修改器
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/iMemScan/icon.png
+Name: iMemScan
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/iMemScan/Depiction
+
 Package: com.white.iapstorefugu
 Version: 0.0.2
 Architecture: iphoneos-arm64
@@ -10442,12 +10494,12 @@ Maintainer: White
 Depends: org.coolstar.sileo
 Replaces: org.coolstar.sileo
 Filename: ./debs/sileo-zh_1.0_iphoneos-arm.deb
-Size: 7696
-MD5sum: 6df61f9be311ba196bdcaa4288e1d383
-SHA1: 35065c7108b562460fb5ea929b9e321b1953b8e6
-SHA256: f4c9fedd443d81457d36401d15f15ac04db52c029164cd7b920b05b12f32eb56
-Section: Tweaks
-Description: 为Sileo完善部分汉化
+Size: 8880
+MD5sum: eb1fef46a27c7431bb9c4bd7de6996a1
+SHA1: b777cfd42c41214c27f33cc2ca05ae32e87714ea
+SHA256: 584c95e251f32bd0203b790dd8574108093afb82e9781a44a25eee6f3aa61867
+Section: Localizations
+Description: 完善Sileo部分汉化
 Author: White
 Depiction: N/A
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sileo-zh/icon.png
@@ -10461,12 +10513,12 @@ Maintainer: White
 Depends: org.coolstar.sileo
 Replaces: org.coolstar.sileo
 Filename: ./debs/sileo-zh_1.0_iphoneos-arm64.deb
-Size: 7732
-MD5sum: 5686dd8a122d631370a279e39a27f933
-SHA1: ddc82e6d3e482add0fa42095b59952008a12fe6a
-SHA256: c68590d86759c1e053e30df172f28aece2289c9bd09384d16c30be3dea933d54
-Section: Tweaks
-Description: 为Sileo完善部分汉化
+Size: 8944
+MD5sum: c8ac09ff333cdd19654e5cbf3fdb5b60
+SHA1: 0726a5a382fda301ac5a62ad4e5af872a9a2bf8d
+SHA256: 25e1332a40d7e64aee48b8ce2f865ef94512e3ff0ed741fe0ad8b4391faf0a70
+Section: Localizations
+Description: 完善Sileo部分汉化
 Author: White
 Depiction: N/A
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sileo-zh/icon.png
@@ -11259,27 +11311,23 @@ Name: FixTele 5C 5S iOS9/10
 Package: com.white.tetherme8
 Version: 2.1.1
 Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 24313
-Pre-Depends: mobilesubstrate (>=0.9.5101)
-Depends: firmware (>= 8.0), preferenceloader (>= 2.2.4), firmware (>= 11.0) | network-cmds, mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.4), mobilesubstrate (<<99.0) | com.ex.libsubstitute (>= 0.1.1)
-Conflicts: net.tetherme.tetherme
-Replaces: net.tetherme.tetherme
+Maintainer: Sam Bingner
+Pre-Depends: mobilesubstrate (>= 0.9.5101)
+Depends: firmware (>= 8.0), preferenceloader (>= 2.2.4), firmware (>= 11.0) | network-cmds, mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.4), mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
+Conflicts: net.tetherme.tetherme, net.tetherme.tetherme8, xyz.canpng.tetherme8
+Replaces: net.tetherme.tetherme, net.tetherme.tetherme8, xyz.canpng.tetherme8
 Filename: ./debs/Tetherme8_2.1.1.deb
-Size: 7604004
-MD5sum: a6bedc3ab06586eb7957db6351f00984
-SHA1: 7eb866eae7735b2cdf93b48148fcf8d233ceffdf
-SHA256: 0492daddefe7e4f1eb9cd8e45ca9d06791e8cb6ebefd8e4b2c23f085d4387aba
+Size: 4187976
+MD5sum: 8259ddf5da9c8fc5b52592ccf8add04b
+SHA1: 82c4cba9d4965ce5df704598844ba0112b788367
+SHA256: 178609846c9a91a273d6ed0fbc465858bc5654a474ff8391548e262f09c2a813
 Section: Tweaks
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=tetherme8Dp
 Description: 为iOS8+设备动态启用本机网络连接，这应适用于任何运营商，无需自定义bundles或偏好设置
-Tag: purpose::extension
 Author: Sam Bingner <support@tetherme.net>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=tetherme8Dp
-Dev: tetherme
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/tetherme8/icon.png
-Name: TetherMe for iOS 8+
-Sponsor: thebigboss.org <http://thebigboss.org>
+Name: TetherMe for iOS8+
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/tetherme8/Depiction
 
 Package: com.white.theosdepends
 Version: 1.4
@@ -13332,13 +13380,13 @@ Package: mterminal
 Version: 1.6
 Architecture: iphoneos-arm64
 Maintainer: D.F (MTAC) <mtac@mtac.app>
-Installed-Size: 272
+Installed-Size: 464
 Depends: coreutils, firmware (>= 11.0), gettext-localizations, system-cmds, zsh
 Filename: ./debs/mterminal_1.6_iphoneos-arm64.deb
-Size: 86500
-MD5sum: 6b479c2fd70c34de99c3c6e6062d9272
-SHA1: ecf89720f4f8e5c24d60814b57fb8d88c774fe48
-SHA256: 2dd7256183c447a31b396e9386fbd51547dbbe005ae6ed13eaf93b6974e69712
+Size: 100112
+MD5sum: dc5b728e01849692094b721bc57fe874
+SHA1: 8f5bf14543a6df26e2414d8f628ef1de1ee2381f
+SHA256: e286a87aee723eee27227e33109c881af756b48863b57685f984ecc58f1fd929
 Section: Utilities
 Description: 移动终端重新编译版
 Author: lordscotland <admin@officialscheduler.com>
@@ -13350,13 +13398,13 @@ Package: mterminal
 Version: 1.6
 Architecture: iphoneos-arm
 Maintainer: D.F (MTAC) <mtac@mtac.app>
-Installed-Size: 272
+Installed-Size: 464
 Depends: coreutils, firmware (>= 11.0), gettext-localizations, system-cmds, zsh
 Filename: ./debs/mterminal_1.6_iphoneos-arm.deb
-Size: 86416
-MD5sum: 998c38eca9902b96a89ad177ef5c097b
-SHA1: 903e10f401e2bc9102923218078bfd179a0776db
-SHA256: 50e39914c7fc8f622cb053074aee17c93fd54e78a014ba1e09d8addf44c4e112
+Size: 99728
+MD5sum: edd3b5a200f49611a5fdeeb31a98e1b3
+SHA1: 3346659302bf46a655bd81971b348f350689ff5a
+SHA256: 6fed30f2a922861be390b20edf0837fec78be56d6aa3d08226143fe52294b834
 Section: Utilities
 Description: 移动终端重新编译版
 Author: lordscotland <admin@officialscheduler.com>
@@ -13968,7 +14016,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 541
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/qqpurification_1.1-2.deb
+Filename: ./debs/qqpurification_1.1-2_iphoneos-arm.deb
 Size: 88920
 MD5sum: a5b2dd0ad91a4c10b69ae69c87e2d759
 SHA1: c6faacc0722615008c5cafd972c3af18f12e7fbb
@@ -13986,7 +14034,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 914
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/qqpurification_1.1-3.deb
+Filename: ./debs/qqpurification_1.1-3_iphoneos-arm.deb
 Size: 161128
 MD5sum: 24f6268ee283f3921ef287072c19dcdc
 SHA1: da190920be72b5cffaf6b9bf72d515ad1f1c632a
@@ -14004,7 +14052,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 906
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/qqpurification_1.1-5.deb
+Filename: ./debs/qqpurification_1.1-5_iphoneos-arm.deb
 Size: 161580
 MD5sum: 64a3748cb88fa90aef5109ef90ebfe20
 SHA1: 7fa66bddf575960740b8823b1ba633c6aec1c59c
@@ -14022,7 +14070,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 577
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/qqpurification_1.2-4.deb
+Filename: ./debs/qqpurification_1.2-4_iphoneos-arm.deb
 Size: 114836
 MD5sum: 2922d19bd18739620a5b7b626cd18949
 SHA1: 7611db827d58fc261b87546d3a6a968786f1a9ca
@@ -14040,7 +14088,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 607
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/qqpurification_1.2-5.deb
+Filename: ./debs/qqpurification_1.2-5_iphoneos-arm.deb
 Size: 120300
 MD5sum: 896c027d16d3d88dc9aabadd290796a9
 SHA1: b34f6bff0f7bf108f41243e7af4d1facf65e7b80
@@ -14058,7 +14106,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 631
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/qqpurification_1.2-8.deb
+Filename: ./debs/qqpurification_1.2-8_iphoneos-arm.deb
 Size: 125568
 MD5sum: 2a29f3ae28766cb7d653b30b276472ed
 SHA1: 64845d944df9932c447f1a11c19af921fccd74a3
@@ -14076,7 +14124,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 1331
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/qqpurification_1.3-1.deb
+Filename: ./debs/qqpurification_1.3-1_iphoneos-arm.deb
 Size: 244332
 MD5sum: dd4028ae30fe820b1d4658edcdd38288
 SHA1: f617c755523f9452b57cc82587564c8e3c0b2d37
@@ -14094,7 +14142,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 1231
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/qqpurification_1.4-1.deb
+Filename: ./debs/qqpurification_1.4-1_iphoneos-arm.deb
 Size: 249500
 MD5sum: f85544db9a7c68a9d5738126cf7cfc3b
 SHA1: 1f910ef964578ed0cef276b3dda6f2565cab505b
@@ -14112,7 +14160,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 1312
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/qqpurification_1.4-3.deb
+Filename: ./debs/qqpurification_1.4-3_iphoneos-arm.deb
 Size: 257584
 MD5sum: 2a7b4e71fc48647337addc8d2d48774a
 SHA1: fc925d61282c3e86d1be4ef3b872bdcb5209587d
@@ -14130,7 +14178,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 464
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/qqpurification_1.4-5.deb
+Filename: ./debs/qqpurification_1.4-5_iphoneos-arm.deb
 Size: 126212
 MD5sum: d2481eaf232fdf9a682b0a886d7488a8
 SHA1: a3bc52a41a1812217a1f6fa9612cd1fee1191593
@@ -14148,7 +14196,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 464
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/qqpurification_1.4-9.deb
+Filename: ./debs/qqpurification_1.4-9_iphoneos-arm.deb
 Size: 129780
 MD5sum: f2971ed0b50e8182b7888534efc0c2c1
 SHA1: 700ff6f58fb979442022c3097a8595ea2049c4fa
@@ -14166,11 +14214,29 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 490
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/qqpurification_1.5-9.deb
+Filename: ./debs/qqpurification_1.5-9_iphoneos-arm.deb
 Size: 131964
 MD5sum: 8d5c7e9efc75fd412619abe599232d4f
 SHA1: a4606a07b8171a866d77200d6a02ccfe1342095f
 SHA256: d6f8d7f3d3056f8fdd66dd2d4d2ff481c179470283c1a894492e9f224a370ac4
+Section: NoAds
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
+Name: QQ净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Depiction
+
+Package: netskao.qqpurification
+Version: 1.5-9
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 490
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/qqpurification_1.5-9_iphoneos-arm64.deb
+Size: 179194
+MD5sum: 16a56d611c0937a37c654b72c7f6e1dc
+SHA1: 5f4b83c10de1b4be4787c05e74dc230dd0f2067b
+SHA256: 15051233e03f64b4276f95f07dd789871e6b5636c4a9e03de7adba1e4aa15f71
 Section: NoAds
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部
 Author: Netskao
@@ -14184,7 +14250,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 535
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/qqpurification_1.6-4.deb
+Filename: ./debs/qqpurification_1.6-4_iphoneos-arm.deb
 Size: 138320
 MD5sum: d764c0ac78664519fb4b189221b78d87
 SHA1: d849229567c1973af8101b8067f7ce967b4e88da
@@ -14202,7 +14268,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 520
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/qqpurification_1.7-1.deb
+Filename: ./debs/qqpurification_1.7-1_iphoneos-arm.deb
 Size: 139012
 MD5sum: 7ff08dba25f19024f428b291963d6082
 SHA1: 675eac547e021f90901cac71816d232bf6cb4d83
@@ -14220,7 +14286,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 515
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/qqpurification_1.7-2.deb
+Filename: ./debs/qqpurification_1.7-2_iphoneos-arm.deb
 Size: 140196
 MD5sum: 8638d94d8498e4f19c6767a82dea0126
 SHA1: d04010c05127a2e31fbab1454a92a4b3f9aad1df
@@ -14238,7 +14304,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 532
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/qqpurification_1.7-6.deb
+Filename: ./debs/qqpurification_1.7-6_iphoneos-arm.deb
 Size: 142920
 MD5sum: 5b88be24c58b7905eaa3dc32a22ae4de
 SHA1: 768e898bea038fa808872f999cf1cf3078e8356c
@@ -14256,7 +14322,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 539
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/qqpurification_1.7-8.deb
+Filename: ./debs/qqpurification_1.7-8_iphoneos-arm.deb
 Size: 148100
 MD5sum: 71c692572492957c1cb0e01b88950360
 SHA1: f2e9b694068644f32778492ccb1671fc0c3bdf57
@@ -14274,7 +14340,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 566
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/qqpurification_1.8-8.2.deb
+Filename: ./debs/qqpurification_1.8-8.2_iphoneos-arm.deb
 Size: 156472
 MD5sum: 1ac0dc736df71f8109de529f46ac3b38
 SHA1: 529e1d3a0f6fd976736dd6dfbb404944d1d8254a
@@ -14292,7 +14358,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 572
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/qqpurification_1.8-9.deb
+Filename: ./debs/qqpurification_1.8-9_iphoneos-arm.deb
 Size: 157476
 MD5sum: 269854af0c5818dbb206ed90d97df901
 SHA1: 3bb4c58725f43425b4a2ad87f98360fa19933e19
@@ -14310,7 +14376,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 463
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/qqpurification_1.9-3.1.deb
+Filename: ./debs/qqpurification_1.9-3.1_iphoneos-arm.deb
 Size: 130476
 MD5sum: 8b214e583b2ae1246331711ab22a3709
 SHA1: 77463b6ddead60069140fdc7df347bd9545e0bf4
@@ -14328,7 +14394,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 445
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/qqpurification_1.9-3.2.deb
+Filename: ./debs/qqpurification_1.9-3.2_iphoneos-arm.deb
 Size: 127908
 MD5sum: ef4cb31ccc1be455da84bc025053e5ba
 SHA1: 89bb3a42231b9cffa856a2f84b3ace6194ac5abb
@@ -14346,7 +14412,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 468
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/qqpurification_1.9-3.8.deb
+Filename: ./debs/qqpurification_1.9-3.8_iphoneos-arm.deb
 Size: 133040
 MD5sum: f42d1c537c6d46e1aedff6cba0bd7711
 SHA1: ab58a52513348701c04cfadd3afe26cbc66a9e3a
@@ -14364,7 +14430,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 530
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/qqpurification_1.9-4.1.deb
+Filename: ./debs/qqpurification_1.9-4.1_iphoneos-arm.deb
 Size: 152464
 MD5sum: f21b9130e74a513c0f5a5c1d0474d825
 SHA1: d1f4204a50ec49d405609a63c490d2fbc2b2a65c
@@ -14382,7 +14448,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 535
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/qqpurification_1.9-7.deb
+Filename: ./debs/qqpurification_1.9-7_iphoneos-arm.deb
 Size: 158176
 MD5sum: 1a1de2fe8e883fc2c42e87ffffc9b544
 SHA1: 15a3b2c9abc1ec758cb19342d0a269832555a4a5
@@ -14400,7 +14466,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 568
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/qqpurification_1.9-9.deb
+Filename: ./debs/qqpurification_1.9-9_iphoneos-arm.deb
 Size: 163964
 MD5sum: 31fc27689da3cde7494a2c2586399914
 SHA1: 43c914181f4bd68ad4b3dee287f4b177698f118b
@@ -14418,7 +14484,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 569
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/qqpurification_1.9-9.1.deb
+Filename: ./debs/qqpurification_1.9-9.1_iphoneos-arm.deb
 Size: 171364
 MD5sum: 2cdf7b227138ab9848d54cac536da50d
 SHA1: 863574b7614d13285564412ab390f925e27012cd
@@ -14436,7 +14502,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 469
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/qqpurification_1.9-9.3.deb
+Filename: ./debs/qqpurification_1.9-9.3_iphoneos-arm.deb
 Size: 131820
 MD5sum: 87aa0d1af0990f7ba5e9b06f266933bb
 SHA1: cfbe3cc79f9d5dd72eb17b9ef03fb60fb4a25037
@@ -14454,7 +14520,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 478
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/qqpurification_1.9-9.8.deb
+Filename: ./debs/qqpurification_1.9-9.8_iphoneos-arm.deb
 Size: 142996
 MD5sum: 464933df7ad465aeaf096ea5e747d1d8
 SHA1: 8b115abe8175af7066c530b2fd5f741b23796442
@@ -14472,7 +14538,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 899
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/qqpurification_1.9-9.9.deb
+Filename: ./debs/qqpurification_1.9-9.9_iphoneos-arm.deb
 Size: 243736
 MD5sum: 1ab74920d7a89f600edb6d39ea9e09dd
 SHA1: 355c718e9fe5e863487d6d1bed6da47bb5dc4b13
@@ -14490,7 +14556,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 806
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/qqpurification_2.0-2.deb
+Filename: ./debs/qqpurification_2.0-2_iphoneos-arm.deb
 Size: 245092
 MD5sum: 207ac99c8ea82846ed8dabb313aa97a5
 SHA1: eb571f14816e292d8eccff07061598dca8d6ff06
@@ -14508,7 +14574,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 936
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/qqpurification_2.0-2.3.deb
+Filename: ./debs/qqpurification_2.0-2.3_iphoneos-arm.deb
 Size: 251924
 MD5sum: d649d6446ace6675cd35fccbefd4257f
 SHA1: 1f3c7f4858264616dd928fa5ba96bb6a22a563d9
@@ -14526,7 +14592,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 938
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/qqpurification_2.0-2.3-1.deb
+Filename: ./debs/qqpurification_2.0-2.3-1_iphoneos-arm.deb
 Size: 256556
 MD5sum: eea9a275bb23256c22a2a941d9a560da
 SHA1: 2a3856974e07aa153dcdc98aa0f1f2f370fed6a8
@@ -14544,7 +14610,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 896
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/qqpurification_2.1-1.deb
+Filename: ./debs/qqpurification_2.1-1_iphoneos-arm.deb
 Size: 252576
 MD5sum: 512d128222ae0dbe0f80d3857740d350
 SHA1: 63c215bccc6cee11b2ffa463229c7d3d388ca02f
@@ -14562,7 +14628,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 964
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/qqpurification_2.1-2.deb
+Filename: ./debs/qqpurification_2.1-2_iphoneos-arm.deb
 Size: 266824
 MD5sum: be71d3df925a58b15101ff55449310fb
 SHA1: 91c599a6510369a44a5cd308512c55a5de26b589
@@ -14580,7 +14646,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 1934
 Depends: mobilesubstrate, firmware (>= 12.0)
-Filename: ./debs/qqpurification_2.2-5.deb
+Filename: ./debs/qqpurification_2.2-5_iphoneos-arm.deb
 Size: 995832
 MD5sum: 68bd63791c7a709e052b12bf9e8491ff
 SHA1: 61ef4b24d2edfeeb0a54109f847b7bb3befc456b
@@ -14598,11 +14664,29 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 1900
 Depends: mobilesubstrate, firmware (>= 12.0)
-Filename: ./debs/qqpurification_2.3-3.deb
+Filename: ./debs/qqpurification_2.3-3_iphoneos-arm.deb
 Size: 1007312
 MD5sum: b637c07608fdbb85bd32d4af8fa728e8
 SHA1: 49dca5e1068f68063fee8ecd84335f16455c58c5
 SHA256: 15fc937837ace369c2fd9a869a09d3fbde7d09e2bf1b12fe17ae15eb6e577a5c
+Section: NoAds
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.9.0及以上版本
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
+Name: QQ净化
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Depiction
+
+Package: netskao.qqpurification
+Version: 2.3-3
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 1900
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: ./debs/qqpurification_2.3-3_iphoneos-arm64.deb
+Size: 1127786
+MD5sum: c8595898687e5c24fea3017f5c7d6329
+SHA1: 6a0742977e4fea70a7ffb0accef2c695c46532a5
+SHA256: 7b3a0359231a4494b9c44f634aff7460ad65bb0b2cac9dd9a6d7fbffbcde7fc3
 Section: NoAds
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.9.0及以上版本
 Author: Netskao
