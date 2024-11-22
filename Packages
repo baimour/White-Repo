@@ -5695,6 +5695,26 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Du
 Name: DumpDecrypter
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/DumpDecrypter/Depiction
 
+Package: com.white.dumpdecrypter
+Version: 1.5-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 952
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.netskao.dumpdecrypter
+Replaces: com.netskao.dumpdecrypter
+Filename: ./debs/dumpdecrypter_1.5-1_iphoneos-arm64.deb
+Size: 393748
+MD5sum: 799c8f9c60fce9b904a5d0d36ee7747b
+SHA1: 073436ce5558d6f3b49e5a82c002de02e9340139
+SHA256: 784bf4fed8bc3fcd4aedbd95d00d9f0245aa8c87e9d53833dd586e631fdb2d48
+Section: Utilities
+Description: 解密iOS应用和小组件，支持iOS15+，仅测试iOS16.1
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/DumpDecrypter/icon.png
+Name: DumpDecrypter
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/DumpDecrypter/Depiction
+
 Package: com.white.dynamicpeninsula
 Version: 0.6-80
 Architecture: iphoneos-arm
@@ -9557,6 +9577,42 @@ Description: 优化精简去除一些杂七杂八、花里胡哨的东西，修�
 Author: iOSign
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ
+
+Package: com.white.qqhook
+Version: 1.1.1-2
+Architecture: iphoneos-arm64
+Maintainer: 图层
+Installed-Size: 2280
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/qqhook_1.1.1-2_iphoneos-arm64.deb
+Size: 785260
+MD5sum: fad6ef0a09953f21b7d6dc358a5cd595
+SHA1: 224528873ce5b137567a21178658832af33d0121
+SHA256: 8d780a768e849f62c9d388ba76f84cb8afd41c3220564f93a4b8de20251942d1
+Section: NoAds
+Description: QQ设置-辅助功能-右上角开启，仅测试9.0.20+
+Author: 图层
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
+Name: QQ防撤回
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/tDepiction
+
+Package: com.white.qqhook
+Version: 1.1.1-2
+Architecture: iphoneos-arm
+Maintainer: 图层
+Installed-Size: 2216
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/qqhook_1.1.1-2_iphoneos-arm.deb
+Size: 764352
+MD5sum: 4b43adc62ca843432efb17d75b20a661
+SHA1: b83a3d05973b963ec70e5c45c614e6e3a20af9b7
+SHA256: 0c521892df68c2856043c9459a8eb6b911eae7426cfd4869430c3ca0c8e5208c
+Section: NoAds
+Description: QQ设置-辅助功能-右上角开启，仅测试9.0.20+
+Author: 图层
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
+Name: QQ防撤回
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/tDepiction
 
 Package: com.white.qqmail
 Version: 1.0
