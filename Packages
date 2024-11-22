@@ -4573,46 +4573,6 @@ Author: haoerloveyou <haoerloveyou@gmail.com>
 Name: FixCmcc 6S 6SP iOS9
 Sponsor: haoerloveyou <haoerloveyou@gmail.com>
 
-Package: com.white.cocoatop64
-Version: 2.2.3
-Architecture: iphoneos-arm
-Maintainer: SXX, Domo
-Installed-Size: 1116
-Depends: firmware (>= 7.0)
-Conflicts: ru.domo.cocoatop64, ru.domo.cocoatop
-Replaces: ru.domo.cocoatop64
-Filename: ./debs/cocoatop64_2.2.3_iphoneos-arm.deb
-Size: 243600
-MD5sum: bde0680046253eac4d8f6734708cf0b4
-SHA1: 0fc1f1e30478b66341922ef904a9f1aa5cd80d60
-SHA256: 4a37a55310241b664ef24e96ef61fe5db515be8cb53ba3ecce9ada81093b5c21
-Section: Utilities
-Description: iOS图形界面的进程查看器，由SXX为iOS 13更新
-Author: Domo, SXX
-Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cocoatop/icon.png
-Name: CocoaTop
-Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cocoatop/Depiction
-
-Package: com.white.cocoatop64
-Version: 2.2.3
-Architecture: iphoneos-arm64
-Maintainer: SXX, Domo
-Installed-Size: 1308
-Depends: firmware (>= 7.0)
-Conflicts: ru.domo.cocoatop64, ru.domo.cocoatop
-Replaces: ru.domo.cocoatop64
-Filename: ./debs/cocoatop64_2.2.3_iphoneos-arm64.deb
-Size: 246928
-MD5sum: 805d7f10c472433807131a3d554909d0
-SHA1: db8f5a474a2452ce48f3a4b90371d507dc6aa6c0
-SHA256: 611832fc4cdbc7ede1bb45ae9a4db1657355169637943add2c076fab0fc8586b
-Section: Utilities
-Description: iOS图形界面的进程查看器，由SXX为iOS 13更新
-Author: Domo, SXX
-Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cocoatop/icon.png
-Name: CocoaTop
-Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cocoatop/Depiction
-
 Package: com.white.colorbadges
 Version: 1.5.0
 Architecture: iphoneos-arm
@@ -15287,6 +15247,46 @@ Priority: optional
 Homepage: http://www.python.org/
 Description: 架构编程语言依赖
 Name: Python
+
+Package: ru.white.cocoatop64
+Version: 2.2.3
+Architecture: iphoneos-arm
+Maintainer: SXX, Domo
+Installed-Size: 1596
+Depends: firmware (>= 7.0)
+Conflicts: ru.domo.cocoatop, ru.domo.cocoatop64
+Replaces: ru.domo.cocoatop, ru.domo.cocoatop64
+Filename: ./debs/cocoatop64_2.2.3_iphoneos-arm.deb
+Size: 322634
+MD5sum: 3d20319f0396ecf49f847b621879b1f5
+SHA1: f799be97396224da85e6d1a6d03cb0a624aff469
+SHA256: 5791eec56fa03a281b414af796112b05198aa6fc73f00d5fae76d48c6d6e94fd
+Section: Utilities
+Description: iOS图形界面的进程查看器，威峰@Ponyln汉化
+Author: Domo, SXX
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cocoatop/icon.png
+Name: CocoaTop
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cocoatop/Depiction
+
+Package: ru.white.cocoatop64
+Version: 2.2.3
+Architecture: iphoneos-arm64
+Maintainer: SXX, Domo
+Installed-Size: 1308
+Depends: firmware (>= 7.0)
+Conflicts: ru.domo.cocoatop, ru.domo.cocoatop64
+Replaces: ru.domo.cocoatop, ru.domo.cocoatop64
+Filename: ./debs/cocoatop64_2.2.3_iphoneos-arm64.deb
+Size: 262768
+MD5sum: 18e91397f1b339b0420306bf7545e13b
+SHA1: e25b6cde9975d59c6ed4b466b6b67831d471a110
+SHA256: 098d2e1742802088dd7f857fce58daf08b6fddf78993dd1e01e8c3a2d2e908b3
+Section: Utilities
+Description: iOS图形界面的进程查看器，威峰@Ponyln汉化
+Author: Domo, SXX
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cocoatop/icon.png
+Name: CocoaTop
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cocoatop/Depiction
 
 Package: shc
 Version: 4.0.3
