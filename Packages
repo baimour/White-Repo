@@ -7318,6 +7318,23 @@ Author: iBreak <ibreak2019@qq.com>
 Name: Hide Dark
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/hidedark/Depiction
 
+Package: com.white.homegesture13
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: White
+Installed-Size: 72
+Depends: firmware (>= 13.0), firmware (<< 15.0), mobilesubstrate
+Filename: ./debs/homegesture13_1.0_iphoneos-arm.deb
+Size: 2716
+MD5sum: ee8abde06e46c3e6f65f119b98348727
+SHA1: d2551bd368c1d703e284ccac046a2ec5c8553809
+SHA256: 220b15d77664a85147d35279da51f9d9c01847a64c096ada87f45d59d2a5d459
+Section: Tweaks
+Description: 安装即生效无设置，兼容iOS13-14.X，iOS13以下系统设备会安全模式！理论兼容非刘海屏设备。补丁说明: 本补丁规则由威锋锋友'LWK牛仔'提供，只有刘海屏手势，不会出现安全模式，手势微信语音也不会出现误触，进入相机或者全屏游戏的时需要上滑2次才能激活手势
+Author: poqw312
+Name: Home Gesture手势 (iOS13-14)
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/homegesture13/Depiction
+
 Package: com.white.i4notes
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -7789,6 +7806,42 @@ Author: White <(null)>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/jiakaobd/icon.png
 Name: 驾考宝典 NoAds
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/jiakaobd/Depiction
+
+Package: com.white.jrtthook
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: 图层
+Installed-Size: 644
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/jrtthook_1.0.4_iphoneos-arm64.deb
+Size: 179976
+MD5sum: c4b19d3af73d36ffcdd752addc587ad7
+SHA1: 694183a27085ccf03cb6043572c395caf62c3025
+SHA256: c3a6c0f9ac207670bd5ed5ac77aeb5aef24ccc4b0bf0869bd56f03c784053f6c
+Section: NoAds
+Description: 设置界面双指长按出现菜单，默认移除一些广告，无水印保存视频，移除杂项，支持Pro版
+Author: 图层
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/jrtt/icon.png
+Name: 今日头条 Hook
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/jrtt/Depiction
+
+Package: com.white.jrtthook
+Version: 1.0.4
+Architecture: iphoneos-arm
+Maintainer: 图层
+Installed-Size: 644
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/jrtthook_1.0.4_iphoneos-arm.deb
+Size: 181128
+MD5sum: 5c308354b68b0b66be48846d90ea55b8
+SHA1: e5e7523c9af067fbf34ef339bdc08eb1938701be
+SHA256: 5786fe4cc775ce246e8c690c124cc9bd6c80aaa8f93e03de81d9de437eb668e6
+Section: NoAds
+Description: 设置界面双指长按出现菜单，默认移除一些广告，无水印保存视频，移除杂项，支持Pro版
+Author: 图层
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/jrtt/icon.png
+Name: 今日头条 Hook
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/jrtt/Depiction
 
 Package: com.white.jumpadvideo
 Version: 0.1-3
