@@ -11724,6 +11724,42 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/tw
 Name: TweakSettings
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/tweaksettings/Depiction
 
+Package: com.white.twitternoads
+Version: 1.1-2
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: ./debs/twitternoads_1.1-2_iphoneos-arm64.deb
+Size: 3470
+MD5sum: d97785b0b6715644654cecc9ab93cd82
+SHA1: cec67b31824c170fbc275abb7ace3c60fad652ec
+SHA256: 34bfd727b1191ca0c1fb58e9ed190a30c85beba9810929b74b2a4c3ffe6ef990
+Section: NoAds
+Description: Twitter删除数据流中的广告。仅在10.64.1测试
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/twitter/icon.png
+Name: Twitter NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/twitter/Depiction
+
+Package: com.white.twitternoads
+Version: 1.1-2
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: ./debs/twitternoads_1.1-2_iphoneos-arm.deb
+Size: 3392
+MD5sum: b0a19f8a1c4718ab396fffac45a3c021
+SHA1: 65d042350d02f62e56dfe29cbdf8e4f0573bfb7d
+SHA256: a282444e7d8faf0b88445490695c945d66d4d8118b6b5bda45a8a54338f082ac
+Section: NoAds
+Description: Twitter删除数据流中的广告。仅在10.64.1测试
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/twitter/icon.png
+Name: Twitter NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/twitter/Depiction
+
 Package: com.white.txdecos
 Version: 1.0
 Architecture: iphoneos-arm64
