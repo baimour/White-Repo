@@ -3164,6 +3164,42 @@ Depiction: https://chariz.com/get/atria
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/atria/icon.png
 Name: Atria
 
+Package: com.white.awemealwaysshowtime
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: ./debs/awemealwaysshowtime_1.1-1_iphoneos-arm64.deb
+Size: 3032
+MD5sum: 35a5886afc4b2c73dad7b04f58a8f907
+SHA1: 3075502905678d12d1cdfc5ee938fd837073832e
+SHA256: 5cdf499d72b1ad698106b252b1e847b63d30bdb606e698bbcab0097eaeb80c38
+Section: NoAds
+Description: 抖音始终显示视频创建时间
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemedownloadmedia/icon.png
+Name: 抖音显示时间
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemealwaysshowtime/Depiction
+
+Package: com.white.awemealwaysshowtime
+Version: 1.1-1
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: ./debs/awemealwaysshowtime_1.1-1_iphoneos-arm.deb
+Size: 2948
+MD5sum: 6e64c64918e790baf4e9eaa65e41825a
+SHA1: 6604534fa27d63bea064c2fbb517845a8a62a7a3
+SHA256: 84e16437827ad5ab9ff8bee5d6015ecfa8b4a50273a5d38c07909132127368c3
+Section: NoAds
+Description: 抖音始终显示视频创建时间
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemedownloadmedia/icon.png
+Name: 抖音显示时间
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemealwaysshowtime/Depiction
+
 Package: com.white.axj
 Version: 8.0.0-50
 Architecture: iphoneos-arm
@@ -8923,6 +8959,42 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ap
 Name: NoAppThinning
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/noappthinning/Depiction
 
+Package: com.white.noappthinning
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: ned
+Installed-Size: 136
+Depends: firmware (>= 11.0), mobilesubstrate
+Filename: ./debs/noappthinning_1.4_iphoneos-arm64.deb
+Size: 4638
+MD5sum: 6ebf15594269313158e959a99852a31c
+SHA1: 246227222b087c3eb6229e52da56374360a0783a
+SHA256: f74d919ce9f0f908ac182f74d8d9a6eee9cb7d2230bd9f09376a1650fd4a43d4
+Section: Tweaks
+Description: 允许AppStore/TestFlight下载全量包应用，作者：level3tjg
+Author: ned
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/noappthinning/icon.png
+Name: NoAppThinning
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/noappthinning/Depiction
+
+Package: com.white.noappthinning
+Version: 1.4
+Architecture: iphoneos-arm
+Maintainer: ned
+Installed-Size: 136
+Depends: firmware (>= 11.0), mobilesubstrate
+Filename: ./debs/noappthinning_1.4_iphoneos-arm.deb
+Size: 4556
+MD5sum: 2b560a1df0bf6bac4aa792281dd1dda1
+SHA1: a0c97cd99674b143b99710c3e37cb70dbf6a5481
+SHA256: c41ef433b858e8b38b31f81d074b7217e19bdc9d5d45f0690e64eb446ac53383
+Section: Tweaks
+Description: 允许AppStore/TestFlight下载全量包应用，作者：level3tjg
+Author: ned
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/noappthinning/icon.png
+Name: NoAppThinning
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/noappthinning/Depiction
+
 Package: com.white.nobetaalert
 Version: 1.4.3
 Architecture: iphoneos-arm
@@ -10529,6 +10601,60 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sh
 Name: Sharecuts 捷径分享
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/sharecuts/Depiction
 Sponsor: daniel
+
+Package: com.white.showtouch
+Version: 1.0.4-2
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 564
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Filename: ./debs/showtouch_1.0.4-2_iphoneos-arm.deb
+Size: 94848
+MD5sum: 84eae671e281d357e17f533579179574
+SHA1: 24e4cffb00490eee3c68588766bffcea46ac1705
+SHA256: b057122a1335b4faefaa74540ca1e920cdc08ce049e62beee2358eea747b1041
+Section: Tweaks
+Description: 录屏显示触摸屏幕的位置
+Author: LonestarX
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/showtouch/icon.png
+Name: ShowTouch
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/showtouch/Depiction
+
+Package: com.white.showtouch
+Version: 1.0.4-2
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 2412
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/showtouch_1.0.4-2_iphoneos-arm64.deb
+Size: 577412
+MD5sum: 370130e5a4c0c37818d1197f835e6b27
+SHA1: 5e9679d4c0cafe8c9cc14140754ae922907bf2ac
+SHA256: 0635be05201f18f9c2fc1a3408f3723af62399778ba680628e7ebf8eed2792d1
+Section: Tweaks
+Description: 录屏显示触摸屏幕的位置
+Author: LonestarX
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/showtouch/icon.png
+Name: ShowTouch
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/showtouch/Depiction
+
+Package: com.white.showtouch
+Version: 1.0.4-3
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 1432
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/showtouch_1.0.4-3_iphoneos-arm64.deb
+Size: 376492
+MD5sum: 50c34c1113297953db2e4bc67254efd5
+SHA1: 2c0c861955d22d643e18bdfc122ccaecba77ab61
+SHA256: f362be0c24429115b8d54e38ae0dcf3d09e38bae672a814968932bd0acf05ca6
+Section: Tweaks
+Description: 录屏显示触摸屏幕的位置
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/showtouch/icon.png
+Name: ShowTouch
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/showtouch/Depiction
 
 Package: com.white.shuffle
 Version: 1.6.2
@@ -14820,54 +14946,6 @@ Author: Netskao
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/icon.png
 Name: QQ净化
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ/Depiction
-
-Package: netskao.showtouch
-Version: 1.0.4-2
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 2412
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: ./debs/netskao.showtouch_1.0.4-2_iphoneos-arm64.deb
-Size: 579396
-MD5sum: a3f318eb9792f8f532d88a35cc852304
-SHA1: d2fb0222011758b2a56b859e3220b65d0195f7be
-SHA256: 8afe42adaead926527047fde6d683d16ec2db36cfbe0b36efc809942e5a762a9
-Section: Tweaks
-Description: 录屏显示触摸屏幕的位置
-Author: LonestarX
-Name: ShowTouch
-
-Package: netskao.showtouch
-Version: 1.0.4-2
-Architecture: iphoneos-arm
-Maintainer: Nets
-Installed-Size: 564
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
-Filename: ./debs/netskao.showtouch_1.0.4-2_iphoneos-arm.deb
-Size: 105026
-MD5sum: fe8139c89deecfda17596c57c2656e30
-SHA1: 6f30d307b0b68dfd8ef7ee57b369cb427d71d3b8
-SHA256: 2ee116c87f8c3eeb2298e87397f4de3a6a6013e351a86bc2a8ea284200dbea64
-Section: Tweaks
-Description: 录屏显示触摸屏幕的位置
-Author: LonestarX
-Name: ShowTouch
-
-Package: netskao.showtouch
-Version: 1.0.4-3
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 1432
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: ./debs/netskao.showtouch_1.0.4-3_iphoneos-arm64.deb
-Size: 376260
-MD5sum: ba4fa681d46c75708e4199c2adeae0fa
-SHA1: 9eb124c53a5caf0073a2782d2a7a467c97f92180
-SHA256: e26920d84dd79c39464e75411ec69671b5a0ab8074c48243b0538678f3ea4c5b
-Section: Tweaks
-Description: 录屏显示触摸屏幕的位置
-Author: Netskao
-Name: ShowTouch
 
 Package: netskao.smallbanners
 Version: 1.2-6
