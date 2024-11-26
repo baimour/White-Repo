@@ -1516,18 +1516,58 @@ Name: 抖音视频时间
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/awemevideotime/Depiction
 
 Package: com.netskao.disabletestflightblock
+Version: 1.1-3
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 524
+Depends: firmware (>= 9.0), mobilesubstrate
+Conflicts: netskao.disabletestflightblock
+Replaces: netskao.disabletestflightblock
+Filename: ./debs/com.netskao.disabletestflightblock_1.1-3_iphoneos-arm64.deb
+Size: 168786
+MD5sum: 3217f4353296f0dce9d53a5e1f500cd6
+SHA1: af45425be7232f3401e6228333ec3e9fc0496899
+SHA256: 10b50fcc6fc493fa7896595caf3a42a875707f26af43df52929a9e22148d6312
+Section: Tweaks
+Description: 解除国区账号无法下载国区AppSrore内已下架或者未上架国区的对应TestFlight应用
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/disabletestflightblock/icon.png
+Name: DisableTestFlightBlock
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/disabletestflightblock/Depiction
+
+Package: com.netskao.disabletestflightblock
+Version: 1.1-3
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 524
+Depends: firmware (>= 9.0), mobilesubstrate
+Conflicts: netskao.disabletestflightblock
+Replaces: netskao.disabletestflightblock
+Filename: ./debs/com.netskao.disabletestflightblock_1.1-3_iphoneos-arm.deb
+Size: 123976
+MD5sum: 4da819c088ea31147729b3735ff47721
+SHA1: 30b833bee2b455498e46adf1105a2d2b3d6a5ce5
+SHA256: 8a52612f15ee62794a8b08e999ad332ec32267aafb66227660f010f761994fb8
+Section: Tweaks
+Description: 解除国区账号无法下载国区AppSrore内已下架或者未上架国区的对应TestFlight应用
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/disabletestflightblock/icon.png
+Name: DisableTestFlightBlock
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/disabletestflightblock/Depiction
+
+Package: com.netskao.disabletestflightblock
 Version: 1.1-4
 Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 104
-Depends: firmware (>= 13.0), mobilesubstrate
+Depends: firmware (>= 9.0), mobilesubstrate
 Conflicts: netskao.disabletestflightblock
 Replaces: netskao.disabletestflightblock
 Filename: ./debs/com.netskao.disabletestflightblock_1.1-4_iphoneos-arm.deb
-Size: 13032
-MD5sum: bf9a76080781f85a72b03d2972ed3bad
-SHA1: fd3ee9d63347692b6b00b312bcd5080875ef9254
-SHA256: f30cb696507d9f8a870f97900442f7581b85e15028d2517fc61f3914e4d0be59
+Size: 13012
+MD5sum: 2a937c2d6ba5c94e66f9e87229cea7d5
+SHA1: 2d9b4d4d4ac832c827af0a66ce0320d3046e81ea
+SHA256: ac7323c6bfa1822f64c9991548738d2c421182d4ea793b1c0b88e7de68bc4689
 Section: Tweaks
 Description: 解除国区账号无法下载国区AppSrore内已下架或者未上架国区的对应TestFlight应用
 Author: Netskao
@@ -1540,14 +1580,14 @@ Version: 1.1-4
 Architecture: iphoneos-arm64
 Maintainer: Nets
 Installed-Size: 104
-Depends: firmware (>= 13.0), mobilesubstrate
+Depends: firmware (>= 9.0), mobilesubstrate
 Conflicts: netskao.disabletestflightblock
 Replaces: netskao.disabletestflightblock
 Filename: ./debs/com.netskao.disabletestflightblock_1.1-4_iphoneos-arm64.deb
-Size: 16004
-MD5sum: ac587b59e0eeb951ee4e0ae34306b73e
-SHA1: 88a3ffc255278973eaa275abc575df01c2aa2174
-SHA256: aed1e9db784f7794c861b9a2ea99299f30c31dac79691c6df84a810b160c97d6
+Size: 13048
+MD5sum: 03cb2205e9c85da2d6d517fff566f14d
+SHA1: 74125b0adeb9a17665ff5f0979e3414d4610e916
+SHA256: fcdfbc7ce3e6dadbc16b344ac9f03ff3d7673e88b3f3a9472a4ef650f6cd21bb
 Section: Tweaks
 Description: 解除国区账号无法下载国区AppSrore内已下架或者未上架国区的对应TestFlight应用
 Author: Netskao
@@ -3961,6 +4001,40 @@ Name: 哔哩哔哩净化
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/oDepiction
 Sponsor: Netskao
 
+Package: com.white.blackhuangbai
+Version: 1.0-3
+Architecture: iphoneos-arm
+Maintainer: HuangBai <1343309363@qq.com>
+Depends: mobilesubstrate
+Filename: ./debs/blackhuangbai_1.0-3_iphoneos-arm.deb
+Size: 6354792
+MD5sum: 48527da12edcc67b0596e1f3acf79aff
+SHA1: 77d719f2914ac0f60993c2fb411e9e420651f4d1
+SHA256: 256345fd934caed40a979aea54f1520758f3791b9223471f3095247c049f42d9
+Section: Wechat
+Description: 微信免费文本转语音，免费转语音插件，token自己申请仅拥有'真人音色'板块
+Author: HuangBai <1343309363@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/icon.png
+Name: 黑神话·黄白
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/bhbDepiction
+
+Package: com.white.blackhuangbai
+Version: 1.0-3
+Architecture: iphoneos-arm64
+Maintainer: HuangBai <1343309363@qq.com>
+Depends: mobilesubstrate
+Filename: ./debs/blackhuangbai_1.0-3_iphoneos-arm64.deb
+Size: 8729012
+MD5sum: 0e6258e98f05dd7f43435721b084bbb6
+SHA1: df8b9360823035aa07229dc325437e206fa239cd
+SHA256: 2e4659c8ffc3f1d9c4772dfaf7530052be161df67e0ef072ceb6ce6ceb8de1f9
+Section: Wechat
+Description: 微信免费文本转语音，免费转语音插件，token自己申请仅拥有'真人音色'板块
+Author: HuangBai <1343309363@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/icon.png
+Name: 黑神话·黄白
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/bhbDepiction
+
 Package: com.white.blblnoads
 Version: 1.1-2
 Architecture: iphoneos-arm
@@ -4234,6 +4308,24 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ch
 Name: Choicy
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/choicy/Depiction
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.white.choicy
+Version: 1.4.10-3
+Architecture: iphoneos-arm
+Maintainer: White
+Installed-Size: 1092
+Depends: firmware (>= 10.0), mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Filename: ./debs/choicy_1.4.10-3_iphoneos-arm.deb
+Size: 161388
+MD5sum: ec20fbb252d05f690eb1a67e68caa4d8
+SHA1: c5025d205e676637d8236b78d4ff4a1d1a9a40d4
+SHA256: e06a779612d4613cdcc822f48b55387f1f6f64b9da37279c928f945630a7eb7f
+Section: Tweaks
+Description: 高级插件配置，应用屏蔽插件注入
+Author: opa334
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/choicy/icon.png
+Name: Choicy
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/choicy/Depiction
 
 Package: com.white.classicfolders3
 Version: 3.0.1
@@ -7160,16 +7252,16 @@ Package: com.white.gswechathelper
 Version: 3.0-6
 Architecture: iphoneos-arm64
 Maintainer: 挂神 <xuanhua880@gmail.com>
-Depends: firmware (>= 12.0)
+Depends: firmware (>= 9.0)
 Filename: ./debs/gswechathelper_3.0-6_iphoneos-arm64.deb
-Size: 76960
-MD5sum: c4192e025ec83d52dff6fff89c1463b0
-SHA1: e48ec718fd1e79560041a63cac91f9e41c84e919
-SHA256: 6024507e901b6e1a96977ff89c3d759c42a8dacbfa3af03cc7d4db31bd94d798
+Size: 77084
+MD5sum: 3f07ff7ce9471b87d55716d9d1869031
+SHA1: 1d5cd506d419a5b061b8f68724f03dfe33c67949
+SHA256: 1bd3df7bb8f4fa5fc206daeec16b96bcbce03480df036da37ef0f989dfd3ec3c
 Section: Wechat
 Description: 挂神微信助手
 Author: 挂神 <xuanhua880@gmail.com>
-Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/wechat/icon.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ Wechat/icon.png
 Name: GSWeChatHelper
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/gswchelper/Depiction
 
@@ -7177,16 +7269,16 @@ Package: com.white.gswechathelper
 Version: 3.0-6
 Architecture: iphoneos-arm
 Maintainer: 挂神 <xuanhua880@gmail.com>
-Depends: firmware (>= 12.0)
+Depends: firmware (>= 9.0)
 Filename: ./debs/gswechathelper_3.0-6_iphoneos-arm.deb
-Size: 78856
-MD5sum: 08caefafde2acd8067e82e585e84e40c
-SHA1: c8552ecb662b6334dc34f1bd89c43452a019f5b1
-SHA256: 02e282e35597bc36f3d8da9de5dd0bc9d6abda9957573d88e2f014d63dc010a6
+Size: 78812
+MD5sum: c41fe7d4d4873ccd2c5b9e73aafc3344
+SHA1: ff76e3520b6a0c06532c737b64357cd218f53087
+SHA256: b4baca2d387371c5473955462e79601606bd903faccba4c763e75c71546bdecc
 Section: Wechat
 Description: 挂神微信助手
 Author: 挂神 <xuanhua880@gmail.com>
-Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/wechat/icon.png
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/icon.png
 Name: GSWeChatHelper
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/gswchelper/Depiction
 
@@ -7370,6 +7462,40 @@ Description: 安装即生效无设置，兼容iOS13-14.X，iOS13以下系统设�
 Author: poqw312
 Name: Home Gesture手势 (iOS13-14)
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/homegesture13/Depiction
+
+Package: com.white.huangbai
+Version: 1.7-8
+Architecture: iphoneos-arm64
+Maintainer: HuangBai <1343309363@qq.com>
+Depends: mobilesubstrate
+Filename: ./debs/huangbai_1.7-8_iphoneos-arm64.deb
+Size: 15899576
+MD5sum: 3c13eff84611b7fcad204551a973a396
+SHA1: d20d1c5a7e10045d4398394153a0cf455fe9fee8
+SHA256: 12ca8a79b8c4da842adb80338e63bd384ca394e679b63d81c694027d639a1394
+Section: Wechat
+Description: 点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况Live图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载dylib文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
+Author: HuangBai <1343309363@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/icon.png
+Name: 黄白助手
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/hbDepiction
+
+Package: com.white.huangbai
+Version: 1.7-8
+Architecture: iphoneos-arm
+Maintainer: HuangBai <1343309363@qq.com>
+Depends: mobilesubstrate
+Filename: ./debs/huangbai_1.7-8_iphoneos-arm.deb
+Size: 11460324
+MD5sum: 126635e6e77ceb5d1e3170e889dc34cf
+SHA1: 45fa8a5f1656028d7e77a96978132daa0e9e4dcd
+SHA256: fca4895185f403ddc7f6ea8f5b75671efdb95c8215515b0b7e8b7b2f8c3bf4c9
+Section: Wechat
+Description: 点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况Live图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载dylib文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
+Author: HuangBai <1343309363@qq.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/icon.png
+Name: 黄白助手
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/hbDepiction
 
 Package: com.white.i4notes
 Version: 1.0
@@ -8708,6 +8834,44 @@ Author: 妄想者
 Icon: file:///Applications/Cydia.app/Sections/Toys.png
 Name: 拟态简黑主题
 Sponsor: White <1410970825@qq.com>
+
+Package: com.white.misakahelper
+Version: 2.1-0
+Architecture: iphoneos-arm
+Maintainer: Misaka <xuanhua880@gmail.com>
+Depends: mobilesubstrate
+Conflicts: MisakaHelper
+Replaces: MisakaHelper
+Filename: ./debs/misakahelper_2.1-0_iphoneos-arm.deb
+Size: 13422400
+MD5sum: 11adbd995341310f4f16934ef0c5c112
+SHA1: 0785fd83811e15ecf220bd528bed51a861b0a9d4
+SHA256: 0fd676b561cc638811e99106a60828fcc3e84344fbadb8e5dbd82d45e0b55d63
+Section: Wechat
+Description: Misaka集成版是将圈内最常用且最好用的主流插件，都事先内置在IPA包里，然后由Misaka插件进行自由选择加载。路径：微信-设置-Misaka-插件加载
+Author: Misaka <xuanhua880@gmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/icon.png
+Name: MisakaHelper
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/miDepiction
+
+Package: com.white.misakahelper
+Version: 2.1-0
+Architecture: iphoneos-arm64
+Maintainer: Misaka <xuanhua880@gmail.com>
+Depends: mobilesubstrate
+Conflicts: MisakaHelper
+Replaces: MisakaHelper
+Filename: ./debs/misakahelper_2.1-0_iphoneos-arm64.deb
+Size: 18553876
+MD5sum: ce7435657e5b34c07286943477b2760a
+SHA1: 877e44dfa98c03a65e3750eb8f4a7658df04f2eb
+SHA256: 5d3e240aaa81fd060ea7a367a484a1af175dea55dfb8fdb8036cc5911d42d6a3
+Section: Wechat
+Description: Misaka集成版是将圈内最常用且最好用的主流插件，都事先内置在IPA包里，然后由Misaka插件进行自由选择加载。路径：微信-设置-Misaka-插件加载
+Author: Misaka <xuanhua880@gmail.com>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/icon.png
+Name: MisakaHelper
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/miDepiction
 
 Package: com.white.modernstylesettings
 Version: 1.1-2
@@ -10564,6 +10728,30 @@ Homepage: https://frida.re/
 Description: 观察并重新编程正在运行的程序
 Author: Frida Developers <oleavr@nowsecure.com>
 Name: Frida
+
+Package: com.white.shadow
+Version: 3.7.6
+Architecture: iphoneos-arm
+Maintainer: jjolano
+Installed-Size: 1428
+Pre-Depends: dpkg
+Depends: firmware (>= 8.0), com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.rootbridge
+Recommends: mobilesubstrate, preferenceloader, me.jjolano.hkmodule.fishhook
+Suggests: com.ps.injectionfoundation
+Conflicts: me.jjolano.shadow, me.jjolano.shadow.beta, me.jjolano.shadow.legacy
+Replaces: me.jjolano.shadow, me.jjolano.shadow.beta
+Provides: me.jjolano.shadow.beta
+Filename: ./debs/shadow_3.7.6_iphoneos-arm.deb
+Size: 164420
+MD5sum: 445413dcfa0f0f22f9d6180f5d1d6cca
+SHA1: bea1086ac7dd448364f1a34265a573c07e4ef21b
+SHA256: 087bb290b45fe982a60a216710d5c22113cf78db472511a325f003299d83a6bd
+Section: Tweaks
+Description: 现代越狱检测绕过插件
+Author: jjolano
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/shadow/icon.png
+Name: Shadow
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/shadow/Depiction
 
 Package: com.white.shadowsocks
 Version: 0.3.2-3
@@ -13628,6 +13816,126 @@ Icon: https://ios.jjolano.me/assets/me.jjolano.alertdismiss/icon.png
 Moderndepiction: https://ios.jjolano.me/depiction/native/me.jjolano.alertdismiss.json
 Name: AlertDismiss
 Sileodepiction: https://ios.jjolano.me/depiction/native/me.jjolano.alertdismiss.json
+
+Package: me.jjolano.fmwk.hookkit
+Version: 1.0.15
+Architecture: iphoneos-arm
+Maintainer: jjolano
+Installed-Size: 284
+Depends: firmware (>= 8.0), me.jjolano.fmwk.modulous, me.jjolano.fmwk.rootbridge
+Filename: ./debs/me.jjolano.fmwk.hookkit_1.0.15_iphoneos-arm.deb
+Size: 24660
+MD5sum: 03520ca5c296cf7ef8f54ed6d72237c6
+SHA1: e62d67ee3d1292137e6dfcfd4b41a0c80e4dfadb
+SHA256: aac7305989aa6acc6b60bf9e0851f9527e4a9a7e4f8c060963b3c096dbf09caa
+Section: Development
+Description: 用于统一挂钩方法的iOS开发框架
+Tag: role::developer
+Author: jjolano
+Name: HookKit Framework
+
+Package: me.jjolano.fmwk.modulous
+Version: 1.0.8
+Architecture: iphoneos-arm
+Maintainer: jjolano
+Installed-Size: 280
+Depends: firmware (>= 8.0)
+Filename: ./debs/me.jjolano.fmwk.modulous_1.0.8_iphoneos-arm.deb
+Size: 10308
+MD5sum: 0ee7eea731d6336452ef1ced3e00da59
+SHA1: 80c8a8fc7d287ec59cdcaff100bcc836a3dc1be1
+SHA256: 475b0fe73b442e5117f98d5bf077a8b59697f15986db3c947c6b440f919f163c
+Section: Development
+Description: 用于模块化软件的iOS开发者框架
+Tag: role::developer
+Author: jjolano
+Name: Modulous Framework
+
+Package: me.jjolano.fmwk.rootbridge
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: jjolano
+Installed-Size: 280
+Depends: firmware (>= 8.0)
+Filename: ./debs/me.jjolano.fmwk.rootbridge_1.0.1_iphoneos-arm.deb
+Size: 6076
+MD5sum: 2e2d5ef475e37e7ed594343022ba2ac9
+SHA1: 8e1c7aa0c8e4fcbf8dd90e08d55fc0cfec72e325
+SHA256: 6a8ce3e33eb125b39f40bc45a243542601f2e90c7de78adb4d44bf844c36ce2a
+Section: Development
+Description: 用于无根插件开发的iOS开发者框架
+Tag: role::developer
+Author: jjolano
+Name: RootBridge Framework
+
+Package: me.jjolano.hkmodule.fishhook
+Version: 1.0.8
+Architecture: iphoneos-arm
+Maintainer: jjolano
+Installed-Size: 288
+Pre-Depends: me.jjolano.fmwk.hookkit
+Filename: ./debs/me.jjolano.hkmodule.fishhook_1.0.8_iphoneos-arm.deb
+Size: 10492
+MD5sum: a737b379a2ce4052bf474e1118c73f2c
+SHA1: 2cfe4449f93daf840ab34cbee9c3dcf4b35d4de3
+SHA256: cfa32bed98f8237433f61c6959990536f62eedf17a62710b0fa88484ba357973
+Section: HookKit (Modules)
+Description: 为HookKit框架提供Fishhook库支持
+Author: jjolano
+Name: HookKit Module (fishhook)
+
+Package: me.jjolano.hkmodule.libhooker
+Version: 1.0.7
+Architecture: iphoneos-arm
+Maintainer: jjolano
+Installed-Size: 156
+Pre-Depends: me.jjolano.fmwk.hookkit
+Depends: org.coolstar.libhooker (>= 1.0.0)
+Provides: me.jjolano.hkmodule.substrate
+Filename: ./debs/me.jjolano.hkmodule.libhooker_1.0.7_iphoneos-arm.deb
+Size: 5260
+MD5sum: 9fc5de582171e1205eff8d78827d14ba
+SHA1: 603762984dcceea796ce7d4a2f44e11dd6706eaf
+SHA256: 4811eaef891741ab2083c1f889abacc39389a142837ac0b8742448e5ee6e0cba
+Section: HookKit (Modules)
+Description: 为HookKit框架提供libhooker API
+Author: jjolano
+Name: HookKit Module (libhooker)
+
+Package: me.jjolano.hkmodule.substitute
+Version: 1.0.10
+Architecture: iphoneos-arm
+Maintainer: jjolano
+Installed-Size: 156
+Pre-Depends: me.jjolano.fmwk.hookkit
+Depends: com.ex.substitute | com.ex.libsubstitute | science.xnu.substitute, mobilesubstrate
+Provides: me.jjolano.hkmodule.substrate
+Filename: ./debs/me.jjolano.hkmodule.substitute_1.0.10_iphoneos-arm.deb
+Size: 5336
+MD5sum: 27a41b0f98c5ff5f089b5084f78d8cda
+SHA1: b9bd0fcd43b66e9708b7535d7ae5cbc25e9063e8
+SHA256: 40b98250210a5ad0d1aa994b153a147d4d2aad23bebc40f41532fa1c6603637b
+Section: HookKit (Modules)
+Description: 为HookKit框架提供替代API
+Author: jjolano
+Name: HookKit Module (Substitute)
+
+Package: me.jjolano.hkmodule.substrate
+Version: 1.0.8
+Architecture: iphoneos-arm
+Maintainer: jjolano
+Installed-Size: 284
+Pre-Depends: me.jjolano.fmwk.hookkit
+Depends: mobilesubstrate
+Filename: ./debs/me.jjolano.hkmodule.substrate_1.0.8_iphoneos-arm.deb
+Size: 5932
+MD5sum: d48822a325884f2e5a468a9c221bb15f
+SHA1: b58a93d5d145e9432b59dd59c39de97644872d3d
+SHA256: d9a18865dafbb3eff38cf681532c5175d51d69b8d029fd224c3c9a12f0f022b4
+Section: HookKit (Modules)
+Description: 为HookKit框架提供Cydia Substrate API
+Author: jjolano
+Name: HookKit Module (Cydia Substrate)
 
 Package: mterminal
 Version: 1.6
