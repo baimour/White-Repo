@@ -4008,10 +4008,10 @@ Maintainer: White <(null)>
 Installed-Size: 200
 Depends: firmware (>= 10.0), mobilesubstrate
 Filename: ./debs/bilinter_1.0_iphoneos-arm.deb
-Size: 18048
-MD5sum: 5006588754e5a26dd957fc63820e3424
-SHA1: 6e3701aed74f3a85fa419395304027e949439b9e
-SHA256: 77b418181d258b339ba82bdb2074510f154a43aa0a0de2630c9b307a59112fee
+Size: 18854
+MD5sum: 2e93f128f0bdbb60e68cfebceb07cee3
+SHA1: ade8bebc39d8df83f73403c63aeb6c29e851e5a2
+SHA256: 1c04b3fd43098ce6db85f913c3d5e9d96cef73db7a05859b8715d2ce6833ffa7
 Section: NoAds
 Description: 基于3.19制作，去广告，伪装会员
 Author: White <(null)>
@@ -4026,10 +4026,10 @@ Maintainer: White <(null)>
 Installed-Size: 136
 Depends: firmware (>= 10.0), mobilesubstrate
 Filename: ./debs/bilinter_1.0_iphoneos-arm64.deb
-Size: 12568
-MD5sum: 263a62b60756c3aa38ce7a35b6559014
-SHA1: c78f4e89ad10649b430938cdac59260f6e672f9e
-SHA256: ac40ec9ee311da081c83958e21450a924ca3edf2a9b4e67c6a8af475484bd1c4
+Size: 13146
+MD5sum: 0ff76b63b9e234ff9e9d6f7186e879b3
+SHA1: ff08e3404046a05b32bf0a2cee5990a327de70dc
+SHA256: 1b0b1bfb196ea6f89a294a336f6360d47577468167c2af6c52f16a570077b771
 Section: NoAds
 Description: 基于3.19制作，去广告，伪装会员
 Author: White <(null)>
