@@ -1650,6 +1650,42 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ
 Name: QQiPadModeLogin
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qqipadmodelogin/Depiction
 
+Package: com.netskao.wcmypageinfocenter
+Version: 1.1-8
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 220
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/wcmypageinfocenter_1.1-8_iphoneos-arm64.deb
+Size: 65288
+MD5sum: c5e2e229fcc569bad5bdfc56599401a0
+SHA1: 34a15ba7252919f98ba434f32d2bdfdf550fa032
+SHA256: 8f209395894cdcefdec799a9a8acbbc605939a2cce283a14333e13e0a85f7343
+Section: NoAds
+Description: 微信我的界面信息居中，仅支持8.0.31及更高版本
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/icon.png
+Name: WCMyPageInfoCenter
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/wcInfoDep
+
+Package: com.netskao.wechatuiswitchloader
+Version: 1.1-4
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 320
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/wechatuiswitchloader_1.1-4_iphoneos-arm64.deb
+Size: 120848
+MD5sum: 801a0f9ff879e95cd9b035d76461bb97
+SHA1: bbd8a5c2d1cf80862798a28b5d69b29397b41909
+SHA256: 11af61f2f485b9477b173822963a29ec41e97dc4a86534c49f6f98cc5eee23e6
+Section: NoAds
+Description: 微信开关按钮修改
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/icon.png
+Name: WeChatUISwitchLoader
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/wcuiDep
+
 Package: com.opa334.altlist
 Version: 1.0.10
 Architecture: iphoneos-arm
