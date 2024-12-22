@@ -1650,6 +1650,42 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/QQ
 Name: QQiPadModeLogin
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/qqipadmodelogin/Depiction
 
+Package: com.netskao.wchidechatavatars
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/wchidechatavatars_1.1-1_iphoneos-arm64.deb
+Size: 3104
+MD5sum: feff46cf6bfc5a9677c462a41ac840ac
+SHA1: 6951632d1ce7fa0702931dcbf3bcee41df010562
+SHA256: bb2378819e63fe6c8d0625197998dc519992c7689efca70e1b0857831ff4597f
+Section: NoAds
+Description: 微信隐藏聊天头像
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/icon.png
+Name: WCHideChatAvatars
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/wcavaDep
+
+Package: com.netskao.wchidechatavatars
+Version: 1.1-1
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/wchidechatavatars_1.1-1_iphoneos-arm.deb
+Size: 3016
+MD5sum: b6ab85b3727618a13cf5bf2e716dc4e1
+SHA1: 556a4f88087b7113c84ddd00e1ccb0177e83492f
+SHA256: 09dcab28dc61bbc4609907cee48ce403eb9ff5f7f9d5f730b29acbd57821c475
+Section: NoAds
+Description: 微信隐藏聊天头像
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/icon.png
+Name: WCHideChatAvatars
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/wcavaDep
+
 Package: com.netskao.wcmypageinfocenter
 Version: 1.1-8
 Architecture: iphoneos-arm64
@@ -1667,6 +1703,42 @@ Author: Netskao
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/icon.png
 Name: WCMyPageInfoCenter
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/wcInfoDep
+
+Package: com.netskao.wcnewminiappfloatingwindow
+Version: 1.1-1
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/wcnewminiappfloatingwindow_1.1-1_iphoneos-arm.deb
+Size: 3098
+MD5sum: a12f4b6634b59c9d7a0e133c3f619b1a
+SHA1: 6e46b33f0bbd4d2cf0af2779949498fe86c542c4
+SHA256: 64fd4be0ecaacefdb1a0f727654a67e5e3f3ccda54e49bee5581cf0ad631affd
+Section: Netskao-Tweaks
+Description: 微信启用AB测试的小程序悬浮窗功能，仅支持8.0.54+版本
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/icon.png
+Name: WCNewMiniAppFloatingWindow
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/floatDep
+
+Package: com.netskao.wcnewminiappfloatingwindow
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/wcnewminiappfloatingwindow_1.1-1_iphoneos-arm64.deb
+Size: 3182
+MD5sum: 891283e8b20b0ae5b3c8bfe758e1fd2f
+SHA1: b3418ea62a3043f25ec2adc240e32fb4d7e1e00a
+SHA256: e4aae4ef234efc3020d7adc69b6f02d33b9ea65f26b1b58461ec86e1650c513f
+Section: Netskao-Tweaks
+Description: 微信启用AB测试的小程序悬浮窗功能，仅支持8.0.54+版本
+Author: Netskao
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/icon.png
+Name: WCNewMiniAppFloatingWindow
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/floatDep
 
 Package: com.netskao.wechatuiswitchloader
 Version: 1.1-4
