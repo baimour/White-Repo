@@ -4073,6 +4073,42 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Bi
 Name: 哔哩哔哩国际版 Hook
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/BilibiliUnlock/Depinter
 
+Package: com.white.biubiu
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: White <NULL>
+Installed-Size: 200
+Depends: mobilesubstrate
+Filename: ./debs/biubiu_1.0_iphoneos-arm.deb
+Size: 15070
+MD5sum: b8dd035e803108edcdc72f5dfaab64cb
+SHA1: 42ab674d12a2c5f8dccc2937ccced63b9cc544f6
+SHA256: c53b00c2ebb3ecbd1d48d214727f1e865775f2b3d72f7d3a9584dfe756f54c3c
+Section: NoAds
+Description: 基于4.50.4制作，去启动广告、首页广告
+Author: White <NULL>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/biubiu/icon.png
+Name: Biubiu加速器 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/biubiu/Depiction
+
+Package: com.white.biubiu
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: White <NULL>
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/biubiu_1.0_iphoneos-arm64.deb
+Size: 10476
+MD5sum: 176814ef85d0a3dc139b5d68ec87f256
+SHA1: 384389ef3a02a14a8833f874ce14faa864930c40
+SHA256: 6ffa95796476da89d1642ebebc51601bbb53f8efc9c3b4bcbc8e94511e89bf5d
+Section: NoAds
+Description: 基于4.50.4制作，去启动广告、首页广告
+Author: White <NULL>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/biubiu/icon.png
+Name: Biubiu加速器 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/biubiu/Depiction
+
 Package: com.white.blackhuangbai
 Version: 1.0-3
 Architecture: iphoneos-arm
