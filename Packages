@@ -4780,42 +4780,6 @@ Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cl
 Name: ClassicFolders 3
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/classicfolders3/Depiction
 
-Package: com.white.cloudmusic
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: White <(NULL)>
-Installed-Size: 165
-Depends: firmware (>= 11.0), mobilesubstrate
-Filename: ./debs/cloudmusic_1.0_iphoneos-arm64.deb
-Size: 5552
-MD5sum: f1b85c8af66f1861a20a8ba874d637ce
-SHA1: bf401b36436fcfa55b44dca0bde04a9adacdf915
-SHA256: 8a409d9b87e79e52c3869c803f385874c260812e25649de9441a2cc7f2983ca6
-Section: NoAds
-Description: 基于9.0.25制作，去启动/首页广告+屏蔽越狱
-Author: White <(NULL)>
-Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cloudmusic/icon.png
-Name: 网易云音乐 Hook
-Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cloudmusic/Depiction2
-
-Package: com.white.cloudmusic
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: White <(NULL)>
-Installed-Size: 165
-Depends: firmware (>= 11.0), mobilesubstrate
-Filename: ./debs/cloudmusic_1.0_iphoneos-arm.deb
-Size: 5496
-MD5sum: d20b964f5c40fb159642ed1e6001c76c
-SHA1: 4add4c0b3cc3d432b0a04b820cc912a8d48e308b
-SHA256: ce4501259a501d1b72120e9db941def0725315f21ff0c32019685c74246b1874
-Section: NoAds
-Description: 基于9.0.25制作，去启动/首页广告+屏蔽越狱
-Author: White <(NULL)>
-Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cloudmusic/icon.png
-Name: 网易云音乐 Hook
-Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cloudmusic/Depiction2
-
 Package: com.white.cmcc234g
 Version: 1.1
 Architecture: iphoneos-arm
@@ -9091,6 +9055,42 @@ Description: 增加通知的行数！已在iOS10-12上测试
 Author: CydiaGeek <lucaluca86@aol.com>
 Name: MoreLinesNotifications
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/morelinesnotifications/Depiction
+
+Package: com.white.netasemusic
+Version: 1.0-7
+Architecture: iphoneos-arm64
+Maintainer: White <(null)>
+Installed-Size: 984
+Depends: firmware (>= 11.0), mobilesubstrate
+Filename: ./debs/netasemusic_1.0-7_iphoneos-arm64.deb
+Size: 293360
+MD5sum: 5c604d1b2736f2227f12d87c87bf6cac
+SHA1: 301bb5320bc0d3b68aaba98927b178765078e0b5
+SHA256: 74beed734d31a7b55f4e93d007cc41a34db114b694c40deef18b921c710ebde4
+Section: NoAds
+Description: 基于9.0.25制作，去广告屏蔽越狱
+Author: White <(null)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cloudmusic/icon.png
+Name: 网易云音乐 Hook
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cloudmusic/Depiction2
+
+Package: com.white.netasemusic
+Version: 1.0-7
+Architecture: iphoneos-arm
+Maintainer: White <(null)>
+Installed-Size: 984
+Depends: firmware (>= 11.0), mobilesubstrate
+Filename: ./debs/netasemusic_1.0-7_iphoneos-arm.deb
+Size: 293214
+MD5sum: 2a5acd714f64cf725238d0cef94e6d7f
+SHA1: 99618d945324961f27091345810fabf20eaa8cf7
+SHA256: 5a87036772ce2da33509f8b1c1d0d2000ddedb34237e435d0574b4188e968544
+Section: NoAds
+Description: 基于9.0.25制作，去广告屏蔽越狱
+Author: White <(null)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cloudmusic/icon.png
+Name: 网易云音乐 Hook
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/cloudmusic/Depiction2
 
 Package: com.white.netfix
 Version: 1.0-1
