@@ -9056,6 +9056,42 @@ Author: CydiaGeek <lucaluca86@aol.com>
 Name: MoreLinesNotifications
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/morelinesnotifications/Depiction
 
+Package: com.white.mttlite
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: White <(null)>
+Installed-Size: 1448
+Depends: mobilesubstrate
+Filename: ./debs/mttlite_1.0_iphoneos-arm64.deb
+Size: 339316
+MD5sum: 62c7a4fcd2d5bd38385cc204db4e761f
+SHA1: 1c87cc03261af095747538592331c3aef7f49462
+SHA256: 00f432f74201882879483ee953507c808c72c5fd0af653b25643b8139de5128b
+Section: NoAds
+Description: 去广告精简界面，基于10.3.2.4398制作，测试到15.8.6
+Author: White <(null)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/mttlite/icon.png
+Name: QQ浏览器 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/mttlite/Depiction
+
+Package: com.white.mttlite
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: White <(null)>
+Installed-Size: 1448
+Depends: mobilesubstrate
+Filename: ./debs/mttlite_1.0_iphoneos-arm.deb
+Size: 339410
+MD5sum: a11c8702243707eb8dccf7252548e6ae
+SHA1: 02ece1fb57e26314ffa2294483a040983e3c203e
+SHA256: 0790f08af50bf990415d77fbe38545961c1d69c77e35c5b8b7af30e7ce3a3ca3
+Section: NoAds
+Description: 去广告精简界面，基于10.3.2.4398制作，测试到15.8.6
+Author: White <(null)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/mttlite/icon.png
+Name: QQ浏览器 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/mttlite/Depiction
+
 Package: com.white.netasemusic
 Version: 1.0-7
 Architecture: iphoneos-arm64
@@ -11893,6 +11929,78 @@ Description: 修复有锁5C/5S使用电信遇到的问题，支持Softbank、AU�
 Author: ABCydia <admin@abcydia.com>
 Name: FixTele 5C 5S iOS9/10
 
+Package: com.white.tendjc
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: White <(NULL)>
+Installed-Size: 1448
+Depends: mobilesubstrate
+Filename: ./debs/tendjc_1.0_iphoneos-arm64.deb
+Size: 340044
+MD5sum: 1960f8e54856fe269f29b2cb26baa451
+SHA1: b95baa59781726877524c65bc9e5f5b0ac3d69ba
+SHA256: ad5a740bd60d5cccc45197816f7287f1d2d1903146e60478831da827869469f5
+Section: NoAds
+Description: 去广告，基于4.8.0制作，测试到4.8.7
+Author: White <(NULL)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/tendjc/icon.png
+Name: 掌上道聚城 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/tendjc/Depiction
+
+Package: com.white.tendjc
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: White <(NULL)>
+Installed-Size: 1448
+Depends: mobilesubstrate
+Filename: ./debs/tendjc_1.0_iphoneos-arm.deb
+Size: 339784
+MD5sum: 8702b1c922b06f93371f41a8f9688c1e
+SHA1: 01429036f9531d410f953e29010840adce2859fc
+SHA256: 7830c386731ae3ddbff3a8dd2b0304cefee2478c2b9dfc4a2391bbdea5df0a23
+Section: NoAds
+Description: 去广告，基于4.8.0制作，测试到4.8.7
+Author: White <(NULL)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/tendjc/icon.png
+Name: 掌上道聚城 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/tendjc/Depiction
+
+Package: com.white.teninfo
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: White <(null)>
+Installed-Size: 1448
+Depends: mobilesubstrate
+Filename: ./debs/teninfo_1.0_iphoneos-arm64.deb
+Size: 339524
+MD5sum: 8117cd8954d8e34ae01f7e3ac4e88f9d
+SHA1: a2bbac60f464f55104f6513c829e72067ad8bdb0
+SHA256: 0e2e97943740b56cbad7317ad749f37bf1d0656dbc800b23fd0ccb4d4cb2f33a
+Section: NoAds
+Description: 去广告，基于5.9.96制作，测试到7.5.90
+Author: White <(null)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/teninfo/icon.png
+Name: 腾讯新闻 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/teninfo/Depiction
+
+Package: com.white.teninfo
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: White <(null)>
+Installed-Size: 1448
+Depends: mobilesubstrate
+Filename: ./debs/teninfo_1.0_iphoneos-arm.deb
+Size: 339554
+MD5sum: e0270b52064d6e9973b136a40f10a1bf
+SHA1: 53976ae5cf918006a72748b18fbfbfade7a44629
+SHA256: 505103997d6a5ad8be28d8f7e53723599cbe00d11e4cea20e7d2cb3fb394a362
+Section: NoAds
+Description: 去广告，基于5.9.96制作，测试到7.5.90
+Author: White <(null)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/teninfo/icon.png
+Name: 腾讯新闻 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/teninfo/Depiction
+
 Package: com.white.tetherme8
 Version: 2.1.1
 Architecture: iphoneos-arm
@@ -11913,6 +12021,42 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=tetherme8D
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/tetherme8/icon.png
 Name: TetherMe for iOS8+
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/tetherme8/Depiction
+
+Package: com.white.tgclub
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: White <(NULL)>
+Installed-Size: 1432
+Depends: mobilesubstrate
+Filename: ./debs/tgclub_1.0_iphoneos-arm.deb
+Size: 337136
+MD5sum: 2d2eccb8dc8954b619e7cc05fe146a78
+SHA1: 0cd9ebb94ea79ca3e093d1c24b026931f57eeaaf
+SHA256: f1c0bd436bffe455185a9c2904deb6d0da2df5942b761e9a0bc0ba7ea3676d73
+Section: NoAds
+Description: 去启动广告，基于6.3.3制作，仅测试到6.3.7
+Author: White <(NULL)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/tgclub/icon.png
+Name: 心悦俱乐部 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/tgclub/Depiction
+
+Package: com.white.tgclub
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: White <(NULL)>
+Installed-Size: 1432
+Depends: mobilesubstrate
+Filename: ./debs/tgclub_1.0_iphoneos-arm64.deb
+Size: 336804
+MD5sum: 38994f7df9deaaa01fdf5bf97048b0c5
+SHA1: 28b61a410bd140a3789d6818e89e9e4dc4713be6
+SHA256: 703b49f76f7176989e3c96e551c577933ca28a6864512488d318905c55a883a5
+Section: NoAds
+Description: 去启动广告，基于6.3.3制作，仅测试到6.3.7
+Author: White <(NULL)>
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/tgclub/icon.png
+Name: 心悦俱乐部 NoAds
+Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/tgclub/Depiction
 
 Package: com.white.theosdepends
 Version: 1.4
