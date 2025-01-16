@@ -1711,11 +1711,11 @@ Maintainer: Nets
 Installed-Size: 168
 Depends: mobilesubstrate, firmware (>= 14.0)
 Filename: ./debs/wcnewminiappfloatingwindow_1.1-1_iphoneos-arm.deb
-Size: 3098
-MD5sum: a12f4b6634b59c9d7a0e133c3f619b1a
-SHA1: 6e46b33f0bbd4d2cf0af2779949498fe86c542c4
-SHA256: 64fd4be0ecaacefdb1a0f727654a67e5e3f3ccda54e49bee5581cf0ad631affd
-Section: Netskao-Tweaks
+Size: 3184
+MD5sum: 1442b12506c9fd933c412d6ff40d729e
+SHA1: 1699eb087238ce887148247ea1b4c8824824806a
+SHA256: 6f06dabbf2709d6b782dd631a9171641dc45d2197dca492095681d90071c8a93
+Section: NoAds
 Description: 微信启用AB测试的小程序悬浮窗功能，仅支持8.0.54+版本
 Author: Netskao
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/icon.png
@@ -1729,11 +1729,11 @@ Maintainer: Nets
 Installed-Size: 168
 Depends: mobilesubstrate, firmware (>= 14.0)
 Filename: ./debs/wcnewminiappfloatingwindow_1.1-1_iphoneos-arm64.deb
-Size: 3182
-MD5sum: 891283e8b20b0ae5b3c8bfe758e1fd2f
-SHA1: b3418ea62a3043f25ec2adc240e32fb4d7e1e00a
-SHA256: e4aae4ef234efc3020d7adc69b6f02d33b9ea65f26b1b58461ec86e1650c513f
-Section: Netskao-Tweaks
+Size: 3260
+MD5sum: d25be37a616726b67ad92e8252282602
+SHA1: edd8dba0727ec61b77ab24009436ff5db9d340b1
+SHA256: cae3b144fea486733acd1182e7ed017be9d84cbcce917905771040d6e68a70fa
+Section: NoAds
 Description: 微信启用AB测试的小程序悬浮窗功能，仅支持8.0.54+版本
 Author: Netskao
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/icon.png
@@ -7500,15 +7500,15 @@ Architecture: iphoneos-arm64
 Maintainer: 挂神 <xuanhua880@gmail.com>
 Depends: firmware (>= 9.0)
 Filename: ./debs/gswechathelper_3.0-6_iphoneos-arm64.deb
-Size: 77084
-MD5sum: 3f07ff7ce9471b87d55716d9d1869031
-SHA1: 1d5cd506d419a5b061b8f68724f03dfe33c67949
-SHA256: 1bd3df7bb8f4fa5fc206daeec16b96bcbce03480df036da37ef0f989dfd3ec3c
+Size: 77056
+MD5sum: fcce7ce63060b9a053292f17574d323b
+SHA1: ff304bb94697686bda33f475555dac9cfb237272
+SHA256: f78a7633527b1c95c45af4fcd547968cc3d02c1aa62f00e3e6a5e41477f409bf
 Section: Wechat
 Description: 挂神微信助手
 Author: 挂神 <xuanhua880@gmail.com>
-Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/ Wechat/icon.png
-Name: GSWeChatHelper
+Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/icon.png
+Name: 挂神助手
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/gswchelper/Depiction
 
 Package: com.white.gswechathelper
@@ -7517,15 +7517,15 @@ Architecture: iphoneos-arm
 Maintainer: 挂神 <xuanhua880@gmail.com>
 Depends: firmware (>= 9.0)
 Filename: ./debs/gswechathelper_3.0-6_iphoneos-arm.deb
-Size: 78812
-MD5sum: c41fe7d4d4873ccd2c5b9e73aafc3344
-SHA1: ff76e3520b6a0c06532c737b64357cd218f53087
-SHA256: b4baca2d387371c5473955462e79601606bd903faccba4c763e75c71546bdecc
+Size: 78716
+MD5sum: b06860a85319ee167574d2e33109919e
+SHA1: 347e14fe3b461f1c88517c0b0303a57618bbea0d
+SHA256: 0045c418108a19f8268c14614e7ea8b39f325c5a7aea58aa2f04cfbb1d45b28e
 Section: Wechat
 Description: 挂神微信助手
 Author: 挂神 <xuanhua880@gmail.com>
 Icon: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/Wechat/icon.png
-Name: GSWeChatHelper
+Name: 挂神助手
 Sileodepiction: https://gitee.com/baimour/sileo-depiction.git/raw/master/SileoDepiction/gswchelper/Depiction
 
 Package: com.white.gtgj
